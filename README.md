@@ -3,13 +3,27 @@ A better Crossplatform Na'vi Dictionary Terminal App
 
 Fwew is the improved, clean, more modern successor to vrrtepcli (github.com/tirea/vrrtepcli). Fwew was written using the Go Programming Language and is a cross-platform binary text-based program for dictionary lookups. Primarily for the Na'vi language (learnnavi.org)
 
-Usage
+Installation
 -----
 
-### Install
+### Linux Installation (Mac and Windows coming soon)
 Simply run the install script:
 
 	./install.sh
+	
+Usage without installation
+-----
+
+You'll need a new Terminal (or a cmd prompt) open first.
+use cd (Linux/Mac) or chdir (Windows) commands to change to the folder where the fwew program is downloaded
+
+typical example:
+	cd Downloads/fwew/bin
+
+	chdir Downloads\fwew\bin
+
+Linux/Mac users will need to type ./ on the beginning of all the following example commands in this README.
+Unless they have Installed using the install.sh script.
 
 ### Search a Na'vi word
 Simply run fwew with a word or list of words to look up:
