@@ -1,0 +1,6 @@
+fwew.go
+	initial creation 1.00-BETA
+util/txt.go
+	initial creation
+install.sh
+	initial creation
