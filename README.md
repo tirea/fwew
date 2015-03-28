@@ -18,6 +18,7 @@ You'll need a new Terminal (or a cmd prompt) open first.
 use cd (Linux/Mac) or chdir (Windows) commands to change to the folder where the fwew program is downloaded
 
 typical example:
+
 	cd Downloads/fwew/bin
 
 	chdir Downloads\fwew\bin
