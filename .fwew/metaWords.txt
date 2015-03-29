@@ -935,7 +935,7 @@
 5256	kxll si	ˈk'ḷ ˈs·i	kxll s<1><2><3>i	vin.
 5268	tsaw	t͡saw	\N	dem., pn.
 5272	tsalsungay	t͡sal.su.ˈŋaj	\N	adv.
-5276	oìsss	o.ɪˈs:	\N	intj.
+5276	oìsss	o.ˈìsss	\N	intj.
 5280	saa	ˈsa:	\N	intj.
 5284	sau	sa.ˈu	\N	intj.
 5288	tsahey	ˈt͡sa.ˈhɛj	\N	intj.
@@ -1653,7 +1653,7 @@
 8896	snep	snɛp̚	\N	adj.
 8900	slosnep	slo.ˈsnɛp̚	\N	n.
 8904	peslosnep	pɛ.slo.ˈsnɛp̚	\N	inter.
-8908	slosneppe	slo.ˈsnɛ.pɛ	\N	ques.
+8908	slosneppe	slo.ˈsnɛ.pɛ	\N	inter.
 8912	hoet	ho.ˈɛt̚	\N	adj.
 8916	nìhoet	nɪ.ˈho.ɛt̚	\N	adv.
 8920	so'ha	ˈs·oʔ.h·a	s<1><2>o'h<3>a	vtr.
@@ -1858,7 +1858,7 @@
 9760	fta	fta	\N	n.
 9764	fta si	fta s·i	fta s<1><2><3>i	vin.
 9768	fwi	fw·i	fw<1><2><3>i	vin.
-9772	oìsss si	o.ˈìSSS s·i	oìsss s<1><2><3>i	vin.
+9772	oìsss si	o.ˈìsss s·i	oìsss s<1><2><3>i	vin.
 9776	il	i·l	<1><2><3>il	vin.
 9780	kxakx	k'·ak'	kx<1><2><3>akx	vin.
 9784	ftumfa	ˈftum.fa	\N	adp.
@@ -2017,11 +2017,11 @@ uy	<uy>	uy	<3>	infix.
 ats	<ats>	ats	<3>	infix.
 ang	<äng>	æŋ	<3>	infix.
 ei	<ei>	ɛi	<3>	infix.
-l	l	l	\N	suffix.
-l1	ìl	ɪl	\N	suffix.
-t	t	t	\N	suffix.
-t1	it	it	\N	suffix.
-t2	ti	ti	\N	suffix.
-r	r	r	\N	suffix.
-r1	ur	ɾu	\N	suffix.
-r2	ru	ɾu	\N	suffix.
+l	l	l	suffix.
+l1	ìl	ɪl	suffix.
+t	t	t	suffix.
+t1	it	it	suffix.
+t2	ti	ti	suffix.
+r	r	r	suffix.
+r1	ur	ɾu	suffix.
+r2	ru	ɾu	suffix.
