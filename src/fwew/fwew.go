@@ -13,13 +13,13 @@
 
 //	Package main obviously contains all the stuff for the main program
 
-package fwew
+package main
 
 import (
 	"bufio"
 	"flag"
 	"fmt"
-	"fwew/util"
+	"util"
 	"os"
 	"strings"
 )
@@ -265,10 +265,17 @@ func main() {
 		fmt.Print("Fwew:> ")
 		word, _ := reader.ReadString('\n')
 		word = strings.Trim(word, "\n")
-		wpos, _, wipa, infx = getDataByID(getNavID(word))
-		dbid = getNavID(word)
-		lwrd = getLocalWordByID(dbid, lang)
-
+		if word != "" {
+			wpos, _, wipa, infx = getDataByID(getNavID(word))
+			dbid = getNavID(word)
+			lwrd = getLocalWordByID(dbid, lang)
+		} else {
+			wpos = ""
+			wipa = "[]"
+			infx = "\\N"
+			dbid = "-1"
+			lwrd = ""
+		}
 		// print out the results
 		if !*flag_ipa && !*flag_i {
 			fmt.Print(wpos, " ", lwrd, "\n")
