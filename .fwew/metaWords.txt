@@ -2017,11 +2017,11 @@ uy	<uy>	uy	<3>	infix.
 ats	<ats>	ats	<3>	infix.
 ang	<äng>	æŋ	<3>	infix.
 ei	<ei>	ɛi	<3>	infix.
-l	l	l	suffix.
-l1	ìl	ɪl	suffix.
-t	t	t	suffix.
-t1	it	it	suffix.
-t2	ti	ti	suffix.
-r	r	r	suffix.
-r1	ur	ɾu	suffix.
-r2	ru	ɾu	suffix.
+l	l	l	\N	suffix.
+l1	ìl	ɪl	\N	suffix.
+t	t	t	\N	suffix.
+t1	it	it	\N	suffix.
+t2	ti	ti	\N	suffix.
+r	r	r	\N	suffix.
+r1	ur	ɾu	\N	suffix.
+r2	ru	ɾu	\N	suffix.
