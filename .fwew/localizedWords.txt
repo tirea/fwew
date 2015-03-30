@@ -15123,9 +15123,9 @@ ilm	eng	recent past+perfective, have just VERBed	infix.
 ily	eng	near future+perfective, about to have VERBed	infix.
 aly	eng	future+perfective, will have VERBed	infix.
 arm	eng	past+imperfective, was VERBing	infix.
-iry	eng	recent past+imperfective, was just VERBing	infix.
-ary	eng	near future+imperfective, about to be VERBing	infix.
-future+imperfective, will be VERBing	infix.
+irm	eng	recent past+imperfective, was just VERBing	infix.
+iry	eng	near future+imperfective, about to be VERBing	infix.
+ary	eng	future+imperfective, will be VERBing	infix.
 imv	eng	past+subjunctive, combination of [<am> or <ìm>] and <iv>	infix.
 iyev	eng	future+subjunctive, combination of [<ìy> or <ay>] and <iv>	infix.
 iyev1	eng	future+subjunnctive, combination of [<ìy> or <ay>] and <iv>	infix.
