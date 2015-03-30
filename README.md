@@ -6,25 +6,23 @@ Fwew is the improved, clean, more modern successor to vrrtepcli (github.com/tire
 Installation
 -----
 
-### Linux Installation (Mac and Windows coming soon)
+### Linux Installation (Mac and Windows coming soon, switch to the windows or mac-osx branch for those OS)
 Simply run the install script:
 
 	./install.sh
 	
-Usage without installation
+Usage
 -----
 
-You'll need a new Terminal (or a cmd prompt) open first.
-use cd (Linux/Mac) or chdir (Windows) commands to change to the folder where the fwew program is downloaded
+You'll need a new Terminal open first.
+use cd command to change to the folder where the fwew program is downloaded
 
 typical example:
 
 	cd Downloads/fwew/bin
 
-	chdir Downloads\fwew\bin
-
-Linux/Mac users will need to type ./ on the beginning of all the following example commands in this README.
-Unless they have Installed using the install.sh script.
+Linux users will need to type ./ on the beginning of all the following example commands in this README.
+Unless they have already installed using the install.sh script.
 
 ### Search a Na'vi word
 Simply run fwew with a word or list of words to look up:
