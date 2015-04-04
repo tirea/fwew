@@ -1,0 +1,6 @@
+Allow user to esaily set DEFAULT_LANGUAGE using txt.Set(s,v)
+Add to README: Searching s="eltur tìtxen si": echo "$s" | fwew
+Add to README: Debug Mode (-DEBUG): fwew -DEBUG > debugfile.txt
+Fix support for Russian and Polish in the text files
+Add a Number converter
+Add a Parser
