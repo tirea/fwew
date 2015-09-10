@@ -19,9 +19,9 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"util"
 	"os"
 	"strings"
+	"util"
 )
 
 // global
@@ -67,7 +67,7 @@ func getLocID(w string, l string) []string {
 		line = scanner.Text()
 		line = strings.ToLower(line)
 		fields := strings.Split(line, "\t")
-		if len(fields) ==4 {
+		if len(fields) == 4 {
 			field_def := fields[2]
 			field_arr := strings.Split(field_def, " ")
 			field_lng := fields[1]
@@ -77,9 +77,9 @@ func getLocID(w string, l string) []string {
 					fmt.Println("<DEBUG:getLocID() l>" + l + "</DEBUG>")
 					fmt.Println("<DEBUG:getLocID() line>" + line + "</DEBUG>")
 					fmt.Println("<DEBUG:getLocID() fields>", fields, "</DEBUG>")
-					fmt.Println("<DEBUG:getLocID() field_def>"+ field_def+ "</DEBUG>")
+					fmt.Println("<DEBUG:getLocID() field_def>" + field_def + "</DEBUG>")
 					fmt.Println("<DEBUG:getLocID() field_arr>", field_arr, "</DEBUG>")
-					fmt.Println("<DEBUG:getLocID() fild_lng>"+ field_lng+ "</DEBUG>")
+					fmt.Println("<DEBUG:getLocID() fild_lng>" + field_lng + "</DEBUG>")
 				}
 				if len(field_arr) == 1 && field_def == word {
 					locID = line[0:strings.Index(line, "\t")]
@@ -107,7 +107,9 @@ func getLocID(w string, l string) []string {
 			}
 		}
 	}
-	if PROG_DEBUG { fmt.Println("<DEBUG:getLocID() RETURNING locIDs>", locIDs, "</DEBUG>") }
+	if PROG_DEBUG {
+		fmt.Println("<DEBUG:getLocID() RETURNING locIDs>", locIDs, "</DEBUG>")
+	}
 	return locIDs
 }
 
@@ -136,6 +138,9 @@ func getDataByID(id string) (string, string, string, string) {
 			break
 		}
 	}
+	if PROG_DEBUG {
+		fmt.Println("<DEBUG:getDataByID() word>" + word + "</DEBUG>")
+	}
 	return pos, word, ipa, inf
 }
 
@@ -148,22 +153,24 @@ func getLocalWordByID(id string, l string) string {
 	for scanner.Scan() {
 		line := scanner.Text()
 		fields := strings.Split(line, "\t")
-		field_wid := fields[0]
-		field_lng := fields[1]
-		field_def := fields[2]
-		localWord = field_def
-		if field_lng == l {
-			if field_wid == id {
-				if PROG_DEBUG {
-					fmt.Println("<DEBUG:getLocalWordByID() line>" + line + "</DEBUG>")
-					fmt.Println("<DEBUG:getLocalWordByID() fields>", fields, "</DEBUG>")
-					fmt.Println("<DEBUG:getLocalWordByID() localWord>" + localWord + "</DEBUG>")
+		if len(fields) == 4 {
+			field_wid := fields[0]
+			field_lng := fields[1]
+			field_def := fields[2]
+			localWord = field_def
+			if field_lng == l {
+				if field_wid == id {
+					if PROG_DEBUG {
+						fmt.Println("<DEBUG:getLocalWordByID() line>" + line + "</DEBUG>")
+						fmt.Println("<DEBUG:getLocalWordByID() fields>", fields, "</DEBUG>")
+						fmt.Println("<DEBUG:getLocalWordByID() localWord>" + localWord + "</DEBUG>")
+					}
+					return localWord
 				}
-				return localWord
 			}
 		}
 	}
-	return ""
+	return txt.Text("NONE")
 }
 
 func main() {
@@ -233,7 +240,7 @@ func main() {
 			lwrd = flag.Args()[i]
 			dbls = getLocID(lwrd, lang)
 			if *DEBUG {
-				fmt.Println("<DEBUG:main() dbls>",dbls,"</DEBUG>")
+				fmt.Println("<DEBUG:main() dbls>", dbls, "</DEBUG>")
 			}
 			for i := 0; i < len(dbls); i++ {
 				dbid = dbls[i]
@@ -254,11 +261,11 @@ func main() {
 				}
 				fmt.Println("(" + getLocalWordByID(dbid, lang) + ")")
 			}
-			fmt.Println("")
 		}
 		if len(dbls) == 0 {
-			fmt.Println("")
+			fmt.Println(txt.Text("NONE"))
 		}
+		fmt.Println("")
 	}
 
 	// INTERACTIVE MODE
@@ -347,6 +354,9 @@ func main() {
 				fmt.Print(infx, " ")
 			}
 			fmt.Println("(" + getLocalWordByID(dbid, lang) + ")")
+		}
+		if len(dbls) == 0 {
+			fmt.Println(txt.Text("NONE"))
 		}
 		fmt.Println("")
 	}

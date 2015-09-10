@@ -36,6 +36,7 @@ func init() {
 	texts["LANGUAGES"] = "de, eng, est, hu, nl, pl, ru, sv"
 	texts["DEFAULT_LANGUAGE"] = "eng"
 	texts["LANGUAGE"] = texts["DEFAULT_LANGUAGE"]
+	texts["NONE"] = "- not found -"
 	texts["HEADTEXT"] = texts["NAME"] + " " + texts["VERSION"] +
 		" by " + texts["AUTHOR"] + "\n" +
 		"Crossplatform dictionary search" + "\n" +

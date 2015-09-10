@@ -1,0 +1,13 @@
+bin/errcheck
+bin/gocode
+bin/godef
+bin/goimports
+bin/golint
+bin/gorename
+bin/gotags
+bin/oracle
+debug.txt
+pkg/
+src/9fans.net/
+src/github.com/
+src/golang.org/
