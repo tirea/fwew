@@ -67,34 +67,47 @@ func getLocID(w string, l string) []string {
 		line = scanner.Text()
 		line = strings.ToLower(line)
 		fields := strings.Split(line, "\t")
-		field_def := fields[2]
-		field_arr := strings.Split(field_def, " ")
-		field_lng := fields[1]
-		if field_lng == l {
-			if PROG_DEBUG {
-				fmt.Println("<DEBUG:getLocID() l>" + l + "</DEBUG>")
-				fmt.Println("<DEBUG:getLocID() line>" + line + "</DEBUG>")
-				fmt.Println("<DEBUG:getLocID() fields>", fields, "</DEBUG>")
-			}
-			if field_def == word {
-				locID = line[0:strings.Index(line, "\t")]
-				locIDs = append(locIDs, locID)
-			} else if len(field_arr) > 1 {
-				for i := 0; i < len(field_arr); i++ {
+		if len(fields) ==4 {
+			field_def := fields[2]
+			field_arr := strings.Split(field_def, " ")
+			field_lng := fields[1]
+			if field_lng == l {
+				if PROG_DEBUG {
+					fmt.Println("<DEBUG:getLocID() word>" + word + "</DEBUG>")
+					fmt.Println("<DEBUG:getLocID() l>" + l + "</DEBUG>")
+					fmt.Println("<DEBUG:getLocID() line>" + line + "</DEBUG>")
+					fmt.Println("<DEBUG:getLocID() fields>", fields, "</DEBUG>")
+					fmt.Println("<DEBUG:getLocID() field_def>"+ field_def+ "</DEBUG>")
+					fmt.Println("<DEBUG:getLocID() field_arr>", field_arr, "</DEBUG>")
+					fmt.Println("<DEBUG:getLocID() fild_lng>"+ field_lng+ "</DEBUG>")
+				}
+				if len(field_arr) == 1 && field_def == word {
+					locID = line[0:strings.Index(line, "\t")]
+					locIDs = append(locIDs, locID)
 					if PROG_DEBUG {
-						fmt.Println("<DEBUG:getLocID() field_arr[i]>" + field_arr[i] + "</DEBUG>")
+						fmt.Println("<DEBUG:getLocID() >!MATCH!</DEBUG>")
+						fmt.Println("<DEBUG:getLocID() locID>" + locID + "</DEBUG>")
+						fmt.Println("<DEBUG:getLocID() locIDs>", locIDs, "</DEBUG>")
 					}
-					if field_arr[i] == word || field_arr[i] == word+"," {
+					//break
+				} else if len(field_arr) > 1 {
+					for i := 0; i < len(field_arr); i++ {
 						if PROG_DEBUG {
-							fmt.Println("<DEBUG:getLocID() contains>l and *word*</DEBUG>")
+							fmt.Println("<DEBUG:getLocID() field_arr[i]>" + field_arr[i] + "</DEBUG>")
 						}
-						locID = line[0:strings.Index(line, "\t")]
-						locIDs = append(locIDs, locID)
+						if field_arr[i] == word || field_arr[i] == word+"," {
+							if PROG_DEBUG {
+								fmt.Println("<DEBUG:getLocID() contains>l and *word*</DEBUG>")
+							}
+							locID = line[0:strings.Index(line, "\t")]
+							locIDs = append(locIDs, locID)
+						}
 					}
 				}
 			}
 		}
 	}
+	if PROG_DEBUG { fmt.Println("<DEBUG:getLocID() RETURNING locIDs>", locIDs, "</DEBUG>") }
 	return locIDs
 }
 
@@ -219,6 +232,9 @@ func main() {
 			// set vars
 			lwrd = flag.Args()[i]
 			dbls = getLocID(lwrd, lang)
+			if *DEBUG {
+				fmt.Println("<DEBUG:main() dbls>",dbls,"</DEBUG>")
+			}
 			for i := 0; i < len(dbls); i++ {
 				dbid = dbls[i]
 				wpos, word, wipa, infx = getDataByID(dbid)

@@ -1,7 +1,9 @@
 Master Branch (Linux)
+1.10-BETA
+	fix -r option so that it actually works
+1.00-BETA
 	Remove OSX and Windows things from the branch
 	fix install script
-1.00-BETA
 	fwew.go
 	initial creation 1.00-BETA
 util/txt.go
