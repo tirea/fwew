@@ -1808,7 +1808,7 @@
 1176	hu	a Nép, bennszülött pandorai faj	tul.n.
 1176	pl	Lud, rdzenni mieszka?cy Pandory	rz. w?.
 1176	eng	the People, indigenous Pandoran sentient race	prop.n.
-1176	nl	de Mensen, inheemse bewoners van Pandora	eigennaam
+1176	nl	het Volk, inheemse bewoners van Pandora	eigennaam
 1176	est	Rahvas, Pandora põlisasukad	n.
 1176	de	Volk (der Na'vi), eingeborenes Volk Pandoras	prop.n.
 1180	ru	??????????? ?????????, ??????????	????.
@@ -2159,7 +2159,7 @@
 1384	hu	mi ketten (beleért?) (te és én)	nm.
 1384	pl	my dwaj, nas dwoje (inclusivus), ty i ja	zaim.
 1384	eng	we two, us two (dual inclusive), you and I	pn.
-1384	nl	wij twee (duaal inclusief)	vn.
+1384	nl	wij twee (tweevoudig inclusief)	vn.
 1384	est	meie kaks (välistav), sina ja mina	ases.
 1384	de	wir beide (dual inklusive), Du und Ich	pn.
 1388	ru	???????	???.
@@ -2319,7 +2319,7 @@
 1488	hu	kérd?szóképz?	toldalék
 1488	pl	pytajnik	zr.
 1488	eng	inter. marker	affix
-1488	nl	vvn. markering	voorvoegsel
+1488	nl	vvn. markering	affix
 1488	est	küsimuse märkija	liide
 1488	de	Interrogativ Marker	Affix
 1492	ru	??????	???.
@@ -2622,8 +2622,8 @@
 1668	sv	konstnär	sbst.
 1668	hu	képm?vész	fn.
 1668	pl	malarz	rz.
-1668	eng	artist	n.
-1668	nl	kunstenaar	zn.
+1668	eng	artist (visual)	n.
+1668	nl	kunstenaar (visueel)	zn.
 1668	est	kunstnik	ns.
 1668	de	Künstler	n.
 1672	ru	????	???.
@@ -4810,13 +4810,13 @@
 3784	est	järgnema, järel käima	tgsne.
 3784	de	folgen, nachfolgen	vtr.
 3788	ru	?????????? (??????)	??.
-3788	sv	förklara (varför) (ii)	v.
+3788	sv	förklara (varför) (ii)	vtr.
 3788	hu	megmagyaráz, megindokol	ige
 3788	pl	wyja?nia? (ii)	cz.
-3788	eng	explain (why) (ii)	v.
-3788	nl	uitleggen (ii)	ww.
-3788	est	selgitama, aru andma, ütlema (miks) (e)	tgs.
-3788	de	erklären (warum), erläutern, begründen (ii)	v.
+3788	eng	explain (why) (ii)	vtr.
+3788	nl	uitleggen (ii)	wwo.
+3788	est	selgitama, seletama (e)	tgs.
+3788	de	erklären (warum), erläutern, begründen (ii)	vtr.
 3792	ru	?????????, ?????????? ?? ?????	??.
 3792	sv	komma till en plats, anlända	v.
 3792	hu	megérkezik, eljut/elér valahová	ige
@@ -5430,7 +5430,7 @@
 4132	hu	írás	fn.
 4132	pl	pismo	rz.
 4132	eng	writing	n.
-4132	nl	geschrift	znw
+4132	nl	geschrift	zn.
 4132	est	kirjutamine, kirjutis	ns.
 4132	de	Schrift	n.
 4136	ru	??????	?????.
@@ -5614,7 +5614,7 @@
 4224	hu	találkozni (szándékosan) ( val, vel használatával)	i.(tn)
 4224	pl	spotyka? si? celowo (u?ywa hu z)	cz. np.
 4224	eng	meet with someone intentionally (use hu with)	vin.
-4224	nl	iemand opzettelijk ontmoeten (gebruikhu met)	wwn.
+4224	nl	iemand doelbewust ontmoeten (gebruikhu met)	wwn.
 4224	est	kokku saama sihilikult ( hu)	tgstu.
 4224	de	treffen (mit jmd., absichtlich) (benutze hu mit)	vin.
 4228	ru	??????	?????.
@@ -5950,7 +5950,7 @@
 4424	hu	oldal(a)	fn.
 4424	pl	strona	rz.
 4424	eng	side	n.
-4424	nl	kant	znw.
+4424	nl	kant	zn.
 4424	est	pool, külg	ns.
 4424	de	Seite (Position)	n.
 4432	ru	???, ???	???.
@@ -5958,7 +5958,7 @@
 4432	hu	alj(a), fenék	fn.
 4432	pl	dno, spód	rz.
 4432	eng	bottom	n.
-4432	nl	bodem	znw.
+4432	nl	bodem	zn.
 4432	est	põhjas, all	ns.
 4432	de	Boden, Unterseite, Unterteil	n.
 4436	ru	??????, ?????????? ???????	???., ???.
@@ -5982,7 +5982,7 @@
 4444	hu	elüls? rész vagy darab	fn.
 4444	pl	przód	rz.
 4444	eng	front (part or section)	n.
-4444	nl	front (part or section)	znw.
+4444	nl	voorkant (deel of sectie)	zn.
 4444	est	eesmine (osa)	ns.
 4444	de	Vorderseite (Teil oder Abschnitt)	n.
 4448	ru	?????? ?????, ???	???.
@@ -5990,7 +5990,7 @@
 4448	hu	hátsó (fél vagy rész)	fn.
 4448	pl	ty?	rz.
 4448	eng	rear (part or section)	n.
-4448	nl	achter (deel of sectie)	znw.
+4448	nl	achterkant (deel of sectie)	zn.
 4448	est	tagumine osa	ns.
 4448	de	Rückseite (Teil oder Abschnitt)	n.
 4452	ru	???	???.
@@ -6022,7 +6022,7 @@
 4464	hu	torok	fn.
 4464	pl	gard?o	rz.
 4464	eng	throat	n.
-4464	nl	keel	znw.
+4464	nl	keel	zn.
 4464	est	kõri, kurk	ns.
 4464	de	Rachen, Kehle	n.
 4468	ru	???	???.
@@ -6030,7 +6030,7 @@
 4468	hu	száj	fn.
 4468	pl	usta	rz.
 4468	eng	mouth	n.
-4468	nl	mond	znw.
+4468	nl	mond	zn.
 4468	est	suu	ns.
 4468	de	Mund	n.
 4472	ru	??????	???.
@@ -6038,7 +6038,7 @@
 4472	hu	haj	fn.
 4472	pl	w?osy	rz.
 4472	eng	hair	n.
-4472	nl	haar	znw.
+4472	nl	haar	zn.
 4472	est	juuksed	ns.
 4472	de	Haar	n.
 4476	ru	???	???.
@@ -6046,7 +6046,7 @@
 4476	hu	nyak	fn.
 4476	pl	szyja	rz.
 4476	eng	neck	n.
-4476	nl	nek	znw.
+4476	nl	nek	zn.
 4476	est	kael	ns.
 4476	de	Hals	n.
 4480	ru	??????	???.
@@ -6054,7 +6054,7 @@
 4480	hu	fej	fn.
 4480	pl	g?owa	rz.
 4480	eng	head	n.
-4480	nl	hoofd	znw.
+4480	nl	hoofd	zn.
 4480	est	pea	ns.
 4480	de	Kopf	n.
 4484	ru	???	???.
@@ -6062,7 +6062,7 @@
 4484	hu	fog (testrész)	fn.
 4484	pl	z?b	rz.
 4484	eng	tooth	n.
-4484	nl	tand	znw.
+4484	nl	tand	zn.
 4484	est	hammas	ns.
 4484	de	Zahn	n.
 4488	ru	??????????	???.
@@ -6070,7 +6070,7 @@
 4488	hu	áll (testrész)	fn.
 4488	pl	broda, podbródek	rz.
 4488	eng	chin	n.
-4488	nl	kin	znw.
+4488	nl	kin	zn.
 4488	est	lõug	ns.
 4488	de	Kinn	n.
 4492	ru	????	???.
@@ -6078,7 +6078,7 @@
 4492	hu	arc, orca, ábrázat	fn.
 4492	pl	twarz	rz.
 4492	eng	face	n.
-4492	nl	gezicht	znw.
+4492	nl	gezicht	zn.
 4492	est	nägu	ns.
 4492	de	Gesicht	n.
 4496	ru	?????	???.
@@ -6094,7 +6094,7 @@
 4500	hu	gyomor	fn.
 4500	pl	brzuch, ?o??dek	rz.
 4500	eng	stomach	n.
-4500	nl	maag	znw.
+4500	nl	maag	zn.
 4500	est	kõht	ns.
 4500	de	Bauch, Magen	n.
 4504	ru	????, ?????	???.
@@ -6102,7 +6102,7 @@
 4504	hu	b?r	fn.
 4504	pl	skóra	rz.
 4504	eng	skin	n.
-4504	nl	huid	znw.
+4504	nl	huid	zn.
 4504	est	nahk	ns.
 4504	de	Haut	n.
 4508	ru	???? (?????)	???.
@@ -6110,7 +6110,7 @@
 4508	hu	kéz	fn.
 4508	pl	r?ka	rz.
 4508	eng	hand	n.
-4508	nl	hand	znw.
+4508	nl	hand	zn.
 4508	est	käsi	ns.
 4508	de	Hand	n.
 4512	ru	?????	???.
@@ -6118,7 +6118,7 @@
 4512	hu	vér	fn.
 4512	pl	krew	rz.
 4512	eng	blood	n.
-4512	nl	bloed	znw.
+4512	nl	bloed	zn.
 4512	est	veri	ns.
 4512	de	Blut	n.
 4516	ru	?????? (?????)	???.
@@ -6126,7 +6126,7 @@
 4516	hu	tüd?	fn.
 4516	pl	p?uco	rz.
 4516	eng	lung	n.
-4516	nl	long	znw.
+4516	nl	long	zn.
 4516	est	kops	ns.
 4516	de	Lunge	n.
 4520	ru	???? (??????)	???.
@@ -6134,7 +6134,7 @@
 4520	hu	lábfej	fn.
 4520	pl	stopa	rz.
 4520	eng	foot	n.
-4520	nl	voet	znw.
+4520	nl	voet	zn.
 4520	est	jalg	ns.
 4520	de	Fuß	n.
 4524	ru	????? ????	???.
@@ -6142,7 +6142,7 @@
 4524	hu	lábujj	fn.
 4524	pl	palec u stopy	rz.
 4524	eng	toe	n.
-4524	nl	teen	znw.
+4524	nl	teen	zn.
 4524	est	varvas	ns.
 4524	de	Zehe	n.
 4528	ru	???????	???.
@@ -6150,7 +6150,7 @@
 4528	hu	kút	fn.
 4528	pl	studnia	rz.
 4528	eng	well	n.
-4528	nl	bron	znw.
+4528	nl	bron	zn.
 4528	est	kaev	ns.
 4528	de	Brunnen	n.
 4532	ru	?????	???.
@@ -6166,7 +6166,7 @@
 4536	hu	kerület, határ, perem	fn.
 4536	pl	obwód, otoczka, granica	rz.
 4536	eng	perimeter, circumference, border	n.
-4536	nl	grens, afbakening	znw.
+4536	nl	grens, afbakening, omtrek	zn.
 4536	est	piir, piirjoon	ns.
 4536	de	Grenze, Umfang, Begrenzung, Eingrenzun	n.
 4540	ru	????, ?????	???.
@@ -6174,7 +6174,7 @@
 4540	hu	tenger, óceán	fn.
 4540	pl	morze, ocean	rz.
 4540	eng	sea, ocean	n.
-4540	nl	zee, oceaan	znw.
+4540	nl	zee, oceaan	zn.
 4540	est	meri, ookean	ns.
 4540	de	Ozean, Meer	n.
 4544	ru	?????	???.
@@ -6182,7 +6182,7 @@
 4544	hu	tó	fn.
 4544	pl	jezioro	rz.
 4544	eng	lake	n.
-4544	nl	meer	znw.
+4544	nl	meer	zn.
 4544	est	järv	ns.
 4544	de	(der) See	n.
 4548	ru	?????????, ????????	???.
@@ -6190,7 +6190,7 @@
 4548	hu	barikád, akadály	fn.
 4548	pl	barykada, przeszkoda	rz.
 4548	eng	barricade, obstruction	n.
-4548	nl	barricade, obstakel	znw.
+4548	nl	barricade, obstakel	zn.
 4548	est	tõke, takistus	ns.
 4548	de	Barrikade, Hindernis	n.
 4552	ru	????????	???.
@@ -6198,7 +6198,7 @@
 4552	hu	forrás (átvitt értelemben)	fn.
 4552	pl	?ród?o	rz.
 4552	eng	source	n.
-4552	nl	bron	znw.
+4552	nl	bron, oorsprong	zn.
 4552	est	allikas	ns.
 4552	de	Quelle	n.
 4556	ru	???????	???.
@@ -6206,7 +6206,7 @@
 4556	hu	falu	fn.
 4556	pl	osada	rz.
 4556	eng	village	n.
-4556	nl	dorp	znw.
+4556	nl	dorp	zn.
 4556	est	küla	ns.
 4556	de	Dorf	n.
 4560	ru	????, ???????? ????????????	???.
@@ -6214,7 +6214,7 @@
 4560	hu	mez?, nyílt terep, síkság	fn.
 4560	pl	otwarty teren, równina, p?aszczyzna	rz.
 4560	eng	field, open terrain, plain	n.
-4560	nl	veld, open terrein	znw.
+4560	nl	veld, open terrein	zn.
 4560	est	väli, maaala	ns.
 4560	de	Feld, offenes Gelände, Ebene	n.
 4564	ru	?????	????.
@@ -6270,7 +6270,7 @@
 4592	hu	történet	fn.
 4592	pl	opowie??, historia	rz.
 4592	eng	story	n.
-4592	nl	verhaal	znw.
+4592	nl	verhaal	zn.
 4592	est	jutt, lugu	ns.
 4592	de	Geschichte, Erzählung	n.
 4596	ru	????????, ??????????	???.
@@ -6278,7 +6278,7 @@
 4596	hu	beszélgetés, megbeszélés	fn.
 4596	pl	rozmowa, dyskusja	rz.
 4596	eng	conversation, discussion	n.
-4596	nl	conversatie, discussie	znw.
+4596	nl	conversatie, discussie	zn.
 4596	est	vestlus, arutlus	ns.
 4596	de	Unterhaltung, Diskussion	n.
 4600	ru	???????????	???.
@@ -6286,7 +6286,7 @@
 4600	hu	jóslat	fn.
 4600	pl	przepowiednia	rz.
 4600	eng	prophecy	n.
-4600	nl	profetie	znw.
+4600	nl	profetie	zn.
 4600	est	ennustus	ns.
 4600	de	Prophezeiung	n.
 4604	ru	?????? ???????	???.
@@ -6294,7 +6294,7 @@
 4604	hu	h?s, nagy ember	fn.
 4604	pl	wielka osoba	rz.
 4604	eng	great person	n.
-4604	nl	groot persoon	znw.
+4604	nl	groot persoon	zn.
 4604	est	hea/suur inimene	ns.
 4604	de	ehrwürdige Person, großartige Person	n.
 4608	ru	?????	???.
@@ -6302,7 +6302,7 @@
 4608	hu	h?s	fn.
 4608	pl	bohater	rz.
 4608	eng	hero	n.
-4608	nl	held	znw.
+4608	nl	held	zn.
 4608	est	kangelane	ns.
 4608	de	Held	n.
 4620	ru	???	???.
@@ -6310,7 +6310,7 @@
 4620	hu	étel, ennivaló (gy?jt?név, nincs többesszáma)	fn.
 4620	pl	?ywno?? (rz. zbiorowy, nie posiada liczby mnogiej)	rz.
 4620	eng	food (collective noun, cannot be pluralised)	n.
-4620	nl	voedsel (collectief zelfst. nw, kan niet in meervoud worden gebruikt)	znw.
+4620	nl	voedsel (collectief zn., kan niet in meervoud worden gebruikt)	zn.
 4620	est	toit, söök (mitmus puudub)	ns.
 4620	de	Nahrung, Essen (Sammelbegriff, kein Plural möglich)	n.
 4624	ru	????	???.
@@ -6318,7 +6318,7 @@
 4624	hu	hús	fn.
 4624	pl	mi?so	rz.
 4624	eng	meat	n.
-4624	nl	vlees	znw.
+4624	nl	vlees	zn.
 4624	est	liha	ns.
 4624	de	Fleisch	n.
 4628	ru	???	???.
@@ -6326,7 +6326,7 @@
 4628	hu	kés	fn.
 4628	pl	nó?	rz.
 4628	eng	knife	n.
-4628	nl	mes	znw.
+4628	nl	mes	zn.
 4628	est	nuga	ns.
 4628	de	Messer	n.
 4632	ru	????? (? ??????)	????.
@@ -6342,7 +6342,7 @@
 4636	hu	fed?, valaminek a teteje	fn.
 4636	pl	pokrywa, wieko	rz.
 4636	eng	cover, lid	n.
-4636	nl	deksel	znw.
+4636	nl	deksel	zn.
 4636	est	kate	ns.
 4636	de	Abdeckung, Deckel, Topfdeckel	n.
 4640	ru	????	???.
@@ -6374,7 +6374,7 @@
 4652	hu	(csoport)tag	fn.
 4652	pl	cz?onek	rz.
 4652	eng	member	n.
-4652	nl	lid	znw.
+4652	nl	lid	zn.
 4652	est	liige	ns.
 4652	de	Mitglied	n.
 4656	ru	?????	?.???.
@@ -6382,7 +6382,7 @@
 4656	hu	Föld	tul.n.
 4656	pl	Ziemia	rz. w?.
 4656	eng	Earth	prop.n.
-4656	nl	Aarde	zn.
+4656	nl	Aarde	eigennaam
 4656	est	Maa	n.
 4656	de	Erde (Planet)	prop.n
 4660	ru	?????????? ???????	???.
@@ -6397,7 +6397,7 @@
 4664	hu	rovar	fn.
 4664	pl	robak, owad	rz.
 4664	eng	insect	n.
-4664	nl	insect	znw.
+4664	nl	insect	zn.
 4664	est	putukas	ns.
 4664	de	Insekt	n.
 4668	ru	????	???.
@@ -6405,7 +6405,7 @@
 4668	hu	hal	fn.
 4668	pl	ryba	rz.
 4668	eng	fish	n.
-4668	nl	vis	znw.
+4668	nl	vis	zn.
 4668	est	kala	ns.
 4668	de	Fisch	n.
 4672	ru	?????	???.
@@ -6413,7 +6413,7 @@
 4672	hu	madár	fn.
 4672	pl	ptak	rz.
 4672	eng	bird	n.
-4672	nl	vogel	znw.
+4672	nl	vogel	zn.
 4672	est	lind	ns.
 4672	de	Vogel	n.
 4676	ru	???????? ???	???.
@@ -6429,7 +6429,7 @@
 4680	hu	ige	fn.
 4680	pl	czasownik	rz.
 4680	eng	verb	n.
-4680	nl	werkwoord	znw.
+4680	nl	werkwoord	zn.
 4680	est	tegusõna	ns.
 4680	de	Verb, Tuwort	n.
 4684	ru	???????????????	???.
@@ -6437,7 +6437,7 @@
 4684	hu	f?név	fn.
 4684	pl	rzeczownik	rz.
 4684	eng	noun	n.
-4684	nl	zelfstandig naamwoord	znw.
+4684	nl	zelfstandig naamwoord	zn.
 4684	est	nimisõna	ns.
 4684	de	Substantiv	n.
 4688	ru	????? (? ???????, ??????????? ? ?.?.)	????.
@@ -6469,7 +6469,7 @@
 4700	hu	teljesség, egész	fn.
 4700	pl	ca?o??, ogó?	rz.
 4700	eng	totality, whole	n.
-4700	nl	totaliteit, geheel	znw.
+4700	nl	totaliteit, geheel	zn.
 4700	est	täielikkus, kõiksus	ns.
 4700	de	Gesamtheit, Ganze	n.
 4704	ru	????????, ?????????? ????????????	????.
@@ -6525,7 +6525,7 @@
 4728	hu	öröm	fn.
 4728	pl	przyjemno??	rz.
 4728	eng	pleasure	n.
-4728	nl	plezier	znw.
+4728	nl	plezier	zn.
 4728	est	nauding, rahuldus	ns.
 4728	de	Vergnügen, Spaß	n.
 4740	ru	????? ???, ??????? ?? ??? (???????????? ? ke; ??. ke kaw'it ??... ????? ?? ??????)	???.
@@ -6557,7 +6557,7 @@
 4756	hu	tábor	fn.
 4756	pl	obóz	rz.
 4756	eng	camp	n.
-4756	nl	kamp	znw.
+4756	nl	kamp	zn.
 4756	est	laager	ns.
 4756	de	Lager	n.
 4760	ru	??????????, ???????????	???.
@@ -6565,7 +6565,7 @@
 4760	hu	pusztítás	fn.
 4760	pl	zniszczenie	rz.
 4760	eng	destruction	n.
-4760	nl	vernietiging	znw.
+4760	nl	vernietiging	zn.
 4760	est	hävitus, hävitustöö	ns.
 4760	de	Zerstörung	n.
 4764	ru	???????????	???.
@@ -6573,7 +6573,7 @@
 4764	hu	utazás	fn.
 4764	pl	podró?	rz.
 4764	eng	journey	n.
-4764	nl	reis	znw.
+4764	nl	reis	zn.
 4764	est	teekond, rännak	ns.
 4764	de	Reise	n.
 4768	ru	?????? ?????	???.
@@ -6581,7 +6581,7 @@
 4768	hu	szakasz, katonai egység, csapat	fn.
 4768	pl	brygada, klan wojowników, oddzia?	rz.
 4768	eng	squad, military clan, battle party	n.
-4768	nl	squadron, militaire clan, oorlogsgroep	znw.
+4768	nl	squadron, militaire clan, oorlogsgroep	zn.
 4768	est	sõdurite salk, võitlusrühm	ns.
 4768	de	Squad, Kampfeinheit	n.
 4772	ru	??????, ?????	???.
@@ -6597,7 +6597,7 @@
 4776	hu	helyzet	fn.
 4776	pl	pozycja	rz.
 4776	eng	position	n.
-4776	nl	positie	znw.
+4776	nl	positie	zn.
 4776	est	asukoht	ns.
 4776	de	Position	n.
 4780	ru	????	???.
@@ -6605,7 +6605,7 @@
 4780	hu	ellenség	fn.
 4780	pl	wróg	rz.
 4780	eng	enemy	n.
-4780	nl	vijand	znw.
+4780	nl	vijand	zn.
 4780	est	vaenlane	ns.
 4780	de	Feind	n.
 4784	ru	???????	???.
@@ -6613,7 +6613,7 @@
 4784	hu	ellátmány, utánpótlás	fn.
 4784	pl	zaopatrzenie	rz.
 4784	eng	supplies	n.
-4784	nl	voorraaden	znw.
+4784	nl	voorraad	zn.
 4784	est	varud	ns.
 4784	de	Nachschub, Versorgungsgüter	n.
 4788	ru	??????????, ????	???.
@@ -6621,7 +6621,7 @@
 4788	hu	el?készületek, terv	fn.
 4788	pl	przygotowania, plan	rz.
 4788	eng	preparations, plan	n.
-4788	nl	voorbereidingen, plan	znw.
+4788	nl	voorbereidingen, plan	zn.
 4788	est	ettevalmistus, plaan	ns.
 4788	de	Vorbereitungen, Plan	n.
 4792	ru	????, ?????????	???.
@@ -6629,7 +6629,7 @@
 4792	hu	cél(kit?zés)	fn.
 4792	pl	cel, zamiar	rz.
 4792	eng	aim, goal, purpose, target	n.
-4792	nl	doel, goal	znw.
+4792	nl	doel, goal	zn.
 4792	est	siht, eesmärk	ns.
 4792	de	Ziel, Absicht, Vorhaben	n.
 4796	ru	????????	???.
@@ -6637,7 +6637,7 @@
 4796	hu	érkezés	fn.
 4796	pl	przybycie	rz.
 4796	eng	arrival	n.
-4796	nl	aankomst	znw.
+4796	nl	aankomst	zn.
 4796	est	saabumine	ns.
 4796	de	Ankunft	n.
 4800	ru	????????, ???????????	???.
@@ -6645,7 +6645,7 @@
 4800	hu	tanuló, diák	fn.
 4800	pl	ucze?, student	rz.
 4800	eng	student	n.
-4800	nl	student, leerling	znw.
+4800	nl	student, leerling	zn.
 4800	est	õpilane	ns.
 4800	de	Schüler, Student	n.
 4804	ru	?????	???.
@@ -6653,7 +6653,7 @@
 4804	hu	család (rendhagyó birtokos esete: soaiä)	fn.
 4804	pl	rodzina (nieregularna forma dope?niacza soaiä)	rz.
 4804	eng	family (irregular genitive form soaiä)	n.
-4804	nl	familie (onregelmatige genitieve vorm soaiä)	znw.
+4804	nl	familie (onregelmatige genitieve vorm soaiä)	zn.
 4804	est	perekond (erp omastava vorm soaiä	ns.
 4804	de	Familie (unregelmäßiger Genitiv soaiä)	n.
 4808	ru	??????????, ????	???.
@@ -6661,7 +6661,7 @@
 4808	hu	párzás, házasság	fn.
 4808	pl	zwi?zek, ma??e?stwo	rz.
 4808	eng	mating, marriage	n.
-4808	nl	paren, huwelijk	znw.
+4808	nl	paren, huwelijk	zn.
 4808	est	paarimine, abielu	ns.
 4808	de	Paarung, Heirat, Verpartnerung	n.
 4812	ru	???????, ????????????	???.
@@ -6669,7 +6669,7 @@
 4812	hu	szeretett személy	fn.
 4812	pl	ukochany (osoba kochana)	rz.
 4812	eng	loved one	n.
-4812	nl	geliefde	znw.
+4812	nl	geliefde	zn.
 4812	est	armastatu	ns.
 4812	de	geliebte Person	n.
 4816	ru	???????, ????????????	???.
@@ -6677,7 +6677,7 @@
 4816	hu	szeretett személy	fn.
 4816	pl	ukochany (osoba kochana)	rz.
 4816	eng	loved one	n.
-4816	nl	geliefde	znw.
+4816	nl	geliefde	zn.
 4816	est	armastatu	ns.
 4816	de	geliebte Person	n.
 4820	ru	??????	????.
@@ -6740,7 +6740,7 @@
 4848	sv	individualitet (negativ betydelse), själviskhet	sbst.
 4848	hu	egyénieskedés, önzés	fn.
 4848	eng	individuality (negative connotation), selfishness	n.
-4848	nl	individualiteit (negatieve lading, egoistisch)	znw.
+4848	nl	individualiteit (negatieve lading), egoïsme	zn.
 4848	est	individuaalsus (negatiivse varjundiga), isekus	ns.
 4848	de	Individualität (negativ), Egoismus, Selbstsucht	n.
 4852	ru	??????	???.
@@ -6748,7 +6748,7 @@
 4852	hu	barátság	fn.
 4852	pl	przyja??	rz.
 4852	eng	friendship	n.
-4852	nl	vriendschap	znw.
+4852	nl	vriendschap	zn.
 4852	est	sõprus	ns.
 4852	de	Freundschaft	n.
 4856	ru	???????????	????.
@@ -6788,7 +6788,7 @@
 4872	hu	(kötött morféma) túlzás	fn.
 4872	pl	nadmiar	rz.
 4872	eng	overabundance	n.
-4872	nl	overvloed	znw.
+4872	nl	overvloed	zn.
 4872	est	liigne, ülemäärane	ns.
 4872	de	Übermaß, Fülle	n.
 4876	ru	??????????	????.
@@ -6820,7 +6820,7 @@
 4892	hu	h?tlenség, árulás	fn.
 4892	pl	zdrada	rz.
 4892	eng	treachery	n.
-4892	nl	verraad	znw.
+4892	nl	verraad	zn.
 4892	est	reetmine, äraandlikkus	ns.
 4892	de	Verrat	n.
 4896	ru	????? ?????, ?????? ????????	???.
@@ -6836,7 +6836,7 @@
 4900	hu	sors	fn.
 4900	pl	los, przeznaczenie	rz.
 4900	eng	fate	n.
-4900	nl	lot (noodlot)	znw.
+4900	nl	lot (noodlot)	zn.
 4900	est	saatus	ns.
 4900	de	Schicksal	n.
 4904	ru	??????, ????????	???.
@@ -6844,23 +6844,23 @@
 4904	hu	csend, némaság	fn.
 4904	pl	cisza	rz.
 4904	eng	quiet, silence	n.
-4904	nl	stilte	znw.
+4904	nl	stilte	zn.
 4904	est	vaikus	ns.
 4904	de	Stille, Ruhe	n.
 4908	ru	????????, ????????	???.
 4908	sv	skapelse	sbst.
 4908	hu	alkotás	fn.
 4908	pl	stworzenie, akt stworzenia	rz.
-4908	eng	creation	n.
-4908	nl	creatie	znw.
+4908	eng	abstract idea of a creation	n.
+4908	nl	creatie (abstract idee)	zn.
 4908	est	loomine	ns.
-4908	de	Kreation, Schaffung, Schöpfung	n.
+4908	de	Kreation, Schaffung, Schöpfung (abstrakt)	n.
 4912	ru	???????	???.
 4912	sv	val	sbst.
 4912	hu	döntés	fn.
 4912	pl	decyzja	rz.
 4912	eng	decision	n.
-4912	nl	beslissing	znw.
+4912	nl	beslissing	zn.
 4912	est	otsus	ns.
 4912	de	Entscheidung	n.
 4916	ru	??????	???.
@@ -6868,7 +6868,7 @@
 4916	hu	halál	fn.
 4916	pl	?mier?	rz.
 4916	eng	death	n.
-4916	nl	dood	znw.
+4916	nl	dood	zn.
 4916	est	surm	ns.
 4916	de	Tod	n.
 4920	ru	???????????	???.
@@ -6876,7 +6876,7 @@
 4920	hu	vasárnap	fn.
 4920	pl	niedziela	rz.
 4920	eng	Sunday	n.
-4920	nl	zondag	znw.
+4920	nl	zondag	zn.
 4920	est	pühapäev	ns.
 4920	de	Sonntag	n.
 4924	ru	???????????	???.
@@ -6884,7 +6884,7 @@
 4924	hu	hétf?	fn.
 4924	pl	poniedzia?ek	rz.
 4924	eng	Monday	n.
-4924	nl	maandag	znw.
+4924	nl	maandag	zn.
 4924	est	esmaspäev	ns.
 4924	de	Montag	n.
 4928	ru	???????	???.
@@ -6892,7 +6892,7 @@
 4928	hu	kedd	fn.
 4928	pl	wtorek	rz.
 4928	eng	Tuesday	n.
-4928	nl	dinsdag	znw.
+4928	nl	dinsdag	zn.
 4928	est	teisipäev	ns.
 4928	de	Dienstag	n.
 4932	ru	?????	???.
@@ -6900,7 +6900,7 @@
 4932	hu	szerda	fn.
 4932	pl	?roda	rz.
 4932	eng	Wednesday	n.
-4932	nl	woensdag	znw.
+4932	nl	woensdag	zn.
 4932	est	kolmapäev	ns.
 4932	de	Mittwoch	n.
 4936	ru	???????	???.
@@ -6908,7 +6908,7 @@
 4936	hu	csütörtök	fn.
 4936	pl	czwartek	rz.
 4936	eng	Thursday	n.
-4936	nl	donderdag	znw.
+4936	nl	donderdag	zn.
 4936	est	neljapäev	ns.
 4936	de	Donnerstag	n.
 4940	ru	???????	???.
@@ -6916,7 +6916,7 @@
 4940	hu	péntek	fn.
 4940	pl	pi?tek	rz.
 4940	eng	Friday	n.
-4940	nl	vrijdag	znw.
+4940	nl	vrijdag	zn.
 4940	est	reede	ns.
 4940	de	Freitag	n.
 4944	ru	???????	???.
@@ -6924,7 +6924,7 @@
 4944	hu	szombat	fn.
 4944	pl	sobota	rz.
 4944	eng	Saturday	n.
-4944	nl	zaterdag	znw.
+4944	nl	zaterdag	zn.
 4944	est	laupäev	ns.
 4944	de	Samstag, Sonnabend	n.
 4948	ru	????? (? ?????)	????.
@@ -6948,7 +6948,7 @@
 4956	hu	az élet egyensúlya	fn.
 4956	pl	Równowaga ?ycia	rz.
 4956	eng	the Balance of Life	n.
-4956	nl	de Balans van het Leven	znw.
+4956	nl	de Balans van het Leven	zn.
 4956	est	Elu Tasakaal	ns.
 4956	de	das Gleichgewicht des Lebens	n.
 4960	ru	????????, ???	???.
@@ -6956,7 +6956,7 @@
 4960	hu	harmónia (általános értelemben)	fn.
 4960	pl	harmonia, równowaga (w poj?ciu ogólnym)	rz.
 4960	eng	harmony (general sense)	n.
-4960	nl	harmonie (algemeen gevoel)	znw.
+4960	nl	harmonie (algemeen gevoel)	zn.
 4960	est	harmoonia (üldiselt)	ns.
 4960	de	Harmonie (allgemein)	n.
 4964	ru	???, ???	???.
@@ -6964,7 +6964,7 @@
 4964	hu	fajta	fn.
 4964	pl	rodzaj, typ	rz.
 4964	eng	kind, type	n.
-4964	nl	soort, type	znw.
+4964	nl	soort, type	zn.
 4964	est	liik, sort, laad	ns.
 4964	de	Art, Typus	n.
 4972	ru	?????? ????, ????	????.
@@ -7004,7 +7004,7 @@
 4988	hu	érzelem	fn.
 4988	pl	odczucie	rz.
 4988	eng	feeling	n.
-4988	nl	gevoel	znw.
+4988	nl	gevoel	zn.
 4988	est	tunne	ns.
 4988	de	Gefühl	n.
 4996	ru	???????, ???? ??????????	??????.
@@ -7020,7 +7020,7 @@
 5000	hu	türelem	fn.
 5000	pl	cierpliwo??	rz.
 5000	eng	patience	n.
-5000	nl	geduld	znw.
+5000	nl	geduld	zn.
 5000	est	kannatlikkus	ns.
 5000	de	Geduld	n.
 5004	ru	??????????	????.
@@ -7060,7 +7060,7 @@
 5020	hu	éhség	fn.
 5020	pl	g?ód	rz.
 5020	eng	hunger	n.
-5020	nl	honger	znw.
+5020	nl	honger	zn.
 5020	est	nälg	ns.
 5020	de	Hunger	n.
 5028	ru	?????????????? ?? ???? ???	???.
@@ -7068,7 +7068,7 @@
 5028	hu	lisztb?l készült étel	fn.
 5028	pl	produkty m?czne, ?ywno?? produkowana z m?ki	rz.
 5028	eng	food made from flour	n.
-5028	nl	eten gemaakt van meel	znw.
+5028	nl	eten gemaakt van meel	zn.
 5028	est	jahust tehtud toit	ns.
 5028	de	Essen, Nahrung (aus Mehl)	n.
 5032	ru	?????????????? ?? ????????? ????????? ???, ????	???.
@@ -7076,7 +7076,7 @@
 5032	hu	állati eredet? táplálék (étel), hús	fn.
 5032	pl	mi?so, produkty mi?sne	rz.
 5032	eng	food made from animal origin, flesh	n.
-5032	nl	dierlijk voedsel, vlees	znw.
+5032	nl	dierlijk voedsel, vlees	zn.
 5032	est	liha, loomalihast toit	ns.
 5032	de	Essen, Nahrung (von tierischem Ursprung), Fleisch	n.
 5036	ru	????? ???? ??????	????.
@@ -7156,7 +7156,7 @@
 5088	hu	tévedés, hiba	fn.
 5088	pl	niepoprawno??, b??d	rz.
 5088	eng	incorrectness, mistakeness	n.
-5088	nl	incorrectheid, fout	znw.
+5088	nl	incorrectheid, fout	zn.
 5088	est	vigasus, ebakorrektsus	ns.
 5088	de	Inkorrektheit, Fehlerhaftigkeit	n.
 5092	ru	????????, ???????? ??????	?????.
@@ -7172,7 +7172,7 @@
 5100	hu	helyesség	fn.
 5100	pl	poprawno??	rz.
 5100	eng	correctness	n.
-5100	nl	correctheid	znw.
+5100	nl	correctheid	zn.
 5100	est	õigsus, veatus	ns.
 5100	de	Korrektheit, Richtigkeit	n.
 5108	ru	????????, ???????	???.
@@ -7180,7 +7180,7 @@
 5108	hu	különbség	fn.
 5108	pl	ró?nica	rz.
 5108	eng	difference	n.
-5108	nl	verschil	znw.
+5108	nl	verschil	zn.
 5108	est	erinevus, teistsugusus	ns.
 5108	de	Unterschied	n.
 5112	ru	?????????? ????????	???.
@@ -7212,7 +7212,7 @@
 5124	hu	boldogtalan, szomorú, 'Milyen szomorú!'	gesz.
 5124	pl	nieszcz??liwy, przykry, 'Niedobrze!'	przym., wykrz.
 5124	eng	unhappy, upset, 'How sad!'	adj., intj.
-5124	nl	niet blij, van streek, 'Wat erg!'	bn., tw.
+5124	nl	ongelukkig, van streek, 'Wat erg!'	bn., tw.
 5124	est	õnnetu, 'Kui kurb!'	oms., fraas
 5124	de	unglücklich, aufgebracht, 'Wie traurig!'	adj., intj.
 5128	ru	???????, ????????	???.
@@ -7236,7 +7236,7 @@
 5136	hu	többség, legtöbb, nagyrészt	fn.
 5136	pl	wi?kszo??, spora cz???	rz.
 5136	eng	majority, most, large part	n.
-5136	nl	meerderheid, grootste deel	znw.
+5136	nl	meerderheid, grootste deel	zn.
 5136	est	enamus, suur osa	ns.
 5136	de	Mehrheit, Großteil	n.
 5140	ru	??????? ?????????, ????????	???.
@@ -7332,7 +7332,7 @@
 5188	hu	düh	fn.
 5188	pl	gniew	rz.
 5188	eng	anger	n.
-5188	nl	woede	znw.
+5188	nl	woede	zn.
 5188	est	viha	ns.
 5188	de	Ärger, Zorn	n.
 5192	ru	????????	???.
@@ -7340,7 +7340,7 @@
 5192	hu	falánkság, mohóság	fn.
 5192	pl	chciwo??	rz.
 5192	eng	greed	n.
-5192	nl	hebzucht	znw.
+5192	nl	hebzucht	zn.
 5192	est	ahnus	ns.
 5192	de	Gier	n.
 5196	ru	?????	???.
@@ -7348,7 +7348,7 @@
 5196	hu	választás	fn.
 5196	pl	wybór	rz.
 5196	eng	choice	n.
-5196	nl	keuze	znw.
+5196	nl	keuze	zn.
 5196	est	valik	ns.
 5196	de	Wahl	n.
 5200	ru	??, ?????	???.
@@ -7356,7 +7356,7 @@
 5200	hu	ész	fn.
 5200	pl	inteligencja	rz.
 5200	eng	intelligence	n.
-5200	nl	inteligentie	znw.
+5200	nl	inteligentie	zn.
 5200	est	tarkus	ns.
 5200	de	Intelligenz, Klugheit	n.
 5204	ru	?????????, ??????? ???	???.
@@ -7364,7 +7364,7 @@
 5204	hu	megjelenés, kinézet	fn.
 5204	pl	wygl?d	rz.
 5204	eng	appearance	n.
-5204	nl	voorkomen	znw.
+5204	nl	voorkomen	zn.
 5204	est	välimus, esinemine, nähtumine	ns.
 5204	de	Aussehen, Erscheinungsbild	n.
 5208	ru	?????????, ?????	???.
@@ -7372,7 +7372,7 @@
 5208	hu	értelem, intelligencia	fn.
 5208	pl	zrozumienie, inteligencja	rz.
 5208	eng	understanding, intelligence	n.
-5208	nl	begrip, intelligentie	znw.
+5208	nl	begrip, intelligentie	zn.
 5208	est	arusaamine, tarkus	ns.
 5208	de	Verständnis, Erkenntnis; Information (milit.)	n.
 5212	ru	?????????????, ??????????	???.
@@ -7380,7 +7380,7 @@
 5212	hu	építmény	fn.
 5212	pl	konstrukcja, budowla	rz.
 5212	eng	construction, constructed thing	n.
-5212	nl	constructie, gebouwd ding	znw.
+5212	nl	constructie, gebouwd ding	zn.
 5212	est	konstrueerimine, ehitis	ns.
 5212	de	Konstuktion, Konstrukt	n.
 5216	ru	?????? (? ??????. ??????????)	????.
@@ -7547,7 +7547,7 @@
 5308	hu	sötétség	fn.
 5308	pl	ciemno??	rz.
 5308	eng	darkness	n.
-5308	nl	duisternis	znw.
+5308	nl	duisternis	zn.
 5308	est	pimedus	ns.
 5308	de	Dunkelheit, Finsternis	n.
 5312	ru	???????	????.
@@ -7595,7 +7595,7 @@
 5340	hu	ígéret	fn.
 5340	pl	obietnica	rz.
 5340	eng	promise	n.
-5340	nl	belofte	znw.
+5340	nl	belofte	zn.
 5340	est	lubadus	ns.
 5340	de	Versprechen	n.
 5348	ru	????	????.
@@ -7611,7 +7611,7 @@
 5352	hu	a 8as jele (nem az értéke!) (pl. telefonszámnál használható)	fn.
 5352	pl	cyfra 8 (nie warto??)	rz.
 5352	eng	the symbol 8 (not the value eight)	n.
-5352	nl	het symbool 8 (niet de waarde acht)	znw.
+5352	nl	het symbool 8 (niet de waarde acht)	zn.
 5352	est	sümbol 8 (mitte väärtus)	ns.
 5352	de	das Zeichen '8' (nicht der Wert 'acht')	n.
 5356	ru	???????, ?????? 9 (?? ???????? 9)	???.
@@ -7619,7 +7619,7 @@
 5356	hu	a 9es jele (nem az értéke!) (pl. telefonszámnál használható)	fn.
 5356	pl	cyfra 9 (nie warto??)	rz.
 5356	eng	the symbol 9 (not the value nine)	n.
-5356	nl	het symbool 9 (niet de waarde negen)	znw.
+5356	nl	het symbool 9 (niet de waarde negen)	zn.
 5356	est	sümbol 9 (mitte väärtus)	ns.
 5356	de	das Zeichen '9' (nicht der Wert 'neun')	n.
 5360	ru	??????	???.
@@ -7627,7 +7627,7 @@
 5360	hu	hajnal, napkelte	fn.
 5360	pl	brzask, jutrzenka	rz.
 5360	eng	dawn, sunrise	n.
-5360	nl	vroege ochtend, zonsopgang	znw.
+5360	nl	vroege ochtend, zonsopgang	zn.
 5360	est	koit, päiksetõus	ns.
 5360	de	Morgengrauen	n.
 5364	ru	??????? ????? ??????? ??????	???.
@@ -7635,7 +7635,7 @@
 5364	hu	napkelte után	fn.
 5364	pl	blask po wschodzie s?o?ca	rz.
 5364	eng	dawn after sunrise	n.
-5364	nl	dag na zonsopgang	znw.
+5364	nl	dag na zonsopgang	zn.
 5364	est	päiksetõusujärgne koit	ns.
 5364	de	nach dem Morgengrauen	n.
 5368	ru	????	???.
@@ -7643,7 +7643,7 @@
 5368	hu	reggel	fn.
 5368	pl	poranek	rz.
 5368	eng	morning	n.
-5368	nl	ochtend	znw.
+5368	nl	ochtend	zn.
 5368	est	hommik	ns.
 5368	de	Morgen	n.
 5372	ru	????? ????????	???.
@@ -7651,7 +7651,7 @@
 5372	hu	délel?tt	fn.
 5372	pl	czas przed po?udniem	rz.
 5372	eng	the time before noon	n.
-5372	nl	de tijd voor middag (12 uur 's middags)	znw.
+5372	nl	de tijd voor middag (12 uur 's middags)	zn.
 5372	est	aeg enne lõunat	ns.
 5372	de	die Zeitspanne vor Mittag	n.
 5376	ru	???????	???.
@@ -7659,7 +7659,7 @@
 5376	hu	dél (napszak)	fn.
 5376	pl	po?udnie	rz.
 5376	eng	midday, noon	n.
-5376	nl	middag (12 uur 's middags)	znw.
+5376	nl	middag (12 uur 's middags)	zn.
 5376	est	keskpäev, lõuna	ns.
 5376	de	Mittag, Mitte des Tages	n.
 5380	ru	?????????, ????? ????? ????? ???????	???.
@@ -7667,7 +7667,7 @@
 5380	hu	kora délután	fn.
 5380	pl	wczesne popo?udnie	rz.
 5380	eng	the time immediately after noon, early afternoon	n.
-5380	nl	de tijd net na middag, vroege namiddag	znw.
+5380	nl	de tijd net na middag, vroege namiddag	zn.
 5380	est	aeg kohe pärast lõunat, varajane pärastlõuna	ns.
 5380	de	Zeit nach Mittag	n.
 5384	ru	????? ???????	???.
@@ -7675,7 +7675,7 @@
 5384	hu	délután	fn.
 5384	pl	popo?udnie	rz.
 5384	eng	afternoon	n.
-5384	nl	middag	znw.
+5384	nl	middag	zn.
 5384	est	pärastlõuna	ns.
 5384	de	Nachmittag	n.
 5388	ru	????? ?? ???????, ??????? ?????????	???.
@@ -7683,7 +7683,7 @@
 5388	hu	este (alkonyat el?tt), kés? délután	fn.
 5388	pl	pó?ne popo?udnie	rz.
 5388	eng	evening (before twilight), late afternoon	n.
-5388	nl	avond (voor schemering, late middag)	znw.
+5388	nl	avond (voor schemering, late middag)	zn.
 5388	est	õhtu (enne videvikku), hiline pärastlõuna	ns.
 5388	de	Abend, später Nachmittag (vor Dämmerung)	n.
 5392	ru	???????, ????? ?? ??????	???.
@@ -7691,7 +7691,7 @@
 5392	hu	alkony, este naplemente el?tt	fn.
 5392	pl	okres przed zachodem s?o?ca	rz.
 5392	eng	dusk, evening before sunset	n.
-5392	nl	avond voor zonsondergang)	znw.
+5392	nl	avond voor zonsondergang	zn.
 5392	est	aeg enne päikseloojangut	ns.
 5392	de	Zeit vor der Dämmerung	n.
 5396	ru	?????, ??????????? ????	???.
@@ -7699,7 +7699,7 @@
 5396	hu	naplemente, napszállta	fn.
 5396	pl	zmierzch, zmrok	rz.
 5396	eng	nightfall, sunset, dusk, gloaming	n.
-5396	nl	zonsondergang	znw.
+5396	nl	zonsondergang	zn.
 5396	est	videvik, päikeseloojang, koidukuma	ns.
 5396	de	Dämmerung, Sonnenuntergang	n.
 5400	ru	??????? ????? ?????? ?? ??????????? ???????	???.
@@ -7707,7 +7707,7 @@
 5400	hu	alkony, sötétedés el?tti id?szak, naplemente után	fn.
 5400	pl	pó?mrok, czas po zachodzie s?o?ca	rz.
 5400	eng	twilight, the time before dark, after sunset	n.
-5400	nl	schermering, voor donker, na zonsondergang	znw.
+5400	nl	schermering, voor donker, na zonsondergang	zn.
 5400	est	aeg pärast videvikku, enne pimedaks minemist	ns.
 5400	de	Zeit nach der Dämmerung, Nachteinfall	n.
 5404	ru	?? ????????	???.
@@ -7715,7 +7715,7 @@
 5404	hu	éjfél el?tt	fn.
 5404	pl	przed pó?noc?	rz.
 5404	eng	before midnight	n.
-5404	nl	voor middernacht	znw.
+5404	nl	voor middernacht	zn.
 5404	est	aeg enne keskööd	ns.
 5404	de	Zeit vor Mitternacht	n.
 5408	ru	???????	???.
@@ -7723,7 +7723,7 @@
 5408	hu	éjfél	fn.
 5408	pl	pó?noc	rz.
 5408	eng	midnight	n.
-5408	nl	middernacht	znw.
+5408	nl	middernacht	zn.
 5408	est	kesköö	ns.
 5408	de	Mitternacht, Mitte der Nacht	n.
 5412	ru	????? ????????	???.
@@ -7731,7 +7731,7 @@
 5412	hu	éjfél után	fn.
 5412	pl	po pó?nocy	rz.
 5412	eng	after midnight	n.
-5412	nl	na middernacht	znw.
+5412	nl	na middernacht	zn.
 5412	est	aeg pärast keskööd	ns.
 5412	de	nach Mitternacht	n.
 5416	ru	???? ????? ?????????	???.
@@ -7787,7 +7787,7 @@
 5444	hu	eset, alkalom, ismételten el?forduló cselekvések egyike	fn.
 5444	pl	raz, jedna z wielu powtarzaj?cych si? czynno?ci	rz.
 5444	eng	time, turn, instance, one of a number of repeated or recurring actions	n.
-5444	nl	tijd, beurt, een van een herhalende actie	znw.
+5444	nl	tijd, beurt, een van een herhalende actie	zn.
 5444	est	kord (Näiteks kolm korda)	ns.
 5444	de	Mal (eine Reihe von sich wiederholenden Handlungen); Reihe, am Zug sein	n.
 5448	ru	?????? ???	???.
@@ -7857,7 +7857,7 @@
 5528	hu	feladat, kijelölt/egységnyi munka	fn.
 5528	pl	zlecenie, zadanie, projekt	rz.
 5528	eng	project, piece of work	n.
-5528	nl	project, werkstuk	znw.
+5528	nl	project, werkstuk	zn.
 5528	est	projekt, töö osa	ns.
 5528	de	Projekt, Teil einer Arbeit	n.
 5532	ru	????????, ? ?????	???.
@@ -7889,7 +7889,7 @@
 5544	hu	mester	fn.
 5544	pl	mistrz, ekspert	rz.
 5544	eng	master of an art, craft, or skill, expert	n.
-5544	nl	expert, meester van een vak, kunst of vaardigheid	znw.
+5544	nl	expert, meester van een vak, kunst of vaardigheid	zn.
 5544	est	meister, ekspert (kunsti, käsitöö, oskuse)	ns.
 5544	de	Experte, Meister einer Fähigkeit, Kunst, Handwerk	n.
 5548	ru	??????????	???.
@@ -7897,7 +7897,7 @@
 5548	hu	hozzáértés, alapos ismeret	fn.
 5548	pl	mistrzostwo	rz.
 5548	eng	mastery	n.
-5548	nl	meesterschap	znw.
+5548	nl	meesterschap	zn.
 5548	est	meisterlikkus	ns.
 5548	de	(herausragendes) Können	n.
 5552	ru	?????????	?????.
@@ -7937,7 +7937,7 @@
 5572	hu	USA	tul.n.
 5572	pl	USA	rz. w?.
 5572	eng	U.S.A.	prop.n.
-5572	nl	Verenigde Staten	zn.
+5572	nl	Verenigde Staten	eigennaam
 5572	est	USA	n.
 5572	de	USA, Vereinigte Staaten von Amerika	prop. n.
 5576	ru	????????? (? ??????????? ????????? ? ??????)	?????.
@@ -7969,7 +7969,7 @@
 5592	hu	kezd?	fn.
 5592	pl	pocz?tkuj?cy	rz.
 5592	eng	beginner	n.
-5592	nl	beginner	znw.
+5592	nl	beginner	zn.
 5592	est	algaja, alustaja	ns.
 5592	de	Anfänger	n.
 5596	ru	?????, ???	???.
@@ -7985,7 +7985,7 @@
 5600	hu	dolgok	fn.
 5600	pl	rzeczy	rz.
 5600	eng	things	n.
-5600	nl	ding	znw.
+5600	nl	dingen	zn.
 5600	est	asjad	ns.
 5600	de	Dinge, Sachen	n.
 5604	ru	???, ????? ????????	???.
@@ -8065,7 +8065,7 @@
 5644	hu	napéj változás Pandorán, egy pandorai nap	fn.
 5644	pl	doba	rz.
 5644	eng	the day and night cycle of Pandora	n.
-5644	nl	de dag en nacht cyclus van Pandora	znw.
+5644	nl	de dag en nacht cyclus van Pandora	zn.
 5644	est	ööpäev	ns.
 5644	de	der TagundNachtZyklus auf Pandora	n.
 5648	ru	????????? ?????	????.
@@ -8081,7 +8081,7 @@
 5656	hu	beszélget?társ, társalkodó	fn.
 5656	pl	rozmówca, mowi?cy	rz.
 5656	eng	chatter, converser	n.
-5656	nl	gepraat	znw.
+5656	nl	gepraat	zn.
 5656	est	vestleja, suhtleja	ns.
 5656	de	Gesprächspartner	n.
 5660	ru	??????????	????.
@@ -8096,7 +8096,7 @@
 5664	sv	dagtidsrökandenjutning, vibrerande tunga (Na'vi idiom)	sbst.
 5664	hu	nappali örömteli füstölgés, dohányzás (na'vi idióma)	fn.
 5664	eng	day time smoking pleasure, vibrating tongue (Na'vi idiom)	n.
-5664	nl	rookplezier overdag, trillende tong (Na'vi idioom)	znw
+5664	nl	rookplezier overdag, trillende tong (Na'vi idioom)	zn.
 5664	est	suitsetamise nautimine päevasel ajal (Na'vi idioom)	ns.
 5664	de	Tageszeitraucherspaß, vibrierende Zunge (Na'viIdiom)	n.
 5668	ru	??????	???.
@@ -8104,7 +8104,7 @@
 5668	hu	tanulás	fn.
 5668	pl	studia, nauka	rz.
 5668	eng	study	n.
-5668	nl	studie	znw.
+5668	nl	studie	zn.
 5668	est	õpe	ns.
 5668	de	Studium	n.
 5672	ru	?????, ???????? ????????? ????	???.
@@ -8112,7 +8112,7 @@
 5672	hu	tudomány, természettudomány	fn.
 5672	pl	nauki ?cis?e, nauka o materialnym ?wiecie	rz.
 5672	eng	science, the study of the physical world	n.
-5672	nl	wetenschap, de studie van de fysieke wereld	znw.
+5672	nl	wetenschap, de studie van de fysieke wereld	zn.
 5672	est	teadus, füüsilise maailma õpe	ns.
 5672	de	Wissenschaft, Studium der physischen Welt	n.
 5676	ru	????	???.
@@ -8127,49 +8127,49 @@
 5680	sv	chealde, herbaceous växt	sbst.
 5680	hu	cheadle, lágyszárú növény (pandorai növényfaj)	fn.
 5680	eng	cheadle, herbaceous plant	n.
-5680	nl	cheadle, kruidachtige plant	znw.
+5680	nl	cheadle, kruidachtige plant	zn.
 5680	est	Sinitaim (cheadle)	ns.
 5680	de	Cheadle (ein Kraut), thylakoidia spiralis	n.
 5684	ru	??????	???.
 5684	sv	tass med törnar, kaktus	sbst.
 5684	hu	tüskés mancs, kaktusz (pandorai növényfaj)	fn.
 5684	eng	thorny paw, cactus	n.
-5684	nl	doornppot, cactus	znw
+5684	nl	doornpoot, cactus	zn.
 5684	est	Okaskäpp, kaktus (thorny paw)	ns.
 5684	de	Dornige Tatze (ein Kaktus)	n.
 5688	ru	canalyd	???.
 5688	sv	canalyd (växt på Pandora)	sbst.
 5688	hu	canalyd	fn.
 5688	eng	canalyd	n.
-5688	nl	canalyd	znw.
+5688	nl	canalyd	zn.
 5688	est	Pikuke (canalyd)	ns.
 5688	de	Canalyd, Schneckenähnliche, canalydium limacineum	n.
 5692	ru	?????? ??? ????????????? ?????? (????????)	???.
 5692	sv	hästväxt	sbst.
 5692	hu	páncélos ló kancsónövény (pandorai növényfaj)	fn.
 5692	eng	direhorse pitcher plant	n.
-5692	nl	ruigpaard bekerplant	znw.
+5692	nl	ruigpaard bekerplant	zn.
 5692	est	Hobukann (direhorse pitcher plant)	ns.
 5692	de	Pa'liKannenblatt, pseudocenia equina	n.
 5696	ru	??????? ?????????? ????????	???.
 5696	sv	fibonacci, blå sprialväxt	sbst.
 5696	hu	fibonacci, kék spirál növény (pandorai növényfaj)	fn.
 5696	eng	fibonacci, blue spiral plant	n.
-5696	nl	fibonacci, blauwe spiraalplant	znw.
+5696	nl	fibonacci, blauwe spiraalplant	zn.
 5696	est	Sinispiraal (fibonacci)	ns.
 5696	de	Fibonacci, Blauer Spiralfarn, orbis caeruleus	n.
 5716	ru	???????? ????????	???.
 5716	sv	geode, regnplanta	sbst.
 5716	hu	geode, es?növény (pandorai növényfaj)	fn.
 5716	eng	geode, rain plant	n.
-5716	nl	geode, regenplant	znw.
+5716	nl	geode, regenplant	zn.
 5716	est	Vihmataim (geode)	ns.
 5716	de	Geode, Regenpflanze, Blauer Zapfen, tubineus azureus	n.
 5720	ru	????????? ????????	???.
 5720	sv	eremitknoppplanta	sbst.
 5720	hu	remeterügy növény (pandorai növényfaj)	fn.
 5720	eng	hermit bud plant	n.
-5720	nl	heremiet knop plant	znw.
+5720	nl	heremiet knop plant	zn.
 5720	est	Terataim (hermit bud plant)	ns.
 5720	de	Einsiedlerknospenpflanze (Artischocke ähnlich), cynaroidia discolor	n.
 5724	ru	hyneman, ???????????????	???.
@@ -8177,42 +8177,42 @@
 5724	hu	hyneman, emberfogó (pandorai növényfaj)	fn.
 5724	pl	?api?cy w sid?a	rz.
 5724	eng	hyneman, person trapper	n.
-5724	nl	hyneman, mensen vanger	znw.
+5724	nl	hyneman, mensen vanger	zn.
 5724	est	Lõkstaim (hyneman)	ns.
 5724	de	Hyneman (Cobralilien ähnlich), Menschenfalle, pandoratonia myopora	n.
 5728	ru	lionberry	???.
 5728	sv	lejonbär	sbst.
 5728	hu	oroszlánbogyó (pandorai növényfaj)	fn.
 5728	eng	lionberry	n.
-5728	nl	leeuwenbes	znw.
+5728	nl	leeuwenbes	zn.
 5728	est	Lõvimari (lionberry)	ns.
 5728	de	Löwenbeere (Artischocken ähnlich), cynaroidia decumbens	n.
 5732	ru	phalanxia, ??????? ????????	???.
 5732	sv	kraftigt törnad planta, phalanxia	sbst.
 5732	hu	falanxia, nagyon tüskés növény (pandorai növényfaj)	fn.
 5732	eng	phalanxia, heavily thorned plant	n.
-5732	nl	falanxia, plant met veel doorns	znw.
+5732	nl	falanxia, plant met veel doorns	zn.
 5732	est	Okkaline sõdur (phalanxia)	ns.
 5732	de	Phalanxia, starkgedornte Pflanze, phalanxia ferox	n.
 5736	ru	??????????????? ????????	???.
 5736	sv	tillbringarplanta	sbst.
 5736	hu	kancsóka	fn.
 5736	eng	pitcher plant	n.
-5736	nl	bekerplant	znw.
+5736	nl	bekerplant	zn.
 5736	est	Kannuke (pitcher plant)	ns.
 5736	de	Kannenblattpflanze	n.
 5740	ru	??????????????? ????????	???.
 5740	sv	roosterheadplanta	sbst.
 5740	hu	kakasfej növény (pandorai növényfaj)	fn.
 5740	eng	roosterhead plant	n.
-5740	nl	hanenkop plant	znw.
+5740	nl	hanenkop plant	zn.
 5740	est	Kukepea	ns.
 5740	de	Hahnenkopf, alectophyllum molle	n.
 5744	ru	Sol's delight, ?????????????????? ????????	???.
 5744	sv	Solförtjusning, magnetotrophic växt	sbst.
 5744	hu	Sol öröme, magnetotrophic (pandorai növényfaj)	fn.
 5744	eng	Sol's delight, magnetotrophic plant	n.
-5744	nl	Sol's verrukking, magnetotropische plant	znw.
+5744	nl	Sol's verrukking, magnetotropische plant	zn.
 5744	est	Õnnetaim (Sol's delight)	ns.
 5744	de	Sols Entzücken (Kalamar ähnliche Pflanze), calamariphyllum elegans	n.
 5748	ru	cillaphant	???.
@@ -8220,42 +8220,42 @@
 5748	hu	cillaphant (pandorai növényfaj)	fn.
 5748	pl	cillaphant	rz.
 5748	eng	cillaphant	n.
-5748	nl	cillafant	znw.
+5748	nl	cillafant	zn.
 5748	est	Küüsleht (cillaphant)	ns.
 5748	de	Cillaphant, Purpurne Tatze, clawenia purpurea	n.
 5752	ru	??????? ????????	???.
 5752	sv	kliplanta	sbst.
 5752	hu	viszket? növény (pandorai növényfaj)	fn.
 5752	eng	itch plant	n.
-5752	nl	jeukplant	znw.
+5752	nl	jeukplant	zn.
 5752	est	Pungohakas (itch plant)	ns.
 5752	de	Diestelknospe, Juckpflanze, Cynaroidia glauca	n.
 5756	ru	???????? ????????	???.
 5756	sv	skyddande planta	sbst.
 5756	hu	spártai, menedéknövény (pandorai növényfaj)	fn.
 5756	eng	spartan, protection plant	n.
-5756	nl	spartaan, beschermingsplant	znw.
+5756	nl	spartaan, beschermingsplant	zn.
 5756	est	Kilptaim (spartan)	ns.
 5756	de	Spartaner, Beschützerpflanze Kuchenium Polyphyllum	n.
 5760	ru	sari, ???????? ???????? ?? ????????????? ????????	???.
 5760	sv	vacker, exploderande frö planta	sbst.
 5760	hu	szári, gyönyör? robbanó mag növény (pandorai növényfaj)	fn.
 5760	eng	sari, beautiful exploding seed plant	n.
-5760	nl	sari, mooi ontploffende zaadplant	znw.
+5760	nl	sari, mooi ontploffende zaadplant	zn.
 5760	est	Ilus paukur	ns.
 5760	de	Sari, Schöne explodierende Samen Pflanze, Pandargonium cyanellum	n.
 5764	ru	sari,	???.
 5764	sv	taggig piska	sbst.
 5764	hu	tüskés korbács (pandorai növényfaj)	fn.
 5764	eng	spiny whips	n.
-5764	nl	ruggegraat zwepen	znw.
+5764	nl	prikkende zwepen	zn.
 5764	est	Okasnüpits (spiny whips)	ns.
 5764	de	Dornige Peitschenpflanze; Phytotinium Poydactylum	n.
 5768	ru	?????????? ?????	???.
 5768	sv	tvinnad lilja	sbst.
 5768	hu	csavart liliom (pandorai növényfaj)	fn.
 5768	eng	turner, twisted lily	n.
-5768	nl	draaier, gedraaide lelie	znw.
+5768	nl	draaier, gedraaide lelie	zn.
 5768	est	Keerdliilia (twisted lily)	ns.
 5768	de	Falsche Lilie, Pseudolilium Contortum	n.
 5772	ru	?????????? ?????	???.
@@ -8263,14 +8263,14 @@
 5772	hu	turner	fn.
 5772	pl	tokarz	rz.
 5772	eng	turner	n.
-5772	nl	draaier	znw.
+5772	nl	draaier	zn.
 5772	est	keeraja, pööraja	ns.
 5772	de	Dreher, Drechsler	n.
 5776	ru	????? ???????? ????????	???.
 5776	sv	illaluktande planta	sbst.
 5776	hu	százlábú, rossz szagú növény (pandorai növényfaj)	fn.
 5776	eng	Centipede, badsmell plant	n.
-5776	nl	Centipede, honderdpoot, stinkende plant	znw.
+5776	nl	Centipede, honderdpoot, stinkende plant	zn.
 5776	est	Haisik (centipede)	ns.
 5776	de	Grüne Tausendfüßerpflanze, Stinkpflanze, Scolopendra virens	n.
 5780	ru	???????????????	???.
@@ -8278,21 +8278,21 @@
 5780	hu	féregnövény (pandorai növényfaj)	fn.
 5780	pl	larwowa ro?lina	rz.
 5780	eng	grub plant	n.
-5780	nl	engerling plant	znw.
+5780	nl	engerling plant	zn.
 5780	est	Songik (grub plant)	ns.
 5780	de	Raupenpflanze, Limacina erecta	n.
 5784	ru	?????	???.
 5784	sv	polypblåsa	sbst.
 5784	hu	hólyag polip (pandorai állatfaj)	fn.
 5784	eng	bladder polyp	n.
-5784	nl	blaaspoliep	znw.
+5784	nl	blaaspoliep	zn.
 5784	est	Põiskaun (bladder)	ns.
 5784	de	Blasenpolyp, polypiferus brevisimus	n.
 5788	ru	?????????????? ????????	???.
 5788	sv	löv tillbringarplanta	sbst.
 5788	hu	levélkancsóka (érintésre mozgó) (pandorai növényfaj)	fn.
 5788	eng	leaf pitcher plant	n.
-5788	nl	bladbekerplant	znw.
+5788	nl	bladbekerplant	zn.
 5788	est	Lehekukutaja (leaf pitcher plant)	ns.
 5788	de	KannenblattPflanze, pseudocenia simplex	n.
 5792	ru	delta tree	???.
@@ -8300,14 +8300,14 @@
 5792	hu	delta fa, szó sz. nagy gyökér (pandorai növényfaj)	fn.
 5792	pl	drzewo delta	rz.
 5792	eng	delta tree	n.
-5792	nl	deltaboom	znw.
+5792	nl	deltaboom	zn.
 5792	est	Hiidpuu (delta tree)	ns.
 5792	de	Deltabaum, Magellum triangulare	n.
 5796	ru	vein pod	???.
 5796	sv	ådrebalja	sbst.
 5796	hu	érgubó (pandorai növényfaj)	fn.
 5796	eng	vein pod	n.
-5796	nl	aderpeul	znw.
+5796	nl	aderpeul	zn.
 5796	est	Haisupunn (vein pod)	ns.
 5796	de	Venentopf, Obesus fenestralis	n.
 5920	ru	????????????	????.
@@ -8331,14 +8331,14 @@
 5928	hu	éberség, ébrenlét	fn.
 5928	pl	czyjno??, stan przebudzenia	rz.
 5928	eng	awakeness, the state of waking	n.
-5928	nl	wakker zijn, de staat van wakkerheid	znw.
+5928	nl	wakker zijn, de staat van wakkerheid	zn.
 5928	est	ärkvel olek, ärkamine	ns.
 5928	de	Phase des Wachseins, Wachheit	n.
 5932	ru	puffer plant	???.
 5932	sv	pufferplanta	sbst.
 5932	hu	puffer növény (pandorai növényfaj)	fn.
 5932	eng	puffer plant	n.
-5932	nl	buffer plant	znw.
+5932	nl	pufplant	zn.
 5932	est	Kuulipuu (puffer plant)	ns.
 5932	de	Beutelpflanze	n.
 5936	ru	???????	???.
@@ -8362,7 +8362,7 @@
 5944	hu	másodperc, nagyon rövid id?	fn.
 5944	pl	chwila, sekunda	rz.
 5944	eng	second, very short time	n.
-5944	nl	seconde, korte tijd	znw.
+5944	nl	seconde, korte tijd	zn.
 5944	est	sekund, väga lühike aeg	ns.
 5944	de	Sekunde, sehr kurze Zeit	n.
 5952	ru	????????????	???.
@@ -8386,7 +8386,7 @@
 5960	hu	alkotó	fn.
 5960	pl	twórca	rz.
 5960	eng	creator	n.
-5960	nl	maker	znw.
+5960	nl	maker	zn.
 5960	est	looja	ns.
 5960	de	Schaffender, Schöpfer	n.
 5964	ru	????????	???.
@@ -8402,7 +8402,7 @@
 5968	hu	zenész	fn.
 5968	pl	muzyk	rz.
 5968	eng	musician	n.
-5968	nl	muzikant	znw.
+5968	nl	muzikant	zn.
 5968	est	muusik	ns.
 5968	de	Musiker	n.
 5972	ru	???	????.
@@ -8434,7 +8434,7 @@
 5984	hu	méret	fn.
 5984	pl	rozmiar, wielko??	rz.
 5984	eng	size	n.
-5984	nl	grootte	znw.
+5984	nl	grootte	zn.
 5984	est	suurus	ns.
 5984	de	Größe	n.
 5988	ru	?????????, ??????? ?????	???.
@@ -8466,7 +8466,7 @@
 6092	hu	pamflet, könyvecske	fn.
 6092	pl	broszura, ksi??eczka	rz.
 6092	eng	pamphlet, booklet	n.
-6092	nl	pamflet, boekje	znw.
+6092	nl	pamflet, boekje	zn.
 6092	est	raamatuke, buklet	ns.
 6092	de	Broschüre, Pamphlet	n.
 6100	ru	????	???.
@@ -8474,7 +8474,7 @@
 6100	hu	bokor	fn.
 6100	pl	krzew	rz.
 6100	eng	bush	n.
-6100	nl	struik	znw.
+6100	nl	struik	zn.
 6100	est	põõsas	ns.
 6100	de	Busch	n.
 6104	ru	?????????????? ???????????	???.
@@ -8482,7 +8482,7 @@
 6104	hu	kisebb betegség, gyengélkedés	fn.
 6104	pl	drobne schorzenie	rz.
 6104	eng	minor ailment	n.
-6104	nl	kleine aandoening	znw.
+6104	nl	kleine aandoening	zn.
 6104	est	kerge haigus, põdur olek	ns.
 6104	de	Wehwehchen, kleine Krankheit	n.
 6108	ru	???????? (?????)	???.
@@ -8490,7 +8490,7 @@
 6108	hu	kislány (kedvesked? kifejezés)	fn.
 6108	pl	córeczka (zdrobnienie)	rz.
 6108	eng	little daughter (term of endearment)	n.
-6108	nl	dochtertje (kooswoord)	znw.
+6108	nl	dochtertje (kooswoord)	zn.
 6108	est	väike tütreke (õrnusest või armastusest öelduna)	ns.
 6108	de	kleine Tochter (Ausdruck der Zuneigung)	n.
 6112	ru	???? ???? (??? ??????? ???????)	???.
@@ -8498,7 +8498,7 @@
 6112	hu	anyuka (fiatal lányokra)	fn.
 6112	pl	mamusia (o m?odych dziewczynach)	rz.
 6112	eng	little mommy (used for young girls)	n.
-6112	nl	moedertje (gebruikt voor jonge meisjes)	znw.
+6112	nl	moedertje (gebruikt voor jonge meisjes)	zn.
 6112	est	väike emake (kasutatakse väikeste tüdrukute puhul)	ns.
 6112	de	kleine Mama (für junge Mädchen)	n.
 6116	ru	??????	?????.
@@ -8514,7 +8514,7 @@
 6120	hu	copf, idegköteg	fn.
 6120	pl	warkocz	rz.
 6120	eng	queue, braid	n.
-6120	nl	vlecht, staart	znw.
+6120	nl	vlecht, staart	zn.
 6120	est	juuksepats, Na'videl olev närvipats (sideme loomiseks)	ns.
 6120	de	Queue, geflochtener Zopf (für tsaheylu)	n.
 6124	ru	???????	???.
@@ -8522,7 +8522,7 @@
 6124	hu	copfocska	fn.
 6124	pl	warkoczyk	rz.
 6124	eng	little queue	n.
-6124	nl	korte staart	znw.
+6124	nl	vlechtje, staartje	zn.
 6124	est	väike patsike	ns.
 6124	de	Zöpfchen, kleiner Queue	n.
 6128	ru	??????? ???????	???.
@@ -8530,7 +8530,7 @@
 6128	hu	vadászocska	fn.
 6128	pl	ma?y my?liwy	rz.
 6128	eng	little hunter	n.
-6128	nl	jagertje	znw.
+6128	nl	jagertje	zn.
 6128	est	väike kütt	ns.
 6128	de	kleiner Jäger	n.
 6132	ru	????????? ?	????.
@@ -8554,7 +8554,7 @@
 6140	hu	fénysugár	fn.
 6140	pl	promie? (?wiat?a)	rz.
 6140	eng	ray	n.
-6140	nl	straal	znw.
+6140	nl	lichtstraal	zn.
 6140	est	valguskiir	ns.
 6140	de	Lichtstrahl	n.
 6144	ru	??????	???.
@@ -8562,7 +8562,7 @@
 6144	hu	tüzecske	fn.
 6144	pl	p?omyczek	rz.
 6144	eng	dear or cute little fire	n.
-6144	nl	lief klein vuurtje	znw.
+6144	nl	lief klein vuurtje	zn.
 6144	est	väike lõkkeke, armas tuleke	ns.
 6144	de	niedliches, kleines Feuerchen	n.
 6148	ru	?????? (???????)	???.
@@ -8570,7 +8570,7 @@
 6148	hu	tanítás (cselekvés)	fn.
 6148	pl	nauczanie, dydaktyka	rz.
 6148	eng	teaching (the act)	n.
-6148	nl	onderwijzen (het onderwijs)	znw.
+6148	nl	onderwijzen (het onderwijs)	zn.
 6148	est	õpetamine	ns.
 6148	de	das Lehren (Vorgang)	n.
 6152	ru	????????	???.
@@ -8578,7 +8578,7 @@
 6152	hu	evés (cselekvés)	fn.
 6152	pl	jedzenie (czynno?? jedzenia)	rz.
 6152	eng	eating (the act)	n.
-6152	nl	eten (het doen)	znw.
+6152	nl	eten (het doen)	zn.
 6152	est	söömine	ns.
 6152	de	das Essen (Vorgang)	n.
 6156	ru	????? (??? ???????)	???.
@@ -8586,7 +8586,7 @@
 6156	hu	vadászás	fn.
 6156	pl	my?listwo	rz.
 6156	eng	hunting	n.
-6156	nl	jagen	znw.
+6156	nl	jagen	zn.
 6156	est	jahtimine	ns.
 6156	de	das Jagen	n.
 6164	ru	????????? ????????	???.
@@ -8594,7 +8594,7 @@
 6164	hu	csevej	fn.
 6164	pl	pogaw?dka, ma?a rozmowa	rz.
 6164	eng	little conversation	n.
-6164	nl	kleine conversatie, praatje	znw.
+6164	nl	kleine conversatie, praatje	zn.
 6164	est	väike vestlus, pisike jutuajamine	ns.
 6164	de	kleines Gespräch	n.
 6180	ru	????????? ???	???.
@@ -8650,7 +8650,7 @@
 6228	hu	történelem (?si)	fn.
 6228	pl	historia (staro?ytna)	rz.
 6228	eng	history (ancient)	n.
-6228	nl	geschiedenis (oud)	znw
+6228	nl	geschiedenis (oud)	zn.
 6228	est	ajalugu (vanem)	ns.
 6228	de	(alte) Geschichte	n.
 6232	ru	??????? (?? ???????)	???.
@@ -8682,7 +8682,7 @@
 6244	hu	gyáva	fn.
 6244	pl	tchurz	rz.
 6244	eng	coward	n.
-6244	nl	lafaard	znw
+6244	nl	lafaard	zn.
 6244	est	argpüks	ns.
 6244	de	Feigling	n.
 6248	ru	???????	????.
@@ -8714,7 +8714,7 @@
 6260	hu	feln?tt személy	fn.
 6260	pl	pe?noletni, doros?y (osoba doros?a)	rz.
 6260	eng	adult person	n.
-6260	nl	volwassen persoon	znw
+6260	nl	volwassen persoon	zn.
 6260	est	täiskasvanu	ns.
 6260	de	Erwachsener, erwachsene Person	n.
 6264	ru	??????????, ????????	???.
@@ -8722,7 +8722,7 @@
 6264	hu	érettség, fejlettség, beteljesülés	fn.
 6264	pl	dojrza?o??, doros?o??	rz.
 6264	eng	ripeness, maturity, full fruition	n.
-6264	nl	rijpheid	znw
+6264	nl	rijpheid, volgroeidheid	zn.
 6264	est	küpsus, valmidus, täisealisus	ns.
 6264	de	Reife, Mündigkeit	n.
 6268	ru	??????	???.
@@ -8802,7 +8802,7 @@
 6308	hu	hegy	fn.
 6308	pl	góra, wzgórze	rz.
 6308	eng	mountain	n.
-6308	nl	berg	znw
+6308	nl	berg	zn.
 6308	est	mägi	ns.
 6308	de	Berg, Gebirge	n.
 6312	ru	??????	???.
@@ -8810,7 +8810,7 @@
 6312	hu	hitves, házastárs	fn.
 6312	pl	wspó?ma?onek	rz.
 6312	eng	spouse	n.
-6312	nl	ega	znw
+6312	nl	ega, echtgenoot/echtgenote	zn.
 6312	est	abikaasa	ns.
 6312	de	Ehepartner	n.
 6316	ru	???	???.
@@ -8818,7 +8818,7 @@
 6316	hu	férj, férfi hitves	fn.
 6316	pl	m??	rz.
 6316	eng	husband, male spouse	n.
-6316	nl	man, echtgenoot	znw
+6316	nl	man, echtgenoot	zn.
 6316	est	mees (abikaasana)	ns.
 6316	de	Ehemann	n.
 6320	ru	????	???.
@@ -8826,7 +8826,7 @@
 6320	hu	feleség, n?i hitves	fn.
 6320	pl	?ona	rz.
 6320	eng	wife, female spouse	n.
-6320	nl	vrouw, echtgenote	znw
+6320	nl	vrouw, echtgenote	zn.
 6320	est	naine (abikaasana)	ns.
 6320	de	Ehefrau	n.
 6324	ru	?????????, ??????	???.
@@ -8858,7 +8858,7 @@
 6336	hu	kíváncsiság	fn.
 6336	pl	ciekawo??	rz.
 6336	eng	curiosity	n.
-6336	nl	nieuwsgierigheid	znw
+6336	nl	nieuwsgierigheid	zn.
 6336	est	uudishimu	ns.
 6336	de	Neugier, Neugierde	n.
 6340	ru	???????	????.
@@ -8874,7 +8874,7 @@
 6344	hu	nehézség, probléma	fn.
 6344	pl	k?opot, problem	rz.
 6344	eng	difficulty, problem	n.
-6344	nl	moeilijkheid, probleem	znw
+6344	nl	moeilijkheid, probleem	zn.
 6344	est	raskus, probleem	ns.
 6344	de	Schwierigkeit, Problem	n.
 6348	ru	???? ????, ??? ?? ?????	???.
@@ -8906,7 +8906,7 @@
 6360	hu	szül? vagy szül?pár	fn.
 6360	pl	rodzice	rz.
 6360	eng	parent or set of parents	n.
-6360	nl	ouder of ouders	znw.
+6360	nl	ouder of ouders	zn.
 6360	est	vanem või vanemad	ns.
 6360	de	Eltern (Mutter und Vater); Elternteil	n.
 6364	ru	??????, ?????? ?????	???.
@@ -8914,7 +8914,7 @@
 6364	hu	préda, zsákmány	fn.
 6364	pl	ofiara, istota upolowana	rz.
 6364	eng	prey, hunted thing	n.
-6364	nl	prooi, wat gejaagd wordt	znw
+6364	nl	prooi, waarop gejaagd wordt	zn.
 6364	est	saak, jahitud asi	ns.
 6364	de	Beute, gejagte Sache	n.
 6368	ru	???????? (??????, ???????????? ????????)	???.
@@ -8938,7 +8938,7 @@
 6380	hu	szerencse, esély	fn.
 6380	pl	szcz??cie, okazja	rz.
 6380	eng	luck, chance	n.
-6380	nl	geluk, fortuin	znw
+6380	nl	geluk, fortuin	zn.
 6380	est	õnn, edu, (juhuslik) võimalus	ns.
 6380	de	Glück, Zufall	n.
 6388	ru	??????	???.
@@ -8978,7 +8978,7 @@
 6404	hu	gy?lölet	fn.
 6404	pl	nienawi??	rz.
 6404	eng	hatred	n.
-6404	nl	haat	znw
+6404	nl	haat	zn.
 6404	est	viha	ns.
 6404	de	Hass	n.
 6408	ru	??????, ??????????????	????.
@@ -9002,7 +9002,7 @@
 6416	hu	évszak	fn.
 6416	pl	pora roku	rz.
 6416	eng	season	n.
-6416	nl	seizoen	znw
+6416	nl	seizoen	zn.
 6416	est	aastaaeg	ns.
 6416	de	Jahreszeit, Saison	n.
 6420	ru	???? ? ??????? ?????????, ???? «??? ???????» ??? ? ???????????? ? ????????	?????.??.????.
@@ -9042,7 +9042,7 @@
 6436	hu	infixum	fn.
 6436	pl	wrostek	rz.
 6436	eng	infix	n.
-6436	nl	infix	znw.
+6436	nl	infix	zn.
 6436	est	siseliide	ns.
 6436	de	Infix	n.
 6448	ru	?????????	?????.
@@ -9066,7 +9066,7 @@
 6512	hu	hangsúly, kiejtés	fn.
 6512	pl	akcent, wymowa	rz.
 6512	eng	accent, pronunciation	n.
-6512	nl	accent	znw.
+6512	nl	accent	zn.
 6512	est	aksent, hääldus	ns.
 6512	de	Aussprache	n.
 6516	ru	????????	????
@@ -9114,7 +9114,7 @@
 6544	hu	kiegészítés, utóirat (P.S.)	fn.
 6544	pl	dodatek, postscriptum (P.S.)	rz.
 6544	eng	addition, post script (P.S.)	n.
-6544	nl	p.s., toevoeging	znw.
+6544	nl	toevoeging, post script (p.s.)	zn.
 6544	est	P.S, lisaks veel	ns.
 6544	de	Hinzufügung; post scriptum (PS)	n.
 6548	ru	?????	???.
@@ -9122,7 +9122,7 @@
 6548	hu	ital, innivaló	fn.
 6548	pl	napój, co? daj?cego si? wypi?	rz.
 6548	eng	drink, something able to be drunk	n.
-6548	nl	drankje, iets dat gedronken kan worden	znw.
+6548	nl	drankje, iets dat gedronken kan worden	zn.
 6548	est	jook	ns.
 6548	de	Getränk, etwas Trinkbares	n.
 6552	ru	?????	???.
@@ -9130,7 +9130,7 @@
 6552	hu	térkép	fn.
 6552	pl	mapa	rz.
 6552	eng	map	n.
-6552	nl	(land)kaart	znw.
+6552	nl	(land)kaart	zn.
 6552	est	kaart, plaan	ns.
 6552	de	Landkarte	n.
 6556	ru	??? ?? ??? (? ????????)	???.
@@ -9178,7 +9178,7 @@
 6580	hu	piros szín	fn.
 6580	pl	czerwie?, pomara?cz	rz.
 6580	eng	red, orange	n.
-6580	nl	rood, oranje	znw.
+6580	nl	rood, oranje	zn.
 6580	est	punane, oran	n.
 6580	de	Rot, Orange	n.
 6584	ru	???????, ???????	???.
@@ -9186,7 +9186,7 @@
 6584	hu	kék/zöld szín	fn.
 6584	pl	niebieski, zielony	rz.
 6584	eng	blue, green	n.
-6584	nl	blauw, groen	znw.
+6584	nl	blauw, groen	zn.
 6584	est	sinine, roheline	ns.
 6584	de	Blau, Grün	n.
 6588	ru	??????	???.
@@ -9194,7 +9194,7 @@
 6588	hu	sárga szín	fn.
 6588	pl	?ó??	rz.
 6588	eng	yellow	n.
-6588	nl	geel	znw.
+6588	nl	geel	zn.
 6588	est	kollane	ns.
 6588	de	Gelb	n.
 6592	ru	??????????, ?????????	???.
@@ -9202,7 +9202,7 @@
 6592	hu	lila szín	fn.
 6592	pl	fiolet, purpura, magenta	rz.
 6592	eng	violet, purple, magenta	n.
-6592	nl	violet, paars, magenta	znw.
+6592	nl	violet, paars, magenta	zn.
 6592	est	violetne värv, lilla	ns.
 6592	de	Violett, Lila, Purpur, Magenta	n.
 6596	ru	??????	???.
@@ -9210,7 +9210,7 @@
 6596	hu	fekete szín	fn.
 6596	pl	czer?	rz.
 6596	eng	black	n.
-6596	nl	zwart	znw.
+6596	nl	zwart	zn.
 6596	est	must	ns.
 6596	de	Schwarz	n.
 6600	ru	?????	???.
@@ -9218,7 +9218,7 @@
 6600	hu	fehér szín	fn.
 6600	pl	biel	rz.
 6600	eng	white	n.
-6600	nl	wit	znw.
+6600	nl	wit	zn.
 6600	est	valge	ns.
 6600	de	Weiß	n.
 6604	ru	??????	???.
@@ -9226,7 +9226,7 @@
 6604	hu	sötét szín	fn.
 6604	pl	ciemny kolor	rz.
 6604	eng	dark color	n.
-6604	nl	donkere kleur	znw.
+6604	nl	donkere kleur	zn.
 6604	est	tume värv	ns.
 6604	de	dunkle Farbe	n.
 6608	ru	???????	???.
@@ -9234,7 +9234,7 @@
 6608	hu	világos szín	fn.
 6608	pl	jasny kolor	rz.
 6608	eng	light color	n.
-6608	nl	lichte kleur	znw.
+6608	nl	lichte kleur	zn.
 6608	est	hele värv	ns.
 6608	de	helle Farbe	n.
 6612	ru	?????	???.
@@ -9242,7 +9242,7 @@
 6612	hu	szürke szín	fn.
 6612	pl	szaro??	rz.
 6612	eng	grey	n.
-6612	nl	grijs	znw.
+6612	nl	grijs	zn.
 6612	est	hall	ns.
 6612	de	Grau	n.
 6616	ru	??????? ?? ???? ????	???.
@@ -9250,7 +9250,7 @@
 6616	hu	arccsík	fn.
 6616	pl	pr??ek na twarzy	rz.
 6616	eng	facial stripe	n.
-6616	nl	gezichtsstreep	znw.
+6616	nl	gezichtsstreep	zn.
 6616	est	näojoon, näotriip	ns.
 6616	de	Gesichtsstreifen, natürliche Maserung der Na'vi	n.
 6620	ru	??????? ??? ????	????.
@@ -9282,7 +9282,7 @@
 6632	hu	fiú (köznapi)	fn.
 6632	pl	ch?opak (potocznie)	rz.
 6632	eng	boy (colloquial)	n.
-6632	nl	jongen (spreektaal)	znw.
+6632	nl	jongen (spreektaal)	zn.
 6632	est	poiss, kutt (kõnekeelne)	ns.
 6632	de	Junge (umgangssprachlich)	n.
 6636	ru	??????? (????.)	???.
@@ -9290,7 +9290,7 @@
 6636	hu	lány (köznapi)	fn.
 6636	pl	dziewczyna (potocznie)	rz.
 6636	eng	girl (colloquial)	n.
-6636	nl	meisje (spreektaal)	znw.
+6636	nl	meisje (spreektaal)	zn.
 6636	est	tüdruk (kõnekeelne)	ns.
 6636	de	Mädchen (umgangssprachlich)	n.
 6640	ru	???????	???.
@@ -9298,7 +9298,7 @@
 6640	hu	fiú	fn.
 6640	pl	ch?opak	rz.
 6640	eng	boy	n.
-6640	nl	jongen	znw.
+6640	nl	jongen	zn.
 6640	est	poiss	ns.
 6640	de	Junge	n.
 6644	ru	???????	???.
@@ -9306,7 +9306,7 @@
 6644	hu	lány	fn.
 6644	pl	dziewczyna	rz.
 6644	eng	girl	n.
-6644	nl	meisje	znw.
+6644	nl	meisje	zn.
 6644	est	tüdruk	ns.
 6644	de	Mädchen	n.
 6648	ru	tetrapteron	???.
@@ -9338,7 +9338,7 @@
 6660	hu	felh?	fn.
 6660	pl	chmura	rz.
 6660	eng	cloud	n.
-6660	nl	wolk	znw.
+6660	nl	wolk	zn.
 6660	est	pilv	ns.
 6660	de	Wolke	n.
 6664	ru	????	???.
@@ -9346,7 +9346,7 @@
 6664	hu	domb	fn.
 6664	pl	pagórek	rz.
 6664	eng	hill	n.
-6664	nl	heuvel	znw.
+6664	nl	heuvel	zn.
 6664	est	küngas, väike mägi	ns.
 6664	de	Hügel, kleiner Berg	n.
 6668	ru	prolemuris	???.
@@ -9370,7 +9370,7 @@
 6676	hu	csont	fn.
 6676	pl	ko??	rz.
 6676	eng	bone	n.
-6676	nl	bot (v. gebeente)	znw.
+6676	nl	bot (gebeente)	zn.
 6676	est	luu, kont	ns.
 6676	de	Knochen	n.
 6680	ru	????	???.
@@ -9378,7 +9378,7 @@
 6680	hu	árny(ék)	fn.
 6680	pl	cie?	rz.
 6680	eng	shadow	n.
-6680	nl	schaduw	znw.
+6680	nl	schaduw	zn.
 6680	est	vari	ns.
 6680	de	Schatten	n.
 6684	ru	?????, ???	???.
@@ -9386,7 +9386,7 @@
 6684	hu	pára, köd, g?z	fn.
 6684	pl	mg?a, para	rz.
 6684	eng	mist, fog, steam	n.
-6684	nl	mist, stoom	znw.
+6684	nl	mist, stoom	zn.
 6684	est	udu, aur	ns.
 6684	de	Nebel, Dunst, (Wasser)Dampf	n.
 6688	ru	??????	???.
@@ -9394,7 +9394,7 @@
 6688	hu	zsákmány	fn.
 6688	pl	schwytanie, pojamnie	rz.
 6688	eng	capture	n.
-6688	nl	vangen	znw.
+6688	nl	vangen	zn.
 6688	est	vangistamine, tabamine	ns.
 6688	de	Gefangennahme, Fang	n.
 6696	ru	???????	???.
@@ -9402,7 +9402,7 @@
 6696	hu	szenvedély	fn.
 6696	pl	pasja	rz.
 6696	eng	passion	n.
-6696	nl	passie	znw.
+6696	nl	passie	zn.
 6696	est	kirg	ns.
 6696	de	Leidenschaft	n.
 6704	ru	???????	???.
@@ -9410,7 +9410,7 @@
 6704	hu	kedvesség	fn.
 6704	pl	uprzejmo??	rz.
 6704	eng	kindness	n.
-6704	nl	vriendelijkheid	znw.
+6704	nl	vriendelijkheid	zn.
 6704	est	lahkus, heldus	ns.
 6704	de	Nettigkeit, Aufmerksamkeit, Rücksicht	n.
 6708	ru	???????	???.
@@ -9418,7 +9418,7 @@
 6708	hu	ajándék	fn.
 6708	pl	prezent, podarunek	rz.
 6708	eng	gift	n.
-6708	nl	kado	znw.
+6708	nl	kado	zn.
 6708	est	kingitus, and	ns.
 6708	de	Geschenk	n.
 6712	ru	??????? ????????	???.
@@ -9426,7 +9426,7 @@
 6712	hu	néprétegek megmozdulása	fn.
 6712	pl	inicjatywa oddolna	rz.
 6712	eng	grassroots movement	n.
-6712	nl	burger initiatief, activisme (van grassroot)	znw.
+6712	nl	burgerinitiatief, activisme (van grassroot)	zn.
 6712	est	rohujuurte liikumine	ns.
 6712	de	Basisbewegung, Volksbewegung	n.
 6716	ru	???? ?????????	?????.
@@ -9498,7 +9498,7 @@
 6748	hu	küzdelem	fn.
 6748	pl	walka	rz.
 6748	eng	fighting	n.
-6748	nl	vechten	znw.
+6748	nl	vechten	zn.
 6748	est	võitlemine	ns.
 6748	de	das Kämpfen	n.
 6756	ru	?????????????	???.
@@ -9522,7 +9522,7 @@
 6764	hu	virágzás, kinyílás	fn.
 6764	pl	kwitnienie, rozwój	rz.
 6764	eng	blooming, unfolding	n.
-6764	nl	bloeien	znw.
+6764	nl	bloeien	zn.
 6764	est	õitsemine	ns.
 6764	de	Aufblühen, Ausblühen	n.
 6768	ru	??????????? (??????????? ????)	???.
@@ -9538,7 +9538,7 @@
 6772	hu	a f?zés m?vészete	fn.
 6772	pl	kuchnia, sposób gotowania	rz.
 6772	eng	the art of cooking	n.
-6772	nl	kookkunst	znw.
+6772	nl	kookkunst	zn.
 6772	est	kokkamine	ns.
 6772	de	Kochen, Kochkunst	n.
 6776	ru	?????????	???.
@@ -9602,7 +9602,7 @@
 6804	hu	alaposság, részletesség	fn.
 6804	pl	skrupulatno??, zwracanie uwagi na szczegó?y	rz.
 6804	eng	thoroughness, attention to detail	n.
-6804	nl	diepgaandheid, precisie, gedetailleerdheidq	znw.
+6804	nl	diepgaandheid, precisie, gedetailleerdheid	zn.
 6804	est	täpsus, põhjalikkus, detailsus	ns.
 6804	de	Gründlichkeit, Liebe zum Detail	n.
 6808	ru	????????	?????.
@@ -9634,7 +9634,7 @@
 6820	hu	elfoglaltságot adó cselekvés	fn.
 6820	pl	zajmuj?ca czynno??	rz.
 6820	eng	activity that keeps one busy	n.
-6820	nl	activiteit die je bezig houdt	znw.
+6820	nl	activiteit die je bezig houdt	zn.
 6820	est	hõivatus; hõivav tegevus	ns.
 6820	de	Tätigkeit, die einen beschäftigt hält	n.
 6824	ru	???????, ?????????	????.
@@ -9650,7 +9650,7 @@
 6828	hu	foglalkozás, els?dleges szerep a társadalomban	fn.
 6828	pl	zawód, rola w spo?ecze?stwie	rz.
 6828	eng	occupation, primary role in society	n.
-6828	nl	bezigheid, primaire rol in de gemeenschap	znw.
+6828	nl	bezigheid, primaire rol in de gemeenschap	zn.
 6828	est	amet, peamine roll ühiskonnas	ns.
 6828	de	Beruf, Hauptbeschäftigung in der Gesellschaft	n.
 6832	ru	?????	???.
@@ -9658,7 +9658,7 @@
 6832	hu	szakács	fn.
 6832	pl	kucharz	rz.
 6832	eng	cook, cooker	n.
-6832	nl	kok	znw
+6832	nl	kok	zn.
 6832	est	kokk, söögi tegija	ns.
 6832	de	Koch	n.
 6836	ru	???????? ??, ???????? ??	???.
@@ -9682,7 +9682,7 @@
 6844	hu	utazó	fn.
 6844	pl	podró?nik	rz.
 6844	eng	traveller	n.
-6844	nl	reiziger	znw.
+6844	nl	reiziger	zn.
 6844	est	rändaja, reisija	ns.
 6844	de	Reisender	n.
 6848	ru	???	????., ????.
@@ -9714,7 +9714,7 @@
 6860	hu	kis pillanat, másodperc	fn.
 6860	pl	krótka chwila, sekunda	rz.
 6860	eng	little moment, second	n.
-6860	nl	een kort moment, seconde	znw.
+6860	nl	een kort moment, seconde	zn.
 6860	est	lühike hetk, sekund	ns.
 6860	de	kleiner Moment, Momentchen, Augenblickchen, Sekunde	n.
 6864	ru	??????? ????? ??	?????.
@@ -9770,7 +9770,7 @@
 6888	hu	szabadid?, teend?k hiánya	fn.
 6888	pl	czas wolny	rz.
 6888	eng	free time, the absence of business	n.
-6888	nl	vrije tijd	znw
+6888	nl	vrije tijd	zn.
 6888	est	vaba aeg, hõivatuse puudumine	ns.
 6888	de	Freizeit, Abwesenheit von Geschäftigkeit	n.
 6892	ru	?????, ???????? ?????????	???.
@@ -9778,7 +9778,7 @@
 6892	hu	hobby, örömet szerz? tevékenység	fn.
 6892	pl	hobby, pasja	rz.
 6892	eng	hobby, pleasureyielding activity	n.
-6892	nl	hobby, plezierige activiteit	znw.
+6892	nl	hobby, plezierige activiteit	zn.
 6892	est	hobi, meelerahu pakkuv tegevus	ns.
 6892	de	Hobby, freudebringende Tätigkeit	n.
 6896	ru	????????, ???????????	????.
@@ -9802,7 +9802,7 @@
 6904	hu	Skype	fn.
 6904	pl	Skype	rz.
 6904	eng	Skype	n.
-6904	nl	Skype	znw
+6904	nl	Skype	zn.
 6904	est	Skype	n.
 6904	de	Skype	n.
 6908	ru	?????????? ?????????	???.
@@ -9810,7 +9810,7 @@
 6908	hu	ejective mássalhangzó (kx,tx,px)	fn.
 6908	pl	spó?g?oska ejektywna, ejektyw	rz.
 6908	eng	ejective consonant	n.
-6908	nl	ejectieve medeklinker	znw.
+6908	nl	ejectieve medeklinker	zn.
 6908	est	rõhuga kaashäälik	ns.
 6908	de	Ejektiv, ejektiver Konsonant	n.
 6912	ru	???????	???.
@@ -9818,7 +9818,7 @@
 6912	hu	móka, izgalom	fn.
 6912	pl	zabawa	rz.
 6912	eng	fun, excitement	n.
-6912	nl	plezier, opwinding	znw
+6912	nl	plezier, opwinding	zn.
 6912	est	lõbu, erutus	ns.
 6912	de	Spaß, Aufregung	n.
 6916	ru	??????	???.
@@ -9850,7 +9850,7 @@
 6928	hu	h?	fn.
 6928	pl	ciep?o	rz.
 6928	eng	heat	n.
-6928	nl	hitte	znw
+6928	nl	hitte	zn.
 6928	est	kuumus	ns.
 6928	de	Hitze	n.
 6932	ru	?????	???.
@@ -9858,7 +9858,7 @@
 6932	hu	hideg	fn.
 6932	pl	zimno	rz.
 6932	eng	coldness, cold	n.
-6932	nl	kou, koude	znw
+6932	nl	kou, koude	zn.
 6932	est	külm	ns.
 6932	de	Kälte	n.
 6936	ru	??????	???.
@@ -9866,7 +9866,7 @@
 6936	hu	esemény, történés	fn.
 6936	pl	wydarzenie	rz.
 6936	eng	event, happening	n.
-6936	nl	gebeurtenis	znw.
+6936	nl	gebeurtenis	zn.
 6936	est	üritus, juhtum	ns.
 6936	de	Ereignis, Geschehen, Veranstaltung	n.
 6940	ru	????? ????????	???.
@@ -9906,7 +9906,7 @@
 6956	hu	kantár, köt?fék	fn.
 6956	pl	lejce	rz.
 6956	eng	face lead, rein	n.
-6956	nl	leidsel	znw
+6956	nl	lijn, teugels	zn.
 6956	est	Suurhobu ohjad	ns.
 6956	de	Zügel	n.
 6960	ru	?????????	???.
@@ -9914,7 +9914,7 @@
 6960	hu	páfrány	fn.
 6960	pl	papro?	rz.
 6960	eng	fern	n.
-6960	nl	varen	znw.
+6960	nl	varen	zn.
 6960	est	Sõnajalg	ns.
 6960	de	Farn, Farnkraut	n.
 6964	ru	????????	?????.
@@ -10018,7 +10018,7 @@
 7196	hu	leírás	fn.
 7196	pl	opis	rz.
 7196	eng	description	n.
-7196	nl	omschrijving	znw.
+7196	nl	omschrijving	zn.
 7196	est	kirjeldus	ns.
 7196	de	Beschreibung	n.
 7200	ru	????????, ????????	???.
@@ -10026,7 +10026,7 @@
 7200	hu	tipp, találgatás, gyanú, megérzés	fn.
 7200	pl	domys?, przypuszczenie, intuicja, wyczucie	rz.
 7200	eng	guess, informed guess, hunch, intuition	n.
-7200	nl	gok, voorgevoel, intuitie	znw.
+7200	nl	gok, voorgevoel, intuitie	zn.
 7200	est	aimdus, tunnetus	ns.
 7200	de	begründete Vermutung, Intuition	n.
 7204	ru	??????????	?????.
@@ -10058,7 +10058,7 @@
 7216	hu	eszköz, szerszám	fn.
 7216	pl	narz?dzie	rz.
 7216	eng	tool, utensil	n.
-7216	nl	gereedschap	znw.
+7216	nl	gereedschap	zn.
 7216	est	tööriist, nõu	ns.
 7216	de	Werkzeug, Gerät	n.
 7220	ru	?????? ?????? (? fa ??? ???????? ???????????)	?????.
@@ -10082,7 +10082,7 @@
 7228	hu	szomjúság	fn.
 7228	pl	pragnienie	rz.
 7228	eng	thirst	n.
-7228	nl	dorst	znw.
+7228	nl	dorst	zn.
 7228	est	janu	ns.
 7228	de	Durst	n.
 7232	ru	????????????	???.
@@ -10090,7 +10090,7 @@
 7232	hu	aggodalom	fn.
 7232	pl	obawa, niepokój	rz.
 7232	eng	worry	n.
-7232	nl	zorg	znw.
+7232	nl	zorg	zn.
 7232	est	mure	ns.
 7232	de	Sorge, Besorgnis, Befürchtung	n.
 7236	ru	??????????	???.
@@ -10106,7 +10106,7 @@
 7240	hu	z?rzavar	fn.
 7240	pl	zak?opotanie, zmieszanie, niepewno??	rz.
 7240	eng	confusion	n.
-7240	nl	verwarring	znw.
+7240	nl	verwarring	zn.
 7240	est	meeltesegadus	ns.
 7240	de	Verwirrung, Durcheinander, Verwirrtheit	n.
 7244	ru	???????	???.
@@ -10122,7 +10122,7 @@
 7248	hu	vita, veszekedés	fn.
 7248	pl	k?ótnia, spór, sprzeczka, nieporozumienie	rz.
 7248	eng	dispute, argument	n.
-7248	nl	dispuut, redetwist	znw.
+7248	nl	dispuut, redetwist	zn.
 7248	est	vaidlus	ns.
 7248	de	Streit, Auseinandersetzung	n.
 7252	ru	??????? ?????	???.
@@ -10130,7 +10130,7 @@
 7252	hu	a vita tárgya, a szóváltás oka, a vitatott dolog	fn.
 7252	pl	ko?? niezgody, przedmiot sporu	rz.
 7252	eng	point of contention, source of argument, thing disputed	n.
-7252	nl	bron van dispuut, reden van het argument	znw
+7252	nl	bron van dispuut, reden van het argument	zn.
 7252	est	väide, argument, vaieldav teema	ns.
 7252	de	Streitpunkt, Streitgrund	n.
 7256	ru	????????????, ????????	????.
@@ -10178,7 +10178,7 @@
 7276	hu	elképzelt dolog	fn.
 7276	pl	wyobra?enie, urojenie	rz.
 7276	eng	something imagined	n.
-7276	nl	iets verbeeld	znw.
+7276	nl	iets verbeeld	zn.
 7276	est	kujuteldav asi	ns.
 7276	de	Vorgestelltes, Ausgemaltes, Imaginiertes	n.
 7280	ru	???????????	???.
@@ -10186,7 +10186,7 @@
 7280	hu	képzelet	fn.
 7280	pl	wyobra?nia	rz.
 7280	eng	imagination	n.
-7280	nl	verbeelding	znw.
+7280	nl	verbeelding	zn.
 7280	est	kujutlus	ns.
 7280	de	Vorstellungskraft	n.
 7284	ru	?????	????.
@@ -10226,7 +10226,7 @@
 7304	hu	(egy) fél	fn.
 7304	pl	po?owa	rz.
 7304	eng	half	n.
-7304	nl	half	znw.
+7304	nl	half	zn.
 7304	est	pool (millestki)	ns.
 7304	de	Hälfte, einhalb	n.
 7308	ru	?????	???.
@@ -10234,7 +10234,7 @@
 7308	hu	(egy) harmad	fn.
 7308	pl	jedna trzecia	rz.
 7308	eng	third, one third	n.
-7308	nl	derde, een derde	znw.
+7308	nl	derde, een derde	zn.
 7308	est	kolmandik, üks kolmandik	ns.
 7308	de	Drittel, eindrittel	n.
 7312	ru	??????	???.
@@ -10258,7 +10258,7 @@
 7320	hu	összezavarrás, álcázás	fn.
 7320	pl	zamroczenie, zaciemnienie	rz.
 7320	eng	obfuscation, cover up	n.
-7320	nl	verdoezelen, bedekken	znw.
+7320	nl	verdoezelen, bedekken	zn.
 7320	est	segaseks tegemine, varjamine	ns.
 7320	de	Geheimnis, Verschleierung, Geheimhaltung	n.
 7324	ru	????????????, ????????? (???.)	????.
@@ -10290,7 +10290,7 @@
 7336	hu	vadászat	fn.
 7336	pl	polowanie, ?ów, ob?awa	rz.
 7336	eng	hunting	n.
-7336	nl	jagen	znw.
+7336	nl	jagen	zn.
 7336	est	jahtimine	ns.
 7336	de	das Jagen	n.
 7344	ru	???, ???	????.
@@ -10330,7 +10330,7 @@
 7360	hu	id?járás	fn.
 7360	pl	pogoda	rz.
 7360	eng	weather	n.
-7360	nl	weer	znw.
+7360	nl	weer	zn.
 7360	est	ilm	ns.
 7360	de	Wetter	n.
 7364	ru	????????????	?????.
@@ -10346,7 +10346,7 @@
 7368	hu	állapot, körülmény, helyzet	fn.
 7368	pl	stan, forma, sytuacja	rz.
 7368	eng	state, condition, situation	n.
-7368	nl	situatie, conditie, staat	znw.
+7368	nl	situatie, conditie, staat	zn.
 7368	est	olek, konditsioon, olukord	ns.
 7368	de	Zustand, Beschaffenheit, Situation	n.
 7376	ru	?????? ?????	???.
@@ -10354,7 +10354,7 @@
 7376	hu	szitáló es?	fn.
 7376	pl	m?awka	rz.
 7376	eng	drizzle	n.
-7376	nl	motregen	znw.
+7376	nl	motregen	zn.
 7376	est	seenekas, hoovihm	ns.
 7376	de	Sprühregen, Nieselregen	n.
 7380	ru	????	???.
@@ -10362,7 +10362,7 @@
 7380	hu	jéges?	fn.
 7380	pl	grad	rz.
 7380	eng	hail	n.
-7380	nl	hagel	znw.
+7380	nl	hagel	zn.
 7380	est	rahe	ns.
 7380	de	Hagel	n.
 7384	ru	????	???.
@@ -10370,7 +10370,7 @@
 7384	hu	jég	fn.
 7384	pl	lód	rz.
 7384	eng	ice	n.
-7384	nl	ijs	znw.
+7384	nl	ijs	zn.
 7384	est	jää	ns.
 7384	de	Eis	n.
 7388	ru	????	???.
@@ -10378,7 +10378,7 @@
 7388	hu	hó	fn.
 7388	pl	?nieg	rz.
 7388	eng	snow	n.
-7388	nl	sneeuw	znw.
+7388	nl	sneeuw	zn.
 7388	est	lumi	ns.
 7388	de	Schnee	n.
 7392	ru	????? ?? ??????	???.
@@ -10386,7 +10386,7 @@
 7392	hu	havases?	fn.
 7392	pl	deszcz ze sniegiem	rz.
 7392	eng	sleet	n.
-7392	nl	natte sneeuw	znw.
+7392	nl	natte sneeuw	zn.
 7392	est	lörts	ns.
 7392	de	Graupel, Schneeregen	n.
 7396	ru	??????	???.
@@ -10394,7 +10394,7 @@
 7396	hu	hóvihar	fn.
 7396	pl	zamie?, zadymka	rz.
 7396	eng	blizzard	n.
-7396	nl	blizzard	znw.
+7396	nl	sneeuwstorm	zn.
 7396	est	lumetorm	ns.
 7396	de	Schneesturm, Blizzard	n.
 7400	ru	??????? ?????	???.
@@ -10402,14 +10402,14 @@
 7400	hu	hózápor	fn.
 7400	pl	pruszenie ?niegu	rz.
 7400	eng	snow flurry	n.
-7400	nl	sneeuwjacht	znw.
+7400	nl	sneeuwbui	zn.
 7400	est	lumesadu	ns.
 7400	de	Schneegestöber, leichter Schneeschauer	n.
 7404	ru	??????? ????	???.
 7404	sv	snöfält	sbst.
 7404	hu	hómez?	fn.
 7404	eng	snow field	n.
-7404	nl	sneeuwveld	znw.
+7404	nl	sneeuwveld	zn.
 7404	est	lumeväli	ns.
 7404	de	Schneedecke	n.
 7408	ru	???????, ?????, ?????	???.
@@ -10417,7 +10417,7 @@
 7408	hu	pehely, csepp, szilánk	fn.
 7408	pl	p?atek, kropla, drobina	rz.
 7408	eng	flake, drop, chip	n.
-7408	nl	vlok, druppel	znw.
+7408	nl	vlok, druppel	zn.
 7408	est	tilk, helves, piisk	ns.
 7408	de	Flocke, Tropfen, Span, Splitter	n.
 7412	ru	????	???.
@@ -10425,7 +10425,7 @@
 7412	hu	hamu, parázs	fn.
 7412	pl	proch, popió?	rz.
 7412	eng	ash, cinder	n.
-7412	nl	as	znw.
+7412	nl	as	zn.
 7412	est	tuhk	ns.
 7412	de	Asche, Schlacke	n.
 7416	ru	????????	???.
@@ -10433,7 +10433,7 @@
 7416	hu	hópehely	fn.
 7416	pl	p?atek ?niegu	rz.
 7416	eng	snowflake	n.
-7416	nl	sneeuwvlok	znw.
+7416	nl	sneeuwvlok	zn.
 7416	est	lumehelves	ns.
 7416	de	Schneeflocke	n.
 7420	ru	????? ????	???.
@@ -10441,7 +10441,7 @@
 7420	hu	vízcsepp	fn.
 7420	pl	kropla	rz.
 7420	eng	drop of water	n.
-7420	nl	waterdruppel	znw.
+7420	nl	waterdruppel	zn.
 7420	est	veetilk	ns.
 7420	de	Wassertropfen	n.
 7424	ru	???????? ?????	???.
@@ -10449,7 +10449,7 @@
 7424	hu	es?csepp	fn.
 7424	pl	kropla deszczu	rz.
 7424	eng	raindrop	n.
-7424	nl	regendruppel	znw
+7424	nl	regendruppel	zn.
 7424	est	vihmapiisk	ns.
 7424	de	Regentropfen	n.
 7428	ru	??????	???.
@@ -10457,7 +10457,7 @@
 7428	hu	egy hét	fn.
 7428	pl	tydzie?	rz.
 7428	eng	week	n.
-7428	nl	week	znw.
+7428	nl	week	zn.
 7428	est	nädal	ns.
 7428	de	Woche (7TageWoche)	n.
 7432	ru	??????? ??????, ??????????	???.
@@ -10465,7 +10465,7 @@
 7432	hu	ötnapos munkahét	fn.
 7432	pl	tydzie? roboczy (pi?ciodniowy)	rz.
 7432	eng	five day work week	n.
-7432	nl	vijfdaagse werkweek	znw.
+7432	nl	vijfdaagse werkweek	zn.
 7432	est	arginädal, töönädal	ns.
 7432	de	Woche (5TageWoche)	n.
 7436	ru	???????? ???	???.
@@ -10473,7 +10473,7 @@
 7436	hu	hétvége	fn.
 7436	pl	weekend	rz.
 7436	eng	weekend	n.
-7436	nl	weekeinde	znw.
+7436	nl	weekeinde	zn.
 7436	est	nädalavahetus	ns.
 7436	de	Wochenende	n.
 7440	ru	????????? ??????	???.
@@ -10481,7 +10481,7 @@
 7440	hu	a múlt (el?z?) hét	fn.
 7440	pl	poprzedni tydzie?	rz.
 7440	eng	last week	n.
-7440	nl	vorige week	znw.
+7440	nl	vorige week	zn.
 7440	est	eelmine nädal	ns.
 7440	de	letzte Woche	n.
 7444	ru	????????? ??????	???.
@@ -10489,7 +10489,7 @@
 7444	hu	a jövö (következ?) hét	fn.
 7444	pl	nast?pny tydzie?	rz.
 7444	eng	next week	n.
-7444	nl	volgende week	znw.
+7444	nl	volgende week	zn.
 7444	est	järgmine nädal	ns.
 7444	de	nächste Woche	n.
 7448	ru	????????? ????????	???.
@@ -10497,7 +10497,7 @@
 7448	hu	múlt hétvége	fn.
 7448	pl	poprzedni weekend	rz.
 7448	eng	last weekend	n.
-7448	nl	vorig weekeinde	znw.
+7448	nl	vorig weekeinde	zn.
 7448	est	eelmine nädalavahetus	ns.
 7448	de	letztes Wochenende	n.
 7452	ru	????????? ????????	???.
@@ -10505,7 +10505,7 @@
 7452	hu	jöv? hétvége	fn.
 7452	pl	nastepny weekend	rz.
 7452	eng	next weekend	n.
-7452	nl	volgend weekeinde	znw.
+7452	nl	volgend weekeinde	zn.
 7452	est	järgmine nädalavahetus	ns.
 7452	de	nächstes Wochenende	n.
 7456	ru	?????	???.
@@ -10513,7 +10513,7 @@
 7456	hu	hónap	fn.
 7456	pl	miesi?c	rz.
 7456	eng	month	n.
-7456	nl	maand	znw.
+7456	nl	maand	zn.
 7456	est	kuu	ns.
 7456	de	Monat	n.
 7460	ru	????????? ?????	???.
@@ -10585,7 +10585,7 @@
 7492	hu	h?mérséklet	fn.
 7492	pl	temperatura	rz.
 7492	eng	temperature	n.
-7492	nl	temperatuur	znw.
+7492	nl	temperatuur	zn.
 7492	est	temperatuur	ns.
 7492	de	Temperatur	n.
 7496	ru	???????? (?????????? ??????)	????.
@@ -10601,7 +10601,7 @@
 7500	hu	hosszúság	fn.
 7500	pl	d?ugo??	rz.
 7500	eng	length	n.
-7500	nl	lengte	znw.
+7500	nl	lengte	zn.
 7500	est	pikkus	ns.
 7500	de	Länge, Strecke	n.
 7504	ru	????? ????????????	????.
@@ -10729,7 +10729,7 @@
 7568	hu	szell?, enyhe szél	fn.
 7568	pl	wiaterek, bryza	rz.
 7568	eng	breeze, light wind	n.
-7568	nl	bries, windje	znw.
+7568	nl	bries, windje	zn.
 7568	est	õrn tuul	ns.
 7568	de	Lüftchen, Brise	n.
 7572	ru	????????	???.
@@ -10761,7 +10761,7 @@
 7584	hu	kétség	fn.
 7584	pl	w?tpliwo??	rz.
 7584	eng	doubt	n.
-7584	nl	twijfel	znw.
+7584	nl	twijfel	zn.
 7584	est	kahtus	ns.
 7584	de	Zweifel, Bedenken	n.
 7588	ru	?????????	???.
@@ -10785,7 +10785,7 @@
 7596	hu	(ki)próbál, értékel, ellen?riz	i.(t)
 7596	pl	próbowa?, usi?owa?, stara? si?	cz. prz. mod.
 7596	eng	try, sample, evaluate, check out, testdrive	vtrm.
-7596	nl	uitproberen, evalueren, testen	wwmo.
+7596	nl	uitproberen, evalueren, testen, proefdraaien	wwmo.
 7596	est	proovima, hindama, üle vaatama, testima	mtgsne.
 7596	de	versuchen, ausprobieren, probieren, kosten, testen	vtrm.
 7604	ru	????????	???.
@@ -10809,7 +10809,7 @@
 7612	hu	gy?zelem, nyerés	fn.
 7612	pl	zwyci?stwo, wygrana	rz.
 7612	eng	victory, a win	n.
-7612	nl	zege, overwinning	znw.
+7612	nl	zege, overwinning	zn.
 7612	est	võit	ns.
 7612	de	Sieg	n.
 7616	ru	??????	???.
@@ -10817,7 +10817,7 @@
 7616	hu	vereség, veszteség	fn.
 7616	pl	strata	rz.
 7616	eng	loss	n.
-7616	nl	verlies	znw.
+7616	nl	verlies	zn.
 7616	est	kaotus	ns.
 7616	de	Niederlage	n.
 7620	ru	??????????? ??????????	???.
@@ -10833,7 +10833,7 @@
 7624	hu	seb	fn.
 7624	pl	rana	rz.
 7624	eng	wound	n.
-7624	nl	wond	znw.
+7624	nl	wond	zn.
 7624	est	haav, vigastus	ns.
 7624	de	Wunde	n.
 7628	ru	???????	????.
@@ -10857,7 +10857,7 @@
 7636	hu	vágás, horzsolás, kisebb seb	fn.
 7636	pl	skaleczenie, dra?ni?cie, siniak	rz.
 7636	eng	cut, bruise, minor wound	n.
-7636	nl	snee, schram, kleine verwonding	znw.
+7636	nl	snee, schram, kleine verwonding	zn.
 7636	est	marrastus, sisselõige, väike haav	ns.
 7636	de	Schnitt, Prellung, leichte Verletzung	n.
 7640	ru	????	???.
@@ -10881,7 +10881,7 @@
 7648	hu	túlélés	fn.
 7648	pl	przetrwanie	rz.
 7648	eng	survival	n.
-7648	nl	overleven	znw.
+7648	nl	overleven	zn.
 7648	est	ellujäämine	ns.
 7648	de	Überleben	n.
 7652	ru	????????	????.
@@ -10905,7 +10905,7 @@
 7660	hu	jelentés, fontosság, jelent?sség	fn.
 7660	pl	znaczenie, istotno??, waga	rz.
 7660	eng	meaning, importance, significance	n.
-7660	nl	betekenis, belang	znw.
+7660	nl	betekenis, belang	zn.
 7660	est	tähendus, tähtsus	ns.
 7660	de	Bedeutung, Wichtigkeit, Signifikanz	n.
 7664	ru	??????????????	????.
@@ -10929,7 +10929,7 @@
 7672	hu	arckifejezés	fn.
 7672	pl	wyraz twarzy	rz.
 7672	eng	facial expression	n.
-7672	nl	gezichtsuitdrukking	znw.
+7672	nl	gezichtsuitdrukking	zn.
 7672	est	näoilme	ns.
 7672	de	Gesichtsausdruck	n.
 7676	ru	?????	???.
@@ -10944,7 +10944,7 @@
 7680	hu	állítás	fn.
 7680	pl	stwierdzenie, o?wiadczenie	rz.
 7680	eng	statement	n.
-7680	nl	verklaring, uitdrukking	znw.
+7680	nl	verklaring, uitdrukking	zn.
 7680	est	teadaanne, väide	ns.
 7680	de	Aussage, Stellungnahme, Bericht, Statement	n.
 7684	ru	???????????	???.
@@ -10952,7 +10952,7 @@
 7684	hu	megjegyzés	fn.
 7684	pl	komentarz	rz.
 7684	eng	comment	n.
-7684	nl	commentaar	znw.
+7684	nl	commentaar	zn.
 7684	est	kommentaar	ns.
 7684	de	Kommentar, Bemerkung, Anmerkung	n.
 7688	ru	?????	???.
@@ -10984,7 +10984,7 @@
 7712	hu	váll	fn.
 7712	pl	bark, rami?	rz.
 7712	eng	shoulder	n.
-7712	nl	schouder	znw.
+7712	nl	schouder	zn.
 7712	est	õlg	ns.
 7712	de	Schulter	n.
 7724	ru	????????	?????.
@@ -11016,7 +11016,7 @@
 7736	hu	öregember (férfi)	fn.
 7736	pl	staruszek	rz.
 7736	eng	old man	n.
-7736	nl	oude man	znw.
+7736	nl	oude man	zn.
 7736	est	vanamees	ns.
 7736	de	alter Mann	n.
 7740	ru	???????	???.
@@ -11024,7 +11024,7 @@
 7740	hu	öregasszony	fn.
 7740	pl	staruszka	rz.
 7740	eng	old woman	n.
-7740	nl	oude vrouw	znw.
+7740	nl	oude vrouw	zn.
 7740	est	vanamemm	ns.
 7740	de	alte Frau	n.
 7744	ru	?????? ???????	???.
@@ -11032,7 +11032,7 @@
 7744	hu	öreg ember/öreg személy	fn.
 7744	pl	starzec (osoba stara)	rz.
 7744	eng	old person	n.
-7744	nl	oud persoon	znw.
+7744	nl	oud persoon	zn.
 7744	est	vana inimene	ns.
 7744	de	alte Person	n.
 7748	ru	?????????????	???.
@@ -11040,7 +11040,7 @@
 7748	hu	hiányzó/hiányolt személy	fn.
 7748	pl	osoba ut?skniona	rz.
 7748	eng	missed person	n.
-7748	nl	persoon die gemist wordt	znw.
+7748	nl	persoon die gemist wordt	zn.
 7748	est	igatsetud inimene	ns.
 7748	de	vermisste/fehlende Person	n.
 7752	ru	??????	????.
@@ -11064,7 +11064,7 @@
 7760	hu	ellenfél	fn.
 7760	pl	przeciwnik	rz.
 7760	eng	opponent	n.
-7760	nl	opponent, tegenstander	znw.
+7760	nl	opponent, tegenstander	zn.
 7760	est	vastane	ns.
 7760	de	Gegner	n.
 7764	ru	??????????, ?????????	???.
@@ -11072,7 +11072,7 @@
 7764	hu	baleset	fn.
 7764	pl	wypadek	rz.
 7764	eng	accident	n.
-7764	nl	ongeluk	znw.
+7764	nl	ongeluk	zn.
 7764	est	õnnetus	ns.
 7764	de	Unfall	n.
 7768	ru	???????? ??????? ???	???.
@@ -11080,7 +11080,7 @@
 7768	hu	szunyókálás	fn.
 7768	pl	drzemka	rz.
 7768	eng	nap	n.
-7768	nl	tukje, kort slaapje	znw.
+7768	nl	tukje, kort slaapje	zn.
 7768	est	uinak	ns.
 7768	de	Schläfchen, Nickerchen	n.
 7772	ru	?????	???.
@@ -11088,7 +11088,7 @@
 7772	hu	hajó	fn.
 7772	pl	?ód?	rz.
 7772	eng	boat	n.
-7772	nl	boot	znw.
+7772	nl	boot	zn.
 7772	est	paat	ns.
 7772	de	Boot	n.
 7780	ru	???????????	?????.
@@ -11112,7 +11112,7 @@
 7788	hu	funkcionális öltözék (része)	fn.
 7788	pl	strój u?ytkowy, roboczy	rz.
 7788	eng	functional clothing (item of)	n.
-7788	nl	stuk functionele kleding	znw.
+7788	nl	stuk functionele kleding	zn.
 7788	est	riietus, riideese	ns.
 7788	de	(funktionale) Kleidung; Kleidungsstück	n.
 7792	ru	??????????? ???????	???.
@@ -11120,7 +11120,7 @@
 7792	hu	ágyékköt?	fn.
 7792	pl	przepaska biodrowa	rz.
 7792	eng	loincloth	n.
-7792	nl	lendendoek	znw.
+7792	nl	lendendoek	zn.
 7792	est	niudevöö	ns.
 7792	de	Lendenschurz	n.
 7796	ru	????? (???????? ???????? ?? ???? ? ???? ??? ????? ??? ???????? ?? ????)	???.
@@ -11128,7 +11128,7 @@
 7796	hu	lábszárvéd? (harcban használatos)	fn.
 7796	pl	nogawice (u?ywane w walce)	rz.
 7796	eng	leggings (used in war)	n.
-7796	nl	beenbeschermers (gebruikt in oorlog/strijd)	znw.
+7796	nl	beenbeschermers (gebruikt in oorlog/strijd)	zn.
 7796	est	jalakaitsmd (kasutatakse sõjas)	ns.
 7796	de	Leggins (Kriegskleidung)	n.
 7800	ru	?????	???.
@@ -11144,7 +11144,7 @@
 7804	hu	keszty?	fn.
 7804	pl	r?kawiczka	rz.
 7804	eng	glove	n.
-7804	nl	handschoen	znw.
+7804	nl	handschoen	zn.
 7804	est	kinnas	ns.
 7804	de	Handschuh	n.
 7808	ru	???????? ????	???.
@@ -11152,7 +11152,7 @@
 7808	hu	kalap	fn.
 7808	pl	czapka, kapelusz	rz.
 7808	eng	hat	n.
-7808	nl	hoed	znw.
+7808	nl	hoed	zn.
 7808	est	müts	ns.
 7808	de	Hut, Kopfbedeckung	n.
 7812	ru	?????????, ?????????????? ??????	???.
@@ -11160,7 +11160,7 @@
 7812	hu	dísz, vagy ünnepi felszerelés/ruházat (része)	fn.
 7812	pl	ozdoba lub uroczyste szaty	rz.
 7812	eng	adornment, or ceremonial apparel (item of)	n.
-7812	nl	versiering of ceremoniel sieraad	znw.
+7812	nl	versiering of ceremoniel sieraad	zn.
 7812	est	ehe, kaunistus, tseremooniariietus	ns.
 7812	de	zeremonielle Kleidung, Schmuck, Verzierung	n.
 7816	ru	????????, ???????, ?????? ?? ???????? ??????	???.
@@ -11176,7 +11176,7 @@
 7820	hu	gallér/nyaklánc	fn.
 7820	pl	ko?nierz, naszyjnik	rz.
 7820	eng	collar / choker	n.
-7820	nl	kraag / choker	znw.
+7820	nl	kraag / choker	zn.
 7820	est	krae	ns.
 7820	de	Halskette, Halsband, Halsreif	n.
 7824	ru	????, ???????, ????	???.
@@ -11184,7 +11184,7 @@
 7824	hu	ponchó, köpeny, kend?	fn.
 7824	pl	narzuta, peleryna, szal	rz.
 7824	eng	poncho, cape, shawl	n.
-7824	nl	poncho, cape, sjaal	znw.
+7824	nl	poncho, cape, sjaal	zn.
 7824	est	keep	ns.
 7824	de	Umhang, Poncho	n.
 7828	ru	????????? ????????	???.
@@ -11192,7 +11192,7 @@
 7828	hu	mellkast takaró nyaklánc	fn.
 7828	pl	kolia	rz.
 7828	eng	bib necklace	n.
-7828	nl	halsketting	znw.
+7828	nl	halsketting	zn.
 7828	est	kaelakee	ns.
 7828	de	Halskette, die den gesamten Oberkörper bedeckt	n.
 7832	ru	????????? (??????????)	???.
@@ -11200,7 +11200,7 @@
 7832	hu	mellvért (páncél)	fn.
 7832	pl	napier?nik (pancerz)	rz.
 7832	eng	breastplate (armor)	n.
-7832	nl	borstplaat (bewapening)	znw.
+7832	nl	borstplaat (bewapening)	zn.
 7832	est	rinnarüü (sõjas)	ns.
 7832	de	Brustpanzer, Harnisch	n.
 7836	ru	????????? ??? ?????	???.
@@ -11208,7 +11208,7 @@
 7836	hu	hajdísz	fn.
 7836	pl	ozdoba w?osów	rz.
 7836	eng	hair adornment	n.
-7836	nl	haarsieraad	znw.
+7836	nl	haarsieraad	zn.
 7836	est	juuksekaunistus	ns.
 7836	de	Haarschmuck	n.
 7840	ru	?????????? ???????	???.
@@ -11216,7 +11216,7 @@
 7840	hu	karköt?, karszalag	fn.
 7840	pl	opaska na rami?	rz.
 7840	eng	armband	n.
-7840	nl	armband	znw.
+7840	nl	armband	zn.
 7840	est	käekaitse	ns-
 7840	de	Armband	n.
 7844	ru	???????? ???? (????????? ?? ??????? ????????? ? ?.?.)	???.
@@ -11224,7 +11224,7 @@
 7844	hu	véd?szemüveg, (rovarszárnyból készült, fából faragott, stb.)	fn.
 7844	pl	gogle (wykonane z owadzich skrzyde?, rze?bione w drewnie itd.)	rz.
 7844	eng	goggles, (made from insect wings, carved from wood, etc)	n.
-7844	nl	beschermbril (gemaakt van insectenvleugels, gesneden uit hout etc.)	znw.
+7844	nl	bril (gemaakt van insectenvleugels, gesneden uit hout etc.)	zn.
 7844	est	prillid	ns.
 7844	de	Brille (aus Insektenflügeln, geschnitztes Holz, etc.)	n.
 7848	ru	?????? ?????????	???.
@@ -11232,7 +11232,7 @@
 7848	hu	harci festék/festés	fn.
 7848	pl	barwy wojenne	rz.
 7848	eng	warpaint	n.
-7848	nl	oorlogsbeschildering	znw.
+7848	nl	oorlogsbeschildering	zn.
 7848	est	sõjamaskeering	ns.
 7848	de	Kriegsbemalung	n.
 7852	ru	???????	???.
@@ -11240,7 +11240,7 @@
 7852	hu	piercing/testékszer	fn.
 7852	pl	przek?ucie	rz.
 7852	eng	a piercing	n.
-7852	nl	piercing	znw.
+7852	nl	piercing	zn.
 7852	est	läbilõige	ns.
 7852	de	Piercing	n.
 7856	ru	??????	???.
@@ -11248,7 +11248,7 @@
 7856	hu	fülbevaló	fn.
 7856	pl	kolczyk (w uchu)	rz.
 7856	eng	earring	n.
-7856	nl	oorbel	znw.
+7856	nl	oorbel	zn.
 7856	est	kõrvarõngas	ns.
 7856	de	Ohrring	n.
 7860	ru	??????? ??????	???.
@@ -11256,7 +11256,7 @@
 7860	hu	orrgy?r?	fn.
 7860	pl	kolczyk (w nosie)	rz.
 7860	eng	nose ring	n.
-7860	nl	neusring	znw.
+7860	nl	neusring	zn.
 7860	est	ninarõngas	ns.
 7860	de	Nasenring	n.
 7864	ru	????????	???.
@@ -11336,7 +11336,7 @@
 7912	hu	azok a hírek	fn.
 7912	pl	wiadomo??, która	rz.
 7912	eng	that news	n.
-7912	nl	dat nieuws	znw.
+7912	nl	dat nieuws	zn.
 7912	est	uudist, mida)	ss.
 7912	de	Neuigkeit, die XYZ (indirekte FrageKonstruktion)	n.
 7916	ru	?????????	???.
@@ -11392,7 +11392,7 @@
 7940	hu	tudás	fn.
 7940	pl	wiedza	rz.
 7940	eng	knowledge	n.
-7940	nl	kennis	znw.
+7940	nl	kennis	zn.
 7940	est	teadmised (ainsus)	ns.
 7940	de	Wissen	n.
 7948	ru	??????	???.
@@ -11400,7 +11400,7 @@
 7948	hu	olvasás	fn.
 7948	pl	wyczucie	rz.
 7948	eng	reading	n.
-7948	nl	lezen	znw.
+7948	nl	lezen	zn.
 7948	est	lugemine	ns.
 7948	de	Lesen	n.
 7952	ru	?????	???.
@@ -11416,7 +11416,7 @@
 7956	hu	állatnyom, csapás (állaté vagy személyé)	fn.
 7956	pl	?lad, trop (zwierz?cia lub cz?owieka)	rz.
 7956	eng	track, trace (of animal or person)	n.
-7956	nl	spoor (van een dier of persoon)	znw.
+7956	nl	spoor (van een dier of persoon)	zn.
 7956	est	jälg (looma)	ns.
 7956	de	Spur, Fährte (von Tieren oder Menschen)	n.
 7960	ru	?????? (????, ???), ???????? ?????????? ????? ????????	???.
@@ -11440,7 +11440,7 @@
 7968	hu	az a válasz	fn.
 7968	pl	odpowied?, która	rz.
 7968	eng	that answer	n.
-7968	nl	dat antwoord	znw.
+7968	nl	dat antwoord	zn.
 7968	est	vastus, mis	ss.
 7968	de	dass (indirekte FrageKonstruktion)	n.
 7972	ru	???? ????? (???????)	???.
@@ -11448,7 +11448,7 @@
 7972	hu	az a válasz (jelölt alany)	fn.
 7972	pl	odpowied?, która (forma ergatywu)	rz.
 7972	eng	that answer (agentive)	n.
-7972	nl	dat antwoord (meew. voorw.)	znw.
+7972	nl	dat antwoord (agentief)	zn.
 7972	est	vastus, mis (aluse kääne)	ss.
 7972	de	dass (indirekte FrageKonstruktion im Agens)	n.
 7976	ru	???? ????? (???????????)	???.
@@ -11456,7 +11456,7 @@
 7976	hu	az a válasz (tárgyeset)	fn.
 7976	pl	odpowiedzi, która	rz.
 7976	eng	that answer (patientive)	n.
-7976	nl	dat antwoord (lijdend voorw.)	znw.
+7976	nl	dat antwoord (patientief)	zn.
 7976	est	vastust, mida	ss.
 7976	de	dass (indirekte FrageKonstruktion im Patiens)	n.
 7984	ru	??? ?????	???.
@@ -11464,7 +11464,7 @@
 7984	hu	ezek a szavak	fn.
 7984	pl	te s?owa	rz.
 7984	eng	these words	n.
-7984	nl	deze woorden	znw.
+7984	nl	deze woorden	zn.
 7984	est	neid sõnu, mida	ss.
 7984	de	diese Wörter, dass (indirekte FrageKonstruktion im Patiens)	n.
 7988	ru	???????????	???.
@@ -11472,7 +11472,7 @@
 7988	hu	ajánlat	fn.
 7988	pl	propozycja, oferta	rz.
 7988	eng	offer	n.
-7988	nl	aanbod	znw.
+7988	nl	aanbod	zn.
 7988	est	and	ns.
 7988	de	Angebot	n.
 7992	ru	?????????, ????????	???.
@@ -11480,7 +11480,7 @@
 7992	hu	bátorság, merészség	fn.
 7992	pl	odwaga	rz.
 7992	eng	courage, bravery	n.
-7992	nl	moed, dapperheid	znw.
+7992	nl	moed, dapperheid	zn.
 7992	est	vaprus, julgus	ns.
 7992	de	Mut, Tapferkeit, Courage	n.
 7996	ru	???????, ??????	????.
@@ -11528,7 +11528,7 @@
 8016	hu	elfogadás	fn.
 8016	pl	zgoda, przyj?cie, akceptacja	rz.
 8016	eng	acceptance	n.
-8016	nl	acceptatie	znw.
+8016	nl	acceptatie	zn.
 8016	est	vastu võtmine, aktsepteerimine	ns.
 8016	de	Akzeptanz	n.
 8020	ru	????? (? ???????)	????.
@@ -11672,7 +11672,7 @@
 8088	hu	információ	fn.
 8088	pl	informacja, wiadomo??	rz.
 8088	eng	(piece of) information	n.
-8088	nl	(stuk) informatie	znw.
+8088	nl	(stuk) informatie	zn.
 8088	est	infokild	ns.
 8088	de	Information	n.
 8092	ru	????????????	????.
@@ -11744,7 +11744,7 @@
 8132	hu	fásultság, lustaság	fn.
 8132	pl	apatia, ospa?o??	rz.
 8132	eng	lethargy, laziness	n.
-8132	nl	lethargie, luiheid	znw.
+8132	nl	lethargie, luiheid	zn.
 8132	est	tuimus, laiskus	ns.
 8132	de	Trägheit, Teilnahmslosigkeit, Lethargie	n.
 8136	ru	??????	???.
@@ -11752,7 +11752,7 @@
 8136	hu	sietség, igyekezet	fn.
 8136	pl	po?piech, gwa?t	rz.
 8136	eng	hurry, hurriedness, frenzy	n.
-8136	nl	haast, gehaastheid	znw.
+8136	nl	haast, gehaastheid	zn.
 8136	est	kiireloomulisus	ns.
 8136	de	Hast, Hetze, Raserei	n.
 8140	ru	?????????	????.
@@ -11800,7 +11800,7 @@
 8160	hu	zivatar, felh?szakadás	fn.
 8160	pl	burza, ulewa	rz.
 8160	eng	rainstorm, heavy rain	n.
-8160	nl	stortbui, zware regen	znw.
+8160	nl	stortbui, zware regen	zn.
 8160	est	tugev vihm	ns.
 8160	de	Regenguss, Regenschauer	n.
 8164	ru	????????	???.
@@ -11816,7 +11816,7 @@
 8168	hu	ölelés, karolás	fn.
 8168	pl	obj?cie, u?cisk	rz.
 8168	eng	hug, embrace	n.
-8168	nl	omhelzing	znw.
+8168	nl	omhelzing	zn.
 8168	est	kallistus, embus	ns.
 8168	de	Umarmung	n.
 8172	ru	???? ?????	???.
@@ -11848,7 +11848,7 @@
 8184	hu	féltékenység, irigység	fn.
 8184	pl	zazdro??, zawi??	rz.
 8184	eng	jealousy, envy	n.
-8184	nl	jalouzie, nijd	znw.
+8184	nl	jalouzie, nijd	zn.
 8184	est	kadedus	ns.
 8184	de	Neid, Eifersucht (neutral)	n.
 8188	ru	???????, ??????????	???.
@@ -11888,7 +11888,7 @@
 8204	hu	csók	fn.
 8204	pl	poca?unek	rz.
 8204	eng	kiss	n.
-8204	nl	kus	znw.
+8204	nl	kus	zn.
 8204	est	suudlus, musi	ns.
 8204	de	Kuss	n.
 8212	ru	???????	???.
@@ -11943,7 +11943,7 @@
 8236	hu	vastagság	fn.
 8236	pl	grubo??	rz.
 8236	eng	thickness	n.
-8236	nl	dikte.	znw.
+8236	nl	dikte	zn.
 8236	est	paksus	ns.
 8236	de	Dicke, Schichtdicke	n.
 8240	ru	???, ??	????.
@@ -11958,7 +11958,7 @@
 8244	hu	csapda	fn.
 8244	pl	pu?apka	rz.
 8244	eng	trap	n.
-8244	nl	val	znw.
+8244	nl	val	zn.
 8244	est	lõks	ns.
 8244	de	Falle	n.
 8248	ru	??????????	???.
@@ -11974,7 +11974,7 @@
 8252	hu	vesztes	fn.
 8252	pl	przegrany	rz.
 8252	eng	loser	n.
-8252	nl	verliezern	znw.
+8252	nl	verliezer	zn.
 8252	est	kaotaja	ns.
 8252	de	Verlierer	n.
 8256	ru	?????????? ?????????	?.
@@ -12003,7 +12003,7 @@
 8268	hu	találkozás résztvev?je	fn.
 8268	pl	uczestnik spotkania	rz.
 8268	eng	meeting participant	n.
-8268	nl	lid van een bijeenkomst	znw.
+8268	nl	lid van een bijeenkomst	zn.
 8268	est	kohtuja, kohtumises osaleja	ns.
 8268	de	Teilnehmer eines Treffens	n.
 8272	ru	??????????	???.
@@ -12048,7 +12048,7 @@
 8292	hu	repülés (repülés esete)	fn.
 8292	pl	lot (jednorazowy przelot)	rz.
 8292	eng	flight (an instance of flying)	n.
-8292	nl	vlucht (het vliegen)	znw.
+8292	nl	vlucht (het vliegen)	zn.
 8292	est	lend	ns.
 8292	de	Flug (Vorgang des Fliegens)	n.
 8296	ru	????????	???.
@@ -12097,7 +12097,7 @@
 8320	hu	visszhang	fn.
 8320	pl	echo	rz.
 8320	eng	echo	n.
-8320	nl	echo	znw.
+8320	nl	echo	zn.
 8320	est	kaja	ns.
 8320	de	Echo	n.
 8324	ru	??????	???.
@@ -12111,7 +12111,7 @@
 8328	hu	rím	fn.
 8328	pl	rym	rz.
 8328	eng	rhyme	n.
-8328	nl	rijm	znw.
+8328	nl	rijm	zn.
 8328	est	riim	ns.
 8328	de	Reim	n.
 8332	ru	??????? ?????	?????.
@@ -12174,28 +12174,28 @@
 8364	hu	humor	fn.
 8364	pl	humor	rz.
 8364	eng	humor	n.
-8364	nl	humor	znw.
+8364	nl	humor	zn.
 8364	est	huumor	ns.
 8364	de	Humor, Komik	n.
 8368	ru	???????	???.
 8368	hu	próba, kíséllet	fn.
 8368	pl	próba	rz.
 8368	eng	attempt	n.
-8368	nl	poging	znw.
+8368	nl	poging	zn.
 8368	est	katsetus, proov	ns.
 8368	de	Versuch	n.
 8372	ru	???????	???.
 8372	hu	valami humoros	fn.
 8372	pl	dowcip, kawa?, co? ?miesznego	rz.
 8372	eng	something humorous	n.
-8372	nl	iets leuks	znw.
+8372	nl	iets leuks	zn.
 8372	est	nali	ns.
 8372	de	etwas Lustiges, Komisches	n.
 8376	ru	???????	???.
 8376	hu	vicc, mulatságos történet	fn.
 8376	pl	?art, dowcip, zabawna historia	rz.
 8376	eng	joke, funny story	n.
-8376	nl	grapje, leuk verhaal	znw.
+8376	nl	grapje, leuk verhaal	zn.
 8376	est	nali, naljajutt, andekdoot	ns.
 8376	de	Witz, lustige Geschichte	n.
 8380	ru	????????, ???? ????	???.
@@ -12216,7 +12216,7 @@
 8396	hu	szerzemény, tulajdon	fn.
 8396	pl	nabytek, dorobek, zdobycz	rz.
 8396	eng	something acquired, an acquisition, a possession	n.
-8396	nl	iets dat verschaft/verkregen is, een bezitting	znw.
+8396	nl	iets dat verschaft/verkregen is, een bezitting	zn.
 8396	est	omandatud asi, omand	ns.
 8396	de	etwas Erhaltenes, Bekommenes	n.
 8400	ru	????????	???.
@@ -12265,7 +12265,7 @@
 8424	hu	vereség, legy?zöttség	fn.
 8424	pl	pokonanie, podbój	rz.
 8424	eng	defeat, an instance of defeat	n.
-8424	nl	verslaan, het verslaan	znw.
+8424	nl	verslaan, een verlies	zn.
 8424	est	kaotus, kui ollakse alistatud	ns.
 8424	de	Niederlage, Sieg (über jemanden)	n.
 8428	ru	????????	????.
@@ -12293,7 +12293,7 @@
 8440	hu	cukiság, kedvesség	fn.
 8440	pl	czar, powab	rz.
 8440	eng	cuteness, adorableness	n.
-8440	nl	leukheid, schattigheid	znw.
+8440	nl	leukheid, schattigheid	zn.
 8440	est	imetlusväärsus	ns.
 8440	de	Niedlichkeit, Liebenswertheit	n.
 8444	ru	?????????	?????.
@@ -12342,7 +12342,7 @@
 8468	hu	megbízhatóság	fn.
 8468	pl	wiarygodno??, pewno??, solidno??	rz.
 8468	eng	trustworthiness	n.
-8468	nl	betrouwbaarheid	znw.
+8468	nl	betrouwbaarheid	zn.
 8468	est	usaldusväärsus	ns.
 8468	de	Glaubhaftigkeit, Vertrauenswürdigkeit	n.
 8472	ru	????????, ??????????	???.
@@ -12352,13 +12352,6 @@
 8472	nl	begraven	wwo.
 8472	est	matma	tgstu.
 8472	de	vergraben, beerdigen	vtr.
-8476	ru	???????????, ???????????	???.
-8476	hu	mászik, megmászik (egész testét felhúzza)	i.(t)
-8476	pl	wspina? si?	cz. prz.
-8476	eng	climb, scale (pulling entire body up)	vtr.
-8476	nl	klimmen, beklimmen (met hele lichaam)	wwo.
-8476	est	ronima	tgsne.
-8476	de	erklimmen, (er)klettern (mit Einsatz des ganzen Körpers)	vtr.
 8480	ru	??????????	???.
 8480	hu	mászva	hsz.
 8480	pl	wspinaj?c si?	przys?.
@@ -12370,7 +12363,7 @@
 8484	hu	mászás, megmászás	fn.
 8484	pl	wspinaczka, zdobycie szczytu	rz.
 8484	eng	climbing event, a climb	n.
-8484	nl	klimevenement, een klim	znw.
+8484	nl	klimevenement, een klim	zn.
 8484	est	ronimine	ns.
 8484	de	Klettern, Erklimmen	n.
 8488	ru	??????	???.
@@ -12384,27 +12377,27 @@
 8492	hu	b?r (anyag)	fn.
 8492	pl	skóra (wyprawiona)	rz.
 8492	eng	leather	n.
-8492	nl	leer, leder	znw.
+8492	nl	leer, leder	zn.
 8492	est	nahk (esemetel)	ns.
 8492	de	Leder	n.
 8496	ru	?????	???.
 8496	hu	inda	fn.
 8496	eng	hanging vine	n.
-8496	nl	hangende rank	znw.
+8496	nl	hangende liaan	zn.
 8496	est	rippuv marjapõõsas	ns.
 8496	de	Liane, Kletterpflanze	n.
 8500	ru	?????	???.
 8500	hu	könny	fn.
 8500	pl	?zy	rz.
 8500	eng	tears	n.
-8500	nl	tranen	znw
+8500	nl	tranen	zn.
 8500	est	pisarad	ns.
 8500	de	Tränen	n.
 8504	ru	????????	???.
 8504	hu	könnycsepp	fn.
 8504	pl	?za	rz.
 8504	eng	teardrop	n.
-8504	nl	traan	znw.
+8504	nl	traan	zn.
 8504	est	pisar	ns.
 8504	de	Träne	n.
 8508	ru	????	???.
@@ -12467,7 +12460,7 @@
 8540	hu	tisztelet	fn.
 8540	pl	szacunek	rz.
 8540	eng	respect	n.
-8540	nl	respect	znw.
+8540	nl	respect	zn.
 8540	est	austus, respekt	ns.
 8540	de	Respekt	n.
 8544	ru	???????	?????.
@@ -12481,14 +12474,14 @@
 8548	hu	bemutató, kiállítás	fn.
 8548	pl	pokaz, wystawa	rz.
 8548	eng	a showing, an exhibition	n.
-8548	nl	een vertoning, tentoonstelling	znw.
+8548	nl	vertoning, tentoonstelling	zn.
 8548	est	näitus, näitamine	ns.
 8548	de	Ausstellung, Vorführung, Schau	n.
 8552	ru	?????????	???.
 8552	hu	befejezés	fn.
 8552	pl	zako?czenie, wiosek	rz.
 8552	eng	ending, conclusion	n.
-8552	nl	einde, conclusie	znw.
+8552	nl	einde, conclusie	zn.
 8552	est	lõpp	ns.
 8552	de	Ende, Abschluss	n.
 8556	ru	???????? (? ??????????)	?????.
@@ -12509,14 +12502,14 @@
 8564	hu	völgy	fn.
 8564	pl	dolina	rz.
 8564	eng	valley	n.
-8564	nl	vallei	znw.
+8564	nl	vallei	zn.
 8564	est	org	ns.
 8564	de	Tal	n.
 8568	ru	???	???.
 8568	hu	gödröcske (arcon)	fn.
 8568	pl	do?eczek (na policzku, twarzy)	rz.
 8568	eng	dimple	n.
-8568	nl	kuil(tje)	znw.
+8568	nl	kuil(tje)	zn.
 8568	est	süvend, lohk	ns.
 8568	de	Grübchen	n.
 8572	ru	???? ?????????	?????.
@@ -12558,14 +12551,14 @@
 8592	hu	sziget	fn.
 8592	pl	wyspa	rz.
 8592	eng	island	n.
-8592	nl	eiland	znw.
+8592	nl	eiland	zn.
 8592	est	saar	ns.
 8592	de	Insel	n.
 8596	ru	????	???.
 8596	hu	határ, széle vminek, szegély, vég	fn.
 8596	pl	kraw?d?, brzeg, granic, koniec	rz.
 8596	eng	edge, brink, limit, border, end	n.
-8596	nl	hoek, rand, limiet, grens, einde	znw.
+8596	nl	hoek, rand, limiet, grens, einde	zn.
 8596	est	äär, piir	ns.
 8596	de	Rand, Kante, Grenze, Ende, Limit	n.
 8600	ru	???????????	????.
@@ -12663,21 +12656,21 @@
 8652	hu	felszín, felület	fn.
 8652	pl	powierzchnia	rz.
 8652	eng	surface	n.
-8652	nl	oppervlak	znw.
+8652	nl	oppervlak	zn.
 8652	est	pind, kate	ns.
 8652	de	Oberfläche	n.
 8656	ru	?????, ???????????? ???????????	???.
 8656	hu	fal, függ?leges felület	fn.
 8656	pl	sciana, powierzchnia pionowa	rz.
 8656	eng	wall, vertical surface	n.
-8656	nl	muur, verticaal oppervlak	znw.
+8656	nl	muur, verticaal oppervlak	zn.
 8656	est	sein, vertikaalne pind	ns.
 8656	de	Wand, vertikale Oberfläche	n.
 8660	ru	??????? ? ?????	???.
 8660	hu	(meg)fog, kézben tart, markol	i.(t)
 8660	pl	trzyma?, chwyta?	cz. prz.
 8660	eng	hold in the hand, grasp, grip	vtr.
-8660	nl	vasthouden, in de hand houden	wwo.
+8660	nl	vasthouden, in de hand houden, vastgrijpen	wwo.
 8660	est	käes hoidma, haardes hoidma	tgsne.
 8660	de	(in der Hand) halten, fassen	vtr.
 8664	ru	??????????	???.
@@ -12719,35 +12712,35 @@
 8684	hu	fogantyú, kilincs	fn.
 8684	pl	uchwyt	rz.
 8684	eng	handle	n.
-8684	nl	hendel	znw.
+8684	nl	hendel	zn.
 8684	est	käepide, sang vms.	ns.
 8684	de	Griff	n.
 8688	ru	?????????? (????????????, ????????? ??? ???????????)	???.
 8688	hu	támogat (érzelmileg, szociálisan vagy személyesen)	i.(t)
 8688	pl	wspiera? (emocjoalnie, spo?ecznie lub osobi?cie)	cz. prz.
 8688	eng	support (emotional, social or personal support)	vtr.
-8688	nl	steunen (emotioneel, sociaal, persoonlijk)	wwo.
+8688	nl	steunen (emotioneel, sociaal of persoonlijk)	wwo.
 8688	est	toetama, abistama (emotsionaalselt, sotsiaalselt)	tgsne.
 8688	de	unterstützen (emotional, sozial oder persönlich)	vtr.
 8692	ru	????????? (?????????????, ?????????? ??? ????????????)	???.
 8692	hu	támogatás (érzelmi, szociális vagy személyes)	fn.
 8692	pl	wsparcie (emocjonalne, spo?eczne lub osobiste)	rz.
 8692	eng	support (emotional, social or personal support)	n.
-8692	nl	steun (emotioneel, sociaal, persoonlijk)	znw.
+8692	nl	steun (emotioneel, sociaal, persoonlijk)	zn.
 8692	est	tugi, abi (emotsionaalne, sotsiaalne) (inimeste kohta)	ns.
 8692	de	Unterstützung (emotional, sozial oder persönlich)	n.
 8696	ru	?????????	???.
 8696	hu	vezet?ség	fn.
 8696	pl	przywództwo	rz.
 8696	eng	leadership	n.
-8696	nl	leiderschap	znw.
+8696	nl	leiderschap	zn.
 8696	est	juhikoht, juhtimine	ns.
 8696	de	Führung, Anführerschaft	n.
 8700	ru	?????	???.
 8700	hu	csíp?	fn.
 8700	pl	biodro	rz.
 8700	eng	hip	n.
-8700	nl	heup	znw.
+8700	nl	heup	zn.
 8700	est	puus	ns.
 8700	de	Hüfte	n.
 8704	ru	???, ?????	???.
@@ -12761,21 +12754,21 @@
 8708	hu	arc, orca	fn.
 8708	pl	policzek	rz.
 8708	eng	cheek	n.
-8708	nl	wang	znw.
+8708	nl	wang	zn.
 8708	est	põsk	ns.
 8708	de	Wange	n.
 8712	ru	?????	???.
 8712	hu	(anya)méh	fn.
 8712	pl	?ono	rz.
 8712	eng	womb	n.
-8712	nl	baarmoeder	znw.
+8712	nl	baarmoeder	zn.
 8712	est	süli, rüpp (või ka emakas)	ns.
 8712	de	Schoß, Unterleib, Mutterleib	n.
 8716	ru	?????	???.
 8716	hu	köldök	fn.
 8716	pl	p?pek	rz.
 8716	eng	navel	n.
-8716	nl	navel	znw,
+8716	nl	navel	zn.
 8716	est	naba	ns.
 8716	de	Bauchnabel, Nabel	n.
 8720	ru	????	???.
@@ -12789,7 +12782,7 @@
 8732	hu	lélegzet	fn.
 8732	pl	oddech	rz.
 8732	eng	breath	n.
-8732	nl	adem	znw.
+8732	nl	adem	zn.
 8732	est	hingus, hingetõmme	ns.
 8732	de	Atem	n.
 8736	ru	??????	?????.
@@ -12802,15 +12795,15 @@
 8740	ru	???, ? ????	????.
 8740	hu	mint, ... szerepében	told.
 8740	pl	jako, w roli	przyim.
-8740	eng	as, in the capacity of, in the role of	adp.
-8740	nl	als, in de rol van	adp.
+8740	eng	something as, in the capacity of, or in the role of, something else	adp.
+8740	nl	iets als, met de capaciteit van/in de rol van iets anders	adp.
 8740	est	olev kääne (kellegina, millegina)	ks.
-8740	de	als, in der Rolle als, in der Eigenschaft als	adp.
+8740	de	(etwas, jemand) als (etwas, jemand anderes), in der Rolle als, in der Eigenschaft als	adp.
 8744	ru	??????, ?????????, ????????	???.
 8744	hu	készlet, csoport, halom, rakás	fn.
 8744	pl	zbiór, grupa, sterta, przedzia?	rz.
 8744	eng	set, group, pile, clump, stand	n.
-8744	nl	set, groep, stapel, kluit	znw.
+8744	nl	set, groep, stapel, kluit	zn.
 8744	est	grupp, kogumik, hulk, kogum (elutu kohta)	ns.
 8744	de	Satz (von Objekten), Gruppe, Haufen, Klumpen, Bestand (von Bäumen)	n.
 8748	ru	??????	???.
@@ -12831,21 +12824,21 @@
 8756	hu	csillagkép	fn.
 8756	pl	gwiazdozbiór	rz.
 8756	eng	constellation	n.
-8756	nl	sterrenstelsel	znw.
+8756	nl	sterrenstelsel	zn.
 8756	est	tähtkuju	ns.
 8756	de	Konstellation, Sternkonstellation	n.
 8760	ru	????????? (????????? ????????? ?????)	???.
 8760	hu	gy?jtemény (személy által szándékosan összerakott)	fn.
 8760	pl	zbiór, kolekcja (zebrane przez kogo? celowo)	rz.
 8760	eng	collection (put together intentionally by a person)	n.
-8760	nl	collectie (met opzet door iemand bij elkaar gebracht)	zn.
+8760	nl	collectie (doelbewust door iemand bij elkaar gebracht)	zn.
 8760	est	kogum, kogumik (teadlikult kokku pandud kellegi poolt)	ns.
 8760	de	Zusammenstellung, Sammlung (gewollt von einer Person)	n.
 8764	ru	???????????	???.
 8764	hu	képesség	fn.
 8764	pl	zdolno??	rz.
 8764	eng	ability	n.
-8764	nl	kunde, kunnen	znw.
+8764	nl	kunde, kunnen	zn.
 8764	est	oskus, võime	ns.
 8764	de	Fähigkeit, Können	n.
 8768	ru	?????	????
@@ -12866,14 +12859,14 @@
 8776	hu	ködfolt	fn.
 8776	pl	ob?oczek	rz.
 8776	eng	nebula	n.
-8776	nl	nevel	znw.
+8776	nl	nevel	zn.
 8776	est	udukogu	ns.
 8776	de	Nebel(wolke)	n.
 8792	ru	?????? (??????????)	???.
 8792	hu	halál (elvont értelemben)	fn.
 8792	pl	?mier? (poj?cie abstrakcyjne)	rz.
 8792	eng	death (in abstract sense)	n.
-8792	nl	dood (abstracte vorm)	znw.
+8792	nl	dood (abstracte vorm)	zn.
 8792	est	surm (abstraktne) (surm on paratamatu)	ns.
 8792	de	Sterben, Tod (abstrakt)	n.
 8796	ru	????????	???.
@@ -12901,7 +12894,7 @@
 8812	hu	beszéd, szónoklat	fn.
 8812	pl	mowa, przemówienie	rz.
 8812	eng	speech, oration	n.
-8812	nl	toespraak	znw.
+8812	nl	toespraak	zn.
 8812	est	kõne, jutlus	ns.
 8812	de	Rede, Ansprache	n.
 8816	ru	???????????????	???.
@@ -12909,13 +12902,13 @@
 8816	pl	przemawianie, wyg?oszenie mowy	rz.
 8816	eng	speechmaking, public speaking	n.
 8816	nl	toespreken, speechen (specifiek geval)	zn.
-8816	est	kõnelemine	ns.
+8816	est	kõnelemine, avalik kõnelemine	ns.
 8816	de	öffentliches Reden	n.
 8820	ru	????????????	???.
 8820	hu	inspiráció, ihlet	fn.
 8820	pl	natchnienie	rz.
 8820	eng	inspiration	n.
-8820	nl	inspiratie	znw.
+8820	nl	inspiratie	zn.
 8820	est	inspiratsioon	ns.
 8820	de	Inspiration, Eingebung	n.
 8824	ru	???????????	?????.
@@ -12929,7 +12922,7 @@
 8828	hu	eredmény	fn.
 8828	pl	wynik, rezultat	rz.
 8828	eng	result	n.
-8828	nl	resultaat	znw.
+8828	nl	resultaat	zn.
 8828	est	tulemus, järeldus	ns.
 8828	de	Ergebnis, Resultat	n.
 8836	ru	??? (??? ?????????)	????
@@ -12950,7 +12943,7 @@
 8844	hu	lepecsétel, hozzáférhetetlenné tesz	i.(t)
 8844	pl	zapiecz?towa?, zaimpregnowa?	cz. prz.
 8844	eng	seal, make impervious	vtr.
-8844	nl	bezegelen, voor altijd afspreken	wwo.
+8844	nl	verzegelen, ondoordringbaar maken	wwo.
 8844	est	tugevasti sulgema, kinni panema, kinnitama	tgsne.
 8844	de	versiegeln, verschließen, abdichten, undurchlässig machen	vtr.
 8848	ru	??????	????.
@@ -12971,7 +12964,7 @@
 8856	hu	vezet? (ideiglenesen, kisebb csoporté pl. vadászoké)	fn.
 8856	pl	dowódca, kapitan (najcz??ciej chwilowy, ma?ej ilo?ci osób jak grupa mysliwych)	rz.
 8856	eng	leader (typically temporary, of a small group like a hunting party)	n.
-8856	nl	leider (tijdelijk, b.v. van een kleine groep als een jachtgroep)	znw.
+8856	nl	leider (tijdelijk, b.v. van een kleine groep als een jachtgroep)	zn.
 8856	est	juht (ajutine, näiteks jahi ajal)	ns.
 8856	de	Anführer (meist einer kleinen Gruppe oder Jägertrupp)	n.
 8860	ru	???????????	????.
@@ -13041,7 +13034,7 @@
 8900	hu	aaa	aaa
 8900	pl	szeroko??	rz.
 8900	eng	width	n.
-8900	nl	breedte	znw.
+8900	nl	breedte	zn.
 8900	est	laius	ns.
 8900	de	Weite, Breite	n.
 8904	ru	??? ??????	????.
@@ -13111,49 +13104,49 @@
 8940	hu	jöv? év	fn.
 8940	pl	przysz?y rok	rz.
 8940	eng	next year	n.
-8940	nl	volgend jaar	znw.
+8940	nl	volgend jaar	zn.
 8940	est	järgmine aasta	ns.
 8940	de	nächstes Jahr	n.
 8944	ru	???????????	???.
 8944	hu	lehet?ség	fn.
 8944	pl	mo?liwo??	rz.
 8944	eng	possibility	n.
-8944	nl	mogelijkheid	znw.
+8944	nl	mogelijkheid	zn.
 8944	est	võimalus	ns.
 8944	de	Möglichkeit	n.
 8948	ru	????? (?????? ????????)	???.
 8948	hu	tanóra	fn.
 8948	pl	klasa (grupa ludzi ucz?cych si?)	rz.
 8948	eng	class (for instruction)	n.
-8948	nl	les (voor instructie)	znw.
+8948	nl	les (voor instructie)	zn.
 8948	est	klass (koolis)	ns.
 8948	de	Klasse, Schulklasse, Lerngruppe	n.
 8952	ru	???? ??????	???.
 8952	hu	osztálytárs, egy osztály tagja	fn.
 8952	pl	kolega z klasy, cz?onek klasy	rz.
 8952	eng	classmate, member of a class	n.
-8952	nl	klasgenoot	znw.
+8952	nl	klasgenoot	zn.
 8952	est	klassikaaslane	ns.
 8952	de	Klassenkamerad, Teilnehmer einer Klasse/Lerngruppe	n.
 8956	ru	???? (???????????? ???????)	???.
 8956	hu	tanfolyam, kurzus (tanórák sorozata)	fn.
 8956	pl	kurs (zbiór klas)	rz.
 8956	eng	course (as a collection of classes)	n.
-8956	nl	cursus (serie lessen)	znw.
+8956	nl	cursus (serie lessen)	zn.
 8956	est	tund (koolis), loeng	ns.
 8956	de	Kurs, Lehrveranstaltung	n.
 8960	ru	??????????	???.
 8960	hu	siker (általánosságban)	fn.
 8960	pl	sukces, powodzenie (w poj?ciu ugólnym)	rz.
 8960	eng	success (in general)	n.
-8960	nl	succes (algemeen)	znw.
+8960	nl	succes (algemeen)	zn.
 8960	est	edu (üldine)	ns.
 8960	de	das Erfolghaben (allgemein)	n.
 8964	ru	?????	???.
 8964	hu	siker (konkrét dologban)	fn.
 8964	pl	sukces, powodzenie (jednorazowe zakonczenie czego? powodzeniem)	rz.
 8964	eng	success (an instance of succeeding)	n.
-8964	nl	succes (een moment van succes)	znw.
+8964	nl	succes (een moment van succes)	zn.
 8964	est	edu (mingi sündmusega)	ns.
 8964	de	Erfolg	n.
 8968	ru	?????????????	???.
@@ -13230,14 +13223,14 @@
 9008	hu	f?	fn.
 9008	pl	trawa	rz.
 9008	eng	grass	n.
-9008	nl	gras	znw.
+9008	nl	gras	zn.
 9008	est	muru, rohi	ns.
 9008	de	Gras	n.
 9012	ru	??????? ?????	???.
 9012	hu	f?szál	fn.
 9012	pl	?d?b?o	rz.
 9012	eng	blade of grass	n.
-9012	nl	grasspriet	znw.
+9012	nl	grasspriet	zn.
 9012	est	rohulible	ns.
 9012	de	Grashalm	n.
 9016	ru	????????	????.
@@ -13265,49 +13258,49 @@
 9028	hu	vihar	fn.
 9028	pl	burza	rz.
 9028	eng	storm	n.
-9028	nl	storm	znw.
+9028	nl	storm	zn.
 9028	est	torm	ns.
 9028	de	Sturm, Unwetter, Gewitter	n.
 9032	ru	????	???.
 9032	hu	mennydörgés	fn.
 9032	pl	grom	rz.
 9032	eng	thunder	n.
-9032	nl	donder, onweer	znw.
+9032	nl	donder, onweer	zn.
 9032	est	kõu	ns.
 9032	de	Donner	n.
 9036	ru	??????	???.
 9036	hu	villámlás (általános kifejezés)	fn.
 9036	pl	b?yskawica	rz.
 9036	eng	lightning (general term)	n.
-9036	nl	bliksem (algemene uitdrukking)	znw.
+9036	nl	bliksem (algemene uitdrukking)	zn.
 9036	est	äike	ns.
 9036	de	Blitzen (allgemein)	n.
 9040	ru	???? ? ??????	???.
 9040	hu	villámlásmennydörgés	fn.
 9040	pl	piorun (grom i b?yskawica)	rz.
 9040	eng	thunder and lightning	n.
-9040	nl	donder en bliksem	znw.
+9040	nl	donder en bliksem	zn.
 9040	est	äike ja müristamine	ns.
 9040	de	Blitz und Donner	n.
 9044	ru	?????? ???????	???.
 9044	hu	egyedülállóan magas, vékony vízesés, amely magas szikláról vagy lebeg? hegyr?l folyik le (megszámlálható)	fn.
 9044	pl	pojedynczy, wysoki, w?ski wodospad wyp?ywaj?cy z wysokiego, poinowego klifu lub z dryfuj?cych gór (policzalny)	rz.
 9044	eng	an individual tall, thin waterfall that pours down a sheer high cliff, or off of a floating mountain (countable)	n.
-9044	nl	een aparte hoge smalle waterval die van een hoge klip of een zwevende berg stroomt (telbaar)	znw.
+9044	nl	een aparte hoge smalle waterval die van een hoge klip of een zwevende berg stroomt (telbaar)	zn.
 9044	est	üksik pikk juga või kosk, mis voolab kaljult või Hõljuvatelt Mägedelt (loendatav)	ns.
 9044	de	einzelner hoher, dünner Wasserfall, der sich von einer hohen Klippe oder einem Schwebenden Berg ergießt (zählbar)	n.
 9048	ru	????? ?????? ?????????	???.
 9048	hu	er?s vízesés, jellemz?i: fültép? hangja és halálos ereje (megszámlálható, de csak ritkán)	fn.
 9048	pl	zespó? pot?znych wodospadów charakteryzuj?cych sie olbrzymi? si?? i og?uszaj?cym hukiem (rzadko traktowany jako policzalny)	rz.
 9048	eng	a wall or bank of powerful waterfalls noted for its deafening roar and deadly force (countable, but only rarely)	n.
-9048	nl	een brede bank krachtige watervallen, bekend om de oorverdovende en dodelijke kracht (telbaar, maar komt zelden voor)	znw.
+9048	nl	een brede bank krachtige watervallen, bekend om de oorverdovende en dodelijke kracht (telbaar, maar komt zelden voor)	zn.
 9048	est	Suured kosed, mis on väga tugeva vooluga (loendatav, kuid harva)	ns.
 9048	de	eine Wand oder Ufer von mächtigen Fällen, auffallend durch ihr ohrenbetäubendes Tosen und ihre tödliche Kraft (zählbar, aber selten)	n.
 9052	ru	?????????????????? ????????? ?????? ??????, ?????????????????? ??????	???.
 9052	hu	egy csepp vagy kisebb vízesések sorozata, amelyek egy folyamból vagy tavakból folynak (megszámlálható)	fn.
 9052	pl	pojedynczy wodospad lub seria mniejszych wyp?ywaj?cych kolejno wzd?u? strumienia lub grupy akwenów (policzalny)	rz.
 9052	eng	a single drop or series of smaller waterfalls occurring sequentially along a stream or series of pools (countable)	n.
-9052	nl	een enkele, of serie van kleinere watervallen, natuurlijk voorkomend langs een stroom of serie plassen (telbaar)	znw.
+9052	nl	een enkele, of serie van kleinere watervallen, natuurlijk voorkomend langs een stroom of serie plassen (telbaar)	zn.
 9052	est	väiksemad kosed, kus vesi langeb astmeliselt	ns.
 9052	de	eine einzelne Fallhöhe oder Folge von kleineren Fällen, die nacheinander in einem Strom oder in einer Reihe von Becken auftreten (zählbar)	n.
 9056	ru	????????? ????	???.
@@ -13321,7 +13314,7 @@
 9060	hu	vadvízi zuhatag (megszámlálható, de csak ritkán)	fn.
 9060	pl	bystrze (rzadko traktowany jako policzalny)	rz.
 9060	eng	whitewater rapids (countable, but only rarely)	n.
-9060	nl	stroomversnelling (telbaar, komt zelden voor)	znw.
+9060	nl	stroomversnelling (telbaar, komt zelden voor)	zn.
 9060	est	kärestik (loendatav, kuid harva)	ns.
 9060	de	Wildwasserstrom, Stromschnellen (zählbar, aber selten)	n.
 9064	ru	????????	???.
@@ -13342,7 +13335,7 @@
 9072	hu	elágazó villám	fn.
 9072	pl	b?yskawica zygzakowata	rz.
 9072	eng	forked lightning	n.
-9072	nl	gevorkt weerlicht/bliksem	znw.
+9072	nl	gevorkte bliksem	zn.
 9072	est	ahelvälk	ns.
 9072	de	Blitz, gegabelter Blitz	n.
 9080	ru	?????????	???.
@@ -13376,7 +13369,7 @@
 9096	hu	büszkeség	fn.
 9096	pl	duma, uczucie dumy	rz.
 9096	eng	pride, feeling of pride	n.
-9096	nl	trots, gevoel van trots	znw.
+9096	nl	trots, gevoel van trots	zn.
 9096	est	uhkus, uhke tunne	ns.
 9096	de	Stolz, Gefühl von Stolz	n.
 9100	ru	??????	????.
@@ -13397,7 +13390,7 @@
 9108	hu	önteltség, önelégültség	fn.
 9108	pl	pycha, samozachwyt (znaczenie negatywne)	rz.
 9108	eng	selfpride (negative connotation)	n.
-9108	nl	zelftrots (negatieve benadering)	znw.
+9108	nl	zelftrots (negatieve benadering)	zn.
 9108	est	eneseuhkus (negatiivne alatoon)	ns.
 9108	de	Arroganz, Hochmut, SelbstStolz	n.
 9112	ru	?????????	????.
@@ -13414,25 +13407,18 @@
 9116	nl	gloeien, lichtgevend zijn	wwn.
 9116	est	helendama, kumama	tgstu.
 9116	de	glühen, leuchten, glimmen	vin.
-9120	ru	?????	???.
-9120	hu	ragyogás, fény	fn.
-9120	pl	l?nienie	rz.
-9120	eng	glow, an instance of glowing	n.
-9120	nl	gloed	zn.
-9120	est	helendus	ns.
-9120	de	Glühen, Leuchten, Glimmer	n.
 9124	ru	???????????? ?????	???.
 9124	hu	közös t?z vagy t?zhely	fn.
 9124	pl	palenisko, miejsce ogniskowe	rz.
 9124	eng	communal fire or fire pit	n.
-9124	nl	gezamenlijk vuur of vuurplek	znw.
+9124	nl	gezamenlijk vuur of vuurplek	zn.
 9124	est	ühislõkkeplats	ns.
 9124	de	kommunales Feuer, Feuerstelle (an der die Navi gemeinsam essen)	n.
 9128	ru	????? ??????? ????	???.
 9128	hu	t?zhely, t?z helye	fn.
 9128	pl	palenisko, miejsce ogniska	rz.
 9128	eng	place where a fire is burning or has burned	n.
-9128	nl	plek waar vuur brandt of heeft gebrand	znw.
+9128	nl	plek waar vuur brandt of heeft gebrand	zn.
 9128	est	koht, mis põleb, lõkkekoht	ns.
 9128	de	Feuerstelle (allgemein), Stelle, an der ein Feuer brennt oder brannte	n.
 9132	ru	????????????	????.
@@ -13446,7 +13432,7 @@
 9136	hu	pár	fn.
 9136	pl	para	rz.
 9136	eng	pair	n.
-9136	nl	paar	znw.
+9136	nl	paar	zn.
 9136	est	paar	ns.
 9136	de	Paar (von etwas)	n.
 9144	ru	???????	????.
@@ -13467,14 +13453,14 @@
 9152	hu	k?edény, mérges rovar tárolására	fn.
 9152	pl	kamienny dzban do trzymania jadowitych paj?czaków	rz.
 9152	eng	stone jar used to hold small toxic arachnid	n.
-9152	nl	stenen pot die een kleine giftige spinachtige bevat	znw.
+9152	nl	stenen pot die een kleine giftige spinachtige bevat	zn.
 9152	est	kivist purk mürgise ämbliku jaoks	ns.
 9152	de	Steinkrug, Steingefäß, um giftige Spinnentiere aufzubewahren	n.
 9156	ru	??????? ?????????	???.
 9156	hu	összetettség foka	fn.
 9156	pl	z?o?ono??	rz.
 9156	eng	degree of complexity	n.
-9156	nl	graad van complexiteit	znw.
+9156	nl	graad van complexiteit	zn.
 9156	est	raskusaste	ns.
 9156	de	Komplexität, Grad an Komplexität	n.
 9160	ru	??? ???????	????.
@@ -13837,36 +13823,36 @@
 9380	ru	?????? (?? ?????????)	???.
 9380	hu	érez (szagot!)	i.(t)
 9380	pl	czu? (zapach)	cz. prz.
-9380	eng	smell (not intentially)	vtr.
-9380	nl	ruiken (niet met voorbedachte rade)	wwo.
+9380	eng	smell (not intentionally)	vtr.
+9380	nl	ruiken (niet doelbewust)	wwo.
 9380	est	tundma (lõhna, haisu)	tgsne.
 9380	de	riechen (ungewollt)	vtr.
 9384	ru	????????? ?? ???? (?? ?????????)	???.
 9384	hu	i.(t)	ewku
 9384	pl	odczuwa? smak (czego?)	cz. prz.
 9384	eng	taste (not intentionally)	vtr.
-9384	nl	proeven (onbewust)	wwo.
+9384	nl	proeven (niet doelbewust)	wwo.
 9384	est	maitset tundma	tgsne.
 9384	de	schmecken (ungewollt)	vtr.
 9388	ru	??????? (?? ?????????)	???.
 9388	hu	érez (érintéssel!)	i.(t)
 9388	pl	czu? (w sposób niezamierzony)	cz. prz.
-9388	eng	feel (not intentially)	vtr.
-9388	nl	voelen (niet met voorbedachte rade)	wwo.
+9388	eng	feel (not intentionally)	vtr.
+9388	nl	voelen (niet doelbewust)	wwo.
 9388	est	tundma, tunnetama (mitte sihilikult)	tgsne.
 9388	de	fühlen (ungewollt)	vtr.
 9392	ru	??????? (?????????)	???.
 9392	hu	hallgat (figyel valamilyen hangra)	i.(t)
 9392	pl	s?ucha?, nas?uchiwa?	cz. prz.
 9392	eng	listen to (intentionally)	vtr.
-9392	nl	luisteren naar (bewust)	wwo.
+9392	nl	luisteren naar (doelbewust)	wwo.
 9392	est	kuulama (sihilikult)	tgsne.
 9392	de	zuhören, hinhören, anhören	vtr.
 9396	ru	?????? (?????????)	???.
 9396	hu	szagol	i.(t)
 9396	pl	w?cha?	cz. prz.
-9396	eng	to smell (intentially)	vtr.
-9396	nl	ruiken (met voorbedachte rade)	wwo.
+9396	eng	to smell (intentionally)	vtr.
+9396	nl	ruiken (doelbewust)	wwo.
 9396	est	nuusutama	tgsne.
 9396	de	riechen (gewollt)	vtr.
 9400	ru	??????? ???	???.
@@ -14105,7 +14091,7 @@
 9536	pl	niepokoj?cy, dokuczliwy	przym.
 9536	eng	worrisome, troubling	adj.
 9536	nl	zorgelijk, zorgbarend	bn.
-9536	est	murerohke	oms.
+9536	est	muretsema ajav, murelikuks tegev	oms.
 9536	de	besorgniserregend, beunruhigend	adj.
 9540	ru	?????????	????.
 9540	hu	zavaros, zavarbaejt?	mn.
@@ -15024,14 +15010,14 @@
 10232	nl	zich zorgen maken	wwn.
 10232	est	muretsema	tgstu.
 10232	de	sorgen, sich sorgen, beunruhigt sein	vin.
-10236	eng	noise$$ ugly or unpleasant sound, screech	n.
-10236	nl	lawaai$$ onaangenaam of schel geluid	zn.
+10236	eng	noise. ugly or unpleasant sound, screech	n.
+10236	nl	lawaai, onaangenaam of schel geluid	zn.
 10236	est	kole või ebameeldiv heli, kriiksumine	ns.
-10236	de	Lärm$$ schlimmes oder unangenehmes Geräusch, Kreischen	n.
-10240	eng	noise$$ sound that is excessive, unnecessary, inappropriate, unextepected or startling	n.
-10240	nl	lawaai$$ een excessief, onnodig, ongepast, onverwachts of ontstellend geluid	zn.
-10240	est	heli, mis on liigne, ebavajalik, mõttetu	ns.
-10240	de	Lärm$$ Geräusch, das zu stark, unnötig, unangebracht, unerwartet oder überraschend ist	n.
+10236	de	Lärm, schlimmes oder unangenehmes Geräusch, Kreischen	n.
+10240	eng	noise. sound that is excessive, unnecessary, inappropriate, unexpected or startling	n.
+10240	nl	lawaai, een excessief, onnodig, ongepast, onverwachts of ontstellend geluid	zn.
+10240	est	müra; heli, mis on liigne, ebavajalik, mõttetu	ns.
+10240	de	Lärm, Geräusch, das zu stark, unnötig, unangebracht, unerwartet oder überraschend ist	n.
 10244	eng	noisy	adj.
 10244	nl	lawaaierig	bn.
 10244	est	lärmakas	oms.
@@ -15108,6 +15094,269 @@
 10324	nl	creatie	zn.
 10324	est	looming, teos	ns.
 10324	de	Kreation,	n.
+10332	eng	climb, scale (pulling entire body up)	vtr.
+10332	nl	klimmen, beklimmen (gehele lichaam optillen)	wwo.
+10332	est	ronima (kogu keha üles tõmbama)	tgsne.
+10332	de	erklimmen, klettern (mit Einsatz des ganzen Körpers)	vtr.
+10336	eng	threat	n.
+10336	nl	bedreiging	zn.
+10336	est	oht	ns.
+10336	de	Bedrohung, Drohung	n.
+10340	eng	threatening	adj.
+10340	nl	bedreigend	bn.
+10340	est	ohtlik, ähvardav (mitte inimeste kohta)	oms.
+10340	de	bedrohlich, drohend	adj.
+10344	eng	threateningly	adv.
+10344	nl	bedreigend	bw.
+10344	est	ohtlikult, ähvardavalt	ms.
+10344	de	bedrohlich, auf bedrohliche Weise	adv.
+10348	eng	researcher	n.
+10348	nl	onderzoeker	zn.
+10348	est	uurija	ns.
+10348	de	Forscher	n.
+10352	eng	scientist	n.
+10352	nl	wetenschapper	zn.
+10352	est	teadlane	ns.
+10352	de	Wissenschaftler	n.
+10356	eng	chest	n.
+10356	nl	borstkas	zn.
+10356	est	rind	ns.
+10356	de	Brustkorb, Brust, Torso	n.
+10360	eng	note, notice	vtr.
+10360	nl	opmerken	wwo.
+10360	est	märkama, tähele panema	tgsne.
+10360	de	bemerken, auffallen	vtr.
+10364	eng	threaten	vin.
+10364	nl	bedreigen	wwn.
+10364	est	ohustama, ähvardama	tgstu.
+10364	de	bedrohen, drohen	vin.
+10368	eng	awareness, notice	n.
+10368	nl	besef, opmerkzaamheid	zn.
+10368	est	tähelepanu, märkamine	ns.
+10368	de	Wahrnehmen, Wahrnehmung, Beachtung, Beobachtung, Kenntnisnahme	n.
+10372	eng	unawareness, lack of notice	n.
+10372	nl	gebrek aan besef, onopmerkzaamheid	zn.
+10372	est	tähelepanematus	ns.
+10372	de	Nichtwahrnehmung, Nichtbeachtung, keine zur Kenntnisnahme	n.
+10376	eng	not notice, ignore, snub	vtr.
+10376	nl	niet opmerken, negeren	wwo.
+10376	est	ignoreerima, tähelepanu mitte omistama (negatiivne)	tgsne.
+10376	de	nicht beachten; ignorieren, jdn verächtlich abweisen, jdn. verächtlich/von oben herab behandeln	vtr.
+10380	eng	lack of notice, snubbing	n.
+10380	nl	gebrek aan besef, (het) negeren	zn.
+10380	est	ingoreerimine (abstraktne)	ns.
+10380	de	fehlende Beachtung, Ignorieren	n.
+10384	eng	helpful	adj.
+10384	nl	behulpzaam	bw.
+10384	est	abivalmis	oms.
+10384	de	hilfreich	adj.
+10388	eng	snub	n.
+10388	nl	(het) negeren	zn.
+10388	est	ingoreerimine (juhtum)	ns.
+10388	de	Abweisung, Ignorieren	n.
+10392	eng	space, open or borderless area	n.
+10392	nl	ruimte, open of grenzeloos gebied	zn.
+10392	est	ruum, vaba või piirideta ala	ns.
+10392	de	Raum, Platz, offener oder grenzenloser Bereich	n.
+10396	eng	volcano	n.
+10396	nl	vulkaan	zn.
+10396	est	vulkaan	ns.
+10396	de	Vulkan	n.
+10400	eng	magma, lava	n.
+10400	nl	magma, lava	zn.
+10400	est	magma, laava	ns.
+10400	de	Magma, Lava	n.
+10404	eng	come out, emerge	vin.
+10404	nl	uitkomen	wwn.
+10404	est	välja tulema	tgstu.
+10404	de	herauskommen, hervortreten	vin.
+10408	eng	pebble, small stone polished smooth by natural forces	n.
+10408	nl	kiezel, kleine door natuurlijke krachten gepolijste steen	zn.
+10408	est	kivike, väike looduses siledaks lihvitud kivi	ns.
+10408	de	Kieselstein, kleiner, von natürlichen Kräften geglätteter Stein	n.
+10412	eng	gravel	n.
+10412	nl	grind	zn.
+10412	est	kruusakivi, looduses või tehislikult purustatud kivi tükk	ns.
+10412	de	Schotter, Kies	n.
+10416	eng	translation, interpretation	n.
+10416	nl	vertaling, interpretatie	zn.
+10416	est	tõlge, tõlgendus, interpretatsioon	ns.
+10416	de	Übersetzung, Interpretation	n.
+10420	eng	dream	vin.
+10420	nl	dromen	wwn.
+10420	est	und nägema	tgstu.
+10420	de	träumen	vin.
+10424	eng	dream of, dream about	vtr.
+10424	nl	dromen van, dromen over	wwo.
+10424	est	unes nägema	tgsne.
+10424	de	etwas träumen, über/von etwas träumen, träumen (dass)	vtr.
+10428	eng	fruit	n.
+10428	nl	fruit	zn.
+10428	est	puuvili	ns.
+10428	de	Frucht	n.
+10432	eng	forest canopy	n.
+10432	nl	bladerdak	zn.
+10432	est	ala metsas, mida täidavad puude lehed, lehistu	ns.
+10432	de	Blätterdach	n.
+10436	eng	banana fruit	n.
+10436	nl	bananenfruit	zn.
+10436	est	banaan	ns
+10436	de	Bananenfrucht	n.
+10440	eng	brush, comb	vtr.
+10440	nl	borstelen, kammen	wwo.
+10440	est	kamm	tgsne.
+10440	de	kämmen, bürsten	vtr.
+10444	eng	lack	n.
+10444	nl	gebrek	zn.
+10444	est	puudus	ns.
+10444	de	Mangel, Knappheit	n.
+10448	eng	drought	n.
+10448	nl	droogte	zn.
+10448	est	põud	ns.
+10448	de	Dürre, Trockenheit, Trockenperiode	n.
+10452	eng	famine	n.
+10452	nl	hongersnood	zn.
+10452	est	nälg	ns.
+10452	de	Hungersnot	n.
+10456	eng	be enjoyable	vin.
+10456	nl	plezierig zijn	wwn.
+10456	est	meelepärane olema, nauditav olema	tgstu.
+10456	de	angenehm sein, erfreulich sein, genießen, erfreuen an, Vergnügen finden an, Gefallen finden an	vin.
+10460	eng	talented	adj.
+10460	nl	getalenteerd	bn.
+10460	est	andekas	oms.
+10460	de	talentiert	adj.
+10464	eng	talent	n.
+10464	nl	talent	zn.
+10464	est	anne, talent	ns.
+10464	de	Talent	n.
+10468	eng	fragile, delicate	adj.
+10468	nl	fragiel, delicaat	bn.
+10468	est	õrn, habras	oms.
+10468	de	zerbrechlich, fragil, empfindlich	adj.
+10472	eng	dry land	n.
+10472	nl	droog land (op het droge)	zn.
+10472	est	kuiv maa	ns.
+10472	de	Festland, trockenes Land (im Gegensatz zu Land mit Seen, Flüssen etc.)	n.
+10476	eng	and also	conj.
+10476	nl	en ook	vw.
+10476	est	ja ka	ss.
+10476	de	sowohl ... als auch	konj.
+10480	eng	greatest of all, exceedingly great	adj.
+10480	nl	het geweldigst van alles, het meest geweldige	bn.
+10480	est	parim, suurim	oms.
+10480	de	allergrößte, außerordentlich, äußerst	adj.
+10484	eng	sorrow	n.
+10484	nl	droefheid, smart	zn.
+10484	est	kurbus	ns.
+10484	de	Kummer, Leid, Trauer, Gram	n.
+10488	eng	become stuck, get caught in something	vin.
+10488	nl	vast komen te zitten, ergens in gevangen raken	wwn.
+10488	est	kinni jääma	tgstu.
+10488	de	feststecken, in etwas festhängen	vin.
+10492	eng	net, web	n.
+10492	nl	net, web	zn.
+10492	est	võrk	ns.
+10492	de	Netz (natürlich oder künstlich), Internet	n.
+10496	eng	roll	vin.
+10496	nl	rollen	wwn.
+10496	est	rulluma	tgstu.
+10496	de	rollen	vin.
+10500	eng	muscle	n.
+10500	nl	spier	zn.
+10500	est	lihas	ns.
+10500	de	Muskel	n.
+10504	eng	muscular	adj.
+10504	nl	gespierd	bn.
+10504	est	lihaseline	oms.
+10504	de	muskulös	adj.
+10508	eng	prove	vtr.
+10508	nl	bewijzen	wwo.
+10508	est	tõestama	tgsne.
+10508	de	beweisen	vtr.
+10512	eng	proof, proving (abstract)	n.
+10512	nl	bewijs, het bewijzen (abstract)	zn.
+10512	est	tõestus (abstraktne)	ns.
+10512	de	Beweisen, Beweisführung	n.
+10516	eng	proof (particular instance)	n.
+10516	nl	bewijs (specifiek bewijs)	zn.
+10516	est	tõend, tõestus (juhtum)	ns.
+10516	de	Beweis	n.
+10524	eng	touch (intentionally)	vin.
+10524	nl	aanraken (doelbewust)	wwn.
+10524	est	puudutama, katsuma (tahtlikult)	tgstu.
+10524	de	anfassen (gewollt)	vin.
+10528	eng	website	n.
+10528	nl	website	zn.
+10528	est	veebilehekülg, veebisait	ns.
+10528	de	Webseite	n.
+10532	eng	web (as in world wide web, www)	n.
+10532	nl	web (als in wereldwijde web, www)	zn.
+10532	est	internet, veeb (www.)	ns.
+10532	de	das Web (d.h. world wide web)	n.
+10536	eng	artist (generic term)	n.
+10536	nl	kunstenaar (algemene term), artiest	zn.
+10536	est	artist, kunsti looja (üldine mõiste)	ns.
+10536	de	Künstler (allgemeiner Begriff)	n.
+10540	eng	sadness	n.
+10540	nl	droefheid, verdriet	zn.
+10540	est	kurbus	ns.
+10544	eng	sad	adj.
+10544	nl	verdrietig	bn.
+10544	est	kurb	oms.
+10548	eng	music creator, composer	n.
+10548	nl	muzikant, componist	zn.
+10548	est	helilooja, muusika looja	ns.
+10552	eng	cultural	adj.
+10552	nl	cultureel	bn.
+10556	eng	cooking pot	n.
+10556	nl	pan, ketel	zn.
+10560	eng	cup or bowl minimally modified from naturally occuring resources	n.
+10560	nl	beker, kom (minimaal aangepaste natuurlijke bronnen)	zn.
+10564	eng	pod, gourd	n.
+10564	nl	kalebas	zn.
+10568	eng	drinking gourd	n.
+10568	nl	beker (gemaakt van een kalebas)	zn.
+10572	eng	shell (from the ocean)	n.
+10572	nl	schelp	zn.
+10576	eng	drinking vessel made of shell	n.
+10576	nl	beker (gemaakt van een schelp)	zn.
+10580	eng	kava bowl (constructed from seed pods, used for drinking intoxicating beverages), handsized	n.
+10580	nl	kava kom (gemaakt uit peulvruchten, gebruikt om bedwelmende drank te drinken, handdraagbaar)	zn.
+10584	eng	large social kava bowl	n.
+10584	nl	grote sociale kava kom (gemaakt uit peulvruchten, gebruikt om bedwelmende drank te drinken)	zn.
+10588	eng	snack, light meal	n.
+10588	nl	snack, lichte maaltijd	zn.
+10592	eng	tiny bite	n.
+10592	nl	klein hapje	zn.
+10596	eng	convenient, usable without much expenditure of effort	adj.
+10596	nl	handig, bruikbaar zonder veel moeite	bn.
+10600	eng	food wrap (food items wrapped in edible leaves or vines)	n.
+10600	nl	eetbare wrap (voedsel ingewikkeld in eetbare bladeren of lianen)	zn.
+10604	eng	ground rack (for smoking meats)	n.
+10604	nl	rek/rooster op de grond (om vlees te roken)	zn.
+10608	eng	large pestle (grinding tool); mealmashing pole	n.
+10608	nl	grote stamper (maalgereedschap); vleesstamppaal	zn.
+10612	eng	transportation tool or device	n.
+10612	nl	transportinstrument of apparaat	zn.
+10616	eng	food tray	n.
+10616	nl	dienblad	zn.
+10620	eng	water carrier	n.
+10620	nl	waterdrager	zn.
+10624	eng	baby carrier	n.
+10624	nl	baby drager	zn.
+10628	eng	sleeping hammock (general term)	n.
+10628	nl	slaap hangmat (algemene term)	zn.
+10632	eng	family hammock	n.
+10632	nl	familie hangmat	zn.
+10636	eng	singleperson hammock	n.
+10636	nl	éénpersoons hangmat	zn.
+10640	eng	glow, an instance of glowing; light source, lamp	n.
+10640	nl	gloed; lichtbron, lamp	zn.
+10644	eng	nectar	n.
+10644	nl	nectar	zn.
+10648	eng	bladder lantern, nectar lantern	n.
+10648	nl	blaaslantaarn, nectar lantaarn	zn.
 0	eng	WHO'S Eywa?! Only their goddess. Made up of ALL living things. Everything they know. You'd know this if you'd had any training whatso--	prop.n.
 ap	eng	reflexive, VERB self	infix.
 eyk	eng	causitive, cause to VERB, make VERB	infix.
@@ -15123,9 +15372,9 @@ ilm	eng	recent past+perfective, have just VERBed	infix.
 ily	eng	near future+perfective, about to have VERBed	infix.
 aly	eng	future+perfective, will have VERBed	infix.
 arm	eng	past+imperfective, was VERBing	infix.
-irm	eng	recent past+imperfective, was just VERBing	infix.
-iry	eng	near future+imperfective, about to be VERBing	infix.
-ary	eng	future+imperfective, will be VERBing	infix.
+iry	eng	recent past+imperfective, was just VERBing	infix.
+ary	eng	near future+imperfective, about to be VERBing	infix.
+future+imperfective, will be VERBing	infix.
 imv	eng	past+subjunctive, combination of [<am> or <ìm>] and <iv>	infix.
 iyev	eng	future+subjunctive, combination of [<ìy> or <ay>] and <iv>	infix.
 iyev1	eng	future+subjunnctive, combination of [<ìy> or <ay>] and <iv>	infix.

@@ -600,7 +600,7 @@
 3776	muntxa si	mun.ˈt'a ˈs·i	muntxa s<1><2><3>i	vin.
 3780	näk	n·æk̚	n<1><2><3>äk	vtr.
 3784	nong	n·oŋ	n<1><2><3>ong	vtr.
-3788	oeyktìng	o.ˈɛjk.t·ɪŋ	oeykt<1><2><3>ìng	v.
+3788	oeyktìng	o.ˈɛjk.t·ɪŋ	oeykt<1><2><3>ìng	vtr.
 3792	pate	ˈp·a.t·ɛ	p<1><2>at<3>e	v.
 3796	piak si	pi.ˈak̚ s·i	piak s<1><2><3>i	vin.
 3800	pom	p·om	p<1><2><3>om	vtr.
@@ -1350,7 +1350,7 @@
 7584	am'a	am.ˈʔa	\N	n.
 7588	nga'	ŋaʔ	nga'	vtr.
 7592	tìftang si	tɪ.ˈftaŋ s·i	tìftang s<1><2><3>i	vin.
-7596	may'	majʔ	\N	vtrm.
+7596	may'	m·ajʔ	\N	vtrm.
 7604	yora'	j·o.ˈɾ·aʔ	y<1><2>or<3>a'	vtr.
 7608	snaytx	sn·ajt'	sn<1><2><3>aytx	vtr.
 7612	tìyora'	tɪ.joˈɾaʔ	\N	n.
@@ -1553,7 +1553,6 @@
 8464	nìmal	nɪ.ˈmal	\N	adv.
 8468	tìmal	tɪ.ˈmal	\N	n.
 8472	kllyem	kḷ.ˈj·ɛm	klly<1><2><3>em	vtr.
-8476	tsyìl	t͡sjɪl	tsyìl	vtr.
 8480	nìtsyìl	nɪ.ˈt͡sjɪl	\N	adv.
 8484	sätsyìl	sæ.ˈt͡sjɪl	\N	n.
 8488	rìn	ɾɪn	\N	n.
@@ -1640,7 +1639,7 @@
 8840	akum	a.ˈkum	\N	conj.
 8844	fyel	fy·ɛl	fy<1><2><3>el	vtr.
 8848	zey	zɛj	\N	adj.
-8852	vll	vḷ	vll	vin., vtr.
+8852	vll	v·ḷ	v<1><2><3>ll	vin., vtr.
 8856	eykyu	ˈɛjk.ju	\N	n.
 8860	am'ake	am.ˈʔa.kɛ	\N	adj.
 8864	nam'ake	nam.ˈʔa.kɛ	\N	adv.
@@ -1654,7 +1653,7 @@
 8900	slosnep	slo.ˈsnɛp̚	\N	n.
 8904	peslosnep	pɛ.slo.ˈsnɛp̚	\N	inter.
 8908	slosneppe	slo.ˈsnɛ.pɛ	\N	inter.
-8912	hoet	ho.ˈɛt̚	\N	adj.
+8912	hoet	ˈho.ɛt̚	\N	adj.
 8916	nìhoet	nɪ.ˈho.ɛt̚	\N	adv.
 8920	so'ha	ˈs·oʔ.h·a	s<1><2>o'h<3>a	vtr.
 8924	tìso'ha	tɪ.ˈsoʔ.ha	\N	n.
@@ -1705,7 +1704,6 @@
 9108	snonrra	sno.ˈnṛ.a	\N	n.
 9112	lesnonrra	lɛ.sno.ˈnṛ.a	\N	adj.
 9116	nrr	n·ṛ	n<1><2><3>rr	vin.
-9120	sänrr	sæ.ˈnṛ	\N	n.
 9124	ylltxep	ˈjḷ.t'ɛp̚	\N	n.
 9128	txeptseng	ˈt'ɛp.t͡sɛŋ	\N	n.
 9132	ralnga'	ˈɾal.ŋaʔ	\N	adj.
@@ -1980,7 +1978,7 @@
 10268	zawr	zawr	\N	n.
 10272	tìnew	tɪ.ˈnɛw	\N	n.
 10276	nopx	n·op'	n<1><2><3>opx	vtr.
-10280	tiam	ˈt·i.a·m	t<1><2>i<3>am	vtr.
+10280	tiam	ˈt·i.·am	t<1><2>i<3>am	vtr.
 10284	ketsuktiam	kɛ.t͡suk.ˈti.am	\N	adj.
 10288	txewluke	ˈt'ɛw.lu.kɛ	\N	adj.
 10292	'umtsa	ˈʔum.t͡sa	\N	n.
@@ -1990,6 +1988,85 @@
 10308	kxum	k'um	\N	adj.
 10312	kxumpay	ˈk'um.paJ	\N	n.
 10324	sängop	sæ.ˈŋop̚	\N	n.
+10332	tsyìl	t͡sj·ɪl	tsy<1><2><3>ìl	vtr.
+10336	kxap	k'ap̚	\N	n.
+10340	kxapnga'	ˈk'ap.ŋaʔ	\N	adj.
+10344	nìkxap	nɪ.ˈk'ap̚	\N	adv.
+10348	tìftiatu	tɪ.ftiˈ.a.tu	\N	n.
+10352	tìftiatu kifkeyä	tɪ.ftiˈa.tu kì.ˈfkɛJ.Jæ	\N	n.
+10356	heyr	hɛJɾ	\N	n.
+10360	tseri	ˈt͡s·ɛ.ɾ·i	ts<1><2>er<3>i	vtr.
+10364	kxap si	k'ap s·i	kxap s<1><2><3>i	vin.
+10368	tìtseri	tɪ.ˈt͡sɛ.ɾi	\N	n.
+10372	tìktseri	tɪk.ˈt͡sɛ.ɾi	\N	n.
+10376	yäkx	J·æk'	y<1><2><3>äkx	vtr.
+10380	tìyäkx	tɪ.ˈJæk'	\N	n.
+10384	srunga'	ˈsɾu.ŋaʔ	\N	adj.
+10388	säyäkx	sæ.ˈJæk'	\N	n.
+10392	ngip	ŋip̚	\N	n.
+10396	txepram	t'ɛp.ˈɾam	\N	n.
+10400	txekxumpay	t'ɛ.ˈk'um.paJ	\N	n.
+10404	wrrza'u	wṛ.ˈz·a.ʔu	wrrza'<1><2><3>u	vin.
+10408	tskxevi	ˈt͡sk'ɛ.vi	\N	n.
+10412	nìkx	nɪk'	\N	n.
+10416	tìralpeng	tɪ.ɾal.ˈpɛŋ	\N	n.
+10420	unil si	ˈu.nil s·i	unil s<1><2><3>i	vin.
+10424	uniltsa	ˈu.nɪl.t͡s·a	unilts<1><2><3>a	vtr.
+10428	mauti	ˈma.u.ti	\N	n.
+10432	utu	ˈu.tu	\N	n.
+10436	utumauti	ˈu.tu.ma.u.ti	\N	n.
+10440	slayk	sl·aJk̚	sl<1><2><3>ayk	vtr.
+10444	tìkelu	tɪ.ˈkɛ.lu	\N	n.
+10448	tompakel	ˈtom.pa,kel	\N	n.
+10452	syuvekel	ˈsju.vɛ.kɛl	\N	n.
+10456	zawprrte'	z·aw.ˈpṛ.tɛʔ	zawprrt<1><2><3>e'	vin.
+10460	nawri	ˈnaw.ɾi	\N	adj.
+10464	tìnawri	tɪ.ˈnaw.ɾi	\N	n.
+10468	susyang	su.ˈsjaŋ	\N	adj.
+10472	reym	ɾɛjm	\N	n.
+10476	kop	kop̚	\N	conj.
+10480	tuvom	tu.ˈvom	\N	adj.
+10484	yengwal	jɛŋ.ˈwal	\N	n.
+10488	nip	n·ip̚	n<1><2><3>ip	vin.
+10492	hän	hæn	\N	n.
+10496	'rrko	ˈʔ·ṛ.k·o	'<1><2>rrk<3>o	vin.
+10500	tsngem	t͡sŋɛm	\N	n.
+10504	tsawsngem	t͡saw.ˈsŋɛm	\N	adj.
+10508	wìngay	w·ɪ.ˈŋaj	wìng<1><2><3>ay	vtr.
+10512	tìwìngay	tɪ.wɪ.ˈŋaj	\N	n.
+10516	säwìngay	sæ.wɪ.ˈŋaj	\N	n.
+10524	tìng zekwä	ˈt·ɪŋ ˈzɛk.wæ	t<1><2><3>ìng zekwä	vin.
+10528	weptseng	ˈwɛp.t͡sɛŋ	\N	n.
+10532	wep	wɛp̚	\N	n.
+10536	tseotu	ˈt͡sɛ.o.tu	\N	n.
+10540	tìkeftxo	tɪ.kɛ.ˈft'o	\N	n.
+10544	tìkeftxonga'	tɪ.kɛ.ˈft'o.ŋaʔ	\N	adj.
+10548	pamtseongopyu	pam.t͡sɛ.o.ˈŋop.ju	\N	n.
+10552	lereyfya	lɛ.ˈɾɛj.fja	\N	adj.
+10556	huru	ˈhu.ɾu	\N	n.
+10560	sey	sɛj	\N	n.
+10564	'e'in	ʔɛ.ˈʔin	\N	n.
+10568	'e'insey	ʔɛ.ˈʔin.Sɛj	\N	n.
+10572	sum	sum	\N	n.
+10576	sumsey	ˈsum.sɛj	\N	n.
+10580	swoasey	ˈswo.a.sɛj	\N	n.
+10584	swoasey ayll	ˈswo.a.sɛj a.ˈjḷ	\N	n.
+10588	tsyey	t͡sjɛj	\N	n.
+10592	tsyeytsyìp	ˈt͡sjɛj.t͡sjɪp̚	\N	n.
+10596	nik	nik̚	\N	adj.
+10600	niktsyey	ˈnik.t͡sjɛj	\N	n.
+10604	merki	ˈmɛɾ.ki	\N	n.
+10608	ikut	ˈi.kut̚	\N	n.
+10612	sämunge	sæ.ˈmu.ŋɛ	\N	n.
+10616	syusmung	ˈsju.smuŋ	\N	n.
+10620	paysmung	ˈpaJ.smuŋ	\N	n.
+10624	prrsmung	ˈpṛ.smuŋ	\N	n.
+10628	nivi	ˈni.vi	\N	n.
+10632	swaynivi	ˈswaj,ni,vi	\N	n.
+10636	snonivi	ˈsno.ni.vi	\N	n.
+10640	sänrr	sæ.ˈnṛ	\N	n.
+10644	tsmi	t͡smi	\N	n.
+10648	tsmisnrr	ˈt͡smi.snṛ	\N	n.
 0	eywa	ˈej.wa	\N	prop.n.
 ap	<äp>	æp	<1>	infix.
 eyk	<eyk>	ejk	<1>	infix.
