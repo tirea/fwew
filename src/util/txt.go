@@ -26,21 +26,29 @@ var texts = map[string]string{}
 
 func init() {
 	texts["NAME"] = "Fwew"
-	texts["VERSION"] = "1.00-BETA"
+	texts["VERSION"] = "1.02-BETA"
 	texts["AUTHOR"] = "Tirea Aean"
+	texts["LANGUAGES"] = "de, eng, est, hu, nl, pl, ru, sv"
+	texts["DEFAULT_LANGUAGE"] = "eng"
+	texts["LANGUAGE"] = texts["DEFAULT_LANGUAGE"]
+	texts["NONE"] = "- not found -"
+	texts["USAGEDEBUG"] = "Show extremely verbose probing"
+	texts["USAGEFLAG_L"] = "Use specified language \n\tValid values: "+ texts["LANGUAGES"]
+	texts["USAGEFLAG_I"] = "Display infix location data"
+	texts["USAGEFLAG_IPA"] = "Display IPA data"
+	texts["USAGEFLAG_R"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
 	texts["USER"] = USER.Username
 	texts["HOMEDIR"], _ = filepath.Abs(USER.HomeDir)
 	texts["DATADIR"] = filepath.Join(texts["HOMEDIR"], ".fwew")
 	texts["METAWORDS"] = filepath.Join(texts["DATADIR"], "metaWords.txt")
 	texts["LOCALIZED"] = filepath.Join(texts["DATADIR"], "localizedWords.txt")
-	texts["LANGUAGES"] = "de, eng, est, hu, nl, pl, ru, sv"
-	texts["DEFAULT_LANGUAGE"] = "eng"
-	texts["LANGUAGE"] = texts["DEFAULT_LANGUAGE"]
-	texts["NONE"] = "- not found -"
 	texts["HEADTEXT"] = texts["NAME"] + " " + texts["VERSION"] +
 		" by " + texts["AUTHOR"] + "\n" +
 		"Crossplatform dictionary search" + "\n" +
 		"fwew -h for usage, see README"
+	texts["INFIX_0"] = "(äp|eyk|äpeyk)?"
+	texts["INFIX_1"] = "(am|ìm|ìyev|ay|ìsy|asy|ol|er|iv|arm|ìrm|ìry|ary|alm|ìlm|ìly|aly|imv|iyev|ìy|irv|ilv|us|awn)?"
+	texts["INFIX_2"] = "(ei|äng|eng|ats|uy)?"
 }
 
 func Text(s string) string {

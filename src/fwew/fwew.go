@@ -21,11 +21,13 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"regexp"
 	"util"
 )
 
 // global
 var PROG_DEBUG bool = false
+var WORD_HAS []string
 
 // some minimal exception handling
 func check(e error) {
@@ -36,7 +38,8 @@ func check(e error) {
 
 // get the Database ID of a Na'vi root word
 func getNavID(w string) string {
-	word := "\t" + strings.ToLower(w) + "\t"
+	w = strings.ToLower(w)
+	word := "\t" + w + "\t"
 	navID := "-1"
 	line := ""
 	metaWordsData, err := os.Open(txt.Text("METAWORDS"))
@@ -44,8 +47,31 @@ func getNavID(w string) string {
 	scanner := bufio.NewScanner(metaWordsData)
 	for scanner.Scan() {
 		line = scanner.Text()
+		line = strings.ToLower(line)
+		fields := strings.Split(line, "\t")
+		inf := fields[3]
+		pos := fields[4]
+		if strings.HasPrefix(pos, "v") {
+			inf = strings.Replace(inf,"<1>",txt.Text("INFIX_0"),1)
+			inf = strings.Replace(inf,"<2>",txt.Text("INFIX_1"),1)
+			inf = strings.Replace(inf,"<3>",txt.Text("INFIX_2"),1)
+		}
+		re, err := regexp.Compile(inf)
+		check(err)
+		result := re.FindAllStringSubmatch(w, -1)
 		if strings.Contains(line, word) {
 			navID = line[0:strings.Index(line, "\t")]
+			//fmt.Println(inf)
+			//fmt.Println(result)
+			break
+		} else if len(result) != 0 && strings.HasPrefix(pos, "v") {
+			if strings.HasSuffix(result[0][0], w[len(w)-1:]) {
+				if strings.HasPrefix(result[0][0], w[0:1]){
+					navID = line[0:strings.Index(line, "\t")]
+					//fmt.Println(inf)
+					fmt.Println(result)
+				}
+			}
 		}
 	}
 	return navID
@@ -175,12 +201,11 @@ func getLocalWordByID(id string, l string) string {
 
 func main() {
 	// cli flags
-	DEBUG := flag.Bool("DEBUG", false, "allow fmt probing")
-	flag_l := flag.String("l", txt.Text("DEFAULT_LANGUAGE"), "use specified language. \n"+
-		"\tValid values: "+txt.Text("LANGUAGES"))
-	flag_i := flag.Bool("i", false, "Display infix location data")
-	flag_ipa := flag.Bool("ipa", false, "Display IPA data")
-	flag_r := flag.Bool("r", false, "Reverse the lookup direction from Na'vi->Local to Local->Na'vi")
+	DEBUG := flag.Bool("DEBUG", false, txt.Text("USAGEDEBUG"))
+	flag_l := flag.String("l", txt.Text("DEFAULT_LANGUAGE"), txt.Text("USAGEFLAG_L"))
+	flag_i := flag.Bool("i", false, txt.Text("USAGEFLAG_I"))
+	flag_ipa := flag.Bool("ipa", false, txt.Text("USAGEFLAG_IPA"))
+	flag_r := flag.Bool("r", false, txt.Text("USAGEFLAG_R"))
 
 	flag.Parse()
 
@@ -201,15 +226,15 @@ func main() {
 
 	// Na'vi -> Local lookup or Local -> Na'vi lookup
 	if !*flag_r && flag.NArg() > 0 {
-		if *DEBUG {
+		if PROG_DEBUG {
 			fmt.Println("<DEBUG !*flag_r flag.NArg()!=0>Normal lookup direction | Args</DEBUG>")
 		}
 
 		for i := 0; i < flag.NArg(); i++ {
 
 			// set vars
-			wpos, word, wipa, infx = getDataByID(getNavID(flag.Args()[i]))
-			dbid = getNavID(word)
+			dbid = getNavID(flag.Args()[i])
+			wpos, word, wipa, infx = getDataByID(dbid)
 			lwrd = getLocalWordByID(dbid, lang)
 
 			// print out the results
@@ -231,7 +256,7 @@ func main() {
 			fmt.Println("")
 		}
 	} else if *flag_r && flag.NArg() > 0 {
-		if *DEBUG {
+		if PROG_DEBUG {
 			fmt.Println("<DEBUG *flag_r flag.NArg()>0>Reverse lookup direction | Args</DEBUG>")
 		}
 
@@ -239,7 +264,7 @@ func main() {
 			// set vars
 			lwrd = flag.Args()[i]
 			dbls = getLocID(lwrd, lang)
-			if *DEBUG {
+			if PROG_DEBUG {
 				fmt.Println("<DEBUG:main() dbls>", dbls, "</DEBUG>")
 			}
 			for i := 0; i < len(dbls); i++ {
@@ -275,7 +300,7 @@ func main() {
 
 		// print the program Header text
 		fmt.Println(txt.Text("HEADTEXT"))
-		if *DEBUG {
+		if PROG_DEBUG {
 			fmt.Println("<DEBUG=true></DEBUG>")
 			fmt.Println("<DEBUG !*flag_r flag.NArg()==0>Normal lookup direction | Interactive</DEBUG>")
 		}
@@ -289,8 +314,8 @@ func main() {
 		word, _ := reader.ReadString('\n')
 		word = strings.Trim(word, "\n")
 		if word != "" {
-			wpos, _, wipa, infx = getDataByID(getNavID(word))
 			dbid = getNavID(word)
+			wpos, _, wipa, infx = getDataByID(dbid)
 			lwrd = getLocalWordByID(dbid, lang)
 		} else {
 			wpos = ""
@@ -321,7 +346,7 @@ func main() {
 
 		// print the program Header text
 		fmt.Println(txt.Text("HEADTEXT"))
-		if *DEBUG {
+		if PROG_DEBUG {
 			fmt.Println("<DEBUG=true></DEBUG>")
 			fmt.Println("<DEBUG *flag_r flag.NArg()==0>Reverse lookup direction | Interactive</DEBUG>")
 		}
