@@ -37,20 +37,30 @@ func check(e error) {
 }
 
 // get the Database ID of a Na'vi root word
+// only seemsm to support verb infix stripping at the moment
 func getNavID(w string) string {
+
+	// initialize stuffs
 	w = strings.ToLower(w)
 	word := "\t" + w + "\t"
 	navID := "-1"
 	line := ""
+	fields := []string{}
+	inf := "-1"
+	pos := "-1"
 	metaWordsData, err := os.Open(txt.Text("METAWORDS"))
 	check(err)
 	scanner := bufio.NewScanner(metaWordsData)
+
+	// look for the word
 	for scanner.Scan() {
 		line = scanner.Text()
 		line = strings.ToLower(line)
-		fields := strings.Split(line, "\t")
-		inf := fields[3]
-		pos := fields[4]
+		fields = strings.Split(line, "\t")
+		inf = fields[3]
+		pos = fields[4]
+
+		// if it's a verb, prepare the infix regex
 		if strings.HasPrefix(pos, "v") {
 			inf = strings.Replace(inf,"<1>",txt.Text("INFIX_0"),1)
 			inf = strings.Replace(inf,"<2>",txt.Text("INFIX_1"),1)
@@ -58,17 +68,22 @@ func getNavID(w string) string {
 		}
 		re, err := regexp.Compile(inf)
 		check(err)
+
+		// pull out all infixes used and stash them in the result array
 		result := re.FindAllStringSubmatch(w, -1)
+
+		// if user searched a root word and it's found, then just pull the ID
 		if strings.Contains(line, word) {
 			navID = line[0:strings.Index(line, "\t")]
-			//fmt.Println(inf)
-			//fmt.Println(result)
 			break
+		// if infixes were found and it's actually a verb...
 		} else if len(result) != 0 && strings.HasPrefix(pos, "v") {
+			// ...and if the found infixed word ends with same letter as input
 			if strings.HasSuffix(result[0][0], w[len(w)-1:]) {
+				// ... and if found infixed word starts with same letter
+				// ... then print out what was found and grab the ID
 				if strings.HasPrefix(result[0][0], w[0:1]){
 					navID = line[0:strings.Index(line, "\t")]
-					//fmt.Println(inf)
 					fmt.Println(result)
 				}
 			}
@@ -80,23 +95,33 @@ func getNavID(w string) string {
 // get the Database ID of a Local word by Language
 // typically returns many matches
 func getLocID(w string, l string) []string {
+
+	// initialize some stuffs
 	word := strings.ToLower(w)
 	locIDs := []string{}
 	locID := "-1"
 	line := ""
-
+	fields := []string{}
+	field_def := ""
+	field_arr := []string{}
+	field_lng := ""
 	localizedData, err := os.Open(txt.Text("LOCALIZED"))
 	check(err)
-
 	scanner := bufio.NewScanner(localizedData)
+
+	// look for matching words
 	for scanner.Scan() {
 		line = scanner.Text()
 		line = strings.ToLower(line)
-		fields := strings.Split(line, "\t")
+		fields = strings.Split(line, "\t")
+
+		// there should be 4 fields..
 		if len(fields) == 4 {
-			field_def := fields[2]
-			field_arr := strings.Split(field_def, " ")
-			field_lng := fields[1]
+			field_def = fields[2]
+			field_arr = strings.Split(field_def, " ")
+			field_lng = fields[1]
+
+			// only try to grab the id from line using requested language
 			if field_lng == l {
 				if PROG_DEBUG {
 					fmt.Println("<DEBUG:getLocID() word>" + word + "</DEBUG>")
@@ -107,6 +132,8 @@ func getLocID(w string, l string) []string {
 					fmt.Println("<DEBUG:getLocID() field_arr>", field_arr, "</DEBUG>")
 					fmt.Println("<DEBUG:getLocID() fild_lng>" + field_lng + "</DEBUG>")
 				}
+
+				// single-word definition and happens to be what user searched
 				if len(field_arr) == 1 && field_def == word {
 					locID = line[0:strings.Index(line, "\t")]
 					locIDs = append(locIDs, locID)
@@ -115,7 +142,8 @@ func getLocID(w string, l string) []string {
 						fmt.Println("<DEBUG:getLocID() locID>" + locID + "</DEBUG>")
 						fmt.Println("<DEBUG:getLocID() locIDs>", locIDs, "</DEBUG>")
 					}
-					//break
+
+				// multiple words in the local definition, search through each word
 				} else if len(field_arr) > 1 {
 					for i := 0; i < len(field_arr); i++ {
 						if PROG_DEBUG {
@@ -141,6 +169,8 @@ func getLocID(w string, l string) []string {
 
 // get POS, Na'vi Word, IPA, Infixes, for given ID
 func getDataByID(id string) (string, string, string, string) {
+
+	// set up filestuffs
 	metaData, err := os.Open(txt.Text("METAWORDS"))
 	check(err)
 	word, ipa, inf, pos := "", "", "", ""
@@ -148,8 +178,11 @@ func getDataByID(id string) (string, string, string, string) {
 		fmt.Println("<DEBUG:getDataByID() id>" + id + "</DEBUG>")
 	}
 	scanner := bufio.NewScanner(metaData)
+	
+	// break up each line by field and capture all the things...
 	for scanner.Scan() {
 		line := scanner.Text()
+		// ... but only if the line matches the requested ID
 		if strings.HasPrefix(line, id) {
 			fields := strings.Split(line, "\t")
 			word = fields[1]
@@ -172,10 +205,14 @@ func getDataByID(id string) (string, string, string, string) {
 
 // get Local word for given ID
 func getLocalWordByID(id string, l string) string {
+	
+	//filestuffs
 	localData, err := os.Open(txt.Text("LOCALIZED"))
 	check(err)
 	localWord := ""
 	scanner := bufio.NewScanner(localData)
+
+	// search through each line to match the requested ID and language
 	for scanner.Scan() {
 		line := scanner.Text()
 		fields := strings.Split(line, "\t")
@@ -191,11 +228,13 @@ func getLocalWordByID(id string, l string) string {
 						fmt.Println("<DEBUG:getLocalWordByID() fields>", fields, "</DEBUG>")
 						fmt.Println("<DEBUG:getLocalWordByID() localWord>" + localWord + "</DEBUG>")
 					}
+					// match
 					return localWord
 				}
 			}
 		}
 	}
+	// no matches
 	return txt.Text("NONE")
 }
 
@@ -211,7 +250,7 @@ func main() {
 
 	PROG_DEBUG = *DEBUG
 
-	// vars
+	// initialize vars
 	lang := *flag_l
 	word := ""
 	lwrd := ""
@@ -224,20 +263,18 @@ func main() {
 
 	// ARGS MODE
 
-	// Na'vi -> Local lookup or Local -> Na'vi lookup
+	// Na'vi -> Local lookup
 	if !*flag_r && flag.NArg() > 0 {
 		if PROG_DEBUG {
 			fmt.Println("<DEBUG !*flag_r flag.NArg()!=0>Normal lookup direction | Args</DEBUG>")
 		}
 
 		for i := 0; i < flag.NArg(); i++ {
-
-			// set vars
 			dbid = getNavID(flag.Args()[i])
 			wpos, word, wipa, infx = getDataByID(dbid)
 			lwrd = getLocalWordByID(dbid, lang)
 
-			// print out the results
+			// print out the results, what of it was requested
 			if !*flag_ipa && !*flag_i {
 				fmt.Print(wpos, " ", lwrd, "\n")
 			} else {
@@ -255,13 +292,13 @@ func main() {
 			}
 			fmt.Println("")
 		}
+	// Local -> Na'vi lookup
 	} else if *flag_r && flag.NArg() > 0 {
 		if PROG_DEBUG {
 			fmt.Println("<DEBUG *flag_r flag.NArg()>0>Reverse lookup direction | Args</DEBUG>")
 		}
 
 		for i := 0; i < flag.NArg(); i++ {
-			// set vars
 			lwrd = flag.Args()[i]
 			dbls = getLocID(lwrd, lang)
 			if PROG_DEBUG {
@@ -272,7 +309,7 @@ func main() {
 				wpos, word, wipa, infx = getDataByID(dbid)
 				lwds = append(lwds, lwrd)
 
-				//print results
+				//print results, what of it was requested
 				fmt.Print(wpos, " ", word, " ")
 				if *flag_ipa {
 					if *flag_i {
@@ -295,7 +332,7 @@ func main() {
 
 	// INTERACTIVE MODE
 
-	// Na'vi -> local lookup or Local -> Na'vi lookup
+	// Na'vi -> local lookup
 	if !*flag_r && flag.NArg() == 0 {
 
 		// print the program Header text
@@ -307,8 +344,7 @@ func main() {
 
 		fmt.Println("")
 
-		// set vars
-		// read word from cli
+		// read word from cli args
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Print("Fwew:> ")
 		word, _ := reader.ReadString('\n')
@@ -324,7 +360,7 @@ func main() {
 			dbid = "-1"
 			lwrd = ""
 		}
-		// print out the results
+		// print out the results, what of it was requested
 		if !*flag_ipa && !*flag_i {
 			fmt.Print(wpos, " ", lwrd, "\n")
 		} else {
@@ -342,6 +378,7 @@ func main() {
 		}
 		fmt.Println("")
 
+	// Local -> Na'vi lookup
 	} else if *flag_r && flag.NArg() == 0 {
 
 		// print the program Header text
@@ -358,7 +395,6 @@ func main() {
 		word, _ := reader.ReadString('\n')
 		word = strings.Trim(word, "\n")
 
-		// set vars
 		lwrd = word
 		dbls = getLocID(lwrd, lang)
 		for i := 0; i < len(dbls); i++ {
@@ -366,7 +402,7 @@ func main() {
 			wpos, word, wipa, infx = getDataByID(dbid)
 			lwds = append(lwds, lwrd)
 
-			//print results
+			//print results, what of it was requested
 			fmt.Print(wpos, " ", word, " ")
 			if *flag_ipa {
 				if *flag_i {
