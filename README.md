@@ -35,6 +35,11 @@ Don't forget to escape ' somehow:
 	fwew \'a\'aw
 	fwew "'a'aw"
 
+Ways to search a "____" si verb:
+
+	s="eltur tìtxen si"; echo "$s" | fwew
+	echo "eltur tìtxen si" | fwew
+
 There is also an interactive mode, in case you forgot to put words as args:
 	
 	fwew
@@ -59,6 +64,14 @@ Use flags -ipa and -i respectively:
 	fwew -i taron
 	fwew -ipa -i plltxe
 	fwew -i -ipa käteng
+
+### Debug Mode 
+This is helpful if you encounter an error. 
+This option allows the user to send the developer (me) detailed information about what the program is doing to make it easier to fix.
+
+	fwew -DEBUG -r test
+	fwew -DEBUG -r test > debugfile.txt
+	fwew -DEBUG > debugfile.txt
 
 Examples
 -----
@@ -85,4 +98,3 @@ look up English translation, IPA, and infixes for yemstokx
 	fwew -l=pl -ipa kemlì\'u
     or:
 	fwew -ipa -l pl "kemlì'u"
-

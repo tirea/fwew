@@ -12,9 +12,9 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-//	Package txt contains all the program strings used by Fwew
+// This util library handles all program strings
 
-package txt
+package util
 
 import (
 	"os/user"
@@ -26,13 +26,16 @@ var texts = map[string]string{}
 
 func init() {
 	texts["NAME"] = "Fwew"
-	texts["VERSION"] = "1.02-BETA"
+	texts["VERSION"] = "1.021-BETA (17 JUN 2016)"
+	texts["DICTVERSION"] = "Dictionary 13.284 (03 MAR 2016)"
 	texts["AUTHOR"] = "Tirea Aean"
 	texts["LANGUAGES"] = "de, eng, est, hu, nl, pl, ru, sv"
 	texts["DEFAULT_LANGUAGE"] = "eng"
 	texts["LANGUAGE"] = texts["DEFAULT_LANGUAGE"]
+	texts["BASELANG"] = "Na'vi"
 	texts["NONE"] = "- not found -"
 	texts["USAGEDEBUG"] = "Show extremely verbose probing"
+	texts["USAGEFLAG_V"] = "Show program & dictionary version numbers"
 	texts["USAGEFLAG_L"] = "Use specified language \n\tValid values: "+ texts["LANGUAGES"]
 	texts["USAGEFLAG_I"] = "Display infix location data"
 	texts["USAGEFLAG_IPA"] = "Display IPA data"
@@ -44,7 +47,7 @@ func init() {
 	texts["LOCALIZED"] = filepath.Join(texts["DATADIR"], "localizedWords.txt")
 	texts["HEADTEXT"] = texts["NAME"] + " " + texts["VERSION"] +
 		" by " + texts["AUTHOR"] + "\n" +
-		"Crossplatform dictionary search" + "\n" +
+		"Crossplatform " + texts["BASELANG"] + " Dictionary Search" + "\n" +
 		"fwew -h for usage, see README"
 	texts["INFIX_0"] = "(äp|eyk|äpeyk)?"
 	texts["INFIX_1"] = "(am|ìm|ìyev|ay|ìsy|asy|ol|er|iv|arm|ìrm|ìry|ary|alm|ìlm|ìly|aly|imv|iyev|ìy|irv|ilv|us|awn)?"
@@ -53,8 +56,4 @@ func init() {
 
 func Text(s string) string {
 	return texts[s]
-}
-
-func Set(s string, v string) {
-	texts[s] = v
 }
