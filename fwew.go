@@ -27,6 +27,17 @@ import (
 // global
 var DEBUG bool
 var WORD_HAS []string
+var MW_FIELD_ID int = 0
+var MW_FIELD_NAV int = 1
+var MW_FIELD_IPA int = 2
+var MW_FIELD_INF int = 3
+var MW_FIELD_POS int = 4
+var LW_FIELD_ID int = 0
+var LW_FIELD_LC int = 1
+var LW_FIELD_DEF int = 2
+var LWFIELD_POS int = 3
+var LW_NUM_FIELDS int = 4
+var MW_NUM_FIELDS int = 5
 
 // some minimal exception handling
 func check(e error) {
@@ -46,8 +57,11 @@ func getNavID(w string) string {
 	var line string
 	var fields []string
 	var inf string
+	//var pre string
+	//var suf string
 	var pos string
 	var result [][]string
+
 	metaWordsData, err := os.Open(util.Text("METAWORDS"))
 	check(err)
 	scanner := bufio.NewScanner(metaWordsData)
@@ -57,13 +71,19 @@ func getNavID(w string) string {
 		line = scanner.Text()
 		line = strings.ToLower(line)
 		fields = strings.Split(line, "\t")
-		inf = fields[3]
-		pos = fields[4]
+		//pre = fields[MW_FIELD_NAV]
+		//suf = fields[MW_FIELD_NAV]
+		inf = fields[MW_FIELD_INF]
+		pos = fields[MW_FIELD_POS]
 
 		// if it's a verb, prepare the infix regex
 		if strings.HasPrefix(pos, "v") {
 			result = util.Infix(w, inf)
-		}
+		} 
+		/* else if pos == "n." {
+			result = util.Prefix(w, pre)
+			result = util.Suffix(w, suf)
+		}*/
 
 		// if user searched a root word and it's found, then just pull the ID
 		if strings.Contains(line, word) {
@@ -98,6 +118,7 @@ func getLocID(w string, l string) []string {
 	var field_def string
 	var field_arr []string
 	var field_lng string
+
 	localizedData, err := os.Open(util.Text("LOCALIZED"))
 	check(err)
 	scanner := bufio.NewScanner(localizedData)
@@ -109,10 +130,10 @@ func getLocID(w string, l string) []string {
 		fields = strings.Split(line, "\t")
 
 		// there should be 4 fields..
-		if len(fields) == 4 {
-			field_def = fields[2]
+		if len(fields) == LW_NUM_FIELDS {
+			field_def = fields[LW_FIELD_DEF]
 			field_arr = strings.Split(field_def, " ")
-			field_lng = fields[1]
+			field_lng = fields[LW_FIELD_LC]
 
 			// only try to grab the id from line using requested language
 			if field_lng == l {
@@ -183,10 +204,10 @@ func getDataByID(id string) (string, string, string, string) {
 		// ... but only if the line matches the requested ID
 		if strings.HasPrefix(line, id) {
 			fields := strings.Split(line, "\t")
-			word = fields[1]
-			ipa = "[" + fields[2] + "]"
-			inf = fields[3]
-			pos = fields[4]
+			word = fields[MW_FIELD_NAV]
+			ipa = "[" + fields[MW_FIELD_IPA] + "]"
+			inf = fields[MW_FIELD_INF]
+			pos = fields[MW_FIELD_POS]
 			if DEBUG {
 				fmt.Println("<DEBUG:getDataByID() line>" + line + "</DEBUG>")
 				fmt.Println("<DEBUG:getDataByID() fields>", fields, "</DEBUG>")
@@ -216,9 +237,9 @@ func getLocalWordByID(id string, l string) string {
 		line := scanner.Text()
 		fields := strings.Split(line, "\t")
 		if len(fields) == 4 {
-			field_wid := fields[0]
-			field_lng := fields[1]
-			field_def := fields[2]
+			field_wid := fields[LW_FIELD_ID]
+			field_lng := fields[LW_FIELD_LC]
+			field_def := fields[LW_FIELD_DEF]
 			localWord = field_def
 			if field_lng == l {
 				if field_wid == id {

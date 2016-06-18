@@ -21,6 +21,19 @@ import (
 	"regexp"
 )
 
+var lentable = map[string]string{}
+
+func init() {
+	lentable["kx"] = "k"
+	lentable["px"] = "p"
+	lentable["tx"] = "t"
+	lentable["k"] = "h"
+	lentable["p"] = "f"
+	lentable["ts"] = "s"
+	lentable["t"] = "s"
+	lentable["'"] = ""
+}
+
 // handles verbs with infixes
 func Infix(w string, inf_re string) [][]string {
 
@@ -35,6 +48,30 @@ func Infix(w string, inf_re string) [][]string {
 
 	// pull out all infixes used and stash them in the result array
 	result = re.FindAllStringSubmatch(w, -1)
+
+	return result
+}
+
+// handles other types of words having prefixes
+func Prefix(w string, pre_re string) [][]string {
+
+	var result [][]string
+
+	return result
+
+}
+
+// handles other types of words having suffixes
+func Suffix(w string, suf_re string) [][]string {
+
+	var result [][]string
+
+	return result
+}
+
+func Lenition(w string, w_re string) [][]string {
+
+	var result [][]string
 
 	return result
 }
