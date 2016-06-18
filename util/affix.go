@@ -31,7 +31,7 @@ func Infix(w string, inf_re string) [][]string {
 	inf_re = strings.Replace(inf_re,"<3>",Text("INFIX_2"),1)
 
 	re, err := regexp.Compile(inf_re)
-	if (err != nil) { panic(err) }
+	if err != nil { panic(err) }
 
 	// pull out all infixes used and stash them in the result array
 	result = re.FindAllStringSubmatch(w, -1)

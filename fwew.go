@@ -19,9 +19,9 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
+	"github.com/tirea/fwew/util"
 	"os"
 	"strings"
-	"github.com/tirea/fwew/util"
 )
 
 // global
@@ -30,7 +30,9 @@ var WORD_HAS []string
 
 // some minimal exception handling
 func check(e error) {
-	if e != nil { panic(e) }
+	if e != nil {
+		panic(e)
+	}
 }
 
 // get the Database ID of a Na'vi root word
@@ -62,18 +64,18 @@ func getNavID(w string) string {
 		if strings.HasPrefix(pos, "v") {
 			result = util.Infix(w, inf)
 		}
-		
+
 		// if user searched a root word and it's found, then just pull the ID
 		if strings.Contains(line, word) {
 			navID = line[0:strings.Index(line, "\t")]
 			break
-		// if infixes were found and it's actually a verb...
+			// if infixes were found and it's actually a verb...
 		} else if len(result) != 0 && strings.HasPrefix(pos, "v") {
 			// ...and if the found infixed word ends with same letter as input
 			if strings.HasSuffix(result[0][0], w[len(w)-1:]) {
 				// ... and if found infixed word starts with same letter
 				// ... then print out what was found and grab the ID
-				if strings.HasPrefix(result[0][0], w[0:1]){
+				if strings.HasPrefix(result[0][0], w[0:1]) {
 					navID = line[0:strings.Index(line, "\t")]
 					fmt.Println(result)
 				}
@@ -114,7 +116,7 @@ func getLocID(w string, l string) []string {
 
 			// only try to grab the id from line using requested language
 			if field_lng == l {
-				if DEBUG { 
+				if DEBUG {
 					fmt.Println("<DEBUG:getLocID() word>" + word + "</DEBUG>")
 					fmt.Println("<DEBUG:getLocID() l>" + l + "</DEBUG>")
 					fmt.Println("<DEBUG:getLocID() line>" + line + "</DEBUG>")
@@ -134,7 +136,7 @@ func getLocID(w string, l string) []string {
 						fmt.Println("<DEBUG:getLocID() locIDs>", locIDs, "</DEBUG>")
 					}
 
-				// multiple words in the local definition, search through each word
+					// multiple words in the local definition, search through each word
 				} else if len(field_arr) > 1 {
 					for i := 0; i < len(field_arr); i++ {
 						if DEBUG {
@@ -165,7 +167,7 @@ func getDataByID(id string) (string, string, string, string) {
 	metaData, err := os.Open(util.Text("METAWORDS"))
 	check(err)
 	scanner := bufio.NewScanner(metaData)
-	
+
 	var word string
 	var ipa string
 	var inf string
@@ -174,7 +176,7 @@ func getDataByID(id string) (string, string, string, string) {
 	if DEBUG {
 		fmt.Println("<DEBUG:getDataByID() id>" + id + "</DEBUG>")
 	}
-	
+
 	// break up each line by field and capture all the things...
 	for scanner.Scan() {
 		line := scanner.Text()
@@ -201,7 +203,7 @@ func getDataByID(id string) (string, string, string, string) {
 
 // get Local word for given ID
 func getLocalWordByID(id string, l string) string {
-	
+
 	//filestuffs
 	localData, err := os.Open(util.Text("LOCALIZED"))
 	check(err)
@@ -294,7 +296,7 @@ func main() {
 			fmt.Println("")
 		}
 
-	// Local -> Na'vi lookup
+		// Local -> Na'vi lookup
 	} else if *flag_r && flag.NArg() > 0 {
 		if DEBUG {
 			fmt.Println("<DEBUG *flag_r flag.NArg()>0>Reverse lookup direction | Args</DEBUG>")
@@ -390,7 +392,7 @@ func main() {
 		}
 		fmt.Println("")
 
-	// Local -> Na'vi lookup
+		// Local -> Na'vi lookup
 	} else if *flag_r && flag.NArg() == 0 {
 		if *flag_v {
 			fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
@@ -412,6 +414,11 @@ func main() {
 		fmt.Print("Fwew:> ")
 		word, _ := reader.ReadString('\n')
 		word = strings.Trim(word, "\n")
+
+		if word == "" {
+			fmt.Println("\n")
+			os.Exit(0)
+		}
 
 		lwrd = word
 		dbls = getLocID(lwrd, lang)
