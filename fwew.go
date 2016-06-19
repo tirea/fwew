@@ -26,7 +26,6 @@ import (
 
 // global
 var DEBUG bool
-var WORD_HAS []string
 var MW_FIELD_ID int = 0
 var MW_FIELD_NAV int = 1
 var MW_FIELD_IPA int = 2
