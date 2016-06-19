@@ -51,17 +51,6 @@ func init() {
 	texts["INFIX_0"] = "(äp|eyk|äpeyk)?"
 	texts["INFIX_1"] = "(am|ìm|ìyev|ay|ìsy|asy|ol|er|iv|arm|ìrm|ìry|ary|alm|ìlm|ìly|aly|imv|iyev|ìy|irv|ilv|us|awn)?"
 	texts["INFIX_2"] = "(ei|äng|eng|ats|uy)?"
-	texts["PREFIX_N"] = "(fì|tsa|me|pxe|ay|fay|tsay|fne|sna|munsna|fra|fray|pe|pem|pep|pay)?"
-	texts["PREFIX_V"] = "(tsuk|ketsuk|tì)?"
-	texts["PREFIX_ADJ"] = "(a|nì|ke|kel|kele)?"
-	texts["PREFIX_ADV"] = "(nìk)?"
-	texts["SUFFIX_N"] = "(ìl|l|ti|it|t|ru|ur|r|yä|ä|ìri|ri|ya|fkeyk|o|pe|tsyìp|am|ay|y)?"+
-						"(äo|eo|fa|few|fpi|ftu|ftumfa|hu|io|ìlä|kam|kay|krrka|ka|kxamlä|"+
-						"lisre|lok|luke|mìkam|mì|mungwrr|na|nemfa|ne|nuä|pxaw|pxel|pximaw|"+
-						"maw|pxisre|rofa|ro|sìn|sko|sre|tafkip|takip|fkip|kip|talun|ta|teri|uo|vay|wä|yoa)?"
-	texts["SUFFIX_NUM"] = "(ve)?"
-	texts["SUFFIX_ADJ"] = "(a|pin)?"
-	texts["SUFFIX_V"] = "(yu|tswo)?"
 }
 
 func Text(s string) string {

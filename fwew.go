@@ -46,6 +46,16 @@ func check(e error) {
 	}
 }
 
+// simple containment check function
+func stringInSlice(a string, list []string) bool {
+    for _, b := range list {
+        if b == a {
+            return true
+        }
+    }
+    return false
+}
+
 // get the Database ID of a Na'vi root word
 // only seemsm to support verb infix stripping at the moment
 func getNavID(w string) string {
@@ -56,8 +66,9 @@ func getNavID(w string) string {
 	var navID string
 	var line string
 	var fields []string
+	//var nav string
+	var pre string
 	var inf string
-	//var pre string
 	//var suf string
 	var pos string
 	var result [][]string
@@ -71,34 +82,41 @@ func getNavID(w string) string {
 		line = scanner.Text()
 		line = strings.ToLower(line)
 		fields = strings.Split(line, "\t")
-		//pre = fields[MW_FIELD_NAV]
-		//suf = fields[MW_FIELD_NAV]
+		//nav = fields[MW_FIELD_NAV]
+		pre = fields[MW_FIELD_NAV]
 		inf = fields[MW_FIELD_INF]
+		//suf = fields[MW_FIELD_NAV]
 		pos = fields[MW_FIELD_POS]
 
 		// if it's a verb, prepare the infix regex
 		if strings.HasPrefix(pos, "v") {
+			result = util.Prefix(w, pre, pos)
 			result = util.Infix(w, inf)
-		} 
-		/* else if pos == "n." {
-			result = util.Prefix(w, pre)
-			result = util.Suffix(w, suf)
-		}*/
+			//result = util.Suffix(w, suf, pos)
+		} else {
+			result = util.Prefix(w, pre, pos)
+			//result = util.Suffix(w, suf, pos)
+		}
+
+		if DEBUG {
+			fmt.Println("<DEBUG:getNavID() result>",result,"</DEBUG>")
+		}
 
 		// if user searched a root word and it's found, then just pull the ID
 		if strings.Contains(line, word) {
 			navID = line[0:strings.Index(line, "\t")]
 			break
-			// if infixes were found and it's actually a verb...
-		} else if len(result) != 0 && strings.HasPrefix(pos, "v") {
-			// ...and if the found infixed word ends with same letter as input
-			if strings.HasSuffix(result[0][0], w[len(w)-1:]) {
-				// ... and if found infixed word starts with same letter
+		// if affixes were found...
+		} else if len(result) != 0 {
+			// ...and if the found infixed VERB ends+starts with same letter as input (THIS LOGIC ONLY WORKS FOR INFIXES!)
+			if strings.HasPrefix(pos, "v") && strings.HasSuffix(result[0][0], w[len(w)-1:]) && strings.HasPrefix(result[0][0], w[0:1]) {
 				// ... then print out what was found and grab the ID
-				if strings.HasPrefix(result[0][0], w[0:1]) {
-					navID = line[0:strings.Index(line, "\t")]
-					fmt.Println(result)
-				}
+				navID = line[0:strings.Index(line, "\t")]
+				fmt.Println(result)
+				break
+			} else if len(result[0]) > 1 && !stringInSlice("",result[0]) {
+				navID = line[0:strings.Index(line, "\t")]
+				fmt.Println(result)
 			}
 		}
 	}
@@ -184,6 +202,8 @@ func getLocID(w string, l string) []string {
 // get POS, Na'vi Word, IPA, Infixes, for given ID
 func getDataByID(id string) (string, string, string, string) {
 
+	if id == "" { return "", "", "", ""}
+
 	// set up filestuffs
 	metaData, err := os.Open(util.Text("METAWORDS"))
 	check(err)
@@ -225,6 +245,8 @@ func getDataByID(id string) (string, string, string, string) {
 // get Local word for given ID
 func getLocalWordByID(id string, l string) string {
 
+	if id == "" || l == "" { return util.Text("NONE") }
+
 	//filestuffs
 	localData, err := os.Open(util.Text("LOCALIZED"))
 	check(err)
@@ -236,7 +258,7 @@ func getLocalWordByID(id string, l string) string {
 	for scanner.Scan() {
 		line := scanner.Text()
 		fields := strings.Split(line, "\t")
-		if len(fields) == 4 {
+		if len(fields) == LW_NUM_FIELDS {
 			field_wid := fields[LW_FIELD_ID]
 			field_lng := fields[LW_FIELD_LC]
 			field_def := fields[LW_FIELD_DEF]
