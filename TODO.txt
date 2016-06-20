@@ -1,5 +1,6 @@
 TODO:
 ----
+FIX affix.go functions to check containment and replace 1st with regexp. (prefix, suffix)
 + Add support for affixes other than verb infixes
 + Add a Number converter
 + Add a Grammar Parser
