@@ -35,7 +35,7 @@ Don't forget to escape ' somehow:
 	fwew \'a\'aw
 	fwew "'a'aw"
 
-Ways to search a "____" si verb:
+Ways to search a "__ si" verb:
 
 	s="eltur tìtxen si"; echo "$s" | fwew
 	echo "eltur tìtxen si" | fwew

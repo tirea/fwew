@@ -45,16 +45,6 @@ func check(e error) {
 	}
 }
 
-// simple containment check function
-func stringInSlice(a string, list []string) bool {
-    for _, b := range list {
-        if b == a {
-            return true
-        }
-    }
-    return false
-}
-
 // get the Database ID of a Na'vi root word
 // only seemsm to support verb infix stripping at the moment
 func getNavID(w string) string {
@@ -87,35 +77,42 @@ func getNavID(w string) string {
 		//suf = fields[MW_FIELD_NAV]
 		pos = fields[MW_FIELD_POS]
 
-		// if it's a verb, prepare the infix regex
-		if strings.HasPrefix(pos, "v") {
-			result = util.Prefix(w, pre, pos)
-			result = util.Infix(w, inf)
-			//result = util.Suffix(w, suf, pos)
-		} else {
-			result = util.Prefix(w, pre, pos)
-			//result = util.Suffix(w, suf, pos)
-		}
-
-		if DEBUG {
-			fmt.Println("<DEBUG:getNavID() result>",result,"</DEBUG>")
-		}
-
 		// if user searched a root word and it's found, then just pull the ID
 		if strings.Contains(line, word) {
 			navID = line[0:strings.Index(line, "\t")]
 			break
+
 		// if affixes were found...
-		} else if len(result) != 0 {
-			// ...and if the found infixed VERB ends+starts with same letter as input (THIS LOGIC ONLY WORKS FOR INFIXES!)
-			if strings.HasPrefix(pos, "v") && strings.HasSuffix(result[0][0], w[len(w)-1:]) && strings.HasPrefix(result[0][0], w[0:1]) {
-				// ... then print out what was found and grab the ID
-				navID = line[0:strings.Index(line, "\t")]
-				fmt.Println(result)
-				break
-			} else if len(result[0]) > 1 && !stringInSlice("",result[0]) {
-				navID = line[0:strings.Index(line, "\t")]
-				fmt.Println(result)
+		} else {
+			// if it's a verb, check for verb affixes and strip
+			if strings.HasPrefix(pos, "v") {
+				//result = util.Prefix(w, pre, pos)
+				result = util.Infix(w, inf)
+				//result = util.Suffix(w, suf, pos)
+			} else {
+				// otherwise only check for prefixes and suffixes
+				result = util.Prefix(w, pre, pos)
+				//result = util.Suffix(w, suf, pos)
+			}
+
+			if DEBUG {
+				fmt.Println("<DEBUG:getNavID() result>",result,"</DEBUG>")
+			}
+
+			if len(result) != 0 {
+				// ...and if the found infixed VERB ends+starts with same letter as input
+				if strings.HasPrefix(pos, "v") && strings.HasSuffix(result[0][0], w[len(w)-1:]) && strings.HasPrefix(result[0][0], w[0:1]) {
+					// ... then print out what was found and grab the ID
+					navID = line[0:strings.Index(line, "\t")]
+					fmt.Println(result)
+					break
+				// everything else. this is still too "catch-all"...
+				// the following block is responsible for resetting result and causing net zero-results
+				// break statement was insufficient to fix
+				} else if len(result[0]) > 1 && !util.StringInSlice("",result[0]) {
+					navID = line[0:strings.Index(line, "\t")]
+					fmt.Println(result)
+				}
 			}
 		}
 	}
