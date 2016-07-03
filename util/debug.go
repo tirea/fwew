@@ -24,8 +24,8 @@ var head string = "<DEBUG:"
 var mid string = ">"
 var tail string = "</DEBUG>"
 
-// output program state snapshots given function and variable names
-func Debug(progDebug bool, funcName string, varNames []string, varVals []string) {
+// output program state snapshot given function and variable names
+func DebugSnap(progDebug bool, funcName string, varNames []string, varVals []string) {
   if len(varNames != len(varVals) {
     fmt.Println("Debugging error: varNames and varVals unequal size")
     exit(1)
@@ -34,5 +34,12 @@ func Debug(progDebug bool, funcName string, varNames []string, varVals []string)
     for i := 0; i < len(varNames); i++ {
       fmt.Println(head + funcName + varNames[i] + mid + varVals[i] + tail)
     }
+  }
+}
+
+// output status of a single variable
+func DebugVar(progDebug bool, funcName string, varName string, varVal string){
+  if progDebug {
+    fmt.Println(head + funcName + varName + mid+ varVal + tail)
   }
 }
