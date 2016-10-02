@@ -5,9 +5,9 @@
 //  (at your option) any later version.
 //
 //  Fwew is distributed in the hope that it will be usefil,
-// but WITHOUT ANY WARRANTY; without even implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
-// GNU General Public License for more details.
+//  but WITHOUT ANY WARRANTY; without even implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+//  GNU General Public License for more details.
 //
 //  You should have received a copy of the GNU General Public License
 //  along with Fwew.  If not, see http://gnu.org/licenses/
@@ -24,12 +24,8 @@ var head string = "<DEBUG:"
 var mid string = ">"
 var tail string = "</DEBUG>"
 
-// output program state snapshot given function and variable names
+// output status of a bunch of string variables
 func DebugSnap(progDebug bool, funcName string, varNames []string, varVals []string) {
-  if len(varNames != len(varVals) {
-    fmt.Println("Debugging error: varNames and varVals unequal size")
-    exit(1)
-  }
   if progDebug {
     for i := 0; i < len(varNames); i++ {
       fmt.Println(head + funcName + varNames[i] + mid + varVals[i] + tail)
@@ -37,9 +33,27 @@ func DebugSnap(progDebug bool, funcName string, varNames []string, varVals []str
   }
 }
 
-// output status of a single variable
-func DebugVar(progDebug bool, funcName string, varName string, varVal string){
+// output status of a single string variable
+func DebugVar(progDebug bool, funcName string, varName string, varVal string) {
   if progDebug {
-    fmt.Println(head + funcName + varName + mid+ varVal + tail)
+    fmt.Println(head + funcName + varName + mid + varVal + tail)
+  }
+}
+
+// output status of a single array variable
+func DebugArr(progDebug bool, funcName string, varName string, varVal []string) {
+  if progDebug {
+    fmt.Println(head + funcName + varName + mid, varVal, tail)
+    //fmt.Println(varVal)
+    //fmt.Println(tail)
+  }
+}
+
+// output status of result [][]string 
+func DebugResVar(progDebug bool, funcName string, varName string, varVal [][]string) {
+  if progDebug {
+    fmt.Println(head + funcName + varName + mid, varVal, tail) 
+    //fmt.Println(varVal)
+    //fmt.Println(tail)
   }
 }

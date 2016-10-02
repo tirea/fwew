@@ -14,22 +14,21 @@
 
 //	This util library contains functions for handling affixed words
 
-// COMPLETE LOGIC OVERHAUL REQUIRED
 
+// TODO: COMPLETE LOGIC OVERHAUL REQUIRED!
 package util
 
 import (
 	"regexp"
 	"strings"
-	//"fmt"
 )
 
-var nPrefixes = []string{"fì", "tsa", "me", "pxe", "ay", "fay", "tsay", "fne", "sna", "munsna", "fra", "fray", "pe", "pem", "pep", "pay"}
+var nPrefixes = []string{"fì", "tsay", "me", "pxe", "ay", "fay", "tsa", "fne", "sna", "munsna", "fra", "fray", "pe", "pem", "pep", "pay"}
 var vPrefixes = []string{"tsuk", "ketsuk", "tì"}
 var adjPrefixes = []string{"a", "nì", "ke", "kel", "kele"}
 var advPrefixRe string = "(nìk)?"
 var nSuffixes = []string{"ìl", "l", "ti", "it", "t", "ru", "ur", "r", "yä", "ä", "ìri", "ri", "ya", "fkeyk", "o", "pe", "tsyìp", "am", "ay", "y", "äo", "eo", "fa", "few", "fpi", "ftu", "ftumfa", "hu", "io", "ìlä", "kam", "kay", "krrka", "ka", "kxamlä", "lisre", "lok", "luke", "mìkam", "mì", "mungwrr", "na", "nemfa", "ne", "nuä", "pxaw", "pxel", "pximaw", "maw", "pxisre", "rofa", "ro", "sìn", "sko", "sre", "tafkip", "takip", "fkip", "kip", "talun", "ta", "teri", "uo", "vay", "wä", "yoa"}
-var numSuffix string = "ve"
+var numSuffixRe string = "(ve)?"
 var adjSuffixes = []string{"a", "pin"}
 var vSuffixes = []string{"yu", "tswo"}
 var lentable = map[string]string{}
@@ -102,9 +101,6 @@ func Prefix(w string, pre_re string, pos string) [][]string {
 			//pre_re stays as-is
 	}
 
-	// DEBUG
-	//fmt.Println("<DEBUG:util.Prefix() pre_re>", pre_re, "</DEBUG>")
-
 	re, err := regexp.Compile(pre_re)
 	if err != nil { panic(err) }
 
@@ -118,6 +114,27 @@ func Prefix(w string, pre_re string, pos string) [][]string {
 // stub
 func Suffix(w string, suf_re string, pos string) [][]string {
 
+	var suffixRe string
+
+	switch pos {
+		case "n.":
+			for _, s := range nSuffixes {
+				suffixRe = suffixRe + "("+s+")?"
+			}
+			suf_re = suf_re + suffixRe
+		case "num.":
+			suf_re = suf_re + advPrefixRe
+		case "adj.":
+			for _, s := range adjSuffixes {
+				suffixRe = suffixRe + "("+s+")?"
+			}
+			suf_re = suf_re + suffixRe
+		case "v.", "vin.", "vim.", "vtr.", "vtrm.":
+			for _, s := range vSuffixes {
+				suffixRe = suffixRe + "("+s+")?"
+			}
+			suf_re = suf_re + suffixRe
+	}
 
 	return result
 }
@@ -126,6 +143,5 @@ func Suffix(w string, suf_re string, pos string) [][]string {
 // stub
 func Lenition(w string, w_re string) [][]string {
 
-	
 	return result
 }
