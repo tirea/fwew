@@ -82,10 +82,10 @@ func getNavID(w string) string {
 			navID = line[0:strings.Index(line, "\t")]
 			break
 
-		// if affixes were found...
-		} else { 
+			// if affixes were found...
+		} else {
 			//TODO: FIX THIS ENTIRE ELSE BLOCK
-			
+
 			// if it's a verb, check for verb affixes and strip
 			if strings.HasPrefix(pos, "v") {
 				//result = util.Prefix(w, pre, pos)
@@ -104,14 +104,14 @@ func getNavID(w string) string {
 				if strings.HasPrefix(pos, "v") && strings.HasSuffix(result[0][0], w[len(w)-1:]) && strings.HasPrefix(result[0][0], w[0:1]) {
 					// ... then print out what was found and grab the ID
 					navID = line[0:strings.Index(line, "\t")]
-					fmt.Println(result," //hack")
+					fmt.Println(result, " //hack")
 					break
-				// everything else. this is still too "catch-all"...
-				// the following block is responsible for resetting result and causing net zero-results
-				// break statement was insufficient to fix
-				} else if len(result[0]) > 1 && !util.StringInSlice("",result[0]) {
+					// everything else. this is still too "catch-all"...
+					// the following block is responsible for resetting result and causing net zero-results
+					// break statement was insufficient to fix
+				} else if len(result[0]) > 1 && !util.StringInSlice("", result[0]) {
 					navID = line[0:strings.Index(line, "\t")]
-					fmt.Println(result," // catch-all")
+					fmt.Println(result, " // catch-all")
 				}
 			}
 		}
@@ -151,9 +151,9 @@ func getLocID(w string, l string) []string {
 
 			// only try to grab the id from line using requested language
 			if field_lng == l {
-				util.DebugSnap(DEBUG,"getLocID()",[]string{"word","l","line","field_def","field_lng"}, []string{word,l,line,field_def,field_lng})
-				util.DebugArr(DEBUG,"getLocID()","fields",fields)
-				util.DebugArr(DEBUG,"getLocID()","field_arr",field_arr)
+				util.DebugSnap(DEBUG, "getLocID()", []string{"word", "l", "line", "field_def", "field_lng"}, []string{word, l, line, field_def, field_lng})
+				util.DebugArr(DEBUG, "getLocID()", "fields", fields)
+				util.DebugArr(DEBUG, "getLocID()", "field_arr", field_arr)
 
 				// single-word definition and happens to be what user searched
 				if len(field_arr) == 1 && field_def == word {
@@ -162,13 +162,13 @@ func getLocID(w string, l string) []string {
 					if DEBUG {
 						fmt.Println("<DEBUG:getLocID()>!MATCH!</DEBUG>")
 					}
-					util.DebugVar(DEBUG,"getLocID()","locID",locID)
-					util.DebugArr(DEBUG,"getLocID()","locIDs",locIDs)
+					util.DebugVar(DEBUG, "getLocID()", "locID", locID)
+					util.DebugArr(DEBUG, "getLocID()", "locIDs", locIDs)
 
-				// multiple words in the local definition, search through each word
+					// multiple words in the local definition, search through each word
 				} else if len(field_arr) > 1 {
 					for i := 0; i < len(field_arr); i++ {
-						util.DebugVar(DEBUG,"getLocID()","field_arr[i]",field_arr[i])
+						util.DebugVar(DEBUG, "getLocID()", "field_arr[i]", field_arr[i])
 						if field_arr[i] == word || field_arr[i] == word+"," {
 							if DEBUG {
 								fmt.Println("<DEBUG:getLocID() contains>l and *word*</DEBUG>")
@@ -181,14 +181,16 @@ func getLocID(w string, l string) []string {
 			}
 		}
 	}
-	util.DebugArr(DEBUG,"getLocID()","locIDs",locIDs)
+	util.DebugArr(DEBUG, "getLocID()", "locIDs", locIDs)
 	return locIDs
 }
 
 // get POS, Na'vi Word, IPA, Infixes, for given ID
 func getDataByID(id string) (string, string, string, string) {
 
-	if id == "" { return "", "", "", "" }
+	if id == "" {
+		return "", "", "", ""
+	}
 
 	// set up filestuffs
 	metaData, err := os.Open(util.Text("METAWORDS"))
@@ -212,21 +214,23 @@ func getDataByID(id string) (string, string, string, string) {
 			ipa = "[" + fields[MW_FIELD_IPA] + "]"
 			inf = fields[MW_FIELD_INF]
 			pos = fields[MW_FIELD_POS]
-			
-			util.DebugArr(DEBUG, "getDataByID()", "fields",fields)
-			util.DebugVar(DEBUG, "getDataByID()", "word",word)
-			
+
+			util.DebugArr(DEBUG, "getDataByID()", "fields", fields)
+			util.DebugVar(DEBUG, "getDataByID()", "word", word)
+
 			break
 		}
 	}
-	util.DebugVar(DEBUG,"getDataByID()","word",word)
+	util.DebugVar(DEBUG, "getDataByID()", "word", word)
 	return pos, word, ipa, inf
 }
 
 // get Local word for given ID
 func getLocalWordByID(id string, l string) string {
 
-	if id == "" || l == "" { return util.Text("NONE") }
+	if id == "" || l == "" {
+		return util.Text("NONE")
+	}
 
 	//filestuffs
 	localData, err := os.Open(util.Text("LOCALIZED"))
@@ -246,8 +250,8 @@ func getLocalWordByID(id string, l string) string {
 			localWord = field_def
 			if field_lng == l {
 				if field_wid == id {
-					util.DebugArr(DEBUG,"getLocalWordByID()","fields",fields)
-					util.DebugSnap(DEBUG,"getLocalWordByID()",[]string{"line","localWord"},[]string{line,localWord})
+					util.DebugArr(DEBUG, "getLocalWordByID()", "fields", fields)
+					util.DebugSnap(DEBUG, "getLocalWordByID()", []string{"line", "localWord"}, []string{line, localWord})
 					// match
 					return localWord
 				}
@@ -329,7 +333,7 @@ func main() {
 		for i := 0; i < flag.NArg(); i++ {
 			lwrd = flag.Args()[i]
 			dbls = getLocID(lwrd, lang)
-			util.DebugArr(DEBUG,"main()","dbls",dbls)
+			util.DebugArr(DEBUG, "main()", "dbls", dbls)
 			for i := 0; i < len(dbls); i++ {
 				dbid = dbls[i]
 				wpos, word, wipa, infx = getDataByID(dbid)
