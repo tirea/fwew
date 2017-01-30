@@ -26,8 +26,8 @@ var texts = map[string]string{}
 
 func init() {
 	texts["NAME"] = "Fwew"
-	texts["VERSION"] = "1.0.4-BETA (20 JUN 2016)"
-	texts["DICTVERSION"] = "Na'vi Dictionary 13.284 (03 MAR 2016)"
+	texts["VERSION"] = "1.1-BETA (27 JAN 2017)"
+	texts["DICTVERSION"] = "Na'vi Dictionary 13.31 (07 JAN 2017)"
 	texts["AUTHOR"] = "Tirea Aean"
 	texts["LANGUAGES"] = "de, eng, est, hu, nl, pl, ru, sv"
 	texts["DEFAULT_LANGUAGE"] = "eng"
@@ -36,23 +36,32 @@ func init() {
 	texts["NONE"] = "- not found -"
 	texts["USAGEDEBUG"] = "Show extremely verbose probing"
 	texts["USAGEFLAG_V"] = "Show program & dictionary version numbers"
-	texts["USAGEFLAG_L"] = "Use specified language \n\tValid values: "+ texts["LANGUAGES"]
+	texts["USAGEFLAG_L"] = "Use specified language \n\tValid values: " + texts["LANGUAGES"]
 	texts["USAGEFLAG_I"] = "Display infix location data"
 	texts["USAGEFLAG_IPA"] = "Display IPA data"
+//	texts["USAGEFLAG_POS"] = "Search for word(s) with specified part of speech" //TODO
 	texts["USAGEFLAG_R"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
 	texts["USER"] = USER.Username
 	texts["HOMEDIR"], _ = filepath.Abs(USER.HomeDir)
 	texts["DATADIR"] = filepath.Join(texts["HOMEDIR"], ".fwew")
 	texts["METAWORDS"] = filepath.Join(texts["DATADIR"], "metaWords.txt")
 	texts["LOCALIZED"] = filepath.Join(texts["DATADIR"], "localizedWords.txt")
-	texts["HEADTEXT"] = texts["NAME"]+" "+texts["VERSION"]+" by "+texts["AUTHOR"]+"\n"+
+	texts["DICTIONARY"] = filepath.Join(texts["DATADIR"], "dictionary.tsv")
+	texts["ERR_MISSING_DATAFILE"] = "Dictionary data file missing or not installed.\nPlease Install Fwew (run ./install.sh)"
+	texts["HEADTEXT"] = texts["NAME"]+" "+texts["TESTVERSION"]+" by "+texts["AUTHOR"]+"\n"+
 						"Crossplatform "+texts["BASELANG"]+" Dictionary Search"+"\n"+
-						"fwew -h for usage, see README"
+						"fwew -h for usage, see README\n"
 	texts["INFIX_0"] = "(äp|eyk|äpeyk)?"
 	texts["INFIX_1"] = "(am|ìm|ìyev|ay|ìsy|asy|ol|er|iv|arm|ìrm|ìry|ary|alm|ìlm|ìly|aly|imv|iyev|ìy|irv|ilv|us|awn)?"
 	texts["INFIX_2"] = "(ei|äng|eng|ats|uy)?"
+	texts["NORESULTS"] = "No Results\n"
 }
 
 func Text(s string) string {
 	return texts[s]
+}
+
+// TODO: This is for later when config files become involved?
+func SetText(i, s string) {
+	texts[i] = s
 }
