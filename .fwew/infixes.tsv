@@ -1,0 +1,619 @@
+"832"	"de"	"am"	"a.m"	"past."	"1"	"Präteritum"	\N
+"832"	"en"	"am"	"a.m"	"past."	"1"	"past tense"	\N
+"832"	"est"	"am"	"a.m"	"past."	"1"	"Lihtmineviku tunnus."	\N
+"832"	"hu"	"am"	"a.m"	"past."	"1"	"múlt idő jele"	\N
+"832"	"nl"	"am"	"a.m"	"past."	"1"	"onvoltooid verleden tijd"	\N
+"832"	"pl"	"am"	"a.m"	"past."	"1"	"czas przeszły"	\N
+"832"	"ru"	"am"	"a.m"	"past."	"1"	"прош. время, "	\N
+"832"	"sv"	"am"	"a.m"	"past."	"1"	"föregående tempus"	\N
+"833"	"de"	"arm"	"aR.m"	"impf.past."	"1"	"Präteritum, imperfektiver Aspekt"	\N
+"833"	"en"	"arm"	"aR.m"	"impf.past."	"1"	"imperfective past tense"	\N
+"833"	"est"	"arm"	"aR.m"	"impf.past."	"1"	"Lõpetamata (imperfektiivse) mineviku tunnus."	\N
+"833"	"hu"	"arm"	"aR.m"	"impf.past."	"1"	"befejezetlen múlt idő jele"	\N
+"833"	"nl"	"arm"	"aR.m"	"impf.past."	"1"	"imperfectieve verleden tijd"	\N
+"833"	"pl"	"arm"	"aR.m"	"impf.past."	"1"	"czas przeszły, aspekt niedokonany"	\N
+"833"	"ru"	"arm"	"aR.m"	"impf.past."	"1"	"несов. прош. время, "	\N
+"833"	"sv"	"arm"	"aR.m"	"impf.past."	"1"	"imperfekt föregående tempus"	\N
+"834"	"de"	"ay"	"a.j"	"fut."	"1"	"Zukunft, Futur (vorhersagend)"	\N
+"834"	"en"	"ay"	"a.j"	"fut."	"1"	"future tense (predictive)"	\N
+"834"	"est"	"ay"	"a.j"	"fut."	"1"	"Tuleviku tunnus."	\N
+"834"	"hu"	"ay"	"a.j"	"fut."	"1"	"jövő idő jele"	\N
+"834"	"nl"	"ay"	"a.j"	"fut."	"1"	"onvoltooid toekomstige tijd"	\N
+"834"	"pl"	"ay"	"a.j"	"fut."	"1"	"czas przyszły"	\N
+"834"	"ru"	"ay"	"a.j"	"fut."	"1"	"будущее время (предсказание) "	\N
+"834"	"sv"	"ay"	"a.j"	"fut."	"1"	"framtida tempus"	\N
+"835"	"de"	"äng"	"æ.N"	"pej."	"2"	"Pejorativer Affekt"	\N
+"835"	"en"	"äng"	"æ.N"	"pej."	"2"	"pejorative affect"	\N
+"835"	"est"	"äng"	"æ.N"	"pej."	"2"	"Halvustava või laitva mõjutuse tunnus."	\N
+"835"	"hu"	"äng"	"æ.N"	"pej."	"2"	"rosszallást kifejező"	\N
+"835"	"nl"	"äng"	"æ.N"	"pej."	"2"	"verslechterend effect"	\N
+"835"	"pl"	"äng"	"æ.N"	"pej."	"2"	"negatywne nastawienie"	\N
+"835"	"ru"	"äng"	"æ.N"	"pej."	"2"	"негативное отношение, "	\N
+"835"	"sv"	"äng"	"æ.N"	"pej."	"2"	"negativ mening"	\N
+"836"	"de"	"äp"	"æ.p"	"refl."	"0"	"Reflexiv"	\N
+"836"	"en"	"äp"	"æ.p"	"refl."	"0"	"reflexive"	\N
+"836"	"est"	"äp"	"æ.p"	"refl."	"0"	"Enesekohase asesõna tunnus."	\N
+"836"	"hu"	"äp"	"æ.p"	"refl."	"0"	"visszaható névmás"	\N
+"836"	"nl"	"äp"	"æ.p"	"refl."	"0"	"wederkerend"	\N
+"836"	"pl"	"äp"	"æ.p"	"refl."	"0"	"strona zwrotna"	\N
+"836"	"ru"	"äp"	"æ.p"	"refl."	"0"	"возвратный (-ся), "	\N
+"836"	"sv"	"äp"	"æ.p"	"refl."	"0"	"reflektorisk"	\N
+"837"	"de"	"ei"	"E.i"	"laud."	"2"	"Laudativer Affekt"	\N
+"837"	"en"	"ei"	"E.i"	"laud."	"2"	"laudative affect"	\N
+"837"	"est"	"ei"	"E.i"	"laud."	"2"	"Kiitva, hea mõjutuse tunnus."	\N
+"837"	"hu"	"ei"	"E.i"	"laud."	"2"	"boldogságot kifejező"	\N
+"837"	"nl"	"ei"	"E.i"	"laud."	"2"	"verbeterend effect"	\N
+"837"	"pl"	"ei"	"E.i"	"laud."	"2"	"pozytywne nastawienie"	\N
+"837"	"ru"	"ei"	"E.i"	"laud."	"2"	"положительное отношение, "	\N
+"837"	"sv"	"ei"	"E.i"	"laud."	"2"	"positiv mening"	\N
+"838"	"de"	"er"	"E.R"	"impf."	"1"	"Imperfektiver Aspekt"	\N
+"838"	"en"	"er"	"E.R"	"impf."	"1"	"imperfective aspect"	\N
+"838"	"est"	"er"	"E.R"	"impf."	"1"	"Lõpetamata (imperfektiivse) tegevuse tunnus."	\N
+"838"	"hu"	"er"	"E.R"	"impf."	"1"	"befejezetlenséget, folyamatosságot jelez"	\N
+"838"	"nl"	"er"	"E.R"	"impf."	"1"	"imperfectief aspect"	\N
+"838"	"pl"	"er"	"E.R"	"impf."	"1"	"aspekt niedokonany"	\N
+"838"	"ru"	"er"	"E.R"	"impf."	"1"	"несов. вид, "	\N
+"838"	"sv"	"er"	"E.R"	"impf."	"1"	"presens, nutid, pågående"	\N
+"839"	"de"	"ilv"	"il.v"	"pres.per.subj."	"1"	"Präsens Perfektiver Subjunktiv"	\N
+"839"	"en"	"ilv"	"il.v"	"pres.per.subj."	"1"	"present perfective subjunctive"	\N
+"839"	"est"	"ilv"	"il.v"	"pres.per.subj."	"1"	"Tingiva oleviku perfektiivne tunnus."	\N
+"839"	"hu"	"ilv"	"il.v"	"pres.per.subj."	"1"	"jelen idejű befejezett kötőmód"	\N
+"839"	"nl"	"ilv"	"il.v"	"pres.per.subj."	"1"	"huidige perfectieve aanvoegende wijs"	\N
+"839"	"pl"	"ilv"	"il.v"	"pres.per.subj."	"1"	"czas teraźniejszy, aspekt dokonany, tryb łączący"	\N
+"839"	"ru"	"ilv"	"il.v"	"pres.per.subj."	"1"	"сослагательное наклонение настоящего времени совершенного вида"	\N
+"839"	"sv"	"ilv"	"il.v"	"pres.per.subj."	"1"	"nutida, perfekt konjunktiv"	\N
+"840"	"de"	"imv"	"im.v"	"past.subj."	"1"	"Präteritum Subjunktiv"	\N
+"840"	"en"	"imv"	"im.v"	"past.subj."	"1"	"past subjunctive"	\N
+"840"	"est"	"imv"	"im.v"	"past.subj."	"1"	"Tingiva täismineviku tunnus."	\N
+"840"	"hu"	"imv"	"im.v"	"past.subj."	"1"	"múlt idejű kötőmód"	\N
+"840"	"nl"	"imv"	"im.v"	"past.subj."	"1"	"verleden subjunctief"	\N
+"840"	"pl"	"imv"	"im.v"	"past.subj."	"1"	"czas przeszły, tryb łączący"	\N
+"840"	"ru"	"imv"	"im.v"	"past.subj."	"1"	"сосл. наклонение, прош. время, "	\N
+"840"	"sv"	"imv"	"im.v"	"past.subj."	"1"	"förflutet konjunktiv"	\N
+"841"	"de"	"irv"	"iR.v"	"pres.impf.subj."	"1"	"Präsens Imperfektiver Subjunktiv"	\N
+"841"	"en"	"irv"	"iR.v"	"pres.impf.subj."	"1"	"present imperfective subjunctive"	\N
+"841"	"est"	"irv"	"iR.v"	"pres.impf.subj."	"1"	"Tingiva lõpetamata (impefektiivse) oleviku tunnus."	\N
+"841"	"hu"	"irv"	"iR.v"	"pres.impf.subj."	"1"	"jelen idejű befejezetlen kötőmód"	\N
+"841"	"nl"	"irv"	"iR.v"	"pres.impf.subj."	"1"	"imperfectieve tegenwoordige tijd subjunctief"	\N
+"841"	"pl"	"irv"	"iR.v"	"pres.impf.subj."	"1"	"czas teraźniejszy, aspekt niedokonany, tryb łączący"	\N
+"841"	"ru"	"irv"	"iR.v"	"pres.impf.subj."	"1"	"сосл. наклонение, несов. наст. время, "	\N
+"841"	"sv"	"irv"	"iR.v"	"pres.impf.subj."	"1"	"presens, imperfekt konjunktiv"	\N
+"842"	"de"	"iv"	"i.v"	"subj."	"1"	"Subjunktiv (Modus)"	\N
+"842"	"en"	"iv"	"i.v"	"subj."	"1"	"subjunctive mood"	\N
+"842"	"est"	"iv"	"i.v"	"subj."	"1"	"Tingiva kõneviisi tunnus."	\N
+"842"	"hu"	"iv"	"i.v"	"subj."	"1"	"kötőmód jele"	\N
+"842"	"nl"	"iv"	"i.v"	"subj."	"1"	"subjunctief"	\N
+"842"	"pl"	"iv"	"i.v"	"subj."	"1"	"tryb łączący"	\N
+"842"	"ru"	"iv"	"i.v"	"subj."	"1"	"сосл наклонение, "	\N
+"842"	"sv"	"iv"	"i.v"	"subj."	"1"	"konjunktiv"	\N
+"843"	"de"	"iyev"	"i.jE.v"	"fut.subj."	"1"	"Futur Subjunktiv"	\N
+"843"	"en"	"iyev"	"i.jE.v"	"fut.subj."	"1"	"future subjunctive"	\N
+"843"	"est"	"iyev"	"i.jE.v"	"fut.subj."	"1"	"Tingiva tuleviku tunnus."	\N
+"843"	"hu"	"iyev"	"i.jE.v"	"fut.subj."	"1"	"jövő idejű kötőmód"	\N
+"843"	"nl"	"iyev"	"i.jE.v"	"fut.subj."	"1"	"toekomstig subjunctief"	\N
+"843"	"pl"	"iyev"	"i.jE.v"	"fut.subj."	"1"	"czas przyszły, tryb łączący"	\N
+"843"	"ru"	"iyev"	"i.jE.v"	"fut.subj."	"1"	"сосл. наклонение, будущее время, "	\N
+"843"	"sv"	"iyev"	"i.jE.v"	"fut.subj."	"1"	"framtida konjunktiv"	\N
+"844"	"de"	"ìm"	"I.m"	"rec.past."	"1"	"unmittelbare Vergangenheit"	\N
+"844"	"en"	"ìm"	"I.m"	"rec.past."	"1"	"recent past"	\N
+"844"	"est"	"ìm"	"I.m"	"rec.past."	"1"	"Hiljutise lihtmineviku tunnus."	\N
+"844"	"hu"	"ìm"	"I.m"	"rec.past."	"1"	"közelmúlt jele"	\N
+"844"	"nl"	"ìm"	"I.m"	"rec.past."	"1"	"recent verleden"	\N
+"844"	"pl"	"ìm"	"I.m"	"rec.past."	"1"	"czas przeszły bliski"	\N
+"844"	"ru"	"ìm"	"I.m"	"rec.past."	"1"	"недавнее прош. время, "	\N
+"844"	"sv"	"ìm"	"I.m"	"rec.past."	"1"	"Nylig dåtid"	\N
+"846"	"de"	"ìy"	"I.j"	"imm.fut."	"1"	"unmittelbare Zukunft"	\N
+"846"	"en"	"ìy"	"I.j"	"imm.fut."	"1"	"immediate future tense"	\N
+"846"	"est"	"ìy"	"I.j"	"imm.fut."	"1"	"Kohese tuleviku tunnus"	\N
+"846"	"hu"	"ìy"	"I.j"	"imm.fut."	"1"	"közeljövő jele"	\N
+"846"	"nl"	"ìy"	"I.j"	"imm.fut."	"1"	"onvoltooid onmiddelijk toekomstige tijd"	\N
+"846"	"pl"	"ìy"	"I.j"	"imm.fut."	"1"	"czas przyszły bliski"	\N
+"846"	"ru"	"ìy"	"I.j"	"imm.fut."	"1"	"ближайшее будущее время, "	\N
+"846"	"sv"	"ìy"	"I.j"	"imm.fut."	"1"	"Omedelbart framtida tempus"	\N
+"847"	"de"	"ìyev"	"I.jE.v"	"fut.subj."	"1"	"Futur Subjunktiv"	\N
+"847"	"en"	"ìyev"	"I.jE.v"	"fut.subj."	"1"	"future subjunctive"	\N
+"847"	"est"	"ìyev"	"I.jE.v"	"fut.subj."	"1"	"Tingiva tuleviku tunnus"	\N
+"847"	"hu"	"ìyev"	"I.jE.v"	"fut.subj."	"1"	"jövő idejű kötőmódú"	\N
+"847"	"nl"	"ìyev"	"I.jE.v"	"fut.subj."	"1"	"toekomstig subjunctief"	\N
+"847"	"pl"	"ìyev"	"I.jE.v"	"fut.subj."	"1"	"czas przyszły, tryb łączący"	\N
+"847"	"ru"	"ìyev"	"I.jE.v"	"fut.subj."	"1"	"сосл. наклонение, будущее время, "	\N
+"847"	"sv"	"ìyev"	"I.jE.v"	"fut.subj."	"1"	"framtida konjunktiv"	\N
+"848"	"de"	"ol"	"o.l"	"perf."	"1"	"Perfektiver Aspekt"	\N
+"848"	"en"	"ol"	"o.l"	"perf."	"1"	"perfective aspect"	\N
+"848"	"est"	"ol"	"o.l"	"perf."	"1"	"Lõpetatud (perfektiivse) tegevuse tunnus."	\N
+"848"	"hu"	"ol"	"o.l"	"perf."	"1"	"befejezett cselekvés"	\N
+"848"	"nl"	"ol"	"o.l"	"perf."	"1"	"perfectief aspect"	\N
+"848"	"pl"	"ol"	"o.l"	"perf."	"1"	"aspekt dokonany"	\N
+"848"	"ru"	"ol"	"o.l"	"perf."	"1"	"сов. вид, "	\N
+"848"	"sv"	"ol"	"o.l"	"perf."	"1"	"perfekt"	\N
+"849"	"de"	"us"	"u.s"	"a.part."	"1"	"Partizip Aktiv"	\N
+"849"	"en"	"us"	"u.s"	"a.part."	"1"	"active participle"	\N
+"849"	"est"	"us"	"u.s"	"a.part."	"1"	"V-kesksõna tunnus."	\N
+"849"	"hu"	"us"	"u.s"	"a.part."	"1"	"folyamatos melléknévi igenevet képző"	\N
+"849"	"nl"	"us"	"u.s"	"a.part."	"1"	"actief deelwoord"	\N
+"849"	"pl"	"us"	"u.s"	"a.part."	"1"	"imiesłów przymiotnikowy czynny"	\N
+"849"	"ru"	"us"	"u.s"	"a.part."	"1"	"активное причастие"	\N
+"849"	"sv"	"us"	"u.s"	"a.part."	"1"	"aktiv particip"	\N
+"850"	"de"	"uy"	"u.j"	"hon."	"2"	"ehrend oder zeremoniell"	\N
+"850"	"en"	"uy"	"u.j"	"hon."	"2"	"honorific (honourific) or ceremonial"	\N
+"850"	"est"	"uy"	"u.j"	"hon."	"2"	"Austava või tseremoniaalse mõjutuse tunnus."	\N
+"850"	"hu"	"uy"	"u.j"	"hon."	"2"	"megtisztelő vagy szertartásos"	\N
+"850"	"nl"	"uy"	"u.j"	"hon."	"2"	"Beleefdheidsvorm of plechtige vorm"	\N
+"850"	"pl"	"uy"	"u.j"	"hon."	"2"	"honoryfikat lub forma ceremonialna"	\N
+"850"	"ru"	"uy"	"u.j"	"hon."	"2"	"почтительно или торжественно"	\N
+"850"	"sv"	"uy"	"u.j"	"hon."	"2"	"Ärofull eller ceremoniel betydelse"	\N
+"851"	"de"	"--ä"	"æ"	"gen."	\N	"Genitiv"	"alles außer {\\bf a, ä, e,} und {\\bf ì}"
+"851"	"en"	"--ä"	"æ"	"gen."	\N	"genitive"	"everything but {\\bf a, ä, e, i} and {\\bf ì}"
+"851"	"est"	"--ä"	"æ"	"gen."	\N	"Omastava (genitiivse) kääne"	"{\\bf a, ä, e,} ja {\\bf ì}-ga"
+"851"	"hu"	"--ä"	"æ"	"gen."	\N	"birtokos eset"	"msh.-ra és o-ra vagy u-"
+"851"	"nl"	"--ä"	"æ"	"gen."	\N	"genitief"	"alles behalve {\\bf a, ä, e, i} en {\\bf ì}"
+"851"	"pl"	"--ä"	"æ"	"gen."	\N	"dopełniacz"	"wszystko z wyjątkiem {\\bf a, ä, e, i} oraz {\\bf ì} "
+"851"	"ru"	"--ä"	"æ"	"gen."	\N	"генитив"	"согласный"
+"851"	"sv"	"--ä"	"æ"	"gen."	\N	"genitiv"	"allt förutom {\\bf a, ä, e,} och {\\bf ì}"
+"852"	"de"	"--an"	"an"	"masc."	\N	"Maskulines Suffix für bestimmte Nomen"	\N
+"852"	"en"	"--an"	"an"	"masc."	\N	"masculine suffix for certain nouns"	\N
+"852"	"est"	"--an"	"an"	"masc."	\N	"Meessoo tunnus teatud nimisõnadele"	\N
+"852"	"hu"	"--an"	"an"	"masc."	\N	"hímnem jele bizonyos főnevek végén"	\N
+"852"	"nl"	"--an"	"an"	"masc."	\N	"mannelijk achtervoegsel voor bepaalde zn."	\N
+"852"	"pl"	"--an"	"an"	"masc."	\N	"przyrostek rodzaju męskiego"	\N
+"852"	"ru"	"--an"	"an"	"masc."	\N	"суффикс мужского рода для некоторых существительных"	\N
+"852"	"sv"	"--an"	"an"	"masc."	\N	"(1) maskulint suffix för vissa substantiv"	\N
+"853"	"de"	"ay+"	"aj"	"pl."	\N	"({\\bf pro.}) Plural"	"Nomen"
+"853"	"en"	"ay+"	"aj"	"pl."	\N	"({\\bf pro.}) plural"	"nouns"
+"853"	"est"	"ay+"	"aj"	"pl."	\N	"Mitmuse"	"nimisõnadele"
+"853"	"hu"	"ay+"	"aj"	"pl."	\N	"({\\bf prod.}) többes szám"	"főnevek elején"
+"853"	"nl"	"ay+"	"aj"	"pl."	\N	"({\\bf pro.}) meervoudig"	"zn."
+"853"	"ru"	"ay+"	"aj"	"pl."	\N	"({\\bf прод.}) множественное число"	"существительных"
+"853"	"sv"	"ay+"	"aj"	"pl."	\N	"plural"	"substantiv"
+"854"	"de"	"--e"	"E"	"fem."	\N	"Feminines Suffix für bestimmte Nomen"	\N
+"854"	"en"	"--e"	"E"	"fem."	\N	"feminine suffix for certain nouns"	\N
+"854"	"est"	"--e"	"E"	"fem."	\N	"Naissoo tunnus nimisõnadele"	\N
+"854"	"hu"	"--e"	"E"	"fem."	\N	"nőnem jelző bizonyos főnevek végén"	\N
+"854"	"nl"	"--e"	"E"	"fem."	\N	"vrouwelijk achtervoegsel voor bepaalde zn."	\N
+"854"	"pl"	"--e"	"E"	"fem."	\N	"przyrostek rodzaju żeńskiego"	\N
+"854"	"ru"	"--e"	"E"	"fem."	\N	"суффикс женского рода для некоторых существительных"	\N
+"854"	"sv"	"--e"	"E"	"fem."	\N	"(1) feminint suffix för vissa suffix"	\N
+"856"	"de"	"--ìl"	"Il"	"erg."	\N	"Agens"	"Konsonant, Diphthong oder Pseudo-Vokal"
+"856"	"en"	"--ìl"	"Il"	"erg."	\N	"agentive case"	"consonant, dipthong, or pseudo-vowel"
+"856"	"est"	"--ìl"	"Il"	"erg."	\N	"Aluse käände"	"konsonandi, diftongi või pooltäishääliku"
+"856"	"hu"	"--ìl"	"Il"	"erg."	\N	"jelölt alany"	"msh./mássalhangzó"
+"856"	"nl"	"--ìl"	"Il"	"erg."	\N	"agentief"	"medeklinker, diftong of pseudo-klinker"
+"856"	"pl"	"--ìl"	"Il"	"erg."	\N	"ergatyw"	"spółgłoska, dyftong lub pseudosamogłoska"
+"856"	"ru"	"--ìl"	"Il"	"erg."	\N	"агентив"	"согласный, дифтонг или псевдогласная"
+"856"	"sv"	"--ìl"	"Il"	"erg."	\N	"Ergativ händelse"	"konsonant, diftong, eller pseudo-vokal"
+"857"	"de"	"--ìri"	"IRi"	"top."	\N	"Themen-Marker (Topic)"	"Konsonant, Diphthong oder Pseudo-Vokal"
+"857"	"en"	"--ìri"	"IRi"	"top."	\N	"topical"	"consonant, dipthong, or pseudo-vowel"
+"857"	"est"	"--ìri"	"IRi"	"top."	\N	"Teema käände"	"konsonandi, diftongi või eritäishäälikutega"
+"857"	"hu"	"--ìri"	"IRi"	"top."	\N	"jelölt tárgy"	"mássalhangzóra, kettős hangzóra vagy ál-magánhangzó"
+"857"	"nl"	"--ìri"	"IRi"	"top."	\N	"topicaal"	"medeklinker, diftong of pseudo-klinker"
+"857"	"pl"	"--ìri"	"IRi"	"top."	\N	"przypadek tematyczny"	"spółgłoski, dyftongi lub pseudosamogłoski"
+"857"	"ru"	"--ìri"	"IRi"	"top."	\N	"топик"	"согласный"
+"857"	"sv"	"--ìri"	"IRi"	"top."	\N	"Aktuellt"	"konsonant, diftong, eller pseudo-vokal"
+"858"	"de"	"--it"	"it\\textcorner"	"pat."	\N	"Patiens"	"Konsonant, Diphthong oder Pseudo-Vokal"
+"858"	"en"	"--it"	"it\\textcorner"	"pat."	\N	"patientive"	"consonant, dipthong, or pseudo-vowel"
+"858"	"est"	"--it"	"it\\textcorner"	"pat."	\N	"Sihitava käände"	"konsonandi, diftongi või eritäishäälikutega"
+"858"	"hu"	"--it"	"it\\textcorner"	"pat."	\N	"tárgyeset"	"msh./mássalhangzó, kettőshangzóra vagy vokális mássalhangzó"
+"858"	"nl"	"--it"	"it\\textcorner"	"pat."	\N	"patientief"	"medeklinker, diftong of pseudo-klinker"
+"858"	"pl"	"--it"	"it\\textcorner"	"pat."	\N	"biernik"	"spółgłoska, dyftong lub pseudo samogłoska"
+"858"	"ru"	"--it"	"it\\textcorner"	"pat."	\N	"пациенс"	"согласный"
+"858"	"sv"	"--it"	"it\\textcorner"	"pat."	\N	"ackusativ"	"konsonant, diftong, eller pseudo-vokal"
+"859"	"de"	"--l"	"l"	"erg."	\N	"Agens"	"Nomen, die auf einen Vokal enden"
+"859"	"en"	"--l"	"l"	"erg."	\N	"agentive case"	"nouns ending in a vowel"
+"859"	"est"	"--l"	"l"	"erg."	\N	"Aluse käände"	"nimisõnadele, mis lõppevad täishäälikuga"
+"859"	"hu"	"--l"	"l"	"erg."	\N	"ergatív esetű alany"	"mgh-ra végződő főnevek esetén"
+"859"	"nl"	"--l"	"l"	"erg."	\N	"agentief"	"zn. die eindigen in een klinker"
+"859"	"pl"	"--l"	"l"	"erg."	\N	"ergatyw"	"rzeczowniki zakończone samogłoską"
+"859"	"ru"	"--l"	"l"	"erg."	\N	"агентив"	"существительных, оканчивающихся на гласный"
+"859"	"sv"	"--l"	"l"	"erg."	\N	"Ergativ händelse"	"substantiv som slutar på vokal"
+"861"	"de"	"me+"	"mE"	"du."	\N	"({\\bf pro.}) Dual"	"Nomen"
+"861"	"en"	"me+"	"mE"	"du."	\N	"({\\bf pro.}) dual"	"nouns"
+"861"	"est"	"me+"	"mE"	"du."	\N	"({\\bf pro.}) Kaksikvormi"	"nimisõnadele"
+"861"	"hu"	"me+"	"mE"	"du."	\N	"({\\bf prod.}) kettes szám jele"	"főnevek"
+"861"	"nl"	"me+"	"mE"	"du."	\N	"({\\bf pro.}) tweevoudig"	"zn."
+"861"	"ru"	"me+"	"mE"	"du."	\N	"({\\bf прод.}) двойственное число"	"существительных"
+"861"	"sv"	"me+"	"mE"	"du."	\N	"Dubbel"	"substantiv"
+"863"	"de"	"--pe+"	"pE"	"inter."	\N	"({\\bf pro.}) Affix Interrogativ-Marker \\textit{welche}"	\N
+"863"	"en"	"--pe+"	"pE"	"inter."	\N	"({\\bf pro.}) affix inter. marker"	\N
+"863"	"est"	"--pe+"	"pE"	"inter."	\N	"({\\bf pro.}) Küsimuse eesliide"	\N
+"863"	"hu"	"--pe+"	"pE"	"inter."	\N	"({\\bf prod.}) kérdőszóképző"	\N
+"863"	"nl"	"--pe+"	"pE"	"inter."	\N	"({\\bf pro.}) affix vvn. markering"	\N
+"863"	"ru"	"--pe+"	"pE"	"inter."	\N	"({\\bf прод.}) маркер вопроса к слову"	\N
+"863"	"sv"	"--pe+"	"pE"	"inter."	\N	"(4) affix interr. markör \\textit{vad}"	\N
+"864"	"de"	"pxe+"	"p'E"	"tri."	\N	"({\\bf pro.}) Trial"	"Nomen und Pronomen"
+"864"	"en"	"pxe+"	"p'E"	"tri."	\N	"({\\bf pro.}) trial"	"nouns and pronouns"
+"864"	"est"	"pxe+"	"p'E"	"tri."	\N	"({\\bf pro.}) Kolmikvormi"	"nimisõnadele ja asesõnadele"
+"864"	"hu"	"pxe+"	"p'E"	"tri."	\N	"({\\bf prod.}) hármas szám jele"	"főnevek és névmások elején"
+"864"	"nl"	"pxe+"	"p'E"	"tri."	\N	"({\\bf pro.}) drievoudig"	"zn. en vn."
+"864"	"ru"	"pxe+"	"p'E"	"tri."	\N	"({\\bf прод.}) тройственное число"	"существительных и местоимений"
+"864"	"sv"	"pxe+"	"p'E"	"tri."	\N	"trippel"	"substantiv och pronomen"
+"865"	"de"	"--ri"	"Ri"	"top."	\N	"Themen-Marker"	"Nomen, die auf einen Vokal enden"
+"865"	"en"	"--ri"	"Ri"	"top."	\N	"topical"	"nouns ending in a vowel"
+"865"	"est"	"--ri"	"Ri"	"top."	\N	"Teema käände"	"tegusõnadele, mis lõppevad täishäälikuga"
+"865"	"hu"	"--ri"	"Ri"	"top."	\N	"jelölt (topikális) alany"	"mgh-ra végződő főnevek esetén"
+"865"	"nl"	"--ri"	"Ri"	"top."	\N	"topicaal"	"zn. die eindigen in een klinker"
+"865"	"pl"	"--ri"	"Ri"	"top."	\N	"przypadek tematyczny"	"rzeczowniki zakończone samogłoską"
+"865"	"ru"	"--ri"	"Ri"	"top."	\N	"топик"	"существительных, оканчивающися на гласный"
+"865"	"sv"	"--ri"	"Ri"	"top."	\N	"ämne"	"substantiv som slutar på vokal"
+"866"	"de"	"--ru"	"Ru"	"dat."	\N	"Dativ"	"Vokal"
+"866"	"en"	"--ru"	"Ru"	"dat."	\N	"dative"	"vowel"
+"866"	"est"	"--ru"	"Ru"	"dat."	\N	"Datiivse käände"	"täishäälikuga"
+"866"	"hu"	"--ru"	"Ru"	"dat."	\N	"részes eset"	"mgh.-"
+"866"	"nl"	"--ru"	"Ru"	"dat."	\N	"datief"	"klinker"
+"866"	"pl"	"--ru"	"Ru"	"dat."	\N	"celownik"	"samogłoska"
+"866"	"ru"	"--ru"	"Ru"	"dat."	\N	"датив"	"гласный"
+"866"	"sv"	"--ru"	"Ru"	"dat."	\N	"dativ"	"vokal"
+"867"	"de"	"--t"	"t\\textcorner"	"pat."	\N	"Patiens"	"Vokal"
+"867"	"en"	"--t"	"t\\textcorner"	"pat."	\N	"patientive"	"vowel"
+"867"	"est"	"--t"	"t\\textcorner"	"pat."	\N	"Sihitava käände"	"täishäälikuga"
+"867"	"hu"	"--t"	"t\\textcorner"	"pat."	\N	"tárgyeset"	"mgh.-"
+"867"	"nl"	"--t"	"t\\textcorner"	"pat."	\N	"patientief"	"klinker"
+"867"	"pl"	"--t"	"t\\textcorner"	"pat."	\N	"biernik"	"samogłoska"
+"867"	"ru"	"--t"	"t\\textcorner"	"pat."	\N	"пациенс"	"гласный"
+"867"	"sv"	"--t"	"t\\textcorner"	"pat."	\N	"ackusativ"	"vokal"
+"868"	"de"	"--ti"	"ti"	"pat."	\N	"Patiens"	"Pronomen und Nomen"
+"868"	"en"	"--ti"	"ti"	"pat."	\N	"patientive"	"pronouns and nouns"
+"868"	"est"	"--ti"	"ti"	"pat."	\N	"Sihitava käände"	"nimisõnadele ja asesõnadele"
+"868"	"hu"	"--ti"	"ti"	"pat."	\N	"tárgyeset"	"névmások és főnevek végén"
+"868"	"nl"	"--ti"	"ti"	"pat."	\N	"patientief"	"vn. en zn."
+"868"	"pl"	"--ti"	"ti"	"pat."	\N	"biernik"	"zaimki i rzeczowniki"
+"868"	"ru"	"--ti"	"ti"	"pat."	\N	"пациенс"	"существительных и местоимений"
+"868"	"sv"	"--ti"	"ti"	"pat."	\N	"ackusativ"	"substantiv och pronomen"
+"869"	"de"	"--ur"	"uR"	"dat."	\N	"Dativ"	"Konsonant, Diphthong oder Pseudo-Vokal"
+"869"	"en"	"--ur"	"uR"	"dat."	\N	"dative"	"consonant, dipthong, or pseudo-vowel"
+"869"	"est"	"--ur"	"uR"	"dat."	\N	"Datiivse käände"	"konsonandi, diftongi või eritäishäälikutega"
+"869"	"hu"	"--ur"	"uR"	"dat."	\N	"részes eset"	"msh./mássalhangzó, kettőshangzóra vagy vokális mássalhangzó"
+"869"	"nl"	"--ur"	"uR"	"dat."	\N	"datief"	"medeklinker, diftong of pseudo-klinker"
+"869"	"pl"	"--ur"	"uR"	"dat."	\N	"celownik"	"spółgłoska, dyftong lub pseudosamogłoska"
+"869"	"ru"	"--ur"	"uR"	"dat."	\N	"датив"	"согласный"
+"869"	"sv"	"--ur"	"uR"	"dat."	\N	"dativ"	"konsonant, diftong, eller pseudo-vokal"
+"870"	"de"	"--yä"	"jæ"	"gen."	\N	"Genitiv"	"{\\bf a, ä, e,} und {\\bf ì}"
+"870"	"en"	"--yä"	"jæ"	"gen."	\N	"genitive"	"{\\bf a, ä, e, i} and {\\bf ì}"
+"870"	"est"	"--yä"	"jæ"	"gen."	\N	"Datiivse käände"	"{\\bf a, ä, e,} ja {\\bf ì}-ga"
+"870"	"hu"	"--yä"	"jæ"	"gen."	\N	"birtokos eset"	"mgh. (kivéve o és u)-"
+"870"	"nl"	"--yä"	"jæ"	"gen."	\N	"genitief"	"{\\bf a, ä, e, i} en {\\bf ì}"
+"870"	"pl"	"--yä"	"jæ"	"gen."	\N	"dopełniacz"	"{\\bf a, ä, e, i} oraz {\\bf ì}"
+"870"	"ru"	"--yä"	"jæ"	"gen."	\N	"генитив"	"гласный"
+"870"	"sv"	"--yä"	"jæ"	"gen."	\N	"genitiv"	"{\\bf a, ä, e,} och {\\bf ì}"
+"871"	"de"	"--a--"	"a"	"adj."	\N	"({\\bf pro.}) adjektivischer Attribut und Nebensatz-Marker"	\N
+"871"	"en"	"--a--"	"a"	"adj."	\N	"({\\bf pro.}) adjectival attribution and subordination marker"	\N
+"871"	"est"	"--a--"	"a"	"adj."	\N	"({\\bf pro.})Omadussõna tunnus"	\N
+"871"	"hu"	"--a--"	"a"	"adj."	\N	"({\\bf prod.}) melléknévjelző"	\N
+"871"	"nl"	"--a--"	"a"	"adj."	\N	"adjectieve attributieve markering"	\N
+"871"	"ru"	"--a--"	"a"	"adj."	\N	"({\\bf прод.}) присоединяемый ссылочный и подчиняющий маркер"	\N
+"871"	"sv"	"--a--"	"a"	"adj."	\N	"adjektivattribut och bisatsmarkör"	\N
+"872"	"de"	"le--"	"lE"	"adj."	\N	"Adjektivpräfix"	\N
+"872"	"en"	"le--"	"lE"	"adj."	\N	"adjective"	\N
+"872"	"est"	"le--"	"lE"	"adj."	\N	"Omadussõnade"	\N
+"872"	"hu"	"le--"	"lE"	"adj."	\N	"melléknevet"	\N
+"872"	"nl"	"le--"	"lE"	"adj."	\N	"adjectief"	\N
+"872"	"pl"	"le--"	"lE"	"adj."	\N	"przymiotnik"	\N
+"872"	"ru"	"le--"	"lE"	"adj."	\N	"прилагательное"	\N
+"872"	"sv"	"le--"	"lE"	"adj."	\N	"adjektiv"	\N
+"873"	"de"	"nì--"	"nI"	"adv."	\N	"Adverbialpräfix"	\N
+"873"	"en"	"nì--"	"nI"	"adv."	\N	"adverbial"	\N
+"873"	"est"	"nì--"	"nI"	"adv."	\N	"Määrsõnade"	\N
+"873"	"hu"	"nì--"	"nI"	"adv."	\N	"határozószót"	\N
+"873"	"nl"	"nì--"	"nI"	"adv."	\N	"bijwoordelijk"	\N
+"873"	"ru"	"nì--"	"nI"	"adv."	\N	"наречие"	\N
+"873"	"sv"	"nì--"	"nI"	"adv."	\N	"adverb"	\N
+"874"	"de"	"sä--"	"sæ"	"instr."	\N	"instrumentales Nomen"	\N
+"874"	"en"	"sä--"	"sæ"	"instr."	\N	"instrumental noun"	\N
+"874"	"est"	"sä--"	"sæ"	"instr."	\N	"-mine lõpuga nimisõnade"	\N
+"874"	"hu"	"sä--"	"sæ"	"instr."	\N	"instrumentális főnevet"	\N
+"874"	"nl"	"sä--"	"sæ"	"instr."	\N	"dienstig zn."	\N
+"874"	"pl"	"sä--"	"sæ"	"instr."	\N	"rzeczowniki nieabstrakcyjne"	\N
+"874"	"ru"	"sä--"	"sæ"	"instr."	\N	"определяющее существительное"	\N
+"874"	"sv"	"sä--"	"sæ"	"instr."	\N	"instrumentalis substantiv"	\N
+"875"	"de"	"si"	"s$\\cdot$i"	"v."	\N	"nachgestelltes Verb"	\N
+"875"	"en"	"si"	"s$\\cdot$i"	"v."	\N	"postpositional verb"	\N
+"875"	"est"	"si"	"s$\\cdot$i"	"v."	\N	"Põhisõnale järgnev tegusõna"	\N
+"875"	"hu"	"si"	"s$\\cdot$i"	"v."	\N	"összetett igéket"	\N
+"875"	"nl"	"si"	"s$\\cdot$i"	"v."	\N	"napositioneel werkwoord"	\N
+"875"	"pl"	"si"	"s$\\cdot$i"	"v."	\N	"czasownik pomocniczy"	\N
+"875"	"ru"	"si"	"s$\\cdot$i"	"v."	\N	"постпозицонный глагол"	\N
+"875"	"sv"	"si"	"s$\\cdot$i"	"v."	\N	"postpositionalt verb"	\N
+"876"	"de"	"tì--"	"tI"	"n."	\N	"Nomen"	\N
+"876"	"en"	"tì--"	"tI"	"n."	\N	"noun"	\N
+"876"	"est"	"tì--"	"tI"	"n."	\N	"Nimisõnade"	\N
+"876"	"hu"	"tì--"	"tI"	"n."	\N	"absztrakt főnevet"	\N
+"876"	"nl"	"tì--"	"tI"	"n."	\N	"zelfstandig naamwoord"	\N
+"876"	"pl"	"tì--"	"tI"	"n."	\N	"rzeczownik"	\N
+"876"	"ru"	"tì--"	"tI"	"n."	\N	"существительных"	\N
+"876"	"sv"	"tì--"	"tI"	"n."	\N	"substantiv"	\N
+"877"	"de"	"--tu"	"tu"	"d.o.nom."	\N	"Personensuffix bei nicht-Verben"	\N
+"877"	"en"	"--tu"	"tu"	"d.o.nom."	\N	"person noun from non-verbal stem"	\N
+"877"	"est"	"--tu"	"tu"	"d.o.nom."	\N	"({\\bf pro.}) Tegija"	\N
+"877"	"hu"	"--tu"	"tu"	"d.o.nom."	\N	"({\\bf prod.}) nem igei tőből személyt jelentő főnevet"	\N
+"877"	"nl"	"--tu"	"tu"	"d.o.nom."	\N	"persoons zn. van niet-ww. stam"	\N
+"877"	"ru"	"--tu"	"tu"	"d.o.nom."	\N	"суффикс существительного, выражает направленность действия на субъект"	\N
+"877"	"sv"	"--tu"	"tu"	"d.o.nom."	\N	"({\\bf pro.}) direkt objekt substantiv"	\N
+"878"	"de"	"--yu"	"ju"	"a.nom."	\N	"({\\bf pro.}) Personensuffix bei Verben"	\N
+"878"	"en"	"--yu"	"ju"	"a.nom."	\N	"({\\bf pro.}) agent noun"	\N
+"878"	"est"	"--yu"	"ju"	"a.nom."	\N	"({\\bf pro.}) Tegija"	\N
+"878"	"hu"	"--yu"	"ju"	"a.nom."	\N	"({\\bf prod.}) főnév"	\N
+"878"	"nl"	"--yu"	"ju"	"a.nom."	\N	"({\\bf pro.}) persoons zn. van ww. stam"	\N
+"878"	"ru"	"--yu"	"ju"	"a.nom."	\N	"({\\bf прод.}) суффикс образования отглагольных существительных, обозначающих лицо, называемое по роду занятий, профессии"	\N
+"878"	"sv"	"--yu"	"ju"	"a.nom."	\N	"({\\bf pro.}) agentivt substantiv"	\N
+"932"	"de"	"eyk"	"Ej.k"	"caus."	"0"	"Kausativ"	\N
+"932"	"en"	"eyk"	"Ej.k"	"caus."	"0"	"causative"	\N
+"932"	"est"	"eyk"	"Ej.k"	"caus."	"0"	"Põhjustava (kausatiivse) tegusõna tunnus."	\N
+"932"	"hu"	"eyk"	"Ej.k"	"caus."	"0"	"műveltető"	\N
+"932"	"nl"	"eyk"	"Ej.k"	"caus."	"0"	"oorzakelijk"	\N
+"932"	"pl"	"eyk"	"Ej.k"	"caus."	"0"	"strona sprwcza"	\N
+"932"	"ru"	"eyk"	"Ej.k"	"caus."	"0"	"казуальный "	\N
+"932"	"sv"	"eyk"	"Ej.k"	"caus."	"0"	"orsakande"	\N
+"998"	"de"	"ats"	"a.\\t{ts}"	"infr."	"2"	"Inferential, zeigt Unsicherheit an oder indirektes Wissen (Hörensagen)"	\N
+"998"	"en"	"ats"	"a.\\t{ts}"	"infr."	"2"	"inferential, indicating uncertainty or indirect knowledge"	\N
+"998"	"est"	"ats"	"a.\\t{ts}"	"infr."	"2"	"Kaudse kõneviisi ja ebakindlate teadmiste tunnus"	\N
+"998"	"hu"	"ats"	"a.\\t{ts}"	"infr."	"2"	"inferenciális, bizonytalan vagy indirekt értesülést jelölő"	\N
+"998"	"nl"	"ats"	"a.\\t{ts}"	"infr."	"2"	"inferentieel, geeft onzekerheid of indirecte kennis aan"	\N
+"998"	"pl"	"ats"	"a.\\t{ts}"	"infr."	"2"	"tryb nieświadka"	\N
+"998"	"ru"	"ats"	"a.\\t{ts}"	"infr."	"2"	"передающий неуверенность говорящего в достоверности сообщаемых сведений аффективный "	\N
+"998"	"sv"	"ats"	"a.\\t{ts}"	"infr."	"2"	"osäker handling, vilket tyder på osäkerhet eller indirekt kunskap"	\N
+"1063"	"de"	"--o"	"o"	"indef., dur."	\N	"({\\bf pro.}) Indefinit-Suffix, zeitliche Dauer"	\N
+"1063"	"en"	"--o"	"o"	"indef., dur."	\N	"({\\bf pro.}) indefinite suffix, durative suffix"	\N
+"1063"	"est"	"--o"	"o"	"indef., dur."	\N	"({\\bf pro.}) Umbisiikulilise tegumoe, kestva toimingu järelliide"	\N
+"1063"	"hu"	"--o"	"o"	"indef., dur."	\N	"({\\bf prod.}) határozatlan toldalék, időtartamra utaló"	\N
+"1063"	"nl"	"--o"	"o"	"indef., dur."	\N	"({\\bf pro.}) onbepaald achtervoegsel"	\N
+"1063"	"ru"	"--o"	"o"	"indef., dur."	\N	"({\\bf прод.}) суффикс со значением неопределенности, длительности"	\N
+"1063"	"sv"	"--o"	"o"	"indef., dur."	\N	"({\\bf pro.}) suffix"	\N
+"1064"	"de"	"ìsy"	"I.sj"	"imm.fut.d."	"1"	"unmittelbares Futur mit Absicht"	\N
+"1064"	"en"	"ìsy"	"I.sj"	"imm.fut.d."	"1"	"immediate future tense with determination"	\N
+"1064"	"est"	"ìsy"	"I.sj"	"imm.fut.d."	"1"	"Kohese lubava/otsustava tuleviku tunnus."	\N
+"1064"	"hu"	"ìsy"	"I.sj"	"imm.fut.d."	"1"	"közeljövőbeni szándékot kifejező"	\N
+"1064"	"nl"	"ìsy"	"I.sj"	"imm.fut.d."	"1"	"onmiddellijke toekomstige tijd met intentie"	\N
+"1064"	"pl"	"ìsy"	"I.sj"	"imm.fut.d."	"1"	"czas przyszły bliski zamierzony"	\N
+"1064"	"ru"	"ìsy"	"I.sj"	"imm.fut.d."	"1"	"ближайшее будущее время с модальностью намерения"	\N
+"1064"	"sv"	"ìsy"	"I.sj"	"imm.fut.d."	"1"	"omedelbart framtida tempus med beslutsamhet"	\N
+"1065"	"de"	"asy"	"a.sj"	"fut.d."	"1"	"Futur mit Absicht"	\N
+"1065"	"en"	"asy"	"a.sj"	"fut.d."	"1"	"future tense with intention or determination"	\N
+"1065"	"est"	"asy"	"a.sj"	"fut.d."	"1"	"Kindla/otsustava tuleviku tunnus."	\N
+"1065"	"hu"	"asy"	"a.sj"	"fut.d."	"1"	"jövőbeni szándékot vagy elhatározást kifejező"	\N
+"1065"	"nl"	"asy"	"a.sj"	"fut.d."	"1"	"toekomstige tijd met intentie"	\N
+"1065"	"pl"	"asy"	"a.sj"	"fut.d."	"1"	"czas przyszły zamierzony"	\N
+"1065"	"ru"	"asy"	"a.sj"	"fut.d."	"1"	"будущее время (намерение или неизбежность)"	\N
+"1065"	"sv"	"asy"	"a.sj"	"fut.d."	"1"	"framtida tempus med beslutsamhet"	\N
+"1066"	"de"	"awn"	"aw.n"	"p.part."	"1"	"Partizip Passiv"	\N
+"1066"	"en"	"awn"	"aw.n"	"p.part."	"1"	"passive participle"	\N
+"1066"	"est"	"awn"	"aw.n"	"p.part."	"1"	"-nud, -tud vormi tunnus."	\N
+"1066"	"hu"	"awn"	"aw.n"	"p.part."	"1"	"befejezett melléknévi igenevet képző"	\N
+"1066"	"nl"	"awn"	"aw.n"	"p.part."	"1"	"passief deelwoord"	\N
+"1066"	"pl"	"awn"	"aw.n"	"p.part."	"1"	"imiesłów przymiotnikowy bierny"	\N
+"1066"	"ru"	"awn"	"aw.n"	"p.part."	"1"	"причастие страдательного залога"	\N
+"1066"	"sv"	"awn"	"aw.n"	"p.part."	"1"	"passiv patricip"	\N
+"1094"	"de"	"--lo"	"lo"	"mult."	\N	"multiplikativer Zahlen Suffix für 'aw, mune, pxey"	\N
+"1094"	"en"	"--lo"	"lo"	"mult."	\N	"multiplicative number suffix for 'aw, mune, pxey"	\N
+"1094"	"est"	"--lo"	"lo"	"mult."	\N	"Korra arvu järelliide numbritele 'aw, mune, pxey"	\N
+"1094"	"hu"	"--lo"	"lo"	"mult."	\N	"számhatározórag"	\N
+"1094"	"nl"	"--lo"	"lo"	"mult."	\N	"meervoudig getal achtervoegsel voor 'aw, mune, pxey"	\N
+"1094"	"pl"	"--lo"	"lo"	"mult."	\N	"przyrostek okreslający ilość powtórzeń dla 'aw, mune, pxey"	\N
+"1094"	"ru"	"--lo"	"lo"	"mult."	\N	"мультипликативный числовой суффикс для 'aw, mune, pxey"	\N
+"1094"	"sv"	"--lo"	"lo"	"mult."	\N	"multiplikativ nummer-suffix för 'aw, mune, pxey"	\N
+"1260"	"de"	"--ve"	"vE"	"ord."	\N	"({\\bf pro.}) ordinaler Suffix für Zahlen"	\N
+"1260"	"en"	"--ve"	"vE"	"ord."	\N	"({\\bf pro.}) ordinal suffix for numbers"	\N
+"1260"	"est"	"--ve"	"vE"	"ord."	\N	"({\\bf pro.}) Järgarvu järelliide numbritele"	\N
+"1260"	"hu"	"--ve"	"vE"	"ord."	\N	"({\\bf prod.}) sorszámnévi toldalék"	\N
+"1260"	"nl"	"--ve"	"vE"	"ord."	\N	"({\\bf pro.}) tellend achtervoegsel voor getallen"	\N
+"1260"	"ru"	"--ve"	"vE"	"ord."	\N	"({\\bf прод.}) порядковый суффикс числительных"	\N
+"1260"	"sv"	"--ve"	"vE"	"ord."	\N	"({\\bf pro.}) suffix för att skapa ordningstal"	\N
+"1287"	"de"	"--vi"	"vi"	"part."	\N	"partieller Beziehungsmarker"	\N
+"1287"	"en"	"--vi"	"vi"	"part."	\N	"partitive relationship marker"	\N
+"1287"	"est"	"--vi"	"vi"	"part."	\N	"(millegi) väiksema osa näitaja"	\N
+"1287"	"hu"	"--vi"	"vi"	"part."	\N	"rész-egész viszonyt jelző toldalék (nem nagyon produktív)"	\N
+"1287"	"nl"	"--vi"	"vi"	"part."	\N	"partitieve relatie markering"	\N
+"1287"	"pl"	"--vi"	"vi"	"part."	\N	"przyrostek określający cząstkę"	\N
+"1287"	"ru"	"--vi"	"vi"	"part."	\N	"маркер выделения части"	\N
+"1287"	"sv"	"--vi"	"vi"	"part."	\N	"partitiv förhållande markör"	\N
+"1316"	"de"	"--ya"	"ja"	"voc."	\N	"Vokativsuffix für Gruppenbezeichnungen"	\N
+"1316"	"en"	"--ya"	"ja"	"voc."	\N	"vocative suffix for collective nouns"	\N
+"1316"	"est"	"--ya"	"ja"	"voc."	\N	"Järelliide üttele kollektiivsete nimisõnade puhul"	\N
+"1316"	"hu"	"--ya"	"ja"	"voc."	\N	"megszólító eset ragja gyűjtőnevek végén"	\N
+"1316"	"nl"	"--ya"	"ja"	"voc."	\N	"vocatief achtervoegsel voor collectieve zn."	\N
+"1316"	"pl"	"--ya"	"ja"	"voc."	\N	"przyrostek wołacza rzeczowników zbiorowych"	\N
+"1316"	"ru"	"--ya"	"ja"	"voc."	\N	"суффикс звательного падежа для собирательных существительных"	\N
+"1316"	"sv"	"--ya"	"ja"	"voc."	\N	"vokativt suffix för kollektiva substantiv"	\N
+"1333"	"de"	"--y"	"j"	"gen."	\N	"Genitiv"	"Pronomen, die auf a oder e enden (umgangssprachlich)"
+"1333"	"en"	"--y"	"j"	"gen."	\N	"genitive"	"pronouns ending in a or e (casual speech)"
+"1333"	"est"	"--y"	"j"	"gen."	\N	"Omastava (genitiivse) käände"	"tähega a või e lõppevatele asesõnadele"
+"1333"	"hu"	"--y"	"j"	"gen."	\N	"birtoklás"	"a-ra vagy e-re végződő névmások végére (köznapi beszédben)"
+"1333"	"nl"	"--y"	"j"	"gen."	\N	"genitief"	"voornaamwoorden eindigend op a of e (spreektaal)"
+"1333"	"pl"	"--y"	"j"	"gen."	\N	"dopełniacz"	"(w mowie potocznej) zaimki zakończone samogłoskami a albo e "
+"1333"	"ru"	"--y"	"j"	"gen."	\N	"генитив"	"для местоимений, оканчивающихся на a и e (разг.)"
+"1333"	"sv"	"--y"	"j"	"gen."	\N	"genitiv"	"pronomen som slutar på a eller e (vardagligt tal)"
+"1515"	"de"	"ìry"	"IR.j"	"impf.imm.fut."	"1"	"imperfektiver Aspekt der unmittelbaren Zukunft"	\N
+"1515"	"en"	"ìry"	"IR.j"	"impf.imm.fut."	"1"	"imperfective immediate future tense"	\N
+"1515"	"est"	"ìry"	"IR.j"	"impf.imm.fut."	"1"	"Kohese lõpetamata (imperfektiivse) tuleviku tunnus."	\N
+"1515"	"hu"	"ìry"	"IR.j"	"impf.imm.fut."	"1"	"folyamatos közeljövőre utaló"	\N
+"1515"	"nl"	"ìry"	"IR.j"	"impf.imm.fut."	"1"	"imperfectief onmiddellijk toekomende tijd"	\N
+"1515"	"pl"	"ìry"	"IR.j"	"impf.imm.fut."	"1"	"czas przyszły bliski, aspekt niedokonany"	\N
+"1515"	"ru"	"ìry"	"IR.j"	"impf.imm.fut."	"1"	"несов. вид, ближайшее будущее время, "	\N
+"1515"	"sv"	"ìry"	"IR.j"	"impf.imm.fut."	"1"	"imperfekt omedelbart framtia tempus"	\N
+"1516"	"de"	"ìly"	"Il.j"	"perf.imm.fut."	"1"	"perfektiver Aspekt der unmittelbaren Zukunft"	\N
+"1516"	"en"	"ìly"	"Il.j"	"perf.imm.fut."	"1"	"perfective immediate future tense"	\N
+"1516"	"est"	"ìly"	"Il.j"	"perf.imm.fut."	"1"	"Kohese lõpetatud (perfektiivse) tuleviku tunnus."	\N
+"1516"	"hu"	"ìly"	"Il.j"	"perf.imm.fut."	"1"	"befejezett közeljövőre utaló"	\N
+"1516"	"nl"	"ìly"	"Il.j"	"perf.imm.fut."	"1"	"voltooid onmiddellijk toekomende tijd"	\N
+"1516"	"pl"	"ìly"	"Il.j"	"perf.imm.fut."	"1"	"czas przyszły bliski, aspekt dokonany"	\N
+"1516"	"ru"	"ìly"	"Il.j"	"perf.imm.fut."	"1"	"сов. вид, ближайшее будущее время, "	\N
+"1516"	"sv"	"ìly"	"Il.j"	"perf.imm.fut."	"1"	"perfekt omedelbart framtida tempus"	\N
+"1517"	"de"	"alm"	"al.m"	"perf.past"	"1"	"perfektive Vergangenheit"	\N
+"1517"	"en"	"alm"	"al.m"	"perf.past"	"1"	"perfective past tense"	\N
+"1517"	"est"	"alm"	"al.m"	"perf.past"	"1"	"Lõpetatud (perfektiivse) tegevuse tunnus."	\N
+"1517"	"hu"	"alm"	"al.m"	"perf.past"	"1"	"befejezett múlt időt kifejező"	\N
+"1517"	"nl"	"alm"	"al.m"	"perf.past"	"1"	"voltooid verleden tijd"	\N
+"1517"	"pl"	"alm"	"al.m"	"perf.past"	"1"	"czas przeszły, aspekt dokonany"	\N
+"1517"	"ru"	"alm"	"al.m"	"perf.past"	"1"	"сов.вид, прошедшее время, "	\N
+"1517"	"sv"	"alm"	"al.m"	"perf.past"	"1"	"perfekt dåtida tempus"	\N
+"1518"	"de"	"aly"	"al.j"	"perf.fut."	"1"	"perfektive Zukunft"	\N
+"1518"	"en"	"aly"	"al.j"	"perf.fut."	"1"	"perfective future tense"	\N
+"1518"	"est"	"aly"	"al.j"	"perf.fut."	"1"	"Lõpetatud (perfektiivse) tuleviku tunnus."	\N
+"1518"	"hu"	"aly"	"al.j"	"perf.fut."	"1"	"befejezett jövőre utaló"	\N
+"1518"	"nl"	"aly"	"al.j"	"perf.fut."	"1"	"voltooid toekomende tijd"	\N
+"1518"	"pl"	"aly"	"al.j"	"perf.fut."	"1"	"czas przyszły, aspekt dokonany"	\N
+"1518"	"ru"	"aly"	"al.j"	"perf.fut."	"1"	"сов. вид, будущее время, "	\N
+"1518"	"sv"	"aly"	"al.j"	"perf.fut."	"1"	"perfekt framtida tempus"	\N
+"1519"	"de"	"ary"	"aR.j"	"impf.fut."	"1"	"imperfektive Zukunft"	\N
+"1519"	"en"	"ary"	"aR.j"	"impf.fut."	"1"	"imperfective future tense"	\N
+"1519"	"est"	"ary"	"aR.j"	"impf.fut."	"1"	"Lõpetamata (imperfektiivse) tuleviku tunnus."	\N
+"1519"	"hu"	"ary"	"aR.j"	"impf.fut."	"1"	"folyamatos jövőre utaló"	\N
+"1519"	"nl"	"ary"	"aR.j"	"impf.fut."	"1"	"imperfectief toekomende tijd"	\N
+"1519"	"pl"	"ary"	"aR.j"	"impf.fut."	"1"	"czas przyszły, aspekt niedokonany"	\N
+"1519"	"ru"	"ary"	"aR.j"	"impf.fut."	"1"	"несов. вид, будущее время, "	\N
+"1519"	"sv"	"ary"	"aR.j"	"impf.fut."	"1"	"imperfekt framtida tempus"	\N
+"1520"	"de"	"ìrm"	"IR.m"	"impf.rec.past."	"1"	"imperfektiver Aspekt der umittelbaren Vergangenheit"	\N
+"1520"	"en"	"ìrm"	"IR.m"	"impf.rec.past."	"1"	"imperfective recent past tense"	\N
+"1520"	"est"	"ìrm"	"IR.m"	"impf.rec.past."	"1"	"Hiljutise lõpetamata (imperfektiivse) mineviku tunnus."	\N
+"1520"	"hu"	"ìrm"	"IR.m"	"impf.rec.past."	"1"	"folyamatos közelmúltra utaló"	\N
+"1520"	"nl"	"ìrm"	"IR.m"	"impf.rec.past."	"1"	"imperfectief recent verleden tijd"	\N
+"1520"	"pl"	"ìrm"	"IR.m"	"impf.rec.past."	"1"	"czas przeszły bliski, aspekt niedokonany"	\N
+"1520"	"ru"	"ìrm"	"IR.m"	"impf.rec.past."	"1"	"несов. вид, недавно прошедшее время"	\N
+"1520"	"sv"	"ìrm"	"IR.m"	"impf.rec.past."	"1"	"imperfekt nyligen dåtida tempus"	\N
+"1521"	"de"	"ìlm"	"Il.m"	"perf.rec.past."	"1"	"perfektiver Aspekt der unmittelbaren Vergangenheit"	\N
+"1521"	"en"	"ìlm"	"Il.m"	"perf.rec.past."	"1"	"perfective recent past tense"	\N
+"1521"	"est"	"ìlm"	"Il.m"	"perf.rec.past."	"1"	"Hiljutise lõpetatud (perfektiivse) mineviku tunnus."	\N
+"1521"	"hu"	"ìlm"	"Il.m"	"perf.rec.past."	"1"	"befejezett közelmúltra utaló"	\N
+"1521"	"nl"	"ìlm"	"Il.m"	"perf.rec.past."	"1"	"voltooid recent verleden tijd"	\N
+"1521"	"pl"	"ìlm"	"Il.m"	"perf.rec.past."	"1"	"czas przeszły bliski, aspekt dokonany"	\N
+"1521"	"ru"	"ìlm"	"Il.m"	"perf.rec.past."	"1"	"сов. вид, ближайшее прошедшее время, "	\N
+"1521"	"sv"	"ìlm"	"Il.m"	"perf.rec.past."	"1"	"perfekt nyligen dåtida tempus."	\N
+"1522"	"de"	"--tsyìp"	"\\t{ts}jIp\\textcorner"	"dim."	\N	"({\\bf pro.}) Diminutiv-Suffix für Nomen, Pronomen"	\N
+"1522"	"en"	"--tsyìp"	"\\t{ts}jIp\\textcorner"	"dim."	\N	"({\\bf pro.}) diminutive suffix for nouns, pronouns"	\N
+"1522"	"est"	"--tsyìp"	"\\t{ts}jIp\\textcorner"	"dim."	\N	"({\\bf pro.}) Hellitav, õrnutsev, vähem tähtsamaks tegev, narriv vorm vastavalt kontekstile"	\N
+"1522"	"hu"	"--tsyìp"	"\\t{ts}jIp\\textcorner"	"dim."	\N	"({\\bf prod.}) kicsinyítő képző főnevek, névmások végén(produktív, sosem hangsúlyos)"	\N
+"1522"	"nl"	"--tsyìp"	"\\t{ts}jIp\\textcorner"	"dim."	\N	"({\\bf pro.}) verkleinend achtervoegsel voor zn. en vn."	\N
+"1522"	"ru"	"--tsyìp"	"\\t{ts}jIp\\textcorner"	"dim."	\N	"({\\bf прод.}) уменьшительный суффикс для существительных и местоимений"	\N
+"1522"	"sv"	"--tsyìp"	"\\t{ts}jIp\\textcorner"	"dim."	\N	"({\\bf pro.}) diminutiva suffix för substantiv, pronomen"	\N
+"1540"	"de"	"tì-- --us--"	"tI us"	"ger."	\N	"({\\bf pro.}) Gerundium (Verbalnomen)"	\N
+"1540"	"en"	"tì-- --us--"	"tI us"	"ger."	\N	"({\\bf pro.}) gerund (verbal noun)"	\N
+"1540"	"est"	"tì-- --us--"	"tI us"	"ger."	\N	"({\\bf pro.}) Gerundiivi, teonime moodustamine"	\N
+"1540"	"hu"	"tì-- --us--"	"tI us"	"ger."	\N	"(4) gerundiumot (főnévként viselkedő főnévi igenevet)"	\N
+"1540"	"nl"	"tì-- --us--"	"tI us"	"ger."	\N	"({\\bf pro.}) zelfstandig gebruik werkwoord"	\N
+"1540"	"ru"	"tì-- --us--"	"tI us"	"ger."	\N	"({\\bf прод.}) глагольное существительное"	\N
+"1540"	"sv"	"tì-- --us--"	"tI us"	"ger."	\N	"({\\bf pro.}) gerundium (verbalt substantiv)"	\N
+"1744"	"de"	"fra--"	"fRa"	"every"	\N	"({\\bf pro.}) {\\it jeder}"	\N
+"1744"	"en"	"fra--"	"fRa"	"every"	\N	"({\\bf pro.}) {\\it every}"	\N
+"1744"	"est"	"fra--"	"fRa"	"every"	\N	"({\\bf pro.}) {\\it iga}"	\N
+"1744"	"hu"	"fra--"	"fRa"	"every"	\N	"({\\bf prod.}) {\\it minden}"	\N
+"1744"	"nl"	"fra--"	"fRa"	"every"	\N	"({\\bf pro.}) {\\it elke}"	\N
+"1744"	"ru"	"fra--"	"fRa"	"every"	\N	"({\\bf прод.}) {\\it каждый}"	\N
+"1744"	"sv"	"fra--"	"fRa"	"every"	\N	"({\\bf pro.}) {\\it varje}"	\N
+"1745"	"de"	"kaw--"	"kaw"	"never"	\N	"{\\it nicht einer}"	\N
+"1745"	"en"	"kaw--"	"kaw"	"never"	\N	"{\\it not one}"	\N
+"1745"	"est"	"kaw--"	"kaw"	"never"	\N	"{\\it mitte +}"	\N
+"1745"	"hu"	"kaw--"	"kaw"	"never"	\N	"{\\it se-, sem-, semmi-}"	\N
+"1745"	"nl"	"kaw--"	"kaw"	"never"	\N	"{\\it niet een}"	\N
+"1745"	"pl"	"kaw--"	"kaw"	"never"	\N	"{\\it żaden}"	\N
+"1745"	"ru"	"kaw--"	"kaw"	"never"	\N	"{\\it никто}"	\N
+"1745"	"sv"	"kaw--"	"kaw"	"never"	\N	"{\\it inte en}"	\N
+"1785"	"de"	"fì--"	"fI"	"this"	\N	"({\\bf pro.}) {\\it dies}"	"Nomen"
+"1785"	"en"	"fì--"	"fI"	"this"	\N	"({\\bf pro.}) {\\it this}"	"nouns"
+"1785"	"est"	"fì--"	"fI"	"this"	\N	"({\\bf pro.}){\\it see},"	"nimisõnadele"
+"1785"	"hu"	"fì--"	"fI"	"this"	\N	"({\\bf prod.}) {\\it ez a(z)}"	"főnevekhez"
+"1785"	"nl"	"fì--"	"fI"	"this"	\N	"({\\bf pro.}) {\\it dit}"	"zn."
+"1785"	"ru"	"fì--"	"fI"	"this"	\N	"({\\bf прод.}) {\\it это}"	"существительные"
+"1785"	"sv"	"fì--"	"fI"	"this"	\N	"({\\bf pro.}) {\\it den här}"	"substantiv"
+"1786"	"de"	"fne--"	"fnE"	"kind"	\N	"({\\bf pro.}) {\\it Art von}"	"Nomen"
+"1786"	"en"	"fne--"	"fnE"	"kind"	\N	"({\\bf pro.}) {\\it kind, type}"	"nouns"
+"1786"	"est"	"fne--"	"fnE"	"kind"	\N	"({\\bf pro.}){\\it liik, sort},"	"nimisõnadele"
+"1786"	"hu"	"fne--"	"fnE"	"kind"	\N	"({\\bf prod.}) {\\it féle, fajta}"	"főnevekhez"
+"1786"	"nl"	"fne--"	"fnE"	"kind"	\N	"({\\bf pro.}) {\\it soort, type}"	"zelfstand naamwoorden"
+"1786"	"ru"	"fne--"	"fnE"	"kind"	\N	"({\\bf прод.}) {\\it тип}"	"существительные"
+"1786"	"sv"	"fne--"	"fnE"	"kind"	\N	"({\\bf pro.}) {\\it sort, typ}"	"substantiv"
+"1787"	"de"	"tsa--"	"\\t{ts}a"	"that"	\N	"({\\bf pro.}) {\\it jene, -r, -s}"	"Nomen"
+"1787"	"en"	"tsa--"	"\\t{ts}a"	"that"	\N	"({\\bf pro.}) {\\it that}"	"nouns"
+"1787"	"est"	"tsa--"	"\\t{ts}a"	"that"	\N	"({\\bf pro.}){\\it see},"	"nimiõnadele"
+"1787"	"hu"	"tsa--"	"\\t{ts}a"	"that"	\N	"({\\bf prod.}) {\\it az a(z)…}"	"főnevekhez"
+"1787"	"nl"	"tsa--"	"\\t{ts}a"	"that"	\N	"({\\bf pro.}) {\\it die}"	"zn."
+"1787"	"ru"	"tsa--"	"\\t{ts}a"	"that"	\N	"({\\bf прод.}) {\\it тот}"	"существительные"
+"1787"	"sv"	"tsa--"	"\\t{ts}a"	"that"	\N	"({\\bf pro.}) {\\it that}"	"substantiv"
+"1788"	"de"	"fay+"	"faj"	"these"	\N	"({\\bf pro.}) {\\it diese} (plural)"	"Nomen"
+"1788"	"en"	"fay+"	"faj"	"these"	\N	"({\\bf pro.}) {\\it these}"	"nouns"
+"1788"	"est"	"fay+"	"faj"	"these"	\N	"({\\bf pro.}) {\\it need}"	"nimisõnadele"
+"1788"	"hu"	"fay+"	"faj"	"these"	\N	"({\\bf prod.}) {\\it az a(z)…}"	"főnevekhez"
+"1788"	"nl"	"fay+"	"faj"	"these"	\N	"({\\bf pro.}) {\\it deze}"	"zn."
+"1788"	"pl"	"fay+"	"faj"	"these"	\N	\N	"rzeczowniki"
+"1788"	"ru"	"fay+"	"faj"	"these"	\N	"({\\bf прод.}) {\\it эти}"	"существительные"
+"1788"	"sv"	"fay+"	"faj"	"these"	\N	"({\\bf pro.}) {\\it dessa, dem här}"	"substantiv"
+"1790"	"de"	"tsay+"	"\\t{ts}aj"	"those"	\N	"({\\bf pro.}) {\\it jene} (plural)"	"Nomen"
+"1790"	"en"	"tsay+"	"\\t{ts}aj"	"those"	\N	"({\\bf pro.}) {\\it those}"	"nouns"
+"1790"	"est"	"tsay+"	"\\t{ts}aj"	"those"	\N	"({\\bf pro.}) {\\it need}"	"nimisõnadele"
+"1790"	"hu"	"tsay+"	"\\t{ts}aj"	"those"	\N	"({\\bf prod.}) {\\it azok a(z)…}"	"főnevekhez"
+"1790"	"nl"	"tsay+"	"\\t{ts}aj"	"those"	\N	"({\\bf pro.}) {\\it die} meervoudig"	"zn."
+"1790"	"ru"	"tsay+"	"\\t{ts}aj"	"those"	\N	"({\\bf прод.}) {\\it те}"	"существительные"
+"1790"	"sv"	"tsay+"	"\\t{ts}aj"	"those"	\N	"({\\bf pro.}) {\\it dem där, dem}"	"substantiv"
+"1792"	"de"	"pay+"	"paj"	"inter."	\N	"({\\bf pro}) Interrogativmarker plural"	\N
+"1792"	"en"	"pay+"	"paj"	"inter."	\N	"({\\bf pro.}) plural inter. marker"	\N
+"1792"	"est"	"pay+"	"paj"	"inter."	\N	"({\\bf pro.}) Mitmuses küsimuse märkija"	\N
+"1792"	"hu"	"pay+"	"paj"	"inter."	\N	"({\\bf prod.}) többes számú kérdő"	\N
+"1792"	"nl"	"pay+"	"paj"	"inter."	\N	"({\\bf pro.}) meervoudige vvn. markering"	\N
+"1792"	"ru"	"pay+"	"paj"	"inter."	\N	"({\\bf прод.}) множественная вопросительная метка"	\N
+"1792"	"sv"	"pay+"	"paj"	"inter."	\N	"({\\bf pro.}) plural interr. markör"	\N
+"1843"	"de"	"--fkeyk"	"fkEjk\\textcorner"	"state"	\N	"({\\bf pro.}) Suffix für Nomen mit der Bedeutung {\\it -zustand, -situation}"	\N
+"1843"	"en"	"--fkeyk"	"fkEjk\\textcorner"	"state"	\N	"({\\bf pro.}) suffix for nouns meaning {\\it state, condition}"	\N
+"1843"	"est"	"--fkeyk"	"fkEjk\\textcorner"	"state"	\N	"({\\bf pro.}) järelliide nimisõnadele mis märgivad {\\it olekut}"	\N
+"1843"	"hu"	"--fkeyk"	"fkEjk\\textcorner"	"state"	\N	"({\\bf prod.}) utótag főnevekhez {\\it állapotot, körülményt fejez ki}"	\N
+"1843"	"nl"	"--fkeyk"	"fkEjk\\textcorner"	"state"	\N	"({\\bf pro.}) achtervoegsel voor zn. die {\\it toestand, conditie} betekenen"	\N
+"1843"	"ru"	"--fkeyk"	"fkEjk\\textcorner"	"state"	\N	"({\\bf pro.}) суффикс для сущ., означающий {\\it состояние, качество}"	\N
+"1843"	"sv"	"--fkeyk"	"fkEjk\\textcorner"	"state"	\N	"({\\bf pro.}) suffix för substantiv betydande {\\it tillstånd, situation}"	\N
+"1890"	"de"	"--nga'"	"NaP\\textcorner"	"adj."	\N	"Adjektivmarker"	\N
+"1890"	"en"	"--nga'"	"NaP\\textcorner"	"adj."	\N	"adjective"	\N
+"1890"	"est"	"--nga'"	"NaP\\textcorner"	"adj."	\N	"omadussõna"	\N
+"1890"	"hu"	"--nga'"	"NaP\\textcorner"	"adj."	\N	"melléknév"	\N
+"1890"	"nl"	"--nga'"	"NaP\\textcorner"	"adj."	\N	"adjectief"	\N
+"1890"	"pl"	"--nga'"	"NaP\\textcorner"	"adj."	\N	"przymiotnik"	\N
+"1890"	"ru"	"--nga'"	"NaP\\textcorner"	"adj."	\N	"прилагательное"	\N
+"1890"	"sv"	"--nga'"	"NaP\\textcorner"	"adj."	\N	"adjektiv"	\N
+"2052"	"de"	"--r"	"R"	"dat."	\N	"Dativ"	"Vokal"
+"2052"	"en"	"--r"	"R"	"dat."	\N	"dative"	"vowel"
+"2052"	"est"	"--r"	"R"	"dat."	\N	"datiivne"	"täishäälik"
+"2052"	"hu"	"--r"	"R"	"dat."	\N	"részes eset"	"magánhangzóra végződő főnév végén"
+"2052"	"nl"	"--r"	"R"	"dat."	\N	"datief"	"klinker"
+"2052"	"pl"	"--r"	"R"	"dat."	\N	"celownik"	"samogłoska"
+"2052"	"ru"	"--r"	"R"	"dat."	\N	"дательный"	"гласный"
+"2196"	"de"	"--tswo"	"\\t{ts}wo"	"suffix"	\N	"({\\bf pro.}) Suffix, das ein Verb in ein Nomen ändert, das die Fähigkeit anzeigt, das Verb auszuführen"	\N
+"2196"	"en"	"--tswo"	"\\t{ts}wo"	"suffix"	\N	"({\\bf pro.}) suffix that changes a verb to a noun indicating the ability to perform the action of the verb"	\N
+"2196"	"est"	"--tswo"	"\\t{ts}wo"	"suffix"	\N	"({\\bf pro.}) järelliide, mis muudab tegusõna nimisõnaks, mis näitab võimet tegusõna tegevust sooritada"	\N
+"2196"	"hu"	"--tswo"	"\\t{ts}wo"	"suffix"	\N	"({\\bf pro.}) utótag, amely az igét főnévvé változtatja, jelezve az ige végrehajtásának képességét"	\N
+"2196"	"nl"	"--tswo"	"\\t{ts}wo"	"suffix"	\N	"({\\bf pro.}) achtervoegsel dat een werkwoord in een zn. veranderd, en de mogelijkheid tot het uitvoeren van de actie van het werkwoord aangeeft"	\N
+"2196"	"ru"	"--tswo"	"\\t{ts}wo"	"suffix"	\N	"({\\bf прод.}) суффикс, изменяющий глагол на существительное, со способностью выполнить действие глагола"	\N
+"2197"	"de"	"sna--"	"sna"	"prefix"	\N	"Präfix Gruppenmarker für Nomen; {\\bf pro.} wenn auf Lebewesen bezogen, ansonsten {\\bf unpro.} "	\N
+"2197"	"en"	"sna--"	"sna"	"prefix"	\N	"prefix group marker for nouns; {\\bf pro.} when referring to living things, {\\bf unpro.} otherwise. "	\N
+"2197"	"est"	"sna--"	"sna"	"prefix"	\N	"eesliide grupi/kogumiku märkimiseks nimisõnadel {\\bf pro.} kui elavate puhul, {\\bf pro.} muudel juhtudel"	\N
+"2197"	"hu"	"sna--"	"sna"	"prefix"	\N	"előtag, csoportot jelez főnevek elején; {\\bf pro.} élőlényekre utal, {\\bf unpro.} másképpen"	\N
+"2197"	"nl"	"sna--"	"sna"	"prefix"	\N	"voorvoegsel, groepen van zn.; {\\bf pro.} om levende dingen aan te geven, anders {\\bf onpro.}"	\N
+"2197"	"ru"	"sna--"	"sna"	"prefix"	\N	"префикс группы для существительных; {\\bf прод.} в отношении живых существ, иначе {\\bf непрод.}"	\N
+"2416"	"de"	"--nay"	"naj"	"dim."	\N	"{\\bf (unpro.)} erzeugt ein neues Nomen, das sich auf das Original bezieht, aber einen Schritt weiter unten in der jeweiligen Hierarchie ist – Größe, Rang, Fähigkeit, etc."	\N
+"2416"	"en"	"--nay"	"naj"	"dim."	\N	" {\\bf (unpro.)} creates a new noun that is related to the original by being a step down in some relevant heirarchy - size, rank, accomplishment, etc."	\N
+"2416"	"est"	"--nay"	"naj"	"dim."	\N	"{\\bf (mittepro.)} loob uue nimisõna, mis on esialgsest üks aste vähemtähtsam, madalam, väiksem jne."	\N
+"2416"	"hu"	"--nay"	"naj"	"dim."	\N	"{\\bf (unpro.)} olyan főnevet képez az eredetiből, amely jelentése nála eggyel lejjebb van a ranglétrán - méretben, rangban, stb."	\N
+"2416"	"nl"	"--nay"	"naj"	"dim."	\N	"{\\bf (unpro.)} creëert een nieuw zn. relatief aan het origineel, maar een graad lager in de relevante hierarchie, - maat, rang, etc."	\N
+"2416"	"ru"	"--nay"	"naj"	"dim."	\N	"({\\bf непрод.}) создает новое существительное, которое по отношению к оригинальному на ступень ниже в какой-либо иерахии -- размер, ранг, завершенность и т.д.)"	\N
+"2460"	"de"	"tsuk--"	"\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) möglich (das Verb mit Vorsilbe) zu tun; weitgehend produktiv, kann an beinah jedes transitive Verb angehängt werden, obwohl es auch mit intransitiven Verben benutzt wird;"	\N
+"2460"	"en"	"tsuk--"	"\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) able to (do the verb prefixed); widely productive, can be attached to virtually any transitive verb, although also useful on intransitive verbs;"	\N
+"2460"	"est"	"tsuk--"	"\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf eessõna.}) tehtav; võib kasutada kõikide sihiliste tegusõnadega"	\N
+"2460"	"hu"	"tsuk--"	"\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) -ható, -hető (igéhez csatlakoztatott előtag, melléknévi igenevet képez); teljesen produktív, minden igéhez hozzátehető;"	\N
+"2460"	"nl"	"tsuk--"	"\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) mogelijk zijn (het geprefixte ww. uit te voeren); zeer productief, kan aan praktisch elk wwo. gekoppeld worden, doch ook bruikbaar bij wwn.;"	\N
+"2460"	"ru"	"tsuk--"	"\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf прод.}) способность (делать обозначенное глаголом)"	\N
+"2461"	"de"	"ketsuk--"	"kE.\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) nicht möglich zu"	\N
+"2461"	"en"	"ketsuk--"	"kE.\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) not able to (do the verb prefixed)"	\N
+"2461"	"est"	"ketsuk--"	"kE.\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) mitte saama (teha tüvitegusõna)"	\N
+"2461"	"hu"	"ketsuk--"	"kE.\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) -hatatlan, -hetetlen (igéhez járuló toldalék, melléknévi igenevet képez)"	\N
+"2461"	"nl"	"ketsuk--"	"kE.\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) niet mogelijk zijn (het geprefixte ww. uit te voeren)"	\N
+"2461"	"ru"	"ketsuk--"	"kE.\\t{ts}uk\\textcorner"	"adj."	\N	"({\\bf pro.}) неспособность (делать обозначенное глаголом)"	\N
+"2462"	"de"	"munsna--"	"mun.sna"	"pair"	\N	"({\\bf pro.}) {\\it paar}"	"Nomen"
+"2462"	"en"	"munsna--"	"mun.sna"	"pair"	\N	"({\\bf pro.}) {\\it pair}"	"nouns"
+"2462"	"est"	"munsna--"	"mun.sna"	"pair"	\N	"({\\bf pro.}) {\\it paar}"	"nimisõnadele"
+"2462"	"hu"	"munsna--"	"mun.sna"	"pair"	\N	"({\\bf pro.}) {\\it pár}"	"fn."
+"2462"	"nl"	"munsna--"	"mun.sna"	"pair"	\N	"({\\bf pro.}) {\\it paar}"	"zn."
+"2462"	"ru"	"munsna--"	"mun.sna"	"pair"	\N	"({\\bf прод.}) {\\it пара}"	"существительное"
+"2517"	"de"	"fray+"	"fRaj"	"all of these"	\N	"({\\bf pro.}) {\\it alle diese} Plural "	"Substantive"
+"2517"	"en"	"fray+"	"fRaj"	"all of these"	\N	"({\\bf pro.}) {\\it all of these} plural"	"nouns"
+"2517"	"est"	"fray+"	"fRaj"	"all of these"	\N	"({\\bf pro.}) {\\it need kõik} mitmuse"	"nimisõnadele"
+"2517"	"hu"	"fray+"	"fRaj"	"all of these"	\N	"({\\bf pro.}) {\\it mindegyik} plural"	"főnevek"
+"2517"	"nl"	"fray+"	"fRaj"	"all of these"	\N	"({\\bf pro.}) {\\it al deze} meervoudig"	"zn."
+"2517"	"ru"	"fray+"	"fRaj"	"all of these"	\N	"{\\bf прод.}) {\\it каждый из них} множ"	"сущ."
+"2630"	"de"	"--kel"	"kEl"	"neg."	\N	"{\\bf (unpro.)} bildet ein neues Substantiv, das einen \\uline{Mangel} des Ursprungswortes anzeigt"	\N
+"2630"	"en"	"--kel"	"kEl"	"neg."	\N	"{\\bf (unpro.)} creates a new noun that indicates a \\uline{lack} of the original noun"	\N
+"2630"	"est"	"--kel"	"kEl"	"neg."	\N	"{\\bf (mittepro.)} kasutatakse uue \\uline{puudust} näitava nimisõna loomiseks"	\N
+"2630"	"hu"	"--kel"	"kEl"	"neg."	\N	"{\\bf (nem produktív)} új főnevet képez, amely az eredeti főnév  \\uline{hiányát} jelenti"	\N
+"2630"	"nl"	"--kel"	"kEl"	"neg."	\N	"{\\bf (onpro.)} creëert een nieuw zn. dat een \\uline{gebrek} aan het originele zn. aangeeft"	\N
