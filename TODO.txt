@@ -1,7 +1,9 @@
 TODO:
 ----
-FIX affix.go functions to check containment and replace 1st with regexp. (prefix, suffix)
-+ Add support for affixes other than verb infixes
-+ Add a Number converter
-+ Add a Grammar Parser
-- Fix support for Russian and Polish in the text files (DB Export issue in the SQL dump...)
++ Add support for affix recognition (completely rewrite util/affix.go then use it)
++ Do something with .fwew/Infixes.tsv?
++ Search words by Part of Speech
++ Add config file for settings
+* Somehow get people to use this instead of vrrtepcli
+* Add a Number converter
+* Add a Grammar Parser
