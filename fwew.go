@@ -22,453 +22,185 @@ import (
 	"fwew/util"
 	"os"
 	"strings"
+	"errors"
 )
 
-// global
-var DEBUG bool
-var MW_FIELD_ID int = 0
-var MW_FIELD_NAV int = 1
-var MW_FIELD_IPA int = 2
-var MW_FIELD_INF int = 3
-var MW_FIELD_POS int = 4
-var LW_FIELD_ID int = 0
-var LW_FIELD_LC int = 1
-var LW_FIELD_DEF int = 2
-var LWFIELD_POS int = 3
-var LW_NUM_FIELDS int = 4
-var MW_NUM_FIELDS int = 5
+// Global vars
+var DEBUG bool         // whether or not to produce debugging output
+var FIELD_ID int = 0   // dictionary.tsv line field 0 is Database ID
+var FIELD_LC int = 1   // dictionary.tsv line field 1 is Language Code
+var FIELD_NAV int = 2  // dictionary.tsv line field 2 is Na'vi word
+var FIELD_IPA int = 3  // dictionary.tsv line field 3 is IPA data
+var FIELD_INF int = 4  // dictionary.tsv line field 4 is Infix location data
+var FIELD_POS int = 5  // dictionary.tsv line field 5 is Part of Speech data
+var FIELD_DEF int = 6  // dictionary.tsv line field 6 is Local definition
+var NUM_FIELDS int = 7 // dictionary.tsv number of line fields is 7
+//TODO: infixes.tsv fields?
+var LANGUAGE string = util.Text("DEFAULT_LANGUAGE")
 
-// some minimal exception handling
-func check(e error) {
-	if e != nil {
-		panic(e)
-	}
-}
-
-// get the Database ID of a Na'vi root word
-// only seemsm to support verb infix stripping at the moment
-func getNavID(w string) string {
-
-	// declare / initialize stuffs
-	w = strings.ToLower(w)
-	word := "\t" + w + "\t"
-	var navID string
-	var line string
+/* Fwew function
+ * Params: word string, the user's word input
+ *         lc string, the language code
+ *         reverse bool, whether or not the lookup will be local word instead of Na'vi
+ * Returns: []string, {ID, LC, NAV, IPA, INF, POS, DEF}
+ * Search data file for the user's Na'vi word and return a slice with pertinent data
+ */
+func fwew(word string, lc string, reverse bool) [][]string {
+	var results [][]string
 	var fields []string
-	//var nav string
-	var pre string
-	var inf string
-	//var suf string
-	var pos string
-	var result [][]string
 
-	metaWordsData, err := os.Open(util.Text("METAWORDS"))
-	check(err)
-	scanner := bufio.NewScanner(metaWordsData)
+	// Searching for Local word, just search for it...
+	word = strings.ToLower(word)
 
-	// look for the word
+	// Prepare file for searching
+	dictData, err := os.Open(util.Text("DICTIONARY"))
+	if err != nil { 
+		fmt.Println(errors.New(util.Text("ERR_MISSING_DATAFILE")))
+		os.Exit(1)
+	}
+	scanner := bufio.NewScanner(dictData)
+
+	// Go through each line and see what we can find
 	for scanner.Scan() {
-		line = scanner.Text()
-		line = strings.ToLower(line)
+		line := strings.ToLower(scanner.Text())
+		// Store the fields of the line into fields array in lowercase
 		fields = strings.Split(line, "\t")
-		//nav = fields[MW_FIELD_NAV]
-		pre = fields[MW_FIELD_NAV]
-		inf = fields[MW_FIELD_INF]
-		//suf = fields[MW_FIELD_NAV]
-		pos = fields[MW_FIELD_POS]
 
-		// if user searched a root word and it's found, then just pull the ID
-		if strings.Contains(line, word) {
-			navID = line[0:strings.Index(line, "\t")]
-			break
-
-			// if affixes were found...
+		if reverse {
+			if strings.Contains(fields[FIELD_DEF], word) && strings.Contains(fields[FIELD_LC], lc){
+				results = append(results, fields)
+				break
+			}
 		} else {
-			//TODO: FIX THIS ENTIRE ELSE BLOCK
-
-			// if it's a verb, check for verb affixes and strip
-			if strings.HasPrefix(pos, "v") {
-				//result = util.Prefix(w, pre, pos)
-				result = util.Infix(w, inf)
-				//result = util.Suffix(w, suf, pos)
-			} else {
-				// otherwise only check for prefixes and suffixes
-				result = util.Prefix(w, pre, pos)
-				//result= util.Suffix(w, suf, pos)
-			}
-
-			util.DebugResVar(DEBUG, "getNavID()", "result", result)
-
-			if len(result) != 0 {
-				// ...and if the found infixed VERB ends+starts with same letter as input
-				if strings.HasPrefix(pos, "v") && strings.HasSuffix(result[0][0], w[len(w)-1:]) && strings.HasPrefix(result[0][0], w[0:1]) {
-					// ... then print out what was found and grab the ID
-					navID = line[0:strings.Index(line, "\t")]
-					fmt.Println(result, " //hack")
-					break
-					// everything else. this is still too "catch-all"...
-					// the following block is responsible for resetting result and causing net zero-results
-					// break statement was insufficient to fix
-				} else if len(result[0]) > 1 && !util.StringInSlice("", result[0]) {
-					navID = line[0:strings.Index(line, "\t")]
-					fmt.Println(result, " // catch-all")
-				}
+			if strings.Contains(line, "\t"+word+"\t") && strings.Contains(fields[FIELD_LC], lc) {
+				results = append(results, fields)
 			}
 		}
 	}
-	return navID
+
+	return results
 }
 
-// get the Database ID of a Local word by Language
-// typically returns many matches
-func getLocID(w string, l string) []string {
-
-	// initialize some stuffs
-	word := strings.ToLower(w)
-	var locIDs []string
-	var locID string
-	var line string
-	var fields []string
-	var field_def string
-	var field_arr []string
-	var field_lng string
-
-	localizedData, err := os.Open(util.Text("LOCALIZED"))
-	check(err)
-	scanner := bufio.NewScanner(localizedData)
-
-	// look for matching words
-	for scanner.Scan() {
-		line = scanner.Text()
-		line = strings.ToLower(line)
-		fields = strings.Split(line, "\t")
-
-		// there should be 4 fields..
-		if len(fields) == LW_NUM_FIELDS {
-			field_def = fields[LW_FIELD_DEF]
-			field_arr = strings.Split(field_def, " ")
-			field_lng = fields[LW_FIELD_LC]
-
-			// only try to grab the id from line using requested language
-			if field_lng == l {
-				util.DebugSnap(DEBUG, "getLocID()", []string{"word", "l", "line", "field_def", "field_lng"}, []string{word, l, line, field_def, field_lng})
-				util.DebugArr(DEBUG, "getLocID()", "fields", fields)
-				util.DebugArr(DEBUG, "getLocID()", "field_arr", field_arr)
-
-				// single-word definition and happens to be what user searched
-				if len(field_arr) == 1 && field_def == word {
-					locID = line[0:strings.Index(line, "\t")]
-					locIDs = append(locIDs, locID)
-					if DEBUG {
-						fmt.Println("<DEBUG:getLocID()>!MATCH!</DEBUG>")
-					}
-					util.DebugVar(DEBUG, "getLocID()", "locID", locID)
-					util.DebugArr(DEBUG, "getLocID()", "locIDs", locIDs)
-
-					// multiple words in the local definition, search through each word
-				} else if len(field_arr) > 1 {
-					for i := 0; i < len(field_arr); i++ {
-						util.DebugVar(DEBUG, "getLocID()", "field_arr[i]", field_arr[i])
-						if field_arr[i] == word || field_arr[i] == word+"," {
-							if DEBUG {
-								fmt.Println("<DEBUG:getLocID() contains>l and *word*</DEBUG>")
-							}
-							locID = line[0:strings.Index(line, "\t")]
-							locIDs = append(locIDs, locID)
-						}
-					}
-				}
-			}
-		}
-	}
-	util.DebugArr(DEBUG, "getLocID()", "locIDs", locIDs)
-	return locIDs
-}
-
-// get POS, Na'vi Word, IPA, Infixes, for given ID
-func getDataByID(id string) (string, string, string, string) {
-
-	if id == "" {
-		return "", "", "", ""
-	}
-
-	// set up filestuffs
-	metaData, err := os.Open(util.Text("METAWORDS"))
-	check(err)
-	scanner := bufio.NewScanner(metaData)
-
-	var word string
-	var ipa string
-	var inf string
-	var pos string
-
-	util.DebugVar(DEBUG, "getDataByID()", "id", id)
-
-	// break up each line by field and capture all the things...
-	for scanner.Scan() {
-		line := scanner.Text()
-		// ... but only if the line matches the requested ID
-		if strings.HasPrefix(line, id) {
-			fields := strings.Split(line, "\t")
-			word = fields[MW_FIELD_NAV]
-			ipa = "[" + fields[MW_FIELD_IPA] + "]"
-			inf = fields[MW_FIELD_INF]
-			pos = fields[MW_FIELD_POS]
-
-			util.DebugArr(DEBUG, "getDataByID()", "fields", fields)
-			util.DebugVar(DEBUG, "getDataByID()", "word", word)
-
-			break
-		}
-	}
-	util.DebugVar(DEBUG, "getDataByID()", "word", word)
-	return pos, word, ipa, inf
-}
-
-// get Local word for given ID
-func getLocalWordByID(id string, l string) string {
-
-	if id == "" || l == "" {
-		return util.Text("NONE")
-	}
-
-	//filestuffs
-	localData, err := os.Open(util.Text("LOCALIZED"))
-	check(err)
-	scanner := bufio.NewScanner(localData)
-
-	var localWord string
-
-	// search through each line to match the requested ID and language
-	for scanner.Scan() {
-		line := scanner.Text()
-		fields := strings.Split(line, "\t")
-		if len(fields) == LW_NUM_FIELDS {
-			field_wid := fields[LW_FIELD_ID]
-			field_lng := fields[LW_FIELD_LC]
-			field_def := fields[LW_FIELD_DEF]
-			localWord = field_def
-			if field_lng == l {
-				if field_wid == id {
-					util.DebugArr(DEBUG, "getLocalWordByID()", "fields", fields)
-					util.DebugSnap(DEBUG, "getLocalWordByID()", []string{"line", "localWord"}, []string{line, localWord})
-					// match
-					return localWord
-				}
-			}
-		}
-	}
-	// no matches
-	return util.Text("NONE")
-}
-
+/* Main function
+ * Params: none
+ * Returns: void
+ * Program flow: 
+ *   Get user input (flags and word(s))
+ *	 Search data file for word(s) to get data
+ *   Format and print requested data
+ *	 OR: Print version text or help text
+ */
 func main() {
-	// cli flags
+	// CLI FLAGS
+	// Debug flag, for verbose probing output
 	PROG_DEBUG := flag.Bool("DEBUG", false, util.Text("USAGEDEBUG"))
+	// Version flag, for displaying version data
 	flag_v := flag.Bool("v", false, util.Text("USAGEFLAG_V"))
+	// Language specifier flag
 	flag_l := flag.String("l", util.Text("DEFAULT_LANGUAGE"), util.Text("USAGEFLAG_L"))
+	// Infixes flag, opt to show infix location data
 	flag_i := flag.Bool("i", false, util.Text("USAGEFLAG_I"))
+	// IPA flag, opt to show IPA data
 	flag_ipa := flag.Bool("ipa", false, util.Text("USAGEFLAG_IPA"))
+	// Part of Show part of speech flag
+//	flag_pos := flag.String("pos", "", util.Text("USAGEFLAG_POS")) //TODO
+	// Reverse direction flag, for local_lang -> Na'vi lookups
 	flag_r := flag.Bool("r", false, util.Text("USAGEFLAG_R"))
-
 	flag.Parse()
-
+	//set the global debugging bool to the cli flag value
 	DEBUG = *PROG_DEBUG
 
-	// declare / initialize vars
-	var word string
-	var lwrd string
-	var lwds []string
-	var dbid string
-	var dbls []string
-	var wipa string
-	var infx string
-	var wpos string
-	lang := *flag_l
+	var results [][]string
+	var input, nav, ipa, inf, pos, def string
 
-	// ARGS MODE
-
-	// Na'vi -> Local lookup
-	if !*flag_r && flag.NArg() > 0 {
-		if DEBUG {
-			fmt.Println("<DEBUG !*flag_r flag.NArg()!=0>Normal lookup direction | Args</DEBUG>")
+	if *flag_v {
+		fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
+		
+		if flag.NArg() == 0 {
+			os.Exit(0)
 		}
-		if *flag_v {
-			fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
-		}
-
-		for i := 0; i < flag.NArg(); i++ {
-			dbid = getNavID(flag.Args()[i])
-			wpos, word, wipa, infx = getDataByID(dbid)
-			lwrd = getLocalWordByID(dbid, lang)
-
-			// print out the results, what of it was requested
-			if !*flag_ipa && !*flag_i {
-				fmt.Print(wpos, " ", lwrd, "\n")
-			} else {
-				fmt.Print(wpos, " ", lwrd, " ")
-			}
-			if *flag_ipa {
-				if *flag_i {
-					fmt.Print(wipa, " ")
-				} else {
-					fmt.Print(wipa, "\n")
-				}
-			}
-			if *flag_i {
-				fmt.Print(infx, "\n")
-			}
-			fmt.Println("")
-		}
-
-		// Local -> Na'vi lookup
-	} else if *flag_r && flag.NArg() > 0 {
-		if DEBUG {
-			fmt.Println("<DEBUG *flag_r flag.NArg()>0>Reverse lookup direction | Args</DEBUG>")
-		}
-		if *flag_v {
-			fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
-		}
-
-		for i := 0; i < flag.NArg(); i++ {
-			lwrd = flag.Args()[i]
-			dbls = getLocID(lwrd, lang)
-			util.DebugArr(DEBUG, "main()", "dbls", dbls)
-			for i := 0; i < len(dbls); i++ {
-				dbid = dbls[i]
-				wpos, word, wipa, infx = getDataByID(dbid)
-				lwds = append(lwds, lwrd)
-
-				//print results, what of it was requested
-				fmt.Print(wpos, " ", word, " ")
-				if *flag_ipa {
-					if *flag_i {
-						fmt.Print(wipa, " ")
-					} else {
-						fmt.Print(wipa, "\n")
-					}
-				}
-				if *flag_i {
-					fmt.Print(infx, " ")
-				}
-				fmt.Println("(" + getLocalWordByID(dbid, lang) + ")")
-			}
-		}
-		if len(dbls) == 0 {
-			fmt.Println(util.Text("NONE"))
-		}
-		fmt.Println("")
 	}
 
-	// INTERACTIVE MODE
+	// ARGS MODE
+	if flag.NArg() > 0 {
 
-	// Na'vi -> local lookup
-	if !*flag_r && flag.NArg() == 0 {
-		if *flag_v {
-			fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
-			os.Exit(0)
-		}
+		for _, arg := range flag.Args() {
+			results = fwew(arg, *flag_l, *flag_r)
 
-		// print the program Header text
-		fmt.Println(util.Text("HEADTEXT"))
+			if len(results) != 0 {
 
-		if DEBUG {
-			fmt.Println("<DEBUG=true></DEBUG>")
-			fmt.Println("<DEBUG !*flag_r flag.NArg()==0>Normal lookup direction | Interactive</DEBUG>")
-		}
-
-		fmt.Println("")
-
-		// read word from cli args
-		reader := bufio.NewReader(os.Stdin)
-		fmt.Print("Fwew:> ")
-		word, _ := reader.ReadString('\n')
-		word = strings.Trim(word, "\n")
-
-		if word != "" {
-			dbid = getNavID(word)
-			wpos, _, wipa, infx = getDataByID(dbid)
-			lwrd = getLocalWordByID(dbid, lang)
-		} else {
-			wpos = ""
-			wipa = "[]"
-			infx = "\\N"
-			dbid = "-1"
-			lwrd = ""
-		}
-
-		// print out the results, what of it was requested
-		if !*flag_ipa && !*flag_i {
-			fmt.Print(wpos, " ", lwrd, "\n")
-		} else {
-			fmt.Print(wpos, " ", lwrd, " ")
-		}
-		if *flag_ipa {
-			if *flag_i {
-				fmt.Print(wipa, " ")
-			} else {
-				fmt.Print(wipa, "\n")
-			}
-		}
-		if *flag_i {
-			fmt.Print(infx, "\n")
-		}
-		fmt.Println("")
-
-		// Local -> Na'vi lookup
-	} else if *flag_r && flag.NArg() == 0 {
-		if *flag_v {
-			fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
-			os.Exit(0)
-		}
-
-		// print the program Header text
-		fmt.Println(util.Text("HEADTEXT"))
-
-		if DEBUG {
-			fmt.Println("<DEBUG=true></DEBUG>")
-			fmt.Println("<DEBUG *flag_r flag.NArg()==0>Reverse lookup direction | Interactive</DEBUG>")
-		}
-
-		fmt.Println("")
-
-		//read word from cli
-		reader := bufio.NewReader(os.Stdin)
-		fmt.Print("Fwew:> ")
-		word, _ := reader.ReadString('\n')
-		word = strings.Trim(word, "\n")
-
-		if word == "" {
-			fmt.Println("\n")
-			os.Exit(0)
-		}
-
-		lwrd = word
-		dbls = getLocID(lwrd, lang)
-
-		for i := 0; i < len(dbls); i++ {
-			dbid = dbls[i]
-			wpos, word, wipa, infx = getDataByID(dbid)
-			lwds = append(lwds, lwrd)
-
-			//print results, what of it was requested
-			fmt.Print(wpos, " ", word, " ")
-			if *flag_ipa {
-				if *flag_i {
-					fmt.Print(wipa, " ")
-				} else {
-					fmt.Print(wipa, "\n")
+				for _, r := range results {
+					nav = r[FIELD_NAV]
+					ipa = "[" + r[FIELD_IPA] + "]"
+					inf = r[FIELD_INF]
+					pos = r[FIELD_POS]
+					def = r[FIELD_DEF]
 				}
+
+				fmt.Print(pos + " ")
+				if *flag_r {
+					fmt.Print(nav + " ")
+				} else {
+					fmt.Print(def + " ")
+				}
+				if *flag_ipa {
+					fmt.Print(ipa + " ")
+				}
+				if *flag_i {
+					fmt.Print(inf + " ")
+				}
+				if *flag_r {
+					fmt.Println("(" + def + ")\n")
+				} else {
+					fmt.Println("(" + nav + ")\n")
+				}
+
+			} else {
+				fmt.Println(util.Text("NORESULTS"))
+			}
+		}
+
+	// INTERACTIVE MODE
+	} else {
+		fmt.Println(util.Text("HEADTEXT"))
+		reader := bufio.NewReader(os.Stdin)
+		fmt.Print("Fwew:> ")
+		input, _ = reader.ReadString('\n')
+		input = strings.Trim(input, "\n")
+
+		results = fwew(input, *flag_l, *flag_r)
+
+		if len(results) != 0 {
+
+			for _, r := range results {
+				nav = r[FIELD_NAV]
+				ipa = "[" + r[FIELD_IPA] + "]"
+				inf = r[FIELD_INF]
+				pos = r[FIELD_POS]
+				def = r[FIELD_DEF]
+			}
+
+			fmt.Print(pos + " ")
+			if *flag_r {
+				fmt.Print(nav + " ")
+			} else {
+				fmt.Print(def + " ")
+			}
+			if *flag_ipa {
+				fmt.Print(ipa + " ")
 			}
 			if *flag_i {
-				fmt.Print(infx, " ")
+				fmt.Print(inf + " ")
 			}
-			fmt.Println("(" + getLocalWordByID(dbid, lang) + ")")
+			if *flag_r {
+				fmt.Println("(" + def + ")\n")
+			} else {
+				fmt.Println("(" + nav + ")\n")
+			}
+
+		} else {
+			fmt.Println(util.Text("NORESULTS"))
 		}
-		if len(dbls) == 0 {
-			fmt.Println(util.Text("NONE"))
-		}
-		fmt.Println("")
 	}
 
 }
