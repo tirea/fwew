@@ -33,7 +33,7 @@ func init() {
 	texts["DEFAULT_LANGUAGE"] = "eng"
 	texts["LANGUAGE"] = texts["DEFAULT_LANGUAGE"]
 	texts["BASELANG"] = "Na'vi"
-	texts["NONE"] = "- not found -"
+	texts["NONE"] = "No Results\n"
 	texts["USAGEDEBUG"] = "Show extremely verbose probing"
 	texts["USAGEFLAG_V"] = "Show program & dictionary version numbers"
 	texts["USAGEFLAG_L"] = "Use specified language \n\tValid values: " + texts["LANGUAGES"]
@@ -53,7 +53,6 @@ func init() {
 	texts["INFIX_0"] = "(äp|eyk|äpeyk)?"
 	texts["INFIX_1"] = "(am|ìm|ìyev|ay|ìsy|asy|ol|er|iv|arm|ìrm|ìry|ary|alm|ìlm|ìly|aly|imv|iyev|ìy|irv|ilv|us|awn)?"
 	texts["INFIX_2"] = "(ei|äng|eng|ats|uy)?"
-	texts["NORESULTS"] = "No Results\n"
 }
 
 func Text(s string) string {
