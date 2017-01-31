@@ -1,8 +1,10 @@
 TODO:
 ----
++ Make Interactive mode into a REPL
++ REPL "/set flag" commands to change flag values
 + Add support for affix recognition (completely rewrite util/affix.go then use it)
 + Do something with .fwew/Infixes.tsv?
-+ Search words by Part of Speech
++ Updates (auto)
 + Add config file for settings
 * Somehow get people to use this instead of vrrtepcli
 * Add a Number converter
