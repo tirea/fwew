@@ -12,7 +12,6 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 //	Package main obviously contains all the stuff for the main program
-
 package main
 
 import (
@@ -25,27 +24,12 @@ import (
 	"errors"
 )
 
-// Global vars
-var DEBUG bool         // whether or not to produce debugging output
-var FIELD_ID int = 0   // dictionary.tsv line field 0 is Database ID
-var FIELD_LC int = 1   // dictionary.tsv line field 1 is Language Code
-var FIELD_NAV int = 2  // dictionary.tsv line field 2 is Na'vi word
-var FIELD_IPA int = 3  // dictionary.tsv line field 3 is IPA data
-var FIELD_INF int = 4  // dictionary.tsv line field 4 is Infix location data
-var FIELD_POS int = 5  // dictionary.tsv line field 5 is Part of Speech data
-var FIELD_DEF int = 6  // dictionary.tsv line field 6 is Local definition
-var NUM_FIELDS int = 7 // dictionary.tsv number of line fields is 7
-//TODO: infixes.tsv fields?
-var LANGUAGE string = util.Text("DEFAULT_LANGUAGE")
+// Global
+var debug bool
 
-/* Fwew function
- * Params: word string, the user's word input
- *         lc string, the language code
- *         reverse bool, whether or not the lookup will be local word instead of Na'vi
- * Returns: []string, {ID, LC, NAV, IPA, INF, POS, DEF}
- * Search data file for the user's Na'vi word and return a slice with pertinent data
- */
 func fwew(word string, lc string, reverse bool) [][]string {
+	var lcField int = 1   // dictionary.tsv line field 1 is Language Code
+	var defField int = 6  // dictionary.tsv line field 6 is Local definition
 	var results [][]string
 	var fields []string
 
@@ -67,12 +51,12 @@ func fwew(word string, lc string, reverse bool) [][]string {
 		fields = strings.Split(line, "\t")
 
 		if reverse {
-			if strings.Contains(fields[FIELD_DEF], word) && strings.Contains(fields[FIELD_LC], lc){
+			if strings.Contains(fields[defField], word) && strings.Contains(fields[lcField], lc){
 				results = append(results, fields)
 				break
 			}
 		} else {
-			if strings.Contains(line, "\t"+word+"\t") && strings.Contains(fields[FIELD_LC], lc) {
+			if strings.Contains(line, "\t"+word+"\t") && strings.Contains(fields[lcField], lc) {
 				results = append(results, fields)
 			}
 		}
@@ -81,41 +65,72 @@ func fwew(word string, lc string, reverse bool) [][]string {
 	return results
 }
 
-/* Main function
- * Params: none
- * Returns: void
- * Program flow: 
- *   Get user input (flags and word(s))
- *	 Search data file for word(s) to get data
- *   Format and print requested data
- *	 OR: Print version text or help text
- */
+func printResults(results [][]string, reverse bool, infixes bool, ipa bool) {
+	var navField int = 2  // dictionary.tsv line field 2 is Na'vi word
+	var ipaField int = 3  // dictionary.tsv line field 3 is IPA data
+	var infField int = 4  // dictionary.tsv line field 4 is Infix location data
+	var posField int = 5  // dictionary.tsv line field 5 is Part of Speech data
+	var defField int = 6  // dictionary.tsv line field 6 is Local definition
+	//TODO: infixes.tsv fields
+	
+	if len(results) != 0 {
+		
+		for _, r := range results {
+			nav := r[navField]
+			ipa := "[" + r[ipaField] + "]"
+			inf := r[infField]
+			pos := r[posField]
+			def := r[defField]
+		}
+
+		fmt.Print(pos + " ")
+				
+		if reverse {
+			fmt.Print(nav + " ")
+		} else {
+			fmt.Print(def + " ")
+		}
+		if ipa {
+			fmt.Print(ipa + " ")
+		}
+		if infixes {
+			fmt.Print(inf + " ")
+		}
+		if reverse {
+			fmt.Println("(" + def + ")\n")
+		} else {
+			fmt.Println("(" + nav + ")\n")
+		}
+		
+	} else {
+		fmt.Println(util.Text("NORESULTS"))
+	}
+}
+
 func main() {
-	// CLI FLAGS
+	var language string = util.Text("DEFAULT_LANGUAGE")
+
 	// Debug flag, for verbose probing output
-	PROG_DEBUG := flag.Bool("DEBUG", false, util.Text("USAGEDEBUG"))
+	debug = flag.Bool("DEBUG", false, util.Text("USAGEDEBUG"))
 	// Version flag, for displaying version data
-	flag_v := flag.Bool("v", false, util.Text("USAGEFLAG_V"))
+	showVersion := flag.Bool("v", false, util.Text("USAGEFLAG_V"))
 	// Language specifier flag
-	flag_l := flag.String("l", util.Text("DEFAULT_LANGUAGE"), util.Text("USAGEFLAG_L"))
+	language = flag.String("l", util.Text("DEFAULT_LANGUAGE"), util.Text("USAGEFLAG_L"))
 	// Infixes flag, opt to show infix location data
-	flag_i := flag.Bool("i", false, util.Text("USAGEFLAG_I"))
+	showInfixes := flag.Bool("i", false, util.Text("USAGEFLAG_I"))
 	// IPA flag, opt to show IPA data
-	flag_ipa := flag.Bool("ipa", false, util.Text("USAGEFLAG_IPA"))
-	// Part of Show part of speech flag
-//	flag_pos := flag.String("pos", "", util.Text("USAGEFLAG_POS")) //TODO
+	showIPA := flag.Bool("ipa", false, util.Text("USAGEFLAG_IPA"))
+	// Show part of speech flag
+	//flag_pos := flag.String("pos", "", util.Text("USAGEFLAG_POS")) //TODO
 	// Reverse direction flag, for local_lang -> Na'vi lookups
-	flag_r := flag.Bool("r", false, util.Text("USAGEFLAG_R"))
+	reverse := flag.Bool("r", false, util.Text("USAGEFLAG_R"))
 	flag.Parse()
-	//set the global debugging bool to the cli flag value
-	DEBUG = *PROG_DEBUG
 
 	var results [][]string
 	var input, nav, ipa, inf, pos, def string
 
-	if *flag_v {
+	if showVersion {
 		fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
-		
 		if flag.NArg() == 0 {
 			os.Exit(0)
 		}
@@ -123,41 +138,9 @@ func main() {
 
 	// ARGS MODE
 	if flag.NArg() > 0 {
-
 		for _, arg := range flag.Args() {
-			results = fwew(arg, *flag_l, *flag_r)
-
-			if len(results) != 0 {
-
-				for _, r := range results {
-					nav = r[FIELD_NAV]
-					ipa = "[" + r[FIELD_IPA] + "]"
-					inf = r[FIELD_INF]
-					pos = r[FIELD_POS]
-					def = r[FIELD_DEF]
-				}
-
-				fmt.Print(pos + " ")
-				if *flag_r {
-					fmt.Print(nav + " ")
-				} else {
-					fmt.Print(def + " ")
-				}
-				if *flag_ipa {
-					fmt.Print(ipa + " ")
-				}
-				if *flag_i {
-					fmt.Print(inf + " ")
-				}
-				if *flag_r {
-					fmt.Println("(" + def + ")\n")
-				} else {
-					fmt.Println("(" + nav + ")\n")
-				}
-
-			} else {
-				fmt.Println(util.Text("NORESULTS"))
-			}
+			results = fwew(arg, language, reverse)
+			printResults(results, reverse, showInfixes, showIPA)
 		}
 
 	// INTERACTIVE MODE
@@ -168,39 +151,8 @@ func main() {
 		input, _ = reader.ReadString('\n')
 		input = strings.Trim(input, "\n")
 
-		results = fwew(input, *flag_l, *flag_r)
-
-		if len(results) != 0 {
-
-			for _, r := range results {
-				nav = r[FIELD_NAV]
-				ipa = "[" + r[FIELD_IPA] + "]"
-				inf = r[FIELD_INF]
-				pos = r[FIELD_POS]
-				def = r[FIELD_DEF]
-			}
-
-			fmt.Print(pos + " ")
-			if *flag_r {
-				fmt.Print(nav + " ")
-			} else {
-				fmt.Print(def + " ")
-			}
-			if *flag_ipa {
-				fmt.Print(ipa + " ")
-			}
-			if *flag_i {
-				fmt.Print(inf + " ")
-			}
-			if *flag_r {
-				fmt.Println("(" + def + ")\n")
-			} else {
-				fmt.Println("(" + nav + ")\n")
-			}
-
-		} else {
-			fmt.Println(util.Text("NORESULTS"))
-		}
+		results = fwew(input, language, reverse)
+		printResults(results, reverse, showInfixes, showIPA)
 	}
 
 }
