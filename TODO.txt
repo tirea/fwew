@@ -8,4 +8,3 @@ TODO:
 + Add config file for settings
 * Somehow get people to use this instead of vrrtepcli
 * Add a Number converter
-* Add a Grammar Parser
