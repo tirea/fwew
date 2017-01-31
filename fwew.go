@@ -78,12 +78,14 @@ func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bo
 
 	if len(results) != 0 {
 
-		for _, r := range results {
+		for i, r := range results {
 			nav = r[navField]
 			ipa = "[" + r[ipaField] + "]"
 			inf = r[infField]
 			pos = r[posField]
 			def = r[defField]
+
+			fmt.Print("[",i+1,"] ")
 
 			fmt.Print(pos + " ")
 			if reverse {
