@@ -16,20 +16,20 @@ package main
 
 import (
 	"bufio"
+	"errors"
 	"flag"
 	"fmt"
 	"fwew/util"
 	"os"
 	"strings"
-	"errors"
 )
 
 // Global
-var debug bool
+var debug *bool
 
 func fwew(word string, lc string, reverse bool) [][]string {
-	var lcField int = 1   // dictionary.tsv line field 1 is Language Code
-	var defField int = 6  // dictionary.tsv line field 6 is Local definition
+	var lcField int = 1  // dictionary.tsv line field 1 is Language Code
+	var defField int = 6 // dictionary.tsv line field 6 is Local definition
 	var results [][]string
 	var fields []string
 
@@ -38,7 +38,8 @@ func fwew(word string, lc string, reverse bool) [][]string {
 
 	// Prepare file for searching
 	dictData, err := os.Open(util.Text("DICTIONARY"))
-	if err != nil { 
+	defer dictData.Close()
+	if err != nil {
 		fmt.Println(errors.New(util.Text("ERR_MISSING_DATAFILE")))
 		os.Exit(1)
 	}
@@ -51,13 +52,14 @@ func fwew(word string, lc string, reverse bool) [][]string {
 		fields = strings.Split(line, "\t")
 
 		if reverse {
-			if strings.Contains(fields[defField], word) && strings.Contains(fields[lcField], lc){
+			if strings.Contains(fields[defField], word) && strings.Contains(fields[lcField], lc) {
 				results = append(results, fields)
-				break
+				if *debug { fmt.Println(results) }
 			}
 		} else {
 			if strings.Contains(line, "\t"+word+"\t") && strings.Contains(fields[lcField], lc) {
 				results = append(results, fields)
+				break
 			}
 		}
 	}
@@ -65,71 +67,71 @@ func fwew(word string, lc string, reverse bool) [][]string {
 	return results
 }
 
-func printResults(results [][]string, reverse bool, infixes bool, ipa bool) {
-	var navField int = 2  // dictionary.tsv line field 2 is Na'vi word
-	var ipaField int = 3  // dictionary.tsv line field 3 is IPA data
-	var infField int = 4  // dictionary.tsv line field 4 is Infix location data
-	var posField int = 5  // dictionary.tsv line field 5 is Part of Speech data
-	var defField int = 6  // dictionary.tsv line field 6 is Local definition
+func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bool) {
+	var navField int = 2 // dictionary.tsv line field 2 is Na'vi word
+	var ipaField int = 3 // dictionary.tsv line field 3 is IPA data
+	var infField int = 4 // dictionary.tsv line field 4 is Infix location data
+	var posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
+	var defField int = 6 // dictionary.tsv line field 6 is Local definition
 	//TODO: infixes.tsv fields
-	
+	var nav, ipa, inf, pos, def string
+
 	if len(results) != 0 {
-		
+
 		for _, r := range results {
-			nav := r[navField]
-			ipa := "[" + r[ipaField] + "]"
-			inf := r[infField]
-			pos := r[posField]
-			def := r[defField]
+			nav = r[navField]
+			ipa = "[" + r[ipaField] + "]"
+			inf = r[infField]
+			pos = r[posField]
+			def = r[defField]
+
+			fmt.Print(pos + " ")
+			if reverse {
+				fmt.Print(nav + " ")
+			} else {
+				fmt.Print(def + " ")
+			}
+			if showIPA {
+				fmt.Print(ipa + " ")
+			}
+			if showInfixes {
+				fmt.Print(inf + " ")
+			}
+			if reverse {
+				fmt.Println("(" + def + ")\n")
+			} else {
+				fmt.Println("(" + nav + ")\n")
+			}
 		}
 
-		fmt.Print(pos + " ")
-				
-		if reverse {
-			fmt.Print(nav + " ")
-		} else {
-			fmt.Print(def + " ")
-		}
-		if ipa {
-			fmt.Print(ipa + " ")
-		}
-		if infixes {
-			fmt.Print(inf + " ")
-		}
-		if reverse {
-			fmt.Println("(" + def + ")\n")
-		} else {
-			fmt.Println("(" + nav + ")\n")
-		}
-		
 	} else {
 		fmt.Println(util.Text("NORESULTS"))
 	}
 }
 
 func main() {
-	var language string = util.Text("DEFAULT_LANGUAGE")
-
+	var language *string
+	var showVersion, showInfixes, showIPA, reverse *bool
 	// Debug flag, for verbose probing output
 	debug = flag.Bool("DEBUG", false, util.Text("USAGEDEBUG"))
 	// Version flag, for displaying version data
-	showVersion := flag.Bool("v", false, util.Text("USAGEFLAG_V"))
+	showVersion = flag.Bool("v", false, util.Text("USAGEFLAG_V"))
 	// Language specifier flag
 	language = flag.String("l", util.Text("DEFAULT_LANGUAGE"), util.Text("USAGEFLAG_L"))
 	// Infixes flag, opt to show infix location data
-	showInfixes := flag.Bool("i", false, util.Text("USAGEFLAG_I"))
+	showInfixes = flag.Bool("i", false, util.Text("USAGEFLAG_I"))
 	// IPA flag, opt to show IPA data
-	showIPA := flag.Bool("ipa", false, util.Text("USAGEFLAG_IPA"))
+	showIPA = flag.Bool("ipa", false, util.Text("USAGEFLAG_IPA"))
 	// Show part of speech flag
 	//flag_pos := flag.String("pos", "", util.Text("USAGEFLAG_POS")) //TODO
 	// Reverse direction flag, for local_lang -> Na'vi lookups
-	reverse := flag.Bool("r", false, util.Text("USAGEFLAG_R"))
+	reverse = flag.Bool("r", false, util.Text("USAGEFLAG_R"))
 	flag.Parse()
 
 	var results [][]string
-	var input, nav, ipa, inf, pos, def string
+	var input string
 
-	if showVersion {
+	if *showVersion {
 		fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
 		if flag.NArg() == 0 {
 			os.Exit(0)
@@ -139,11 +141,11 @@ func main() {
 	// ARGS MODE
 	if flag.NArg() > 0 {
 		for _, arg := range flag.Args() {
-			results = fwew(arg, language, reverse)
-			printResults(results, reverse, showInfixes, showIPA)
+			results = fwew(arg, *language, *reverse)
+			printResults(results, *reverse, *showInfixes, *showIPA)
 		}
 
-	// INTERACTIVE MODE
+		// INTERACTIVE MODE
 	} else {
 		fmt.Println(util.Text("HEADTEXT"))
 		reader := bufio.NewReader(os.Stdin)
@@ -151,8 +153,12 @@ func main() {
 		input, _ = reader.ReadString('\n')
 		input = strings.Trim(input, "\n")
 
-		results = fwew(input, language, reverse)
-		printResults(results, reverse, showInfixes, showIPA)
+		if input != "" {
+			results = fwew(input, *language, *reverse)
+			printResults(results, *reverse, *showInfixes, *showIPA)
+		} else {
+			fmt.Println()
+		}
 	}
 
 }
