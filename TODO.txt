@@ -1,9 +1,9 @@
 TODO:
 ----
++ set[r,l=lc,i,ipa] to change flag values
++ unset[r,i,ipa] to revert bool flags
 + Add support for affix recognition (completely rewrite util/affix.go then use it)
 + Do something with .fwew/Infixes.tsv?
-+ Search words by Part of Speech
-+ Add config file for settings
++ Updates (auto)
 * Somehow get people to use this instead of vrrtepcli
 * Add a Number converter
-* Add a Grammar Parser
