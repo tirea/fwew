@@ -2,6 +2,7 @@ TODO:
 ----
 + set[r,l=lc,i,ipa] to change flag values
 + unset[r,i,ipa] to revert bool flags
++ rewrite README.md
 + Add support for affix recognition (completely rewrite util/affix.go then use it)
 + Do something with .fwew/Infixes.tsv?
 + Updates (auto)
