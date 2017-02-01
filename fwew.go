@@ -28,23 +28,24 @@ import (
 
 // Global
 var debug *bool
+
 type Config struct {
-	Language string `json:"language"`
+	Language  string `json:"language"`
 	PosFilter string `json: posFilter"`
 }
 
 func stripChars(str, chr string) string {
-    return strings.Map(func(r rune) rune {
-        if strings.IndexRune(chr, r) < 0 {
-            return r
-        }
-        return -1
-    }, str)
+	return strings.Map(func(r rune) rune {
+		if strings.IndexRune(chr, r) < 0 {
+			return r
+		}
+		return -1
+	}, str)
 }
 
 func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 	const (
-		lcField int = 1  // dictionary.tsv line field 1 is Language Code
+		lcField  int = 1 // dictionary.tsv line field 1 is Language Code
 		posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
 		defField int = 6 // dictionary.tsv line field 6 is Local definition
 	)
@@ -72,7 +73,7 @@ func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 
 		if reverse {
 			if posFilter == util.Text("defaultFilter") {
-				if strings.Contains(fields[lcField], lc){
+				if strings.Contains(fields[lcField], lc) {
 					defString = stripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
 						if w == word {
@@ -88,7 +89,7 @@ func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 							results = append(results, fields)
 						}
 					}
-				} 
+				}
 			}
 		} else {
 			if strings.Contains(fields[lcField], lc) && strings.Contains(line, "\t"+word+"\t") {
@@ -120,7 +121,7 @@ func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bo
 			pos = r[posField]
 			def = r[defField]
 
-			fmt.Print("[",i+1,"] ")
+			fmt.Print("[", i+1, "] ")
 
 			fmt.Print(pos + " ")
 			if reverse {
@@ -158,7 +159,7 @@ func LoadConfig() {
 	confile, e := ioutil.ReadFile(util.Text("config"))
 	if e != nil {
 		fmt.Printf("File error: %v\n", e)
-        os.Exit(1)
+		os.Exit(1)
 	}
 
 	var config Config
@@ -205,7 +206,7 @@ func main() {
 			printResults(results, *reverse, *showInfixes, *showIPA)
 		}
 
-	// INTERACTIVE MODE
+		// INTERACTIVE MODE
 	} else {
 		fmt.Println(util.Text("header"))
 		//TODO: set/unset flags
