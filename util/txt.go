@@ -20,8 +20,6 @@ import (
 	"path/filepath"
 )
 
-
-
 var usr, err = user.Current()
 var texts = map[string]string{}
 
