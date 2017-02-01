@@ -25,7 +25,7 @@ var texts = map[string]string{}
 
 func init() {
 	texts["name"] = "Fwew"
-	texts["version"] = "1.2-BETA (31 JAN 2017)"
+	texts["version"] = "1.3-BETA (01 FEB 2017)"
 	texts["dictVersion"] = "Na'vi Dictionary 13.31 (07 JAN 2017)"
 	texts["author"] = "Tirea Aean"
 	texts["baseLang"] = "Na'vi"
@@ -37,7 +37,7 @@ func init() {
 	texts["none"] = "No Results\n"
 	texts["usageDebug"] = "Show extremely verbose probing"
 	texts["usageV"] = "Show program & dictionary version numbers"
-	texts["usageL"] = "Use specified language \n\tValid values: " + texts["LANGUAGES"]
+	texts["usageL"] = "Use specified language \n\tValid values: " + texts["languages"]
 	texts["usageI"] = "Display infix location data"
 	texts["usageIPA"] = "Display IPA data"
 	texts["usageP"] = "Search for word(s) with specified part of speech"

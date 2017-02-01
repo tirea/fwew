@@ -147,12 +147,42 @@ func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bo
 	}
 }
 
-func setFlag(f *bool) {
-	*f = true
+func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
+	const start int = 4
+	flagList := strings.Split(arg[start:len(arg)-1], ",")
+	for _, f := range flagList {
+		switch {
+		case f == "debug":
+			*debug = true
+		case f == "r":
+			*r = true
+		case f == "i":
+			*i = true
+		case f == "ipa":
+			*ipa = true
+		case strings.HasPrefix(f, "l="):
+			*l = f[2:]
+		case strings.HasPrefix(f, "p="):
+			*p = f[2:]
+		}
+	}
 }
 
-func unsetFlag(f *bool) {
-	*f = false
+func unsetFlags(arg string, debug, r, i, ipa *bool) {
+	const start int = 6
+	flagList := strings.Split(arg[6:len(arg)-1], ",")
+	for _, f := range flagList {
+		switch f {
+		case "debug":
+			*debug = false
+		case "r":
+			*r = false
+		case "i":
+			*i = false
+		case "ipa":
+			*ipa = false
+		}
+	}
 }
 
 func LoadConfig() {
@@ -180,6 +210,8 @@ func main() {
 	debug = flag.Bool("debug", false, util.Text("usageDebug"))
 	// Version flag, for displaying version data
 	showVersion = flag.Bool("v", false, util.Text("usageV"))
+	// Reverse direction flag, for local_lang -> Na'vi lookups
+	reverse = flag.Bool("r", false, util.Text("usageR"))
 	// Language specifier flag
 	language = flag.String("l", util.Text("language"), util.Text("usageL"))
 	// Infixes flag, opt to show infix location data
@@ -188,8 +220,6 @@ func main() {
 	showIPA = flag.Bool("ipa", false, util.Text("usageIPA"))
 	// Show part of speech flag
 	posFilter = flag.String("p", util.Text("defaultFilter"), util.Text("usageP"))
-	// Reverse direction flag, for local_lang -> Na'vi lookups
-	reverse = flag.Bool("r", false, util.Text("usageR"))
 	flag.Parse()
 
 	if *showVersion {
@@ -202,14 +232,20 @@ func main() {
 	// ARGS MODE
 	if flag.NArg() > 0 {
 		for _, arg := range flag.Args() {
-			results = fwew(arg, *language, *posFilter, *reverse)
-			printResults(results, *reverse, *showInfixes, *showIPA)
+			if strings.HasPrefix(arg, "set[") {
+				setFlags(arg, debug, reverse, showInfixes, showIPA, language, posFilter)
+			} else if strings.HasPrefix(arg, "unset[") {
+				unsetFlags(arg, debug, reverse, showInfixes, showIPA)
+			} else {
+				results = fwew(arg, *language, *posFilter, *reverse)
+				printResults(results, *reverse, *showInfixes, *showIPA)
+			}
 		}
 
 		// INTERACTIVE MODE
 	} else {
 		fmt.Println(util.Text("header"))
-		//TODO: set/unset flags
+
 		for {
 			reader := bufio.NewReader(os.Stdin)
 			fmt.Print("Fwew:> ")
@@ -217,8 +253,14 @@ func main() {
 			input = strings.Trim(input, "\n")
 
 			if input != "" {
-				results = fwew(input, *language, *posFilter, *reverse)
-				printResults(results, *reverse, *showInfixes, *showIPA)
+				if strings.HasPrefix(input, "set[") {
+					setFlags(input, debug, reverse, showInfixes, showIPA, language, posFilter)
+				} else if strings.HasPrefix(input, "unset[") {
+					unsetFlags(input, debug, reverse, showInfixes, showIPA)
+				} else {
+					results = fwew(input, *language, *posFilter, *reverse)
+					printResults(results, *reverse, *showInfixes, *showIPA)
+				}
 			} else {
 				fmt.Println()
 			}
