@@ -39,7 +39,7 @@ func init() {
 	texts["USAGEFLAG_L"] = "Use specified language \n\tValid values: " + texts["LANGUAGES"]
 	texts["USAGEFLAG_I"] = "Display infix location data"
 	texts["USAGEFLAG_IPA"] = "Display IPA data"
-	//	texts["USAGEFLAG_POS"] = "Search for word(s) with specified part of speech" //TODO
+	texts["USAGEFLAG_P"] = "Search for word(s) with specified part of speech"
 	texts["USAGEFLAG_R"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
 	texts["HOMEDIR"], _ = filepath.Abs(usr.HomeDir)
 	texts["DATADIR"] = filepath.Join(texts["HOMEDIR"], ".fwew")

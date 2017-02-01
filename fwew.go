@@ -27,11 +27,22 @@ import (
 // Global
 var debug *bool
 
-func fwew(word string, lc string, reverse bool) [][]string {
+func stripChars(str, chr string) string {
+    return strings.Map(func(r rune) rune {
+        if strings.IndexRune(chr, r) < 0 {
+            return r
+        }
+        return -1
+    }, str)
+}
+
+func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 	var lcField int = 1  // dictionary.tsv line field 1 is Language Code
+	var posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
 	var defField int = 6 // dictionary.tsv line field 6 is Local definition
 	var results [][]string
 	var fields []string
+	var defString string
 
 	// Searching for Local word, just search for it...
 	word = strings.ToLower(word)
@@ -52,12 +63,27 @@ func fwew(word string, lc string, reverse bool) [][]string {
 		fields = strings.Split(line, "\t")
 
 		if reverse {
-			if strings.Contains(fields[defField], word) && strings.Contains(fields[lcField], lc) {
-				results = append(results, fields)
-				if *debug { fmt.Println(results) }
+			if posFilter == "all" {
+				if strings.Contains(fields[lcField], lc){
+					defString = stripChars(fields[defField], ",;")
+					for _, w := range strings.Split(defString, " ") {
+						if w == word {
+							results = append(results, fields)
+						}
+					}
+				}
+			} else {
+				if strings.Contains(fields[lcField], lc) && strings.Contains(fields[posField], posFilter) {
+					defString = stripChars(fields[defField], ",;")
+					for _, w := range strings.Split(defString, " ") {
+						if w == word {
+							results = append(results, fields)
+						}
+					}
+				} 
 			}
 		} else {
-			if strings.Contains(line, "\t"+word+"\t") && strings.Contains(fields[lcField], lc) {
+			if strings.Contains(fields[lcField], lc) && strings.Contains(line, "\t"+word+"\t") {
 				results = append(results, fields)
 				break
 			}
@@ -107,12 +133,12 @@ func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bo
 		}
 
 	} else {
-		fmt.Println(util.Text("NORESULTS"))
+		fmt.Println(util.Text("NONE"))
 	}
 }
 
 func main() {
-	var language *string
+	var language, posFilter *string
 	var showVersion, showInfixes, showIPA, reverse *bool
 	// Debug flag, for verbose probing output
 	debug = flag.Bool("DEBUG", false, util.Text("USAGEDEBUG"))
@@ -125,7 +151,7 @@ func main() {
 	// IPA flag, opt to show IPA data
 	showIPA = flag.Bool("ipa", false, util.Text("USAGEFLAG_IPA"))
 	// Show part of speech flag
-	//flag_pos := flag.String("pos", "", util.Text("USAGEFLAG_POS")) //TODO
+	posFilter = flag.String("p", "all", util.Text("USAGEFLAG_P")) //TODO
 	// Reverse direction flag, for local_lang -> Na'vi lookups
 	reverse = flag.Bool("r", false, util.Text("USAGEFLAG_R"))
 	flag.Parse()
@@ -143,7 +169,7 @@ func main() {
 	// ARGS MODE
 	if flag.NArg() > 0 {
 		for _, arg := range flag.Args() {
-			results = fwew(arg, *language, *reverse)
+			results = fwew(arg, *language, *posFilter, *reverse)
 			printResults(results, *reverse, *showInfixes, *showIPA)
 		}
 
@@ -156,7 +182,7 @@ func main() {
 		input = strings.Trim(input, "\n")
 
 		if input != "" {
-			results = fwew(input, *language, *reverse)
+			results = fwew(input, *language, *posFilter, *reverse)
 			printResults(results, *reverse, *showInfixes, *showIPA)
 		} else {
 			fmt.Println()
