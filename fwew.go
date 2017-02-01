@@ -16,16 +16,22 @@ package main
 
 import (
 	"bufio"
+	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
 	"fwew/util"
+	"io/ioutil"
 	"os"
 	"strings"
 )
 
 // Global
 var debug *bool
+type Config struct {
+	Language string `json:"language"`
+	PosFilter string `json: posFilter"`
+}
 
 func stripChars(str, chr string) string {
     return strings.Map(func(r rune) rune {
@@ -37,9 +43,11 @@ func stripChars(str, chr string) string {
 }
 
 func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
-	var lcField int = 1  // dictionary.tsv line field 1 is Language Code
-	var posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
-	var defField int = 6 // dictionary.tsv line field 6 is Local definition
+	const (
+		lcField int = 1  // dictionary.tsv line field 1 is Language Code
+		posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
+		defField int = 6 // dictionary.tsv line field 6 is Local definition
+	)
 	var results [][]string
 	var fields []string
 	var defString string
@@ -48,10 +56,10 @@ func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 	word = strings.ToLower(word)
 
 	// Prepare file for searching
-	dictData, err := os.Open(util.Text("DICTIONARY"))
+	dictData, err := os.Open(util.Text("dictionary"))
 	defer dictData.Close()
 	if err != nil {
-		fmt.Println(errors.New(util.Text("ERR_MISSING_DATAFILE")))
+		fmt.Println(errors.New(util.Text("noDataError")))
 		os.Exit(1)
 	}
 	scanner := bufio.NewScanner(dictData)
@@ -63,7 +71,7 @@ func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 		fields = strings.Split(line, "\t")
 
 		if reverse {
-			if posFilter == "all" {
+			if posFilter == util.Text("defaultFilter") {
 				if strings.Contains(fields[lcField], lc){
 					defString = stripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
@@ -94,12 +102,13 @@ func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 }
 
 func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bool) {
-	var navField int = 2 // dictionary.tsv line field 2 is Na'vi word
-	var ipaField int = 3 // dictionary.tsv line field 3 is IPA data
-	var infField int = 4 // dictionary.tsv line field 4 is Infix location data
-	var posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
-	var defField int = 6 // dictionary.tsv line field 6 is Local definition
-	//TODO: infixes.tsv fields
+	const (
+		navField int = 2 // dictionary.tsv line field 2 is Na'vi word
+		ipaField int = 3 // dictionary.tsv line field 3 is IPA data
+		infField int = 4 // dictionary.tsv line field 4 is Infix location data
+		posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
+		defField int = 6 // dictionary.tsv line field 6 is Local definition
+	)
 	var nav, ipa, inf, pos, def string
 
 	if len(results) != 0 {
@@ -133,31 +142,54 @@ func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bo
 		}
 
 	} else {
-		fmt.Println(util.Text("NONE"))
+		fmt.Println(util.Text("none"))
 	}
 }
 
-func main() {
-	var language, posFilter *string
-	var showVersion, showInfixes, showIPA, reverse *bool
-	// Debug flag, for verbose probing output
-	debug = flag.Bool("DEBUG", false, util.Text("USAGEDEBUG"))
-	// Version flag, for displaying version data
-	showVersion = flag.Bool("v", false, util.Text("USAGEFLAG_V"))
-	// Language specifier flag
-	language = flag.String("l", util.Text("DEFAULT_LANGUAGE"), util.Text("USAGEFLAG_L"))
-	// Infixes flag, opt to show infix location data
-	showInfixes = flag.Bool("i", false, util.Text("USAGEFLAG_I"))
-	// IPA flag, opt to show IPA data
-	showIPA = flag.Bool("ipa", false, util.Text("USAGEFLAG_IPA"))
-	// Show part of speech flag
-	posFilter = flag.String("p", "all", util.Text("USAGEFLAG_P")) //TODO
-	// Reverse direction flag, for local_lang -> Na'vi lookups
-	reverse = flag.Bool("r", false, util.Text("USAGEFLAG_R"))
-	flag.Parse()
+func setFlag(f *bool) {
+	*f = true
+}
 
+func unsetFlag(f *bool) {
+	*f = false
+}
+
+func LoadConfig() {
+	confile, e := ioutil.ReadFile(util.Text("config"))
+	if e != nil {
+		fmt.Printf("File error: %v\n", e)
+        os.Exit(1)
+	}
+
+	var config Config
+	json.Unmarshal(confile, &config)
+	util.SetText("language", config.Language)
+	util.SetText("defaultFilter", config.PosFilter)
+}
+
+func main() {
 	var results [][]string
 	var input string
+	var language, posFilter *string
+	var showVersion, showInfixes, showIPA, reverse *bool
+
+	LoadConfig()
+
+	// Debug flag, for verbose probing output
+	debug = flag.Bool("debug", false, util.Text("usageDebug"))
+	// Version flag, for displaying version data
+	showVersion = flag.Bool("v", false, util.Text("usage_v"))
+	// Language specifier flag
+	language = flag.String("l", util.Text("language"), util.Text("usageL"))
+	// Infixes flag, opt to show infix location data
+	showInfixes = flag.Bool("i", false, util.Text("usageI"))
+	// IPA flag, opt to show IPA data
+	showIPA = flag.Bool("ipa", false, util.Text("usageIPA"))
+	// Show part of speech flag
+	posFilter = flag.String("p", util.Text("defaultFilter"), util.Text("usageP"))
+	// Reverse direction flag, for local_lang -> Na'vi lookups
+	reverse = flag.Bool("r", false, util.Text("usageR"))
+	flag.Parse()
 
 	if *showVersion {
 		fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
@@ -173,19 +205,22 @@ func main() {
 			printResults(results, *reverse, *showInfixes, *showIPA)
 		}
 
-		// INTERACTIVE MODE
+	// INTERACTIVE MODE
 	} else {
-		fmt.Println(util.Text("HEADTEXT"))
-		reader := bufio.NewReader(os.Stdin)
-		fmt.Print("Fwew:> ")
-		input, _ = reader.ReadString('\n')
-		input = strings.Trim(input, "\n")
+		fmt.Println(util.Text("header"))
+		//TODO: set/unset flags
+		for {
+			reader := bufio.NewReader(os.Stdin)
+			fmt.Print("Fwew:> ")
+			input, _ = reader.ReadString('\n')
+			input = strings.Trim(input, "\n")
 
-		if input != "" {
-			results = fwew(input, *language, *posFilter, *reverse)
-			printResults(results, *reverse, *showInfixes, *showIPA)
-		} else {
-			fmt.Println()
+			if input != "" {
+				results = fwew(input, *language, *posFilter, *reverse)
+				printResults(results, *reverse, *showInfixes, *showIPA)
+			} else {
+				fmt.Println()
+			}
 		}
 	}
 
