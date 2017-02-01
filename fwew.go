@@ -178,7 +178,7 @@ func main() {
 	// Debug flag, for verbose probing output
 	debug = flag.Bool("debug", false, util.Text("usageDebug"))
 	// Version flag, for displaying version data
-	showVersion = flag.Bool("v", false, util.Text("usage_v"))
+	showVersion = flag.Bool("v", false, util.Text("usageV"))
 	// Language specifier flag
 	language = flag.String("l", util.Text("language"), util.Text("usageL"))
 	// Infixes flag, opt to show infix location data
@@ -192,7 +192,7 @@ func main() {
 	flag.Parse()
 
 	if *showVersion {
-		fmt.Println(util.Text("NAME") + " " + util.Text("VERSION") + "\n" + util.Text("DICTVERSION") + "\n")
+		fmt.Println(util.Text("name") + " " + util.Text("version") + "\n" + util.Text("dictVersion") + "\n")
 		if flag.NArg() == 0 {
 			os.Exit(0)
 		}
