@@ -27,11 +27,11 @@ var texts = map[string]string{}
 
 func init() {
 	texts["name"] = "Fwew"
-	texts["version"] = "1.1.1-BETA (30 JAN 2017)"
+	texts["version"] = "1.2-BETA (31 JAN 2017)"
 	texts["dictVersion"] = "Na'vi Dictionary 13.31 (07 JAN 2017)"
 	texts["author"] = "Tirea Aean"
 	texts["baseLang"] = "Na'vi"
-	texts["header"] = texts["NAME"] + " " + texts["version"] + " by " + texts["author"] + "\n" +
+	texts["header"] = texts["name"] + " " + texts["version"] + " by " + texts["author"] + "\n" +
 		"Crossplatform " + texts["baseLang"] + " Dictionary Search" + "\n" +
 		"fwew -h for usage, see README\n"
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
