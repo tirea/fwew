@@ -13,7 +13,6 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 // This util library handles all program strings
-
 package util
 
 import (
@@ -21,45 +20,42 @@ import (
 	"path/filepath"
 )
 
+
+
 var usr, err = user.Current()
 var texts = map[string]string{}
 
 func init() {
-	texts["NAME"] = "Fwew"
-	texts["VERSION"] = "1.1.1-BETA (30 JAN 2017)"
-	texts["DICTVERSION"] = "Na'vi Dictionary 13.31 (07 JAN 2017)"
-	texts["AUTHOR"] = "Tirea Aean"
-	texts["LANGUAGES"] = "de, eng, est, hu, nl, pl, ru, sv"
-	texts["DEFAULT_LANGUAGE"] = "eng"
-	texts["LANGUAGE"] = texts["DEFAULT_LANGUAGE"]
-	texts["BASELANG"] = "Na'vi"
-	texts["NONE"] = "No Results\n"
-	texts["USAGEDEBUG"] = "Show extremely verbose probing"
-	texts["USAGEFLAG_V"] = "Show program & dictionary version numbers"
-	texts["USAGEFLAG_L"] = "Use specified language \n\tValid values: " + texts["LANGUAGES"]
-	texts["USAGEFLAG_I"] = "Display infix location data"
-	texts["USAGEFLAG_IPA"] = "Display IPA data"
-	texts["USAGEFLAG_P"] = "Search for word(s) with specified part of speech"
-	texts["USAGEFLAG_R"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
-	texts["HOMEDIR"], _ = filepath.Abs(usr.HomeDir)
-	texts["DATADIR"] = filepath.Join(texts["HOMEDIR"], ".fwew")
-	texts["METAWORDS"] = filepath.Join(texts["DATADIR"], "metaWords.txt")
-	texts["LOCALIZED"] = filepath.Join(texts["DATADIR"], "localizedWords.txt")
-	texts["DICTIONARY"] = filepath.Join(texts["DATADIR"], "dictionary.tsv")
-	texts["ERR_MISSING_DATAFILE"] = "Dictionary data file missing or not installed.\nPlease Install Fwew (run ./install.sh)"
-	texts["HEADTEXT"] = texts["NAME"] + " " + texts["TESTVERSION"] + " by " + texts["AUTHOR"] + "\n" +
-		"Crossplatform " + texts["BASELANG"] + " Dictionary Search" + "\n" +
+	texts["name"] = "Fwew"
+	texts["version"] = "1.1.1-BETA (30 JAN 2017)"
+	texts["dictVersion"] = "Na'vi Dictionary 13.31 (07 JAN 2017)"
+	texts["author"] = "Tirea Aean"
+	texts["baseLang"] = "Na'vi"
+	texts["header"] = texts["NAME"] + " " + texts["version"] + " by " + texts["author"] + "\n" +
+		"Crossplatform " + texts["baseLang"] + " Dictionary Search" + "\n" +
 		"fwew -h for usage, see README\n"
-	texts["INFIX_0"] = "(äp|eyk|äpeyk)?"
-	texts["INFIX_1"] = "(am|ìm|ìyev|ay|ìsy|asy|ol|er|iv|arm|ìrm|ìry|ary|alm|ìlm|ìly|aly|imv|iyev|ìy|irv|ilv|us|awn)?"
-	texts["INFIX_2"] = "(ei|äng|eng|ats|uy)?"
+	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
+	texts["language"] = "eng"
+	texts["none"] = "No Results\n"
+	texts["usageDebug"] = "Show extremely verbose probing"
+	texts["usageV"] = "Show program & dictionary version numbers"
+	texts["usageL"] = "Use specified language \n\tValid values: " + texts["LANGUAGES"]
+	texts["usageI"] = "Display infix location data"
+	texts["usageIPA"] = "Display IPA data"
+	texts["usageP"] = "Search for word(s) with specified part of speech"
+	texts["usageR"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
+	texts["defaultFilter"] = "all"
+	texts["homeDir"], _ = filepath.Abs(usr.HomeDir)
+	texts["dataDir"] = filepath.Join(texts["homeDir"], ".fwew")
+	texts["config"] = filepath.Join(texts["dataDir"], "config.json")
+	texts["dictionary"] = filepath.Join(texts["dataDir"], "dictionary.tsv")
+	texts["noDataError"] = "Dictionary data file missing or not installed.\nPlease Install Fwew (run ./install.sh)"
 }
 
 func Text(s string) string {
 	return texts[s]
 }
 
-// TODO: This is for later when config files become involved
 func SetText(i, s string) {
 	texts[i] = s
 }
