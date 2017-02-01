@@ -1,7 +1,8 @@
 TODO:
 ----
-+ Completely rewrite README.md
++ *Edit tsv generator script to fix infixes.tsv
 + Completely rewrite util/affix.go (use infixes.tsv?)
 + Updates (auto)
++ Completely rewrite README.md
 * Somehow get people to use this instead of vrrtepcli
 * Add a Number converter
