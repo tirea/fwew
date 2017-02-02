@@ -1,4 +1,5 @@
 # TODO
+## Always remember to update version string
 * Restructure infixes.tsv to have affixes listed longest to shortest
 * Completely rewrite util/affix.go (use infixes.tsv)
 * Updates (auto)
