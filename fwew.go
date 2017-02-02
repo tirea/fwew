@@ -166,6 +166,7 @@ func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
 			*p = f[2:]
 		}
 	}
+	fmt.Println("<!", flagList, "set >\n")
 }
 
 func unsetFlags(arg string, debug, r, i, ipa *bool) {
@@ -183,6 +184,7 @@ func unsetFlags(arg string, debug, r, i, ipa *bool) {
 			*ipa = false
 		}
 	}
+	fmt.Println("<!", flagList, "unset >\n")
 }
 
 func LoadConfig() {
