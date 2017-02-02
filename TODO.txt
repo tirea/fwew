@@ -1,7 +1,5 @@
 TODO:
 ----
-+ Ensure EOF is handled in the REPL to os.Exit(0) so cli file redirect input works
-+ *Edit tsv generator script to fix infixes.tsv
 + Completely rewrite util/affix.go (use infixes.tsv?)
 + Updates (auto)
 + Completely rewrite README.md
