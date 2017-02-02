@@ -200,7 +200,6 @@ func LoadConfig() {
 
 func main() {
 	var results [][]string
-	var input string
 	var language, posFilter *string
 	var showVersion, showInfixes, showIPA, reverse *bool
 
@@ -247,10 +246,17 @@ func main() {
 		fmt.Println(util.Text("header"))
 
 		for {
-			reader := bufio.NewReader(os.Stdin)
 			fmt.Print("Fwew:> ")
-			input, _ = reader.ReadString('\n')
+
+			reader := bufio.NewReader(os.Stdin)
+			input, err := reader.ReadString('\n')
 			input = strings.Trim(input, "\n")
+
+			// catch EOF error
+			if err != nil {
+				fmt.Println(err)
+				os.Exit(0)
+			}
 
 			if input != "" {
 				if strings.HasPrefix(input, "set[") {
