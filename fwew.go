@@ -31,7 +31,7 @@ var debug *bool
 
 type Config struct {
 	Language  string `json:"language"`
-	PosFilter string `json: posFilter"`
+	PosFilter string `json:"posFilter"`
 }
 
 func stripChars(str, chr string) string {
@@ -254,6 +254,7 @@ func main() {
 
 			// catch EOF error
 			if err != nil {
+				fmt.Println()
 				os.Exit(0)
 			}
 
@@ -271,5 +272,4 @@ func main() {
 			}
 		}
 	}
-
 }
