@@ -25,7 +25,7 @@ var texts = map[string]string{}
 
 func init() {
 	texts["name"] = "Fwew"
-	texts["version"] = "1.3-BETA (01 FEB 2017)"
+	texts["version"] = "1.3.1-BETA (02 FEB 2017)"
 	texts["dictVersion"] = "Na'vi Dictionary 13.31 (07 JAN 2017)"
 	texts["author"] = "Tirea Aean"
 	texts["baseLang"] = "Na'vi"
