@@ -1,147 +1,191 @@
-832	de	am	a.m	1	past.	Präteritum
-832	en	am	a.m	1	past.	past tense
-832	est	am	a.m	1	past.	Lihtmineviku tunnus.
-832	hu	am	a.m	1	past.	múlt idő jele
-832	nl	am	a.m	1	past.	onvoltooid verleden tijd
-832	pl	am	a.m	1	past.	czas przeszły
-832	ru	am	a.m	1	past.	прош. время, 
-832	sv	am	a.m	1	past.	föregående tempus
-833	de	arm	aR.m	1	impf.past.	Präteritum, imperfektiver Aspekt
-833	en	arm	aR.m	1	impf.past.	imperfective past tense
-833	est	arm	aR.m	1	impf.past.	Lõpetamata (imperfektiivse) mineviku tunnus.
-833	hu	arm	aR.m	1	impf.past.	befejezetlen múlt idő jele
-833	nl	arm	aR.m	1	impf.past.	imperfectieve verleden tijd
-833	pl	arm	aR.m	1	impf.past.	czas przeszły, aspekt niedokonany
-833	ru	arm	aR.m	1	impf.past.	несов. прош. время, 
-833	sv	arm	aR.m	1	impf.past.	imperfekt föregående tempus
-834	de	ay	a.j	1	fut.	Zukunft, Futur (vorhersagend)
-834	en	ay	a.j	1	fut.	future tense (predictive)
-834	est	ay	a.j	1	fut.	Tuleviku tunnus.
-834	hu	ay	a.j	1	fut.	jövő idő jele
-834	nl	ay	a.j	1	fut.	onvoltooid toekomstige tijd
-834	pl	ay	a.j	1	fut.	czas przyszły
-834	ru	ay	a.j	1	fut.	будущее время (предсказание) 
-834	sv	ay	a.j	1	fut.	framtida tempus
-835	de	äng	æ.N	2	pej.	Pejorativer Affekt
-835	en	äng	æ.N	2	pej.	pejorative affect
-835	est	äng	æ.N	2	pej.	Halvustava või laitva mõjutuse tunnus.
-835	hu	äng	æ.N	2	pej.	rosszallást kifejező
-835	nl	äng	æ.N	2	pej.	verslechterend effect
-835	pl	äng	æ.N	2	pej.	negatywne nastawienie
-835	ru	äng	æ.N	2	pej.	негативное отношение, 
-835	sv	äng	æ.N	2	pej.	negativ mening
-836	de	äp	æ.p	0	refl.	Reflexiv
-836	en	äp	æ.p	0	refl.	reflexive
-836	est	äp	æ.p	0	refl.	Enesekohase asesõna tunnus.
-836	hu	äp	æ.p	0	refl.	visszaható névmás
-836	nl	äp	æ.p	0	refl.	wederkerend
-836	pl	äp	æ.p	0	refl.	strona zwrotna
-836	ru	äp	æ.p	0	refl.	возвратный (-ся), 
-836	sv	äp	æ.p	0	refl.	reflektorisk
-837	de	ei	E.i	2	laud.	Laudativer Affekt
-837	en	ei	E.i	2	laud.	laudative affect
-837	est	ei	E.i	2	laud.	Kiitva, hea mõjutuse tunnus.
-837	hu	ei	E.i	2	laud.	boldogságot kifejező
-837	nl	ei	E.i	2	laud.	verbeterend effect
-837	pl	ei	E.i	2	laud.	pozytywne nastawienie
-837	ru	ei	E.i	2	laud.	положительное отношение, 
-837	sv	ei	E.i	2	laud.	positiv mening
-838	de	er	E.R	1	impf.	Imperfektiver Aspekt
-838	en	er	E.R	1	impf.	imperfective aspect
-838	est	er	E.R	1	impf.	Lõpetamata (imperfektiivse) tegevuse tunnus.
-838	hu	er	E.R	1	impf.	befejezetlenséget, folyamatosságot jelez
-838	nl	er	E.R	1	impf.	imperfectief aspect
-838	pl	er	E.R	1	impf.	aspekt niedokonany
-838	ru	er	E.R	1	impf.	несов. вид, 
-838	sv	er	E.R	1	impf.	presens, nutid, pågående
-839	de	ilv	il.v	1	pres.per.subj.	Präsens Perfektiver Subjunktiv
-839	en	ilv	il.v	1	pres.per.subj.	present perfective subjunctive
-839	est	ilv	il.v	1	pres.per.subj.	Tingiva oleviku perfektiivne tunnus.
-839	hu	ilv	il.v	1	pres.per.subj.	jelen idejű befejezett kötőmód
-839	nl	ilv	il.v	1	pres.per.subj.	huidige perfectieve aanvoegende wijs
-839	pl	ilv	il.v	1	pres.per.subj.	czas teraźniejszy, aspekt dokonany, tryb łączący
-839	ru	ilv	il.v	1	pres.per.subj.	сослагательное наклонение настоящего времени совершенного вида
-839	sv	ilv	il.v	1	pres.per.subj.	nutida, perfekt konjunktiv
-840	de	imv	im.v	1	past.subj.	Präteritum Subjunktiv
-840	en	imv	im.v	1	past.subj.	past subjunctive
-840	est	imv	im.v	1	past.subj.	Tingiva täismineviku tunnus.
-840	hu	imv	im.v	1	past.subj.	múlt idejű kötőmód
-840	nl	imv	im.v	1	past.subj.	verleden subjunctief
-840	pl	imv	im.v	1	past.subj.	czas przeszły, tryb łączący
-840	ru	imv	im.v	1	past.subj.	сосл. наклонение, прош. время, 
-840	sv	imv	im.v	1	past.subj.	förflutet konjunktiv
-841	de	irv	iR.v	1	pres.impf.subj.	Präsens Imperfektiver Subjunktiv
-841	en	irv	iR.v	1	pres.impf.subj.	present imperfective subjunctive
-841	est	irv	iR.v	1	pres.impf.subj.	Tingiva lõpetamata (impefektiivse) oleviku tunnus.
-841	hu	irv	iR.v	1	pres.impf.subj.	jelen idejű befejezetlen kötőmód
-841	nl	irv	iR.v	1	pres.impf.subj.	imperfectieve tegenwoordige tijd subjunctief
-841	pl	irv	iR.v	1	pres.impf.subj.	czas teraźniejszy, aspekt niedokonany, tryb łączący
-841	ru	irv	iR.v	1	pres.impf.subj.	сосл. наклонение, несов. наст. время, 
-841	sv	irv	iR.v	1	pres.impf.subj.	presens, imperfekt konjunktiv
-842	de	iv	i.v	1	subj.	Subjunktiv (Modus)
-842	en	iv	i.v	1	subj.	subjunctive mood
-842	est	iv	i.v	1	subj.	Tingiva kõneviisi tunnus.
-842	hu	iv	i.v	1	subj.	kötőmód jele
-842	nl	iv	i.v	1	subj.	subjunctief
-842	pl	iv	i.v	1	subj.	tryb łączący
-842	ru	iv	i.v	1	subj.	сосл наклонение, 
-842	sv	iv	i.v	1	subj.	konjunktiv
-843	de	iyev	i.jE.v	1	fut.subj.	Futur Subjunktiv
-843	en	iyev	i.jE.v	1	fut.subj.	future subjunctive
-843	est	iyev	i.jE.v	1	fut.subj.	Tingiva tuleviku tunnus.
-843	hu	iyev	i.jE.v	1	fut.subj.	jövő idejű kötőmód
-843	nl	iyev	i.jE.v	1	fut.subj.	toekomstig subjunctief
-843	pl	iyev	i.jE.v	1	fut.subj.	czas przyszły, tryb łączący
-843	ru	iyev	i.jE.v	1	fut.subj.	сосл. наклонение, будущее время, 
-843	sv	iyev	i.jE.v	1	fut.subj.	framtida konjunktiv
-844	de	ìm	I.m	1	rec.past.	unmittelbare Vergangenheit
-844	en	ìm	I.m	1	rec.past.	recent past
-844	est	ìm	I.m	1	rec.past.	Hiljutise lihtmineviku tunnus.
-844	hu	ìm	I.m	1	rec.past.	közelmúlt jele
-844	nl	ìm	I.m	1	rec.past.	recent verleden
-844	pl	ìm	I.m	1	rec.past.	czas przeszły bliski
-844	ru	ìm	I.m	1	rec.past.	недавнее прош. время, 
-844	sv	ìm	I.m	1	rec.past.	Nylig dåtid
-846	de	ìy	I.j	1	imm.fut.	unmittelbare Zukunft
-846	en	ìy	I.j	1	imm.fut.	immediate future tense
-846	est	ìy	I.j	1	imm.fut.	Kohese tuleviku tunnus
-846	hu	ìy	I.j	1	imm.fut.	közeljövő jele
-846	nl	ìy	I.j	1	imm.fut.	onvoltooid onmiddelijk toekomstige tijd
-846	pl	ìy	I.j	1	imm.fut.	czas przyszły bliski
-846	ru	ìy	I.j	1	imm.fut.	ближайшее будущее время, 
-846	sv	ìy	I.j	1	imm.fut.	Omedelbart framtida tempus
-847	de	ìyev	I.jE.v	1	fut.subj.	Futur Subjunktiv
-847	en	ìyev	I.jE.v	1	fut.subj.	future subjunctive
-847	est	ìyev	I.jE.v	1	fut.subj.	Tingiva tuleviku tunnus
-847	hu	ìyev	I.jE.v	1	fut.subj.	jövő idejű kötőmódú
-847	nl	ìyev	I.jE.v	1	fut.subj.	toekomstig subjunctief
-847	pl	ìyev	I.jE.v	1	fut.subj.	czas przyszły, tryb łączący
-847	ru	ìyev	I.jE.v	1	fut.subj.	сосл. наклонение, будущее время, 
-847	sv	ìyev	I.jE.v	1	fut.subj.	framtida konjunktiv
-848	de	ol	o.l	1	perf.	Perfektiver Aspekt
-848	en	ol	o.l	1	perf.	perfective aspect
-848	est	ol	o.l	1	perf.	Lõpetatud (perfektiivse) tegevuse tunnus.
-848	hu	ol	o.l	1	perf.	befejezett cselekvés
-848	nl	ol	o.l	1	perf.	perfectief aspect
-848	pl	ol	o.l	1	perf.	aspekt dokonany
-848	ru	ol	o.l	1	perf.	сов. вид, 
-848	sv	ol	o.l	1	perf.	perfekt
-849	de	us	u.s	1	a.part.	Partizip Aktiv
-849	en	us	u.s	1	a.part.	active participle
-849	est	us	u.s	1	a.part.	V-kesksõna tunnus.
-849	hu	us	u.s	1	a.part.	folyamatos melléknévi igenevet képző
-849	nl	us	u.s	1	a.part.	actief deelwoord
-849	pl	us	u.s	1	a.part.	imiesłów przymiotnikowy czynny
-849	ru	us	u.s	1	a.part.	активное причастие
-849	sv	us	u.s	1	a.part.	aktiv particip
-850	de	uy	u.j	2	hon.	ehrend oder zeremoniell
-850	en	uy	u.j	2	hon.	honorific (honourific) or ceremonial
-850	est	uy	u.j	2	hon.	Austava või tseremoniaalse mõjutuse tunnus.
-850	hu	uy	u.j	2	hon.	megtisztelő vagy szertartásos
-850	nl	uy	u.j	2	hon.	Beleefdheidsvorm of plechtige vorm
-850	pl	uy	u.j	2	hon.	honoryfikat lub forma ceremonialna
-850	ru	uy	u.j	2	hon.	почтительно или торжественно
-850	sv	uy	u.j	2	hon.	Ärofull eller ceremoniel betydelse
+1540	de	tì-- --us--	tɪ us	\N	ger.	(pro.) Gerundium (Verbalnomen)
+1540	en	tì-- --us--	tɪ us	\N	ger.	(pro.) gerund (verbal noun)
+1540	est	tì-- --us--	tɪ us	\N	ger.	(pro.) Gerundiivi, teonime moodustamine
+1540	hu	tì-- --us--	tɪ us	\N	ger.	(prod.) gerundiumot (főnévként viselkedő főnévi igenevet)
+1540	nl	tì-- --us--	tɪ us	\N	ger.	(pro.) zelfstandig gebruik werkwoord
+1540	ru	tì-- --us--	tɪ us	\N	ger.	(прод.) глагольное существительное
+1540	sv	tì-- --us--	tɪ us	\N	ger.	(pro.) gerundium (verbalt substantiv)
+2461	de	ketsuk--	kɛ.t͡suk̚	\N	adj.	(pro.) nicht möglich zu
+2461	en	ketsuk--	kɛ.t͡suk̚	\N	adj.	(pro.) not able to (do the verb prefixed)
+2461	est	ketsuk--	kɛ.t͡suk̚	\N	adj.	(pro.) mitte saama (teha tüvitegusõna)
+2461	hu	ketsuk--	kɛ.t͡suk̚	\N	adj.	(pro.) -hatatlan, -hetetlen (igéhez járuló toldalék, melléknévi igenevet képez)
+2461	nl	ketsuk--	kɛ.t͡suk̚	\N	adj.	(pro.) niet mogelijk zijn (het geprefixte ww. uit te voeren)
+2461	ru	ketsuk--	kɛ.t͡suk̚	\N	adj.	(pro.) неспособность (делать обозначенное глаголом)
+2462	de	munsna--	mun.sna	\N	pair	(pro.) paar
+2462	en	munsna--	mun.sna	\N	pair	(pro.) pair
+2462	est	munsna--	mun.sna	\N	pair	(pro.) paar
+2462	hu	munsna--	mun.sna	\N	pair	(pro.) pár
+2462	nl	munsna--	mun.sna	\N	pair	(pro.) paar
+2462	ru	munsna--	mun.sna	\N	pair	(прод.) пара
+1522	de	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) Diminutiv-Suffix für Nomen, Pronomen
+1522	en	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) diminutive suffix for nouns, pronouns
+1522	est	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) Hellitav, õrnutsev, vähem tähtsamaks tegev, narriv vorm vastavalt kontekstile
+1522	hu	--tsyìp	t͡sjɪp̚	\N	dim.	(prod.) kicsinyítő képző főnevek, névmások végén(produktív, sosem hangsúlyos)
+1522	nl	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) verkleinend achtervoegsel voor zn. en vn.
+1522	ru	--tsyìp	t͡sjɪp̚	\N	dim.	(прод.) уменьшительный суффикс для существительных и местоимений
+1522	sv	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) diminutiva suffix för substantiv, pronomen
+1843	de	--fkeyk	fkɛjk̚	\N	state	(pro.) Suffix für Nomen mit der Bedeutung -zustand, -situation
+1843	en	--fkeyk	fkɛjk̚	\N	state	(pro.) suffix for nouns meaning state, condition
+1843	est	--fkeyk	fkɛjk̚	\N	state	(pro.) järelliide nimisõnadele mis märgivad olekut
+1843	hu	--fkeyk	fkɛjk̚	\N	state	(prod.) utótag főnevekhez állapotot, körülményt fejez ki
+1843	nl	--fkeyk	fkɛjk̚	\N	state	(pro.) achtervoegsel voor zn. die toestand, conditie betekenen
+1843	ru	--fkeyk	fkɛjk̚	\N	state	(pro.) суффикс для сущ., означающий состояние, качество
+1843	sv	--fkeyk	fkɛjk̚	\N	state	(pro.) suffix för substantiv betydande tillstånd, situation
+857	de	--ìri	ɪɾi	\N	top.	Themen-Marker (Topic)
+857	en	--ìri	ɪɾi	\N	top.	topical
+857	est	--ìri	ɪɾi	\N	top.	Teema käände
+857	hu	--ìri	ɪɾi	\N	top.	jelölt tárgy
+857	nl	--ìri	ɪɾi	\N	top.	topicaal
+857	pl	--ìri	ɪɾi	\N	top.	przypadek tematyczny
+857	ru	--ìri	ɪɾi	\N	top.	топик
+857	sv	--ìri	ɪɾi	\N	top.	Aktuellt
+1890	de	--nga'	ŋaʔ	\N	adj.	Adjektivmarker
+1890	en	--nga'	ŋaʔ	\N	adj.	adjective
+1890	est	--nga'	ŋaʔ	\N	adj.	omadussõna
+1890	hu	--nga'	ŋaʔ	\N	adj.	melléknév
+1890	nl	--nga'	ŋaʔ	\N	adj.	adjectief
+1890	pl	--nga'	ŋaʔ	\N	adj.	przymiotnik
+1890	ru	--nga'	ŋaʔ	\N	adj.	прилагательное
+1890	sv	--nga'	ŋaʔ	\N	adj.	adjektiv
+2460	de	tsuk--	t͡suk̚	\N	adj.	(pro.) möglich (das Verb mit Vorsilbe) zu tun; weitgehend produktiv, kann an beinah jedes transitive Verb angehängt werden, obwohl es auch mit intransitiven Verben benutzt wird;
+2460	en	tsuk--	t͡suk̚	\N	adj.	(pro.) able to (do the verb prefixed); widely productive, can be attached to virtually any transitive verb, although also useful on intransitive verbs;
+2460	est	tsuk--	t͡suk̚	\N	adj.	(eessõna.) tehtav; võib kasutada kõikide sihiliste tegusõnadega
+2460	hu	tsuk--	t͡suk̚	\N	adj.	(pro.) -ható, -hető (igéhez csatlakoztatott előtag, melléknévi igenevet képez); teljesen produktív, minden igéhez hozzátehető;
+2460	nl	tsuk--	t͡suk̚	\N	adj.	(pro.) mogelijk zijn (het geprefixte ww. uit te voeren); zeer productief, kan aan praktisch elk wwo. gekoppeld worden, doch ook bruikbaar bij wwn.;
+2460	ru	tsuk--	t͡suk̚	\N	adj.	(прод.) способность (делать обозначенное глаголом)
+2196	de	--tswo	t͡swo	\N	suffix	(pro.) Suffix, das ein Verb in ein Nomen ändert, das die Fähigkeit anzeigt, das Verb auszuführen
+2196	en	--tswo	t͡swo	\N	suffix	(pro.) suffix that changes a verb to a noun indicating the ability to perform the action of the verb
+2196	est	--tswo	t͡swo	\N	suffix	(pro.) järelliide, mis muudab tegusõna nimisõnaks, mis näitab võimet tegusõna tegevust sooritada
+2196	hu	--tswo	t͡swo	\N	suffix	(pro.) utótag, amely az igét főnévvé változtatja, jelezve az ige végrehajtásának képességét
+2196	nl	--tswo	t͡swo	\N	suffix	(pro.) achtervoegsel dat een werkwoord in een zn. veranderd, en de mogelijkheid tot het uitvoeren van de actie van het werkwoord aangeeft
+2196	ru	--tswo	t͡swo	\N	suffix	(прод.) суффикс, изменяющий глагол на существительное, со способностью выполнить действие глагола
+871	de	--a--	a	\N	adj.	(pro.) adjektivischer Attribut und Nebensatz-Marker
+871	en	--a--	a	\N	adj.	(pro.) adjectival attribution and subordination marker
+871	est	--a--	a	\N	adj.	(pro.)Omadussõna tunnus
+871	hu	--a--	a	\N	adj.	(prod.) melléknévjelző
+871	nl	--a--	a	\N	adj.	adjectieve attributieve markering
+871	ru	--a--	a	\N	adj.	(прод.) присоединяемый ссылочный и подчиняющий маркер
+871	sv	--a--	a	\N	adj.	adjektivattribut och bisatsmarkör
+1785	de	fì--	fɪ	\N	this	(pro.) dies
+1785	en	fì--	fɪ	\N	this	(pro.) this
+1785	est	fì--	fɪ	\N	this	(pro.) see,
+1785	hu	fì--	fɪ	\N	this	(prod.) ez a(z)
+1785	nl	fì--	fɪ	\N	this	(pro.) dit
+1785	ru	fì--	fɪ	\N	this	(прод.) это
+1785	sv	fì--	fɪ	\N	this	(pro.) den här
+1786	de	fne--	fnɛ	\N	kind	(pro.) Art von
+1786	en	fne--	fnɛ	\N	kind	(pro.) kind, type
+1786	est	fne--	fnɛ	\N	kind	(pro.) liik, sort,
+1786	hu	fne--	fnɛ	\N	kind	(prod.) féle, fajta
+1786	nl	fne--	fnɛ	\N	kind	(pro.) soort, type
+1786	ru	fne--	fnɛ	\N	kind	(прод.) тип
+1786	sv	fne--	fnɛ	\N	kind	(pro.) sort, typ
+1744	de	fra--	fɾa	\N	every	(pro.) jeder
+1744	en	fra--	fɾa	\N	every	(pro.) every
+1744	est	fra--	fɾa	\N	every	(pro.) iga
+1744	hu	fra--	fɾa	\N	every	(prod.) minden
+1744	nl	fra--	fɾa	\N	every	(pro.) elke
+1744	ru	fra--	fɾa	\N	every	(прод.) каждый
+1744	sv	fra--	fɾa	\N	every	(pro.) varje
+2517	de	fray+	fɾaj	\N	all of these	(pro.) alle diese Plural
+2517	en	fray+	fɾaj	\N	all of these	(pro.) all of these plural
+2517	est	fray+	fɾaj	\N	all of these	(pro.) need kõik mitmuse
+2517	hu	fray+	fɾaj	\N	all of these	(pro.) mindegyik plural
+2517	nl	fray+	fɾaj	\N	all of these	(pro.) al deze meervoudig
+2517	ru	fray+	fɾaj	\N	all of these	прод.) каждый из них множ
+856	de	--ìl	ɪl	\N	erg.	Agens
+856	en	--ìl	ɪl	\N	erg.	agentive case
+856	est	--ìl	ɪl	\N	erg.	Aluse käände
+856	hu	--ìl	ɪl	\N	erg.	jelölt alany
+856	nl	--ìl	ɪl	\N	erg.	agentief
+856	pl	--ìl	ɪl	\N	erg.	ergatyw
+856	ru	--ìl	ɪl	\N	erg.	агентив
+856	sv	--ìl	ɪl	\N	erg.	Ergativ händelse
+847	de	ìyev	ɪ.jɛ.v	1	fut.subj.	Futur Subjunktiv
+847	en	ìyev	ɪ.jɛ.v	1	fut.subj.	future subjunctive
+847	est	ìyev	ɪ.jɛ.v	1	fut.subj.	Tingiva tuleviku tunnus
+847	hu	ìyev	ɪ.jɛ.v	1	fut.subj.	jövő idejű kötőmódú
+847	nl	ìyev	ɪ.jɛ.v	1	fut.subj.	toekomstig subjunctief
+847	pl	ìyev	ɪ.jɛ.v	1	fut.subj.	czas przyszły, tryb łączący
+847	ru	ìyev	ɪ.jɛ.v	1	fut.subj.	сосл. наклонение, будущее время,
+847	sv	ìyev	ɪ.jɛ.v	1	fut.subj.	framtida konjunktiv
+1745	de	kaw--	kaw	\N	never	nicht einer
+1745	en	kaw--	kaw	\N	never	not one
+1745	est	kaw--	kaw	\N	never	mitte +
+1745	hu	kaw--	kaw	\N	never	se-, sem-, semmi-
+1745	nl	kaw--	kaw	\N	never	niet een
+1745	pl	kaw--	kaw	\N	never	żaden
+1745	ru	kaw--	kaw	\N	never	никто
+1745	sv	kaw--	kaw	\N	never	inte en
+2630	de	--kel	kɛl	\N	neg.	(unpro.) bildet ein neues Substantiv, das einen \\uline{Mangel des Ursprungswortes anzeigt
+2630	en	--kel	kɛl	\N	neg.	(unpro.) creates a new noun that indicates a \\uline{lack of the original noun
+2630	est	--kel	kɛl	\N	neg.	(mittepro.) kasutatakse uue \\uline{puudust näitava nimisõna loomiseks
+2630	hu	--kel	kɛl	\N	neg.	(nem produktív) új főnevet képez, amely az eredeti főnév  \\uline{hiányát jelenti
+2630	nl	--kel	kɛl	\N	neg.	(onpro.) creëert een nieuw zn. dat een \\uline{gebrek aan het originele zn. aangeeft
+2416	de	--nay	naj	\N	dim.	(unpro.) erzeugt ein neues Nomen, das sich auf das Original bezieht, aber einen Schritt weiter unten in der jeweiligen Hierarchie ist – Größe, Rang, Fähigkeit, etc.
+2416	en	--nay	naj	\N	dim.	(unpro.) creates a new noun that is related to the original by being a step down in some relevant heirarchy - size, rank, accomplishment, etc.
+2416	est	--nay	naj	\N	dim.	(mittepro.) loob uue nimisõna, mis on esialgsest üks aste vähemtähtsam, madalam, väiksem jne.
+2416	hu	--nay	naj	\N	dim.	(unpro.) olyan főnevet képez az eredetiből, amely jelentése nála eggyel lejjebb van a ranglétrán - méretben, rangban, stb.
+2416	nl	--nay	naj	\N	dim.	(unpro.) creëert een nieuw zn. relatief aan het origineel, maar een graad lager in de relevante hierarchie, - maat, rang, etc.
+2416	ru	--nay	naj	\N	dim.	(непрод.) создает новое существительное, которое по отношению к оригинальному на ступень ниже в какой-либо иерахии -- размер, ранг, завершенность и т.д.)
+873	de	nì--	nɪ	\N	adv.	Adverbialpräfix
+873	en	nì--	nɪ	\N	adv.	adverbial
+873	est	nì--	nɪ	\N	adv.	Määrsõnade
+873	hu	nì--	nɪ	\N	adv.	határozószót
+873	nl	nì--	nɪ	\N	adv.	bijwoordelijk
+873	ru	nì--	nɪ	\N	adv.	наречие
+873	sv	nì--	nɪ	\N	adv.	adverb
+863	de	--pe+	pɛ	\N	inter.	(pro.) Affix Interrogativ-Marker \\textit{welche
+863	en	--pe+	pɛ	\N	inter.	(pro.) affix inter. marker
+863	est	--pe+	pɛ	\N	inter.	(pro.) Küsimuse eesliide
+863	hu	--pe+	pɛ	\N	inter.	(prod.) kérdőszóképző
+863	nl	--pe+	pɛ	\N	inter.	(pro.) affix vvn. markering
+863	ru	--pe+	pɛ	\N	inter.	(прод.) маркер вопроса к слову
+863	sv	--pe+	pɛ	\N	inter.	(4) affix interr. markör \\textit{vad
+874	de	sä--	sæ	\N	instr.	instrumentales Nomen
+874	en	sä--	sæ	\N	instr.	instrumental noun
+874	est	sä--	sæ	\N	instr.	-mine lõpuga nimisõnade
+874	hu	sä--	sæ	\N	instr.	instrumentális főnevet
+874	nl	sä--	sæ	\N	instr.	dienstig zn.
+874	pl	sä--	sæ	\N	instr.	rzeczowniki nieabstrakcyjne
+874	ru	sä--	sæ	\N	instr.	определяющее существительное
+874	sv	sä--	sæ	\N	instr.	instrumentalis substantiv
+2197	de	sna--	sna	\N	prefix	Präfix Gruppenmarker für Nomen; pro. wenn auf Lebewesen bezogen, ansonsten unpro.
+2197	en	sna--	sna	\N	prefix	prefix group marker for nouns; pro. when referring to living things, unpro. otherwise.
+2197	est	sna--	sna	\N	prefix	eesliide grupi/kogumiku märkimiseks nimisõnadel pro. kui elavate puhul, pro. muudel juhtudel
+2197	hu	sna--	sna	\N	prefix	előtag, csoportot jelez főnevek elején; pro. élőlényekre utal, unpro. másképpen
+2197	nl	sna--	sna	\N	prefix	voorvoegsel, groepen van zn.; pro. om levende dingen aan te geven, anders onpro.
+2197	ru	sna--	sna	\N	prefix	префикс группы для существительных; прод. в отношении живых существ, иначе непрод.
+876	de	tì--	tɪ	\N	n.	Nomen
+876	en	tì--	tɪ	\N	n.	noun
+876	est	tì--	tɪ	\N	n.	Nimisõnade
+876	hu	tì--	tɪ	\N	n.	absztrakt főnevet
+876	nl	tì--	tɪ	\N	n.	zelfstandig naamwoord
+876	pl	tì--	tɪ	\N	n.	rzeczownik
+876	ru	tì--	tɪ	\N	n.	существительных
+876	sv	tì--	tɪ	\N	n.	substantiv
+1787	de	tsa--	t͡sa	\N	that	(pro.) jene, -r, -s
+1787	en	tsa--	t͡sa	\N	that	(pro.) that
+1787	est	tsa--	t͡sa	\N	that	(pro.)see,
+1787	hu	tsa--	t͡sa	\N	that	(prod.) az a(z)…
+1787	nl	tsa--	t͡sa	\N	that	(pro.) die
+1787	ru	tsa--	t͡sa	\N	that	(прод.) тот
+1787	sv	tsa--	t͡sa	\N	that	(pro.) that
+1790	de	tsay+	t͡saj	\N	those	(pro.) jene (plural)
+1790	en	tsay+	t͡saj	\N	those	(pro.) those
+1790	est	tsay+	t͡saj	\N	those	(pro.) need
+1790	hu	tsay+	t͡saj	\N	those	(prod.) azok a(z)…
+1790	nl	tsay+	t͡saj	\N	those	(pro.) die meervoudig
+1790	ru	tsay+	t͡saj	\N	those	(прод.) те
+1790	sv	tsay+	t͡saj	\N	those	(pro.) dem där, dem
+870	de	--yä	jæ	\N	gen.	Genitiv
+870	en	--yä	jæ	\N	gen.	genitive
+870	est	--yä	jæ	\N	gen.	Datiivse käände
+870	hu	--yä	jæ	\N	gen.	birtokos eset
+870	nl	--yä	jæ	\N	gen.	genitief
+870	pl	--yä	jæ	\N	gen.	dopełniacz
+870	ru	--yä	jæ	\N	gen.	генитив
+870	sv	--yä	jæ	\N	gen.	genitiv
 851	de	--ä	æ	\N	gen.	Genitiv
 851	en	--ä	æ	\N	gen.	genitive
 851	est	--ä	æ	\N	gen.	Omastava (genitiivse) kääne
@@ -158,229 +202,86 @@
 852	pl	--an	an	\N	masc.	przyrostek rodzaju męskiego
 852	ru	--an	an	\N	masc.	суффикс мужского рода для некоторых существительных
 852	sv	--an	an	\N	masc.	(1) maskulint suffix för vissa substantiv
-853	de	ay+	aj	\N	pl.	({\\bf pro.}) Plural
-853	en	ay+	aj	\N	pl.	({\\bf pro.}) plural
-853	est	ay+	aj	\N	pl.	Mitmuse
-853	hu	ay+	aj	\N	pl.	({\\bf prod.}) többes szám
-853	nl	ay+	aj	\N	pl.	({\\bf pro.}) meervoudig
-853	ru	ay+	aj	\N	pl.	({\\bf прод.}) множественное число
-853	sv	ay+	aj	\N	pl.	plural
-854	de	--e	E	\N	fem.	Feminines Suffix für bestimmte Nomen
-854	en	--e	E	\N	fem.	feminine suffix for certain nouns
-854	est	--e	E	\N	fem.	Naissoo tunnus nimisõnadele
-854	hu	--e	E	\N	fem.	nőnem jelző bizonyos főnevek végén
-854	nl	--e	E	\N	fem.	vrouwelijk achtervoegsel voor bepaalde zn.
-854	pl	--e	E	\N	fem.	przyrostek rodzaju żeńskiego
-854	ru	--e	E	\N	fem.	суффикс женского рода для некоторых существительных
-854	sv	--e	E	\N	fem.	(1) feminint suffix för vissa suffix
-856	de	--ìl	Il	\N	erg.	Agens
-856	en	--ìl	Il	\N	erg.	agentive case
-856	est	--ìl	Il	\N	erg.	Aluse käände
-856	hu	--ìl	Il	\N	erg.	jelölt alany
-856	nl	--ìl	Il	\N	erg.	agentief
-856	pl	--ìl	Il	\N	erg.	ergatyw
-856	ru	--ìl	Il	\N	erg.	агентив
-856	sv	--ìl	Il	\N	erg.	Ergativ händelse
-857	de	--ìri	IRi	\N	top.	Themen-Marker (Topic)
-857	en	--ìri	IRi	\N	top.	topical
-857	est	--ìri	IRi	\N	top.	Teema käände
-857	hu	--ìri	IRi	\N	top.	jelölt tárgy
-857	nl	--ìri	IRi	\N	top.	topicaal
-857	pl	--ìri	IRi	\N	top.	przypadek tematyczny
-857	ru	--ìri	IRi	\N	top.	топик
-857	sv	--ìri	IRi	\N	top.	Aktuellt
-858	de	--it	it\\textcorner	\N	pat.	Patiens
-858	en	--it	it\\textcorner	\N	pat.	patientive
-858	est	--it	it\\textcorner	\N	pat.	Sihitava käände
-858	hu	--it	it\\textcorner	\N	pat.	tárgyeset
-858	nl	--it	it\\textcorner	\N	pat.	patientief
-858	pl	--it	it\\textcorner	\N	pat.	biernik
-858	ru	--it	it\\textcorner	\N	pat.	пациенс
-858	sv	--it	it\\textcorner	\N	pat.	ackusativ
-859	de	--l	l	\N	erg.	Agens
-859	en	--l	l	\N	erg.	agentive case
-859	est	--l	l	\N	erg.	Aluse käände
-859	hu	--l	l	\N	erg.	ergatív esetű alany
-859	nl	--l	l	\N	erg.	agentief
-859	pl	--l	l	\N	erg.	ergatyw
-859	ru	--l	l	\N	erg.	агентив
-859	sv	--l	l	\N	erg.	Ergativ händelse
-861	de	me+	mE	\N	du.	({\\bf pro.}) Dual
-861	en	me+	mE	\N	du.	({\\bf pro.}) dual
-861	est	me+	mE	\N	du.	({\\bf pro.}) Kaksikvormi
-861	hu	me+	mE	\N	du.	({\\bf prod.}) kettes szám jele
-861	nl	me+	mE	\N	du.	({\\bf pro.}) tweevoudig
-861	ru	me+	mE	\N	du.	({\\bf прод.}) двойственное число
-861	sv	me+	mE	\N	du.	Dubbel
-863	de	--pe+	pE	\N	inter.	({\\bf pro.}) Affix Interrogativ-Marker \\textit{welche}
-863	en	--pe+	pE	\N	inter.	({\\bf pro.}) affix inter. marker
-863	est	--pe+	pE	\N	inter.	({\\bf pro.}) Küsimuse eesliide
-863	hu	--pe+	pE	\N	inter.	({\\bf prod.}) kérdőszóképző
-863	nl	--pe+	pE	\N	inter.	({\\bf pro.}) affix vvn. markering
-863	ru	--pe+	pE	\N	inter.	({\\bf прод.}) маркер вопроса к слову
-863	sv	--pe+	pE	\N	inter.	(4) affix interr. markör \\textit{vad}
-864	de	pxe+	p'E	\N	tri.	({\\bf pro.}) Trial
-864	en	pxe+	p'E	\N	tri.	({\\bf pro.}) trial
-864	est	pxe+	p'E	\N	tri.	({\\bf pro.}) Kolmikvormi
-864	hu	pxe+	p'E	\N	tri.	({\\bf prod.}) hármas szám jele
-864	nl	pxe+	p'E	\N	tri.	({\\bf pro.}) drievoudig
-864	ru	pxe+	p'E	\N	tri.	({\\bf прод.}) тройственное число
-864	sv	pxe+	p'E	\N	tri.	trippel
-865	de	--ri	Ri	\N	top.	Themen-Marker
-865	en	--ri	Ri	\N	top.	topical
-865	est	--ri	Ri	\N	top.	Teema käände
-865	hu	--ri	Ri	\N	top.	jelölt (topikális) alany
-865	nl	--ri	Ri	\N	top.	topicaal
-865	pl	--ri	Ri	\N	top.	przypadek tematyczny
-865	ru	--ri	Ri	\N	top.	топик
-865	sv	--ri	Ri	\N	top.	ämne
-866	de	--ru	Ru	\N	dat.	Dativ
-866	en	--ru	Ru	\N	dat.	dative
-866	est	--ru	Ru	\N	dat.	Datiivse käände
-866	hu	--ru	Ru	\N	dat.	részes eset
-866	nl	--ru	Ru	\N	dat.	datief
-866	pl	--ru	Ru	\N	dat.	celownik
-866	ru	--ru	Ru	\N	dat.	датив
-866	sv	--ru	Ru	\N	dat.	dativ
-867	de	--t	t\\textcorner	\N	pat.	Patiens
-867	en	--t	t\\textcorner	\N	pat.	patientive
-867	est	--t	t\\textcorner	\N	pat.	Sihitava käände
-867	hu	--t	t\\textcorner	\N	pat.	tárgyeset
-867	nl	--t	t\\textcorner	\N	pat.	patientief
-867	pl	--t	t\\textcorner	\N	pat.	biernik
-867	ru	--t	t\\textcorner	\N	pat.	пациенс
-867	sv	--t	t\\textcorner	\N	pat.	ackusativ
-868	de	--ti	ti	\N	pat.	Patiens
-868	en	--ti	ti	\N	pat.	patientive
-868	est	--ti	ti	\N	pat.	Sihitava käände
-868	hu	--ti	ti	\N	pat.	tárgyeset
-868	nl	--ti	ti	\N	pat.	patientief
-868	pl	--ti	ti	\N	pat.	biernik
-868	ru	--ti	ti	\N	pat.	пациенс
-868	sv	--ti	ti	\N	pat.	ackusativ
-869	de	--ur	uR	\N	dat.	Dativ
-869	en	--ur	uR	\N	dat.	dative
-869	est	--ur	uR	\N	dat.	Datiivse käände
-869	hu	--ur	uR	\N	dat.	részes eset
-869	nl	--ur	uR	\N	dat.	datief
-869	pl	--ur	uR	\N	dat.	celownik
-869	ru	--ur	uR	\N	dat.	датив
-869	sv	--ur	uR	\N	dat.	dativ
-870	de	--yä	jæ	\N	gen.	Genitiv
-870	en	--yä	jæ	\N	gen.	genitive
-870	est	--yä	jæ	\N	gen.	Datiivse käände
-870	hu	--yä	jæ	\N	gen.	birtokos eset
-870	nl	--yä	jæ	\N	gen.	genitief
-870	pl	--yä	jæ	\N	gen.	dopełniacz
-870	ru	--yä	jæ	\N	gen.	генитив
-870	sv	--yä	jæ	\N	gen.	genitiv
-871	de	--a--	a	\N	adj.	({\\bf pro.}) adjektivischer Attribut und Nebensatz-Marker
-871	en	--a--	a	\N	adj.	({\\bf pro.}) adjectival attribution and subordination marker
-871	est	--a--	a	\N	adj.	({\\bf pro.})Omadussõna tunnus
-871	hu	--a--	a	\N	adj.	({\\bf prod.}) melléknévjelző
-871	nl	--a--	a	\N	adj.	adjectieve attributieve markering
-871	ru	--a--	a	\N	adj.	({\\bf прод.}) присоединяемый ссылочный и подчиняющий маркер
-871	sv	--a--	a	\N	adj.	adjektivattribut och bisatsmarkör
-872	de	le--	lE	\N	adj.	Adjektivpräfix
-872	en	le--	lE	\N	adj.	adjective
-872	est	le--	lE	\N	adj.	Omadussõnade
-872	hu	le--	lE	\N	adj.	melléknevet
-872	nl	le--	lE	\N	adj.	adjectief
-872	pl	le--	lE	\N	adj.	przymiotnik
-872	ru	le--	lE	\N	adj.	прилагательное
-872	sv	le--	lE	\N	adj.	adjektiv
-873	de	nì--	nI	\N	adv.	Adverbialpräfix
-873	en	nì--	nI	\N	adv.	adverbial
-873	est	nì--	nI	\N	adv.	Määrsõnade
-873	hu	nì--	nI	\N	adv.	határozószót
-873	nl	nì--	nI	\N	adv.	bijwoordelijk
-873	ru	nì--	nI	\N	adv.	наречие
-873	sv	nì--	nI	\N	adv.	adverb
-874	de	sä--	sæ	\N	instr.	instrumentales Nomen
-874	en	sä--	sæ	\N	instr.	instrumental noun
-874	est	sä--	sæ	\N	instr.	-mine lõpuga nimisõnade
-874	hu	sä--	sæ	\N	instr.	instrumentális főnevet
-874	nl	sä--	sæ	\N	instr.	dienstig zn.
-874	pl	sä--	sæ	\N	instr.	rzeczowniki nieabstrakcyjne
-874	ru	sä--	sæ	\N	instr.	определяющее существительное
-874	sv	sä--	sæ	\N	instr.	instrumentalis substantiv
-875	de	si	s$\\cdot$i	\N	v.	nachgestelltes Verb
-875	en	si	s$\\cdot$i	\N	v.	postpositional verb
-875	est	si	s$\\cdot$i	\N	v.	Põhisõnale järgnev tegusõna
-875	hu	si	s$\\cdot$i	\N	v.	összetett igéket
-875	nl	si	s$\\cdot$i	\N	v.	napositioneel werkwoord
-875	pl	si	s$\\cdot$i	\N	v.	czasownik pomocniczy
-875	ru	si	s$\\cdot$i	\N	v.	постпозицонный глагол
-875	sv	si	s$\\cdot$i	\N	v.	postpositionalt verb
-876	de	tì--	tI	\N	n.	Nomen
-876	en	tì--	tI	\N	n.	noun
-876	est	tì--	tI	\N	n.	Nimisõnade
-876	hu	tì--	tI	\N	n.	absztrakt főnevet
-876	nl	tì--	tI	\N	n.	zelfstandig naamwoord
-876	pl	tì--	tI	\N	n.	rzeczownik
-876	ru	tì--	tI	\N	n.	существительных
-876	sv	tì--	tI	\N	n.	substantiv
-877	de	--tu	tu	\N	d.o.nom.	Personensuffix bei nicht-Verben
-877	en	--tu	tu	\N	d.o.nom.	person noun from non-verbal stem
-877	est	--tu	tu	\N	d.o.nom.	({\\bf pro.}) Tegija
-877	hu	--tu	tu	\N	d.o.nom.	({\\bf prod.}) nem igei tőből személyt jelentő főnevet
-877	nl	--tu	tu	\N	d.o.nom.	persoons zn. van niet-ww. stam
-877	ru	--tu	tu	\N	d.o.nom.	суффикс существительного, выражает направленность действия на субъект
-877	sv	--tu	tu	\N	d.o.nom.	({\\bf pro.}) direkt objekt substantiv
-878	de	--yu	ju	\N	a.nom.	({\\bf pro.}) Personensuffix bei Verben
-878	en	--yu	ju	\N	a.nom.	({\\bf pro.}) agent noun
-878	est	--yu	ju	\N	a.nom.	({\\bf pro.}) Tegija
-878	hu	--yu	ju	\N	a.nom.	({\\bf prod.}) főnév
-878	nl	--yu	ju	\N	a.nom.	({\\bf pro.}) persoons zn. van ww. stam
-878	ru	--yu	ju	\N	a.nom.	({\\bf прод.}) суффикс образования отглагольных существительных, обозначающих лицо, называемое по роду занятий, профессии
-878	sv	--yu	ju	\N	a.nom.	({\\bf pro.}) agentivt substantiv
-932	de	eyk	Ej.k	0	caus.	Kausativ
-932	en	eyk	Ej.k	0	caus.	causative
-932	est	eyk	Ej.k	0	caus.	Põhjustava (kausatiivse) tegusõna tunnus.
-932	hu	eyk	Ej.k	0	caus.	műveltető
-932	nl	eyk	Ej.k	0	caus.	oorzakelijk
-932	pl	eyk	Ej.k	0	caus.	strona sprwcza
-932	ru	eyk	Ej.k	0	caus.	казуальный 
-932	sv	eyk	Ej.k	0	caus.	orsakande
-998	de	ats	a.\\t{ts}	2	infr.	Inferential, zeigt Unsicherheit an oder indirektes Wissen (Hörensagen)
-998	en	ats	a.\\t{ts}	2	infr.	inferential, indicating uncertainty or indirect knowledge
-998	est	ats	a.\\t{ts}	2	infr.	Kaudse kõneviisi ja ebakindlate teadmiste tunnus
-998	hu	ats	a.\\t{ts}	2	infr.	inferenciális, bizonytalan vagy indirekt értesülést jelölő
-998	nl	ats	a.\\t{ts}	2	infr.	inferentieel, geeft onzekerheid of indirecte kennis aan
-998	pl	ats	a.\\t{ts}	2	infr.	tryb nieświadka
-998	ru	ats	a.\\t{ts}	2	infr.	передающий неуверенность говорящего в достоверности сообщаемых сведений аффективный 
-998	sv	ats	a.\\t{ts}	2	infr.	osäker handling, vilket tyder på osäkerhet eller indirekt kunskap
-1063	de	--o	o	\N	indef., dur.	({\\bf pro.}) Indefinit-Suffix, zeitliche Dauer
-1063	en	--o	o	\N	indef., dur.	({\\bf pro.}) indefinite suffix, durative suffix
-1063	est	--o	o	\N	indef., dur.	({\\bf pro.}) Umbisiikulilise tegumoe, kestva toimingu järelliide
-1063	hu	--o	o	\N	indef., dur.	({\\bf prod.}) határozatlan toldalék, időtartamra utaló
-1063	nl	--o	o	\N	indef., dur.	({\\bf pro.}) onbepaald achtervoegsel
-1063	ru	--o	o	\N	indef., dur.	({\\bf прод.}) суффикс со значением неопределенности, длительности
-1063	sv	--o	o	\N	indef., dur.	({\\bf pro.}) suffix
-1064	de	ìsy	I.sj	1	imm.fut.d.	unmittelbares Futur mit Absicht
-1064	en	ìsy	I.sj	1	imm.fut.d.	immediate future tense with determination
-1064	est	ìsy	I.sj	1	imm.fut.d.	Kohese lubava/otsustava tuleviku tunnus.
-1064	hu	ìsy	I.sj	1	imm.fut.d.	közeljövőbeni szándékot kifejező
-1064	nl	ìsy	I.sj	1	imm.fut.d.	onmiddellijke toekomstige tijd met intentie
-1064	pl	ìsy	I.sj	1	imm.fut.d.	czas przyszły bliski zamierzony
-1064	ru	ìsy	I.sj	1	imm.fut.d.	ближайшее будущее время с модальностью намерения
-1064	sv	ìsy	I.sj	1	imm.fut.d.	omedelbart framtida tempus med beslutsamhet
-1065	de	asy	a.sj	1	fut.d.	Futur mit Absicht
-1065	en	asy	a.sj	1	fut.d.	future tense with intention or determination
-1065	est	asy	a.sj	1	fut.d.	Kindla/otsustava tuleviku tunnus.
-1065	hu	asy	a.sj	1	fut.d.	jövőbeni szándékot vagy elhatározást kifejező
-1065	nl	asy	a.sj	1	fut.d.	toekomstige tijd met intentie
-1065	pl	asy	a.sj	1	fut.d.	czas przyszły zamierzony
-1065	ru	asy	a.sj	1	fut.d.	будущее время (намерение или неизбежность)
-1065	sv	asy	a.sj	1	fut.d.	framtida tempus med beslutsamhet
-1066	de	awn	aw.n	1	p.part.	Partizip Passiv
-1066	en	awn	aw.n	1	p.part.	passive participle
-1066	est	awn	aw.n	1	p.part.	-nud, -tud vormi tunnus.
-1066	hu	awn	aw.n	1	p.part.	befejezett melléknévi igenevet képző
-1066	nl	awn	aw.n	1	p.part.	passief deelwoord
-1066	pl	awn	aw.n	1	p.part.	imiesłów przymiotnikowy bierny
-1066	ru	awn	aw.n	1	p.part.	причастие страдательного залога
-1066	sv	awn	aw.n	1	p.part.	passiv patricip
+835	de	äng	æ.ŋ	2	pej.	Pejorativer Affekt
+835	en	äng	æ.ŋ	2	pej.	pejorative affect
+835	est	äng	æ.ŋ	2	pej.	Halvustava või laitva mõjutuse tunnus.
+835	hu	äng	æ.ŋ	2	pej.	rosszallást kifejező
+835	nl	äng	æ.ŋ	2	pej.	verslechterend effect
+835	pl	äng	æ.ŋ	2	pej.	negatywne nastawienie
+835	ru	äng	æ.ŋ	2	pej.	негативное отношение,
+835	sv	äng	æ.ŋ	2	pej.	negativ mening
+1788	de	fay+	faj	\N	these	(pro.) diese (plural)
+1788	en	fay+	faj	\N	these	(pro.) these
+1788	est	fay+	faj	\N	these	(pro.) need
+1788	hu	fay+	faj	\N	these	(prod.) az a(z)…
+1788	nl	fay+	faj	\N	these	(pro.) deze
+1788	pl	fay+	faj	\N	these	\N
+1788	ru	fay+	faj	\N	these	(прод.) эти
+1788	sv	fay+	faj	\N	these	(pro.) dessa, dem här
+1521	de	ìlm	ɪl.m	1	perf.rec.past.	perfektiver Aspekt der unmittelbaren Vergangenheit
+1521	en	ìlm	ɪl.m	1	perf.rec.past.	perfective recent past tense
+1521	est	ìlm	ɪl.m	1	perf.rec.past.	Hiljutise lõpetatud (perfektiivse) mineviku tunnus.
+1521	hu	ìlm	ɪl.m	1	perf.rec.past.	befejezett közelmúltra utaló
+1521	nl	ìlm	ɪl.m	1	perf.rec.past.	voltooid recent verleden tijd
+1521	pl	ìlm	ɪl.m	1	perf.rec.past.	czas przeszły bliski, aspekt dokonany
+1521	ru	ìlm	ɪl.m	1	perf.rec.past.	сов. вид, ближайшее прошедшее время,
+1521	sv	ìlm	ɪl.m	1	perf.rec.past.	perfekt nyligen dåtida tempus.
+1516	de	ìly	ɪl.j	1	perf.imm.fut.	perfektiver Aspekt der unmittelbaren Zukunft
+1516	en	ìly	ɪl.j	1	perf.imm.fut.	perfective immediate future tense
+1516	est	ìly	ɪl.j	1	perf.imm.fut.	Kohese lõpetatud (perfektiivse) tuleviku tunnus.
+1516	hu	ìly	ɪl.j	1	perf.imm.fut.	befejezett közeljövőre utaló
+1516	nl	ìly	ɪl.j	1	perf.imm.fut.	voltooid onmiddellijk toekomende tijd
+1516	pl	ìly	ɪl.j	1	perf.imm.fut.	czas przyszły bliski, aspekt dokonany
+1516	ru	ìly	ɪl.j	1	perf.imm.fut.	сов. вид, ближайшее будущее время,
+1516	sv	ìly	ɪl.j	1	perf.imm.fut.	perfekt omedelbart framtida tempus
+1520	de	ìrm	ɪɾ.m	1	impf.rec.past.	imperfektiver Aspekt der umittelbaren Vergangenheit
+1520	en	ìrm	ɪɾ.m	1	impf.rec.past.	imperfective recent past tense
+1520	est	ìrm	ɪɾ.m	1	impf.rec.past.	Hiljutise lõpetamata (imperfektiivse) mineviku tunnus.
+1520	hu	ìrm	ɪɾ.m	1	impf.rec.past.	folyamatos közelmúltra utaló
+1520	nl	ìrm	ɪɾ.m	1	impf.rec.past.	imperfectief recent verleden tijd
+1520	pl	ìrm	ɪɾ.m	1	impf.rec.past.	czas przeszły bliski, aspekt niedokonany
+1520	ru	ìrm	ɪɾ.m	1	impf.rec.past.	несов. вид, недавно прошедшее время
+1520	sv	ìrm	ɪɾ.m	1	impf.rec.past.	imperfekt nyligen dåtida tempus
+1515	de	ìry	ɪɾ.j	1	impf.imm.fut.	imperfektiver Aspekt der unmittelbaren Zukunft
+1515	en	ìry	ɪɾ.j	1	impf.imm.fut.	imperfective immediate future tense
+1515	est	ìry	ɪɾ.j	1	impf.imm.fut.	Kohese lõpetamata (imperfektiivse) tuleviku tunnus.
+1515	hu	ìry	ɪɾ.j	1	impf.imm.fut.	folyamatos közeljövőre utaló
+1515	nl	ìry	ɪɾ.j	1	impf.imm.fut.	imperfectief onmiddellijk toekomende tijd
+1515	pl	ìry	ɪɾ.j	1	impf.imm.fut.	czas przyszły bliski, aspekt niedokonany
+1515	ru	ìry	ɪɾ.j	1	impf.imm.fut.	несов. вид, ближайшее будущее время,
+1515	sv	ìry	ɪɾ.j	1	impf.imm.fut.	imperfekt omedelbart framtia tempus
+1064	de	ìsy	ɪ.sj	1	imm.fut.d.	unmittelbares Futur mit Absicht
+1064	en	ìsy	ɪ.sj	1	imm.fut.d.	immediate future tense with determination
+1064	est	ìsy	ɪ.sj	1	imm.fut.d.	Kohese lubava/otsustava tuleviku tunnus.
+1064	hu	ìsy	ɪ.sj	1	imm.fut.d.	közeljövőbeni szándékot kifejező
+1064	nl	ìsy	ɪ.sj	1	imm.fut.d.	onmiddellijke toekomstige tijd met intentie
+1064	pl	ìsy	ɪ.sj	1	imm.fut.d.	czas przyszły bliski zamierzony
+1064	ru	ìsy	ɪ.sj	1	imm.fut.d.	ближайшее будущее время с модальностью намерения
+1064	sv	ìsy	ɪ.sj	1	imm.fut.d.	omedelbart framtida tempus med beslutsamhet
+858	de	--it	it̚	\N	pat.	Patiens
+858	en	--it	it̚	\N	pat.	patientive
+858	est	--it	it̚	\N	pat.	Sihitava käände
+858	hu	--it	it̚	\N	pat.	tárgyeset
+858	nl	--it	it̚	\N	pat.	patientief
+858	pl	--it	it̚	\N	pat.	biernik
+858	ru	--it	it̚	\N	pat.	пациенс
+858	sv	--it	it̚	\N	pat.	ackusativ
+843	de	iyev	i.jɛ.v	1	fut.subj.	Futur Subjunktiv
+843	en	iyev	i.jɛ.v	1	fut.subj.	future subjunctive
+843	est	iyev	i.jɛ.v	1	fut.subj.	Tingiva tuleviku tunnus.
+843	hu	iyev	i.jɛ.v	1	fut.subj.	jövő idejű kötőmód
+843	nl	iyev	i.jɛ.v	1	fut.subj.	toekomstig subjunctief
+843	pl	iyev	i.jɛ.v	1	fut.subj.	czas przyszły, tryb łączący
+843	ru	iyev	i.jɛ.v	1	fut.subj.	сосл. наклонение, будущее время,
+843	sv	iyev	i.jɛ.v	1	fut.subj.	framtida konjunktiv
+872	de	le--	lɛ	\N	adj.	Adjektivpräfix
+872	en	le--	lɛ	\N	adj.	adjective
+872	est	le--	lɛ	\N	adj.	Omadussõnade
+872	hu	le--	lɛ	\N	adj.	melléknevet
+872	nl	le--	lɛ	\N	adj.	adjectief
+872	pl	le--	lɛ	\N	adj.	przymiotnik
+872	ru	le--	lɛ	\N	adj.	прилагательное
+872	sv	le--	lɛ	\N	adj.	adjektiv
 1094	de	--lo	lo	\N	mult.	multiplikativer Zahlen Suffix für 'aw, mune, pxey
 1094	en	--lo	lo	\N	mult.	multiplicative number suffix for 'aw, mune, pxey
 1094	est	--lo	lo	\N	mult.	Korra arvu järelliide numbritele 'aw, mune, pxey
@@ -389,13 +290,66 @@
 1094	pl	--lo	lo	\N	mult.	przyrostek okreslający ilość powtórzeń dla 'aw, mune, pxey
 1094	ru	--lo	lo	\N	mult.	мультипликативный числовой суффикс для 'aw, mune, pxey
 1094	sv	--lo	lo	\N	mult.	multiplikativ nummer-suffix för 'aw, mune, pxey
-1260	de	--ve	vE	\N	ord.	({\\bf pro.}) ordinaler Suffix für Zahlen
-1260	en	--ve	vE	\N	ord.	({\\bf pro.}) ordinal suffix for numbers
-1260	est	--ve	vE	\N	ord.	({\\bf pro.}) Järgarvu järelliide numbritele
-1260	hu	--ve	vE	\N	ord.	({\\bf prod.}) sorszámnévi toldalék
-1260	nl	--ve	vE	\N	ord.	({\\bf pro.}) tellend achtervoegsel voor getallen
-1260	ru	--ve	vE	\N	ord.	({\\bf прод.}) порядковый суффикс числительных
-1260	sv	--ve	vE	\N	ord.	({\\bf pro.}) suffix för att skapa ordningstal
+1792	de	pay+	paj	\N	inter.	(pro.) Interrogativmarker plural
+1792	en	pay+	paj	\N	inter.	(pro.) plural inter. marker
+1792	est	pay+	paj	\N	inter.	(pro.) Mitmuses küsimuse märkija
+1792	hu	pay+	paj	\N	inter.	(prod.) többes számú kérdő
+1792	nl	pay+	paj	\N	inter.	(pro.) meervoudige vvn. markering
+1792	ru	pay+	paj	\N	inter.	(прод.) множественная вопросительная метка
+1792	sv	pay+	paj	\N	inter.	(pro.) plural interr. markör
+864	de	pxe+	p'ɛ	\N	tri.	(pro.) Trial
+864	en	pxe+	p'ɛ	\N	tri.	(pro.) trial
+864	est	pxe+	p'ɛ	\N	tri.	(pro.) Kolmikvormi
+864	hu	pxe+	p'ɛ	\N	tri.	(prod.) hármas szám jele
+864	nl	pxe+	p'ɛ	\N	tri.	(pro.) drievoudig
+864	ru	pxe+	p'ɛ	\N	tri.	(прод.) тройственное число
+864	sv	pxe+	p'ɛ	\N	tri.	trippel
+865	de	--ri	ɾi	\N	top.	Themen-Marker
+865	en	--ri	ɾi	\N	top.	topical
+865	est	--ri	ɾi	\N	top.	Teema käände
+865	hu	--ri	ɾi	\N	top.	jelölt (topikális) alany
+865	nl	--ri	ɾi	\N	top.	topicaal
+865	pl	--ri	ɾi	\N	top.	przypadek tematyczny
+865	ru	--ri	ɾi	\N	top.	топик
+865	sv	--ri	ɾi	\N	top.	ämne
+866	de	--ru	ɾu	\N	dat.	Dativ
+866	en	--ru	ɾu	\N	dat.	dative
+866	est	--ru	ɾu	\N	dat.	Datiivse käände
+866	hu	--ru	ɾu	\N	dat.	részes eset
+866	nl	--ru	ɾu	\N	dat.	datief
+866	pl	--ru	ɾu	\N	dat.	celownik
+866	ru	--ru	ɾu	\N	dat.	датив
+866	sv	--ru	ɾu	\N	dat.	dativ
+868	de	--ti	ti	\N	pat.	Patiens
+868	en	--ti	ti	\N	pat.	patientive
+868	est	--ti	ti	\N	pat.	Sihitava käände
+868	hu	--ti	ti	\N	pat.	tárgyeset
+868	nl	--ti	ti	\N	pat.	patientief
+868	pl	--ti	ti	\N	pat.	biernik
+868	ru	--ti	ti	\N	pat.	пациенс
+868	sv	--ti	ti	\N	pat.	ackusativ
+877	de	--tu	tu	\N	d.o.nom.	Personensuffix bei nicht-Verben
+877	en	--tu	tu	\N	d.o.nom.	person noun from non-verbal stem
+877	est	--tu	tu	\N	d.o.nom.	(pro.) Tegija
+877	hu	--tu	tu	\N	d.o.nom.	(prod.) nem igei tőből személyt jelentő főnevet
+877	nl	--tu	tu	\N	d.o.nom.	persoons zn. van niet-ww. stam
+877	ru	--tu	tu	\N	d.o.nom.	суффикс существительного, выражает направленность действия на субъект
+877	sv	--tu	tu	\N	d.o.nom.	(pro.) direkt objekt substantiv
+869	de	--ur	uɾ	\N	dat.	Dativ
+869	en	--ur	uɾ	\N	dat.	dative
+869	est	--ur	uɾ	\N	dat.	Datiivse käände
+869	hu	--ur	uɾ	\N	dat.	részes eset
+869	nl	--ur	uɾ	\N	dat.	datief
+869	pl	--ur	uɾ	\N	dat.	celownik
+869	ru	--ur	uɾ	\N	dat.	датив
+869	sv	--ur	uɾ	\N	dat.	dativ
+1260	de	--ve	vɛ	\N	ord.	(pro.) ordinaler Suffix für Zahlen
+1260	en	--ve	vɛ	\N	ord.	(pro.) ordinal suffix for numbers
+1260	est	--ve	vɛ	\N	ord.	(pro.) Järgarvu järelliide numbritele
+1260	hu	--ve	vɛ	\N	ord.	(prod.) sorszámnévi toldalék
+1260	nl	--ve	vɛ	\N	ord.	(pro.) tellend achtervoegsel voor getallen
+1260	ru	--ve	vɛ	\N	ord.	(прод.) порядковый суффикс числительных
+1260	sv	--ve	vɛ	\N	ord.	(pro.) suffix för att skapa ordningstal
 1287	de	--vi	vi	\N	part.	partieller Beziehungsmarker
 1287	en	--vi	vi	\N	part.	partitive relationship marker
 1287	est	--vi	vi	\N	part.	(millegi) väiksema osa näitaja
@@ -412,6 +366,177 @@
 1316	pl	--ya	ja	\N	voc.	przyrostek wołacza rzeczowników zbiorowych
 1316	ru	--ya	ja	\N	voc.	суффикс звательного падежа для собирательных существительных
 1316	sv	--ya	ja	\N	voc.	vokativt suffix för kollektiva substantiv
+878	de	--yu	ju	\N	a.nom.	(pro.) Personensuffix bei Verben
+878	en	--yu	ju	\N	a.nom.	(pro.) agent noun
+878	est	--yu	ju	\N	a.nom.	(pro.) Tegija
+878	hu	--yu	ju	\N	a.nom.	(prod.) főnév
+878	nl	--yu	ju	\N	a.nom.	(pro.) persoons zn. van ww. stam
+878	ru	--yu	ju	\N	a.nom.	(прод.) суффикс образования отглагольных существительных, обозначающих лицо, называемое по роду занятий, профессии
+878	sv	--yu	ju	\N	a.nom.	(pro.) agentivt substantiv
+1517	de	alm	al.m	1	perf.past	perfektive Vergangenheit
+1517	en	alm	al.m	1	perf.past	perfective past tense
+1517	est	alm	al.m	1	perf.past	Lõpetatud (perfektiivse) tegevuse tunnus.
+1517	hu	alm	al.m	1	perf.past	befejezett múlt időt kifejező
+1517	nl	alm	al.m	1	perf.past	voltooid verleden tijd
+1517	pl	alm	al.m	1	perf.past	czas przeszły, aspekt dokonany
+1517	ru	alm	al.m	1	perf.past	сов.вид, прошедшее время,
+1517	sv	alm	al.m	1	perf.past	perfekt dåtida tempus
+1518	de	aly	al.j	1	perf.fut.	perfektive Zukunft
+1518	en	aly	al.j	1	perf.fut.	perfective future tense
+1518	est	aly	al.j	1	perf.fut.	Lõpetatud (perfektiivse) tuleviku tunnus.
+1518	hu	aly	al.j	1	perf.fut.	befejezett jövőre utaló
+1518	nl	aly	al.j	1	perf.fut.	voltooid toekomende tijd
+1518	pl	aly	al.j	1	perf.fut.	czas przyszły, aspekt dokonany
+1518	ru	aly	al.j	1	perf.fut.	сов. вид, будущее время,
+1518	sv	aly	al.j	1	perf.fut.	perfekt framtida tempus
+836	de	äp	æ.p	0	refl.	Reflexiv
+836	en	äp	æ.p	0	refl.	reflexive
+836	est	äp	æ.p	0	refl.	Enesekohase asesõna tunnus.
+836	hu	äp	æ.p	0	refl.	visszaható névmás
+836	nl	äp	æ.p	0	refl.	wederkerend
+836	pl	äp	æ.p	0	refl.	strona zwrotna
+836	ru	äp	æ.p	0	refl.	возвратный (-ся),
+836	sv	äp	æ.p	0	refl.	reflektorisk
+833	de	arm	aɾ.m	1	impf.past.	Präteritum, imperfektiver Aspekt
+833	en	arm	aɾ.m	1	impf.past.	imperfective past tense
+833	est	arm	aɾ.m	1	impf.past.	Lõpetamata (imperfektiivse) mineviku tunnus.
+833	hu	arm	aɾ.m	1	impf.past.	befejezetlen múlt idő jele
+833	nl	arm	aɾ.m	1	impf.past.	imperfectieve verleden tijd
+833	pl	arm	aɾ.m	1	impf.past.	czas przeszły, aspekt niedokonany
+833	ru	arm	aɾ.m	1	impf.past.	несов. прош. время,
+833	sv	arm	aɾ.m	1	impf.past.	imperfekt föregående tempus
+1519	de	ary	aɾ.j	1	impf.fut.	imperfektive Zukunft
+1519	en	ary	aɾ.j	1	impf.fut.	imperfective future tense
+1519	est	ary	aɾ.j	1	impf.fut.	Lõpetamata (imperfektiivse) tuleviku tunnus.
+1519	hu	ary	aɾ.j	1	impf.fut.	folyamatos jövőre utaló
+1519	nl	ary	aɾ.j	1	impf.fut.	imperfectief toekomende tijd
+1519	pl	ary	aɾ.j	1	impf.fut.	czas przyszły, aspekt niedokonany
+1519	ru	ary	aɾ.j	1	impf.fut.	несов. вид, будущее время,
+1519	sv	ary	aɾ.j	1	impf.fut.	imperfekt framtida tempus
+1065	de	asy	a.sj	1	fut.d.	Futur mit Absicht
+1065	en	asy	a.sj	1	fut.d.	future tense with intention or determination
+1065	est	asy	a.sj	1	fut.d.	Kindla/otsustava tuleviku tunnus.
+1065	hu	asy	a.sj	1	fut.d.	jövőbeni szándékot vagy elhatározást kifejező
+1065	nl	asy	a.sj	1	fut.d.	toekomstige tijd met intentie
+1065	pl	asy	a.sj	1	fut.d.	czas przyszły zamierzony
+1065	ru	asy	a.sj	1	fut.d.	будущее время (намерение или неизбежность)
+1065	sv	asy	a.sj	1	fut.d.	framtida tempus med beslutsamhet
+998	de	ats	a.t͡s	2	infr.	Inferential, zeigt Unsicherheit an oder indirektes Wissen (Hörensagen)
+998	en	ats	a.t͡s	2	infr.	inferential, indicating uncertainty or indirect knowledge
+998	est	ats	a.t͡s	2	infr.	Kaudse kõneviisi ja ebakindlate teadmiste tunnus
+998	hu	ats	a.t͡s	2	infr.	inferenciális, bizonytalan vagy indirekt értesülést jelölő
+998	nl	ats	a.t͡s	2	infr.	inferentieel, geeft onzekerheid of indirecte kennis aan
+998	pl	ats	a.t͡s	2	infr.	tryb nieświadka
+998	ru	ats	a.t͡s	2	infr.	передающий неуверенность говорящего в достоверности сообщаемых сведений аффективный
+998	sv	ats	a.t͡s	2	infr.	osäker handling, vilket tyder på osäkerhet eller indirekt kunskap
+1066	de	awn	aw.n	1	p.part.	Partizip Passiv
+1066	en	awn	aw.n	1	p.part.	passive participle
+1066	est	awn	aw.n	1	p.part.	-nud, -tud vormi tunnus.
+1066	hu	awn	aw.n	1	p.part.	befejezett melléknévi igenevet képző
+1066	nl	awn	aw.n	1	p.part.	passief deelwoord
+1066	pl	awn	aw.n	1	p.part.	imiesłów przymiotnikowy bierny
+1066	ru	awn	aw.n	1	p.part.	причастие страдательного залога
+1066	sv	awn	aw.n	1	p.part.	passiv patricip
+853	de	ay+	aj	\N	pl.	(pro.) Plural
+853	en	ay+	aj	\N	pl.	(pro.) plural
+853	est	ay+	aj	\N	pl.	Mitmuse
+853	hu	ay+	aj	\N	pl.	(prod.) többes szám
+853	nl	ay+	aj	\N	pl.	(pro.) meervoudig
+853	ru	ay+	aj	\N	pl.	(прод.) множественное число
+853	sv	ay+	aj	\N	pl.	plural
+854	de	--e	ɛ	\N	fem.	Feminines Suffix für bestimmte Nomen
+854	en	--e	ɛ	\N	fem.	feminine suffix for certain nouns
+854	est	--e	ɛ	\N	fem.	Naissoo tunnus nimisõnadele
+854	hu	--e	ɛ	\N	fem.	nőnem jelző bizonyos főnevek végén
+854	nl	--e	ɛ	\N	fem.	vrouwelijk achtervoegsel voor bepaalde zn.
+854	pl	--e	ɛ	\N	fem.	przyrostek rodzaju żeńskiego
+854	ru	--e	ɛ	\N	fem.	суффикс женского рода для некоторых существительных
+854	sv	--e	ɛ	\N	fem.	(1) feminint suffix för vissa suffix
+932	de	eyk	ɛj.k	0	caus.	Kausativ
+932	en	eyk	ɛj.k	0	caus.	causative
+932	est	eyk	ɛj.k	0	caus.	Põhjustava (kausatiivse) tegusõna tunnus.
+932	hu	eyk	ɛj.k	0	caus.	műveltető
+932	nl	eyk	ɛj.k	0	caus.	oorzakelijk
+932	pl	eyk	ɛj.k	0	caus.	strona sprwcza
+932	ru	eyk	ɛj.k	0	caus.	казуальный
+932	sv	eyk	ɛj.k	0	caus.	orsakande
+839	de	ilv	il.v	1	pres.per.subj.	Präsens Perfektiver Subjunktiv
+839	en	ilv	il.v	1	pres.per.subj.	present perfective subjunctive
+839	est	ilv	il.v	1	pres.per.subj.	Tingiva oleviku perfektiivne tunnus.
+839	hu	ilv	il.v	1	pres.per.subj.	jelen idejű befejezett kötőmód
+839	nl	ilv	il.v	1	pres.per.subj.	huidige perfectieve aanvoegende wijs
+839	pl	ilv	il.v	1	pres.per.subj.	czas teraźniejszy, aspekt dokonany, tryb łączący
+839	ru	ilv	il.v	1	pres.per.subj.	сослагательное наклонение настоящего времени совершенного вида
+839	sv	ilv	il.v	1	pres.per.subj.	nutida, perfekt konjunktiv
+844	de	ìm	ɪ.m	1	rec.past.	unmittelbare Vergangenheit
+844	en	ìm	ɪ.m	1	rec.past.	recent past
+844	est	ìm	ɪ.m	1	rec.past.	Hiljutise lihtmineviku tunnus.
+844	hu	ìm	ɪ.m	1	rec.past.	közelmúlt jele
+844	nl	ìm	ɪ.m	1	rec.past.	recent verleden
+844	pl	ìm	ɪ.m	1	rec.past.	czas przeszły bliski
+844	ru	ìm	ɪ.m	1	rec.past.	недавнее прош. время,
+844	sv	ìm	ɪ.m	1	rec.past.	Nylig dåtid
+840	de	imv	im.v	1	past.subj.	Präteritum Subjunktiv
+840	en	imv	im.v	1	past.subj.	past subjunctive
+840	est	imv	im.v	1	past.subj.	Tingiva täismineviku tunnus.
+840	hu	imv	im.v	1	past.subj.	múlt idejű kötőmód
+840	nl	imv	im.v	1	past.subj.	verleden subjunctief
+840	pl	imv	im.v	1	past.subj.	czas przeszły, tryb łączący
+840	ru	imv	im.v	1	past.subj.	сосл. наклонение, прош. время,
+840	sv	imv	im.v	1	past.subj.	förflutet konjunktiv
+841	de	irv	iɾ.v	1	pres.impf.subj.	Präsens Imperfektiver Subjunktiv
+841	en	irv	iɾ.v	1	pres.impf.subj.	present imperfective subjunctive
+841	est	irv	iɾ.v	1	pres.impf.subj.	Tingiva lõpetamata (impefektiivse) oleviku tunnus.
+841	hu	irv	iɾ.v	1	pres.impf.subj.	jelen idejű befejezetlen kötőmód
+841	nl	irv	iɾ.v	1	pres.impf.subj.	imperfectieve tegenwoordige tijd subjunctief
+841	pl	irv	iɾ.v	1	pres.impf.subj.	czas teraźniejszy, aspekt niedokonany, tryb łączący
+841	ru	irv	iɾ.v	1	pres.impf.subj.	сосл. наклонение, несов. наст. время,
+841	sv	irv	iɾ.v	1	pres.impf.subj.	presens, imperfekt konjunktiv
+846	de	ìy	ɪ.j	1	imm.fut.	unmittelbare Zukunft
+846	en	ìy	ɪ.j	1	imm.fut.	immediate future tense
+846	est	ìy	ɪ.j	1	imm.fut.	Kohese tuleviku tunnus
+846	hu	ìy	ɪ.j	1	imm.fut.	közeljövő jele
+846	nl	ìy	ɪ.j	1	imm.fut.	onvoltooid onmiddelijk toekomstige tijd
+846	pl	ìy	ɪ.j	1	imm.fut.	czas przyszły bliski
+846	ru	ìy	ɪ.j	1	imm.fut.	ближайшее будущее время,
+846	sv	ìy	ɪ.j	1	imm.fut.	Omedelbart framtida tempus
+859	de	--l	l	\N	erg.	Agens
+859	en	--l	l	\N	erg.	agentive case
+859	est	--l	l	\N	erg.	Aluse käände
+859	hu	--l	l	\N	erg.	ergatív esetű alany
+859	nl	--l	l	\N	erg.	agentief
+859	pl	--l	l	\N	erg.	ergatyw
+859	ru	--l	l	\N	erg.	агентив
+859	sv	--l	l	\N	erg.	Ergativ händelse
+861	de	me+	mɛ	\N	du.	(pro.) Dual
+861	en	me+	mɛ	\N	du.	(pro.) dual
+861	est	me+	mɛ	\N	du.	(pro.) Kaksikvormi
+861	hu	me+	mɛ	\N	du.	(prod.) kettes szám jele
+861	nl	me+	mɛ	\N	du.	(pro.) tweevoudig
+861	ru	me+	mɛ	\N	du.	(прод.) двойственное число
+861	sv	me+	mɛ	\N	du.	Dubbel
+1063	de	--o	o	\N	indef., dur.	(pro.) Indefinit-Suffix, zeitliche Dauer
+1063	en	--o	o	\N	indef., dur.	(pro.) indefinite suffix, durative suffix
+1063	est	--o	o	\N	indef., dur.	(pro.) Umbisiikulilise tegumoe, kestva toimingu järelliide
+1063	hu	--o	o	\N	indef., dur.	(prod.) határozatlan toldalék, időtartamra utaló
+1063	nl	--o	o	\N	indef., dur.	(pro.) onbepaald achtervoegsel
+1063	ru	--o	o	\N	indef., dur.	(прод.) суффикс со значением неопределенности, длительности
+1063	sv	--o	o	\N	indef., dur.	(pro.) suffix
+2052	de	--r	ɾ	\N	dat.	Dativ
+2052	en	--r	ɾ	\N	dat.	dative
+2052	est	--r	ɾ	\N	dat.	datiivne
+2052	hu	--r	ɾ	\N	dat.	részes eset
+2052	nl	--r	ɾ	\N	dat.	datief
+2052	pl	--r	ɾ	\N	dat.	celownik
+2052	ru	--r	ɾ	\N	dat.	дательный
+867	de	--t	t̚	\N	pat.	Patiens
+867	en	--t	t̚	\N	pat.	patientive
+867	est	--t	t̚	\N	pat.	Sihitava käände
+867	hu	--t	t̚	\N	pat.	tárgyeset
+867	nl	--t	t̚	\N	pat.	patientief
+867	pl	--t	t̚	\N	pat.	biernik
+867	ru	--t	t̚	\N	pat.	пациенс
+867	sv	--t	t̚	\N	pat.	ackusativ
 1333	de	--y	j	\N	gen.	Genitiv
 1333	en	--y	j	\N	gen.	genitive
 1333	est	--y	j	\N	gen.	Omastava (genitiivse) käände
@@ -420,200 +545,75 @@
 1333	pl	--y	j	\N	gen.	dopełniacz
 1333	ru	--y	j	\N	gen.	генитив
 1333	sv	--y	j	\N	gen.	genitiv
-1515	de	ìry	IR.j	1	impf.imm.fut.	imperfektiver Aspekt der unmittelbaren Zukunft
-1515	en	ìry	IR.j	1	impf.imm.fut.	imperfective immediate future tense
-1515	est	ìry	IR.j	1	impf.imm.fut.	Kohese lõpetamata (imperfektiivse) tuleviku tunnus.
-1515	hu	ìry	IR.j	1	impf.imm.fut.	folyamatos közeljövőre utaló
-1515	nl	ìry	IR.j	1	impf.imm.fut.	imperfectief onmiddellijk toekomende tijd
-1515	pl	ìry	IR.j	1	impf.imm.fut.	czas przyszły bliski, aspekt niedokonany
-1515	ru	ìry	IR.j	1	impf.imm.fut.	несов. вид, ближайшее будущее время, 
-1515	sv	ìry	IR.j	1	impf.imm.fut.	imperfekt omedelbart framtia tempus
-1516	de	ìly	Il.j	1	perf.imm.fut.	perfektiver Aspekt der unmittelbaren Zukunft
-1516	en	ìly	Il.j	1	perf.imm.fut.	perfective immediate future tense
-1516	est	ìly	Il.j	1	perf.imm.fut.	Kohese lõpetatud (perfektiivse) tuleviku tunnus.
-1516	hu	ìly	Il.j	1	perf.imm.fut.	befejezett közeljövőre utaló
-1516	nl	ìly	Il.j	1	perf.imm.fut.	voltooid onmiddellijk toekomende tijd
-1516	pl	ìly	Il.j	1	perf.imm.fut.	czas przyszły bliski, aspekt dokonany
-1516	ru	ìly	Il.j	1	perf.imm.fut.	сов. вид, ближайшее будущее время, 
-1516	sv	ìly	Il.j	1	perf.imm.fut.	perfekt omedelbart framtida tempus
-1517	de	alm	al.m	1	perf.past	perfektive Vergangenheit
-1517	en	alm	al.m	1	perf.past	perfective past tense
-1517	est	alm	al.m	1	perf.past	Lõpetatud (perfektiivse) tegevuse tunnus.
-1517	hu	alm	al.m	1	perf.past	befejezett múlt időt kifejező
-1517	nl	alm	al.m	1	perf.past	voltooid verleden tijd
-1517	pl	alm	al.m	1	perf.past	czas przeszły, aspekt dokonany
-1517	ru	alm	al.m	1	perf.past	сов.вид, прошедшее время, 
-1517	sv	alm	al.m	1	perf.past	perfekt dåtida tempus
-1518	de	aly	al.j	1	perf.fut.	perfektive Zukunft
-1518	en	aly	al.j	1	perf.fut.	perfective future tense
-1518	est	aly	al.j	1	perf.fut.	Lõpetatud (perfektiivse) tuleviku tunnus.
-1518	hu	aly	al.j	1	perf.fut.	befejezett jövőre utaló
-1518	nl	aly	al.j	1	perf.fut.	voltooid toekomende tijd
-1518	pl	aly	al.j	1	perf.fut.	czas przyszły, aspekt dokonany
-1518	ru	aly	al.j	1	perf.fut.	сов. вид, будущее время, 
-1518	sv	aly	al.j	1	perf.fut.	perfekt framtida tempus
-1519	de	ary	aR.j	1	impf.fut.	imperfektive Zukunft
-1519	en	ary	aR.j	1	impf.fut.	imperfective future tense
-1519	est	ary	aR.j	1	impf.fut.	Lõpetamata (imperfektiivse) tuleviku tunnus.
-1519	hu	ary	aR.j	1	impf.fut.	folyamatos jövőre utaló
-1519	nl	ary	aR.j	1	impf.fut.	imperfectief toekomende tijd
-1519	pl	ary	aR.j	1	impf.fut.	czas przyszły, aspekt niedokonany
-1519	ru	ary	aR.j	1	impf.fut.	несов. вид, будущее время, 
-1519	sv	ary	aR.j	1	impf.fut.	imperfekt framtida tempus
-1520	de	ìrm	IR.m	1	impf.rec.past.	imperfektiver Aspekt der umittelbaren Vergangenheit
-1520	en	ìrm	IR.m	1	impf.rec.past.	imperfective recent past tense
-1520	est	ìrm	IR.m	1	impf.rec.past.	Hiljutise lõpetamata (imperfektiivse) mineviku tunnus.
-1520	hu	ìrm	IR.m	1	impf.rec.past.	folyamatos közelmúltra utaló
-1520	nl	ìrm	IR.m	1	impf.rec.past.	imperfectief recent verleden tijd
-1520	pl	ìrm	IR.m	1	impf.rec.past.	czas przeszły bliski, aspekt niedokonany
-1520	ru	ìrm	IR.m	1	impf.rec.past.	несов. вид, недавно прошедшее время
-1520	sv	ìrm	IR.m	1	impf.rec.past.	imperfekt nyligen dåtida tempus
-1521	de	ìlm	Il.m	1	perf.rec.past.	perfektiver Aspekt der unmittelbaren Vergangenheit
-1521	en	ìlm	Il.m	1	perf.rec.past.	perfective recent past tense
-1521	est	ìlm	Il.m	1	perf.rec.past.	Hiljutise lõpetatud (perfektiivse) mineviku tunnus.
-1521	hu	ìlm	Il.m	1	perf.rec.past.	befejezett közelmúltra utaló
-1521	nl	ìlm	Il.m	1	perf.rec.past.	voltooid recent verleden tijd
-1521	pl	ìlm	Il.m	1	perf.rec.past.	czas przeszły bliski, aspekt dokonany
-1521	ru	ìlm	Il.m	1	perf.rec.past.	сов. вид, ближайшее прошедшее время, 
-1521	sv	ìlm	Il.m	1	perf.rec.past.	perfekt nyligen dåtida tempus.
-1522	de	--tsyìp	\\t{ts}jIp\\textcorner	\N	dim.	({\\bf pro.}) Diminutiv-Suffix für Nomen, Pronomen
-1522	en	--tsyìp	\\t{ts}jIp\\textcorner	\N	dim.	({\\bf pro.}) diminutive suffix for nouns, pronouns
-1522	est	--tsyìp	\\t{ts}jIp\\textcorner	\N	dim.	({\\bf pro.}) Hellitav, õrnutsev, vähem tähtsamaks tegev, narriv vorm vastavalt kontekstile
-1522	hu	--tsyìp	\\t{ts}jIp\\textcorner	\N	dim.	({\\bf prod.}) kicsinyítő képző főnevek, névmások végén(produktív, sosem hangsúlyos)
-1522	nl	--tsyìp	\\t{ts}jIp\\textcorner	\N	dim.	({\\bf pro.}) verkleinend achtervoegsel voor zn. en vn.
-1522	ru	--tsyìp	\\t{ts}jIp\\textcorner	\N	dim.	({\\bf прод.}) уменьшительный суффикс для существительных и местоимений
-1522	sv	--tsyìp	\\t{ts}jIp\\textcorner	\N	dim.	({\\bf pro.}) diminutiva suffix för substantiv, pronomen
-1540	de	tì-- --us--	tI us	\N	ger.	({\\bf pro.}) Gerundium (Verbalnomen)
-1540	en	tì-- --us--	tI us	\N	ger.	({\\bf pro.}) gerund (verbal noun)
-1540	est	tì-- --us--	tI us	\N	ger.	({\\bf pro.}) Gerundiivi, teonime moodustamine
-1540	hu	tì-- --us--	tI us	\N	ger.	(4) gerundiumot (főnévként viselkedő főnévi igenevet)
-1540	nl	tì-- --us--	tI us	\N	ger.	({\\bf pro.}) zelfstandig gebruik werkwoord
-1540	ru	tì-- --us--	tI us	\N	ger.	({\\bf прод.}) глагольное существительное
-1540	sv	tì-- --us--	tI us	\N	ger.	({\\bf pro.}) gerundium (verbalt substantiv)
-1744	de	fra--	fRa	\N	every	({\\bf pro.}) {\\it jeder}
-1744	en	fra--	fRa	\N	every	({\\bf pro.}) {\\it every}
-1744	est	fra--	fRa	\N	every	({\\bf pro.}) {\\it iga}
-1744	hu	fra--	fRa	\N	every	({\\bf prod.}) {\\it minden}
-1744	nl	fra--	fRa	\N	every	({\\bf pro.}) {\\it elke}
-1744	ru	fra--	fRa	\N	every	({\\bf прод.}) {\\it каждый}
-1744	sv	fra--	fRa	\N	every	({\\bf pro.}) {\\it varje}
-1745	de	kaw--	kaw	\N	never	{\\it nicht einer}
-1745	en	kaw--	kaw	\N	never	{\\it not one}
-1745	est	kaw--	kaw	\N	never	{\\it mitte +}
-1745	hu	kaw--	kaw	\N	never	{\\it se-, sem-, semmi-}
-1745	nl	kaw--	kaw	\N	never	{\\it niet een}
-1745	pl	kaw--	kaw	\N	never	{\\it żaden}
-1745	ru	kaw--	kaw	\N	never	{\\it никто}
-1745	sv	kaw--	kaw	\N	never	{\\it inte en}
-1785	de	fì--	fI	\N	this	({\\bf pro.}) {\\it dies}
-1785	en	fì--	fI	\N	this	({\\bf pro.}) {\\it this}
-1785	est	fì--	fI	\N	this	({\\bf pro.}){\\it see},
-1785	hu	fì--	fI	\N	this	({\\bf prod.}) {\\it ez a(z)}
-1785	nl	fì--	fI	\N	this	({\\bf pro.}) {\\it dit}
-1785	ru	fì--	fI	\N	this	({\\bf прод.}) {\\it это}
-1785	sv	fì--	fI	\N	this	({\\bf pro.}) {\\it den här}
-1786	de	fne--	fnE	\N	kind	({\\bf pro.}) {\\it Art von}
-1786	en	fne--	fnE	\N	kind	({\\bf pro.}) {\\it kind, type}
-1786	est	fne--	fnE	\N	kind	({\\bf pro.}){\\it liik, sort},
-1786	hu	fne--	fnE	\N	kind	({\\bf prod.}) {\\it féle, fajta}
-1786	nl	fne--	fnE	\N	kind	({\\bf pro.}) {\\it soort, type}
-1786	ru	fne--	fnE	\N	kind	({\\bf прод.}) {\\it тип}
-1786	sv	fne--	fnE	\N	kind	({\\bf pro.}) {\\it sort, typ}
-1787	de	tsa--	\\t{ts}a	\N	that	({\\bf pro.}) {\\it jene, -r, -s}
-1787	en	tsa--	\\t{ts}a	\N	that	({\\bf pro.}) {\\it that}
-1787	est	tsa--	\\t{ts}a	\N	that	({\\bf pro.}){\\it see},
-1787	hu	tsa--	\\t{ts}a	\N	that	({\\bf prod.}) {\\it az a(z)…}
-1787	nl	tsa--	\\t{ts}a	\N	that	({\\bf pro.}) {\\it die}
-1787	ru	tsa--	\\t{ts}a	\N	that	({\\bf прод.}) {\\it тот}
-1787	sv	tsa--	\\t{ts}a	\N	that	({\\bf pro.}) {\\it that}
-1788	de	fay+	faj	\N	these	({\\bf pro.}) {\\it diese} (plural)
-1788	en	fay+	faj	\N	these	({\\bf pro.}) {\\it these}
-1788	est	fay+	faj	\N	these	({\\bf pro.}) {\\it need}
-1788	hu	fay+	faj	\N	these	({\\bf prod.}) {\\it az a(z)…}
-1788	nl	fay+	faj	\N	these	({\\bf pro.}) {\\it deze}
-1788	pl	fay+	faj	\N	these	\N
-1788	ru	fay+	faj	\N	these	({\\bf прод.}) {\\it эти}
-1788	sv	fay+	faj	\N	these	({\\bf pro.}) {\\it dessa, dem här}
-1790	de	tsay+	\\t{ts}aj	\N	those	({\\bf pro.}) {\\it jene} (plural)
-1790	en	tsay+	\\t{ts}aj	\N	those	({\\bf pro.}) {\\it those}
-1790	est	tsay+	\\t{ts}aj	\N	those	({\\bf pro.}) {\\it need}
-1790	hu	tsay+	\\t{ts}aj	\N	those	({\\bf prod.}) {\\it azok a(z)…}
-1790	nl	tsay+	\\t{ts}aj	\N	those	({\\bf pro.}) {\\it die} meervoudig
-1790	ru	tsay+	\\t{ts}aj	\N	those	({\\bf прод.}) {\\it те}
-1790	sv	tsay+	\\t{ts}aj	\N	those	({\\bf pro.}) {\\it dem där, dem}
-1792	de	pay+	paj	\N	inter.	({\\bf pro}) Interrogativmarker plural
-1792	en	pay+	paj	\N	inter.	({\\bf pro.}) plural inter. marker
-1792	est	pay+	paj	\N	inter.	({\\bf pro.}) Mitmuses küsimuse märkija
-1792	hu	pay+	paj	\N	inter.	({\\bf prod.}) többes számú kérdő
-1792	nl	pay+	paj	\N	inter.	({\\bf pro.}) meervoudige vvn. markering
-1792	ru	pay+	paj	\N	inter.	({\\bf прод.}) множественная вопросительная метка
-1792	sv	pay+	paj	\N	inter.	({\\bf pro.}) plural interr. markör
-1843	de	--fkeyk	fkEjk\\textcorner	\N	state	({\\bf pro.}) Suffix für Nomen mit der Bedeutung {\\it -zustand, -situation}
-1843	en	--fkeyk	fkEjk\\textcorner	\N	state	({\\bf pro.}) suffix for nouns meaning {\\it state, condition}
-1843	est	--fkeyk	fkEjk\\textcorner	\N	state	({\\bf pro.}) järelliide nimisõnadele mis märgivad {\\it olekut}
-1843	hu	--fkeyk	fkEjk\\textcorner	\N	state	({\\bf prod.}) utótag főnevekhez {\\it állapotot, körülményt fejez ki}
-1843	nl	--fkeyk	fkEjk\\textcorner	\N	state	({\\bf pro.}) achtervoegsel voor zn. die {\\it toestand, conditie} betekenen
-1843	ru	--fkeyk	fkEjk\\textcorner	\N	state	({\\bf pro.}) суффикс для сущ., означающий {\\it состояние, качество}
-1843	sv	--fkeyk	fkEjk\\textcorner	\N	state	({\\bf pro.}) suffix för substantiv betydande {\\it tillstånd, situation}
-1890	de	--nga'	NaP\\textcorner	\N	adj.	Adjektivmarker
-1890	en	--nga'	NaP\\textcorner	\N	adj.	adjective
-1890	est	--nga'	NaP\\textcorner	\N	adj.	omadussõna
-1890	hu	--nga'	NaP\\textcorner	\N	adj.	melléknév
-1890	nl	--nga'	NaP\\textcorner	\N	adj.	adjectief
-1890	pl	--nga'	NaP\\textcorner	\N	adj.	przymiotnik
-1890	ru	--nga'	NaP\\textcorner	\N	adj.	прилагательное
-1890	sv	--nga'	NaP\\textcorner	\N	adj.	adjektiv
-2052	de	--r	R	\N	dat.	Dativ
-2052	en	--r	R	\N	dat.	dative
-2052	est	--r	R	\N	dat.	datiivne
-2052	hu	--r	R	\N	dat.	részes eset
-2052	nl	--r	R	\N	dat.	datief
-2052	pl	--r	R	\N	dat.	celownik
-2052	ru	--r	R	\N	dat.	дательный
-2196	de	--tswo	\\t{ts}wo	\N	suffix	({\\bf pro.}) Suffix, das ein Verb in ein Nomen ändert, das die Fähigkeit anzeigt, das Verb auszuführen
-2196	en	--tswo	\\t{ts}wo	\N	suffix	({\\bf pro.}) suffix that changes a verb to a noun indicating the ability to perform the action of the verb
-2196	est	--tswo	\\t{ts}wo	\N	suffix	({\\bf pro.}) järelliide, mis muudab tegusõna nimisõnaks, mis näitab võimet tegusõna tegevust sooritada
-2196	hu	--tswo	\\t{ts}wo	\N	suffix	({\\bf pro.}) utótag, amely az igét főnévvé változtatja, jelezve az ige végrehajtásának képességét
-2196	nl	--tswo	\\t{ts}wo	\N	suffix	({\\bf pro.}) achtervoegsel dat een werkwoord in een zn. veranderd, en de mogelijkheid tot het uitvoeren van de actie van het werkwoord aangeeft
-2196	ru	--tswo	\\t{ts}wo	\N	suffix	({\\bf прод.}) суффикс, изменяющий глагол на существительное, со способностью выполнить действие глагола
-2197	de	sna--	sna	\N	prefix	Präfix Gruppenmarker für Nomen; {\\bf pro.} wenn auf Lebewesen bezogen, ansonsten {\\bf unpro.} 
-2197	en	sna--	sna	\N	prefix	prefix group marker for nouns; {\\bf pro.} when referring to living things, {\\bf unpro.} otherwise. 
-2197	est	sna--	sna	\N	prefix	eesliide grupi/kogumiku märkimiseks nimisõnadel {\\bf pro.} kui elavate puhul, {\\bf pro.} muudel juhtudel
-2197	hu	sna--	sna	\N	prefix	előtag, csoportot jelez főnevek elején; {\\bf pro.} élőlényekre utal, {\\bf unpro.} másképpen
-2197	nl	sna--	sna	\N	prefix	voorvoegsel, groepen van zn.; {\\bf pro.} om levende dingen aan te geven, anders {\\bf onpro.}
-2197	ru	sna--	sna	\N	prefix	префикс группы для существительных; {\\bf прод.} в отношении живых существ, иначе {\\bf непрод.}
-2416	de	--nay	naj	\N	dim.	{\\bf (unpro.)} erzeugt ein neues Nomen, das sich auf das Original bezieht, aber einen Schritt weiter unten in der jeweiligen Hierarchie ist – Größe, Rang, Fähigkeit, etc.
-2416	en	--nay	naj	\N	dim.	 {\\bf (unpro.)} creates a new noun that is related to the original by being a step down in some relevant heirarchy - size, rank, accomplishment, etc.
-2416	est	--nay	naj	\N	dim.	{\\bf (mittepro.)} loob uue nimisõna, mis on esialgsest üks aste vähemtähtsam, madalam, väiksem jne.
-2416	hu	--nay	naj	\N	dim.	{\\bf (unpro.)} olyan főnevet képez az eredetiből, amely jelentése nála eggyel lejjebb van a ranglétrán - méretben, rangban, stb.
-2416	nl	--nay	naj	\N	dim.	{\\bf (unpro.)} creëert een nieuw zn. relatief aan het origineel, maar een graad lager in de relevante hierarchie, - maat, rang, etc.
-2416	ru	--nay	naj	\N	dim.	({\\bf непрод.}) создает новое существительное, которое по отношению к оригинальному на ступень ниже в какой-либо иерахии -- размер, ранг, завершенность и т.д.)
-2460	de	tsuk--	\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) möglich (das Verb mit Vorsilbe) zu tun; weitgehend produktiv, kann an beinah jedes transitive Verb angehängt werden, obwohl es auch mit intransitiven Verben benutzt wird;
-2460	en	tsuk--	\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) able to (do the verb prefixed); widely productive, can be attached to virtually any transitive verb, although also useful on intransitive verbs;
-2460	est	tsuk--	\\t{ts}uk\\textcorner	\N	adj.	({\\bf eessõna.}) tehtav; võib kasutada kõikide sihiliste tegusõnadega
-2460	hu	tsuk--	\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) -ható, -hető (igéhez csatlakoztatott előtag, melléknévi igenevet képez); teljesen produktív, minden igéhez hozzátehető;
-2460	nl	tsuk--	\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) mogelijk zijn (het geprefixte ww. uit te voeren); zeer productief, kan aan praktisch elk wwo. gekoppeld worden, doch ook bruikbaar bij wwn.;
-2460	ru	tsuk--	\\t{ts}uk\\textcorner	\N	adj.	({\\bf прод.}) способность (делать обозначенное глаголом)
-2461	de	ketsuk--	kE.\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) nicht möglich zu
-2461	en	ketsuk--	kE.\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) not able to (do the verb prefixed)
-2461	est	ketsuk--	kE.\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) mitte saama (teha tüvitegusõna)
-2461	hu	ketsuk--	kE.\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) -hatatlan, -hetetlen (igéhez járuló toldalék, melléknévi igenevet képez)
-2461	nl	ketsuk--	kE.\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) niet mogelijk zijn (het geprefixte ww. uit te voeren)
-2461	ru	ketsuk--	kE.\\t{ts}uk\\textcorner	\N	adj.	({\\bf pro.}) неспособность (делать обозначенное глаголом)
-2462	de	munsna--	mun.sna	\N	pair	({\\bf pro.}) {\\it paar}
-2462	en	munsna--	mun.sna	\N	pair	({\\bf pro.}) {\\it pair}
-2462	est	munsna--	mun.sna	\N	pair	({\\bf pro.}) {\\it paar}
-2462	hu	munsna--	mun.sna	\N	pair	({\\bf pro.}) {\\it pár}
-2462	nl	munsna--	mun.sna	\N	pair	({\\bf pro.}) {\\it paar}
-2462	ru	munsna--	mun.sna	\N	pair	({\\bf прод.}) {\\it пара}
-2517	de	fray+	fRaj	\N	all of these	({\\bf pro.}) {\\it alle diese} Plural 
-2517	en	fray+	fRaj	\N	all of these	({\\bf pro.}) {\\it all of these} plural
-2517	est	fray+	fRaj	\N	all of these	({\\bf pro.}) {\\it need kõik} mitmuse
-2517	hu	fray+	fRaj	\N	all of these	({\\bf pro.}) {\\it mindegyik} plural
-2517	nl	fray+	fRaj	\N	all of these	({\\bf pro.}) {\\it al deze} meervoudig
-2517	ru	fray+	fRaj	\N	all of these	{\\bf прод.}) {\\it каждый из них} множ
-2630	de	--kel	kEl	\N	neg.	{\\bf (unpro.)} bildet ein neues Substantiv, das einen \\uline{Mangel} des Ursprungswortes anzeigt
-2630	en	--kel	kEl	\N	neg.	{\\bf (unpro.)} creates a new noun that indicates a \\uline{lack} of the original noun
-2630	est	--kel	kEl	\N	neg.	{\\bf (mittepro.)} kasutatakse uue \\uline{puudust} näitava nimisõna loomiseks
-2630	hu	--kel	kEl	\N	neg.	{\\bf (nem produktív)} új főnevet képez, amely az eredeti főnév  \\uline{hiányát} jelenti
-2630	nl	--kel	kEl	\N	neg.	{\\bf (onpro.)} creëert een nieuw zn. dat een \\uline{gebrek} aan het originele zn. aangeeft
+832	de	am	a.m	1	past.	Präteritum
+832	en	am	a.m	1	past.	past tense
+832	est	am	a.m	1	past.	Lihtmineviku tunnus.
+832	hu	am	a.m	1	past.	múlt idő jele
+832	nl	am	a.m	1	past.	onvoltooid verleden tijd
+832	pl	am	a.m	1	past.	czas przeszły
+832	ru	am	a.m	1	past.	прош. время,
+832	sv	am	a.m	1	past.	föregående tempus
+834	de	ay	a.j	1	fut.	Zukunft, Futur (vorhersagend)
+834	en	ay	a.j	1	fut.	future tense (predictive)
+834	est	ay	a.j	1	fut.	Tuleviku tunnus.
+834	hu	ay	a.j	1	fut.	jövő idő jele
+834	nl	ay	a.j	1	fut.	onvoltooid toekomstige tijd
+834	pl	ay	a.j	1	fut.	czas przyszły
+834	ru	ay	a.j	1	fut.	будущее время (предсказание)
+834	sv	ay	a.j	1	fut.	framtida tempus
+837	de	ei	ɛ.i	2	laud.	Laudativer Affekt
+837	en	ei	ɛ.i	2	laud.	laudative affect
+837	est	ei	ɛ.i	2	laud.	Kiitva, hea mõjutuse tunnus.
+837	hu	ei	ɛ.i	2	laud.	boldogságot kifejező
+837	nl	ei	ɛ.i	2	laud.	verbeterend effect
+837	pl	ei	ɛ.i	2	laud.	pozytywne nastawienie
+837	ru	ei	ɛ.i	2	laud.	положительное отношение,
+837	sv	ei	ɛ.i	2	laud.	positiv mening
+838	de	er	ɛ.ɾ	1	impf.	Imperfektiver Aspekt
+838	en	er	ɛ.ɾ	1	impf.	imperfective aspect
+838	est	er	ɛ.ɾ	1	impf.	Lõpetamata (imperfektiivse) tegevuse tunnus.
+838	hu	er	ɛ.ɾ	1	impf.	befejezetlenséget, folyamatosságot jelez
+838	nl	er	ɛ.ɾ	1	impf.	imperfectief aspect
+838	pl	er	ɛ.ɾ	1	impf.	aspekt niedokonany
+838	ru	er	ɛ.ɾ	1	impf.	несов. вид,
+838	sv	er	ɛ.ɾ	1	impf.	presens, nutid, pågående
+842	de	iv	i.v	1	subj.	Subjunktiv (Modus)
+842	en	iv	i.v	1	subj.	subjunctive mood
+842	est	iv	i.v	1	subj.	Tingiva kõneviisi tunnus.
+842	hu	iv	i.v	1	subj.	kötőmód jele
+842	nl	iv	i.v	1	subj.	subjunctief
+842	pl	iv	i.v	1	subj.	tryb łączący
+842	ru	iv	i.v	1	subj.	сосл наклонение,
+842	sv	iv	i.v	1	subj.	konjunktiv
+848	de	ol	o.l	1	perf.	Perfektiver Aspekt
+848	en	ol	o.l	1	perf.	perfective aspect
+848	est	ol	o.l	1	perf.	Lõpetatud (perfektiivse) tegevuse tunnus.
+848	hu	ol	o.l	1	perf.	befejezett cselekvés
+848	nl	ol	o.l	1	perf.	perfectief aspect
+848	pl	ol	o.l	1	perf.	aspekt dokonany
+848	ru	ol	o.l	1	perf.	сов. вид,
+848	sv	ol	o.l	1	perf.	perfekt
+875	de	si	s·i	\N	v.	nachgestelltes Verb
+875	en	si	s·i	\N	v.	postpositional verb
+875	est	si	s·i	\N	v.	Põhisõnale järgnev tegusõna
+875	hu	si	s·i	\N	v.	összetett igéket
+875	nl	si	s·i	\N	v.	napositioneel werkwoord
+875	pl	si	s·i	\N	v.	czasownik pomocniczy
+875	ru	si	s·i	\N	v.	постпозицонный глагол
+875	sv	si	s·i	\N	v.	postpositionalt verb
+849	de	us	u.s	1	a.part.	Partizip Aktiv
+849	en	us	u.s	1	a.part.	active participle
+849	est	us	u.s	1	a.part.	V-kesksõna tunnus.
+849	hu	us	u.s	1	a.part.	folyamatos melléknévi igenevet képző
+849	nl	us	u.s	1	a.part.	actief deelwoord
+849	pl	us	u.s	1	a.part.	imiesłów przymiotnikowy czynny
+849	ru	us	u.s	1	a.part.	активное причастие
+849	sv	us	u.s	1	a.part.	aktiv particip
+850	de	uy	u.j	2	hon.	ehrend oder zeremoniell
+850	en	uy	u.j	2	hon.	honorific (honourific) or ceremonial
+850	est	uy	u.j	2	hon.	Austava või tseremoniaalse mõjutuse tunnus.
+850	hu	uy	u.j	2	hon.	megtisztelő vagy szertartásos
+850	nl	uy	u.j	2	hon.	Beleefdheidsvorm of plechtige vorm
+850	pl	uy	u.j	2	hon.	honoryfikat lub forma ceremonialna
+850	ru	uy	u.j	2	hon.	почтительно или торжественно
+850	sv	uy	u.j	2	hon.	Ärofull eller ceremoniel betydelse
