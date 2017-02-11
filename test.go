@@ -13,14 +13,14 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 // Testing package
-package test
+package main
 
 import (
 	"fmt"
-	"fwew/main"
 	"fwew/util"
 )
 
 func main() {
 	// TODO Test stuff
+	fmt.Println(util.Exists("eltu"))
 }
