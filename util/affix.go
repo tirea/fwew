@@ -15,6 +15,14 @@
 // This util library handles affix parsing of input
 package util
 
+import (
+	"bufio"
+	"errors"
+	"fmt"
+	"os"
+	"strings"
+)
+
 type Affixes struct {
 	Prefixes  map[string][]string
 	Infixes   map[string][]string
@@ -43,12 +51,36 @@ func unLenite(word string) (string, bool) {
 
 }
 
-func exists(word string) bool {
-	//TODO
+func Exists(word string) bool {
+	word = strings.ToLower(word)
+
+	affixData, err := os.Open(Text("infixes"))
+	defer affixData.Close()
+	if err != nil {
+		fmt.Println(errors.New(Text("noDataError")))
+		os.Exit(1)
+	}
+	scanner := bufio.NewScanner(affixData)
+
+	for scanner.Scan() {
+		line := strings.ToLower(scanner.Text())
+		if word == line {
+			affixData.Close()
+			return true
+		}
+	}
 	return false
 }
 
+/* comment for testing
 func FindAffixes(word string) (string, Affixes) {
+	//TODO
+	hardCodeHax := map[string][]string{}
+	hardCodeHax["'awlo"] = []string{"'aw", "lo"}
+	hardCodeHax["melo"] = []string{"mune", "lo"}
+	hardCodeHax["pxelo"] = []string{"pxe", "lo"}
+	hardCodeHax["poltxe"] = []string{"plltxe", "ol"}
+	hardCodeHax["molte"] = []string{"mllte", "ol"}
 	/*
 		Affix-stripping algorithm:
 			1) Strip all productive prefixes.
@@ -59,10 +91,23 @@ func FindAffixes(word string) (string, Affixes) {
 			6) If the word exists now, done. Else goto 7.
 			7) Strip all infixes.
 			8) If the word exists now, done. Else no results, done.
-	*/
+	* /
+	var affixes Affixes
+	prodNPrefixes := []string{"munsna", "fì", "fne", "fra", "sna", "tsa", "a"}
+	prodVPrefixes := []string{"ketsuk", "tsuk"}
+	prodAdjPrefixes := []string{"nì"}
+	prodLenPrefixes := []string{"fray", "tsay", "fay", "pay", "pxe", "ay", "me", "pe"}
+	prodVInfixes := []string{"ìyev", "iyev", "äng", "eng", "ìlm", "ìly", "ìrm", "ìry", "ìsy", "alm", "aly", "äp", "arm", "ary", "asy", "ats", "eyk", "ìm", "imv", "irv", "ìy", "am", "ay", "ei", "er", "iv", "ol", "uy"}
+	prodNSuffixes := []string{"tsyìp", "ìri", "nga'", "ìl", "pe", "yä", "ä", "it", "ri", "ru", "ti", "tu", "ur", "a", "l", "o", "r", "t", "y"}
+	prodVSuffixes := []string{"tswo", "yu"}
+	prodNumSuffixes := []string{"ve"}
+	prodGerundAffix := []string{"tì", "us"}
+	prodActPartAffixPre := []string{"us", "a"}
+	prodActPartAffixSuf := []string{"a", "us"}
+	prodPassPartAffixPre := []string{"awn", "a"}
+	prodPassPartAffixSuf := []string{"a", "awn"}
 
-	//TODO
-	var found Affixes
+	// Strip all productive prefixes
 
-	return "", found
-}
+	return "", affixes
+}*/
