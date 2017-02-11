@@ -150,41 +150,75 @@ func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bo
 func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
 	const start int = 4
 	flagList := strings.Split(arg[start:len(arg)-1], ",")
+	setList := []string{}
 	for _, f := range flagList {
 		switch {
+		case f == "":
+			fmt.Print("<! Currently set: ")
+			fmt.Print("debug=")
+			fmt.Print(*debug, ", ")
+			fmt.Print("r=")
+			fmt.Print(*r, ", ")
+			fmt.Print("i=")
+			fmt.Print(*i, ", ")
+			fmt.Print("ipa=")
+			fmt.Print(*ipa, ", ")
+			fmt.Print("l=")
+			fmt.Print(*l, ", ")
+			fmt.Print("p=")
+			fmt.Println(*p, ">\n")
 		case f == "debug":
 			*debug = true
+			setList = append(setList, f)
 		case f == "r":
 			*r = true
+			setList = append(setList, f)
 		case f == "i":
 			*i = true
+			setList = append(setList, f)
 		case f == "ipa":
 			*ipa = true
+			setList = append(setList, f)
 		case strings.HasPrefix(f, "l="):
 			*l = f[2:]
+			setList = append(setList, f)
 		case strings.HasPrefix(f, "p="):
 			*p = f[2:]
+			setList = append(setList, f)
+		default:
+			fmt.Println("<! No such option:", "'"+f+"'", ">\n")
 		}
 	}
-	fmt.Println("<!", flagList, "set >\n")
+	if len(setList) != 0 {
+		fmt.Println("<!", setList, "set >\n")
+	}
 }
 
 func unsetFlags(arg string, debug, r, i, ipa *bool) {
 	const start int = 6
 	flagList := strings.Split(arg[6:len(arg)-1], ",")
+	unsetList := []string{}
 	for _, f := range flagList {
 		switch f {
 		case "debug":
 			*debug = false
+			unsetList = append(unsetList, f)
 		case "r":
 			*r = false
+			unsetList = append(unsetList, f)
 		case "i":
 			*i = false
+			unsetList = append(unsetList, f)
 		case "ipa":
 			*ipa = false
+			unsetList = append(unsetList, f)
+		default:
+			fmt.Println("<! No such option:", "'"+f+"'", ">\n")
 		}
 	}
-	fmt.Println("<!", flagList, "unset >\n")
+	if len(unsetList) != 0 {
+		fmt.Println("<!", unsetList, "unset >\n")
+	}
 }
 
 func LoadConfig() {
