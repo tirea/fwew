@@ -59,13 +59,6 @@
 2196	hu	--tswo	t͡swo	\N	suffix	(pro.) utótag, amely az igét főnévvé változtatja, jelezve az ige végrehajtásának képességét
 2196	nl	--tswo	t͡swo	\N	suffix	(pro.) achtervoegsel dat een werkwoord in een zn. veranderd, en de mogelijkheid tot het uitvoeren van de actie van het werkwoord aangeeft
 2196	ru	--tswo	t͡swo	\N	suffix	(прод.) суффикс, изменяющий глагол на существительное, со способностью выполнить действие глагола
-871	de	--a--	a	\N	adj.	(pro.) adjektivischer Attribut und Nebensatz-Marker
-871	en	--a--	a	\N	adj.	(pro.) adjectival attribution and subordination marker
-871	est	--a--	a	\N	adj.	(pro.)Omadussõna tunnus
-871	hu	--a--	a	\N	adj.	(prod.) melléknévjelző
-871	nl	--a--	a	\N	adj.	adjectieve attributieve markering
-871	ru	--a--	a	\N	adj.	(прод.) присоединяемый ссылочный и подчиняющий маркер
-871	sv	--a--	a	\N	adj.	adjektivattribut och bisatsmarkör
 1785	de	fì--	fɪ	\N	this	(pro.) dies
 1785	en	fì--	fɪ	\N	this	(pro.) this
 1785	est	fì--	fɪ	\N	this	(pro.) see,
@@ -135,13 +128,20 @@
 873	nl	nì--	nɪ	\N	adv.	bijwoordelijk
 873	ru	nì--	nɪ	\N	adv.	наречие
 873	sv	nì--	nɪ	\N	adv.	adverb
-863	de	--pe+	pɛ	\N	inter.	(pro.) Affix Interrogativ-Marker \\textit{welche
-863	en	--pe+	pɛ	\N	inter.	(pro.) affix inter. marker
-863	est	--pe+	pɛ	\N	inter.	(pro.) Küsimuse eesliide
-863	hu	--pe+	pɛ	\N	inter.	(prod.) kérdőszóképző
-863	nl	--pe+	pɛ	\N	inter.	(pro.) affix vvn. markering
-863	ru	--pe+	pɛ	\N	inter.	(прод.) маркер вопроса к слову
-863	sv	--pe+	pɛ	\N	inter.	(4) affix interr. markör \\textit{vad
+863	de	--pe	pɛ	\N	inter.	(pro.) Affix Interrogativ-Marker welche
+863	en	--pe	pɛ	\N	inter.	(pro.) affix inter. marker
+863	est	--pe	pɛ	\N	inter.	(pro.) Küsimuse eesliide
+863	hu	--pe	pɛ	\N	inter.	(prod.) kérdőszóképző
+863	nl	--pe	pɛ	\N	inter.	(pro.) affix vvn. markering
+863	ru	--pe	pɛ	\N	inter.	(прод.) маркер вопроса к слову
+863	sv	--pe	pɛ	\N	inter.	(4) affix interr. markör vad
+863	de	pe+	pɛ	\N	inter.	(pro.) Affix Interrogativ-Marker welche
+863	en	pe+	pɛ	\N	inter.	(pro.) affix inter. marker
+863	est	pe+	pɛ	\N	inter.	(pro.) Küsimuse eesliide
+863	hu	pe+	pɛ	\N	inter.	(prod.) kérdőszóképző
+863	nl	pe+	pɛ	\N	inter.	(pro.) affix vvn. markering
+863	ru	pe+	pɛ	\N	inter.	(прод.) маркер вопроса к слову
+863	sv	pe+	pɛ	\N	inter.	(4) affix interr. markör vad
 874	de	sä--	sæ	\N	instr.	instrumentales Nomen
 874	en	sä--	sæ	\N	instr.	instrumental noun
 874	est	sä--	sæ	\N	instr.	-mine lõpuga nimisõnade
@@ -444,6 +444,20 @@
 853	nl	ay+	aj	\N	pl.	(pro.) meervoudig
 853	ru	ay+	aj	\N	pl.	(прод.) множественное число
 853	sv	ay+	aj	\N	pl.	plural
+871	de	--a	a	\N	adj.	(pro.) adjektivischer Attribut und Nebensatz-Marker
+871	en	--a	a	\N	adj.	(pro.) adjectival attribution and subordination marker
+871	est	--a	a	\N	adj.	(pro.)Omadussõna tunnus
+871	hu	--a	a	\N	adj.	(prod.) melléknévjelző
+871	nl	--a	a	\N	adj.	adjectieve attributieve markering
+871	ru	--a	a	\N	adj.	(прод.) присоединяемый ссылочный и подчиняющий маркер
+871	sv	--a	a	\N	adj.	adjektivattribut och bisatsmarkör
+871	de	a--	a	\N	adj.	(pro.) adjektivischer Attribut und Nebensatz-Marker
+871	en	a--	a	\N	adj.	(pro.) adjectival attribution and subordination marker
+871	est	a--	a	\N	adj.	(pro.)Omadussõna tunnus
+871	hu	a--	a	\N	adj.	(prod.) melléknévjelző
+871	nl	a--	a	\N	adj.	adjectieve attributieve markering
+871	ru	a--	a	\N	adj.	(прод.) присоединяемый ссылочный и подчиняющий маркер
+871	sv	a--	a	\N	adj.	adjektivattribut och bisatsmarkör
 854	de	--e	ɛ	\N	fem.	Feminines Suffix für bestimmte Nomen
 854	en	--e	ɛ	\N	fem.	feminine suffix for certain nouns
 854	est	--e	ɛ	\N	fem.	Naissoo tunnus nimisõnadele
