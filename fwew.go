@@ -20,10 +20,11 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"fwew/util"
 	"io/ioutil"
 	"os"
 	"strings"
+
+	"github.com/tirea/fwew/util"
 )
 
 // Global
@@ -166,7 +167,8 @@ func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
 			fmt.Print("l=")
 			fmt.Print(*l, ", ")
 			fmt.Print("p=")
-			fmt.Println(*p, ">\n")
+			fmt.Println(*p, ">")
+			fmt.Println()
 		case f == "debug":
 			*debug = true
 			setList = append(setList, f)
@@ -186,11 +188,13 @@ func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
 			*p = f[2:]
 			setList = append(setList, f)
 		default:
-			fmt.Println("<! No such option:", "'"+f+"'", ">\n")
+			fmt.Println("<! No such option:", "'"+f+"'", ">")
+			fmt.Println()
 		}
 	}
 	if len(setList) != 0 {
-		fmt.Println("<!", setList, "set >\n")
+		fmt.Println("<!", setList, "set >")
+		fmt.Println()
 	}
 }
 
@@ -200,6 +204,8 @@ func unsetFlags(arg string, debug, r, i, ipa *bool) {
 	unsetList := []string{}
 	for _, f := range flagList {
 		switch f {
+		case "":
+			fmt.Println()
 		case "debug":
 			*debug = false
 			unsetList = append(unsetList, f)
@@ -213,11 +219,13 @@ func unsetFlags(arg string, debug, r, i, ipa *bool) {
 			*ipa = false
 			unsetList = append(unsetList, f)
 		default:
-			fmt.Println("<! No such option:", "'"+f+"'", ">\n")
+			fmt.Println("<! No such option:", "'"+f+"'", ">")
+			fmt.Println()
 		}
 	}
 	if len(unsetList) != 0 {
-		fmt.Println("<!", unsetList, "unset >\n")
+		fmt.Println("<!", unsetList, "unset >")
+		fmt.Println()
 	}
 }
 
