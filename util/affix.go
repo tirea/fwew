@@ -51,7 +51,7 @@ func unLenite(word string) (string, bool) {
 
 }
 
-func Exists(word string) bool {
+func exists(word string) bool {
 	word = strings.ToLower(word)
 
 	affixData, err := os.Open(Text("infixes"))
@@ -72,15 +72,8 @@ func Exists(word string) bool {
 	return false
 }
 
-/* comment for testing
 func FindAffixes(word string) (string, Affixes) {
 	//TODO
-	hardCodeHax := map[string][]string{}
-	hardCodeHax["'awlo"] = []string{"'aw", "lo"}
-	hardCodeHax["melo"] = []string{"mune", "lo"}
-	hardCodeHax["pxelo"] = []string{"pxe", "lo"}
-	hardCodeHax["poltxe"] = []string{"plltxe", "ol"}
-	hardCodeHax["molte"] = []string{"mllte", "ol"}
 	/*
 		Affix-stripping algorithm:
 			1) Strip all productive prefixes.
@@ -91,8 +84,17 @@ func FindAffixes(word string) (string, Affixes) {
 			6) If the word exists now, done. Else goto 7.
 			7) Strip all infixes.
 			8) If the word exists now, done. Else no results, done.
-	* /
+	*/
 	var affixes Affixes
+
+	hardCodeHax := map[string][]string{}
+	hardCodeHax["'awlo"] = []string{"'aw", "lo"}
+	hardCodeHax["melo"] = []string{"mune", "lo"}
+	hardCodeHax["pxelo"] = []string{"pxe", "lo"}
+	hardCodeHax["poltxe"] = []string{"plltxe", "ol"}
+	hardCodeHax["molte"] = []string{"mllte", "ol"}
+
+	/* comment to avoid 'declared and not used' error
 	prodNPrefixes := []string{"munsna", "fì", "fne", "fra", "sna", "tsa", "a"}
 	prodVPrefixes := []string{"ketsuk", "tsuk"}
 	prodAdjPrefixes := []string{"nì"}
@@ -106,8 +108,9 @@ func FindAffixes(word string) (string, Affixes) {
 	prodActPartAffixSuf := []string{"a", "us"}
 	prodPassPartAffixPre := []string{"awn", "a"}
 	prodPassPartAffixSuf := []string{"a", "awn"}
+	*/
 
 	// Strip all productive prefixes
 
-	return "", affixes
-}*/
+	return "", affixes // Placeholder
+}
