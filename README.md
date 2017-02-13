@@ -13,8 +13,10 @@ This option is mostly for Contributors and Developers.
 You will need the [GO Programming Language](https://golang.org/) installed. If you don't have it or don't want to download it, see the next section.
 
 ```
-make         # to just compile
-make install # to compile and install
+cd $GOPATH                   # GOPATH should be set in ~/.bashrc as something like export GOPATH=$HOME/go
+go get github.com/tirea/fwew # Pretty much same as git clone but puts stuff where it needs to be
+make                         # to just compile
+make install                 # to compile and install
 ```
 
 ### Install directly from .zip
