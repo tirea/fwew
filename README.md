@@ -15,6 +15,7 @@ You will need the [GO Programming Language](https://golang.org/) installed. If y
 ```
 cd $GOPATH                   # GOPATH should be set in ~/.bashrc as something like export GOPATH=$HOME/go
 go get github.com/tirea/fwew # Pretty much same as git clone but puts stuff where it needs to be
+cd src/github.com/tirea/fwew # Go to where the code is before trying to build it
 make                         # to just compile
 make install                 # to compile and install
 ```
