@@ -266,7 +266,8 @@ func main() {
 	flag.Parse()
 
 	if *showVersion {
-		fmt.Println(util.Text("name") + " " + util.Text("version") + "\n" + util.Text("dictVersion") + "\n")
+		///fmt.Println(util.Text("name") + " " + util.Text("version") + "\n" + util.Text("dictVersion") + "\n")
+		fmt.Println(util.Version)
 		if flag.NArg() == 0 {
 			os.Exit(0)
 		}

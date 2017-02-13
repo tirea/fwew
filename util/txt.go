@@ -25,13 +25,10 @@ var texts = map[string]string{}
 
 func init() {
 	texts["name"] = "Fwew"
-	texts["version"] = "1.3.1-BETA (02 FEB 2017)"
-	texts["dictVersion"] = "Na'vi Dictionary 13.31 (07 JAN 2017)"
 	texts["author"] = "Tirea Aean"
 	texts["baseLang"] = "Na'vi"
-	texts["header"] = texts["name"] + " " + texts["version"] + " by " + texts["author"] + "\n" +
-		"Crossplatform " + texts["baseLang"] + " Dictionary Search" + "\n" +
-		"fwew -h for usage, see README\n"
+	texts["header"] = texts["name"] + " - " + texts["baseLang"] + " Dictionary Search" + " - by " + texts["author"] + "\n" +
+		"`fwew -h` for usage, `fwew -v` for version. See README\n"
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
 	texts["language"] = "eng"
 	texts["none"] = "No Results\n"
