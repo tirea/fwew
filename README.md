@@ -144,9 +144,8 @@ set[] and unset[] commands also work in the REPL. One command per line, and only
 
 ```
 $ fwew -i -ipa
-Fwew 1.3-BETA (01 FEB 2017) by Tirea Aean
-Crossplatform Na'vi Dictionary Search
-fwew -h for usage, see README
+Fwew - Na'vi Dictionary Search - by Tirea Aean
+`fwew -h` for usage, `fwew -v` for version. See README
 
 Fwew:> eltu
 [1] n. brain [ˈɛl.tu] (eltu)
@@ -166,7 +165,26 @@ Fwew:> set[i,ipa,p=vtr]
 Fwew:> essen
 [1] vtr. yom [j·om] y<1><2><3>om (essen, speisen, fressen)
 
-Fwew:> ^C
+Fwew:>
+```
+
+Use set[] with empty list of flags to show all current set flag values.
+
+```
+$ fwew
+Fwew - Na'vi Dictionary Search - by Tirea Aean
+`fwew -h` for usage, `fwew -v` for version. See README
+
+Fwew:> set[]
+<! Currently set: debug=false, r=false, i=false, ipa=false, l=eng, p=all >
+
+Fwew:> set[debug,i,ipa]
+<! [debug i ipa] set >
+
+Fwew:> set[]
+<! Currently set: debug=true, r=false, i=true, ipa=true, l=eng, p=all >
+
+Fwew:>
 ```
 
 ## Input & Output Files
