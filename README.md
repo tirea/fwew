@@ -2,7 +2,7 @@
 
 The Best Na'vi Dictionary on the Command Line
 
-Fwew is the improved, faster, cleaner, more modern successor to vrrtepcli (github.com/tirea/vrrtepcli). Fwew was written using the Go Programming Language and is a cross-platform binary text-based program for dictionary lookups. Primarily for the Na'vi language (learnnavi.org)
+Fwew is the improved, faster, cleaner, more modern successor to [vrrtepcli](https://github.com/tirea/vrrtepcli). Fwew was written using the Go Programming Language and is a cross-platform binary text-based program for dictionary lookups. Primarily for the [Na'vi language](https://learnnavi.org). See the [LearnNavi Forum thread](https://forum.learnnavi.org/projects/fwew-a-better-crossplatform-navi-dictionary-terminal-app/).
 
 ## Install
 
