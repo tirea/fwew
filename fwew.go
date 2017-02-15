@@ -149,7 +149,7 @@ func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bo
 }
 
 func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
-	const start int = 4
+	const start int = 4 // s,e,t,[ = 0,1,2,3
 	flagList := strings.Split(arg[start:len(arg)-1], ",")
 	setList := []string{}
 	for _, f := range flagList {
@@ -199,7 +199,7 @@ func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
 }
 
 func unsetFlags(arg string, debug, r, i, ipa *bool) {
-	const start int = 6
+	const start int = 6 // u,n,s,e,t,[ = 0,1,2,3,4,5
 	flagList := strings.Split(arg[6:len(arg)-1], ",")
 	unsetList := []string{}
 	for _, f := range flagList {
@@ -276,9 +276,9 @@ func main() {
 	// ARGS MODE
 	if flag.NArg() > 0 {
 		for _, arg := range flag.Args() {
-			if strings.HasPrefix(arg, "set[") {
+			if strings.HasPrefix(arg, "set[") && strings.HasSuffix(arg, "]") {
 				setFlags(arg, debug, reverse, showInfixes, showIPA, language, posFilter)
-			} else if strings.HasPrefix(arg, "unset[") {
+			} else if strings.HasPrefix(arg, "unset[") && strings.HasSuffix(arg, "]") {
 				unsetFlags(arg, debug, reverse, showInfixes, showIPA)
 			} else {
 				results = fwew(arg, *language, *posFilter, *reverse)
@@ -304,9 +304,9 @@ func main() {
 			}
 
 			if input != "" {
-				if strings.HasPrefix(input, "set[") {
+				if strings.HasPrefix(input, "set[") && strings.HasSuffix(input, "]") {
 					setFlags(input, debug, reverse, showInfixes, showIPA, language, posFilter)
-				} else if strings.HasPrefix(input, "unset[") {
+				} else if strings.HasPrefix(input, "unset[") && strings.HasSuffix(input, "]") {
 					unsetFlags(input, debug, reverse, showInfixes, showIPA)
 				} else {
 					results = fwew(input, *language, *posFilter, *reverse)
