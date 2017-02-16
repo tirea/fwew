@@ -24,14 +24,12 @@ type version struct {
 	Dict                string
 }
 
-var Version = version{1, 4, 0, "dev", "Eana Yayo", "Na'vi Dictionary 13.31 (07 JAN 2017)"}
-
-var Build string
+var Version = version{1, 4, 1, "dev", "Eana Yayo", "Na'vi Dictionary 13.31 (07 JAN 2017)"}
 
 func (v version) String() string {
 	if v.Label != "" {
-		return fmt.Sprintf("Fwew version %d.%d.%d-%s \"%s\"\n%s\nGit commit hash: %s", v.Major, v.Minor, v.Patch, v.Label, v.Name, v.Dict, Build)
+		return fmt.Sprintf("Fwew version %d.%d.%d-%s \"%s\"\n%s, v.Major, v.Minor, v.Patch, v.Label, v.Name, v.Dict)
 	} else {
-		return fmt.Sprintf("Fwew version %d.%d.%d \"%s\"\n%s\nGit commit hash: %s", v.Major, v.Minor, v.Patch, v.Name, v.Dict, Build)
+		return fmt.Sprintf("Fwew version %d.%d.%d \"%s\"\n%s, v.Major, v.Minor, v.Patch, v.Name, v.Dict)
 	}
 }

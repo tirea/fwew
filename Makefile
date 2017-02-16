@@ -6,9 +6,8 @@ format:
 	gofmt -w $(SOURCES)
 
 all:
-	go build -ldflags "-X github.com/tirea/fwew/util.Build=`git rev-parse HEAD`" -o fwew fwew.go
-	mv fwew bin/
-
+	go build -o bin/fwew fwew.go
+	
 install: fwew
 	sudo cp bin/fwew /usr/local/bin/
 	cp -r .fwew ~/
