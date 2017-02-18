@@ -73,7 +73,8 @@ func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 		fields = strings.Split(line, "\t")
 
 		if reverse {
-			if posFilter == util.Text("defaultFilter") {
+			// Must hard code "all" here now that config voids guarantee of default filter "all"
+			if posFilter == "all" {
 				if strings.Contains(fields[lcField], lc) {
 					defString = stripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
