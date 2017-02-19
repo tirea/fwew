@@ -28,6 +28,16 @@ import (
 )
 
 // Global
+const (
+	idField  int = 0 // dictionary.tsv line Field 0 is Database ID
+	lcField  int = 1 // dictionary.tsv line field 1 is Language Code
+	navField int = 2 // dictionary.tsv line field 2 is Na'vi word
+	ipaField int = 3 // dictionary.tsv line field 3 is IPA data
+	infField int = 4 // dictionary.tsv line field 4 is Infix location data
+	posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
+	defField int = 6 // dictionary.tsv line field 6 is Local definition
+)
+
 var debug *bool
 
 type Config struct {
@@ -44,18 +54,14 @@ func stripChars(str, chr string) string {
 	}, str)
 }
 
-func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
-	const (
-		lcField  int = 1 // dictionary.tsv line field 1 is Language Code
-		posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
-		defField int = 6 // dictionary.tsv line field 6 is Local definition
-	)
-	var results [][]string
+func fwew(word string, lc string, posFilter string, reverse bool) []util.Word {
+	word = strings.ToLower(word)
+
+	var given util.Word = util.Word{Navi: word}
+	var result util.Word
+	var results []util.Word
 	var fields []string
 	var defString string
-
-	// Searching for Local word, just search for it...
-	word = strings.ToLower(word)
 
 	// Prepare file for searching
 	dictData, err := os.Open(util.Text("dictionary"))
@@ -72,75 +78,79 @@ func fwew(word string, lc string, posFilter string, reverse bool) [][]string {
 		// Store the fields of the line into fields array in lowercase
 		fields = strings.Split(line, "\t")
 
+		// Looking for Local word in Definition field
 		if reverse {
 			// Must hard code "all" here now that config voids guarantee of default filter "all"
 			if posFilter == "all" {
 				if strings.Contains(fields[lcField], lc) {
+					// whole-word matching
 					defString = stripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
 						if w == word {
-							results = append(results, fields)
+							// Put the stuff from fields into the Word struct
+							result = util.InitWordStruct(result, fields)
+							results = append(results, result)
 						}
 					}
 				}
+				// filter part of speech
 			} else {
 				if strings.Contains(fields[lcField], lc) && strings.Contains(fields[posField], posFilter) {
+					// whole-word matching
 					defString = stripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
 						if w == word {
-							results = append(results, fields)
+							// Put the stuff from fields into the Word struct
+							result = util.InitWordStruct(result, fields)
+							results = append(results, result)
 						}
 					}
 				}
 			}
+			// Looking for Na'vi word in Na'vi field
 		} else {
 			if strings.Contains(fields[lcField], lc) && strings.Contains(line, "\t"+word+"\t") {
-				results = append(results, fields)
+				// Put the stuff from fields into the Word struct
+				result = util.InitWordStruct(result, fields)
+				results = append(results, result)
 				break
 			}
 		}
 	}
 
+	// No results, attempt to stem the word
+	if !reverse && len(results) == 0 {
+		result = util.Stem(given)
+	}
+
 	return results
 }
 
-func printResults(results [][]string, reverse bool, showInfixes bool, showIPA bool) {
-	const (
-		navField int = 2 // dictionary.tsv line field 2 is Na'vi word
-		ipaField int = 3 // dictionary.tsv line field 3 is IPA data
-		infField int = 4 // dictionary.tsv line field 4 is Infix location data
-		posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
-		defField int = 6 // dictionary.tsv line field 6 is Local definition
-	)
-	var nav, ipa, inf, pos, def string
-
+func printResults(results []util.Word, reverse bool, showInfixes bool, showIPA bool) {
 	if len(results) != 0 {
 
-		for i, r := range results {
-			nav = r[navField]
-			ipa = "[" + r[ipaField] + "]"
-			inf = r[infField]
-			pos = r[posField]
-			def = r[defField]
+		for i, w := range results {
 
 			fmt.Print("[", i+1, "] ")
 
-			fmt.Print(pos + " ")
+			fmt.Print(w.PartOfSpeech + " ")
 			if reverse {
-				fmt.Print(nav + " ")
+				fmt.Print(w.Navi + " ")
 			} else {
-				fmt.Print(def + " ")
+				fmt.Print(w.Definition + " ")
 			}
 			if showIPA {
-				fmt.Print(ipa + " ")
+				fmt.Print("[" + w.IPA + "]" + " ")
 			}
 			if showInfixes {
-				fmt.Print(inf + " ")
+				if w.InfixLocations != "\\n" {
+					fmt.Print(w.InfixLocations + " ")
+				}
 			}
 			if reverse {
-				fmt.Println("(" + def + ")\n")
+				fmt.Println("(" + w.Definition + ")\n")
 			} else {
-				fmt.Println("(" + nav + ")\n")
+				fmt.Println("(" + w.Navi + ")\n")
 			}
 		}
 
@@ -244,7 +254,7 @@ func LoadConfig() {
 }
 
 func main() {
-	var results [][]string
+	var results []util.Word
 	var language, posFilter *string
 	var showVersion, showInfixes, showIPA, reverse *bool
 
@@ -267,7 +277,6 @@ func main() {
 	flag.Parse()
 
 	if *showVersion {
-		///fmt.Println(util.Text("name") + " " + util.Text("version") + "\n" + util.Text("dictVersion") + "\n")
 		fmt.Println(util.Version)
 		if flag.NArg() == 0 {
 			os.Exit(0)
