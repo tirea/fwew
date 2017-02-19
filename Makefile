@@ -7,7 +7,7 @@ format:
 
 all:
 	go build -o bin/fwew fwew.go
-	
+
 install: fwew
 	sudo cp bin/fwew /usr/local/bin/
 	cp -r .fwew ~/
