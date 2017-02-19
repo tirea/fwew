@@ -17,75 +17,53 @@ package util
 
 import (
 	"bufio"
-	"errors"
 	"fmt"
 	"os"
 	"strings"
 )
 
-type Affixes struct {
-	Prefixes  map[string][]string
-	Infixes   map[string][]string
-	Suffixes  map[string][]string
-	IsLenited bool
+type Word struct {
+	Id string 
+    LangCode string
+    Navi string
+    IPA string
+    InfixLocations string
+    PartOfSpeech string
+    Definition string
+    Affixes map[string]string
 }
 
-func stripPrefixes(word string) (string, []string) {
+func prefix(prefixed Word) Word{
 	//TODO
-	return "", []string{}
+	return prefixed
 }
 
-func stripSuffixes(word string) (string, []string) {
+func suffix(suffixed Word) Word {
 	//TODO
-	return "", []string{}
+	return suffixed
 }
 
-func stripInfixes(word string) (string, []string) {
+func infix(infixed Word) Word {
 	//TODO
-	return "", []string{}
+	return infixed
 }
 
-func unLenite(word string) (string, bool) {
+func Lenite(unlenited Word) Word {
 	//TODO
-	return "", false
+	return unlenited
 
 }
 
-func exists(word string) bool {
-	word = strings.ToLower(word)
-
-	affixData, err := os.Open(Text("infixes"))
-	defer affixData.Close()
-	if err != nil {
-		fmt.Println(errors.New(Text("noDataError")))
-		os.Exit(1)
-	}
-	scanner := bufio.NewScanner(affixData)
-
-	for scanner.Scan() {
-		line := strings.ToLower(scanner.Text())
-		if word == line {
-			affixData.Close()
-			return true
-		}
-	}
-	return false
-}
-
-func FindAffixes(word string) (string, Affixes) {
+func Stem(given Word) Word {
 	//TODO
 	/*
-		Affix-stripping algorithm:
-			1) Strip all productive prefixes.
-			2) If the word exists now, done. Else goto 3.
-			3) Strip all productive suffixes.
-			4) If the word exists now,  done. Else goto 5.
-			5) Undo lenition.
-			6) If the word exists now, done. Else goto 7.
-			7) Strip all infixes.
-			8) If the word exists now, done. Else no results, done.
-	*/
-	var affixes Affixes
+	 * Stemming algorithm:
+	 * 0) Base case: affixed.Navi == given.Navi, return affixed. Else:
+	 * 1) Iterate dictionary.tsv
+	 * 2) Apply known rules to current line in order to reconstruct given.
+	 * 3) profit???
+	 */
+	var affixed Word
 
 	hardCodeHax := map[string][]string{}
 	hardCodeHax["'awlo"] = []string{"'aw", "lo"}
@@ -110,7 +88,5 @@ func FindAffixes(word string) (string, Affixes) {
 	prodPassPartAffixSuf := []string{"a", "awn"}
 	*/
 
-	// Strip all productive prefixes
-
-	return "", affixes // Placeholder
+	return affixed // Placeholder
 }
