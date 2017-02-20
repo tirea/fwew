@@ -16,6 +16,7 @@
 package util
 
 import (
+	"fmt"
 	"os/user"
 	"path/filepath"
 )
@@ -26,11 +27,8 @@ var texts = map[string]string{}
 func init() {
 	texts["name"] = "Fwew"
 	texts["author"] = "Tirea Aean"
-	texts["baseLang"] = "Na'vi"
-	texts["header"] = texts["name"] + " - " + texts["baseLang"] + " Dictionary Search" + " - by " + texts["author"] + "\n" +
-		"`fwew -h` for usage, `fwew -v` for version. See README\n"
+	texts["header"] = fmt.Sprintf("%s - Na'vi Dictionary Search - by %s\n`fwew -h` for usage, `fwew -v` for version\n", texts["name"], texts["author"])
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
-	texts["language"] = "eng"
 	texts["none"] = "No Results\n"
 	texts["usageDebug"] = "Show extremely verbose probing"
 	texts["usageV"] = "Show program & dictionary version numbers"
@@ -39,6 +37,7 @@ func init() {
 	texts["usageIPA"] = "Display IPA data"
 	texts["usageP"] = "Search for word(s) with specified part of speech"
 	texts["usageR"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
+	texts["usageA"] = "Find all matches by using affixes to match the input word"
 	texts["defaultFilter"] = "all"
 	texts["homeDir"], _ = filepath.Abs(usr.HomeDir)
 	texts["dataDir"] = filepath.Join(texts["homeDir"], ".fwew")
