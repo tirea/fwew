@@ -1,4 +1,5 @@
 {
-	"language": "eng",
-	"posFilter": "all"
+    "language": "eng",
+    "posFilter": "all",
+    "useAffixes": true
 }
