@@ -16,14 +16,14 @@ package main
 
 import (
 	"bufio"
-	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"strings"
 
+	"github.com/tirea/fwew/affixes"
+	"github.com/tirea/fwew/config"
 	"github.com/tirea/fwew/util"
 )
 
@@ -40,11 +40,6 @@ const (
 
 var debug *bool
 
-type Config struct {
-	Language  string `json:"language"`
-	PosFilter string `json:"posFilter"`
-}
-
 func stripChars(str, chr string) string {
 	return strings.Map(func(r rune) rune {
 		if strings.IndexRune(chr, r) < 0 {
@@ -54,12 +49,11 @@ func stripChars(str, chr string) string {
 	}, str)
 }
 
-func fwew(word string, lc string, posFilter string, reverse bool) []util.Word {
+func fwew(word string, lc string, posFilter string, reverse bool, useAffixes bool) []affixes.Word {
 	word = strings.ToLower(word)
 
-	var given util.Word = util.Word{Navi: word}
-	var result util.Word
-	var results []util.Word
+	var result affixes.Word
+	var results []affixes.Word
 	var fields []string
 	var defString string
 
@@ -82,26 +76,26 @@ func fwew(word string, lc string, posFilter string, reverse bool) []util.Word {
 		if reverse {
 			// Must hard code "all" here now that config voids guarantee of default filter "all"
 			if posFilter == "all" {
-				if strings.Contains(fields[lcField], lc) {
+				if fields[lcField] == lc {
 					// whole-word matching
 					defString = stripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
 						if w == word {
 							// Put the stuff from fields into the Word struct
-							result = util.InitWordStruct(result, fields)
+							result = affixes.InitWordStruct(result, fields)
 							results = append(results, result)
 						}
 					}
 				}
 				// filter part of speech
 			} else {
-				if strings.Contains(fields[lcField], lc) && strings.Contains(fields[posField], posFilter) {
+				if fields[lcField] == lc && fields[posField] == posFilter {
 					// whole-word matching
 					defString = stripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
 						if w == word {
 							// Put the stuff from fields into the Word struct
-							result = util.InitWordStruct(result, fields)
+							result = affixes.InitWordStruct(result, fields)
 							results = append(results, result)
 						}
 					}
@@ -109,49 +103,67 @@ func fwew(word string, lc string, posFilter string, reverse bool) []util.Word {
 			}
 			// Looking for Na'vi word in Na'vi field
 		} else {
-			if strings.Contains(fields[lcField], lc) && strings.Contains(line, "\t"+word+"\t") {
-				// Put the stuff from fields into the Word struct
-				result = util.InitWordStruct(result, fields)
-				results = append(results, result)
-				break
+			if fields[lcField] == lc {
+				if fields[navField] == word {
+					// Put the stuff from fields into the Word struct
+					result = affixes.InitWordStruct(result, fields)
+					results = append(results, result)
+					break
+				} else {
+					result = affixes.InitWordStruct(result, fields)
+					result.Target = word
+					result = affixes.Reconstruct(result)
+
+					if result.Id != "-1" {
+						results = append(results, result)
+					}
+
+				}
 			}
 		}
-	}
-
-	// No results, attempt to stem the word
-	if !reverse && len(results) == 0 {
-		result = util.Stem(given)
 	}
 
 	return results
 }
 
-func printResults(results []util.Word, reverse bool, showInfixes bool, showIPA bool) {
+func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIPA bool, useAffixes bool) {
 	if len(results) != 0 {
+		var out string = ""
 
 		for i, w := range results {
 
-			fmt.Print("[", i+1, "] ")
+			out += fmt.Sprintf("[%d] ", i+1)
+			out += fmt.Sprintf("%s ", w.PartOfSpeech)
 
-			fmt.Print(w.PartOfSpeech + " ")
 			if reverse {
-				fmt.Print(w.Navi + " ")
+				out += fmt.Sprintf("%s ", w.Navi)
 			} else {
-				fmt.Print(w.Definition + " ")
+				out += fmt.Sprintf("%s ", w.Definition)
 			}
 			if showIPA {
-				fmt.Print("[" + w.IPA + "]" + " ")
+				out += fmt.Sprintf("[%s] ", w.IPA)
 			}
 			if showInfixes {
 				if w.InfixLocations != "\\n" {
-					fmt.Print(w.InfixLocations + " ")
+					out += fmt.Sprintf("%s ", w.InfixLocations)
 				}
 			}
 			if reverse {
-				fmt.Println("(" + w.Definition + ")\n")
+				out += fmt.Sprintf("(%s)\n", w.Definition)
 			} else {
-				fmt.Println("(" + w.Navi + ")\n")
+				out += fmt.Sprintf("(%s)\n", w.Navi)
 			}
+			if useAffixes {
+				if len(w.Affixes) > 0 {
+					out += fmt.Sprintf("    %s\n", "Affixes:")
+					for key, value := range w.Affixes {
+						out += fmt.Sprintf("      %s: %s\n", key, value)
+					}
+
+				}
+			}
+			out += fmt.Sprintf("\n")
+			fmt.Printf(out)
 		}
 
 	} else {
@@ -159,27 +171,15 @@ func printResults(results []util.Word, reverse bool, showInfixes bool, showIPA b
 	}
 }
 
-func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
+func setFlags(arg string, debug, r, i, ipa, a *bool, l, p *string) {
 	const start int = 4 // s,e,t,[ = 0,1,2,3
 	flagList := strings.Split(arg[start:len(arg)-1], ",")
 	setList := []string{}
+
 	for _, f := range flagList {
 		switch {
 		case f == "":
-			fmt.Print("<! Currently set: ")
-			fmt.Print("debug=")
-			fmt.Print(*debug, ", ")
-			fmt.Print("r=")
-			fmt.Print(*r, ", ")
-			fmt.Print("i=")
-			fmt.Print(*i, ", ")
-			fmt.Print("ipa=")
-			fmt.Print(*ipa, ", ")
-			fmt.Print("l=")
-			fmt.Print(*l, ", ")
-			fmt.Print("p=")
-			fmt.Println(*p, ">")
-			fmt.Println()
+			fmt.Printf("<! Currently set: debug=%t, r=%t, i=%t, ipa=%t, a=%t, l=%s, p=%s >\n", *debug, *r, *i, *ipa, *a, *l, *p)
 		case f == "debug":
 			*debug = true
 			setList = append(setList, f)
@@ -192,6 +192,9 @@ func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
 		case f == "ipa":
 			*ipa = true
 			setList = append(setList, f)
+		case f == "a":
+			*a = true
+			setList = append(setList, f)
 		case strings.HasPrefix(f, "l="):
 			*l = f[2:]
 			setList = append(setList, f)
@@ -199,17 +202,16 @@ func setFlags(arg string, debug, r, i, ipa *bool, l, p *string) {
 			*p = f[2:]
 			setList = append(setList, f)
 		default:
-			fmt.Println("<! No such option:", "'"+f+"'", ">")
-			fmt.Println()
+			fmt.Printf("<! No such option: %s >\n", f)
 		}
 	}
+
 	if len(setList) != 0 {
-		fmt.Println("<!", setList, "set >")
-		fmt.Println()
+		fmt.Printf("<! %v set >\n\n", setList)
 	}
 }
 
-func unsetFlags(arg string, debug, r, i, ipa *bool) {
+func unsetFlags(arg string, debug, r, i, ipa, a *bool) {
 	const start int = 6 // u,n,s,e,t,[ = 0,1,2,3,4,5
 	flagList := strings.Split(arg[6:len(arg)-1], ",")
 	unsetList := []string{}
@@ -229,36 +231,23 @@ func unsetFlags(arg string, debug, r, i, ipa *bool) {
 		case "ipa":
 			*ipa = false
 			unsetList = append(unsetList, f)
+		case "a":
+			*a = false
+			unsetList = append(unsetList, f)
 		default:
-			fmt.Println("<! No such option:", "'"+f+"'", ">")
-			fmt.Println()
+			fmt.Printf("<! No such option: %s >\n", f)
 		}
 	}
 	if len(unsetList) != 0 {
-		fmt.Println("<!", unsetList, "unset >")
-		fmt.Println()
+		fmt.Printf("<! %v unset >\n\n", unsetList)
 	}
-}
-
-func LoadConfig() {
-	confile, e := ioutil.ReadFile(util.Text("config"))
-	if e != nil {
-		fmt.Printf("File error: %v\n", e)
-		os.Exit(1)
-	}
-
-	var config Config
-	json.Unmarshal(confile, &config)
-	util.SetText("language", config.Language)
-	util.SetText("defaultFilter", config.PosFilter)
 }
 
 func main() {
-	var results []util.Word
+	var configuration = config.ReadConfig()
+	var results []affixes.Word
 	var language, posFilter *string
-	var showVersion, showInfixes, showIPA, reverse *bool
-
-	LoadConfig()
+	var showVersion, showInfixes, showIPA, reverse, useAffixes *bool
 
 	// Debug flag, for verbose probing output
 	debug = flag.Bool("debug", false, util.Text("usageDebug"))
@@ -267,13 +256,15 @@ func main() {
 	// Reverse direction flag, for local_lang -> Na'vi lookups
 	reverse = flag.Bool("r", false, util.Text("usageR"))
 	// Language specifier flag
-	language = flag.String("l", util.Text("language"), util.Text("usageL"))
+	language = flag.String("l", configuration.Language, util.Text("usageL"))
 	// Infixes flag, opt to show infix location data
 	showInfixes = flag.Bool("i", false, util.Text("usageI"))
 	// IPA flag, opt to show IPA data
 	showIPA = flag.Bool("ipa", false, util.Text("usageIPA"))
 	// Show part of speech flag
-	posFilter = flag.String("p", util.Text("defaultFilter"), util.Text("usageP"))
+	posFilter = flag.String("p", configuration.PosFilter, util.Text("usageP"))
+	// Attempt to find all matches using affixes
+	useAffixes = flag.Bool("a", configuration.UseAffixes, util.Text("usageA"))
 	flag.Parse()
 
 	if *showVersion {
@@ -287,12 +278,12 @@ func main() {
 	if flag.NArg() > 0 {
 		for _, arg := range flag.Args() {
 			if strings.HasPrefix(arg, "set[") && strings.HasSuffix(arg, "]") {
-				setFlags(arg, debug, reverse, showInfixes, showIPA, language, posFilter)
+				setFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes, language, posFilter)
 			} else if strings.HasPrefix(arg, "unset[") && strings.HasSuffix(arg, "]") {
-				unsetFlags(arg, debug, reverse, showInfixes, showIPA)
+				unsetFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes)
 			} else {
-				results = fwew(arg, *language, *posFilter, *reverse)
-				printResults(results, *reverse, *showInfixes, *showIPA)
+				results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
+				printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes)
 			}
 		}
 
@@ -315,12 +306,12 @@ func main() {
 
 			if input != "" {
 				if strings.HasPrefix(input, "set[") && strings.HasSuffix(input, "]") {
-					setFlags(input, debug, reverse, showInfixes, showIPA, language, posFilter)
+					setFlags(input, debug, reverse, showInfixes, showIPA, useAffixes, language, posFilter)
 				} else if strings.HasPrefix(input, "unset[") && strings.HasSuffix(input, "]") {
-					unsetFlags(input, debug, reverse, showInfixes, showIPA)
+					unsetFlags(input, debug, reverse, showInfixes, showIPA, useAffixes)
 				} else {
-					results = fwew(input, *language, *posFilter, *reverse)
-					printResults(results, *reverse, *showInfixes, *showIPA)
+					results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
+					printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes)
 				}
 			} else {
 				fmt.Println()
