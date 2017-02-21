@@ -24,7 +24,7 @@ type version struct {
 	Dict                string
 }
 
-var Version = version{1, 6, 0, "dev", "Eana Yayo", "Na'vi Dictionary 13.31 (07 JAN 2017)"}
+var Version = version{1, 6, 1, "dev", "Eana Yayo", "Na'vi Dictionary 13.31 (07 JAN 2017)"}
 
 func (v version) String() string {
 	if v.Label != "" {
