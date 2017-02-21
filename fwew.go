@@ -162,9 +162,10 @@ func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIP
 
 				}
 			}
-			out += fmt.Sprintf("\n")
-			fmt.Printf(out)
 		}
+
+		out += fmt.Sprintf("\n")
+		fmt.Printf(out)
 
 	} else {
 		fmt.Println(util.Text("none"))
