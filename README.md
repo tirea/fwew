@@ -53,23 +53,38 @@ fwew tirea
 fwew oe tirea lu
 ```
 
-Don't forget to escape ' somehow:
+Don't forget to escape `'` somehow:
 
 ```
 fwew \'a\'aw
 fwew "'a'aw"
 ```
 
-How to search a "__ si" verb:
+How to search a `"__ si"` verb:
 
 ```
 echo "eltur tìtxen si" | fwew
 echo "tìkangkem si" | fwew
 ```
 
+### Affix parsing
+
+Fwew parses and displays affixes used to construct the input word by default.
+
+Users familiar with the language can disable this feature and make fwew runtime faster in two ways (Note that this means that only root words can be searched.):
+
+Use the `-a=false` flag
+
+```
+fwew -a=false taron
+fwew -a=false
+```
+
+Or set `useAffixes` to false in the config file. (See Configuration file section at the end of this README)
+
 ### Search an English Word
 
-Run fwew with the -r flag to reverse the lookup direction:
+Run fwew with the `-r` flag to reverse the lookup direction:
 
 ```
 fwew -r test
@@ -78,7 +93,7 @@ fwew -r=true test
 
 ### Use a language other than English
 
-Run fwew with the -l flag to specify the language:
+Run fwew with the `-l` flag to specify the language:
 
 ```
 fwew -l de "lì'fya"
@@ -87,7 +102,7 @@ fwew -l=sv lì\'fya
 
 ### Displaying IPA and Infix Location Data
 
-Use flags -ipa and -i respectively:
+Use flags `-ipa` and `-i` respectively:
 
 ```
 fwew -ipa tireapängkxo
@@ -98,11 +113,11 @@ fwew -i -ipa käteng
 
 ### Filter Words by Part of Speech
 
-Use -p flag followed by the part of speech abbreviation as found in any Na'vi dictionary. Most useful in -r=true (reverse lookup) mode to narrow down results when many are returned.
+Use `-p` flag followed by the part of speech abbreviation as found in any Na'vi dictionary. Most useful in `-r=true` (reverse lookup) mode to narrow down results when many are returned.
 
 ```
-fwew -r in -p adp
-fwew -r test -p=vtr
+fwew -r -p adp in
+fwew -r -p=vtr test
 ```
 
 ### Display Dictionary Version
@@ -255,29 +270,37 @@ fwew `cat input.txt` > output.txt
 
 ## Configuration file
 
-Settings for Fwew are stored in a plain-text JSON file in the .fwew/ directory.
+Settings for Fwew are stored in a plain-text JSON file in the `.fwew/` directory.
 
-config.json:
+`config.json`:
 
 ```
 {
     "language": "eng",
     "posFilter": "all"
+    "useAffixes": true
 }
 ```
 
-The default language to use when looking up words is "eng" and can be changed here. This is useful for people who don't want to hake to keep typing all the time this, for example:
+The default language to use when looking up words is `"eng"` and can be changed here. This is useful for people who don't want to hake to keep typing all the time this, for example:
 
 ```
 fwew -l de
 fwew -l=de
 ```
 
-The default part of speech filter is "all" and can be changed here. This is useful for people who want to repeatedly run fwew searching for words of all the same part of speech. It avoids repeatedly typing, for example:
+The default part of speech filter is `"all"` and can be changed here. This is useful for people who want to repeatedly run fwew searching for words of all the same part of speech. It avoids repeatedly typing, for example:
 
 ```
 fwew -p n
 fwew -p vtr
+```
+
+If you're familiar with the language and only ever need to search root words, you can set `"useAffixes"` to `false`, speeding up the program runtime by not trying to break down words to find results. This avoids repeatedly typing, for example:
+
+```
+fwew -a=false taron
+fwew -a=false
 ```
 
 If you edit the config file and set your own defaults, you can override the config file settings using the set[] command keyword as shown above.
