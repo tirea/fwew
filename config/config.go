@@ -32,7 +32,7 @@ type Config struct {
 func ReadConfig() Config {
 	configfile, e := ioutil.ReadFile(util.Text("config"))
 	if e != nil {
-		fmt.Printf("File error: %v\n", e)
+		fmt.Printf("%s: %v\n", util.Text("fileError"), e)
 	}
 
 	var config Config
@@ -42,5 +42,6 @@ func ReadConfig() Config {
 }
 
 func (c Config) String() string {
+	// this string only doesn't get translated or called from util.Text() because they're var names
 	return fmt.Sprintf("Language: %s\nPosFilter: %s\nUseAffixes: %t\n", c.Language, c.PosFilter, c.UseAffixes)
 }

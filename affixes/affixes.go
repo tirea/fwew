@@ -34,6 +34,7 @@ type Word struct {
 }
 
 func (w Word) String() string {
+	// this string only doesn't get translated or called from util.Text() because they're var names
 	return fmt.Sprintf("Id: %s\nLangCode: %s\nNavi: %s\nTarget: %s\nAttempt: %s\nIPA: %s\nInfixLocations: %s\nPartOfSpeech: %s\nDefinition: %s\nAffixes: %v\n",
 		w.Id, w.LangCode, w.Navi, w.Target, w.Attempt, w.IPA, w.InfixLocations, w.PartOfSpeech, w.Definition, w.Affixes)
 }

@@ -155,7 +155,7 @@ func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIP
 			}
 			if useAffixes {
 				if len(w.Affixes) > 0 {
-					out += fmt.Sprintf("    %s\n", "Affixes:")
+					out += fmt.Sprintf("    %s:\n", util.Text("affixes"))
 					for key, value := range w.Affixes {
 						out += fmt.Sprintf("      %s: %s\n", key, value)
 					}
@@ -180,7 +180,7 @@ func setFlags(arg string, debug, r, i, ipa, a *bool, l, p *string) {
 	for _, f := range flagList {
 		switch {
 		case f == "":
-			fmt.Printf("<! Currently set: debug=%t, r=%t, i=%t, ipa=%t, a=%t, l=%s, p=%s >\n", *debug, *r, *i, *ipa, *a, *l, *p)
+			fmt.Printf("<! %s: debug=%t, r=%t, i=%t, ipa=%t, a=%t, l=%s, p=%s >\n", util.Text("cset"), *debug, *r, *i, *ipa, *a, *l, *p)
 		case f == "debug":
 			*debug = true
 			setList = append(setList, f)
@@ -203,12 +203,12 @@ func setFlags(arg string, debug, r, i, ipa, a *bool, l, p *string) {
 			*p = f[2:]
 			setList = append(setList, f)
 		default:
-			fmt.Printf("<! No such option: %s >\n", f)
+			fmt.Printf("<! %s: %s >\n", util.Text("noOptionError"), f)
 		}
 	}
 
 	if len(setList) != 0 {
-		fmt.Printf("<! %v set >\n\n", setList)
+		fmt.Printf("<! %v %s >\n\n", setList, util.Text("set"))
 	}
 }
 
@@ -236,11 +236,11 @@ func unsetFlags(arg string, debug, r, i, ipa, a *bool) {
 			*a = false
 			unsetList = append(unsetList, f)
 		default:
-			fmt.Printf("<! No such option: %s >\n", f)
+			fmt.Printf("<! %s: %s >\n", util.Text("noOptionError"), f)
 		}
 	}
 	if len(unsetList) != 0 {
-		fmt.Printf("<! %v unset >\n\n", unsetList)
+		fmt.Printf("<! %v %s >\n\n", unsetList, util.Text("unset"))
 	}
 }
 
@@ -293,7 +293,7 @@ func main() {
 		fmt.Println(util.Text("header"))
 
 		for {
-			fmt.Print("Fwew:> ")
+			fmt.Print(util.Text("prompt"))
 
 			reader := bufio.NewReader(os.Stdin)
 			input, err := reader.ReadString('\n')

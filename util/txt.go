@@ -25,11 +25,14 @@ var usr, err = user.Current()
 var texts = map[string]string{}
 
 func init() {
+	// main program strings
 	texts["name"] = "Fwew"
 	texts["author"] = "Tirea Aean"
 	texts["header"] = fmt.Sprintf("%s - Na'vi Dictionary Search - by %s\n`fwew -h` for usage, `fwew -v` for version\n", texts["name"], texts["author"])
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
-	texts["none"] = "No Results\n"
+	texts["prompt"] = "Fwew:> "
+
+	// flag strings
 	texts["usageDebug"] = "Show extremely verbose probing"
 	texts["usageV"] = "Show program & dictionary version numbers"
 	texts["usageL"] = "Use specified language \n\tValid values: " + texts["languages"]
@@ -39,6 +42,8 @@ func init() {
 	texts["usageR"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
 	texts["usageA"] = "Find all matches by using affixes to match the input word"
 	texts["defaultFilter"] = "all"
+
+	// file strings
 	texts["homeDir"], _ = filepath.Abs(usr.HomeDir)
 	texts["dataDir"] = filepath.Join(texts["homeDir"], ".fwew")
 	texts["config"] = filepath.Join(texts["dataDir"], "config.json")
@@ -46,7 +51,19 @@ func init() {
 	texts["prefixes"] = filepath.Join(texts["dataDir"], "prefixes.txt")
 	texts["infixes"] = filepath.Join(texts["dataDir"], "infixes.txt")
 	texts["suffixes"] = filepath.Join(texts["dataDir"], "suffixes.txt")
+
+	// general message strings
+	texts["affixes"] = "Affixes"
+	texts["cset"] = "Currently set"
+	texts["set"] = "set"
+	texts["unset"] = "unset"
+
+	// error message strings
+	texts["none"] = "No Results\n"
 	texts["noDataError"] = "Data file(s) missing or not installed.\nPlease Install Fwew (run ./install.sh)"
+	texts["noOptionError"] = "No such option"
+	texts["fileError"] = "File error"
+
 }
 
 func Text(s string) string {
