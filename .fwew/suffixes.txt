@@ -1,0 +1,224 @@
+1522	de	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) Diminutiv-Suffix für Nomen, Pronomen
+1522	en	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) diminutive suffix for nouns, pronouns
+1522	est	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) Hellitav, õrnutsev, vähem tähtsamaks tegev, narriv vorm vastavalt kontekstile
+1522	hu	--tsyìp	t͡sjɪp̚	\N	dim.	(prod.) kicsinyítő képző főnevek, névmások végén(produktív, sosem hangsúlyos)
+1522	nl	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) verkleinend achtervoegsel voor zn. en vn.
+1522	ru	--tsyìp	t͡sjɪp̚	\N	dim.	(прод.) уменьшительный суффикс для существительных и местоимений
+1522	sv	--tsyìp	t͡sjɪp̚	\N	dim.	(pro.) diminutiva suffix för substantiv, pronomen
+1843	de	--fkeyk	fkɛjk̚	\N	state	(pro.) Suffix für Nomen mit der Bedeutung -zustand, -situation
+1843	en	--fkeyk	fkɛjk̚	\N	state	(pro.) suffix for nouns meaning state, condition
+1843	est	--fkeyk	fkɛjk̚	\N	state	(pro.) järelliide nimisõnadele mis märgivad olekut
+1843	hu	--fkeyk	fkɛjk̚	\N	state	(prod.) utótag főnevekhez állapotot, körülményt fejez ki
+1843	nl	--fkeyk	fkɛjk̚	\N	state	(pro.) achtervoegsel voor zn. die toestand, conditie betekenen
+1843	ru	--fkeyk	fkɛjk̚	\N	state	(pro.) суффикс для сущ., означающий состояние, качество
+1843	sv	--fkeyk	fkɛjk̚	\N	state	(pro.) suffix för substantiv betydande tillstånd, situation
+857	de	--ìri	ɪɾi	\N	top.	Themen-Marker (Topic)
+857	en	--ìri	ɪɾi	\N	top.	topical
+857	est	--ìri	ɪɾi	\N	top.	Teema käände
+857	hu	--ìri	ɪɾi	\N	top.	jelölt tárgy
+857	nl	--ìri	ɪɾi	\N	top.	topicaal
+857	pl	--ìri	ɪɾi	\N	top.	przypadek tematyczny
+857	ru	--ìri	ɪɾi	\N	top.	топик
+857	sv	--ìri	ɪɾi	\N	top.	Aktuellt
+1890	de	--nga'	ŋaʔ	\N	adj.	Adjektivmarker
+1890	en	--nga'	ŋaʔ	\N	adj.	adjective
+1890	est	--nga'	ŋaʔ	\N	adj.	omadussõna
+1890	hu	--nga'	ŋaʔ	\N	adj.	melléknév
+1890	nl	--nga'	ŋaʔ	\N	adj.	adjectief
+1890	pl	--nga'	ŋaʔ	\N	adj.	przymiotnik
+1890	ru	--nga'	ŋaʔ	\N	adj.	прилагательное
+1890	sv	--nga'	ŋaʔ	\N	adj.	adjektiv
+2196	de	--tswo	t͡swo	\N	suffix	(pro.) Suffix, das ein Verb in ein Nomen ändert, das die Fähigkeit anzeigt, das Verb auszuführen
+2196	en	--tswo	t͡swo	\N	suffix	(pro.) suffix that changes a verb to a noun indicating the ability to perform the action of the verb
+2196	est	--tswo	t͡swo	\N	suffix	(pro.) järelliide, mis muudab tegusõna nimisõnaks, mis näitab võimet tegusõna tegevust sooritada
+2196	hu	--tswo	t͡swo	\N	suffix	(pro.) utótag, amely az igét főnévvé változtatja, jelezve az ige végrehajtásának képességét
+2196	nl	--tswo	t͡swo	\N	suffix	(pro.) achtervoegsel dat een werkwoord in een zn. veranderd, en de mogelijkheid tot het uitvoeren van de actie van het werkwoord aangeeft
+2196	ru	--tswo	t͡swo	\N	suffix	(прод.) суффикс, изменяющий глагол на существительное, со способностью выполнить действие глагола
+856	de	--ìl	ɪl	\N	erg.	Agens
+856	en	--ìl	ɪl	\N	erg.	agentive case
+856	est	--ìl	ɪl	\N	erg.	Aluse käände
+856	hu	--ìl	ɪl	\N	erg.	jelölt alany
+856	nl	--ìl	ɪl	\N	erg.	agentief
+856	pl	--ìl	ɪl	\N	erg.	ergatyw
+856	ru	--ìl	ɪl	\N	erg.	агентив
+856	sv	--ìl	ɪl	\N	erg.	Ergativ händelse
+2630	de	--kel	kɛl	\N	neg.	(unpro.) bildet ein neues Substantiv, das einen \\uline{Mangel des Ursprungswortes anzeigt
+2630	en	--kel	kɛl	\N	neg.	(unpro.) creates a new noun that indicates a \\uline{lack of the original noun
+2630	est	--kel	kɛl	\N	neg.	(mittepro.) kasutatakse uue \\uline{puudust näitava nimisõna loomiseks
+2630	hu	--kel	kɛl	\N	neg.	(nem produktív) új főnevet képez, amely az eredeti főnév  \\uline{hiányát jelenti
+2630	nl	--kel	kɛl	\N	neg.	(onpro.) creëert een nieuw zn. dat een \\uline{gebrek aan het originele zn. aangeeft
+2416	de	--nay	naj	\N	dim.	(unpro.) erzeugt ein neues Nomen, das sich auf das Original bezieht, aber einen Schritt weiter unten in der jeweiligen Hierarchie ist – Größe, Rang, Fähigkeit, etc.
+2416	en	--nay	naj	\N	dim.	(unpro.) creates a new noun that is related to the original by being a step down in some relevant heirarchy - size, rank, accomplishment, etc.
+2416	est	--nay	naj	\N	dim.	(mittepro.) loob uue nimisõna, mis on esialgsest üks aste vähemtähtsam, madalam, väiksem jne.
+2416	hu	--nay	naj	\N	dim.	(unpro.) olyan főnevet képez az eredetiből, amely jelentése nála eggyel lejjebb van a ranglétrán - méretben, rangban, stb.
+2416	nl	--nay	naj	\N	dim.	(unpro.) creëert een nieuw zn. relatief aan het origineel, maar een graad lager in de relevante hierarchie, - maat, rang, etc.
+2416	ru	--nay	naj	\N	dim.	(непрод.) создает новое существительное, которое по отношению к оригинальному на ступень ниже в какой-либо иерахии -- размер, ранг, завершенность и т.д.)
+863	de	--pe	pɛ	\N	inter.	(pro.) Affix Interrogativ-Marker welche
+863	en	--pe	pɛ	\N	inter.	(pro.) affix inter. marker
+863	est	--pe	pɛ	\N	inter.	(pro.) Küsimuse eesliide
+863	hu	--pe	pɛ	\N	inter.	(prod.) kérdőszóképző
+863	nl	--pe	pɛ	\N	inter.	(pro.) affix vvn. markering
+863	ru	--pe	pɛ	\N	inter.	(прод.) маркер вопроса к слову
+863	sv	--pe	pɛ	\N	inter.	(4) affix interr. markör vad
+870	de	--yä	jæ	\N	gen.	Genitiv
+870	en	--yä	jæ	\N	gen.	genitive
+870	est	--yä	jæ	\N	gen.	Datiivse käände
+870	hu	--yä	jæ	\N	gen.	birtokos eset
+870	nl	--yä	jæ	\N	gen.	genitief
+870	pl	--yä	jæ	\N	gen.	dopełniacz
+870	ru	--yä	jæ	\N	gen.	генитив
+870	sv	--yä	jæ	\N	gen.	genitiv
+851	de	--ä	æ	\N	gen.	Genitiv
+851	en	--ä	æ	\N	gen.	genitive
+851	est	--ä	æ	\N	gen.	Omastava (genitiivse) kääne
+851	hu	--ä	æ	\N	gen.	birtokos eset
+851	nl	--ä	æ	\N	gen.	genitief
+851	pl	--ä	æ	\N	gen.	dopełniacz
+851	ru	--ä	æ	\N	gen.	генитив
+851	sv	--ä	æ	\N	gen.	genitiv
+852	de	--an	an	\N	masc.	Maskulines Suffix für bestimmte Nomen
+852	en	--an	an	\N	masc.	masculine suffix for certain nouns
+852	est	--an	an	\N	masc.	Meessoo tunnus teatud nimisõnadele
+852	hu	--an	an	\N	masc.	hímnem jele bizonyos főnevek végén
+852	nl	--an	an	\N	masc.	mannelijk achtervoegsel voor bepaalde zn.
+852	pl	--an	an	\N	masc.	przyrostek rodzaju męskiego
+852	ru	--an	an	\N	masc.	суффикс мужского рода для некоторых существительных
+852	sv	--an	an	\N	masc.	(1) maskulint suffix för vissa substantiv
+858	de	--it	it̚	\N	pat.	Patiens
+858	en	--it	it̚	\N	pat.	patientive
+858	est	--it	it̚	\N	pat.	Sihitava käände
+858	hu	--it	it̚	\N	pat.	tárgyeset
+858	nl	--it	it̚	\N	pat.	patientief
+858	pl	--it	it̚	\N	pat.	biernik
+858	ru	--it	it̚	\N	pat.	пациенс
+858	sv	--it	it̚	\N	pat.	ackusativ
+1094	de	--lo	lo	\N	mult.	multiplikativer Zahlen Suffix für 'aw, mune, pxey
+1094	en	--lo	lo	\N	mult.	multiplicative number suffix for 'aw, mune, pxey
+1094	est	--lo	lo	\N	mult.	Korra arvu järelliide numbritele 'aw, mune, pxey
+1094	hu	--lo	lo	\N	mult.	számhatározórag
+1094	nl	--lo	lo	\N	mult.	meervoudig getal achtervoegsel voor 'aw, mune, pxey
+1094	pl	--lo	lo	\N	mult.	przyrostek okreslający ilość powtórzeń dla 'aw, mune, pxey
+1094	ru	--lo	lo	\N	mult.	мультипликативный числовой суффикс для 'aw, mune, pxey
+1094	sv	--lo	lo	\N	mult.	multiplikativ nummer-suffix för 'aw, mune, pxey
+865	de	--ri	ɾi	\N	top.	Themen-Marker
+865	en	--ri	ɾi	\N	top.	topical
+865	est	--ri	ɾi	\N	top.	Teema käände
+865	hu	--ri	ɾi	\N	top.	jelölt (topikális) alany
+865	nl	--ri	ɾi	\N	top.	topicaal
+865	pl	--ri	ɾi	\N	top.	przypadek tematyczny
+865	ru	--ri	ɾi	\N	top.	топик
+865	sv	--ri	ɾi	\N	top.	ämne
+866	de	--ru	ɾu	\N	dat.	Dativ
+866	en	--ru	ɾu	\N	dat.	dative
+866	est	--ru	ɾu	\N	dat.	Datiivse käände
+866	hu	--ru	ɾu	\N	dat.	részes eset
+866	nl	--ru	ɾu	\N	dat.	datief
+866	pl	--ru	ɾu	\N	dat.	celownik
+866	ru	--ru	ɾu	\N	dat.	датив
+866	sv	--ru	ɾu	\N	dat.	dativ
+868	de	--ti	ti	\N	pat.	Patiens
+868	en	--ti	ti	\N	pat.	patientive
+868	est	--ti	ti	\N	pat.	Sihitava käände
+868	hu	--ti	ti	\N	pat.	tárgyeset
+868	nl	--ti	ti	\N	pat.	patientief
+868	pl	--ti	ti	\N	pat.	biernik
+868	ru	--ti	ti	\N	pat.	пациенс
+868	sv	--ti	ti	\N	pat.	ackusativ
+877	de	--tu	tu	\N	d.o.nom.	Personensuffix bei nicht-Verben
+877	en	--tu	tu	\N	d.o.nom.	person noun from non-verbal stem
+877	est	--tu	tu	\N	d.o.nom.	(pro.) Tegija
+877	hu	--tu	tu	\N	d.o.nom.	(prod.) nem igei tőből személyt jelentő főnevet
+877	nl	--tu	tu	\N	d.o.nom.	persoons zn. van niet-ww. stam
+877	ru	--tu	tu	\N	d.o.nom.	суффикс существительного, выражает направленность действия на субъект
+877	sv	--tu	tu	\N	d.o.nom.	(pro.) direkt objekt substantiv
+869	de	--ur	uɾ	\N	dat.	Dativ
+869	en	--ur	uɾ	\N	dat.	dative
+869	est	--ur	uɾ	\N	dat.	Datiivse käände
+869	hu	--ur	uɾ	\N	dat.	részes eset
+869	nl	--ur	uɾ	\N	dat.	datief
+869	pl	--ur	uɾ	\N	dat.	celownik
+869	ru	--ur	uɾ	\N	dat.	датив
+869	sv	--ur	uɾ	\N	dat.	dativ
+1260	de	--ve	vɛ	\N	ord.	(pro.) ordinaler Suffix für Zahlen
+1260	en	--ve	vɛ	\N	ord.	(pro.) ordinal suffix for numbers
+1260	est	--ve	vɛ	\N	ord.	(pro.) Järgarvu järelliide numbritele
+1260	hu	--ve	vɛ	\N	ord.	(prod.) sorszámnévi toldalék
+1260	nl	--ve	vɛ	\N	ord.	(pro.) tellend achtervoegsel voor getallen
+1260	ru	--ve	vɛ	\N	ord.	(прод.) порядковый суффикс числительных
+1260	sv	--ve	vɛ	\N	ord.	(pro.) suffix för att skapa ordningstal
+1287	de	--vi	vi	\N	part.	partieller Beziehungsmarker
+1287	en	--vi	vi	\N	part.	partitive relationship marker
+1287	est	--vi	vi	\N	part.	(millegi) väiksema osa näitaja
+1287	hu	--vi	vi	\N	part.	rész-egész viszonyt jelző toldalék (nem nagyon produktív)
+1287	nl	--vi	vi	\N	part.	partitieve relatie markering
+1287	pl	--vi	vi	\N	part.	przyrostek określający cząstkę
+1287	ru	--vi	vi	\N	part.	маркер выделения части
+1287	sv	--vi	vi	\N	part.	partitiv förhållande markör
+1316	de	--ya	ja	\N	voc.	Vokativsuffix für Gruppenbezeichnungen
+1316	en	--ya	ja	\N	voc.	vocative suffix for collective nouns
+1316	est	--ya	ja	\N	voc.	Järelliide üttele kollektiivsete nimisõnade puhul
+1316	hu	--ya	ja	\N	voc.	megszólító eset ragja gyűjtőnevek végén
+1316	nl	--ya	ja	\N	voc.	vocatief achtervoegsel voor collectieve zn.
+1316	pl	--ya	ja	\N	voc.	przyrostek wołacza rzeczowników zbiorowych
+1316	ru	--ya	ja	\N	voc.	суффикс звательного падежа для собирательных существительных
+1316	sv	--ya	ja	\N	voc.	vokativt suffix för kollektiva substantiv
+878	de	--yu	ju	\N	a.nom.	(pro.) Personensuffix bei Verben
+878	en	--yu	ju	\N	a.nom.	(pro.) agent noun
+878	est	--yu	ju	\N	a.nom.	(pro.) Tegija
+878	hu	--yu	ju	\N	a.nom.	(prod.) főnév
+878	nl	--yu	ju	\N	a.nom.	(pro.) persoons zn. van ww. stam
+878	ru	--yu	ju	\N	a.nom.	(прод.) суффикс образования отглагольных существительных, обозначающих лицо, называемое по роду занятий, профессии
+878	sv	--yu	ju	\N	a.nom.	(pro.) agentivt substantiv
+871	de	--a	a	\N	adj.	(pro.) adjektivischer Attribut und Nebensatz-Marker
+871	en	--a	a	\N	adj.	(pro.) adjectival attribution and subordination marker
+871	est	--a	a	\N	adj.	(pro.)Omadussõna tunnus
+871	hu	--a	a	\N	adj.	(prod.) melléknévjelző
+871	nl	--a	a	\N	adj.	adjectieve attributieve markering
+871	ru	--a	a	\N	adj.	(прод.) присоединяемый ссылочный и подчиняющий маркер
+871	sv	--a	a	\N	adj.	adjektivattribut och bisatsmarkör
+854	de	--e	ɛ	\N	fem.	Feminines Suffix für bestimmte Nomen
+854	en	--e	ɛ	\N	fem.	feminine suffix for certain nouns
+854	est	--e	ɛ	\N	fem.	Naissoo tunnus nimisõnadele
+854	hu	--e	ɛ	\N	fem.	nőnem jelző bizonyos főnevek végén
+854	nl	--e	ɛ	\N	fem.	vrouwelijk achtervoegsel voor bepaalde zn.
+854	pl	--e	ɛ	\N	fem.	przyrostek rodzaju żeńskiego
+854	ru	--e	ɛ	\N	fem.	суффикс женского рода для некоторых существительных
+854	sv	--e	ɛ	\N	fem.	(1) feminint suffix för vissa suffix
+859	de	--l	l	\N	erg.	Agens
+859	en	--l	l	\N	erg.	agentive case
+859	est	--l	l	\N	erg.	Aluse käände
+859	hu	--l	l	\N	erg.	ergatív esetű alany
+859	nl	--l	l	\N	erg.	agentief
+859	pl	--l	l	\N	erg.	ergatyw
+859	ru	--l	l	\N	erg.	агентив
+859	sv	--l	l	\N	erg.	Ergativ händelse
+1063	de	--o	o	\N	indef., dur.	(pro.) Indefinit-Suffix, zeitliche Dauer
+1063	en	--o	o	\N	indef., dur.	(pro.) indefinite suffix, durative suffix
+1063	est	--o	o	\N	indef., dur.	(pro.) Umbisiikulilise tegumoe, kestva toimingu järelliide
+1063	hu	--o	o	\N	indef., dur.	(prod.) határozatlan toldalék, időtartamra utaló
+1063	nl	--o	o	\N	indef., dur.	(pro.) onbepaald achtervoegsel
+1063	ru	--o	o	\N	indef., dur.	(прод.) суффикс со значением неопределенности, длительности
+1063	sv	--o	o	\N	indef., dur.	(pro.) suffix
+2052	de	--r	ɾ	\N	dat.	Dativ
+2052	en	--r	ɾ	\N	dat.	dative
+2052	est	--r	ɾ	\N	dat.	datiivne
+2052	hu	--r	ɾ	\N	dat.	részes eset
+2052	nl	--r	ɾ	\N	dat.	datief
+2052	pl	--r	ɾ	\N	dat.	celownik
+2052	ru	--r	ɾ	\N	dat.	дательный
+867	de	--t	t̚	\N	pat.	Patiens
+867	en	--t	t̚	\N	pat.	patientive
+867	est	--t	t̚	\N	pat.	Sihitava käände
+867	hu	--t	t̚	\N	pat.	tárgyeset
+867	nl	--t	t̚	\N	pat.	patientief
+867	pl	--t	t̚	\N	pat.	biernik
+867	ru	--t	t̚	\N	pat.	пациенс
+867	sv	--t	t̚	\N	pat.	ackusativ
+1333	de	--y	j	\N	gen.	Genitiv
+1333	en	--y	j	\N	gen.	genitive
+1333	est	--y	j	\N	gen.	Omastava (genitiivse) käände
+1333	hu	--y	j	\N	gen.	birtoklás
+1333	nl	--y	j	\N	gen.	genitief
+1333	pl	--y	j	\N	gen.	dopełniacz
+1333	ru	--y	j	\N	gen.	генитив
+1333	sv	--y	j	\N	gen.	genitiv

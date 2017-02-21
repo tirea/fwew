@@ -42,8 +42,10 @@ func init() {
 	texts["homeDir"], _ = filepath.Abs(usr.HomeDir)
 	texts["dataDir"] = filepath.Join(texts["homeDir"], ".fwew")
 	texts["config"] = filepath.Join(texts["dataDir"], "config.json")
-	texts["dictionary"] = filepath.Join(texts["dataDir"], "dictionary.tsv")
-	texts["infixes"] = filepath.Join(texts["dataDir"], "infixes.tsv")
+	texts["dictionary"] = filepath.Join(texts["dataDir"], "dictionary.txt")
+	texts["prefixes"] = filepath.Join(texts["dataDir"], "prefixes.txt")
+	texts["infixes"] = filepath.Join(texts["dataDir"], "infixes.txt")
+	texts["suffixes"] = filepath.Join(texts["dataDir"], "suffixes.txt")
 	texts["noDataError"] = "Data file(s) missing or not installed.\nPlease Install Fwew (run ./install.sh)"
 }
 

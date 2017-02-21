@@ -1,0 +1,248 @@
+847	de	ìyev	ɪ.jɛ.v	1	fut.subj.	Futur Subjunktiv
+847	en	ìyev	ɪ.jɛ.v	1	fut.subj.	future subjunctive
+847	est	ìyev	ɪ.jɛ.v	1	fut.subj.	Tingiva tuleviku tunnus
+847	hu	ìyev	ɪ.jɛ.v	1	fut.subj.	jövő idejű kötőmódú
+847	nl	ìyev	ɪ.jɛ.v	1	fut.subj.	toekomstig subjunctief
+847	pl	ìyev	ɪ.jɛ.v	1	fut.subj.	czas przyszły, tryb łączący
+847	ru	ìyev	ɪ.jɛ.v	1	fut.subj.	сосл. наклонение, будущее время,
+847	sv	ìyev	ɪ.jɛ.v	1	fut.subj.	framtida konjunktiv
+835	de	äng	æ.ŋ	2	pej.	Pejorativer Affekt
+835	en	äng	æ.ŋ	2	pej.	pejorative affect
+835	est	äng	æ.ŋ	2	pej.	Halvustava või laitva mõjutuse tunnus.
+835	hu	äng	æ.ŋ	2	pej.	rosszallást kifejező
+835	nl	äng	æ.ŋ	2	pej.	verslechterend effect
+835	pl	äng	æ.ŋ	2	pej.	negatywne nastawienie
+835	ru	äng	æ.ŋ	2	pej.	негативное отношение,
+835	sv	äng	æ.ŋ	2	pej.	negativ mening
+1521	de	ìlm	ɪl.m	1	perf.rec.past.	perfektiver Aspekt der unmittelbaren Vergangenheit
+1521	en	ìlm	ɪl.m	1	perf.rec.past.	perfective recent past tense
+1521	est	ìlm	ɪl.m	1	perf.rec.past.	Hiljutise lõpetatud (perfektiivse) mineviku tunnus.
+1521	hu	ìlm	ɪl.m	1	perf.rec.past.	befejezett közelmúltra utaló
+1521	nl	ìlm	ɪl.m	1	perf.rec.past.	voltooid recent verleden tijd
+1521	pl	ìlm	ɪl.m	1	perf.rec.past.	czas przeszły bliski, aspekt dokonany
+1521	ru	ìlm	ɪl.m	1	perf.rec.past.	сов. вид, ближайшее прошедшее время,
+1521	sv	ìlm	ɪl.m	1	perf.rec.past.	perfekt nyligen dåtida tempus.
+1516	de	ìly	ɪl.j	1	perf.imm.fut.	perfektiver Aspekt der unmittelbaren Zukunft
+1516	en	ìly	ɪl.j	1	perf.imm.fut.	perfective immediate future tense
+1516	est	ìly	ɪl.j	1	perf.imm.fut.	Kohese lõpetatud (perfektiivse) tuleviku tunnus.
+1516	hu	ìly	ɪl.j	1	perf.imm.fut.	befejezett közeljövőre utaló
+1516	nl	ìly	ɪl.j	1	perf.imm.fut.	voltooid onmiddellijk toekomende tijd
+1516	pl	ìly	ɪl.j	1	perf.imm.fut.	czas przyszły bliski, aspekt dokonany
+1516	ru	ìly	ɪl.j	1	perf.imm.fut.	сов. вид, ближайшее будущее время,
+1516	sv	ìly	ɪl.j	1	perf.imm.fut.	perfekt omedelbart framtida tempus
+1520	de	ìrm	ɪɾ.m	1	impf.rec.past.	imperfektiver Aspekt der umittelbaren Vergangenheit
+1520	en	ìrm	ɪɾ.m	1	impf.rec.past.	imperfective recent past tense
+1520	est	ìrm	ɪɾ.m	1	impf.rec.past.	Hiljutise lõpetamata (imperfektiivse) mineviku tunnus.
+1520	hu	ìrm	ɪɾ.m	1	impf.rec.past.	folyamatos közelmúltra utaló
+1520	nl	ìrm	ɪɾ.m	1	impf.rec.past.	imperfectief recent verleden tijd
+1520	pl	ìrm	ɪɾ.m	1	impf.rec.past.	czas przeszły bliski, aspekt niedokonany
+1520	ru	ìrm	ɪɾ.m	1	impf.rec.past.	несов. вид, недавно прошедшее время
+1520	sv	ìrm	ɪɾ.m	1	impf.rec.past.	imperfekt nyligen dåtida tempus
+1515	de	ìry	ɪɾ.j	1	impf.imm.fut.	imperfektiver Aspekt der unmittelbaren Zukunft
+1515	en	ìry	ɪɾ.j	1	impf.imm.fut.	imperfective immediate future tense
+1515	est	ìry	ɪɾ.j	1	impf.imm.fut.	Kohese lõpetamata (imperfektiivse) tuleviku tunnus.
+1515	hu	ìry	ɪɾ.j	1	impf.imm.fut.	folyamatos közeljövőre utaló
+1515	nl	ìry	ɪɾ.j	1	impf.imm.fut.	imperfectief onmiddellijk toekomende tijd
+1515	pl	ìry	ɪɾ.j	1	impf.imm.fut.	czas przyszły bliski, aspekt niedokonany
+1515	ru	ìry	ɪɾ.j	1	impf.imm.fut.	несов. вид, ближайшее будущее время,
+1515	sv	ìry	ɪɾ.j	1	impf.imm.fut.	imperfekt omedelbart framtia tempus
+1064	de	ìsy	ɪ.sj	1	imm.fut.d.	unmittelbares Futur mit Absicht
+1064	en	ìsy	ɪ.sj	1	imm.fut.d.	immediate future tense with determination
+1064	est	ìsy	ɪ.sj	1	imm.fut.d.	Kohese lubava/otsustava tuleviku tunnus.
+1064	hu	ìsy	ɪ.sj	1	imm.fut.d.	közeljövőbeni szándékot kifejező
+1064	nl	ìsy	ɪ.sj	1	imm.fut.d.	onmiddellijke toekomstige tijd met intentie
+1064	pl	ìsy	ɪ.sj	1	imm.fut.d.	czas przyszły bliski zamierzony
+1064	ru	ìsy	ɪ.sj	1	imm.fut.d.	ближайшее будущее время с модальностью намерения
+1064	sv	ìsy	ɪ.sj	1	imm.fut.d.	omedelbart framtida tempus med beslutsamhet
+843	de	iyev	i.jɛ.v	1	fut.subj.	Futur Subjunktiv
+843	en	iyev	i.jɛ.v	1	fut.subj.	future subjunctive
+843	est	iyev	i.jɛ.v	1	fut.subj.	Tingiva tuleviku tunnus.
+843	hu	iyev	i.jɛ.v	1	fut.subj.	jövő idejű kötőmód
+843	nl	iyev	i.jɛ.v	1	fut.subj.	toekomstig subjunctief
+843	pl	iyev	i.jɛ.v	1	fut.subj.	czas przyszły, tryb łączący
+843	ru	iyev	i.jɛ.v	1	fut.subj.	сосл. наклонение, будущее время,
+843	sv	iyev	i.jɛ.v	1	fut.subj.	framtida konjunktiv
+1517	de	alm	al.m	1	perf.past	perfektive Vergangenheit
+1517	en	alm	al.m	1	perf.past	perfective past tense
+1517	est	alm	al.m	1	perf.past	Lõpetatud (perfektiivse) tegevuse tunnus.
+1517	hu	alm	al.m	1	perf.past	befejezett múlt időt kifejező
+1517	nl	alm	al.m	1	perf.past	voltooid verleden tijd
+1517	pl	alm	al.m	1	perf.past	czas przeszły, aspekt dokonany
+1517	ru	alm	al.m	1	perf.past	сов.вид, прошедшее время,
+1517	sv	alm	al.m	1	perf.past	perfekt dåtida tempus
+1518	de	aly	al.j	1	perf.fut.	perfektive Zukunft
+1518	en	aly	al.j	1	perf.fut.	perfective future tense
+1518	est	aly	al.j	1	perf.fut.	Lõpetatud (perfektiivse) tuleviku tunnus.
+1518	hu	aly	al.j	1	perf.fut.	befejezett jövőre utaló
+1518	nl	aly	al.j	1	perf.fut.	voltooid toekomende tijd
+1518	pl	aly	al.j	1	perf.fut.	czas przyszły, aspekt dokonany
+1518	ru	aly	al.j	1	perf.fut.	сов. вид, будущее время,
+1518	sv	aly	al.j	1	perf.fut.	perfekt framtida tempus
+836	de	äp	æ.p	0	refl.	Reflexiv
+836	en	äp	æ.p	0	refl.	reflexive
+836	est	äp	æ.p	0	refl.	Enesekohase asesõna tunnus.
+836	hu	äp	æ.p	0	refl.	visszaható névmás
+836	nl	äp	æ.p	0	refl.	wederkerend
+836	pl	äp	æ.p	0	refl.	strona zwrotna
+836	ru	äp	æ.p	0	refl.	возвратный (-ся),
+836	sv	äp	æ.p	0	refl.	reflektorisk
+833	de	arm	aɾ.m	1	impf.past.	Präteritum, imperfektiver Aspekt
+833	en	arm	aɾ.m	1	impf.past.	imperfective past tense
+833	est	arm	aɾ.m	1	impf.past.	Lõpetamata (imperfektiivse) mineviku tunnus.
+833	hu	arm	aɾ.m	1	impf.past.	befejezetlen múlt idő jele
+833	nl	arm	aɾ.m	1	impf.past.	imperfectieve verleden tijd
+833	pl	arm	aɾ.m	1	impf.past.	czas przeszły, aspekt niedokonany
+833	ru	arm	aɾ.m	1	impf.past.	несов. прош. время,
+833	sv	arm	aɾ.m	1	impf.past.	imperfekt föregående tempus
+1519	de	ary	aɾ.j	1	impf.fut.	imperfektive Zukunft
+1519	en	ary	aɾ.j	1	impf.fut.	imperfective future tense
+1519	est	ary	aɾ.j	1	impf.fut.	Lõpetamata (imperfektiivse) tuleviku tunnus.
+1519	hu	ary	aɾ.j	1	impf.fut.	folyamatos jövőre utaló
+1519	nl	ary	aɾ.j	1	impf.fut.	imperfectief toekomende tijd
+1519	pl	ary	aɾ.j	1	impf.fut.	czas przyszły, aspekt niedokonany
+1519	ru	ary	aɾ.j	1	impf.fut.	несов. вид, будущее время,
+1519	sv	ary	aɾ.j	1	impf.fut.	imperfekt framtida tempus
+1065	de	asy	a.sj	1	fut.d.	Futur mit Absicht
+1065	en	asy	a.sj	1	fut.d.	future tense with intention or determination
+1065	est	asy	a.sj	1	fut.d.	Kindla/otsustava tuleviku tunnus.
+1065	hu	asy	a.sj	1	fut.d.	jövőbeni szándékot vagy elhatározást kifejező
+1065	nl	asy	a.sj	1	fut.d.	toekomstige tijd met intentie
+1065	pl	asy	a.sj	1	fut.d.	czas przyszły zamierzony
+1065	ru	asy	a.sj	1	fut.d.	будущее время (намерение или неизбежность)
+1065	sv	asy	a.sj	1	fut.d.	framtida tempus med beslutsamhet
+998	de	ats	a.t͡s	2	infr.	Inferential, zeigt Unsicherheit an oder indirektes Wissen (Hörensagen)
+998	en	ats	a.t͡s	2	infr.	inferential, indicating uncertainty or indirect knowledge
+998	est	ats	a.t͡s	2	infr.	Kaudse kõneviisi ja ebakindlate teadmiste tunnus
+998	hu	ats	a.t͡s	2	infr.	inferenciális, bizonytalan vagy indirekt értesülést jelölő
+998	nl	ats	a.t͡s	2	infr.	inferentieel, geeft onzekerheid of indirecte kennis aan
+998	pl	ats	a.t͡s	2	infr.	tryb nieświadka
+998	ru	ats	a.t͡s	2	infr.	передающий неуверенность говорящего в достоверности сообщаемых сведений аффективный
+998	sv	ats	a.t͡s	2	infr.	osäker handling, vilket tyder på osäkerhet eller indirekt kunskap
+1066	de	awn	aw.n	1	p.part.	Partizip Passiv
+1066	en	awn	aw.n	1	p.part.	passive participle
+1066	est	awn	aw.n	1	p.part.	-nud, -tud vormi tunnus.
+1066	hu	awn	aw.n	1	p.part.	befejezett melléknévi igenevet képző
+1066	nl	awn	aw.n	1	p.part.	passief deelwoord
+1066	pl	awn	aw.n	1	p.part.	imiesłów przymiotnikowy bierny
+1066	ru	awn	aw.n	1	p.part.	причастие страдательного залога
+1066	sv	awn	aw.n	1	p.part.	passiv patricip
+932	de	eyk	ɛj.k	0	caus.	Kausativ
+932	en	eyk	ɛj.k	0	caus.	causative
+932	est	eyk	ɛj.k	0	caus.	Põhjustava (kausatiivse) tegusõna tunnus.
+932	hu	eyk	ɛj.k	0	caus.	műveltető
+932	nl	eyk	ɛj.k	0	caus.	oorzakelijk
+932	pl	eyk	ɛj.k	0	caus.	strona sprwcza
+932	ru	eyk	ɛj.k	0	caus.	казуальный
+932	sv	eyk	ɛj.k	0	caus.	orsakande
+839	de	ilv	il.v	1	pres.per.subj.	Präsens Perfektiver Subjunktiv
+839	en	ilv	il.v	1	pres.per.subj.	present perfective subjunctive
+839	est	ilv	il.v	1	pres.per.subj.	Tingiva oleviku perfektiivne tunnus.
+839	hu	ilv	il.v	1	pres.per.subj.	jelen idejű befejezett kötőmód
+839	nl	ilv	il.v	1	pres.per.subj.	huidige perfectieve aanvoegende wijs
+839	pl	ilv	il.v	1	pres.per.subj.	czas teraźniejszy, aspekt dokonany, tryb łączący
+839	ru	ilv	il.v	1	pres.per.subj.	сослагательное наклонение настоящего времени совершенного вида
+839	sv	ilv	il.v	1	pres.per.subj.	nutida, perfekt konjunktiv
+844	de	ìm	ɪ.m	1	rec.past.	unmittelbare Vergangenheit
+844	en	ìm	ɪ.m	1	rec.past.	recent past
+844	est	ìm	ɪ.m	1	rec.past.	Hiljutise lihtmineviku tunnus.
+844	hu	ìm	ɪ.m	1	rec.past.	közelmúlt jele
+844	nl	ìm	ɪ.m	1	rec.past.	recent verleden
+844	pl	ìm	ɪ.m	1	rec.past.	czas przeszły bliski
+844	ru	ìm	ɪ.m	1	rec.past.	недавнее прош. время,
+844	sv	ìm	ɪ.m	1	rec.past.	Nylig dåtid
+840	de	imv	im.v	1	past.subj.	Präteritum Subjunktiv
+840	en	imv	im.v	1	past.subj.	past subjunctive
+840	est	imv	im.v	1	past.subj.	Tingiva täismineviku tunnus.
+840	hu	imv	im.v	1	past.subj.	múlt idejű kötőmód
+840	nl	imv	im.v	1	past.subj.	verleden subjunctief
+840	pl	imv	im.v	1	past.subj.	czas przeszły, tryb łączący
+840	ru	imv	im.v	1	past.subj.	сосл. наклонение, прош. время,
+840	sv	imv	im.v	1	past.subj.	förflutet konjunktiv
+841	de	irv	iɾ.v	1	pres.impf.subj.	Präsens Imperfektiver Subjunktiv
+841	en	irv	iɾ.v	1	pres.impf.subj.	present imperfective subjunctive
+841	est	irv	iɾ.v	1	pres.impf.subj.	Tingiva lõpetamata (impefektiivse) oleviku tunnus.
+841	hu	irv	iɾ.v	1	pres.impf.subj.	jelen idejű befejezetlen kötőmód
+841	nl	irv	iɾ.v	1	pres.impf.subj.	imperfectieve tegenwoordige tijd subjunctief
+841	pl	irv	iɾ.v	1	pres.impf.subj.	czas teraźniejszy, aspekt niedokonany, tryb łączący
+841	ru	irv	iɾ.v	1	pres.impf.subj.	сосл. наклонение, несов. наст. время,
+841	sv	irv	iɾ.v	1	pres.impf.subj.	presens, imperfekt konjunktiv
+846	de	ìy	ɪ.j	1	imm.fut.	unmittelbare Zukunft
+846	en	ìy	ɪ.j	1	imm.fut.	immediate future tense
+846	est	ìy	ɪ.j	1	imm.fut.	Kohese tuleviku tunnus
+846	hu	ìy	ɪ.j	1	imm.fut.	közeljövő jele
+846	nl	ìy	ɪ.j	1	imm.fut.	onvoltooid onmiddelijk toekomstige tijd
+846	pl	ìy	ɪ.j	1	imm.fut.	czas przyszły bliski
+846	ru	ìy	ɪ.j	1	imm.fut.	ближайшее будущее время,
+846	sv	ìy	ɪ.j	1	imm.fut.	Omedelbart framtida tempus
+832	de	am	a.m	1	past.	Präteritum
+832	en	am	a.m	1	past.	past tense
+832	est	am	a.m	1	past.	Lihtmineviku tunnus.
+832	hu	am	a.m	1	past.	múlt idő jele
+832	nl	am	a.m	1	past.	onvoltooid verleden tijd
+832	pl	am	a.m	1	past.	czas przeszły
+832	ru	am	a.m	1	past.	прош. время,
+832	sv	am	a.m	1	past.	föregående tempus
+834	de	ay	a.j	1	fut.	Zukunft, Futur (vorhersagend)
+834	en	ay	a.j	1	fut.	future tense (predictive)
+834	est	ay	a.j	1	fut.	Tuleviku tunnus.
+834	hu	ay	a.j	1	fut.	jövő idő jele
+834	nl	ay	a.j	1	fut.	onvoltooid toekomstige tijd
+834	pl	ay	a.j	1	fut.	czas przyszły
+834	ru	ay	a.j	1	fut.	будущее время (предсказание)
+834	sv	ay	a.j	1	fut.	framtida tempus
+837	de	ei	ɛ.i	2	laud.	Laudativer Affekt
+837	en	ei	ɛ.i	2	laud.	laudative affect
+837	est	ei	ɛ.i	2	laud.	Kiitva, hea mõjutuse tunnus.
+837	hu	ei	ɛ.i	2	laud.	boldogságot kifejező
+837	nl	ei	ɛ.i	2	laud.	verbeterend effect
+837	pl	ei	ɛ.i	2	laud.	pozytywne nastawienie
+837	ru	ei	ɛ.i	2	laud.	положительное отношение,
+837	sv	ei	ɛ.i	2	laud.	positiv mening
+838	de	er	ɛ.ɾ	1	impf.	Imperfektiver Aspekt
+838	en	er	ɛ.ɾ	1	impf.	imperfective aspect
+838	est	er	ɛ.ɾ	1	impf.	Lõpetamata (imperfektiivse) tegevuse tunnus.
+838	hu	er	ɛ.ɾ	1	impf.	befejezetlenséget, folyamatosságot jelez
+838	nl	er	ɛ.ɾ	1	impf.	imperfectief aspect
+838	pl	er	ɛ.ɾ	1	impf.	aspekt niedokonany
+838	ru	er	ɛ.ɾ	1	impf.	несов. вид,
+838	sv	er	ɛ.ɾ	1	impf.	presens, nutid, pågående
+842	de	iv	i.v	1	subj.	Subjunktiv (Modus)
+842	en	iv	i.v	1	subj.	subjunctive mood
+842	est	iv	i.v	1	subj.	Tingiva kõneviisi tunnus.
+842	hu	iv	i.v	1	subj.	kötőmód jele
+842	nl	iv	i.v	1	subj.	subjunctief
+842	pl	iv	i.v	1	subj.	tryb łączący
+842	ru	iv	i.v	1	subj.	сосл наклонение,
+842	sv	iv	i.v	1	subj.	konjunktiv
+848	de	ol	o.l	1	perf.	Perfektiver Aspekt
+848	en	ol	o.l	1	perf.	perfective aspect
+848	est	ol	o.l	1	perf.	Lõpetatud (perfektiivse) tegevuse tunnus.
+848	hu	ol	o.l	1	perf.	befejezett cselekvés
+848	nl	ol	o.l	1	perf.	perfectief aspect
+848	pl	ol	o.l	1	perf.	aspekt dokonany
+848	ru	ol	o.l	1	perf.	сов. вид,
+848	sv	ol	o.l	1	perf.	perfekt
+875	de	si	s·i	\N	v.	nachgestelltes Verb
+875	en	si	s·i	\N	v.	postpositional verb
+875	est	si	s·i	\N	v.	Põhisõnale järgnev tegusõna
+875	hu	si	s·i	\N	v.	összetett igéket
+875	nl	si	s·i	\N	v.	napositioneel werkwoord
+875	pl	si	s·i	\N	v.	czasownik pomocniczy
+875	ru	si	s·i	\N	v.	постпозицонный глагол
+875	sv	si	s·i	\N	v.	postpositionalt verb
+849	de	us	u.s	1	a.part.	Partizip Aktiv
+849	en	us	u.s	1	a.part.	active participle
+849	est	us	u.s	1	a.part.	V-kesksõna tunnus.
+849	hu	us	u.s	1	a.part.	folyamatos melléknévi igenevet képző
+849	nl	us	u.s	1	a.part.	actief deelwoord
+849	pl	us	u.s	1	a.part.	imiesłów przymiotnikowy czynny
+849	ru	us	u.s	1	a.part.	активное причастие
+849	sv	us	u.s	1	a.part.	aktiv particip
+850	de	uy	u.j	2	hon.	ehrend oder zeremoniell
+850	en	uy	u.j	2	hon.	honorific (honourific) or ceremonial
+850	est	uy	u.j	2	hon.	Austava või tseremoniaalse mõjutuse tunnus.
+850	hu	uy	u.j	2	hon.	megtisztelő vagy szertartásos
+850	nl	uy	u.j	2	hon.	Beleefdheidsvorm of plechtige vorm
+850	pl	uy	u.j	2	hon.	honoryfikat lub forma ceremonialna
+850	ru	uy	u.j	2	hon.	почтительно или торжественно
+850	sv	uy	u.j	2	hon.	Ärofull eller ceremoniel betydelse
