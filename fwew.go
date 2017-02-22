@@ -117,6 +117,9 @@ func fwew(word string, lc string, posFilter string, reverse bool, useAffixes boo
 					if result.Id != "-1" {
 						results = append(results, result)
 					}
+					// reset these to not catch the next word
+					result.Target = ""
+					result.Attempt = ""
 
 				}
 			}

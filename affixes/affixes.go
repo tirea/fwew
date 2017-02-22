@@ -99,30 +99,48 @@ func infix(infixed Word) Word {
 }
 
 func lenite(unlenited Word) Word {
-	var lenTable map[string]string = map[string]string{
-		"kx": "k",
-		"px": "p",
-		"tx": "t",
-		"k":  "h",
-		"p":  "f",
-		"t":  "s",
-		"ts": "s",
-		"'":  "",
-	}
 
-	for key, value := range lenTable {
-		if strings.HasPrefix(unlenited.Navi, key) {
-			unlenited.Attempt = strings.Replace(unlenited.Navi, key, value, 1)
-			unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], key+"->"+value)
-		}
+	switch {
+	case strings.HasPrefix(unlenited.Navi, "kx"):
+		unlenited.Attempt = strings.Replace(unlenited.Navi, "kx", "k", 1)
+		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "kx->k")
+		return unlenited
+	case strings.HasPrefix(unlenited.Navi, "px"):
+		unlenited.Attempt = strings.Replace(unlenited.Navi, "px", "p", 1)
+		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "px->p")
+		return unlenited
+	case strings.HasPrefix(unlenited.Navi, "tx"):
+		unlenited.Attempt = strings.Replace(unlenited.Navi, "tx", "t", 1)
+		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "tx->t")
+		return unlenited
+	case strings.HasPrefix(unlenited.Navi, "k"):
+		unlenited.Attempt = strings.Replace(unlenited.Navi, "k", "h", 1)
+		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "k->h")
+		return unlenited
+	case strings.HasPrefix(unlenited.Navi, "p"):
+		unlenited.Attempt = strings.Replace(unlenited.Navi, "p", "f", 1)
+		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "p->f")
+		return unlenited
+	case strings.HasPrefix(unlenited.Navi, "ts"):
+		unlenited.Attempt = strings.Replace(unlenited.Navi, "ts", "s", 1)
+		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "ts->s")
+		return unlenited
+	case strings.HasPrefix(unlenited.Navi, "t"):
+		unlenited.Attempt = strings.Replace(unlenited.Navi, "t", "s", 1)
+		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "t->s")
+		return unlenited
+	case strings.HasPrefix(unlenited.Navi, "'"):
+		unlenited.Attempt = strings.Replace(unlenited.Navi, "'", "", 1)
+		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "'->")
+		return unlenited
+	default:
+		return unlenited
 	}
-
-	return unlenited
 }
 
 func Reconstruct(w Word) Word {
 	//TODO
-	w = prefix(w)
+	//w = prefix(w)
 	w = lenite(w)
 
 	if w.Attempt == w.Target {
