@@ -61,7 +61,7 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	return w
 }
 
-func prefix(prefixed Word) Word {
+func prefix(w Word) Word {
 	//TODO
 	//var re *regexp.Regexp
 	//var nounRe string = "(pe|fray|tsay|fay|pay|ay|fra)?(fì|tsa)?(me|pxe)?(fne)?(munsna)?"
@@ -72,10 +72,10 @@ func prefix(prefixed Word) Word {
 	//prodActPartAffixPre := []string{"a", "us"}
 	//prodPassPartAffixPre := []string{"a", "awn"}
 
-	return prefixed // placeholder
+	return w // placeholder
 }
 
-func suffix(suffixed Word) Word {
+func suffix(w Word) Word {
 	//TODO
 	/*
 		prodNSuffixes := []string{"tsyìp", "ìri", "nga'", "ìl", "pe", "yä", "ä", "it", "ri", "ru", "ti", "tu", "ur", "l", "o", "r", "t", "y"}
@@ -84,10 +84,10 @@ func suffix(suffixed Word) Word {
 		prodActPartAffixSuf := []string{"us", "a"}
 		prodPassPartAffixSuf := []string{"awn", "a"}
 	*/
-	return suffixed
+	return w
 }
 
-func infix(infixed Word) Word {
+func infix(w Word) Word {
 	//TODO
 	/*
 		hardCodeHax := map[string][]string{}
@@ -95,46 +95,46 @@ func infix(infixed Word) Word {
 		hardCodeHax["molte"] = []string{"mllte", "ol"}
 		prodVInfixes := []string{"ìyev", "iyev", "äng", "eng", "ìlm", "ìly", "ìrm", "ìry", "ìsy", "alm", "aly", "äp", "arm", "ary", "asy", "ats", "eyk", "ìm", "imv", "irv", "ìy", "am", "ay", "ei", "er", "iv", "ol", "uy"}
 	*/
-	return infixed
+	return w
 }
 
-func lenite(unlenited Word) Word {
+func lenite(w Word) Word {
 
 	switch {
-	case strings.HasPrefix(unlenited.Navi, "kx"):
-		unlenited.Attempt = strings.Replace(unlenited.Navi, "kx", "k", 1)
-		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "kx->k")
-		return unlenited
-	case strings.HasPrefix(unlenited.Navi, "px"):
-		unlenited.Attempt = strings.Replace(unlenited.Navi, "px", "p", 1)
-		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "px->p")
-		return unlenited
-	case strings.HasPrefix(unlenited.Navi, "tx"):
-		unlenited.Attempt = strings.Replace(unlenited.Navi, "tx", "t", 1)
-		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "tx->t")
-		return unlenited
-	case strings.HasPrefix(unlenited.Navi, "k"):
-		unlenited.Attempt = strings.Replace(unlenited.Navi, "k", "h", 1)
-		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "k->h")
-		return unlenited
-	case strings.HasPrefix(unlenited.Navi, "p"):
-		unlenited.Attempt = strings.Replace(unlenited.Navi, "p", "f", 1)
-		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "p->f")
-		return unlenited
-	case strings.HasPrefix(unlenited.Navi, "ts"):
-		unlenited.Attempt = strings.Replace(unlenited.Navi, "ts", "s", 1)
-		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "ts->s")
-		return unlenited
-	case strings.HasPrefix(unlenited.Navi, "t"):
-		unlenited.Attempt = strings.Replace(unlenited.Navi, "t", "s", 1)
-		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "t->s")
-		return unlenited
-	case strings.HasPrefix(unlenited.Navi, "'"):
-		unlenited.Attempt = strings.Replace(unlenited.Navi, "'", "", 1)
-		unlenited.Affixes["lenition"] = append(unlenited.Affixes["lenition"], "'->")
-		return unlenited
+	case strings.HasPrefix(w.Navi, "kx"):
+		w.Attempt = strings.Replace(w.Navi, "kx", "k", 1)
+		w.Affixes["lenition"] = append(w.Affixes["lenition"], "kx->k")
+		return w
+	case strings.HasPrefix(w.Navi, "px"):
+		w.Attempt = strings.Replace(w.Navi, "px", "p", 1)
+		w.Affixes["lenition"] = append(w.Affixes["lenition"], "px->p")
+		return w
+	case strings.HasPrefix(w.Navi, "tx"):
+		w.Attempt = strings.Replace(w.Navi, "tx", "t", 1)
+		w.Affixes["lenition"] = append(w.Affixes["lenition"], "tx->t")
+		return w
+	case strings.HasPrefix(w.Navi, "k"):
+		w.Attempt = strings.Replace(w.Navi, "k", "h", 1)
+		w.Affixes["lenition"] = append(w.Affixes["lenition"], "k->h")
+		return w
+	case strings.HasPrefix(w.Navi, "p"):
+		w.Attempt = strings.Replace(w.Navi, "p", "f", 1)
+		w.Affixes["lenition"] = append(w.Affixes["lenition"], "p->f")
+		return w
+	case strings.HasPrefix(w.Navi, "ts"):
+		w.Attempt = strings.Replace(w.Navi, "ts", "s", 1)
+		w.Affixes["lenition"] = append(w.Affixes["lenition"], "ts->s")
+		return w
+	case strings.HasPrefix(w.Navi, "t"):
+		w.Attempt = strings.Replace(w.Navi, "t", "s", 1)
+		w.Affixes["lenition"] = append(w.Affixes["lenition"], "t->s")
+		return w
+	case strings.HasPrefix(w.Navi, "'"):
+		w.Attempt = strings.Replace(w.Navi, "'", "", 1)
+		w.Affixes["lenition"] = append(w.Affixes["lenition"], "'->")
+		return w
 	default:
-		return unlenited
+		return w
 	}
 }
 
