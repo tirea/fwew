@@ -17,6 +17,7 @@ package affixes
 
 import (
 	"fmt"
+	"regexp"
 	"strings"
 )
 
@@ -61,12 +62,80 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	return w
 }
 
+func delete_empty(s []string) []string {
+	var r []string
+	for _, str := range s {
+		if str != "" {
+			r = append(r, str)
+		}
+	}
+	return r
+}
+
+func contains(s []string, q []string) bool {
+	if len(q) == 0 || len(s) == 0 {
+		return false
+	}
+	// search for any instance of a thing in q...
+	for _, x := range q {
+		// ... that exists in s.
+		for _, y := range s {
+			if y == x {
+				return true
+			}
+		}
+	}
+
+	return false
+}
+
 func prefix(w Word) Word {
 	//TODO
-	//var re *regexp.Regexp
-	//var nounRe string = "(pe|fray|tsay|fay|pay|ay|fra)?(fì|tsa)?(me|pxe)?(fne)?(munsna)?"
-	//var adjRe string = "(nì|a)?"
-	//var vRe string = "(ketsuk|tsuk)?"
+	var re *regexp.Regexp
+	var reString string
+	var attempt string = ""
+	var lenPre []string = []string{"pe", "fray", "tsay", "fay", "pay", "ay", "me", "pxe"}
+
+	switch w.PartOfSpeech {
+	case "n.":
+		reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(fì)?(tsa)?(me)?(pxe)?(fne)?(munsna)?"
+	case "adj.":
+		reString = "(nì|a)?"
+	case "vin.", "vtr.", "vim.", "vtrm.", "v.":
+		reString = "(ketsuk|tsuk)?"
+	default:
+		return w // Not a type that has a prefix, return word without attempting.
+	}
+
+	re = regexp.MustCompile(reString)
+	matchPrefixes := re.FindAllStringSubmatch(w.Target, -1)[0][1:]
+	matchPrefixes = delete_empty(matchPrefixes)
+
+	// no productive prefixes found; why bother to continue?
+	if len(matchPrefixes) == 0 {
+		return w
+	}
+
+	// build what prefixes to put on
+	for _, p := range matchPrefixes {
+		attempt = attempt + p
+	}
+
+	//TODO: fix this:
+	// current fail: everything works except non-leniting prefixes
+
+	// check for leniting prefix
+	if contains(matchPrefixes, lenPre) {
+		// lenite first
+		w = lenite(w)
+		// then add prefixes
+		w.Attempt = attempt + w.Attempt
+	} else {
+		// otherwise just add the prefixes to create the attempt
+		w.Attempt = attempt + w.Navi
+	}
+
+	w.Affixes["Prefixes"] = matchPrefixes
 
 	//prodGerundAffix := []string{"tì", "us"}
 	//prodActPartAffixPre := []string{"a", "us"}
@@ -99,7 +168,10 @@ func infix(w Word) Word {
 }
 
 func lenite(w Word) Word {
-
+	// Have we already attempted lenition?
+	if _, ok := w.Affixes["lenition"]; ok {
+		return w
+	}
 	switch {
 	case strings.HasPrefix(w.Navi, "kx"):
 		w.Attempt = strings.Replace(w.Navi, "kx", "k", 1)
@@ -140,12 +212,17 @@ func lenite(w Word) Word {
 
 func Reconstruct(w Word) Word {
 	//TODO
-	//w = prefix(w)
+	w = prefix(w)
+
+	if w.Attempt == w.Target {
+		return w
+	}
+
 	w = lenite(w)
 
 	if w.Attempt == w.Target {
 		return w
-	} else {
-		return Word{Id: "-1"}
 	}
+
+	return Word{Id: "-1"}
 }
