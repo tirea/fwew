@@ -53,7 +53,6 @@ func init() {
 	texts["suffixes"] = filepath.Join(texts["dataDir"], "suffixes.txt")
 
 	// general message strings
-	texts["affixes"] = "Affixes"
 	texts["cset"] = "Currently set"
 	texts["set"] = "set"
 	texts["unset"] = "unset"

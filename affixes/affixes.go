@@ -62,7 +62,7 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	return w
 }
 
-func delete_empty(s []string) []string {
+func deleteEmpty(s []string) []string {
 	var r []string
 	for _, str := range s {
 		if str != "" {
@@ -89,8 +89,19 @@ func contains(s []string, q []string) bool {
 	return false
 }
 
+func containsStr(s []string, q string) bool {
+	if len(q) == 0 || len(s) == 0 {
+		return false
+	}
+	for _, x := range s {
+		if q == x {
+			return true
+		}
+	}
+	return false
+}
+
 func prefix(w Word) Word {
-	//TODO
 	var re *regexp.Regexp
 	var reString string
 	var attempt string = ""
@@ -109,7 +120,7 @@ func prefix(w Word) Word {
 
 	re = regexp.MustCompile(reString)
 	matchPrefixes := re.FindAllStringSubmatch(w.Target, -1)[0][1:]
-	matchPrefixes = delete_empty(matchPrefixes)
+	matchPrefixes = deleteEmpty(matchPrefixes)
 
 	// no productive prefixes found; why bother to continue?
 	if len(matchPrefixes) == 0 {
@@ -120,9 +131,6 @@ func prefix(w Word) Word {
 	for _, p := range matchPrefixes {
 		attempt = attempt + p
 	}
-
-	//TODO: fix this:
-	// current fail: everything works except non-leniting prefixes
 
 	// check for leniting prefix
 	if contains(matchPrefixes, lenPre) {
@@ -157,13 +165,61 @@ func suffix(w Word) Word {
 }
 
 func infix(w Word) Word {
-	//TODO
+	// Is it even a verb tho?
+	if !containsStr([]string{"vin.", "vtr.", "vim.", "vtrm.", "v.", "svin."}, w.PartOfSpeech) {
+		return w
+	}
+	// Have we already attempted infixes?
+	if _, ok := w.Affixes["infixes"]; ok {
+		return w
+	}
+
+	var re *regexp.Regexp
+	var reString string = ""
+	var attempt string = ""
+	var pos0InfixRe string = "(äp)?(eyk)?"
+	var pos1InfixRe string = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|irv|ìy|am|ay|er|iv|ol)?"
+	var pos2InfixRe string = "(ei|äng|ats|uy)?"
+	var pos0InfixString string = ""
+	var pos1InfixString string = ""
+	var pos2InfixString string = ""
+	var matchInfixes []string = []string{}
+
+	reString = strings.Replace(w.InfixLocations, "<0>", pos0InfixRe, 1)
+	reString = strings.Replace(reString, "<1>", pos1InfixRe, 1)
+	reString = strings.Replace(reString, "<2>", pos2InfixRe, 1)
+
+	re = regexp.MustCompile(reString)
+	tmp := re.FindAllStringSubmatch(w.Target, -1)
+	//matchInfixes := re.FindAllStringSubmatch(w.Target, -1)[0][1:]
+	if len(tmp) > 0 && len(tmp[0]) >= 1 {
+		matchInfixes = tmp[0][1:]
+	}
+	matchInfixes = deleteEmpty(matchInfixes)
+
+	for _, i := range matchInfixes {
+		if i == "äp" || i == "eyk" {
+			pos0InfixString = pos0InfixString + i
+		} else if i == "ei" || i == "äng" || i == "ats" || i == "uy" {
+			pos2InfixString = i
+		} else {
+			pos1InfixString = i
+		}
+	}
+
+	attempt = strings.Replace(w.InfixLocations, "<0>", pos0InfixString, 1)
+	attempt = strings.Replace(attempt, "<1>", pos1InfixString, 1)
+	attempt = strings.Replace(attempt, "<2>", pos2InfixString, 1)
+
 	/*
 		hardCodeHax := map[string][]string{}
 		hardCodeHax["poltxe"] = []string{"plltxe", "ol"}
 		hardCodeHax["molte"] = []string{"mllte", "ol"}
-		prodVInfixes := []string{"ìyev", "iyev", "äng", "eng", "ìlm", "ìly", "ìrm", "ìry", "ìsy", "alm", "aly", "äp", "arm", "ary", "asy", "ats", "eyk", "ìm", "imv", "irv", "ìy", "am", "ay", "ei", "er", "iv", "ol", "uy"}
 	*/
+
+	w.Attempt = attempt
+	w.Affixes["infixes"] = matchInfixes
+
 	return w
 }
 
@@ -212,6 +268,13 @@ func lenite(w Word) Word {
 
 func Reconstruct(w Word) Word {
 	//TODO
+
+	w = infix(w)
+
+	if w.Attempt == w.Target {
+		return w
+	}
+
 	w = prefix(w)
 
 	if w.Attempt == w.Target {

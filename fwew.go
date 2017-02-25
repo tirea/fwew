@@ -158,9 +158,8 @@ func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIP
 			}
 			if useAffixes {
 				if len(w.Affixes) > 0 {
-					out += fmt.Sprintf("    %s:\n", util.Text("affixes"))
 					for key, value := range w.Affixes {
-						out += fmt.Sprintf("      %s: %s\n", key, value)
+						out += fmt.Sprintf("    %s: %s\n", key, value)
 					}
 
 				}
