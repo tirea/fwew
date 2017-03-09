@@ -1,4 +1,4 @@
-SOURCES = fwew.go affixes/affixes.go util/txt.go util/version.go
+SOURCES = fwew.go affixes/affixes.go config/config.go numbers/numbers.go util/txt.go util/version.go
 
 fwew: format all
 
