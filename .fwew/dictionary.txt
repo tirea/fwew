@@ -2451,7 +2451,7 @@
 1556	ru	poe	po.ˈɛ	\N	pn.	она
 1556	sv	poe	po.ˈɛ	\N	pn.	hon (det finns ingen pluralform: använd (ay)fo)
 1560	de	pongu	ˈpo.ŋu	\N	n.	Gruppe von Leuten
-1560	eng	pongu	ˈpo.ŋu	\N	n.	group of people, party
+1560	eng	pongu	ˈpo.ŋu	\N	n.	a group or party of people
 1560	est	pongu	ˈpo.ŋu	\N	n.	grupp, hulk (inimeste kohta)
 1560	hu	pongu	ˈpo.ŋu	\N	n.	csoport
 1560	nl	pongu	ˈpo.ŋu	\N	n.	groep mensen
