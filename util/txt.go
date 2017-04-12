@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// This util library handles all program strings
+// Package util handles general program stuff. txt.go handles program strings.
 package util
 
 import (
@@ -59,16 +59,19 @@ func init() {
 
 	// error message strings
 	texts["none"] = "No Results\n"
-	texts["noDataError"] = "Data file(s) missing or not installed.\nPlease Install Fwew (run ./install.sh)"
-	texts["noOptionError"] = "No such option"
-	texts["fileError"] = "File error"
+	texts["noDataError"] = "Error 1: Dictionary file (" + texts["dictionary"] + ") missing or not installed.\nPlease Install Fwew (run ./install.sh)"
+	texts["fileError"] = "Error 2: Failed to read configuration file (" + texts["config"] + ")"
+	texts["noOptionError"] = "Error 3: No such option"
+	texts["invalidIntError"] = "Error 4: input must be a decimal integer in range 0 <= i <= 32767 or octal integer in range 0 <= i <= 77777"
 
 }
 
+// Text function is the accessor for []string texts
 func Text(s string) string {
 	return texts[s]
 }
 
+// SetText is the setter for []string texts
 func SetText(i, s string) {
 	texts[i] = s
 }
