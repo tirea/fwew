@@ -12,8 +12,10 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// This util library contains all the stuff for the number parsing
+// Package numbers contains all the stuff for the number parsing
 package numbers
+
+import "github.com/tirea/fwew/util"
 
 const (
 	maxIntDec int = 32767
@@ -24,20 +26,20 @@ func valid(input int, reverse bool) bool {
 	if reverse {
 		if 0 <= input && input <= maxIntDec {
 			return true
-		} else {
-			return false
 		}
-	} else {
-		if 0 <= input && input <= maxIntOct {
-			return true
-		} else {
-			return false
-		}
+		return false
 	}
+	if 0 <= input && input <= maxIntOct {
+		return true
+	}
+	return false
 }
 
-func Convert(input int, reverse bool) {
+// Convert is the main number conversion function
+func Convert(input int, reverse bool) string {
 	if !valid(input, reverse) {
-
+		return util.Text("invalidIntError")
 	}
+	// convert! :D
+	return "" // TODO
 }
