@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// This util library handles affix parsing of input
+// Package affixes handles affix parsing of input
 package affixes
 
 import (
@@ -21,8 +21,9 @@ import (
 	"strings"
 )
 
+// Word is a struct that contains all the data about a given word
 type Word struct {
-	Id             string
+	ID             string
 	LangCode       string
 	Navi           string
 	Target         string
@@ -37,9 +38,10 @@ type Word struct {
 func (w Word) String() string {
 	// this string only doesn't get translated or called from util.Text() because they're var names
 	return fmt.Sprintf("Id: %s\nLangCode: %s\nNavi: %s\nTarget: %s\nAttempt: %s\nIPA: %s\nInfixLocations: %s\nPartOfSpeech: %s\nDefinition: %s\nAffixes: %v\n",
-		w.Id, w.LangCode, w.Navi, w.Target, w.Attempt, w.IPA, w.InfixLocations, w.PartOfSpeech, w.Definition, w.Affixes)
+		w.ID, w.LangCode, w.Navi, w.Target, w.Attempt, w.IPA, w.InfixLocations, w.PartOfSpeech, w.Definition, w.Affixes)
 }
 
+// InitWordStruct is basically a constructer for Word struct
 func InitWordStruct(w Word, dataFields []string) Word {
 	const (
 		idField  int = 0 // dictionary.tsv line Field 0 is Database ID
@@ -50,7 +52,7 @@ func InitWordStruct(w Word, dataFields []string) Word {
 		posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
 		defField int = 6 // dictionary.tsv line field 6 is Local definition
 	)
-	w.Id = dataFields[idField]
+	w.ID = dataFields[idField]
 	w.LangCode = dataFields[lcField]
 	w.Navi = dataFields[navField]
 	w.IPA = dataFields[ipaField]
@@ -104,8 +106,8 @@ func containsStr(s []string, q string) bool {
 func prefix(w Word) Word {
 	var re *regexp.Regexp
 	var reString string
-	var attempt string = ""
-	var lenPre []string = []string{"pe", "fray", "tsay", "fay", "pay", "ay", "me", "pxe"}
+	var attempt string
+	var lenPre = []string{"pe", "fray", "tsay", "fay", "pay", "ay", "me", "pxe"}
 
 	switch w.PartOfSpeech {
 	case "n.":
@@ -175,15 +177,15 @@ func infix(w Word) Word {
 	}
 
 	var re *regexp.Regexp
-	var reString string = ""
-	var attempt string = ""
-	var pos0InfixRe string = "(äp)?(eyk)?"
-	var pos1InfixRe string = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|irv|ìy|am|ay|er|iv|ol)?"
-	var pos2InfixRe string = "(ei|äng|ats|uy)?"
-	var pos0InfixString string = ""
-	var pos1InfixString string = ""
-	var pos2InfixString string = ""
-	var matchInfixes []string = []string{}
+	var reString string
+	var attempt string
+	var pos0InfixRe = "(äp)?(eyk)?"
+	var pos1InfixRe = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|irv|ìy|am|ay|er|iv|ol)?"
+	var pos2InfixRe = "(ei|äng|ats|uy)?"
+	var pos0InfixString string
+	var pos1InfixString string
+	var pos2InfixString string
+	var matchInfixes = []string{}
 
 	reString = strings.Replace(w.InfixLocations, "<0>", pos0InfixRe, 1)
 	reString = strings.Replace(reString, "<1>", pos1InfixRe, 1)
@@ -266,6 +268,7 @@ func lenite(w Word) Word {
 	}
 }
 
+// Reconstruct is the main function of affixes.go, responsible for the affixing algorithm
 func Reconstruct(w Word) Word {
 	//TODO
 
@@ -287,5 +290,5 @@ func Reconstruct(w Word) Word {
 		return w
 	}
 
-	return Word{Id: "-1"}
+	return Word{ID: "-1"}
 }
