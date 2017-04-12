@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// This util library handles all the version stuff
+// Package util handles general program stuff. version.go handles program version.
 package util
 
 import "fmt"
@@ -24,12 +24,13 @@ type version struct {
 	Dict                string
 }
 
+// Version is a printable version struct containing program version information
 var Version = version{1, 7, 2, "dev", "Eana Yayo", "Na'vi Dictionary 13.331 (08 MAR 2017)"}
 
 func (v version) String() string {
 	if v.Label != "" {
 		return fmt.Sprintf("Fwew version %d.%d.%d-%s \"%s\"\n%s", v.Major, v.Minor, v.Patch, v.Label, v.Name, v.Dict)
-	} else {
-		return fmt.Sprintf("Fwew version %d.%d.%d \"%s\"\n%s", v.Major, v.Minor, v.Patch, v.Name, v.Dict)
 	}
+
+	return fmt.Sprintf("Fwew version %d.%d.%d \"%s\"\n%s", v.Major, v.Minor, v.Patch, v.Name, v.Dict)
 }
