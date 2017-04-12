@@ -11,7 +11,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-//	Package main obviously contains all the stuff for the main program
+// Package main obviously contains all the stuff for the main program
 package main
 
 import (
@@ -114,7 +114,7 @@ func fwew(word string, lc string, posFilter string, reverse bool, useAffixes boo
 					result.Target = word
 					result = affixes.Reconstruct(result)
 
-					if result.Id != "-1" {
+					if result.ID != "-1" {
 						results = append(results, result)
 					}
 					// reset these to not catch the next word
@@ -131,7 +131,7 @@ func fwew(word string, lc string, posFilter string, reverse bool, useAffixes boo
 
 func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIPA bool, useAffixes bool) {
 	if len(results) != 0 {
-		var out string = ""
+		var out string
 
 		for i, w := range results {
 
