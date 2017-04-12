@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// package config handles... the configuration file stuff. Probably.
+// Package config handles... the configuration file stuff. Probably.
 package config
 
 import (
@@ -23,12 +23,14 @@ import (
 	"github.com/tirea/fwew/util"
 )
 
+// Config is a struct designed to hold the values of the configuration file when loaded
 type Config struct {
 	Language   string `json:"language"`
 	PosFilter  string `json:"posFilter"`
 	UseAffixes bool   `json:"useAffixes"`
 }
 
+// ReadConfig reads a configuration file and puts the data into Config struct
 func ReadConfig() Config {
 	configfile, e := ioutil.ReadFile(util.Text("config"))
 	if e != nil {
