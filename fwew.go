@@ -182,7 +182,7 @@ func setFlags(arg string, debug, r, i, ipa, a *bool, l, p *string) {
 	for _, f := range flagList {
 		switch {
 		case f == "":
-			fmt.Printf("<! %s: debug=%t, r=%t, i=%t, ipa=%t, a=%t, l=%s, p=%s >\n", util.Text("cset"), *debug, *r, *i, *ipa, *a, *l, *p)
+			fmt.Printf("<! %s: debug=%t, r=%t, i=%t, ipa=%t, a=%t, l=%s, p=%s >\n\n", util.Text("cset"), *debug, *r, *i, *ipa, *a, *l, *p)
 		case f == "debug":
 			*debug = true
 			setList = append(setList, f)
