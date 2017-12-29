@@ -131,8 +131,13 @@ func prefix(w Word) Word {
 		reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(me)?(pxe)?(fne)?(munsna)?"
 	case "adj.":
 		reString = "(nì|a)?"
-	case "vin.", "vtr.", "vim.", "vtrm.", "v.":
-		reString = "(ketsuk|tsuk)?"
+	case "vin.", "vtr.", "vim.", "vtrm.", "v.", "svin.", "", "vin., svin.":
+		inf := w.Affixes["infixes"]
+		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
+			reString = "(a|tì)?"
+		} else {
+			reString = "(ketsuk|tsuk)?"
+		}
 	default:
 		return w // Not a type that has a prefix, return word without attempting.
 	}
@@ -202,10 +207,19 @@ func suffix(w Word) Word {
 		reString = "(a)?"
 	case "num.":
 		reString = "(ve)?(a)?"
-	case "v.", "vin.", "vtr.", "vim.", "vtrm.", "svin.":
+	case "v.", "vin.", "vtr.", "vim.", "vtrm.", "svin.", "", "vin., svin.":
 		inf := w.Affixes["infixes"]
+		pre := w.Affixes["prefixes"]
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
-			reString = "(a)?"
+			// it's a tì-<us> gerund; treat it like a noun
+			if len(pre) > 0 && containsStr(pre, "tì") && inf[0] == "us" {
+				reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?" +
+					"(mungwrr)?(kxamlä)?(tafkip)?(pxisre)?(pximaw)?(ftumfa)?(mìkam)?(nemfa)?(takip)?(lisre)?(talun)?" +
+					"(krrka)?(teri)?(fkip)?(pxaw)?(pxel)?(luke)?(rofa)?(fpi)?(ftu)?(kip)?(vay)?(lok)?(maw)?" +
+					"(sìn)?(sre)?(few)?(kam)?(kay)?(nuä)?(sko)?(yoa)?(äo)?(eo)?(fa)?(hu)?(ka)?(mì)?(na)?(ne)?(ta)?(io)?(uo)?(ro)?(wä)?(sì)?"
+			} else {
+				reString = "(a)?"
+			}
 		} else {
 			reString = "(tswo|yu)?"
 		}
@@ -252,7 +266,7 @@ func infix(w Word) Word {
 	var reString string
 	var attempt string
 	var pos0InfixRe = "(äp)?(eyk)?"
-	var pos1InfixRe = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|irv|ìy|am|ay|er|iv|ol)?"
+	var pos1InfixRe = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|irv|ìy|am|ay|er|iv|ol|us|awn)?"
 	var pos2InfixRe = "(eiy|ei|äng|eng|ats|uy)?"
 	var pos0InfixString string
 	var pos1InfixString string
@@ -382,7 +396,7 @@ func Reconstruct(w Word) Word {
 		return w
 	}
 
-	if len(w.Target) > 1 && !containsStr([]string{"px", "tx", "kx", "ts"}, w.Target[:2]) && !strings.HasPrefix(w.Target, "'") {
+	if !strings.HasPrefix(w.Attempt, w.Target[0:1]) {
 		w = lenite(w)
 		if debug {
 			fmt.Println("LENITE")
