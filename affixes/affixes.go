@@ -167,10 +167,6 @@ func suffix(w Word) Word {
 }
 
 func infix(w Word) Word {
-	// Is it even a verb tho?
-	if !containsStr([]string{"vin.", "vtr.", "vim.", "vtrm.", "v.", "svin."}, w.PartOfSpeech) {
-		return w
-	}
 	// Have we already attempted infixes?
 	if _, ok := w.Affixes["infixes"]; ok {
 		return w
@@ -187,9 +183,9 @@ func infix(w Word) Word {
 	var pos2InfixString string
 	var matchInfixes = []string{}
 
-	reString = strings.Replace(w.InfixLocations, "<0>", pos0InfixRe, 1)
-	reString = strings.Replace(reString, "<1>", pos1InfixRe, 1)
-	reString = strings.Replace(reString, "<2>", pos2InfixRe, 1)
+	reString = strings.Replace(w.InfixLocations, "<1>", pos0InfixRe, 1)
+	reString = strings.Replace(reString, "<2>", pos1InfixRe, 1)
+	reString = strings.Replace(reString, "<3>", pos2InfixRe, 1)
 
 	re = regexp.MustCompile(reString)
 	tmp := re.FindAllStringSubmatch(w.Target, -1)
@@ -209,9 +205,9 @@ func infix(w Word) Word {
 		}
 	}
 
-	attempt = strings.Replace(w.InfixLocations, "<0>", pos0InfixString, 1)
-	attempt = strings.Replace(attempt, "<1>", pos1InfixString, 1)
-	attempt = strings.Replace(attempt, "<2>", pos2InfixString, 1)
+	attempt = strings.Replace(w.InfixLocations, "<1>", pos0InfixString, 1)
+	attempt = strings.Replace(attempt, "<2>", pos1InfixString, 1)
+	attempt = strings.Replace(attempt, "<3>", pos2InfixString, 1)
 
 	/*
 		hardCodeHax := map[string][]string{}
@@ -272,23 +268,31 @@ func lenite(w Word) Word {
 func Reconstruct(w Word) Word {
 	//TODO
 
-	w = infix(w)
-
-	if w.Attempt == w.Target {
-		return w
+	if containsStr([]string{"vin.", "vtr.", "vim.", "vtrm.", "v.", "svin."}, w.PartOfSpeech) {
+		w = infix(w)
+		//fmt.Println("INFIX")
+		//fmt.Printf("Attempt: %s | Target: %s\n", w.Attempt, w.Target)
+		if w.Attempt == w.Target {
+			return w
+		}
 	}
 
 	w = prefix(w)
 
+	//fmt.Println("PREFIX")
+	//fmt.Printf("Attempt: %s | Target: %s\n", w.Attempt, w.Target)
 	if w.Attempt == w.Target {
 		return w
 	}
 
 	w = lenite(w)
 
+	//fmt.Println("LENITE")
+	//fmt.Printf("Attempt: %s | Target: %s\n", w.Attempt, w.Target)
 	if w.Attempt == w.Target {
 		return w
 	}
 
+	//fmt.Println("GIVING UP")
 	return Word{ID: "-1"}
 }
