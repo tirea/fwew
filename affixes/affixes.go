@@ -216,7 +216,9 @@ func infix(w Word) Word {
 	*/
 
 	w.Attempt = attempt
-	w.Affixes["infixes"] = matchInfixes
+	if len(matchInfixes) != 0 {
+		w.Affixes["infixes"] = matchInfixes
+	}
 
 	return w
 }
