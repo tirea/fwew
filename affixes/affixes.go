@@ -160,7 +160,6 @@ func prefix(w Word) Word {
 	//prodGerundAffix := []string{"tì", "us"}
 	//prodActPartAffixPre := []string{"a", "us"}
 	//prodPassPartAffixPre := []string{"a", "awn"}
-	fmt.Println(w)
 	return w // placeholder
 }
 
