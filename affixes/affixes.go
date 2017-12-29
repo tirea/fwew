@@ -108,6 +108,7 @@ func prefix(w Word) Word {
 	var reString string
 	var attempt string
 	var lenPre = []string{"pe", "fray", "tsay", "fay", "pay", "ay", "me", "pxe"}
+	var matchPrefixes = []string{}
 
 	switch w.PartOfSpeech {
 	case "n.":
@@ -121,7 +122,10 @@ func prefix(w Word) Word {
 	}
 
 	re = regexp.MustCompile(reString)
-	matchPrefixes := re.FindAllStringSubmatch(w.Target, -1)[0][1:]
+	tmp := re.FindAllStringSubmatch(w.Target, -1)
+	if len(tmp) > 0 && len(tmp[0]) >= 1 {
+		matchPrefixes = tmp[0][1:]
+	}
 	matchPrefixes = deleteEmpty(matchPrefixes)
 
 	// no productive prefixes found; why bother to continue?
@@ -139,7 +143,13 @@ func prefix(w Word) Word {
 		// lenite first
 		w = lenite(w)
 		// then add prefixes
-		w.Attempt = attempt + w.Attempt
+		if w.Attempt != "" {
+			// leniting prefix, lenition occured
+			w.Attempt = attempt + w.Attempt
+		} else {
+			// leniting prefix, lenition did not occur
+			w.Attempt = attempt + w.Navi
+		}
 	} else {
 		// otherwise just add the prefixes to create the attempt
 		w.Attempt = attempt + w.Navi
@@ -150,7 +160,7 @@ func prefix(w Word) Word {
 	//prodGerundAffix := []string{"tì", "us"}
 	//prodActPartAffixPre := []string{"a", "us"}
 	//prodPassPartAffixPre := []string{"a", "awn"}
-
+	fmt.Println(w)
 	return w // placeholder
 }
 
