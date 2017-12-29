@@ -358,7 +358,7 @@ func Reconstruct(w Word) Word {
 	w.Attempt = w.Navi
 
 	// only try to infix verbs, si has empty string as part of speech
-	if containsStr([]string{"vin.", "vtr.", "vim.", "vtrm.", "v.", "svin."}, w.PartOfSpeech) ||
+	if containsStr([]string{"vin.", "vtr.", "vim.", "vtrm.", "v.", "svin.", "vin., svin."}, w.PartOfSpeech) ||
 		w.PartOfSpeech == "" {
 		w = infix(w)
 		if debug {
