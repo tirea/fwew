@@ -24,7 +24,7 @@ import (
 	"github.com/tirea/fwew/util"
 )
 
-var debug = false
+var debug = true
 
 // Word is a struct that contains all the data about a given word
 type Word struct {
@@ -124,22 +124,27 @@ func prefix(w Word) Word {
 	var lenPre = []string{"pe", "fray", "tsay", "fay", "pay", "ay", "me", "pxe"}
 	var matchPrefixes = []string{}
 
-	switch w.PartOfSpeech {
-	case "n.", "pn.":
-		reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(fì)?(tsa)?(me)?(pxe)?(fne)?(munsna)?"
-	case "dem.", "dem., pn.":
-		reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(me)?(pxe)?(fne)?(munsna)?"
-	case "adj.":
-		reString = "(nì|a)?"
-	case "vin.", "vtr.", "vim.", "vtrm.", "v.", "svin.", "", "vin., svin.":
+	// pull this out of the switch because the pos data for verbs is so irregular,
+	// the switch condition would be like 25 possibilities long
+	if strings.HasPrefix(w.PartOfSpeech, "v") ||
+		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
 		inf := w.Affixes["infixes"]
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
 			reString = "(a|tì)?"
 		} else {
 			reString = "(ketsuk|tsuk)?"
 		}
-	default:
-		return w // Not a type that has a prefix, return word without attempting.
+	} else {
+		switch w.PartOfSpeech {
+		case "n.", "pn.":
+			reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(fì)?(tsa)?(me)?(pxe)?(fne)?(munsna)?"
+		case "dem.", "dem., pn.":
+			reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(me)?(pxe)?(fne)?(munsna)?"
+		case "adj.":
+			reString = "(nì|a)?"
+		default:
+			return w // Not a type that has a prefix, return word without attempting.
+		}
 	}
 
 	reString = reString + ".+"
@@ -184,10 +189,6 @@ func prefix(w Word) Word {
 	}
 
 	w.Affixes["prefixes"] = matchPrefixes
-
-	//prodGerundAffix := []string{"tì", "us"}
-	//prodActPartAffixPre := []string{"a", "us"}
-	//prodPassPartAffixPre := []string{"a", "awn"}
 	return w
 }
 
@@ -197,17 +198,10 @@ func suffix(w Word) Word {
 	var attempt string
 	var matchSuffixes = []string{}
 
-	switch w.PartOfSpeech {
-	case "n.", "pn.", "dem.", "dem., pn.":
-		reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?" +
-			"(mungwrr)?(kxamlä)?(tafkip)?(pxisre)?(pximaw)?(ftumfa)?(mìkam)?(nemfa)?(takip)?(lisre)?(talun)?" +
-			"(krrka)?(teri)?(fkip)?(pxaw)?(pxel)?(luke)?(rofa)?(fpi)?(ftu)?(kip)?(vay)?(lok)?(maw)?" +
-			"(sìn)?(sre)?(few)?(kam)?(kay)?(nuä)?(sko)?(yoa)?(äo)?(eo)?(fa)?(hu)?(ka)?(mì)?(na)?(ne)?(ta)?(io)?(uo)?(ro)?(wä)?(sì)?"
-	case "adj.":
-		reString = "(a)?"
-	case "num.":
-		reString = "(ve)?(a)?"
-	case "v.", "vin.", "vtr.", "vim.", "vtrm.", "svin.", "", "vin., svin.":
+	// pull this out of the switch because the pos data for verbs is so irregular,
+	// the switch condition would be like 25 possibilities long
+	if strings.HasPrefix(w.PartOfSpeech, "v") ||
+		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
 		inf := w.Affixes["infixes"]
 		pre := w.Affixes["prefixes"]
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
@@ -223,8 +217,20 @@ func suffix(w Word) Word {
 		} else {
 			reString = "(tswo|yu)?"
 		}
-	default:
-		return w // Not a type that has a suffix, return word without attempting.
+	} else {
+		switch w.PartOfSpeech {
+		case "n.", "pn.", "dem.", "dem., pn.":
+			reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?" +
+				"(mungwrr)?(kxamlä)?(tafkip)?(pxisre)?(pximaw)?(ftumfa)?(mìkam)?(nemfa)?(takip)?(lisre)?(talun)?" +
+				"(krrka)?(teri)?(fkip)?(pxaw)?(pxel)?(luke)?(rofa)?(fpi)?(ftu)?(kip)?(vay)?(lok)?(maw)?" +
+				"(sìn)?(sre)?(few)?(kam)?(kay)?(nuä)?(sko)?(yoa)?(äo)?(eo)?(fa)?(hu)?(ka)?(mì)?(na)?(ne)?(ta)?(io)?(uo)?(ro)?(wä)?(sì)?"
+		case "adj.":
+			reString = "(a)?"
+		case "num.":
+			reString = "(ve)?(a)?"
+		default:
+			return w // Not a type that has a suffix, return word without attempting.
+		}
 	}
 
 	reString = w.Attempt + reString
@@ -375,7 +381,7 @@ func Reconstruct(w Word) Word {
 	w.Attempt = w.Navi
 
 	// only try to infix verbs, si has empty string as part of speech
-	if containsStr([]string{"vin.", "vtr.", "vim.", "vtrm.", "v.", "svin.", "vin., svin."}, w.PartOfSpeech) ||
+	if strings.HasPrefix(w.PartOfSpeech, "v") || strings.HasPrefix(w.PartOfSpeech, "svin.") ||
 		w.PartOfSpeech == "" {
 		w = infix(w)
 		if debug {
