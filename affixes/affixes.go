@@ -24,7 +24,7 @@ import (
 	"github.com/tirea/fwew/util"
 )
 
-var debug = true
+var debug = false
 
 // Word is a struct that contains all the data about a given word
 type Word struct {
