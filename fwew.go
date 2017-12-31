@@ -280,6 +280,7 @@ func main() {
 	// ARGS MODE
 	if flag.NArg() > 0 {
 		for _, arg := range flag.Args() {
+			arg = strings.Replace(arg, "’", "'", -1)
 			if strings.HasPrefix(arg, "set[") && strings.HasSuffix(arg, "]") {
 				setFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes, language, posFilter)
 			} else if strings.HasPrefix(arg, "unset[") && strings.HasSuffix(arg, "]") {
@@ -300,6 +301,7 @@ func main() {
 			reader := bufio.NewReader(os.Stdin)
 			input, err := reader.ReadString('\n')
 			input = strings.Trim(input, "\n")
+			input = strings.Replace(input, "’", "'", -1)
 
 			// catch EOF error
 			if err != nil {
