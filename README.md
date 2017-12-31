@@ -53,18 +53,18 @@ fwew tirea
 fwew oe tirea lu
 ```
 
-Don't forget to escape `'` somehow:
+Don't forget to escape apostrophe `'` by either using `\` before each `'`, or surrounding whole word with quotes:
 
 ```
 fwew \'a\'aw
 fwew "'a'aw"
 ```
 
-How to search a `"__ si"` verb:
+Search a `"__ si"` verb by enclosing all parts of the word within quotes:
 
 ```
-echo "eltur tìtxen si" | fwew
-echo "tìkangkem si" | fwew
+fwew "eltur tìtxen si"
+fwew "tìkangkem si"
 ```
 
 ### Affix parsing
@@ -116,8 +116,8 @@ fwew -i -ipa käteng
 Use `-p` flag followed by the part of speech abbreviation as found in any Na'vi dictionary. Most useful in `-r=true` (reverse lookup) mode to narrow down results when many are returned.
 
 ```
-fwew -r -p adp in
-fwew -r -p=vtr test
+fwew -r -p adp. in
+fwew -r -p=vtr. test
 ```
 
 ### Display Dictionary Version
@@ -292,8 +292,8 @@ fwew -l=de
 The default part of speech filter is `"all"` and can be changed here. This is useful for people who want to repeatedly run fwew searching for words of all the same part of speech. It avoids repeatedly typing, for example:
 
 ```
-fwew -p n
-fwew -p vtr
+fwew -p n.
+fwew -p vtr.
 ```
 
 If you're familiar with the language and only ever need to search root words, you can set `"useAffixes"` to `false`, speeding up the program runtime by not trying to break down words to find results. This avoids repeatedly typing, for example:
