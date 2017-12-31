@@ -141,7 +141,7 @@ func prefix(w Word) Word {
 		case "dem.", "dem., pn.":
 			reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(me)?(pxe)?(fne)?(munsna)?"
 		case "adj.":
-			reString = "(nì|ke|a)?"
+			reString = "(nìk|nì|a)?(ke|a)?"
 		default:
 			return w // Not a type that has a prefix, return word without attempting.
 		}
