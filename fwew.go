@@ -24,6 +24,7 @@ import (
 
 	"github.com/tirea/fwew/affixes"
 	"github.com/tirea/fwew/config"
+	"github.com/tirea/fwew/numbers"
 	"github.com/tirea/fwew/util"
 )
 
@@ -174,7 +175,7 @@ func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIP
 	}
 }
 
-func setFlags(arg string, debug, r, i, ipa, a *bool, l, p *string) {
+func setFlags(arg string, debug, r, i, ipa, a, n *bool, l, p *string) {
 	const start int = 4 // s,e,t,[ = 0,1,2,3
 	flagList := strings.Split(arg[start:len(arg)-1], ",")
 	setList := []string{}
@@ -198,6 +199,9 @@ func setFlags(arg string, debug, r, i, ipa, a *bool, l, p *string) {
 		case f == "a":
 			*a = true
 			setList = append(setList, f)
+		case f == "n":
+			*n = true
+			setList = append(setList, f)
 		case strings.HasPrefix(f, "l="):
 			*l = f[2:]
 			setList = append(setList, f)
@@ -214,7 +218,7 @@ func setFlags(arg string, debug, r, i, ipa, a *bool, l, p *string) {
 	}
 }
 
-func unsetFlags(arg string, debug, r, i, ipa, a *bool) {
+func unsetFlags(arg string, debug, r, i, ipa, a, n *bool) {
 	const start int = 6 // u,n,s,e,t,[ = 0,1,2,3,4,5
 	flagList := strings.Split(arg[6:len(arg)-1], ",")
 	unsetList := []string{}
@@ -237,6 +241,9 @@ func unsetFlags(arg string, debug, r, i, ipa, a *bool) {
 		case "a":
 			*a = false
 			unsetList = append(unsetList, f)
+		case "n":
+			*n = false
+			unsetList = append(unsetList, f)
 		default:
 			fmt.Printf("<! %s: %s >\n", util.Text("noOptionError"), f)
 		}
@@ -250,7 +257,7 @@ func main() {
 	var configuration = config.ReadConfig()
 	var results []affixes.Word
 	var language, posFilter *string
-	var showVersion, showInfixes, showIPA, reverse, useAffixes *bool
+	var showVersion, showInfixes, showIPA, reverse, useAffixes, numConvert *bool
 
 	// Debug flag, for verbose probing output
 	debug = flag.Bool("debug", false, util.Text("usageDebug"))
@@ -268,6 +275,8 @@ func main() {
 	posFilter = flag.String("p", configuration.PosFilter, util.Text("usageP"))
 	// Attempt to find all matches using affixes
 	useAffixes = flag.Bool("a", configuration.UseAffixes, util.Text("usageA"))
+	// Convert numbers
+	numConvert = flag.Bool("n", false, util.Text("usageN"))
 	flag.Parse()
 
 	if *showVersion {
@@ -281,12 +290,16 @@ func main() {
 	if flag.NArg() > 0 {
 		for _, arg := range flag.Args() {
 			if strings.HasPrefix(arg, "set[") && strings.HasSuffix(arg, "]") {
-				setFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes, language, posFilter)
+				setFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes, numConvert, language, posFilter)
 			} else if strings.HasPrefix(arg, "unset[") && strings.HasSuffix(arg, "]") {
-				unsetFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes)
+				unsetFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes, numConvert)
 			} else {
-				results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
-				printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes)
+				if *numConvert {
+					fmt.Println(numbers.Convert(arg, *reverse))
+				} else {
+					results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
+					printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes)
+				}
 			}
 		}
 
@@ -309,12 +322,16 @@ func main() {
 
 			if input != "" {
 				if strings.HasPrefix(input, "set[") && strings.HasSuffix(input, "]") {
-					setFlags(input, debug, reverse, showInfixes, showIPA, useAffixes, language, posFilter)
+					setFlags(input, debug, reverse, showInfixes, showIPA, useAffixes, numConvert, language, posFilter)
 				} else if strings.HasPrefix(input, "unset[") && strings.HasSuffix(input, "]") {
-					unsetFlags(input, debug, reverse, showInfixes, showIPA, useAffixes)
+					unsetFlags(input, debug, reverse, showInfixes, showIPA, useAffixes, numConvert)
 				} else {
-					results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
-					printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes)
+					if *numConvert {
+						fmt.Println(numbers.Convert(input, *reverse))
+					} else {
+						results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
+						printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes)
+					}
 				}
 			} else {
 				fmt.Println()

@@ -15,14 +15,20 @@
 // Package numbers contains all the stuff for the number parsing
 package numbers
 
-import "github.com/tirea/fwew/util"
+import (
+	"fmt"
+	"strconv"
 
-const (
-	maxIntDec int = 32767
-	maxIntOct int = 77777
+	"github.com/tirea/fwew/util"
 )
 
-func valid(input int, reverse bool) bool {
+const (
+	maxIntDec int64 = 32767
+	maxIntOct int64 = 77777
+)
+
+// Validate range of integers for input
+func valid(input int64, reverse bool) bool {
 	if reverse {
 		if 0 <= input && input <= maxIntDec {
 			return true
@@ -36,10 +42,30 @@ func valid(input int, reverse bool) bool {
 }
 
 // Convert is the main number conversion function
-func Convert(input int, reverse bool) string {
-	if !valid(input, reverse) {
-		return util.Text("invalidIntError")
+func Convert(input string, reverse bool) string {
+	output := ""
+	if reverse {
+		i, err := strconv.ParseInt(input, 10, 64)
+		if !valid(i, reverse) {
+			return util.Text("invalidIntError")
+		}
+		o := strconv.FormatInt(int64(i), 8)
+		if err != nil {
+			return err.Error()
+		}
+		output += fmt.Sprintf("Octal: %s\n", o)
+		// output += fmt.Sprintf("Na'vi: %s\n", "na'vi number here")
+	} else {
+		io, err := strconv.ParseInt(input, 8, 64)
+		if !valid(io, reverse) {
+			return util.Text("invalidIntError")
+		}
+		d := strconv.FormatInt(int64(io), 10)
+		if err != nil {
+			return err.Error()
+		}
+		output += fmt.Sprintf("Decimal: %s\n", d)
+		// output += fmt.Sprintf("Na'vi: %s\n", "na'vi number here")
 	}
-	// convert! :D
-	return "" // TODO
+	return output
 }

@@ -41,6 +41,7 @@ func init() {
 	texts["usageP"] = "Search for word(s) with specified part of speech"
 	texts["usageR"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
 	texts["usageA"] = "Find all matches by using affixes to match the input word"
+	texts["usageN"] = "Convert Numbers Octal<->Decimal"
 	texts["defaultFilter"] = "all"
 
 	// file strings
