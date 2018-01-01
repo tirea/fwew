@@ -25,7 +25,11 @@ type version struct {
 }
 
 // Version is a printable version struct containing program version information
+<<<<<<< HEAD
 var Version = version{1, 10, 0, "dev", "Eana Yayo", "Na'vi Dictionary 13.61 (20 DEC 2017)"}
+=======
+var Version = version{1, 9, 3, "dev", "Eana Yayo", "Na'vi Dictionary 13.61 (20 DEC 2017)"}
+>>>>>>> 26570434fce1b4344885b67121d17a1cc3741033
 
 func (v version) String() string {
 	if v.Label != "" {
