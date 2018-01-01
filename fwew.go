@@ -51,7 +51,12 @@ func stripChars(str, chr string) string {
 }
 
 func fwew(word string, lc string, posFilter string, reverse bool, useAffixes bool) []affixes.Word {
+	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", " ")
 	word = strings.ToLower(word)
+	// remove all the sketchy chars from arguments
+	for _, c := range badChars {
+		word = strings.Replace(word, c, "", -1)
+	}
 
 	var result affixes.Word
 	var results []affixes.Word
