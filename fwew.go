@@ -135,44 +135,44 @@ func fwew(word string, lc string, posFilter string, reverse bool, useAffixes boo
 	return results
 }
 
-func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIPA bool, useAffixes bool) {
+func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIPA bool, useAffixes bool, markdown bool) {
 	if len(results) != 0 {
 		var out string
 
 		for i, w := range results {
+			num := fmt.Sprintf("[%d] ", i+1)
+			nav := fmt.Sprintf("%s", w.Navi)
+			ipa := fmt.Sprintf("[%s] ", w.IPA)
+			pos := fmt.Sprintf("%s", w.PartOfSpeech)
+			inf := fmt.Sprintf("%s ", w.InfixLocations)
+			def := fmt.Sprintf("%s\n", w.Definition)
 
-			out += fmt.Sprintf("[%d] ", i+1)
-			out += fmt.Sprintf("%s ", w.PartOfSpeech)
-
-			if reverse {
-				out += fmt.Sprintf("%s ", w.Navi)
+			if markdown {
+				nav = "**" + nav + "** "
+				pos = "*" + pos + "* "
 			} else {
-				out += fmt.Sprintf("%s ", w.Definition)
+				nav += " "
+				pos += " "
 			}
+
+			out += num
+			out += nav
 			if showIPA {
-				out += fmt.Sprintf("[%s] ", w.IPA)
+				out += ipa
 			}
-			if showInfixes {
-				if w.InfixLocations != "\\n" {
-					out += fmt.Sprintf("%s ", w.InfixLocations)
-				}
+			if showInfixes && w.InfixLocations != "\\n" {
+				out += inf
 			}
-			if reverse {
-				out += fmt.Sprintf("(%s)\n", w.Definition)
-			} else {
-				out += fmt.Sprintf("(%s)\n", w.Navi)
-			}
-			if useAffixes {
-				if len(w.Affixes) > 0 {
-					for key, value := range w.Affixes {
-						out += fmt.Sprintf("    %s: %s\n", key, value)
-					}
-
+			out += pos
+			out += def
+			if useAffixes && len(w.Affixes) > 0 {
+				for key, value := range w.Affixes {
+					out += fmt.Sprintf("    %s: %s\n", key, value)
 				}
 			}
 		}
-
 		out += fmt.Sprintf("\n")
+
 		fmt.Printf(out)
 
 	} else {
@@ -262,7 +262,7 @@ func main() {
 	var configuration = config.ReadConfig()
 	var results []affixes.Word
 	var language, posFilter *string
-	var showVersion, showInfixes, showIPA, reverse, useAffixes, numConvert *bool
+	var showVersion, showInfixes, showIPA, reverse, useAffixes, numConvert, markdown *bool
 
 	// Debug flag, for verbose probing output
 	debug = flag.Bool("debug", false, util.Text("usageDebug"))
@@ -282,6 +282,8 @@ func main() {
 	useAffixes = flag.Bool("a", configuration.UseAffixes, util.Text("usageA"))
 	// Convert numbers
 	numConvert = flag.Bool("n", false, util.Text("usageN"))
+	// Markdown formatting
+	markdown = flag.Bool("m", false, util.Text("usageM"))
 	flag.Parse()
 
 	if *showVersion {
@@ -304,7 +306,7 @@ func main() {
 					fmt.Println(numbers.Convert(arg, *reverse))
 				} else {
 					results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
-					printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes)
+					printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes, *markdown)
 				}
 			}
 		}
@@ -337,7 +339,7 @@ func main() {
 						fmt.Println(numbers.Convert(input, *reverse))
 					} else {
 						results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
-						printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes)
+						printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes, *markdown)
 					}
 				}
 			} else {
