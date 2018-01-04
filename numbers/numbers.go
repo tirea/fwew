@@ -18,6 +18,7 @@ package numbers
 import (
 	"fmt"
 	"strconv"
+	"strings"
 
 	"github.com/tirea/fwew/util"
 )
@@ -26,6 +27,19 @@ const (
 	maxIntDec int64 = 32767
 	maxIntOct int64 = 77777
 )
+
+var naviVocab = [][]string{
+	// 0 1 2 3 4 5 6 7 actual
+	{"", "'aw", "mune", "pxey", "tsìng", "mrr", "pukap", "kinä"},
+	// 0 1 2 3 4 5 6 7 last digit
+	{"", "aw", "mun", "pey", "sìng", "mrr", "fu", "hin"},
+	// 0 1 2 3 4 5 6 7 first or middle digit
+	{"", "", "me", "pxe", "tsì", "mrr", "pu", "ki"},
+	// 0 1 2 3 4 powers of 8
+	{"", "vo", "zam", "vozam", "zazam"},
+	// 0 1 2 3 4 powers of 8 last digit
+	{"", "l", "", "", ""},
+}
 
 // Validate range of integers for input
 func valid(input int64, reverse bool) bool {
@@ -41,6 +55,60 @@ func valid(input int64, reverse bool) bool {
 	return false
 }
 
+func reverse(s string) string {
+	n := len(s)
+	runes := make([]rune, n)
+	for _, rune := range s {
+		n--
+		runes[n] = rune
+	}
+	return string(runes[n:])
+}
+
+func wordify(input string) string {
+	rev := reverse(input)
+	output := ""
+	if len(input) == 1 {
+		if input == "0" {
+			return "kew"
+		}
+		inty, _ := strconv.Atoi(input)
+		return naviVocab[0][inty]
+	}
+	for i, d := range rev {
+		switch i {
+		case 0: // 7777[7]
+			output = naviVocab[1][int(d-'0')] + output
+			if int(d-'0') == 1 && rev[1] != '0' {
+				output = naviVocab[4][1] + output
+			}
+		case 1: // 777[7]7
+			if int(d-'0') > 0 {
+				output = naviVocab[2][int(d-'0')] + naviVocab[3][1] + output
+			}
+		case 2: // 77[7]77
+			if int(d-'0') > 0 {
+				output = naviVocab[2][int(d-'0')] + naviVocab[3][2] + output
+			}
+		case 3: // 7[7]777
+			if int(d-'0') > 0 {
+				output = naviVocab[2][int(d-'0')] + naviVocab[3][3] + output
+			}
+		case 4: // [7]7777
+			if int(d-'0') > 0 {
+				output = naviVocab[2][int(d-'0')] + naviVocab[3][4] + output
+			}
+		}
+	}
+	for _, d := range []string{"01", "02", "03", "04", "05", "06", "07"} {
+		if rev[0:2] == d {
+			output = output + naviVocab[4][1]
+		}
+	}
+	output = strings.Replace(output, "mm", "m", -1)
+	return output
+}
+
 // Convert is the main number conversion function
 func Convert(input string, reverse bool) string {
 	output := ""
@@ -54,7 +122,7 @@ func Convert(input string, reverse bool) string {
 			return err.Error()
 		}
 		output += fmt.Sprintf("Octal: %s\n", o)
-		// output += fmt.Sprintf("Na'vi: %s\n", "na'vi number here")
+		output += fmt.Sprintf("Na'vi: %s\n", wordify(o))
 	} else {
 		io, err := strconv.ParseInt(input, 8, 64)
 		if !valid(io, reverse) {
@@ -65,7 +133,7 @@ func Convert(input string, reverse bool) string {
 			return err.Error()
 		}
 		output += fmt.Sprintf("Decimal: %s\n", d)
-		// output += fmt.Sprintf("Na'vi: %s\n", "na'vi number here")
+		output += fmt.Sprintf("Na'vi: %s\n", wordify(input))
 	}
 	return output
 }
