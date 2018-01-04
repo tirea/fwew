@@ -17,8 +17,10 @@ package numbers
 
 import (
 	"fmt"
+	"regexp"
 	"strconv"
 	"strings"
+	"unicode"
 
 	"github.com/tirea/fwew/util"
 )
@@ -41,6 +43,28 @@ var naviVocab = [][]string{
 	{"", "l", "", "", ""},
 }
 
+var wordToDigit = map[string]int{
+	"zazam": 10000,
+	"vozam": 1000,
+	"zam":   100,
+	"za":    100,
+	"vol":   10,
+	"vo":    10,
+	"'aw":   1,
+	"aw":    1,
+	"me":    2,
+	"mun":   2,
+	"pxe":   3,
+	"pey":   3,
+	"tsì":   4,
+	"sìng":  4,
+	"mrr":   5,
+	"pu":    6,
+	"fu":    6,
+	"ki":    7,
+	"hin":   7,
+}
+
 // Validate range of integers for input
 func valid(input int64, reverse bool) bool {
 	if reverse {
@@ -55,6 +79,18 @@ func valid(input int64, reverse bool) bool {
 	return false
 }
 
+func isLetter(s string) bool {
+	for _, r := range s {
+		if !unicode.IsLetter(r) {
+			if r == '\'' || r == '‘' {
+				return true
+			}
+			return false
+		}
+	}
+	return true
+}
+
 func reverse(s string) string {
 	n := len(s)
 	runes := make([]rune, n)
@@ -63,6 +99,94 @@ func reverse(s string) string {
 		runes[n] = rune
 	}
 	return string(runes[n:])
+}
+
+func containsStr(s []string, q string) bool {
+	if len(q) == 0 || len(s) == 0 {
+		return false
+	}
+	for _, x := range s {
+		if q == x {
+			return true
+		}
+	}
+	return false
+}
+
+func deleteEmpty(s []string) []string {
+	var r []string
+	for _, str := range s {
+		if str != "" {
+			r = append(r, str)
+		}
+	}
+	return r
+}
+
+func unwordify(input string) string {
+	var reString string
+	var re *regexp.Regexp
+	var matchNumbers = []string{}
+	var digits int
+	var multiplier = 1
+
+	if input == "kew" {
+		return "0"
+	}
+
+	for i, w := range naviVocab[0] {
+		if input == w && w != "" {
+			return strconv.FormatInt(int64(i), 10)
+		}
+	}
+	// build regexp string
+	// for each power of 8 zazam -> vol
+	for i := len(naviVocab[3]) - 1; i > 0; i-- {
+		reString += "("
+		// for each prefix me -> ki
+		for i2, w := range naviVocab[2][2:] {
+			reString += w
+			if i2 != len(naviVocab[2][2:])-1 {
+				reString += "|"
+			}
+		}
+		reString += ")?"
+		if i != 1 {
+			reString += "(" + naviVocab[3][i] + ")?"
+		} else {
+			reString += "(" + naviVocab[3][i] + naviVocab[4][i] + "|" + naviVocab[3][i] + ")?"
+		}
+	}
+	// last digit
+	reString += "("
+	for i3, w := range naviVocab[1][1:] {
+		reString += w
+		if i3 != len(naviVocab[1][1:])-1 {
+			reString += "|"
+		}
+	}
+	reString += ")?"
+	re = regexp.MustCompile(reString)
+	tmp := re.FindAllStringSubmatch(input, -1)
+	if len(tmp) > 0 && len(tmp[0]) >= 1 {
+		matchNumbers = tmp[0][1:]
+	}
+	matchNumbers = deleteEmpty(matchNumbers)
+
+	// calculate
+	for _, w := range matchNumbers {
+		if containsStr(naviVocab[2][2:], w) {
+			multiplier = wordToDigit[w]
+		} else if containsStr(naviVocab[1][1:], w) {
+			digits += wordToDigit[w]
+		} else {
+			digits += multiplier * wordToDigit[w]
+		}
+		if w == "mrr" { // no idea why this is necessary but it is.
+			digits += wordToDigit[w]
+		}
+	}
+	return fmt.Sprintf("%d", digits)
 }
 
 func wordify(input string) string {
@@ -114,26 +238,37 @@ func Convert(input string, reverse bool) string {
 	output := ""
 	if reverse {
 		i, err := strconv.ParseInt(input, 10, 64)
+		if err != nil {
+			return err.Error()
+		}
 		if !valid(i, reverse) {
 			return util.Text("invalidIntError")
 		}
 		o := strconv.FormatInt(int64(i), 8)
-		if err != nil {
-			return err.Error()
-		}
 		output += fmt.Sprintf("Octal: %s\n", o)
 		output += fmt.Sprintf("Na'vi: %s\n", wordify(o))
 	} else {
-		io, err := strconv.ParseInt(input, 8, 64)
+		var io int64
+		var err error
+		if isLetter(input) {
+			io, err = strconv.ParseInt(unwordify(input), 8, 64)
+		} else {
+			io, err = strconv.ParseInt(input, 8, 64)
+		}
+		if err != nil {
+			return err.Error()
+		}
 		if !valid(io, reverse) {
 			return util.Text("invalidIntError")
 		}
 		d := strconv.FormatInt(int64(io), 10)
-		if err != nil {
-			return err.Error()
-		}
+		o := strconv.FormatInt(int64(io), 8)
 		output += fmt.Sprintf("Decimal: %s\n", d)
-		output += fmt.Sprintf("Na'vi: %s\n", wordify(input))
+		if isLetter(input) {
+			output += fmt.Sprintf("Octal: %s\n", o)
+		} else {
+			output += fmt.Sprintf("Na'vi: %s\n", wordify(input))
+		}
 	}
 	return output
 }
