@@ -16,7 +16,6 @@
 package affixes
 
 import (
-	"errors"
 	"fmt"
 	"regexp"
 	"strings"
@@ -69,52 +68,13 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	return w
 }
 
-func deleteEmpty(s []string) []string {
-	var r []string
-	for _, str := range s {
-		if str != "" {
-			r = append(r, str)
-		}
+func ListAdp() []string {
+	return []string{"mungwrr", "kxamlä", "tafkip", "pxisre", "pximaw", "ftumfa",
+		"mìkam", "nemfa", "takip", "lisre", "talun", "krrka", "teri", "fkip",
+		"pxaw", "pxel", "luke", "rofa", "fpi", "ftu", "kip", "vay", "lok", "maw",
+		"sìn", "sre", "few", "kam", "kay", "nuä", "sko", "yoa", "äo", "eo", "fa",
+		"hu", "ka", "mì", "na", "ne", "ta", "io", "uo", "ro", "wä", "sì?",
 	}
-	return r
-}
-
-func contains(s []string, q []string) bool {
-	if len(q) == 0 || len(s) == 0 {
-		return false
-	}
-	// search for any instance of a thing in q...
-	for _, x := range q {
-		// ... that exists in s.
-		for _, y := range s {
-			if y == x {
-				return true
-			}
-		}
-	}
-
-	return false
-}
-
-func containsStr(s []string, q string) bool {
-	if len(q) == 0 || len(s) == 0 {
-		return false
-	}
-	for _, x := range s {
-		if q == x {
-			return true
-		}
-	}
-	return false
-}
-
-func index(s []string, q string) (int, error) {
-	for i, v := range s {
-		if v == q {
-			return i, nil
-		}
-	}
-	return -1, errors.New(util.Text("strNotInSliceError"))
 }
 
 func prefix(w Word) Word {
@@ -156,7 +116,7 @@ func prefix(w Word) Word {
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchPrefixes = tmp[0][1:]
 	}
-	matchPrefixes = deleteEmpty(matchPrefixes)
+	matchPrefixes = util.DeleteEmpty(matchPrefixes)
 	if debug {
 		fmt.Printf("matchPrefixes: %s\n", matchPrefixes)
 	}
@@ -172,7 +132,7 @@ func prefix(w Word) Word {
 	}
 
 	// check for leniting prefix
-	if contains(matchPrefixes, lenPre) {
+	if util.Contains(matchPrefixes, lenPre) {
 		// lenite first
 		w = lenite(w)
 		// then add prefixes
@@ -197,6 +157,7 @@ func suffix(w Word) Word {
 	var reString string
 	var attempt string
 	var matchSuffixes = []string{}
+	var adp = ListAdp()
 
 	// pull this out of the switch because the pos data for verbs is so irregular,
 	// the switch condition would be like 25 possibilities long
@@ -206,24 +167,27 @@ func suffix(w Word) Word {
 		pre := w.Affixes["prefixes"]
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
 			// it's a tì-<us> gerund; treat it like a noun
-			if len(pre) > 0 && containsStr(pre, "tì") && inf[0] == "us" {
-				reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?" +
-					"(mungwrr)?(kxamlä)?(tafkip)?(pxisre)?(pximaw)?(ftumfa)?(mìkam)?(nemfa)?(takip)?(lisre)?(talun)?" +
-					"(krrka)?(teri)?(fkip)?(pxaw)?(pxel)?(luke)?(rofa)?(fpi)?(ftu)?(kip)?(vay)?(lok)?(maw)?" +
-					"(sìn)?(sre)?(few)?(kam)?(kay)?(nuä)?(sko)?(yoa)?(äo)?(eo)?(fa)?(hu)?(ka)?(mì)?(na)?(ne)?(ta)?(io)?(uo)?(ro)?(wä)?(sì)?"
+			if len(pre) > 0 && util.ContainsStr(pre, "tì") && inf[0] == "us" {
+				reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?"
+				for _, s := range adp {
+					reString += "(" + s + ")?"
+				}
 			} else {
 				reString = "(a)?"
 			}
 		} else {
 			reString = "(tswo|yu)?"
+			for _, s := range adp {
+				reString += "(" + s + ")?"
+			}
 		}
 	} else {
 		switch w.PartOfSpeech {
 		case "n.", "pn.", "dem.", "dem., pn.":
-			reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?" +
-				"(mungwrr)?(kxamlä)?(tafkip)?(pxisre)?(pximaw)?(ftumfa)?(mìkam)?(nemfa)?(takip)?(lisre)?(talun)?" +
-				"(krrka)?(teri)?(fkip)?(pxaw)?(pxel)?(luke)?(rofa)?(fpi)?(ftu)?(kip)?(vay)?(lok)?(maw)?" +
-				"(sìn)?(sre)?(few)?(kam)?(kay)?(nuä)?(sko)?(yoa)?(äo)?(eo)?(fa)?(hu)?(ka)?(mì)?(na)?(ne)?(ta)?(io)?(uo)?(ro)?(wä)?(sì)?"
+			reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?"
+			for _, s := range adp {
+				reString += "(" + s + ")?"
+			}
 		case "adj.":
 			reString = "(a)?"
 		case "num.":
@@ -242,7 +206,7 @@ func suffix(w Word) Word {
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchSuffixes = tmp[0][1:]
 	}
-	matchSuffixes = deleteEmpty(matchSuffixes)
+	matchSuffixes = util.DeleteEmpty(matchSuffixes)
 	if debug {
 		fmt.Printf("matchSuffixes: %s\n", matchSuffixes)
 	}
@@ -291,7 +255,7 @@ func infix(w Word) Word {
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchInfixes = tmp[0][1:]
 	}
-	matchInfixes = deleteEmpty(matchInfixes)
+	matchInfixes = util.DeleteEmpty(matchInfixes)
 
 	for _, i := range matchInfixes {
 		if i == "äp" || i == "eyk" {
@@ -313,8 +277,8 @@ func infix(w Word) Word {
 		hardCodeHax["molte"] = []string{"mllte", "ol"}
 	*/
 
-	if containsStr(matchInfixes, "eiy") {
-		eiy, _ := index(matchInfixes, "eiy")
+	if util.ContainsStr(matchInfixes, "eiy") {
+		eiy, _ := util.Index(matchInfixes, "eiy")
 		matchInfixes[eiy] = "ei"
 	}
 	if debug {

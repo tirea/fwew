@@ -20,14 +20,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-	"unicode"
 
 	"github.com/tirea/fwew/util"
-)
-
-const (
-	maxIntDec int64 = 32767
-	maxIntOct int64 = 77777
 )
 
 var naviVocab = [][]string{
@@ -63,64 +57,6 @@ var wordToDigit = map[string]int{
 	"fu":    6,
 	"ki":    7,
 	"hin":   7,
-}
-
-// Validate range of integers for input
-func valid(input int64, reverse bool) bool {
-	if reverse {
-		if 0 <= input && input <= maxIntDec {
-			return true
-		}
-		return false
-	}
-	if 0 <= input && input <= maxIntOct {
-		return true
-	}
-	return false
-}
-
-func isLetter(s string) bool {
-	for _, r := range s {
-		if !unicode.IsLetter(r) {
-			if r == '\'' || r == '‘' {
-				return true
-			}
-			return false
-		}
-	}
-	return true
-}
-
-func reverse(s string) string {
-	n := len(s)
-	runes := make([]rune, n)
-	for _, rune := range s {
-		n--
-		runes[n] = rune
-	}
-	return string(runes[n:])
-}
-
-func containsStr(s []string, q string) bool {
-	if len(q) == 0 || len(s) == 0 {
-		return false
-	}
-	for _, x := range s {
-		if q == x {
-			return true
-		}
-	}
-	return false
-}
-
-func deleteEmpty(s []string) []string {
-	var r []string
-	for _, str := range s {
-		if str != "" {
-			r = append(r, str)
-		}
-	}
-	return r
 }
 
 func unwordify(input string) string {
@@ -171,13 +107,13 @@ func unwordify(input string) string {
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchNumbers = tmp[0][1:]
 	}
-	matchNumbers = deleteEmpty(matchNumbers)
+	matchNumbers = util.DeleteEmpty(matchNumbers)
 
 	// calculate
 	for _, w := range matchNumbers {
-		if containsStr(naviVocab[2][2:], w) {
+		if util.ContainsStr(naviVocab[2][2:], w) {
 			multiplier = wordToDigit[w]
-		} else if containsStr(naviVocab[1][1:], w) {
+		} else if util.ContainsStr(naviVocab[1][1:], w) {
 			digits += wordToDigit[w]
 		} else {
 			digits += multiplier * wordToDigit[w]
@@ -190,7 +126,7 @@ func unwordify(input string) string {
 }
 
 func wordify(input string) string {
-	rev := reverse(input)
+	rev := util.Reverse(input)
 	output := ""
 	if len(input) == 1 {
 		if input == "0" {
@@ -241,7 +177,7 @@ func Convert(input string, reverse bool) string {
 		if err != nil {
 			return err.Error()
 		}
-		if !valid(i, reverse) {
+		if !util.Valid(i, reverse) {
 			return util.Text("invalidIntError")
 		}
 		o := strconv.FormatInt(int64(i), 8)
@@ -250,7 +186,7 @@ func Convert(input string, reverse bool) string {
 	} else {
 		var io int64
 		var err error
-		if isLetter(input) {
+		if util.IsLetter(input) {
 			io, err = strconv.ParseInt(unwordify(input), 8, 64)
 		} else {
 			io, err = strconv.ParseInt(input, 8, 64)
@@ -258,13 +194,13 @@ func Convert(input string, reverse bool) string {
 		if err != nil {
 			return err.Error()
 		}
-		if !valid(io, reverse) {
+		if !util.Valid(io, reverse) {
 			return util.Text("invalidIntError")
 		}
 		d := strconv.FormatInt(int64(io), 10)
 		o := strconv.FormatInt(int64(io), 8)
 		output += fmt.Sprintf("Decimal: %s\n", d)
-		if isLetter(input) {
+		if util.IsLetter(input) {
 			output += fmt.Sprintf("Octal: %s\n", o)
 		} else {
 			output += fmt.Sprintf("Na'vi: %s\n", wordify(input))

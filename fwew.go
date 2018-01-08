@@ -41,16 +41,7 @@ const (
 
 var debug *bool
 
-func stripChars(str, chr string) string {
-	return strings.Map(func(r rune) rune {
-		if strings.IndexRune(chr, r) < 0 {
-			return r
-		}
-		return -1
-	}, str)
-}
-
-func fwew(word string, lc string, posFilter string, reverse bool, useAffixes bool) []affixes.Word {
+func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", " ")
 	word = strings.ToLower(word)
 	// remove all the sketchy chars from arguments
@@ -84,7 +75,7 @@ func fwew(word string, lc string, posFilter string, reverse bool, useAffixes boo
 			if posFilter == "all" {
 				if fields[lcField] == lc {
 					// whole-word matching
-					defString = stripChars(fields[defField], ",;")
+					defString = util.StripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
 						if w == word {
 							// Put the stuff from fields into the Word struct
@@ -97,7 +88,7 @@ func fwew(word string, lc string, posFilter string, reverse bool, useAffixes boo
 			} else {
 				if fields[lcField] == lc && fields[posField] == posFilter {
 					// whole-word matching
-					defString = stripChars(fields[defField], ",;")
+					defString = util.StripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
 						if w == word {
 							// Put the stuff from fields into the Word struct
@@ -135,7 +126,7 @@ func fwew(word string, lc string, posFilter string, reverse bool, useAffixes boo
 	return results
 }
 
-func printResults(results []affixes.Word, reverse bool, showInfixes bool, showIPA bool, useAffixes bool, markdown bool) {
+func printResults(results []affixes.Word, reverse, showInfixes, showIPA, useAffixes, markdown bool) {
 	if len(results) != 0 {
 		var out string
 
