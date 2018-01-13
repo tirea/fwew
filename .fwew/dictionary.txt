@@ -1,3 +1,4 @@
+0	eng	Eywa	ɛj.wa	\N	prop.n.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.
 4	de	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	berühren
 4	eng	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	touch
 4	est	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	katsuma, puutuma
