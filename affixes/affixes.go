@@ -68,6 +68,7 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	return w
 }
 
+// ListAdp returns a list of every known adposition
 func ListAdp() []string {
 	return []string{"mungwrr", "kxamlä", "tafkip", "pxisre", "pximaw", "ftumfa",
 		"mìkam", "nemfa", "takip", "lisre", "talun", "krrka", "teri", "fkip",
@@ -231,6 +232,10 @@ func infix(w Word) Word {
 	if _, ok := w.Affixes["infixes"]; ok {
 		return w
 	}
+	// Does the word even have infix positions??
+	if w.InfixLocations == "\\N" {
+		return w
+	}
 
 	var re *regexp.Regexp
 	var reString string
@@ -250,7 +255,7 @@ func infix(w Word) Word {
 		fmt.Printf("Infix reString: %s\n", reString)
 	}
 
-	re = regexp.MustCompile(reString)
+	re, _ = regexp.Compile(reString)
 	tmp := re.FindAllStringSubmatch(w.Target, -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchInfixes = tmp[0][1:]
@@ -352,7 +357,7 @@ func Reconstruct(w Word) Word {
 			fmt.Println("INFIX")
 			fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 		}
-		if w.Attempt == w.Target {
+		if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
 			return w
 		}
 	}
@@ -362,7 +367,7 @@ func Reconstruct(w Word) Word {
 		fmt.Println("PREFIX")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
-	if w.Attempt == w.Target {
+	if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
 		return w
 	}
 
@@ -372,7 +377,7 @@ func Reconstruct(w Word) Word {
 			fmt.Println("LENITE")
 			fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 		}
-		if w.Attempt == w.Target {
+		if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
 			return w
 		}
 	}
@@ -382,7 +387,7 @@ func Reconstruct(w Word) Word {
 		fmt.Println("SUFFIX")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
-	if w.Attempt == w.Target {
+	if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
 		return w
 	}
 
@@ -391,7 +396,7 @@ func Reconstruct(w Word) Word {
 		fmt.Println("LENITE")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
-	if w.Attempt == w.Target {
+	if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
 		return w
 	}
 

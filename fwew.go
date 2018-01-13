@@ -65,7 +65,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 
 	// Go through each line and see what we can find
 	for scanner.Scan() {
-		line := strings.ToLower(scanner.Text())
+		line := scanner.Text()
 		// Store the fields of the line into fields array in lowercase
 		fields = strings.Split(line, "\t")
 
@@ -77,7 +77,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 					// whole-word matching
 					defString = util.StripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
-						if w == word {
+						if strings.ToLower(w) == strings.ToLower(word) {
 							// Put the stuff from fields into the Word struct
 							result = affixes.InitWordStruct(result, fields)
 							results = append(results, result)
@@ -90,7 +90,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 					// whole-word matching
 					defString = util.StripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
-						if w == word {
+						if strings.ToLower(w) == strings.ToLower(word) {
 							// Put the stuff from fields into the Word struct
 							result = affixes.InitWordStruct(result, fields)
 							results = append(results, result)
@@ -101,7 +101,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 			// Looking for Na'vi word in Na'vi field
 		} else {
 			if fields[lcField] == lc {
-				if fields[navField] == word {
+				if strings.ToLower(fields[navField]) == strings.ToLower(word) {
 					// Put the stuff from fields into the Word struct
 					result = affixes.InitWordStruct(result, fields)
 					results = append(results, result)
