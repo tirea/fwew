@@ -133,7 +133,7 @@ func prefix(w Word) Word {
 	}
 
 	// check for leniting prefix
-	if util.Contains(matchPrefixes, lenPre) {
+	if util.Contains(matchPrefixes, lenPre) && !util.ContainsStr(matchPrefixes, "fne") {
 		// lenite first
 		w = lenite(w)
 		// then add prefixes
