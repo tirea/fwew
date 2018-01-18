@@ -2813,14 +2813,14 @@
 1784	pl	seze	ˈsɛ.zɛ	\N	n.	niebieski kwiat
 1784	ru	seze	ˈsɛ.zɛ	\N	n.	голубой цветок
 1784	sv	seze	ˈsɛ.zɛ	\N	n.	blå blomma
-1788	de	si	s·i	s<1><2><3>i		(Hilfsverb, nachgestelltes nichtgebundenes Verb) tun, machen
-1788	eng	si	s·i	s<1><2><3>i		auxiliary verb, postpositional nonbound verb do, make
-1788	est	si	s·i	s<1><2><3>i		tegema (midagi) (saab olla vaid koos teise sõnaga)
-1788	hu	si	s·i	s<1><2><3>i		ntesz, csinál, összetett igékben szerepel
-1788	nl	si	s·i	s<1><2><3>i		(postpositioneel ongebonden hulpwerkwoord) doen, maken 
-1788	pl	si	s·i	s<1><2><3>i		czasownik posiłkowy robić, tworzyć
-1788	ru	si	s·i	s<1><2><3>i		вспомогательный глагол, постпозиционный несвязный глагол делать
-1788	sv	si	s·i	s<1><2><3>i		hjälpverb, ickebindande verb göra
+1788	de	si	s·i	v.	s<1><2><3>i		(Hilfsverb, nachgestelltes nichtgebundenes Verb) tun, machen
+1788	eng	si	s·i	v.	s<1><2><3>i		auxiliary verb, postpositional nonbound verb do, make
+1788	est	si	s·i	v.	s<1><2><3>i		tegema (midagi) (saab olla vaid koos teise sõnaga)
+1788	hu	si	s·i	v.	s<1><2><3>i		ntesz, csinál, összetett igékben szerepel
+1788	nl	si	s·i	v.	s<1><2><3>i		(postpositioneel ongebonden hulpwerkwoord) doen, maken 
+1788	pl	si	s·i	v.	s<1><2><3>i		czasownik posiłkowy robić, tworzyć
+1788	ru	si	s·i	v.	s<1><2><3>i		вспомогательный глагол, постпозиционный несвязный глагол делать
+1788	sv	si	s·i	v.	s<1><2><3>i		hjälpverb, ickebindande verb göra
 1792	de	sì	sɪ	\N	conj.	und (connects two things, can be attached as --sÃ¬: for clauses use)
 1792	eng	sì	sɪ	\N	conj.	and (connects two things, can be attached as sì: for clauses use)
 1792	est	sì	sɪ	\N	conj.	ja (connects two things, can be attached as --sÃ¬: for clauses use)
