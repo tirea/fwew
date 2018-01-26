@@ -53,6 +53,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	var results []affixes.Word
 	var fields []string
 	var defString string
+	var added bool
 
 	// Prepare file for searching
 	dictData, err := os.Open(util.Text("dictionary"))
@@ -77,10 +78,11 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 					// whole-word matching
 					defString = util.StripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
-						if strings.ToLower(w) == strings.ToLower(word) {
+						if strings.ToLower(w) == strings.ToLower(word) && !added {
 							// Put the stuff from fields into the Word struct
 							result = affixes.InitWordStruct(result, fields)
 							results = append(results, result)
+							added = true
 						}
 					}
 				}
@@ -90,14 +92,16 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 					// whole-word matching
 					defString = util.StripChars(fields[defField], ",;")
 					for _, w := range strings.Split(defString, " ") {
-						if strings.ToLower(w) == strings.ToLower(word) {
+						if strings.ToLower(w) == strings.ToLower(word) && !added {
 							// Put the stuff from fields into the Word struct
 							result = affixes.InitWordStruct(result, fields)
 							results = append(results, result)
+							added = true
 						}
 					}
 				}
 			}
+			added = false
 			// Looking for Na'vi word in Na'vi field
 		} else {
 			if fields[lcField] == lc {
