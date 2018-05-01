@@ -16,6 +16,7 @@ package main
 
 import (
 	"bufio"
+	"database/sql"
 	"errors"
 	"flag"
 	"fmt"
@@ -26,6 +27,8 @@ import (
 	"github.com/tirea/fwew/config"
 	"github.com/tirea/fwew/numbers"
 	"github.com/tirea/fwew/util"
+
+	_ "github.com/mattn/go-sqlite3"
 )
 
 // Global
@@ -40,6 +43,40 @@ const (
 )
 
 var debug *bool
+
+func fwewExperimental(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
+	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", " ")
+	// remove all the sketchy chars from arguments
+	for _, c := range badChars {
+		word = strings.Replace(word, c, "", -1)
+	}
+
+	var results []affixes.Word
+	var navi, ipa, infixes, pos, def string
+	var err error
+
+	database, _ := sql.Open("sqlite3", util.Text("database"))
+	query := "SELECT navi, ipa, infixes, fancyPartOfSpeech, definition " +
+		"FROM entries " +
+		"WHERE navi = \"" + word + "\" " +
+		"OR definition LIKE \"" + word + "\""
+	rows, _ := database.Query(query)
+
+	for rows.Next() {
+		var result affixes.Word
+		err = rows.Scan(&navi, &ipa, &infixes, &pos, &def)
+		if err != nil {
+			break
+		}
+		result.Navi = navi
+		result.IPA = ipa
+		result.PartOfSpeech = pos
+		result.Definition = def
+		results = append(results, result)
+	}
+
+	return results
+}
 
 func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", " ")
@@ -257,7 +294,7 @@ func main() {
 	var configuration = config.ReadConfig()
 	var results []affixes.Word
 	var language, posFilter *string
-	var showVersion, showInfixes, showIPA, reverse, useAffixes, numConvert, markdown *bool
+	var showVersion, showInfixes, showIPA, reverse, useAffixes, numConvert, markdown, experimental *bool
 
 	// Debug flag, for verbose probing output
 	debug = flag.Bool("debug", false, util.Text("usageDebug"))
@@ -279,6 +316,8 @@ func main() {
 	numConvert = flag.Bool("n", false, util.Text("usageN"))
 	// Markdown formatting
 	markdown = flag.Bool("m", false, util.Text("usageM"))
+	// Experimental Database algo switch
+	experimental = flag.Bool("e", false, util.Text("usageE"))
 	flag.Parse()
 
 	if *showVersion {
@@ -300,7 +339,11 @@ func main() {
 				if *numConvert {
 					fmt.Println(numbers.Convert(arg, *reverse))
 				} else {
-					results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
+					if *experimental {
+						results = fwewExperimental(arg, *language, *posFilter, *reverse, *useAffixes)
+					} else {
+						results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
+					}
 					printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes, *markdown)
 				}
 			}
@@ -333,7 +376,11 @@ func main() {
 					if *numConvert {
 						fmt.Println(numbers.Convert(input, *reverse))
 					} else {
-						results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
+						if *experimental {
+							results = fwewExperimental(input, *language, *posFilter, *reverse, *useAffixes)
+						} else {
+							results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
+						}
 						printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes, *markdown)
 					}
 				}

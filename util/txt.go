@@ -48,6 +48,7 @@ func init() {
 	texts["homeDir"], _ = filepath.Abs(usr.HomeDir)
 	texts["dataDir"] = filepath.Join(texts["homeDir"], ".fwew")
 	texts["config"] = filepath.Join(texts["dataDir"], "config.json")
+	texts["database"] = filepath.Join(texts["dataDir"], "database.sqlite")
 	texts["dictionary"] = filepath.Join(texts["dataDir"], "dictionary.txt")
 	texts["prefixes"] = filepath.Join(texts["dataDir"], "prefixes.txt")
 	texts["infixes"] = filepath.Join(texts["dataDir"], "infixes.txt")
