@@ -1,6 +1,7 @@
 0	eng	Eywa	ɛj.wa	\N	prop.n.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.
 1	eng	Tìlu	tɪ.lu	\N	prop.n.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i
 2	eng	mako si	ma.ko s·i	mako s<1><2><3>i	vin.	to construct a sentence in a difficult to read fashion
+3   eng nävi    ˈnæ.vi  \N  n.  a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)
 4	de	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	berühren
 4	eng	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	touch
 4	est	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	katsuma, puutuma
@@ -559,14 +560,14 @@
 392	pl	fmetok	ˈfm·ɛ.t·ok̚	fm<1><2>et<3>ok	vtr.	sprawdzać, badać
 392	ru	fmetok	ˈfm·ɛ.t·ok̚	fm<1><2>et<3>ok	vtr.	экзаменовать, подвергать испытанию
 392	sv	fmetok	ˈfm·ɛ.t·ok̚	fm<1><2>et<3>ok	vtr.	testa
-396	de	fmi	fm·i	\N	vtrm.	versuchen, probieren
-396	eng	fmi	fm·i	\N	vtrm.	try, attempt
-396	est	fmi	fm·i	\N	vtrm.	püüdma, üritama
-396	hu	fmi	fm·i	\N	vtrm.	(meg)próbál, megkísérel
-396	nl	fmi	fm·i	\N	vtrm.	proberen
-396	pl	fmi	fm·i	\N	vtrm.	próbować
-396	ru	fmi	fm·i	\N	vtrm.	пробовать, пытаться
-396	sv	fmi	fm·i	\N	vtrm.	försöka
+396	de	fmi	fm·i	fm<1><2><3>i	vtrm.	versuchen, probieren
+396	eng	fmi	fm·i	fm<1><2><3>i	vtrm.	try, attempt
+396	est	fmi	fm·i	fm<1><2><3>i	vtrm.	püüdma, üritama
+396	hu	fmi	fm·i	fm<1><2><3>i	vtrm.	(meg)próbál, megkísérel
+396	nl	fmi	fm·i	fm<1><2><3>i	vtrm.	proberen
+396	pl	fmi	fm·i	fm<1><2><3>i	vtrm.	próbować
+396	ru	fmi	fm·i	fm<1><2><3>i	vtrm.	пробовать, пытаться
+396	sv	fmi	fm·i	fm<1><2><3>i	vtrm.	försöka
 400	de	fngap	fŋap̚	\N	n.	Metall
 400	eng	fngap	fŋap̚	\N	n.	metal
 400	est	fngap	fŋap̚	\N	n.	metall
