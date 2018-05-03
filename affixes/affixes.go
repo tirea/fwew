@@ -248,9 +248,9 @@ func infix(w Word) Word {
 	var pos2InfixString string
 	var matchInfixes = []string{}
 
-	reString = strings.Replace(w.InfixLocations, "<1>", pos0InfixRe, 1)
-	reString = strings.Replace(reString, "<2>", pos1InfixRe, 1)
-	reString = strings.Replace(reString, "<3>", pos2InfixRe, 1)
+	reString = strings.Replace(w.InfixLocations, "<0>", pos0InfixRe, 1)
+	reString = strings.Replace(reString, "<1>", pos1InfixRe, 1)
+	reString = strings.Replace(reString, "<2>", pos2InfixRe, 1)
 	if debug {
 		fmt.Printf("Infix reString: %s\n", reString)
 	}
