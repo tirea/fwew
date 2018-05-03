@@ -1,7 +1,3 @@
-0	eng	Eywa	ɛj.wa	\N	prop.n.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.
-1	eng	Tìlu	tɪ.lu	\N	prop.n.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i
-2	eng	mako si	ma.ko s·i	mako s<1><2><3>i	vin.	to construct a sentence in a difficult to read fashion
-3	eng	nävi	ˈnæ.vi	\N	n.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)
 4	de	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	berühren
 4	eng	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	touch
 4	est	'ampi	ˈʔ·am.p·i	'<1><2>amp<3>i	vtr.	katsuma, puutuma
@@ -560,14 +556,14 @@
 392	pl	fmetok	ˈfm·ɛ.t·ok̚	fm<1><2>et<3>ok	vtr.	sprawdzać, badać
 392	ru	fmetok	ˈfm·ɛ.t·ok̚	fm<1><2>et<3>ok	vtr.	экзаменовать, подвергать испытанию
 392	sv	fmetok	ˈfm·ɛ.t·ok̚	fm<1><2>et<3>ok	vtr.	testa
-396	de	fmi	fm·i	fm<1><2><3>i	vtrm.	versuchen, probieren
-396	eng	fmi	fm·i	fm<1><2><3>i	vtrm.	try, attempt
-396	est	fmi	fm·i	fm<1><2><3>i	vtrm.	püüdma, üritama
-396	hu	fmi	fm·i	fm<1><2><3>i	vtrm.	(meg)próbál, megkísérel
-396	nl	fmi	fm·i	fm<1><2><3>i	vtrm.	proberen
-396	pl	fmi	fm·i	fm<1><2><3>i	vtrm.	próbować
-396	ru	fmi	fm·i	fm<1><2><3>i	vtrm.	пробовать, пытаться
-396	sv	fmi	fm·i	fm<1><2><3>i	vtrm.	försöka
+396	de	fmi	fm·i	fm<0><1><2>i	vtrm.	versuchen, probieren
+396	eng	fmi	fm·i	fm<0><1><2>i	vtrm.	try, attempt
+396	est	fmi	fm·i	fm<0><1><2>i	vtrm.	püüdma, üritama
+396	hu	fmi	fm·i	fm<0><1><2>i	vtrm.	(meg)próbál, megkísérel
+396	nl	fmi	fm·i	fm<0><1><2>i	vtrm.	proberen
+396	pl	fmi	fm·i	fm<0><1><2>i	vtrm.	próbować
+396	ru	fmi	fm·i	fm<0><1><2>i	vtrm.	пробовать, пытаться
+396	sv	fmi	fm·i	fm<0><1><2>i	vtrm.	försöka
 400	de	fngap	fŋap̚	\N	n.	Metall
 400	eng	fngap	fŋap̚	\N	n.	metal
 400	est	fngap	fŋap̚	\N	n.	metall
@@ -704,14 +700,14 @@
 468	pl	frrtu	ˈfṛ.tu	\N	n.	gość, odwiedzający
 468	ru	frrtu	ˈfṛ.tu	\N	n.	гость
 468	sv	frrtu	ˈfṛ.tu	\N	n.	gäst, besökare
-472	de	ftang	ft·aŋ	\N	vim.	stoppen, anhalten, aufhalten
-472	eng	ftang	ft·aŋ	\N	vim.	stop
-472	est	ftang	ft·aŋ	\N	vim.	peatuma
-472	hu	ftang	ft·aŋ	\N	vim.	befejez, abbahagy
-472	nl	ftang	ft·aŋ	\N	vim.	stoppen
-472	pl	ftang	ft·aŋ	\N	vim.	zaprzestać
-472	ru	ftang	ft·aŋ	\N	vim.	прекращать, останавливаться
-472	sv	ftang	ft·aŋ	\N	vim.	sluta
+472	de	ftang	ft·aŋ	ft<0><1><2>ang	vim.	stoppen, anhalten, aufhalten
+472	eng	ftang	ft·aŋ	ft<0><1><2>ang	vim.	stop
+472	est	ftang	ft·aŋ	ft<0><1><2>ang	vim.	peatuma
+472	hu	ftang	ft·aŋ	ft<0><1><2>ang	vim.	befejez, abbahagy
+472	nl	ftang	ft·aŋ	ft<0><1><2>ang	vim.	stoppen
+472	pl	ftang	ft·aŋ	ft<0><1><2>ang	vim.	zaprzestać
+472	ru	ftang	ft·aŋ	ft<0><1><2>ang	vim.	прекращать, останавливаться
+472	sv	ftang	ft·aŋ	ft<0><1><2>ang	vim.	sluta
 476	de	fte	ftɛ	\N	conj.	sodass, um…zu
 476	eng	fte	ftɛ	\N	conj.	so that, in order to
 476	est	fte	ftɛ	\N	conj.	(nii), et; (selleks), et
@@ -1886,14 +1882,14 @@
 1220	nl	neto	nɛ.ˈto	\N	adv.	weg (richting)
 1220	ru	neto	nɛ.ˈto	\N	adv.	от (по направлению)
 1220	sv	neto	nɛ.ˈto	\N	adv.	bort (riktning)
-1224	de	new	n·ɛw	\N	vtrm.	wollen, möchten
-1224	eng	new	n·ɛw	\N	vtrm.	want
-1224	est	new	n·ɛw	\N	vtrm.	tahtma
-1224	hu	new	n·ɛw	\N	vtrm.	akar
-1224	nl	new	n·ɛw	\N	vtrm.	willen
-1224	pl	new	n·ɛw	\N	vtrm.	chcieć
-1224	ru	new	n·ɛw	\N	vtrm.	хотеть, желать
-1224	sv	new	n·ɛw	\N	vtrm.	vilja ha, vilja
+1224	de	new	n·ɛw	n<0><1><2>ew	vtrm.	wollen, möchten
+1224	eng	new	n·ɛw	n<0><1><2>ew	vtrm.	want
+1224	est	new	n·ɛw	n<0><1><2>ew	vtrm.	tahtma
+1224	hu	new	n·ɛw	n<0><1><2>ew	vtrm.	akar
+1224	nl	new	n·ɛw	n<0><1><2>ew	vtrm.	willen
+1224	pl	new	n·ɛw	n<0><1><2>ew	vtrm.	chcieć
+1224	ru	new	n·ɛw	n<0><1><2>ew	vtrm.	хотеть, желать
+1224	sv	new	n·ɛw	n<0><1><2>ew	vtrm.	vilja ha, vilja
 1232	de	niä	n·i.·ˈæ	n<1><2>i<3>ä	vtr.	greifen, fassen, packen
 1232	eng	niä	n·i.·ˈæ	n<1><2>i<3>ä	vtr.	grab
 1232	est	niä	n·i.·ˈæ	n<1><2>i<3>ä	vtr.	haarama, krahmama
@@ -2070,14 +2066,14 @@
 1332	pl	nulkrr	nul.ˈkṛ	\N	adv.	dłużej (o czasie)
 1332	ru	nulkrr	nul.ˈkṛ	\N	adv.	дольше
 1332	sv	nulkrr	nul.ˈkṛ	\N	adv.	längre (tid)
-1336	de	nulnew	nul.ˈn·ɛw	\N	vtrm.	vorziehen, bevorzugen, begünstigen (ii)
-1336	eng	nulnew	nul.ˈn·ɛw	\N	vtrm.	prefer (ii)
-1336	est	nulnew	nul.ˈn·ɛw	\N	vtrm.	eelistama (e)
-1336	hu	nulnew	nul.ˈn·ɛw	\N	vtrm.	jobban szeret, preferál
-1336	nl	nulnew	nul.ˈn·ɛw	\N	vtrm.	verkiezen, de voorkeur geven aan (ii)
-1336	pl	nulnew	nul.ˈn·ɛw	\N	vtrm.	woleć, preferować (ii)
-1336	ru	nulnew	nul.ˈn·ɛw	\N	vtrm.	отдавать предпочтение, предпочитать
-1336	sv	nulnew	nul.ˈn·ɛw	\N	vtrm.	föredra (ii)
+1336	de	nulnew	nul.ˈn·ɛw	nuln<0><1><2>ew	vtrm.	vorziehen, bevorzugen, begünstigen (ii)
+1336	eng	nulnew	nul.ˈn·ɛw	nuln<0><1><2>ew	vtrm.	prefer (ii)
+1336	est	nulnew	nul.ˈn·ɛw	nuln<0><1><2>ew	vtrm.	eelistama (e)
+1336	hu	nulnew	nul.ˈn·ɛw	nuln<0><1><2>ew	vtrm.	jobban szeret, preferál
+1336	nl	nulnew	nul.ˈn·ɛw	nuln<0><1><2>ew	vtrm.	verkiezen, de voorkeur geven aan (ii)
+1336	pl	nulnew	nul.ˈn·ɛw	nuln<0><1><2>ew	vtrm.	woleć, preferować (ii)
+1336	ru	nulnew	nul.ˈn·ɛw	nuln<0><1><2>ew	vtrm.	отдавать предпочтение, предпочитать
+1336	sv	nulnew	nul.ˈn·ɛw	nuln<0><1><2>ew	vtrm.	föredra (ii)
 1340	de	nume	ˈn·u.m·ɛ	n<1><2>um<3>e	vin.	lernen, Wissen oder Verstehen erlangen
 1340	eng	nume	ˈn·u.m·ɛ	n<1><2>um<3>e	vin.	learn
 1340	est	nume	ˈn·u.m·ɛ	n<1><2>um<3>e	vin.	õppima, teada saama
@@ -2110,7 +2106,7 @@
 1356	pl	ngay	ŋaj	\N	adj.	prawdziwy
 1356	ru	ngay	ŋaj	\N	adj.	верный, правильный, правдивый
 1356	sv	ngay	ŋaj	\N	adj.	sann
-1360	de	ngenga	ŋɛ.ˈŋa	\N	pn.	Sie (Höflichkeitsform von Du)
+1360	de	ngenga	ŋɛ.ˈŋa	\N	pn.	Sie (Höflichkeitsform von)
 1360	eng	ngenga	ŋɛ.ˈŋa	\N	pn.	you (honorific form)
 1360	est	ngenga	ŋɛ.ˈŋa	\N	pn.	sina (austav vorm)
 1360	hu	ngenga	ŋɛ.ˈŋa	\N	pn.	te (szertartásos forma)
@@ -2270,10 +2266,10 @@
 1456	pl	pamtseowll	ˈpam.t͡sɛ.o.wḷ	\N	n.	felinafolia ferruginea, kocie ucho
 1456	ru	pamtseowll	ˈpam.t͡sɛ.o.wḷ	\N	n.	«кошачье ухо», музыкальный цветок
 1456	sv	pamtseowll	ˈpam.t͡sɛ.o.wḷ	\N	n.	cat ear, musikplanta
-1460	de	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	(sich) unterhalten (mit), sprechen, plaudern
+1460	de	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	(sich) unterhalten (mit), sprechen, plaudern, eine Unterhaltung haben
 1460	eng	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	chat, converse, have a conversation
 1460	est	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	suhtlema, vestlema, juttu ajama
-1460	hu	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	beszélget, társalog
+1460	hu	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	beszélget, társalog 
 1460	nl	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	praten, een gesprek voeren
 1460	pl	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	rozmawiać, gadać, gawędzić, mówić
 1460	ru	pängkxo	p·æŋ.ˈk'·o	p<1><2>ängkx<3>o	vin.	вести беседу, разговаривать (ни с кем конкретно)
@@ -2814,14 +2810,14 @@
 1784	pl	seze	ˈsɛ.zɛ	\N	n.	niebieski kwiat
 1784	ru	seze	ˈsɛ.zɛ	\N	n.	голубой цветок
 1784	sv	seze	ˈsɛ.zɛ	\N	n.	blå blomma
-1788	de	si	s·i	s<1><2><3>i	v.	(Hilfsverb, nachgestelltes nichtgebundenes Verb) tun, machen
-1788	eng	si	s·i	s<1><2><3>i	v.	auxiliary verb, postpositional nonbound verb do, make
-1788	est	si	s·i	s<1><2><3>i	v.	tegema (midagi) (saab olla vaid koos teise sõnaga)
-1788	hu	si	s·i	s<1><2><3>i	v.	ntesz, csinál, összetett igékben szerepel
-1788	nl	si	s·i	s<1><2><3>i	v.	(postpositioneel ongebonden hulpwerkwoord) doen, maken 
-1788	pl	si	s·i	s<1><2><3>i	v.	czasownik posiłkowy robić, tworzyć
-1788	ru	si	s·i	s<1><2><3>i	v.	вспомогательный глагол, постпозиционный несвязный глагол делать
-1788	sv	si	s·i	s<1><2><3>i	v.	hjälpverb, ickebindande verb göra
+1788	de	si	s·i	s<1><2><3>i		(Hilfsverb, nachgestelltes nichtgebundenes Verb) tun, machen
+1788	eng	si	s·i	s<1><2><3>i		auxiliary verb, postpositional nonbound verb do, make
+1788	est	si	s·i	s<1><2><3>i		tegema (midagi) (saab olla vaid koos teise sõnaga)
+1788	hu	si	s·i	s<1><2><3>i		ntesz, csinál, összetett igékben szerepel
+1788	nl	si	s·i	s<1><2><3>i		(postpositioneel ongebonden hulpwerkwoord) doen, maken 
+1788	pl	si	s·i	s<1><2><3>i		czasownik posiłkowy robić, tworzyć
+1788	ru	si	s·i	s<1><2><3>i		вспомогательный глагол, постпозиционный несвязный глагол делать
+1788	sv	si	s·i	s<1><2><3>i		hjälpverb, ickebindande verb göra
 1792	de	sì	sɪ	\N	conj.	und (connects two things, can be attached as --sÃ¬: for clauses use)
 1792	eng	sì	sɪ	\N	conj.	and (connects two things, can be attached as sì: for clauses use)
 1792	est	sì	sɪ	\N	conj.	ja (connects two things, can be attached as --sÃ¬: for clauses use)
@@ -2894,14 +2890,14 @@
 1832	pl	slu	sl·u	sl<1><2><3>u	vin.	stawać się (w sytuacjach niejednoznacznych rzeczownik poprzedzony partykułą ne) 
 1832	ru	slu	sl·u	sl<1><2><3>u	vin.	становиться
 1832	sv	slu	sl·u	sl<1><2><3>u	vin.	bli (substantivs predikat med ne i tvetydiga konstruktioner)
-1836	de	sngä'i	ˈsŋ·æ.ʔ·i	\N	vim.	anfangen, beginnen, starten
-1836	eng	sngä'i	ˈsŋ·æ.ʔ·i	\N	vim.	begin, start
-1836	est	sngä'i	ˈsŋ·æ.ʔ·i	\N	vim.	algama
-1836	hu	sngä'i	ˈsŋ·æ.ʔ·i	\N	vim.	(el)kezdődik
-1836	nl	sngä'i	ˈsŋ·æ.ʔ·i	\N	vim.	beginnen, starten
-1836	pl	sngä'i	ˈsŋ·æ.ʔ·i	\N	vim.	zaczynać
-1836	ru	sngä'i	ˈsŋ·æ.ʔ·i	\N	vim.	начинаться
-1836	sv	sngä'i	ˈsŋ·æ.ʔ·i	\N	vim.	börja, starta
+1836	de	sngä'i	ˈsŋ·æ.ʔ·i	sng<0><1>ä'<2>i	vim.	anfangen, beginnen, starten
+1836	eng	sngä'i	ˈsŋ·æ.ʔ·i	sng<0><1>ä'<2>i	vim.	begin, start
+1836	est	sngä'i	ˈsŋ·æ.ʔ·i	sng<0><1>ä'<2>i	vim.	algama
+1836	hu	sngä'i	ˈsŋ·æ.ʔ·i	sng<0><1>ä'<2>i	vim.	(el)kezdődik
+1836	nl	sngä'i	ˈsŋ·æ.ʔ·i	sng<0><1>ä'<2>i	vim.	beginnen, starten
+1836	pl	sngä'i	ˈsŋ·æ.ʔ·i	sng<0><1>ä'<2>i	vim.	zaczynać
+1836	ru	sngä'i	ˈsŋ·æ.ʔ·i	sng<0><1>ä'<2>i	vim.	начинаться
+1836	sv	sngä'i	ˈsŋ·æ.ʔ·i	sng<0><1>ä'<2>i	vim.	börja, starta
 1840	de	sngä'ikrr	ˈsŋæ.ʔi.kṛ	\N	n.	Anfang, Beginn, Startzeit
 1840	eng	sngä'ikrr	ˈsŋæ.ʔi.kṛ	\N	n.	beginning, starting time
 1840	est	sngä'ikrr	ˈsŋæ.ʔi.kṛ	\N	n.	algus
@@ -3166,7 +3162,7 @@
 1972	pl	täftxuyu	tæ.ˈft'u.ju	\N	n.	tkacz
 1972	ru	täftxuyu	tæ.ˈft'u.ju	\N	n.	ткач
 1972	sv	täftxuyu	tæ.ˈft'u.ju	\N	n.	vävare
-1976	de	takuk	ˈt·a.k·uk̚	t<1><2>ak<3>uk	vtr.	schlagen, treffen
+1976	de	takuk	ˈt·a.k·uk̚	t<1><2>ak<3>uk	vtr.	schlagen, treffen, hauen
 1976	eng	takuk	ˈt·a.k·uk̚	t<1><2>ak<3>uk	vtr.	strike, beat, slap
 1976	est	takuk	ˈt·a.k·uk̚	t<1><2>ak<3>uk	vtr.	lööma, äsama, peale tungima
 1976	hu	takuk	ˈt·a.k·uk̚	t<1><2>ak<3>uk	vtr.	lesújt, (meg)üt, eltalál
@@ -4046,14 +4042,14 @@
 2472	pl	tstxo	t͡st'o	\N	n.	imię, nazwisko, nazwa
 2472	ru	tstxo	t͡st'o	\N	n.	имя
 2472	sv	tstxo	t͡st'o	\N	n.	namn
-2476	de	tsun	t͡s·un	\N	vim.	können, in der Lage sein
-2476	eng	tsun	t͡s·un	\N	vim.	can, be able
-2476	est	tsun	t͡s·un	\N	vim.	võima, suutma
-2476	hu	tsun	t͡s·un	\N	vim.	tud, képes
-2476	nl	tsun	t͡s·un	\N	vim.	kunnen
-2476	pl	tsun	t͡s·un	\N	vim.	móc, być w stanie
-2476	ru	tsun	t͡s·un	\N	vim.	мочь, быть в состоянии, быть способным
-2476	sv	tsun	t͡s·un	\N	vim.	kan, kunna
+2476	de	tsun	t͡s·un	ts<0><1><2>un	vim.	können, in der Lage sein
+2476	eng	tsun	t͡s·un	ts<0><1><2>un	vim.	can, be able
+2476	est	tsun	t͡s·un	ts<0><1><2>un	vim.	võima, suutma
+2476	hu	tsun	t͡s·un	ts<0><1><2>un	vim.	tud, képes
+2476	nl	tsun	t͡s·un	ts<0><1><2>un	vim.	kunnen
+2476	pl	tsun	t͡s·un	ts<0><1><2>un	vim.	móc, być w stanie
+2476	ru	tsun	t͡s·un	ts<0><1><2>un	vim.	мочь, быть в состоянии, быть способным
+2476	sv	tsun	t͡s·un	ts<0><1><2>un	vim.	kan, kunna
 2484	de	tswayon	ˈt͡sw·aj.·on	tsw<1><2>ay<3>on	vin.	fliegen
 2484	eng	tswayon	ˈt͡sw·aj.·on	tsw<1><2>ay<3>on	vin.	fly
 2484	est	tswayon	ˈt͡sw·aj.·on	tsw<1><2>ay<3>on	vin.	lendama
@@ -4549,14 +4545,14 @@
 2808	pl	zekwä	ˈzɛk.wæ	\N	n.	palec
 2808	ru	zekwä	ˈzɛk.wæ	\N	n.	палец
 2808	sv	zekwä	ˈzɛk.wæ	\N	n.	finger
-2812	de	zene	ˈz·ɛ.n·ɛ	\N	vim.	müssen
-2812	eng	zene	ˈz·ɛ.n·ɛ	\N	vim.	must
-2812	est	zene	ˈz·ɛ.n·ɛ	\N	vim.	pidama (tegema) Näide Oe zene kivä Ma pean minema
-2812	hu	zene	ˈz·ɛ.n·ɛ	\N	vim.	kell
-2812	nl	zene	ˈz·ɛ.n·ɛ	\N	vim.	moeten
-2812	pl	zene	ˈz·ɛ.n·ɛ	\N	vim.	musieć
-2812	ru	zene	ˈz·ɛ.n·ɛ	\N	vim.	модальный глалог долженствования
-2812	sv	zene	ˈz·ɛ.n·ɛ	\N	vim.	måste
+2812	de	zene	ˈz·ɛ.n·ɛ	z<0><1>en<2>e	vim.	müssen
+2812	eng	zene	ˈz·ɛ.n·ɛ	z<0><1>en<2>e	vim.	must
+2812	est	zene	ˈz·ɛ.n·ɛ	z<0><1>en<2>e	vim.	pidama (tegema) Näide Oe zene kivä Ma pean minema
+2812	hu	zene	ˈz·ɛ.n·ɛ	z<0><1>en<2>e	vim.	kell
+2812	nl	zene	ˈz·ɛ.n·ɛ	z<0><1>en<2>e	vim.	moeten
+2812	pl	zene	ˈz·ɛ.n·ɛ	z<0><1>en<2>e	vim.	musieć
+2812	ru	zene	ˈz·ɛ.n·ɛ	z<0><1>en<2>e	vim.	модальный глалог долженствования
+2812	sv	zene	ˈz·ɛ.n·ɛ	z<0><1>en<2>e	vim.	måste
 2816	de	zìsìt	ˈzɪ.sɪt̚	\N	n.	Jahr
 2816	eng	zìsìt	ˈzɪ.sɪt̚	\N	n.	year
 2816	est	zìsìt	ˈzɪ.sɪt̚	\N	n.	aasta
@@ -4941,14 +4937,14 @@
 3848	pl	sti	st·i	st<1><2><3>i	vin.	gniewać się
 3848	ru	sti	st·i	st<1><2><3>i	vin.	быть рассерженным, сердиться (непереходная форма)
 3848	sv	sti	st·i	st<1><2><3>i	vin.	arg (intransitivt), vara arg
-3852	de	sto	st·o	\N	vtrm.	weigern (etwas zu tun), verweigern, ablehnen
-3852	eng	sto	st·o	\N	vtrm.	refuse (to do something)
-3852	est	sto	st·o	\N	vtrm.	keelduma (midagi tegema)
-3852	hu	sto	st·o	\N	vtrm.	megtagad, visszautasít, nem hajlandó valamire
-3852	nl	sto	st·o	\N	vtrm.	weigeren (iets te doen)
-3852	pl	sto	st·o	\N	vtrm.	odmawiać (wykonania czegoś)
-3852	ru	sto	st·o	\N	vtrm.	отказываться (делать чтолибо)
-3852	sv	sto	st·o	\N	vtrm.	vägra (att göra något)
+3852	de	sto	st·o	st<0><1><2>o	vtrm.	weigern (etwas zu tun), verweigern, ablehnen
+3852	eng	sto	st·o	st<0><1><2>o	vtrm.	refuse (to do something)
+3852	est	sto	st·o	st<0><1><2>o	vtrm.	keelduma (midagi tegema)
+3852	hu	sto	st·o	st<0><1><2>o	vtrm.	megtagad, visszautasít, nem hajlandó valamire
+3852	nl	sto	st·o	st<0><1><2>o	vtrm.	weigeren (iets te doen)
+3852	pl	sto	st·o	st<0><1><2>o	vtrm.	odmawiać (wykonania czegoś)
+3852	ru	sto	st·o	st<0><1><2>o	vtrm.	отказываться (делать чтолибо)
+3852	sv	sto	st·o	st<0><1><2>o	vtrm.	vägra (att göra något)
 3856	de	sung	s·uŋ	s<1><2><3>ung	vtr.	hinzufügen, ergänzen, beigeben, hinzugeben
 3856	eng	sung	s·uŋ	s<1><2><3>ung	vtr.	add
 3856	est	sung	s·uŋ	s<1><2><3>ung	vtr.	lisama
@@ -5173,14 +5169,14 @@
 3964	pl	yem	j·ɛm	y<1><2><3>em	vtr.	umieszczać, kłaść
 3964	ru	yem	j·ɛm	y<1><2><3>em	vtr.	положить, поставить
 3964	sv	yem	j·ɛm	y<1><2><3>em	vtr.	sätta dit, placera, sätta
-3968	de	zenke	ˈz·ɛŋ.kɛ	\N	vim.	nicht dürfen (ii)
-3968	eng	zenke	ˈz·ɛŋ.kɛ	\N	vim.	must not (ii)
-3968	est	zenke	ˈz·ɛŋ.kɛ	\N	vim.	mitte tohtima (e)
-3968	hu	zenke	ˈz·ɛŋ.kɛ	\N	vim.	tilos, nem szabad
-3968	nl	zenke	ˈz·ɛŋ.kɛ	\N	vim.	niet moeten (ii)
-3968	pl	zenke	ˈz·ɛŋ.kɛ	\N	vim.	nie móc, nie wolno (ii)
-3968	ru	zenke	ˈz·ɛŋ.kɛ	\N	vim.	модальный глагол долженствования с отрицанием (не должен)
-3968	sv	zenke	ˈz·ɛŋ.kɛ	\N	vim.	få inte
+3968	de	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	nicht dürfen (ii)
+3968	eng	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	must not (ii)
+3968	est	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>e	vim.	mitte tohtima (e)
+3968	hu	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>e	vim.	tilos, nem szabad
+3968	nl	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>e	vim.	niet moeten (ii)
+3968	pl	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>e	vim.	nie móc, nie wolno (ii)
+3968	ru	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>e	vim.	модальный глагол долженствования с отрицанием (не должен)
+3968	sv	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>e	vim.	få inte
 3972	de	zup	z·up̚	z<1><2><3>up	vin.	fallen
 3972	eng	zup	z·up̚	z<1><2><3>up	vin.	fall
 3972	est	zup	z·up̚	z<1><2><3>up	vin.	kukkuma
@@ -5592,7 +5588,7 @@
 4212	de	lì'upe	ˈlɪ.ʔu.pɛ	\N	inter.	welches Wort?, welche Äußerung?
 4212	eng	lì'upe	ˈlɪ.ʔu.pɛ	\N	inter.	what (word, utterance)
 4212	est	lì'upe	ˈlɪ.ʔu.pɛ	\N	inter.	mis (sõna, väljend)
-4212	hu	lì'upe	ˈlɪ.ʔu.pɛ	\N	inter.	Mi? (Mit mondott?)
+4212	hu	lì'upe	ˈlɪ.ʔu.pɛ	\N	inter.	Mi? (Mit?)
 4212	nl	lì'upe	ˈlɪ.ʔu.pɛ	\N	inter.	wat, welk (woord, uiting)
 4212	pl	lì'upe	ˈlɪ.ʔu.pɛ	\N	inter.	jakie, które (słowo, wyrażenie, zwrot)
 4212	ru	lì'upe	ˈlɪ.ʔu.pɛ	\N	inter.	какое? что за? (вопрос к слову или высказыванию)
@@ -5600,7 +5596,7 @@
 4216	de	pelì'u	pɛ.ˈlɪ.ʔu	\N	inter.	welches Wort?, welche Äußerung?
 4216	eng	pelì'u	pɛ.ˈlɪ.ʔu	\N	inter.	what (word, utterance)
 4216	est	pelì'u	pɛ.ˈlɪ.ʔu	\N	inter.	mis (sõna, väljend)
-4216	hu	pelì'u	pɛ.ˈlɪ.ʔu	\N	inter.	milyen szó? hogy mondta?
+4216	hu	pelì'u	pɛ.ˈlɪ.ʔu	\N	inter.	milyen szó? 
 4216	nl	pelì'u	pɛ.ˈlɪ.ʔu	\N	inter.	wat, welk (woord, uiting)
 4216	pl	pelì'u	pɛ.ˈlɪ.ʔu	\N	inter.	jakie, które (słowo, wyrażenie)
 4216	ru	pelì'u	pɛ.ˈlɪ.ʔu	\N	inter.	какое? что за? (вопрос к слову или высказыванию)
@@ -7494,7 +7490,7 @@
 5276	de	oìsss	o.ˈɪsss	\N	intj.	verärgertes Knurren, "Pass doch auf!"
 5276	eng	oìsss	o.ˈɪsss	\N	intj.	angry snarl, 'watch it!'
 5276	est	oìsss	o.ˈɪsss	\N	intj.	vihane lõrisemine, 'vait!', 'vaata ette!'
-5276	hu	oìsss	o.ˈɪsss	\N	intj.	dühödt mordulás, 'vigyázz!'
+5276	hu	oìsss	o.ˈɪsss	\N	intj.	dühödt mordulás, 'vigyázz!' 
 5276	nl	oìsss	o.ˈɪsss	\N	intj.	boze kreet, 'kijk maar uit!'
 5276	pl	oìsss	o.ˈɪsss	\N	intj.	wyrażenie gniewu, 'uważaj!'
 5276	ru	oìsss	o.ˈɪsss	\N	intj.	окрик, призыв к порядку, призыв обратить внимание
@@ -8369,10 +8365,10 @@
 5944	pl	hìkrr	ˈhɪ.kṛ	\N	n.	chwila, sekunda
 5944	ru	hìkrr	ˈhɪ.kṛ	\N	n.	секунда, очень короткое время
 5944	sv	hìkrr	ˈhɪ.kṛ	\N	n.	sekund, väldigt kort tid
-5952	de	mawkrr	ˈmaw.kṛ	\N	adv.	nach, danach
+5952	de	mawkrr	ˈmaw.kṛ	\N	adv.	nach, danach, später
 5952	eng	mawkrr	ˈmaw.kṛ	\N	adv.	after, afterwards, later
 5952	est	mawkrr	ˈmaw.kṛ	\N	adv.	pärast, hiljem
-5952	hu	mawkrr	ˈmaw.kṛ	\N	adv.	után, utána
+5952	hu	mawkrr	ˈmaw.kṛ	\N	adv.	után, utána, később
 5952	nl	mawkrr	ˈmaw.kṛ	\N	adv.	na, achteraf, later
 5952	pl	mawkrr	ˈmaw.kṛ	\N	adv.	później
 5952	ru	mawkrr	ˈmaw.kṛ	\N	adv.	впоследствии
@@ -9937,14 +9933,14 @@
 6972	pl	kìte'e si	kɪ.tɛ.ˈʔɛ ˈs·i	kìte'e s<1><2><3>i	vin.	służyć, usługiwać
 6972	ru	kìte'e si	kɪ.tɛ.ˈʔɛ ˈs·i	kìte'e s<1><2><3>i	vin.	служить
 6972	sv	kìte'e si	kɪ.tɛ.ˈʔɛ ˈs·i	kìte'e s<1><2><3>i	vin.	tjäna, betjäna, stå till tjänst
-6984	de	var	v·aɾ	\N	vim.	in einem Zustand bleiben, eine Handlung fortführen, weitermachen
-6984	eng	var	v·aɾ	\N	vim.	to persist in a state, to continue to perform an action
-6984	est	var	v·aɾ	\N	vim.	püsima mingis toimingus, jätkama mingit tegevust
-6984	hu	var	v·aɾ	\N	vim.	valamilyen állapotban marad, folytat egy cselekvést
-6984	nl	var	v·aɾ	\N	vim.	in iets volharden, iets constant blijven doen
-6984	pl	var	v·aɾ	\N	vim.	kontynuwać (czynność)
-6984	ru	var	v·aɾ	\N	vim.	продолжать действие
-6984	sv	var	v·aɾ	\N	vim.	att fortsätta utföra en handling, att kvarstå i ett läge
+6984	de	var	v·aɾ	v<0><1><2>ar	vim.	in einem Zustand bleiben, eine Handlung fortführen, weitermachen
+6984	eng	var	v·aɾ	v<0><1><2>ar	vim.	to persist in a state, to continue to perform an action
+6984	est	var	v·aɾ	v<0><1><2>ar	vim.	püsima mingis toimingus, jätkama mingit tegevust
+6984	hu	var	v·aɾ	v<0><1><2>ar	vim.	valamilyen állapotban marad, folytat egy cselekvést
+6984	nl	var	v·aɾ	v<0><1><2>ar	vim.	in iets volharden, iets constant blijven doen
+6984	pl	var	v·aɾ	v<0><1><2>ar	vim.	kontynuwać (czynność)
+6984	ru	var	v·aɾ	v<0><1><2>ar	vim.	продолжать действие
+6984	sv	var	v·aɾ	v<0><1><2>ar	vim.	att fortsätta utföra en handling, att kvarstå i ett läge
 6988	de	nìftxan	nɪ.ˈft'an	\N	adv.	so, derart, dermaßen
 6988	eng	nìftxan	nɪ.ˈft'an	\N	adv.	so, to such an extent
 6988	est	nìftxan	nɪ.ˈft'an	\N	adv.	ühtmoodi, samal hulgal
@@ -10776,14 +10772,14 @@
 7592	pl	tìftang si	tɪ.ˈftaŋ s·i	tìftang s<1><2><3>i	vin.	zatrzymać
 7592	ru	tìftang si	tɪ.ˈftaŋ s·i	tìftang s<1><2><3>i	vin.	остановить
 7592	sv	tìftang si	tɪ.ˈftaŋ s·i	tìftang s<1><2><3>i	vin.	sluta
-7596	de	may'	m·ajʔ	\N	vtrm.	versuchen, ausprobieren, probieren, kosten, testen
-7596	eng	may'	m·ajʔ	\N	vtrm.	taste, try, sample, evaluate, check out, testdrive
-7596	est	may'	m·ajʔ	\N	vtrm.	proovima, hindama, üle vaatama, testima
-7596	hu	may'	m·ajʔ	\N	vtrm.	(ki)próbál, értékel, ellenőriz
-7596	nl	may'	m·ajʔ	\N	vtrm.	uitproberen, evalueren, testen, proefdraaien
-7596	pl	may'	m·ajʔ	\N	vtrm.	próbować, usiłować, starać się
-7596	ru	may'	m·ajʔ	\N	vtrm.	попытаться, проверить, оценить, испытать
-7596	sv	may'	m·ajʔ	\N	vtrm.	pröva, testa, prova på
+7596	de	may'	m·ajʔ	m<0><1><2>ay'	vtrm.	versuchen, ausprobieren, probieren, kosten, testen
+7596	eng	may'	m·ajʔ	m<0><1><2>ay'	vtrm.	taste, try, sample, evaluate, check out, testdrive
+7596	est	may'	m·ajʔ	m<0><1><2>ay'	vtrm.	proovima, hindama, üle vaatama, testima
+7596	hu	may'	m·ajʔ	m<0><1><2>ay'	vtrm.	(ki)próbál, értékel, ellenőriz
+7596	nl	may'	m·ajʔ	m<0><1><2>ay'	vtrm.	uitproberen, evalueren, testen, proefdraaien
+7596	pl	may'	m·ajʔ	m<0><1><2>ay'	vtrm.	próbować, usiłować, starać się
+7596	ru	may'	m·ajʔ	m<0><1><2>ay'	vtrm.	попытаться, проверить, оценить, испытать
+7596	sv	may'	m·ajʔ	m<0><1><2>ay'	vtrm.	pröva, testa, prova på
 7604	de	yora'	j·o.ˈɾ·aʔ	y<1><2>or<3>a'	vtr.	gewinnen
 7604	eng	yora'	j·o.ˈɾ·aʔ	y<1><2>or<3>a'	vtr.	win
 7604	est	yora'	j·o.ˈɾ·aʔ	y<1><2>or<3>a'	vtr.	võitma
@@ -10890,8 +10886,8 @@
 7652	sv	lemrey	lɛm.ˈɾɛj	\N	adj.	överlevande
 7656	de	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	in einer Weise, als wäre das Leben in Gefahr
 7656	eng	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	in a fashion as if one's life were at stake
-7656	est	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	ellujäävalt (midagi tegema)
-7656	hu	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	Úgy, mintha kockán forogna az élete
+7656	est	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	elu eest (midagi tegema)
+7656	hu	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	Úgy, mintha kockán forogna az élete.
 7656	nl	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	op een manier alsof iemand's leven op het spel staat
 7656	pl	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	jak walcząc o życie
 7656	ru	nemrey	nɛm.ˈɾɛj	\N	adv., intj.	как будто жизнь была поставлена на карту
@@ -11594,7 +11590,7 @@
 8052	de	rì'ìr	ˈɾɪ.ʔɪɾ	\N	n.	Reflexion, Spiegelung
 8052	eng	rì'ìr	ˈɾɪ.ʔɪɾ	\N	n.	reflection
 8052	est	rì'ìr	ˈɾɪ.ʔɪɾ	\N	n.	peegeldus
-8052	hu	rì'ìr	ˈɾɪ.ʔɪɾ	\N	n.	tükörkép
+8052	hu	rì'ìr	ˈɾɪ.ʔɪɾ	\N	n.	tükörkép 
 8052	nl	rì'ìr	ˈɾɪ.ʔɪɾ	\N	n.	reflectie, spiegelbeeld
 8052	pl	rì'ìr	ˈɾɪ.ʔɪɾ	\N	n.	odbicie
 8052	ru	rì'ìr	ˈɾɪ.ʔɪɾ	\N	n.	отражение
@@ -12672,7 +12668,7 @@
 8664	de	nìk'ärìp	nɪk.ˈʔæ.ɾɪp̚	\N	adv.	fest, kontinuierlich
 8664	eng	nìk'ärìp	nɪk.ˈʔæ.ɾɪp̚	\N	adv.	steadily
 8664	est	nìk'ärìp	nɪk.ˈʔæ.ɾɪp̚	\N	adv.	kindlalt, stabiilselt ("mitte laskma liikuda")
-8664	hu	nìk'ärìp	nɪk.ˈʔæ.ɾɪp̚	\N	adv.	szilárdan
+8664	hu	nìk'ärìp	nɪk.ˈʔæ.ɾɪp̚	\N	adv.	szilárdan 
 8664	nl	nìk'ärìp	nɪk.ˈʔæ.ɾɪp̚	\N	adv.	vast, onbeweeglijk
 8664	pl	nìk'ärìp	nɪk.ˈʔæ.ɾɪp̚	\N	adv.	statycznie
 8664	ru	nìk'ärìp	nɪk.ˈʔæ.ɾɪp̚	\N	adv.	устойчивый
@@ -13686,7 +13682,7 @@
 9304	de	ve'o	ˈvɛ.ʔo	\N	n.	Ordnung (im Gegensatz zu Chaos oder Unordnung)
 9304	eng	ve'o	ˈvɛ.ʔo	\N	n.	order (as opposed to disorder or chaos), organization
 9304	est	ve'o	ˈvɛ.ʔo	\N	n.	kord, organiseeritus
-9304	hu	ve'o	ˈvɛ.ʔo	\N	n.	rend (rendetlenség vagy káosz ellentéte), rendezettség
+9304	hu	ve'o	ˈvɛ.ʔo	\N	n.	rend (rendetlenség vagy káosz ellentéte), rendezettség 
 9304	nl	ve'o	ˈvɛ.ʔo	\N	n.	orde (tegenover wanorde of chaos), organisatie
 9304	pl	ve'o	ˈvɛ.ʔo	\N	n.	porządek
 9304	ru	ve'o	ˈvɛ.ʔo	\N	n.	порядок
@@ -14174,8 +14170,8 @@
 9580	sv	lie	ˈli.ɛ	\N	n.	erfarenhet
 9584	de	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	Hoffnung (abstrakt)
 9584	eng	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	hope (abstract concept)
-9584	est	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	lootus (abstraktne idee)
-9584	hu	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	remény (elvont)
+9584	est	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	lootus (abstraktne)
+9584	hu	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	remény (elvont fogalom)
 9584	nl	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	hoop (abstract idee)
 9584	pl	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	nadzieja (pojęcie abstrakcyjne)
 9584	ru	tsìlpey	t͡sɪl.ˈpɛj	\N	n.	надежда (абстрактная идея)
@@ -14294,7 +14290,7 @@
 9652	de	eyktanay	ɛjk.ta.ˈnaj	\N	n.	Stellvertreter, General (in der Rangfolge unter dem Anführer)
 9652	eng	eyktanay	ɛjk.ta.ˈnaj	\N	n.	deputy, general, one step down from leader
 9652	est	eyktanay	ɛjk.ta.ˈnaj	\N	n.	asetäitja, üks aste juhist madalamal olija
-9652	hu	eyktanay	ɛjk.ta.ˈnaj	\N	n.	111helyettes, megbízott, leendő vezető
+9652	hu	eyktanay	ɛjk.ta.ˈnaj	\N	n.	helyettes, megbízott, leendő vezető
 9652	nl	eyktanay	ɛjk.ta.ˈnaj	\N	n.	onderbaas, één stap onder leider
 9652	pl	eyktanay	ɛjk.ta.ˈnaj	\N	n.	zastępca wodza, delegat, poseł
 9652	ru	eyktanay	ɛjk.ta.ˈnaj	\N	n.	представитель, помощник лидера
@@ -14483,7 +14479,7 @@
 9772	de	oìsss si	o.ˈɪsss s·i	oìsss s<1><2><3>i	vin.	fauchen
 9772	eng	oìsss si	o.ˈɪsss s·i	oìsss s<1><2><3>i	vin.	hiss
 9772	est	oìsss si	o.ˈɪsss s·i	oìsss s<1><2><3>i	vin.	sisisema
-9772	hu	oìsss si	o.ˈɪsss s·i	oìsss s<1><2><3>i	vin.	dühösen mordul
+9772	hu	oìsss si	o.ˈɪsss s·i	oìsss s<1><2><3>i	vin.	dühösen mordul 
 9772	nl	oìsss si	o.ˈɪsss s·i	oìsss s<1><2><3>i	vin.	sissen
 9772	pl	oìsss si	o.ˈɪsss s·i	oìsss s<1><2><3>i	vin.	syczeć
 9772	ru	oìsss si	o.ˈɪsss s·i	oìsss s<1><2><3>i	vin.	шикнуть
@@ -14617,7 +14613,7 @@
 9864	de	wokau	wok.ˈa.u	\N	n.	Pendeltrommel
 9864	eng	wokau	wok.ˈa.u	\N	n.	pendulum drum
 9864	est	wokau	wok.ˈa.u	\N	n.	pendeltrumm
-9864	hu	wokau	wok.ˈa.u	\N	n.	111ingadob
+9864	hu	wokau	wok.ˈa.u	\N	n.	ingadob
 9864	nl	wokau	wok.ˈa.u	\N	n.	penduletrom
 9864	ru	wokau	wok.ˈa.u	\N	n.	качающийся барабан
 9868	de	srä	sɾæ	\N	n.	Stoff; an einem Webstuhl hergestelltes Stück Stoff
@@ -15037,7 +15033,7 @@
 10152	de	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Los Angeles
 10152	eng	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Los Angeles
 10152	est	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Los Angeles
-10152	hu	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	111Los Angeles
+10152	hu	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Los Angeles
 10152	nl	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Los Angeles
 10152	ru	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Лос Анжелес
 10156	de	tson	t͡son	\N	n.	Verpflichtung, Pflicht, auferlegte Anforderung
@@ -15091,7 +15087,7 @@
 10188	de	fpomron	fpom.ˈɾon	\N	n.	(mentalle) Gesundheit oder Wohlsein
 10188	eng	fpomron	fpom.ˈɾon	\N	n.	health or wellbeing (mental)
 10188	est	fpomron	fpom.ˈɾon	\N	n.	tervis, heaolu (vaimne; inimeste kohta)
-10188	hu	fpomron	fpom.ˈɾon	\N	n.	111egészség vagy jólét (szellemi)
+10188	hu	fpomron	fpom.ˈɾon	\N	n.	egészség vagy jólét (szellemi)
 10188	nl	fpomron	fpom.ˈɾon	\N	n.	gezondheid of welzijn (mentaal)
 10188	ru	fpomron	fpom.ˈɾon	\N	n.	здоровье (душевное)
 10192	de	lefpomron	lɛ.fpom.ˈɾon	\N	adj.	(mental) gesund
@@ -15349,7 +15345,7 @@
 10400	de	txekxumpay	t'ɛ.ˈk'um.paJ	\N	n.	Magma, Lava
 10400	eng	txekxumpay	t'ɛ.ˈk'um.paJ	\N	n.	magma, lava
 10400	est	txekxumpay	t'ɛ.ˈk'um.paJ	\N	n.	magma, laava
-10400	hu	txekxumpay	t'ɛ.ˈk'um.paJ	\N	n.	láva, magma
+10400	hu	txekxumpay	t'ɛ.ˈk'um.paJ	\N	n.	 magma, láva
 10400	nl	txekxumpay	t'ɛ.ˈk'um.paJ	\N	n.	magma, lava
 10404	de	wrrza'u	wṛ.ˈz·a.ʔu	wrrza'<1><2><3>u	vin.	herauskommen, hervortreten
 10404	eng	wrrza'u	wṛ.ˈz·a.ʔu	wrrza'<1><2><3>u	vin.	come out, emerge
@@ -15759,7 +15755,7 @@
 10732	de	tsankumnga'	ˈt͡san.kum.ŋaʔ	\N	adj.	vorteilhaft, von Vorteil
 10732	eng	tsankumnga'	ˈt͡san.kum.ŋaʔ	\N	adj.	advantageous
 10732	est	tsankumnga'	ˈt͡san.kum.ŋaʔ	\N	adj.	kasulik, soodne
-10732	hu	tsankumnga'	ˈt͡san.kum.ŋaʔ	\N	adj.	előnyös, hasznos, nyereséges
+10732	hu	tsankumnga'	ˈt͡san.kum.ŋaʔ	\N	adj.	előnyös, hasznos, nyereséges 
 10732	nl	tsankumnga'	ˈt͡san.kum.ŋaʔ	\N	adj.	voordelig
 10736	de	fekumnga'	ˈfɛ.kum.ŋaʔ	\N	adj.	unvorteilhaft, ungünstig, nicht von Vorteil
 10736	eng	fekumnga'	ˈfɛ.kum.ŋaʔ	\N	adj.	disadvantageous
@@ -15871,7 +15867,7 @@
 10820	est	nìler	nɪ.ˈlɛɾ	\N	adv.	sujuvalt, ühtlaselt, tasaselt
 10820	hu	nìler	nɪ.ˈlɛɾ	\N	adv.	simán
 10820	nl	nìler	nɪ.ˈlɛɾ	\N	adv.	stabiel, gestaag
-10824	de	lo'a	ˈlo.ʔa	\N	n.	Totem
+10824	de	lo'a	ˈlo.ʔa	\N	n.	Totem, Amulett
 10824	eng	lo'a	ˈlo.ʔa	\N	n.	totem, amulet
 10824	est	lo'a	ˈlo.ʔa	\N	n.	tootem, hõimu märk, amulett
 10824	hu	lo'a	ˈlo.ʔa	\N	n.	totem, amulet
@@ -16036,234 +16032,458 @@
 10972	est	hiup	ˈhi·up̚	hi<1><2><3>up	vin., vtr.	sülitama
 10972	hu	hiup	ˈhi·up̚	hi<1><2><3>up	vin., vtr.	köp
 10972	nl	hiup	ˈhi·up̚	hi<1><2><3>up	vin., vtr.	spugen, uitspugen
+10980	de	räptum	ræp.ˈtum	\N	adj.	anstößig, vulgär, sozial inakzeptabel
 10980	eng	räptum	ræp.ˈtum	\N	adj.	coarse, vulgar, socially unacceptable
 10980	est	räptum	ræp.ˈtum	\N	adj.	ebaviisakas, sotsiaalselt ebasobilik, vulgaarne, ropp
 10980	hu	räptum	ræp.ˈtum	\N	adj.	durva, közönséges, udvariatlan
 10980	nl	räptum	ræp.ˈtum	\N	adj.	grof, vulgair, sociaal onacceptabel
+10984	de	txanlokxe	t'an.lo.ˈk'ɛ	\N	n.	Gebiet eines Clans oder Stammes, Land (politisch), Staat, Staatsgebiet
 10984	eng	txanlokxe	t'an.lo.ˈk'ɛ	\N	n.	clan or tribal domain, country
 10984	est	txanlokxe	t'an.lo.ˈk'ɛ	\N	n.	hõimu territoorium, riik
 10984	hu	txanlokxe	t'an.lo.ˈk'ɛ	\N	n.	törzsi birtok / tartomány, kb.: ország
 10984	nl	txanlokxe	t'an.lo.ˈk'ɛ	\N	n.	domein van een stam of clan, land
+10988	de	tsamsä'o	ˈt͡sam.sæ.ʔo	\N	n.	Kriegswaffe
 10988	eng	tsamsä'o	ˈt͡sam.sæ.ʔo	\N	n.	weapon of war
 10988	est	tsamsä'o	ˈt͡sam.sæ.ʔo	\N	n.	sõjariist
 10988	hu	tsamsä'o	ˈt͡sam.sæ.ʔo	\N	n.	háborús fegyver
 10988	nl	tsamsä'o	ˈt͡sam.sæ.ʔo	\N	n.	oorlogswapen
+10992	de	tìtxurnga'	tɪ.ˈt'uɾ. ŋaʔ	\N	adj.	mächtig, machtvoll, kraftvoll
 10992	eng	tìtxurnga'	tɪ.ˈt'uɾ. ŋaʔ	\N	adj.	powerful
 10992	est	tìtxurnga'	tɪ.ˈt'uɾ. ŋaʔ	\N	adj.	võimas (elutu kohta)
 10992	hu	tìtxurnga'	tɪ.ˈt'uɾ. ŋaʔ	\N	adj.	erős
 10992	nl	tìtxurnga'	tɪ.ˈt'uɾ. ŋaʔ	\N	adj.	machtig
-10996	eng	leym	l·ɛjm	\N	vim.	call, cry out, exclaim
-10996	est	leym	l·ɛjm	\N	vim.	hüüdma, karjuma
-10996	hu	leym	l·ɛjm	\N	vim.	kiált
-10996	nl	leym	l·ɛjm	\N	vim.	roepen, (uit)schreeuwen
+10996	de	leym	l·ɛjm	l<0><1><2>eym	vim.	ausrufen, herausrufen, aufschreien
+10996	eng	leym	l·ɛjm	l<0><1><2>eym	vim.	call, cry out, exclaim
+10996	est	leym	l·ɛjm	l<0><1><2>eym	vim.	hüüdma, karjuma
+10996	hu	leym	l·ɛjm	l<0><1><2>eym	vim.	kiált
+10996	nl	leym	l·ɛjm	l<0><1><2>eym	vim.	roepen, (uit)schreeuwen
+11000	de	nìzen	nɪ.ˈzɛn	\N	adv.	notwendigerweise, zwangsläufig, zwingend, zwingendermaßen
 11000	eng	nìzen	nɪ.ˈzɛn	\N	adv.	necessarily
 11000	est	nìzen	nɪ.ˈzɛn	\N	adv.	kindlasti, ilmtingimata
 11000	hu	nìzen	nɪ.ˈzɛn	\N	adv.	szükséges
 11000	nl	nìzen	nɪ.ˈzɛn	\N	adv.	noodzakelijk
+11004	de	kenzen	kɛn.ˈzɛn	\N	adv.	nicht unbedingt, nicht zwangsläufig
 11004	eng	kenzen	kɛn.ˈzɛn	\N	adv.	not necessarily
 11004	est	kenzen	kɛn.ˈzɛn	\N	adv.	mitte ilmtingimata
 11004	hu	kenzen	kɛn.ˈzɛn	\N	adv.	nem szükséges
 11004	nl	kenzen	kɛn.ˈzɛn	\N	adv.	niet noodzakelijk
+11008	de	pllhrr	p·ḷ.ˈhṛ	pllh<1><2><3>rr	vin.	warnen
 11008	eng	pllhrr	p·ḷ.ˈhṛ	pllh<1><2><3>rr	vin.	warn
 11008	est	pllhrr	p·ḷ.ˈhṛ	pllh<1><2><3>rr	vin.	hoiatama
 11008	hu	pllhrr	p·ḷ.ˈhṛ	pllh<1><2><3>rr	vin.	figyelmeztet
 11008	nl	pllhrr	p·ḷ.ˈhṛ	pllh<1><2><3>rr	vin.	waarschuwen
+11012	de	säpllhrr	sæ.pḷ.ˈhṛ	\N	n.	Warnung
 11012	eng	säpllhrr	sæ.pḷ.ˈhṛ	\N	n.	warning
 11012	est	säpllhrr	sæ.pḷ.ˈhṛ	\N	n.	hoiatus
 11012	hu	säpllhrr	sæ.pḷ.ˈhṛ	\N	n.	figyelmeztetés
 11012	nl	säpllhrr	sæ.pḷ.ˈhṛ	\N	n.	waarschuwing
+11024	de	tspìng	t͡spɪŋ	\N	n.	Austrapede
 11024	eng	tspìng	t͡spɪŋ	\N	n.	austrapede
 11024	est	tspìng	t͡spɪŋ	\N	n.	Jooksulind
-11024	hu	tspìng	t͡spɪŋ	\N	n.	111austrapede (struccszerű pandorai állat)
+11024	hu	tspìng	t͡spɪŋ	\N	n.	austrapede (struccszerű pandorai állat)
 11024	nl	tspìng	t͡spɪŋ	\N	n.	austrapoot
+11028	de	mawup	ˈma.wup̚	\N	n.	Turtapede
 11028	eng	mawup	ˈma.wup̚	\N	n.	turtapede
 11028	est	mawup	ˈma.wup̚	\N	n.	Kilplimus
-11028	hu	mawup	ˈma.wup̚	\N	n.	111turtapede (teknősszerű pandorai állat)
+11028	hu	mawup	ˈma.wup̚	\N	n.	turtapede (teknősszerű pandorai állat)
 11028	nl	mawup	ˈma.wup̚	\N	n.	turtapoot
+11032	de	pawk	pawk̚	\N	n.	Horn (Blasinstrument)
 11032	eng	pawk	pawk̚	\N	n.	horn, wind instrument
 11032	est	pawk	pawk̚	\N	n.	puhkpill, pasun
 11032	hu	pawk	pawk̚	\N	n.	duda, kürt
 11032	nl	pawk	pawk̚	\N	n.	hoorn, blaasinstrument
+11048	de	tekre	ˈtɛk.ɾɛ	\N	n.	Schädel
 11048	eng	tekre	ˈtɛk.ɾɛ	\N	n.	skull
 11048	est	tekre	ˈtɛk.ɾɛ	\N	n.	pealuu
 11048	hu	tekre	ˈtɛk.ɾɛ	\N	n.	koponya
 11048	nl	tekre	ˈtɛk.ɾɛ	\N	n.	schedel
+11056	de	ionar	ˈi.o.naɾ	\N	n.	Banshee Reitervisier
 11056	eng	ionar	ˈi.o.naɾ	\N	n.	banshee rider visor
 11056	est	ionar	ˈi.o.naɾ	\N	n.	Marduse ratsutaja prillid
 11056	hu	ionar	ˈi.o.naɾ	\N	n.	sikolllovagló napellenző / rostély (a szem fölött viselik)
 11056	nl	ionar	ˈi.o.naɾ	\N	n.	harpijrijder oogkleppen
+11072	de	mo'ara	mo.ˈʔa.ɾa	\N	n.	Versammlungsort
 11072	eng	mo'ara	mo.ˈʔa.ɾa	\N	n.	gathering place
 11072	est	mo'ara	mo.ˈʔa.ɾa	\N	n.	kogumiskoht
 11072	hu	mo'ara	mo.ˈʔa.ɾa	\N	n.	gyülekezőhely
 11072	nl	mo'ara	mo.ˈʔa.ɾa	\N	n.	verzamelplaats
+11080	de	tìsung	tɪ.ˈsuŋ	\N	n.	Zusatz, Post Scriptum (P.S.)
 11080	eng	tìsung	tɪ.ˈsuŋ	\N	n.	addition, post script
 11080	est	tìsung	tɪ.ˈsuŋ	\N	n.	lisa, post scriptum
 11080	hu	tìsung	tɪ.ˈsuŋ	\N	n.	addition, post script
 11080	nl	tìsung	tɪ.ˈsuŋ	\N	n.	toevoeging, post script
+11084	de	tìng ontu	t·ɪŋ ˈon.tu	t<1><2><3>ìng ontu	vin.	riechen
 11084	eng	tìng ontu	t·ɪŋ ˈon.tu	t<1><2><3>ìng ontu	vin.	smell
 11084	est	tìng ontu	t·ɪŋ ˈon.tu	t<1><2><3>ìng ontu	vin.	nuusutama
 11084	hu	tìng ontu	t·ɪŋ ˈon.tu	t<1><2><3>ìng ontu	vin.	szagol
 11084	nl	tìng ontu	t·ɪŋ ˈon.tu	t<1><2><3>ìng ontu	vin.	ruiken
+11088	de	tìng ftxì	t·ɪŋ ft'ɪ	t<1><2><3>ìng ftxì	vin.	schmecken
 11088	eng	tìng ftxì	t·ɪŋ ft'ɪ	t<1><2><3>ìng ftxì	vin.	taste
 11088	est	tìng ftxì	t·ɪŋ ft'ɪ	t<1><2><3>ìng ftxì	vin.	maitsma
 11088	hu	tìng ftxì	t·ɪŋ ft'ɪ	t<1><2><3>ìng ftxì	vin.	kóstol
 11088	nl	tìng ftxì	t·ɪŋ ft'ɪ	t<1><2><3>ìng ftxì	vin.	proeven
+11092	de	satu'li	sa.ˈtuʔ.li	\N	n.	(kulturelles) Erbe
 11092	eng	satu'li	sa.ˈtuʔ.li	\N	n.	heritage
 11092	est	satu'li	sa.ˈtuʔ.li	\N	n.	pärand
 11092	hu	satu'li	sa.ˈtuʔ.li	\N	n.	örökség
 11092	nl	satu'li	sa.ˈtuʔ.li	\N	n.	erfgoed
+11100	de	tìkxuke	tɪ.ˈk'u.kɛ	\N	n.	Sicherheit
 11100	eng	tìkxuke	tɪ.ˈk'u.kɛ	\N	n.	safety
 11100	est	tìkxuke	tɪ.ˈk'u.kɛ	\N	n.	turvalisus
 11100	hu	tìkxuke	tɪ.ˈk'u.kɛ	\N	n.	biztonság
 11100	nl	tìkxuke	tɪ.ˈk'u.kɛ	\N	n.	veiligheid
+11104	de	emkä	ɛm.ˈk·æ	emk<1><2><3>ä	vtr.	überqueren, überschreiten
 11104	eng	emkä	ɛm.ˈk·æ	emk<1><2><3>ä	vtr.	cross
 11104	est	emkä	ɛm.ˈk·æ	emk<1><2><3>ä	vtr.	ületama
 11104	hu	emkä	ɛm.ˈk·æ	emk<1><2><3>ä	vtr.	átmegy
 11104	nl	emkä	ɛm.ˈk·æ	emk<1><2><3>ä	vtr.	oversteken, kruisen
+11108	de	kxu si	k'u s·i	kxu s<1><2><3>i	vin.	schädigen, Schaden zufügen
 11108	eng	kxu si	k'u s·i	kxu s<1><2><3>i	vin.	harm
 11108	est	kxu si	k'u s·i	kxu s<1><2><3>i	vin.	vigastama, kahjustama
 11108	hu	kxu si	k'u s·i	kxu s<1><2><3>i	vin.	árt
 11108	nl	kxu si	k'u s·i	kxu s<1><2><3>i	vin.	schade toebrengen
+11112	de	tswìk	t͡sw·ɪk	tsw<1><2><3>ìk	vtr.	saugen
 11112	eng	tswìk	t͡sw·ɪk	tsw<1><2><3>ìk	vtr.	suck
 11112	est	tswìk	t͡sw·ɪk	tsw<1><2><3>ìk	vtr.	imema
 11112	hu	tswìk	t͡sw·ɪk	tsw<1><2><3>ìk	vtr.	szívni
 11112	nl	tswìk	t͡sw·ɪk	tsw<1><2><3>ìk	vtr.	opzuigen
+11116	de	tswìk kxenerit	t͡sw·Ã¬k k'ɛ.nɛɾ.Ã¬t	tsw<1><2><3>ìk kxenerit	vin.	(Zigarette) rauchen (wörtl. Rauch saugen)
 11116	eng	tswìk kxenerit	t͡sw·Ã¬k k'ɛ.nɛɾ.Ã¬t	tsw<1><2><3>ìk kxenerit	vin.	smoke (lit. to suck smoke)
 11116	est	tswìk kxenerit	t͡sw·Ã¬k k'ɛ.nɛɾ.Ã¬t	tsw<1><2><3>ìk kxenerit	vin.	suitsetama (suitsu imema)
 11116	hu	tswìk kxenerit	t͡sw·Ã¬k k'ɛ.nɛɾ.Ã¬t	tsw<1><2><3>ìk kxenerit	vin.	dohányzik (sz.sz.: füstöt szív)
 11116	nl	tswìk kxenerit	t͡sw·Ã¬k k'ɛ.nɛɾ.Ã¬t	tsw<1><2><3>ìk kxenerit	vin.	roken (let. rook opzuigen)
+11120	de	taksyokx	t·ak.ˈsyok'	taksy<1><2><3>okx	vin.	klatschen, applaudieren
 11120	eng	taksyokx	t·ak.ˈsyok'	taksy<1><2><3>okx	vin.	clap hands
 11120	est	taksyokx	t·ak.ˈsyok'	taksy<1><2><3>okx	vin.	plaksutama
 11120	hu	taksyokx	t·ak.ˈsyok'	taksy<1><2><3>okx	vin.	tapsol
 11120	nl	taksyokx	t·ak.ˈsyok'	taksy<1><2><3>okx	vin.	handen klappen
+11140	de	pamuvan	ˈpam.u.van	\N	n.	Klangspiel, Tonspiel, Lautspiel
 11140	eng	pamuvan	ˈpam.u.van	\N	n.	sound play
 11140	est	pamuvan	ˈpam.u.van	\N	n.	sõnamäng
+11140	hu	pamuvan	ˈpam.u.van	\N	n.	hangjáték
 11140	nl	pamuvan	ˈpam.u.van	\N	n.	klankenspel
+11144	de	kemwiä	kɛm.ˈwi.æ	\N	adj.	unpassend, unfair, falsch, ungerecht
 11144	eng	kemwiä	kɛm.ˈwi.æ	\N	adj.	improper, unfair, wrong, unjustified
 11144	est	kemwiä	kɛm.ˈwi.æ	\N	adj.	kohatu, ebaõiglane, ebaaus, vale
+11144	hu	kemwiä	kɛm.ˈwi.æ	\N	adj.	helytelen, igazságtalan, rossz
 11144	nl	kemwiä	kɛm.ˈwi.æ	\N	adj.	oneerlijk, onjuist, fout, onterecht
+11148	de	tìkemwiä	tɪ.kɛm.ˈwi.æ	\N	n.	Ungerechtigkeit, Unbilligkeit
 11148	eng	tìkemwiä	tɪ.kɛm.ˈwi.æ	\N	n.	unfairness, injustice
 11148	est	tìkemwiä	tɪ.kɛm.ˈwi.æ	\N	n.	ebaõiglus
+11148	hu	tìkemwiä	tɪ.kɛm.ˈwi.æ	\N	n.	igazságtalanság
 11148	nl	tìkemwiä	tɪ.kɛm.ˈwi.æ	\N	n.	oneerlijkheid, onrecht
+11152	de	leymkem	l·ɛjm.ˈkɛm	leymk<1><2><3>em	vin.	protestieren
 11152	eng	leymkem	l·ɛjm.ˈkɛm	leymk<1><2><3>em	vin.	protest
 11152	est	leymkem	l·ɛjm.ˈkɛm	leymk<1><2><3>em	vin.	protesteerima, vastu seisma, meelt avaldama
+11152	hu	leymkem	l·ɛjm.ˈkɛm	leymk<1><2><3>em	vin.	tiltakozik
 11152	nl	leymkem	l·ɛjm.ˈkɛm	leymk<1><2><3>em	vin.	protesteren
+11156	de	tìleymkem	tɪ.lɛjm.ˈkɛm	\N	n.	Protestieren (abstrakt)
 11156	eng	tìleymkem	tɪ.lɛjm.ˈkɛm	\N	n.	protesting, protest (abstract concept)
 11156	est	tìleymkem	tɪ.lɛjm.ˈkɛm	\N	n.	protesteerimine, meeleavaldus (abstraktne)
+11156	hu	tìleymkem	tɪ.lɛjm.ˈkɛm	\N	n.	tiltakozás (elvont fogalom)
 11156	nl	tìleymkem	tɪ.lɛjm.ˈkɛm	\N	n.	prostest, protesteren (abstract concept)
+11160	de	säleymkem	sæ.lɛjm.ˈkɛm	\N	n.	Protest, Einwand
 11160	eng	säleymkem	sæ.lɛjm.ˈkɛm	\N	n.	protest, instance of protesting
 11160	est	säleymkem	sæ.lɛjm.ˈkɛm	\N	n.	protestiavaldus, meeleavaldus (konkreetne sündmus)
+11160	hu	säleymkem	sæ.lɛjm.ˈkɛm	\N	n.	tiltakozás (konkrét)
 11160	nl	säleymkem	sæ.lɛjm.ˈkɛm	\N	n.	protest, een moment van protesteren
+11164	de	leymfe'	l·ɛjm.ˈfɛʔ	leymf<1><2><3>e'	vin.	beschweren, beklagen
 11164	eng	leymfe'	l·ɛjm.ˈfɛʔ	leymf<1><2><3>e'	vin.	complain
 11164	est	leymfe'	l·ɛjm.ˈfɛʔ	leymf<1><2><3>e'	vin.	kurtma, kaebama
+11164	hu	leymfe'	l·ɛjm.ˈfɛʔ	leymf<1><2><3>e'	vin.	panaszkodik
 11164	nl	leymfe'	l·ɛjm.ˈfɛʔ	leymf<1><2><3>e'	vin.	klagen
+11168	de	tìleymfe'	tɪ.lɛjm.ˈfɛʔ	\N	n.	Beschweren, Beklagen
 11168	eng	tìleymfe'	tɪ.lɛjm.ˈfɛʔ	\N	n.	complaining
 11168	est	tìleymfe'	tɪ.lɛjm.ˈfɛʔ	\N	n.	kurtmine, kaebamine
+11168	hu	tìleymfe'	tɪ.lɛjm.ˈfɛʔ	\N	n.	panaszkodás
 11168	nl	tìleymfe'	tɪ.lɛjm.ˈfɛʔ	\N	n.	klagend
+11172	de	säleymfe'	sæ.lɛjm.ˈfɛʔ	\N	n.	Beschwerde, Beanstandung
 11172	eng	säleymfe'	sæ.lɛjm.ˈfɛʔ	\N	n.	complaint
 11172	est	säleymfe'	sæ.lɛjm.ˈfɛʔ	\N	n.	kaebus
+11172	hu	säleymfe'	sæ.lɛjm.ˈfɛʔ	\N	n.	panasz
 11172	nl	säleymfe'	sæ.lɛjm.ˈfɛʔ	\N	n.	klacht
+11176	de	tìleym	tɪ.ˈlɛjm	\N	n.	Ruf, Ausruf, Aufschrei
 11176	eng	tìleym	tɪ.ˈlɛjm	\N	n.	call
 11176	est	tìleym	tɪ.ˈlɛjm	\N	n.	üleskutse
+11176	hu	tìleym	tɪ.ˈlɛjm	\N	n.	kiáltás
 11176	nl	tìleym	tɪ.ˈlɛjm	\N	n.	roep
+11180	de	tìtstunwinga'	tɪ.ˈstun.wi.ŋaʔ	\N	adj.	nett
 11180	eng	tìtstunwinga'	tɪ.ˈstun.wi.ŋaʔ	\N	adj.	kind
 11180	est	tìtstunwinga'	tɪ.ˈstun.wi.ŋaʔ	\N	adj.	lahke, hooliv (mitte inimeste kohta)
+11180	hu	tìtstunwinga'	tɪ.ˈstun.wi.ŋaʔ	\N	adj.	kedves
 11180	nl	tìtstunwinga'	tɪ.ˈstun.wi.ŋaʔ	\N	adj.	aardig
+11184	de	tìflänga'	tɪ.ˈflæ.ŋa	\N	adj.	erfolgreich
 11184	eng	tìflänga'	tɪ.ˈflæ.ŋa	\N	adj.	successful
 11184	est	tìflänga'	tɪ.ˈflæ.ŋa	\N	adj.	edukas (mitte inimeste kohta)
+11184	hu	tìflänga'	tɪ.ˈflæ.ŋa	\N	adj.	sikeres
 11184	nl	tìflänga'	tɪ.ˈflæ.ŋa	\N	adj.	succesvol
+11188	de	ekxan si	ɛ.ˈk'an s·i	ekxan s<1><2><3>i	vin.	ausschließen, fernhalten, ausgrenzen, aussperren
 11188	eng	ekxan si	ɛ.ˈk'an s·i	ekxan s<1><2><3>i	vin.	exclude, keep out, bar
 11188	est	ekxan si	ɛ.ˈk'an s·i	ekxan s<1><2><3>i	vin.	välja jätma, eemal hoidma
+11188	hu	ekxan si	ɛ.ˈk'an s·i	ekxan s<1><2><3>i	vin.	kizár, távol tart
 11188	nl	ekxan si	ɛ.ˈk'an s·i	ekxan s<1><2><3>i	vin.	buitensluiten, er uit houden
+11192	de	nìtsleng	nɪ.ˈt͡slɛŋ	\N	adv.	fälschlicherweise
 11192	eng	nìtsleng	nɪ.ˈt͡slɛŋ	\N	adv.	falsely
 11192	est	nìtsleng	nɪ.ˈt͡slɛŋ	\N	adv.	valesti, valetavalt
+11192	hu	nìtsleng	nɪ.ˈt͡slɛŋ	\N	adv.	hibásan, valótlanul
 11192	nl	nìtsleng	nɪ.ˈt͡slɛŋ	\N	adv.	foutief
+11196	de	kawl	kawl	\N	adv.	eifrig, fest (kräftig), kraftvoll, mühevoll, mit Mühe, mit Kraft(anstrengung)
 11196	eng	kawl	kawl	\N	adv.	hard, diligently
 11196	est	kawl	kawl	\N	adv.	vapralt, kindlameelselt
+11196	hu	kawl	kawl	\N	adv.	keményen, szorgalmasan
 11196	nl	kawl	kawl	\N	adv.	hard, ijverig
+11200	de	yawntutsyìp	ˈyawn.tu.t͡sjɪp	\N	n.	Liebling
 11200	eng	yawntutsyìp	ˈyawn.tu.t͡sjɪp	\N	n.	darling, little loved one
 11200	est	yawntutsyìp	ˈyawn.tu.t͡sjɪp	\N	n.	kallike, armsake (rohkem pereliikmete vahel)
+11200	hu	yawntutsyìp	ˈyawn.tu.t͡sjɪp	\N	n.	"kedvesem, kicsim"
 11200	nl	yawntutsyìp	ˈyawn.tu.t͡sjɪp	\N	n.	schatje, kleine geliefde
+11208	de	weopx	wɛ.ˈop'	\N	n.	Welle, Wasserwelle
 11208	eng	weopx	wɛ.ˈop'	\N	n.	wave (of water)
 11208	est	weopx	wɛ.ˈop'	\N	n.	laine (veekogul)
+11208	hu	weopx	wɛ.ˈop'	\N	n.	hullám (vízé)
 11208	nl	weopx	wɛ.ˈop'	\N	n.	golf (water)
+11212	de	leweopx	lɛ.wɛ.ˈop'	\N	adj.	wellig, wellenförmig, wellenartig
 11212	eng	leweopx	lɛ.wɛ.ˈop'	\N	adj.	wavelike
 11212	est	leweopx	lɛ.wɛ.ˈop'	\N	adj.	lainemoodi, lainesarnane
+11212	hu	leweopx	lɛ.wɛ.ˈop'	\N	adj.	hullámszerű
 11212	nl	leweopx	lɛ.wɛ.ˈop'	\N	adj.	golvend
+11216	de	tsìltsan	t͡sɪl.ˈt͡san	\N	n.	das Gute (abstakt), Güte
 11216	eng	tsìltsan	t͡sɪl.ˈt͡san	\N	n.	good (abstract concept), goodness
 11216	est	tsìltsan	t͡sɪl.ˈt͡san	\N	n.	headus, hea (abstraktne)
+11216	hu	tsìltsan	t͡sɪl.ˈt͡san	\N	n.	jó, jóság (elvont fogalom)
 11216	nl	tsìltsan	t͡sɪl.ˈt͡san	\N	n.	goed (abstract concept), goedheid
+11220	de	lerìn	lɛ.ˈrɪn	\N	adj.	hölzern, aus Holz
 11220	eng	lerìn	lɛ.ˈrɪn	\N	adj.	wooden, of wood
 11220	est	lerìn	lɛ.ˈrɪn	\N	adj.	puidust, puit
+11220	hu	lerìn	lɛ.ˈrɪn	\N	adj.	fa, fából készült
 11220	nl	lerìn	lɛ.ˈrɪn	\N	adj.	houten, van hout
+11224	de	letskxe	lɛ.ˈt͡sk'ɛ	\N	adj.	steinig, aus Stein
 11224	eng	letskxe	lɛ.ˈt͡sk'ɛ	\N	adj.	stony, of stone
 11224	est	letskxe	lɛ.ˈt͡sk'ɛ	\N	adj.	kivist, kivi
+11224	hu	letskxe	lɛ.ˈt͡sk'ɛ	\N	adj.	kő, kőből készült
 11224	nl	letskxe	lɛ.ˈt͡sk'ɛ	\N	adj.	stenen, van steen
+11228	de	pìsaw	pɪ.ˈsaw	\N	adj.	ungeschickt, unbeholfen, tollpatschig, zu Unfällen neigend
 11228	eng	pìsaw	pɪ.ˈsaw	\N	adj.	clumsy, accidentprone
 11228	est	pìsaw	pɪ.ˈsaw	\N	adj.	koba, kohmakas
+11228	hu	pìsaw	pɪ.ˈsaw	\N	adj.	ügyetlen, kétbalkezes
 11228	nl	pìsaw	pɪ.ˈsaw	\N	adj.	onhandig, ongelukaantrekkend
+11232	de	tìpsaw	tɪp.ˈsaw	\N	n.	Ungeschicktheit, Tollpatchigkeit
 11232	eng	tìpsaw	tɪp.ˈsaw	\N	n.	clumsiness
 11232	est	tìpsaw	tɪp.ˈsaw	\N	n.	kohmakus
+11232	hu	tìpsaw	tɪp.ˈsaw	\N	n.	ügyetlenség
 11232	nl	tìpsaw	tɪp.ˈsaw	\N	n.	onhandigheid
+11236	de	txintseng	ˈt'in.t͡seŋ	\N	n.	Kommandozentrale, Basis für militärische Operationen
 11236	eng	txintseng	ˈt'in.t͡seŋ	\N	n.	base of operations
 11236	est	txintseng	ˈt'in.t͡seŋ	\N	n.	baas
+11236	hu	txintseng	ˈt'in.t͡seŋ	\N	n.	bázis
 11236	nl	txintseng	ˈt'in.t͡seŋ	\N	n.	hoofdkwartier
+11240	de	lanay'ka	la.ˈnajʔ.ka	\N	n.	Slinger
 11240	eng	lanay'ka	la.ˈnajʔ.ka	\N	n.	slinger
 11240	est	lanay'ka	la.ˈnajʔ.ka	\N	n.	Kuulpea
+11240	hu	lanay'ka	la.ˈnajʔ.ka	\N	n.	"slinger", lajhárszerű pandorai állat
 11240	nl	lanay'ka	la.ˈnajʔ.ka	\N	n.	slinger
-11244	eng	ìlu	ˈɪ.lu	\N	n.	large plesiosaurlike sea creature
-11244	est	ìlu	ˈɪ.lu	\N	n.	ìlu (Disney teemapark)
-11244	nl	ìlu	ˈɪ.lu	\N	n.	ìlu
+11244	de	ilu	ˈi.lu	\N	n.	große, Plesiosaurierähnliche Wasserkreatur
+11244	eng	ilu	ˈi.lu	\N	n.	large plesiosaurlike sea creature
+11244	est	ilu	ˈi.lu	\N	n.	Plesiosauruselaadne mereelukas (Disney teemapark)
+11244	hu	ilu	ˈi.lu	\N	n.	nagy, plezioszauruszszerű tengeri állat
+11244	nl	ilu	ˈi.lu	\N	n.	groot plesiosaurusachtig zeewezen
+11248	de	sye'otxang	ˈsjɛ.ʔo.t'aŋ	\N	n.	Blasinstrument (Oberbegriff)
 11248	eng	sye'otxang	ˈsjɛ.ʔo.t'aŋ	\N	n.	wind instrument
 11248	est	sye'otxang	ˈsjɛ.ʔo.t'aŋ	\N	n.	puhkpill
+11248	hu	sye'otxang	ˈsjɛ.ʔo.t'aŋ	\N	n.	fúvós hangszer
 11248	nl	sye'otxang	ˈsjɛ.ʔo.t'aŋ	\N	n.	blaasinstrument
+11252	de	vurway	ˈvuɾ.waj	\N	n.	erzählerisches Gedicht, Geschichtengedicht
 11252	eng	vurway	ˈvuɾ.waj	\N	n.	story poem, narrative poem
 11252	est	vurway	ˈvuɾ.waj	\N	n.	poeem, jutustav luuletus
+11252	hu	vurway	ˈvuɾ.waj	\N	n.	elbeszélő költemény, vers
 11252	nl	vurway	ˈvuɾ.waj	\N	n.	verhalend gedicht
+11260	de	txopu sleyku	ˈt'o.pu slɛj.ˈk·u	txopu sleyk<1><2><3>u	vtr.	ängstigen, Angst machen
 11260	eng	txopu sleyku	ˈt'o.pu slɛj.ˈk·u	txopu sleyk<1><2><3>u	vtr.	frighten
 11260	est	txopu sleyku	ˈt'o.pu slɛj.ˈk·u	txopu sleyk<1><2><3>u	vtr.	ehmatama, hirmutama
+11260	hu	txopu sleyku	ˈt'o.pu slɛj.ˈk·u	txopu sleyk<1><2><3>u	vtr.	megijeszt, megfélemlít
 11260	nl	txopu sleyku	ˈt'o.pu slɛj.ˈk·u	txopu sleyk<1><2><3>u	vtr.	beangstigen
+11284	de	paytxew	paj.ˈt'ɛw	\N	n.	Ufer, Küste, Küstenlinie, Wasserrand
 11284	eng	paytxew	paj.ˈt'ɛw	\N	n.	shoreline, water's edge
 11284	est	paytxew	paj.ˈt'ɛw	\N	n.	kallas, rannik, veeäär
+11284	hu	paytxew	paj.ˈt'ɛw	\N	n.	partvonal
 11284	nl	paytxew	paj.ˈt'ɛw	\N	n.	kustlijn, water grens
+11288	de	lì'ukìng	ˈlɪ.ʔu.kɪŋ	\N	n.	Satz (grammatikalisch)
 11288	eng	lì'ukìng	ˈlɪ.ʔu.kɪŋ	\N	n.	sentence
 11288	est	lì'ukìng	ˈlɪ.ʔu.kɪŋ	\N	n.	lause
+11288	hu	lì'ukìng	ˈlɪ.ʔu.kɪŋ	\N	n.	mondat
 11288	nl	lì'ukìng	ˈlɪ.ʔu.kɪŋ	\N	n.	zin
+11292	de	lì'ukìngvi	ˈlɪ.ʔu.kɪŋ.vi	\N	n.	Satzglied, Satzteil, Phrase
 11292	eng	lì'ukìngvi	ˈlɪ.ʔu.kɪŋ.vi	\N	n.	phrase
 11292	est	lì'ukìngvi	ˈlɪ.ʔu.kɪŋ.vi	\N	n.	fraas
+11292	hu	lì'ukìngvi	ˈlɪ.ʔu.kɪŋ.vi	\N	n.	kifejezés, szókapcsolat
 11292	nl	lì'ukìngvi	ˈlɪ.ʔu.kɪŋ.vi	\N	n.	zinsdeel
+11296	de	lì'kong	ˈlɪʔ.koŋ	\N	n.	Silbe
 11296	eng	lì'kong	ˈlɪʔ.koŋ	\N	n.	syllable
 11296	est	lì'kong	ˈlɪʔ.koŋ	\N	n.	silp
+11296	hu	lì'kong	ˈlɪʔ.koŋ	\N	n.	szótag
 11296	nl	lì'kong	ˈlɪʔ.koŋ	\N	n.	lettergreep
+11300	de	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	Affix
 11300	eng	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	affix
 11300	est	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	liide
+11300	hu	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	toldalék
 11300	nl	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	affix
+11304	de	eolì'uvi	ˈɛ.o.lɪ.ʔu.vi	\N	n.	Präfix, Vorsilbe
 11304	eng	eolì'uvi	ˈɛ.o.lɪ.ʔu.vi	\N	n.	prefix
 11304	est	eolì'uvi	ˈɛ.o.lɪ.ʔu.vi	\N	n.	eesliide
+11304	hu	eolì'uvi	ˈɛ.o.lɪ.ʔu.vi	\N	n.	prefixum
 11304	nl	eolì'uvi	ˈɛ.o.lɪ.ʔu.vi	\N	n.	prefix
+11308	de	syonlì'u	ˈsjon.lɪ.ʔu	\N	n.	Adjektiv
 11308	eng	syonlì'u	ˈsjon.lɪ.ʔu	\N	n.	adjective
 11308	est	syonlì'u	ˈsjon.lɪ.ʔu	\N	n.	omadussõna
+11308	hu	syonlì'u	ˈsjon.lɪ.ʔu	\N	n.	melléknév
 11308	nl	syonlì'u	ˈsjon.lɪ.ʔu	\N	n.	bijvoeglijk naamwoord
+11312	de	fyalì'u	ˈfja.lɪ.ʔu	\N	n.	Adverb
 11312	eng	fyalì'u	ˈfja.lɪ.ʔu	\N	n.	adverb
 11312	est	fyalì'u	ˈfja.lɪ.ʔu	\N	n.	määrsõna
+11312	hu	fyalì'u	ˈfja.lɪ.ʔu	\N	n.	határozószó
 11312	nl	fyalì'u	ˈfja.lɪ.ʔu	\N	n.	bijwoord
+11316	de	starlì'u	ˈstaɾ.lɪ.ʔu	\N	n.	Adposition
 11316	eng	starlì'u	ˈstaɾ.lɪ.ʔu	\N	n.	adposition
 11316	est	starlì'u	ˈstaɾ.lɪ.ʔu	\N	n.	kaassõna
+11316	hu	starlì'u	ˈstaɾ.lɪ.ʔu	\N	n.	adposition
 11316	nl	starlì'u	ˈstaɾ.lɪ.ʔu	\N	n.	adpositie
+11320	de	tilì'u	ˈti.lɪ.ʔu	\N	n.	Konjunktion, Bindewort
 11320	eng	tilì'u	ˈti.lɪ.ʔu	\N	n.	conjunction
 11320	est	tilì'u	ˈti.lɪ.ʔu	\N	n.	sidesõna
+11320	hu	tilì'u	ˈti.lɪ.ʔu	\N	n.	kötőszó
 11320	nl	tilì'u	ˈti.lɪ.ʔu	\N	n.	voegwoord
+11324	de	vonvä'	von.ˈvæʔ	\N	n.	Arschloch, Schwachkopf, Depp (vulgär)
 11324	eng	vonvä'	von.ˈvæʔ	\N	n.	butthole, asshole, dickhead (vulgar)
 11324	est	vonvä'	von.ˈvæʔ	\N	n.	sitapea, persevest (ropp!)
+11324	hu	vonvä'	von.ˈvæʔ	\N	n.	seggfej (vulgáris)
 11324	nl	vonvä'	von.ˈvæʔ	\N	n.	galbak, schobbejak (vulgair)
+11332	de	yo'kofya	ˈjoʔ.ko.fja	\N	n.	Zyklus, Kreislauf, Zeitraum
 11332	eng	yo'kofya	ˈjoʔ.ko.fja	\N	n.	cycle
+11332	est	yo'kofya	ˈjoʔ.ko.fja	\N	n.	tsükkel
+11332	hu	yo'kofya	ˈjoʔ.ko.fja	\N	n.	ciklus
+11332	nl	yo'kofya	ˈjoʔ.ko.fja	\N	n.	cyclus
+11336	de	tì'iluke	tɪʔ.ˈi.lu.kɛ	\N	adj.	endlos, unendlich (im zeitl. Sinn)
 11336	eng	tì'iluke	tɪʔ.ˈi.lu.kɛ	\N	adj.	endless, neverending (in a temporal sense)
+11336	est	tì'iluke	tɪʔ.ˈi.lu.kɛ	\N	adj.	lõputu, ajatu (ajalises mõistes)
+11336	hu	tì'iluke	tɪʔ.ˈi.lu.kɛ	\N	adj.	végtelen
+11336	nl	tì'iluke	tɪʔ.ˈi.lu.kɛ	\N	adj.	eindeloos (tijd)
+11340	de	txanso'hayu	t'an.ˈsoʔ.ha.ju	\N	n.	Fan, Enthusiast
 11340	eng	txanso'hayu	t'an.ˈsoʔ.ha.ju	\N	n.	fan, enthusiast
+11340	est	txanso'hayu	t'an.ˈsoʔ.ha.ju	\N	n.	fänn, huviline
+11340	hu	txanso'hayu	t'an.ˈsoʔ.ha.ju	\N	n.	rajongó(ja vminek)
+11340	nl	txanso'hayu	t'an.ˈsoʔ.ha.ju	\N	n.	fan, enthousiasteling
+11344	de	'oktrr	ˈʔok.tṛ	\N	n.	Gedenktag, Erinnerungstag
 11344	eng	'oktrr	ˈʔok.tṛ	\N	n.	day of commemoration
+11344	est	'oktrr	ˈʔok.tṛ	\N	n.	mälestuspäev
+11344	hu	'oktrr	ˈʔok.tṛ	\N	n.	megemlékezés napja
+11344	nl	'oktrr	ˈʔok.tṛ	\N	n.	herdenkingsdag
+11348	de	so'yu	ˈso.ju	\N	n.	umgangsspr. Form von txanso'hayu (Fan, Enthusiast)
 11348	eng	so'yu	ˈso.ju	\N	n.	colloquial form of txanso'hayu (fan, enthusiast)
+11348	est	so'yu	ˈso.ju	\N	n.	kõnekeelne väljend sõnale txanso'hayu (fänn, huviline)
+11348	hu	so'yu	ˈso.ju	\N	n.	rajongó(ja vminek) (társalgási nyelvben)
+11348	nl	so'yu	ˈso.ju	\N	n.	spreektaal voor txanso'hayu (fan, enthousiasteling)
+11352	de	zìsìtsaltrr	zɪ.sɪt.ˈsal.tṛ	\N	n.	(jährliches) Jubiläum, Jahrestag
 11352	eng	zìsìtsaltrr	zɪ.sɪt.ˈsal.tṛ	\N	n.	(yearly) anniversary
+11352	est	zìsìtsaltrr	zɪ.sɪt.ˈsal.tṛ	\N	n.	aastapäev
+11352	hu	zìsìtsaltrr	zɪ.sɪt.ˈsal.tṛ	\N	n.	évforduló
+11352	nl	zìsìtsaltrr	zɪ.sɪt.ˈsal.tṛ	\N	n.	verjaring
+11356	de	zìtsaltrr	zɪ.ˈt͡sal.tṛ	\N	n.	umgangsspr. Form von zìsìtsaltrr (Jahrestag)
 11356	eng	zìtsaltrr	zɪ.ˈt͡sal.tṛ	\N	n.	colloquial form of zìsìtsaltrr (yearly anniversary)
+11356	est	zìtsaltrr	zɪ.ˈt͡sal.tṛ	\N	n.	kõnekeelne väljend sõnale zìsìtsaltrr (aastapäev)
+11356	hu	zìtsaltrr	zɪ.ˈt͡sal.tṛ	\N	n.	évforduló (társalgási nyelvben)
+11356	nl	zìtsaltrr	zɪ.ˈt͡sal.tṛ	\N	n.	spreektaal voor verjaring
+11360	de	tsukx	t͡s·uk'	ts<1><2><3>ukx	vtr.	stechen, erstechen, niederstechen
 11360	eng	tsukx	t͡s·uk'	ts<1><2><3>ukx	vtr.	stab
+11360	est	tsukx	t͡s·uk'	ts<1><2><3>ukx	vtr.	pussitama, noaga/odaga torkama
+11360	hu	tsukx	t͡s·uk'	ts<1><2><3>ukx	vtr.	leszúr, ledöf
+11360	nl	tsukx	t͡s·uk'	ts<1><2><3>ukx	vtr.	steken
+11364	de	ripx	ɾ·ip'	r<1><2><3>ipx	vtr.	durchstechen, durchbohren, pierchen
 11364	eng	ripx	ɾ·ip'	r<1><2><3>ipx	vtr.	pierce
+11364	est	ripx	ɾ·ip'	r<1><2><3>ipx	vtr.	läbistama, läbi torkama
+11364	hu	ripx	ɾ·ip'	r<1><2><3>ipx	vtr.	átszúr, átdöf
+11364	nl	ripx	ɾ·ip'	r<1><2><3>ipx	vtr.	doorsteken
+11368	de	sävll	sæ.ˈvḷ	\N	n.	Zeichen, Hinweis, Signal
 11368	eng	sävll	sæ.ˈvḷ	\N	n.	sign, indication, signal
+11368	est	sävll	sæ.ˈvḷ	\N	n.	märk, signaal, tähistus
+11368	hu	sävll	sæ.ˈvḷ	\N	n.	jel, jelzés
+11368	nl	sävll	sæ.ˈvḷ	\N	n.	teken, indicatie, signaal
+11376	de	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	\N	n.	Nominalphrase (ein Teilsatz, dessen ausschlaggebendes oder zentrales Wort ein Substantiv ist)
 11376	eng	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	\N	n.	noun phrase (phrase whose pivotal or central word is a noun)
+11376	est	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	\N	n.	nimisõnaühend
+11376	hu	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	\N	n.	főnévi kifejezés (főnevet tartalmazó kifejezés)
+11376	nl	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	\N	n.	naamwoordgroep, naamwoordelijk zinsdeel
+11380	de	kxì	k'ɪ	\N	intj.	hi, hey (ungezwungene Begrüßung)
+11380	eng	kxì	k'ɪ	\N	intj.	hello (casual)
+11380	est	kxì	k'ɪ	\N	intj.	hei (lühike tervitus)
+11380	hu	kxì	k'ɪ	\N	intj.	hello
+11380	nl	kxì	k'ɪ	\N	intj.	hallo (informeel)
+11384	eng	aho	a.ˈho	aho	vin.	pray
+11388	eng	tìaho	tɪ.a.ˈho	\N	n.	prayer (in general, abstract idea)
+11392	eng	saho	sa.ˈho	\N	n.	prayer
+11396	eng	syawn	sjawn	\N	n.	blessing
+11400	eng	tìng syawn	t·ɪŋ sjawn	t<1><2><3>ìng syawn	vin.	bless
+11404	eng	parul	pa.ˈɾul	\N	n.	miracle
+11408	eng	parulnga'	pa.ˈɾul.ŋaʔ	\N	adj.	miraculous
+11412	eng	parultsyìp	pa.ˈɾul.t͡sjɪp̚	\N	n.	term of affection for children
+11416	eng	keltrrtrr	kɛl.ˈtṛ.tṛ	\N	adj.	unusual
+11420	eng	txankeltrrtrr	ˈt'an.kɛl.tṛ.tṛ	\N	adj.	extraordinary
+11424	eng	nìtxankeltrrtrr	nɪ.ˈt'an.kɛl.tṛ.tṛ	\N	adv.	extraordinarily
+11428	eng	hafyon	ha.ˈfjon	\N	n.	wisdom
+11432	eng	lafyon	la.ˈfjon	\N	adj.	wise
+11436	eng	hafyonga'	ha.ˈfjo.ŋaʔ	\N	adj.	wise
+11440	eng	fkxara	ˈfkâa.ɾa	\N	n.	stress (mental or emotional feeling)
+11444	eng	fkxaranga'	ˈfkâa.ɾa.ŋaʔ	\N	adj.	stressful
+11448	eng	afpawng	a.ˈfpawŋ	\N	n.	grief
+11452	eng	afpawng si	a.ˈfpawŋ s·i	afpawng s<1><2><3>i	vin.	grieve
+11456	eng	keyn	k·ɛjn	k<1><2><3>eyn	vtr.	put down
+11460	eng	palon	ˈp·a.l·on	p<1><2>al<3>on	vin.	burn
+11464	eng	rem	rɛm	\N	n.	fuel
+11468	eng	tong	t·oŋ	t<1><2><3>ong	vtr.	put out, quench
+11472	eng	reypaytun	ˈɾɛj.paj.tun	\N	adj.	red ("blood tun")
+11476	eng	txeptun	ˈtâɛp.tun	\N	adj.	orange ("fire tun")
+11480	eng	vultsyìp	ˈvul.t͡sjɪp̚	\N	n.	stick
+11484	eng	'opinvultsyìp	ˈʔo.pin.vul.t͡sjɪp̚	\N	n.	crayon
+11488	eng	pinvul	ˈpin.vul	\N	n.	crayon
+11492	eng	srankehe	sɾan.ˈkɛ.hɛ	\N	part., intj.	more or less, somewhat, yes and no, kind of
+11496	eng	tì'ongokx	tɪ.ˈʔo.ŋok'̚	\N	n.	birth
+11500	eng	rìkxi	r·ɪ.ˈk'·i	r<1><2>ìkx<3>i	vin.	tremble, shake, shiver
+11504	eng	nìrìkxi	nɪ.ɾɪ.ˈk'i	\N	adv.	shakily, tremblingly
+11508	eng	kawkxan	kaw.ˈk'an	\N	adj.	free, unblocked, unobstructed, clear
+11512	eng	fnelan	ˈfnɛ.lan	\N	n.	male
+11516	eng	fnele	ˈfnɛ.lɛ	\N	n.	female
+11520	eng	lefnelan	lɛ.ˈfnɛ.lan	\N	adj.	male
+11524	eng	lefnele	lɛ.ˈfnɛ.lɛ	\N	adj.	female
+11528	eng	fwìng	fwɪŋ	\N	n.	humiliation, embarrassment, loss of face
+11532	eng	fwìng si	fwɪŋ s·i	fwìng s<1><2><3>i	vin.	humiliate
+11536	eng	fyawìntxuyu	fja.wɪn.ˈt'u.ju	\N	n.	guide
+11540	eng	han	h·an	h<1><2><3>an	vtr.	lose
+11544	eng	tìhan	tɪ.ˈhan	\N	n.	loss
+11548	eng	hipx	hip'	hipx	vtr.	control
+11552	eng	tìhipx	tɪ.ˈhip'	\N	n.	control
+11556	eng	snotipx	sno.ˈtip'	\N	n.	selfcontrol
+11560	eng	kämunge	kæ.ˈm·u.ŋ·ɛ	käm<1><2>ung<3>e	vtr.	take
+11564	eng	kawnomum	kaw.ˈno.mum	\N	adj.	unknown
+11568	eng	le'awtu	lɛ.ˈʔaw.tu	\N	adj.	alone, on one's own, by one's self; lonely
+11572	eng	lie si	ˈli.ɛ s·i	lie s<1><2><3>i	vin.	experience
+11576	eng	liswa	li.ˈswa	\N	n.	nourishment
+11580	eng	liswa si	li.ˈswa s·i	liswa s<1><2><3>i	vin.	nourish, provide nourishment
+11584	eng	meuia si	mɛ.ˈu.i.a s·i	meuia s<1><2><3>i	vin.	honor
+11588	eng	meyptu	ˈmɛjp.tu	\N	n.	weakling
+11592	eng	nafpawng	na.ˈfpawŋ	\N	adv.	grievingly, with grief
+11596	eng	nìt'iluke	nɪt.ˈʔi.lu.kɛ	\N	adv.	neverendingly, forever
+11600	eng	nongspe'	n·oŋ.ˈsp·ɛʔ	n<1><2>ongsp<3>e'	vtr.	pursue with an intent to capture
+11604	eng	tìsyortsyìp	tɪ.ˈsjoɾ.t͡sjɪp̚	\N	n.	break, small rest or relaxation
+11608	eng	to tìtseri	to tɪ.ˈt͡sɛ.ɾi	\N	ph.	than is apparent, than you are aware of
+11612	eng	tswal	t͡swal	\N	n.	power
+11616	eng	letswal	le.ˈt͡swal	\N	adj.	powerful
+11620	eng	tswalnga'	ˈt͡swal.ŋaʔ	\N	adj.	powerful
+11624	eng	tswesya	ˈt͡swɛ.sja	\N	n.	current
+11628	eng	tswesya si	ˈt͡swɛ.sja s·i	tswesya s<1><2><3>i	vin.	flow
+11632	eng	txe'lankong	t'ɛʔ.ˈlan.koŋ	\N	n.	heartbeat
+11636	eng	txurtu	ˈt'uɾ.tu	\N	n.	strongman/woman, brawny person
+11640	eng	tìtxantslusam	tɪ.ˈt'ant͡slusam	\N	n.	wisdom (seldom used)
+11644	eng	pamrelvul	pam.ˈrel.vul	\N	n.	pen, pencil, lit. "writing stick."
+11648	eng	relvul	ˈɾɛl.vul	\N	n.	pen, pencil, lit. "writing stick." (short form of pamrelvul)
+11652	eng	pamrelvul lerìn	pam.ˈrel.vul le.ˈɾɪn	\N	n.	pencil, lit. "wooden writing stick."
+11656	eng	pensìl	ˈpen.sɪl	\N	n.	pencil
+11660	eng	'opinsung	ˈʔo.pin.s·uŋ	'opins<1><2><3>ung	vtr.	color, color in
