@@ -272,9 +272,9 @@ func infix(w Word) Word {
 		}
 	}
 
-	attempt = strings.Replace(w.InfixLocations, "<1>", pos0InfixString, 1)
-	attempt = strings.Replace(attempt, "<2>", pos1InfixString, 1)
-	attempt = strings.Replace(attempt, "<3>", pos2InfixString, 1)
+	attempt = strings.Replace(w.InfixLocations, "<0>", pos0InfixString, 1)
+	attempt = strings.Replace(attempt, "<1>", pos1InfixString, 1)
+	attempt = strings.Replace(attempt, "<2>", pos2InfixString, 1)
 
 	/*
 		hardCodeHax := map[string][]string{}
