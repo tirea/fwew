@@ -108,7 +108,7 @@ func prefix(w Word) Word {
 		}
 	}
 
-	reString = reString + ".+"
+	reString = reString + w.Attempt + ".*"
 	if debug {
 		fmt.Printf("Prefix reString: %s\n", reString)
 	}
