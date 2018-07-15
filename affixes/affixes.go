@@ -283,7 +283,7 @@ func infix(w Word) Word {
 	*/
 
 	if util.ContainsStr(matchInfixes, "eiy") {
-		eiy, _ := util.Index(matchInfixes, "eiy")
+		eiy := util.Index(matchInfixes, "eiy")
 		matchInfixes[eiy] = "ei"
 	}
 	if debug {

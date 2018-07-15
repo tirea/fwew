@@ -19,6 +19,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"log"
 
 	"github.com/tirea/fwew/util"
 )
@@ -34,7 +35,8 @@ type Config struct {
 func ReadConfig() Config {
 	configfile, e := ioutil.ReadFile(util.Text("config"))
 	if e != nil {
-		fmt.Printf("%s: %v\n", util.Text("fileError"), e)
+		fmt.Println(util.Text("fileError"))
+		log.Fatal(e)
 	}
 
 	var config Config

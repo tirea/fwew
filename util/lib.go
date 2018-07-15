@@ -16,7 +16,6 @@
 package util
 
 import (
-	"errors"
 	"strings"
 	"unicode"
 )
@@ -61,13 +60,13 @@ func DeleteEmpty(s []string) []string {
 }
 
 // Index return the index of q in s
-func Index(s []string, q string) (int, error) {
+func Index(s []string, q string) int {
 	for i, v := range s {
 		if v == q {
-			return i, nil
+			return i
 		}
 	}
-	return -1, errors.New(Text("strNotInSliceError"))
+	return -1
 }
 
 // IsLetter returns true if s is an alphabet character or apostrophe

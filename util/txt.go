@@ -61,11 +61,12 @@ func init() {
 
 	// error message strings
 	texts["none"] = "No Results\n"
-	texts["noDataError"] = "Error 1: Dictionary file (" + texts["dictionary"] + ") missing or not installed.\nPlease Install Fwew (run ./install.sh)"
-	texts["fileError"] = "Error 2: Failed to read configuration file (" + texts["config"] + ")"
-	texts["noOptionError"] = "Error 3: No such option"
-	texts["invalidIntError"] = "Error 4: Input must be a decimal integer in range 0 <= i <= 32767 or octal integer in range 0 <= i <= 77777"
-	texts["strNotInSliceError"] = "Error 5: Index of string in slice does not exist because slice does not contain string"
+	texts["noDataError"] = "Error 1: Failed to open and/or read dictionary file (" + texts["dictionary"] + ")"
+	texts["fileError"] = "Error 2: Failed to open and/or read configuration file (" + texts["config"] + ")"
+	texts["noOptionError"] = "Error 3: Invalid option"
+	texts["invalidIntError"] = "Error 4: Input must be a decimal integer in range 0 <= n <= 32767 or octal integer in range 0 <= n <= 77777"
+	texts["invalidOctalError"] = "Error 5: Invalid octal integer"
+	texts["invalidDecimalError"] = "Error 6: Invalid decimal integer"
 }
 
 // Text function is the accessor for []string texts

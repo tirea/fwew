@@ -20,6 +20,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"log"
 	"os"
 	"strings"
 
@@ -59,7 +60,11 @@ func fwewExperimental(word, lc, posFilter string, reverse, useAffixes bool) []af
 	query := "SELECT navi, ipa, infixes, fancyPartOfSpeech, definition " +
 		"FROM entries " +
 		"WHERE navi = \"" + word + "\" " +
-		"OR definition LIKE \"" + word + "\""
+		"OR definition LIKE \"" + word + "\" " +
+		"OR definition LIKE \"" + word + ", %\" " +
+		"OR definition LIKE \"" + word + " %\" " +
+		"OR definition LIKE \"% " + word + " %\" " +
+		"OR definition LIKE \"% " + word + "\""
 	rows, _ := database.Query(query)
 
 	for rows.Next() {
@@ -97,7 +102,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	defer dictData.Close()
 	if err != nil {
 		fmt.Println(errors.New(util.Text("noDataError")))
-		os.Exit(1)
+		log.Fatal(err)
 	}
 	scanner := bufio.NewScanner(dictData)
 
@@ -246,7 +251,7 @@ func setFlags(arg string, debug, r, i, ipa, a, n *bool, l, p *string) {
 			*p = f[2:]
 			setList = append(setList, f)
 		default:
-			fmt.Printf("<! %s: %s >\n", util.Text("noOptionError"), f)
+			fmt.Printf("%s: %s\n\n", util.Text("noOptionError"), f)
 		}
 	}
 

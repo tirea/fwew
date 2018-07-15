@@ -175,10 +175,10 @@ func Convert(input string, reverse bool) string {
 	if reverse {
 		i, err := strconv.ParseInt(input, 10, 64)
 		if err != nil {
-			return err.Error()
+			return fmt.Sprintf("%s: %s\n", util.Text("invalidDecimalError"), input)
 		}
 		if !util.Valid(i, reverse) {
-			return util.Text("invalidIntError")
+			return fmt.Sprintf("%s\n", util.Text("invalidIntError"))
 		}
 		o := strconv.FormatInt(int64(i), 8)
 		output += fmt.Sprintf("Octal: %s\n", o)
@@ -192,10 +192,10 @@ func Convert(input string, reverse bool) string {
 			io, err = strconv.ParseInt(input, 8, 64)
 		}
 		if err != nil {
-			return err.Error()
+			return fmt.Sprintf("%s: %s\n", util.Text("invalidOctalError"), input)
 		}
 		if !util.Valid(io, reverse) {
-			return util.Text("invalidIntError")
+			return fmt.Sprintf("%s\n", util.Text("invalidIntError"))
 		}
 		d := strconv.FormatInt(int64(io), 10)
 		o := strconv.FormatInt(int64(io), 8)
