@@ -20,10 +20,14 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/tirea/fwew/config"
 	"github.com/tirea/fwew/util"
 )
 
-var debug = false
+var (
+	configuration = config.ReadConfig()
+	debug         = configuration.DebugMode
+)
 
 // Word is a struct that contains all the data about a given word
 type Word struct {
@@ -349,9 +353,8 @@ func Reconstruct(w Word) Word {
 
 	w.Attempt = w.Navi
 
-	// only try to infix verbs, si has empty string as part of speech
-	if strings.HasPrefix(w.PartOfSpeech, "v") || strings.HasPrefix(w.PartOfSpeech, "svin.") ||
-		w.PartOfSpeech == "" {
+	// only try to infix verbs
+	if strings.HasPrefix(w.PartOfSpeech, "v") || strings.HasPrefix(w.PartOfSpeech, "svin.") {
 		w = infix(w)
 		if debug {
 			fmt.Println("INFIX")

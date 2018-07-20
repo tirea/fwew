@@ -1,5 +1,6 @@
 {
     "language": "eng",
     "posFilter": "all",
-    "useAffixes": true
+    "useAffixes": true,
+    "DebugMode": true
 }

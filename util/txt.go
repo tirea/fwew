@@ -33,7 +33,6 @@ func init() {
 	texts["prompt"] = "Fwew:> "
 
 	// flag strings
-	texts["usageDebug"] = "Show extremely verbose probing"
 	texts["usageV"] = "Show program & dictionary version numbers"
 	texts["usageL"] = "Use specified language \n\tValid values: " + texts["languages"]
 	texts["usageI"] = "Display infix location data"

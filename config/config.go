@@ -29,6 +29,7 @@ type Config struct {
 	Language   string `json:"language"`
 	PosFilter  string `json:"posFilter"`
 	UseAffixes bool   `json:"useAffixes"`
+	DebugMode  bool   `json:"DebugMode"`
 }
 
 // ReadConfig reads a configuration file and puts the data into Config struct
@@ -47,5 +48,5 @@ func ReadConfig() Config {
 
 func (c Config) String() string {
 	// this string only doesn't get translated or called from util.Text() because they're var names
-	return fmt.Sprintf("Language: %s\nPosFilter: %s\nUseAffixes: %t\n", c.Language, c.PosFilter, c.UseAffixes)
+	return fmt.Sprintf("Language: %s\nPosFilter: %s\nUseAffixes: %t\nDebugMode: %t\n", c.Language, c.PosFilter, c.UseAffixes, c.DebugMode)
 }

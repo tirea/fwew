@@ -16,7 +16,6 @@ package main
 
 import (
 	"bufio"
-	"database/sql"
 	"errors"
 	"flag"
 	"fmt"
@@ -28,74 +27,34 @@ import (
 	"github.com/tirea/fwew/config"
 	"github.com/tirea/fwew/numbers"
 	"github.com/tirea/fwew/util"
-
-	_ "github.com/mattn/go-sqlite3"
 )
 
 // Global
 const (
-	idField  int = 0 // dictionary.tsv line Field 0 is Database ID
-	lcField  int = 1 // dictionary.tsv line field 1 is Language Code
-	navField int = 2 // dictionary.tsv line field 2 is Na'vi word
-	ipaField int = 3 // dictionary.tsv line field 3 is IPA data
-	infField int = 4 // dictionary.tsv line field 4 is Infix location data
-	posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
-	defField int = 6 // dictionary.tsv line field 6 is Local definition
+	idField  int = 0 // dictionary.txt line Field 0 is Database ID
+	lcField  int = 1 // dictionary.txt line field 1 is Language Code
+	navField int = 2 // dictionary.txt line field 2 is Na'vi word
+	ipaField int = 3 // dictionary.txt line field 3 is IPA data
+	infField int = 4 // dictionary.txt line field 4 is Infix location data
+	posField int = 5 // dictionary.txt line field 5 is Part of Speech data
+	defField int = 6 // dictionary.txt line field 6 is Local definition
 )
 
-var debug *bool
-
-func fwewExperimental(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
-	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", " ")
-	// remove all the sketchy chars from arguments
-	for _, c := range badChars {
-		word = strings.Replace(word, c, "", -1)
-	}
-
-	var results []affixes.Word
-	var navi, ipa, infixes, pos, def string
-	var err error
-
-	database, _ := sql.Open("sqlite3", util.Text("database"))
-	query := "SELECT navi, ipa, infixes, fancyPartOfSpeech, definition " +
-		"FROM entries " +
-		"WHERE navi = \"" + word + "\" " +
-		"OR definition LIKE \"" + word + "\" " +
-		"OR definition LIKE \"" + word + ", %\" " +
-		"OR definition LIKE \"" + word + " %\" " +
-		"OR definition LIKE \"% " + word + " %\" " +
-		"OR definition LIKE \"% " + word + "\""
-	rows, _ := database.Query(query)
-
-	for rows.Next() {
-		var result affixes.Word
-		err = rows.Scan(&navi, &ipa, &infixes, &pos, &def)
-		if err != nil {
-			break
-		}
-		result.Navi = navi
-		result.IPA = ipa
-		result.PartOfSpeech = pos
-		result.Definition = def
-		results = append(results, result)
-	}
-
-	return results
-}
-
 func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
+	var (
+		result    affixes.Word
+		results   []affixes.Word
+		fields    []string
+		defString string
+		added     bool
+	)
+
 	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", " ")
 	word = strings.ToLower(word)
 	// remove all the sketchy chars from arguments
 	for _, c := range badChars {
 		word = strings.Replace(word, c, "", -1)
 	}
-
-	var result affixes.Word
-	var results []affixes.Word
-	var fields []string
-	var defString string
-	var added bool
 
 	// Prepare file for searching
 	dictData, err := os.Open(util.Text("dictionary"))
@@ -151,7 +110,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 					// Put the stuff from fields into the Word struct
 					result = affixes.InitWordStruct(result, fields)
 					results = append(results, result)
-					break
+					//break
 				} else {
 					result = affixes.InitWordStruct(result, fields)
 					result.Target = word
@@ -217,7 +176,7 @@ func printResults(results []affixes.Word, reverse, showInfixes, showIPA, useAffi
 	}
 }
 
-func setFlags(arg string, debug, r, i, ipa, a, n *bool, l, p *string) {
+func setFlags(arg string, r, i, ipa, a, n *bool, l, p *string) {
 	const start int = 4 // s,e,t,[ = 0,1,2,3
 	flagList := strings.Split(arg[start:len(arg)-1], ",")
 	setList := []string{}
@@ -225,10 +184,7 @@ func setFlags(arg string, debug, r, i, ipa, a, n *bool, l, p *string) {
 	for _, f := range flagList {
 		switch {
 		case f == "":
-			fmt.Printf("<! %s: debug=%t, r=%t, i=%t, ipa=%t, a=%t, l=%s, p=%s >\n\n", util.Text("cset"), *debug, *r, *i, *ipa, *a, *l, *p)
-		case f == "debug":
-			*debug = true
-			setList = append(setList, f)
+			fmt.Printf("<! %s: r=%t, i=%t, ipa=%t, a=%t, l=%s, p=%s >\n\n", util.Text("cset"), *r, *i, *ipa, *a, *l, *p)
 		case f == "r":
 			*r = true
 			setList = append(setList, f)
@@ -260,7 +216,7 @@ func setFlags(arg string, debug, r, i, ipa, a, n *bool, l, p *string) {
 	}
 }
 
-func unsetFlags(arg string, debug, r, i, ipa, a, n *bool) {
+func unsetFlags(arg string, r, i, ipa, a, n *bool) {
 	const start int = 6 // u,n,s,e,t,[ = 0,1,2,3,4,5
 	flagList := strings.Split(arg[6:len(arg)-1], ",")
 	unsetList := []string{}
@@ -268,9 +224,6 @@ func unsetFlags(arg string, debug, r, i, ipa, a, n *bool) {
 		switch f {
 		case "":
 			fmt.Println()
-		case "debug":
-			*debug = false
-			unsetList = append(unsetList, f)
 		case "r":
 			*r = false
 			unsetList = append(unsetList, f)
@@ -296,13 +249,16 @@ func unsetFlags(arg string, debug, r, i, ipa, a, n *bool) {
 }
 
 func main() {
-	var configuration = config.ReadConfig()
-	var results []affixes.Word
-	var language, posFilter *string
-	var showVersion, showInfixes, showIPA, reverse, useAffixes, numConvert, markdown, experimental *bool
-
-	// Debug flag, for verbose probing output
-	debug = flag.Bool("debug", false, util.Text("usageDebug"))
+	var (
+		configuration            config.Config
+		results                  []affixes.Word
+		language, posFilter      *string
+		showVersion, showInfixes *bool
+		showIPA, reverse         *bool
+		useAffixes, numConvert   *bool
+		markdown                 *bool
+	)
+	configuration = config.ReadConfig()
 	// Version flag, for displaying version data
 	showVersion = flag.Bool("v", false, util.Text("usageV"))
 	// Reverse direction flag, for local_lang -> Na'vi lookups
@@ -321,8 +277,6 @@ func main() {
 	numConvert = flag.Bool("n", false, util.Text("usageN"))
 	// Markdown formatting
 	markdown = flag.Bool("m", false, util.Text("usageM"))
-	// Experimental Database algo switch
-	experimental = flag.Bool("e", false, util.Text("usageE"))
 	flag.Parse()
 
 	if *showVersion {
@@ -337,18 +291,14 @@ func main() {
 		for _, arg := range flag.Args() {
 			arg = strings.Replace(arg, "’", "'", -1)
 			if strings.HasPrefix(arg, "set[") && strings.HasSuffix(arg, "]") {
-				setFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes, numConvert, language, posFilter)
+				setFlags(arg, reverse, showInfixes, showIPA, useAffixes, numConvert, language, posFilter)
 			} else if strings.HasPrefix(arg, "unset[") && strings.HasSuffix(arg, "]") {
-				unsetFlags(arg, debug, reverse, showInfixes, showIPA, useAffixes, numConvert)
+				unsetFlags(arg, reverse, showInfixes, showIPA, useAffixes, numConvert)
 			} else {
 				if *numConvert {
 					fmt.Println(numbers.Convert(arg, *reverse))
 				} else {
-					if *experimental {
-						results = fwewExperimental(arg, *language, *posFilter, *reverse, *useAffixes)
-					} else {
-						results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
-					}
+					results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
 					printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes, *markdown)
 				}
 			}
@@ -374,18 +324,14 @@ func main() {
 
 			if input != "" {
 				if strings.HasPrefix(input, "set[") && strings.HasSuffix(input, "]") {
-					setFlags(input, debug, reverse, showInfixes, showIPA, useAffixes, numConvert, language, posFilter)
+					setFlags(input, reverse, showInfixes, showIPA, useAffixes, numConvert, language, posFilter)
 				} else if strings.HasPrefix(input, "unset[") && strings.HasSuffix(input, "]") {
-					unsetFlags(input, debug, reverse, showInfixes, showIPA, useAffixes, numConvert)
+					unsetFlags(input, reverse, showInfixes, showIPA, useAffixes, numConvert)
 				} else {
 					if *numConvert {
 						fmt.Println(numbers.Convert(input, *reverse))
 					} else {
-						if *experimental {
-							results = fwewExperimental(input, *language, *posFilter, *reverse, *useAffixes)
-						} else {
-							results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
-						}
+						results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
 						printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes, *markdown)
 					}
 				}
