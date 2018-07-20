@@ -2,5 +2,5 @@
     "language": "eng",
     "posFilter": "all",
     "useAffixes": true,
-    "DebugMode": true
+    "DebugMode": false
 }
