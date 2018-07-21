@@ -6,41 +6,79 @@ Fwew is the improved, faster, cleaner, more modern successor to [vrrtepcli](http
 
 ## Install
 
-### Compile and Install from Source
+### Compile and install from source code
 
 This option is mostly for Contributors and Developers.
 
-You will need the [GO Programming Language](https://golang.org/) installed. If you don't have it or don't want to download it, see the next section.
+You will need the [GO Programming Language](https://golang.org/) and [Git](https://git-scm.com/) installed. If you don't have these and don't want to download/install them, see the next section, `Install program from downloaded .zip`.
+
+Run the following commands from inside a Terminal (Linux, MacOS ONLY)
 
 ```
-cd $GOPATH                   # GOPATH should be set in ~/.bashrc as something like export GOPATH=$HOME/go
-go get github.com/tirea/fwew # Pretty much same as git clone but puts stuff where it needs to be
-cd src/github.com/tirea/fwew # Go to where the code is before trying to build it
-make                         # to just compile
-make install                 # to compile and install
+cd $HOME                        # Start at home folder
+mkdir -p go                     # Make a folder for all Go source code
+export GOPATH=$HOME/go          # Set GOPATH variable to newly created go folder
+go get github.com/tirea/fwew    # Pretty much same as git clone but puts stuff where it needs to be
+cd go/src/github.com/tirea/fwew # Go to where the code is before trying to build it
+make                            # to just compile
+make install                    # to compile and install
 ```
 
-### Install directly from .zip
+For Windows users, instead run the following from inside a Powershell:
 
-If you don't have Go installed, you don't need it. You can just download the program here from GitHub in a .zip file then install it, without compiling.
+```
+cd $HOME                             # Start at home folder
+go get github.com/tirea/fwew         # Pretty much same as git clone but puts stuff where it needs to be
+cd .\go\src\github.com\tirea\fwew    # Go to where the code is before trying to build it
+go build -o .\bin\fwew.exe .\fwew.go # compile
+cp -Recurse .\.fwew $HOME\           # copy data file folder to your user's home folder
+```
+
+On Windows, you will want to add the path to `fwew.exe` to your `Path` Environment Variable:
+
+- On the taskbar where it says "Type here to search", type `Path` and press Enter
+- In the Environment Variables window that opens, highlight the row that says `Path` in the top part
+- Click `Edit...` button
+- Click `New` button
+- Type or paste in the text field, `%GOPATH%\src\github.com\tirea\fwew\bin`
+- Click `OK` button, `OK` button again
+
+### Install program from downloaded .zip
+
+If you don't have Go or Git installed, you don't need to. You can just download the pre-built program here from GitHub in a .zip file then install it, without compiling it yourself.
+
+Windows/MacOS/Linux:
 
 - Download the [master.zip](https://github.com/tirea/fwew/archive/master.zip) file
 - Extract the files
-- Copy the bin/fwew binary to somewhere in your $PATH (the Makefile uses /usr/local/bin/)
-- Copy the .fwew/ folder into your $HOME folder
+- Copy the `.fwew` folder into your user's home folder
 
-## Un-install
+Linux/MacOS ONLY:
+
+- Depending on your OS, copy the `bin/linux/fwew` or `bin/mac/fwew` file to your user's home folder
+- Add this text your shell config file
+(`~/.bashrc` or `~/.profile` or `~/.zshrc` or whatever):
+`export PATH=$PATH:$HOME`
+
+Windows ONLY:
+
+- Copy the `bin\windows\fwew.exe` file to your user's home folder
+
+## Uninstall
 
 ### Using Makefile
 
+If you're on Linux/MacOS and did `Compile and install from source code` and want to now uninstall Fwew:
+
+From Terminal where `tirea/fwew/Makefile` is, run:
 ```
 make uninstall
 ```
 
 ### Otherwise
 
-- Remove/delete the fwew binary from /usr/local/bin/ or wherever you put it
-- Remove/delete the .fwew/ folder from your $HOME folder
+- Remove/delete the `fwew` or `fwew.exe` binary from wherever you put it or installed it to
+- Remove/delete the `.fwew/` folder from your home folder
 
 ## Command Line Arguments & Flags
 
@@ -158,7 +196,7 @@ fwew -i -ipa
 set[] and unset[] commands also work in the REPL. One command per line, and only the command on the line.
 
 ```
-$ fwew -i -ipa
+fwew -i -ipa
 Fwew - Na'vi Dictionary Search - by Tirea Aean
 `fwew -h` for usage, `fwew -v` for version. See README
 
@@ -186,7 +224,7 @@ Fwew:>
 Use set[] with empty list of flags to show all current set flag values.
 
 ```
-$ fwew
+fwew
 Fwew - Na'vi Dictionary Search - by Tirea Aean
 `fwew -h` for usage, `fwew -v` for version. See README
 
@@ -202,7 +240,7 @@ Fwew:> set[]
 Fwew:>
 ```
 
-## Input & Output Files
+## Input & Output Files (Linux / MacOS)
 
 You can make a text file containing all the words you want to search and all the flag settings.
 
