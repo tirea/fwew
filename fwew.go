@@ -112,17 +112,17 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 					results = append(results, result)
 					//break
 				} else {
-					result = affixes.InitWordStruct(result, fields)
-					result.Target = word
-					result = affixes.Reconstruct(result)
-
-					if result.ID != "-1" {
-						results = append(results, result)
+					if useAffixes {
+						result = affixes.InitWordStruct(result, fields)
+						result.Target = word
+						result = affixes.Reconstruct(result)
+						if result.ID != "-1" {
+							results = append(results, result)
+						}
+						// reset these to not catch the next word
+						result.Target = ""
+						result.Attempt = ""
 					}
-					// reset these to not catch the next word
-					result.Target = ""
-					result.Attempt = ""
-
 				}
 			}
 		}
