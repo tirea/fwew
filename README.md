@@ -165,16 +165,6 @@ fwew -v
 fwew -v -r word
 ```
 
-### Debug Mode
-
-This is helpful if you encounter an error. This option allows the user to send the developer (me) detailed information about what the program is doing to make it easier to fix.
-
-```
-fwew -debug -r test
-fwew -debug -r test > debugfile.txt
-fwew -debug > debugfile.txt
-```
-
 ### Set and Unset Flags
 
 You can search even quicker without re-running the program to update what information you want to see. Use the set[] and unset[] keywords to update the search options. Even on the command line! To set or unset multiple options at once, separate them with a comma. Language and Part of Speech Filter cannot be unset, just set to another value. The default values are l=eng and p=all
@@ -315,8 +305,9 @@ Settings for Fwew are stored in a plain-text JSON file in the `.fwew/` directory
 ```
 {
     "language": "eng",
-    "posFilter": "all"
-    "useAffixes": true
+    "posFilter": "all",
+    "useAffixes": true,
+    "DebugMode": false
 }
 ```
 
@@ -341,4 +332,6 @@ fwew -a=false taron
 fwew -a=false
 ```
 
-If you edit the config file and set your own defaults, you can override the config file settings using the set[] command keyword as shown above.
+The default value of DebugMode is `false` and can be changed here. DebugMode being set to `true` will cause a monstrous mountain of text to flood your Terminal or Powershell on every `fwew` run. The point of it all is to see where something went wrong in the logic. This option is mostly only useful to Contributors, Developers, and Users who want to report a bug. The `-debug` command line flag was removed in favor of having this option in the config file.
+
+If you edit the config file to set your own defaults, you can override the config file settings using the set[] command keyword as shown above.
