@@ -70,32 +70,17 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 		line := scanner.Text()
 		// Store the fields of the line into fields array in lowercase
 		fields = strings.Split(line, "\t")
+		// Put the stuff from fields into the Word struct
+		result = affixes.InitWordStruct(result, fields)
 
 		// Looking for Local word in Definition field
 		if reverse {
-			// Must hard code "all" here now that config voids guarantee of default filter "all"
-			if posFilter == "all" {
-				if fields[lcField] == lc {
-					// whole-word matching
-					defString = util.StripChars(fields[defField], ",;")
+			// whole-word matching
+			defString = util.StripChars(fields[defField], ",;")
+			if fields[lcField] == lc {
+				if posFilter == "all" || fields[posField] == posFilter {
 					for _, w := range strings.Split(defString, " ") {
 						if strings.ToLower(w) == strings.ToLower(word) && !added {
-							// Put the stuff from fields into the Word struct
-							result = affixes.InitWordStruct(result, fields)
-							results = append(results, result)
-							added = true
-						}
-					}
-				}
-				// filter part of speech
-			} else {
-				if fields[lcField] == lc && fields[posField] == posFilter {
-					// whole-word matching
-					defString = util.StripChars(fields[defField], ",;")
-					for _, w := range strings.Split(defString, " ") {
-						if strings.ToLower(w) == strings.ToLower(word) && !added {
-							// Put the stuff from fields into the Word struct
-							result = affixes.InitWordStruct(result, fields)
 							results = append(results, result)
 							added = true
 						}
@@ -103,17 +88,15 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 				}
 			}
 			added = false
+
 			// Looking for Na'vi word in Na'vi field
 		} else {
 			if fields[lcField] == lc {
 				if strings.ToLower(fields[navField]) == strings.ToLower(word) {
-					// Put the stuff from fields into the Word struct
-					result = affixes.InitWordStruct(result, fields)
 					results = append(results, result)
 					//break
 				} else {
 					if useAffixes {
-						result = affixes.InitWordStruct(result, fields)
 						result.Target = word
 						result = affixes.Reconstruct(result)
 						if result.ID != "-1" {
