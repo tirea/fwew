@@ -50,7 +50,6 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	)
 
 	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", " ")
-	word = strings.ToLower(word)
 	// remove all the sketchy chars from arguments
 	for _, c := range badChars {
 		word = strings.Replace(word, c, "", -1)
@@ -94,7 +93,9 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 			if fields[lcField] == lc {
 				if strings.ToLower(fields[navField]) == strings.ToLower(word) {
 					results = append(results, result)
-					//break
+					if !useAffixes {
+						break
+					}
 				} else {
 					if useAffixes {
 						result.Target = word
