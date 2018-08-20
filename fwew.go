@@ -139,7 +139,7 @@ func printResults(results []affixes.Word, reverse, showInfixes, showIPA, useAffi
 			if showIPA {
 				out += ipa
 			}
-			if showInfixes && w.InfixLocations != "\\n" {
+			if showInfixes && w.InfixLocations != "\\N" {
 				out += inf
 			}
 			out += pos
