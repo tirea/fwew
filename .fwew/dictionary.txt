@@ -16700,3 +16700,9 @@
 11664	eng	uolì’uvi	ˈu.o.lɪ.ʔu.vi	\N	n.	suffix
 11664	hu	uolì’uvi	ˈu.o.lɪ.ʔu.vi	\N	n.	toldalék, utótag
 11664	nl	uolì’uvi	ˈu.o.lɪ.ʔu.vi	\N	n.	suffix
+-1	eng	Vawmataw	ˈvaw.ma.taw	\N	prop.n.	Eyktan Ayhangvurä
+0	eng	Eywa	ˈɛj.wa	\N	prop.n.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.
+1	eng	Tìlu	tɪ.ˈlu	\N	prop.n.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i
+2	eng	mako si	ˈma.ko s·i	mako s<1><2><3>i	vin.	to construct a sentence in a difficult to read fashion
+3	eng	nävi	ˈnæ.vi	\N	n.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)
+5	eng	pokx	pok'	p<0><1><2>okx	vtr.	poke
