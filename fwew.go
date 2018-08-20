@@ -67,7 +67,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	// Go through each line and see what we can find
 	for scanner.Scan() {
 		line := scanner.Text()
-		// Store the fields of the line into fields array in lowercase
+		// Store the fields of the line into fields array
 		fields = strings.Split(line, "\t")
 		// Put the stuff from fields into the Word struct
 		result = affixes.InitWordStruct(result, fields)
@@ -96,17 +96,15 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 					if !useAffixes {
 						break
 					}
-				} else {
-					if useAffixes {
-						result.Target = word
-						result = affixes.Reconstruct(result)
-						if result.ID != "-1" {
-							results = append(results, result)
-						}
-						// reset these to not catch the next word
-						result.Target = ""
-						result.Attempt = ""
+				} else if useAffixes {
+					result.Target = word
+					result = affixes.Reconstruct(result)
+					if result.ID != "-1" {
+						results = append(results, result)
 					}
+					// reset these to not catch the next word
+					result.Target = ""
+					result.Attempt = ""
 				}
 			}
 		}
