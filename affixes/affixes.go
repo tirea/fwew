@@ -72,6 +72,26 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	return w
 }
 
+// CloneWordStruct is basically a copy constructor for Word struct
+func CloneWordStruct(w Word) Word {
+	var nw Word
+	nw.ID = w.ID
+	nw.LangCode = w.LangCode
+	nw.Navi = w.Navi
+	nw.Target = w.Target
+	nw.Attempt = w.Attempt
+	nw.IPA = w.IPA
+	nw.InfixLocations = w.InfixLocations
+	nw.PartOfSpeech = w.PartOfSpeech
+	nw.Definition = w.Definition
+	nw.Affixes = make(map[string][]string)
+	for k := range w.Affixes {
+		nw.Affixes[k] = make([]string, len(w.Affixes[k]))
+		copy(nw.Affixes[k], w.Affixes[k])
+	}
+	return nw
+}
+
 // ListAdp returns a list of every known adposition
 func ListAdp() []string {
 	return []string{"mungwrr", "kxamlä", "tafkip", "pxisre", "pximaw", "ftumfa",
@@ -348,10 +368,19 @@ func lenite(w Word) Word {
 	}
 }
 
+func matches(w Word) bool {
+	return strings.ToLower(w.Attempt) == strings.ToLower(w.Target)
+}
+
 // Reconstruct is the main function of affixes.go, responsible for the affixing algorithm
 func Reconstruct(w Word) Word {
 
 	w.Attempt = w.Navi
+
+	// clone w as wl
+	wl := CloneWordStruct(w)
+	// wl will be the lenited version of w
+	wl = lenite(wl)
 
 	// only try to infix verbs
 	if strings.HasPrefix(w.PartOfSpeech, "v") || strings.HasPrefix(w.PartOfSpeech, "svin.") {
@@ -360,7 +389,7 @@ func Reconstruct(w Word) Word {
 			fmt.Println("INFIX")
 			fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 		}
-		if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
+		if matches(w) {
 			return w
 		}
 	}
@@ -370,8 +399,12 @@ func Reconstruct(w Word) Word {
 		fmt.Println("PREFIX")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
-	if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
+	if matches(w) {
 		return w
+	}
+	wl = prefix(wl)
+	if matches(wl) {
+		return wl
 	}
 
 	if !strings.HasPrefix(w.Attempt, w.Target[0:1]) {
@@ -380,7 +413,7 @@ func Reconstruct(w Word) Word {
 			fmt.Println("LENITE")
 			fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 		}
-		if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
+		if matches(w) {
 			return w
 		}
 	}
@@ -390,8 +423,12 @@ func Reconstruct(w Word) Word {
 		fmt.Println("SUFFIX")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
-	if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
+	if matches(w) {
 		return w
+	}
+	wl = suffix(wl)
+	if matches(wl) {
+		return wl
 	}
 
 	w = lenite(w)
@@ -399,7 +436,7 @@ func Reconstruct(w Word) Word {
 		fmt.Println("LENITE")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
-	if strings.ToLower(w.Attempt) == strings.ToLower(w.Target) {
+	if matches(w) {
 		return w
 	}
 
