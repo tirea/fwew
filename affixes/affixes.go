@@ -327,45 +327,24 @@ func lenite(w Word) Word {
 	if _, ok := w.Affixes["lenition"]; ok {
 		return w
 	}
-	switch {
-	case strings.HasPrefix(w.Navi, "kx"):
-		w.Attempt = strings.Replace(w.Attempt, "kx", "k", 1)
-		w.Affixes["lenition"] = append(w.Affixes["lenition"], "kx->k")
-		return w
-	case strings.HasPrefix(w.Navi, "px"):
-		w.Attempt = strings.Replace(w.Attempt, "px", "p", 1)
-		w.Affixes["lenition"] = append(w.Affixes["lenition"], "px->p")
-		return w
-	case strings.HasPrefix(w.Navi, "tx"):
-		w.Attempt = strings.Replace(w.Attempt, "tx", "t", 1)
-		w.Affixes["lenition"] = append(w.Affixes["lenition"], "tx->t")
-		return w
-	case strings.HasPrefix(w.Navi, "k"):
-		w.Attempt = strings.Replace(w.Attempt, "k", "h", 1)
-		w.Affixes["lenition"] = append(w.Affixes["lenition"], "k->h")
-		return w
-	case strings.HasPrefix(w.Navi, "p"):
-		w.Attempt = strings.Replace(w.Attempt, "p", "f", 1)
-		w.Affixes["lenition"] = append(w.Affixes["lenition"], "p->f")
-		return w
-	case strings.HasPrefix(w.Navi, "ts"):
-		w.Attempt = strings.Replace(w.Attempt, "ts", "s", 1)
-		w.Affixes["lenition"] = append(w.Affixes["lenition"], "ts->s")
-		return w
-	case strings.HasPrefix(w.Navi, "t"):
-		w.Attempt = strings.Replace(w.Attempt, "t", "s", 1)
-		w.Affixes["lenition"] = append(w.Affixes["lenition"], "t->s")
-		return w
-	case strings.HasPrefix(w.Navi, "'"):
-		if !strings.HasPrefix(w.Target, "'") {
-			w.Attempt = strings.Replace(w.Attempt, "'", "", 1)
-			w.Affixes["lenition"] = append(w.Affixes["lenition"], "'->")
+	lenTable := map[string]string{
+		"kx": "k",
+		"px": "p",
+		"tx": "t",
+		"k":  "h",
+		"p":  "f",
+		"ts": "s",
+		"t":  "s",
+		"'":  "",
+	}
+	for k, v := range lenTable {
+		if strings.HasPrefix(w.Navi, k) {
+			w.Attempt = strings.Replace(w.Attempt, k, v, 1)
+			w.Affixes["lenition"] = append(w.Affixes["lenition"], k+"->"+v)
 			return w
 		}
-		return w
-	default:
-		return w
 	}
+	return w
 }
 
 func matches(w Word) bool {
