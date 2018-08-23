@@ -92,22 +92,13 @@ func CloneWordStruct(w Word) Word {
 	return nw
 }
 
-// ListAdp returns a list of every known adposition
-func ListAdp() []string {
-	return []string{"mungwrr", "kxamlä", "tafkip", "pxisre", "pximaw", "ftumfa",
-		"mìkam", "nemfa", "takip", "lisre", "talun", "krrka", "teri", "fkip",
-		"pxaw", "pxel", "luke", "rofa", "fpi", "ftu", "kip", "vay", "lok", "maw",
-		"sìn", "sre", "few", "kam", "kay", "nuä", "sko", "yoa", "äo", "eo", "fa",
-		"hu", "ka", "mì", "na", "ne", "ta", "io", "uo", "ro", "wä", "sì?",
-	}
-}
-
 func prefix(w Word) Word {
-	var re *regexp.Regexp
-	var reString string
-	var attempt string
-	var lenPre = []string{"pe", "fray", "tsay", "fay", "pay", "ay", "me", "pxe"}
-	var matchPrefixes = []string{}
+	var (
+		re            *regexp.Regexp
+		reString      string
+		attempt       string
+		matchPrefixes = []string{}
+	)
 
 	// pull this out of the switch because the pos data for verbs is so irregular,
 	// the switch condition would be like 25 possibilities long
@@ -156,33 +147,25 @@ func prefix(w Word) Word {
 		attempt = attempt + p
 	}
 
-	// check for leniting prefix
-	if util.Contains(matchPrefixes, lenPre) && !util.ContainsStr(matchPrefixes, "fne") {
-		// lenite first
-		w = lenite(w)
-		// then add prefixes
-		if w.Attempt != w.Navi {
-			// leniting prefix, lenition occured
-			w.Attempt = attempt + w.Attempt
-		} else {
-			// leniting prefix, lenition did not occur
-			w.Attempt = attempt + w.Navi
-		}
-	} else {
-		// otherwise just add the prefixes to create the attempt
-		w.Attempt = attempt + w.Attempt
-	}
+	w.Attempt = attempt + w.Attempt
 
 	w.Affixes["prefixes"] = matchPrefixes
 	return w
 }
 
 func suffix(w Word) Word {
-	var re *regexp.Regexp
-	var reString string
-	var attempt string
-	var matchSuffixes = []string{}
-	var adp = ListAdp()
+	var (
+		re            *regexp.Regexp
+		reString      string
+		attempt       string
+		matchSuffixes = []string{}
+		adp           = []string{"mungwrr", "kxamlä", "tafkip", "pxisre", "pximaw",
+			"ftumfa", "mìkam", "nemfa", "takip", "lisre", "talun", "krrka", "teri",
+			"fkip", "pxaw", "pxel", "luke", "rofa", "fpi", "ftu", "kip", "vay", "lok",
+			"maw", "sìn", "sre", "few", "kam", "kay", "nuä", "sko", "yoa", "äo", "eo",
+			"fa", "hu", "ka", "mì", "na", "ne", "ta", "io", "uo", "ro", "wä", "sì?",
+		}
+	)
 
 	// pull this out of the switch because the pos data for verbs is so irregular,
 	// the switch condition would be like 25 possibilities long
@@ -261,16 +244,18 @@ func infix(w Word) Word {
 		return w
 	}
 
-	var re *regexp.Regexp
-	var reString string
-	var attempt string
-	var pos0InfixRe = "(äp)?(eyk)?"
-	var pos1InfixRe = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|irv|ìy|am|ay|er|iv|ol|us|awn)?"
-	var pos2InfixRe = "(eiy|ei|äng|eng|ats|uy)?"
-	var pos0InfixString string
-	var pos1InfixString string
-	var pos2InfixString string
-	var matchInfixes = []string{}
+	var (
+		re              *regexp.Regexp
+		reString        string
+		attempt         string
+		pos0InfixRe     = "(äp)?(eyk)?"
+		pos1InfixRe     = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|irv|ìy|am|ay|er|iv|ol|us|awn)?"
+		pos2InfixRe     = "(eiy|ei|äng|eng|ats|uy)?"
+		pos0InfixString string
+		pos1InfixString string
+		pos2InfixString string
+		matchInfixes    = []string{}
+	)
 
 	reString = strings.Replace(w.InfixLocations, "<0>", pos0InfixRe, 1)
 	reString = strings.Replace(reString, "<1>", pos1InfixRe, 1)
@@ -289,7 +274,7 @@ func infix(w Word) Word {
 	for _, i := range matchInfixes {
 		if i == "äp" || i == "eyk" {
 			pos0InfixString = pos0InfixString + i
-		} else if i == "eiy" || i == "ei" || i == "äng" || i == "eng" || i == "ats" || i == "uy" {
+		} else if util.ContainsStr([]string{"eiy", "ei", "äng", "eng", "ats", "uy"}, i) {
 			pos2InfixString = i
 		} else {
 			pos1InfixString = i
