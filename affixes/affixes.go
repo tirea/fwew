@@ -108,7 +108,7 @@ func prefix(w Word) Word {
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
 			reString = "(a|tì)?"
 		} else {
-			reString = "(ketsuk|tsuk)?"
+			reString = "(a)?(ketsuk|tsuk)?"
 		}
 	} else {
 		switch w.PartOfSpeech {
@@ -166,6 +166,10 @@ func suffix(w Word) Word {
 			"fa", "hu", "ka", "mì", "na", "ne", "ta", "io", "uo", "ro", "wä", "sì?",
 		}
 	)
+	const (
+		adjSufRe string = "(a)?"
+		nSufRe   string = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?"
+	)
 
 	// pull this out of the switch because the pos data for verbs is so irregular,
 	// the switch condition would be like 25 possibilities long
@@ -173,16 +177,21 @@ func suffix(w Word) Word {
 		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
 		inf := w.Affixes["infixes"]
 		pre := w.Affixes["prefixes"]
-		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
+		// word is verb with <us> or <awn>
+		if len(inf) == 1 && (inf[0] == "us" || inf[0] == "awn") {
 			// it's a tì-<us> gerund; treat it like a noun
 			if len(pre) > 0 && util.ContainsStr(pre, "tì") && inf[0] == "us" {
-				reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?"
+				reString = nSufRe
 				for _, s := range adp {
 					reString += "(" + s + ")?"
 				}
+				// Just a regular <us> or <awn> verb
 			} else {
-				reString = "(a)?"
+				reString = adjSufRe
 			}
+			// It's a tsuk/ketsuk adj from a verb
+		} else if len(inf) == 0 && util.Contains(pre, []string{"tsuk", "ketsuk"}) {
+			reString = adjSufRe
 		} else {
 			reString = "(tswo|yu)?"
 			for _, s := range adp {
@@ -192,12 +201,12 @@ func suffix(w Word) Word {
 	} else {
 		switch w.PartOfSpeech {
 		case "n.", "pn.", "dem.", "dem., pn.":
-			reString = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?"
+			reString = nSufRe
 			for _, s := range adp {
 				reString += "(" + s + ")?"
 			}
 		case "adj.":
-			reString = "(a)?"
+			reString = adjSufRe
 		case "num.":
 			reString = "(ve)?(a)?"
 		default:
