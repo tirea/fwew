@@ -60,11 +60,15 @@ var wordToDigit = map[string]int{
 }
 
 func unwordify(input string) string {
-	var reString string
-	var re *regexp.Regexp
-	var matchNumbers = []string{}
-	var digits int
-	var multiplier = 1
+	var (
+		reString     string
+		re           *regexp.Regexp
+		matchNumbers = []string{}
+		digits       int
+		multiplier   = 1
+	)
+
+	input = strings.ToLower(input)
 
 	if input == "kew" {
 		return "0"
