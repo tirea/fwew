@@ -48,8 +48,12 @@ func ContainsStr(s []string, q string) bool {
 	return false
 }
 
-// DeleteEmpty deletes all empty string entries in s
+// DeleteEmpty "deletes" all empty string entries in s
+// actually returns a new string slice containing all non-empty strings in s
 func DeleteEmpty(s []string) []string {
+	if len(s) == 0 {
+		return s
+	}
 	var r []string
 	for _, str := range s {
 		if str != "" {
@@ -69,17 +73,24 @@ func Index(s []string, q string) int {
 	return -1
 }
 
+// IndexStr return the index of q in s
+func IndexStr(s string, q rune) int {
+	for i, v := range s {
+		if v == q {
+			return i
+		}
+	}
+	return -1
+}
+
 // IsLetter returns true if s is an alphabet character or apostrophe
 func IsLetter(s string) bool {
 	for _, r := range s {
-		if !unicode.IsLetter(r) {
-			if r == '\'' || r == '‘' {
-				return true
-			}
-			return false
+		if unicode.IsLetter(r) || r == '\'' || r == '‘' {
+			return true
 		}
 	}
-	return true
+	return false
 }
 
 // Reverse returns the reversed version of s

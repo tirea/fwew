@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"os/user"
 	"path/filepath"
+	"strings"
 )
 
 var usr, err = user.Current()
@@ -27,12 +28,27 @@ var texts = map[string]string{}
 func init() {
 	// main program strings
 	texts["name"] = "Fwew"
+	texts["tagline"] = "The Best Na'vi Dictionary on the Command Line"
+	texts["tip"] = "Type \"/help\" or \"/commands\" for more info"
 	texts["author"] = "Tirea Aean"
-	texts["header"] = fmt.Sprintf("%s - Na'vi Dictionary Search - by %s\n`fwew -h` for usage, `fwew -v` for version\n", texts["name"], texts["author"])
+	texts["header"] = fmt.Sprintf("%s\n%s\n%s\n", Version, texts["tagline"], texts["tip"])
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
-	texts["prompt"] = "Fwew:> "
+	texts["prompt"] = "~>> "
+
+	// slash-commands Help
+	texts["/set"] = "/set       show currently set options, set options separated by space\n"
+	texts["/unset"] = "/unset     unset options separated by space\n"
+	texts["/commands"] = "/commands  Show this commands help text\n"
+	texts["/help"] = "/help      Show main help text\n"
+	texts["/exit"] = "/exit      exit/quit the program (aliases /quit /q /wc)\n\n"
+	texts["/examples"] = "Examples:\n/set\n/set ipa l=de\n/unset ipa\n/set i l=eng\n/unset a r"
+	texts["slashCommandHelp"] = texts["/set"] + texts["/unset"] + texts["/commands"] + texts["/help"] + texts["/exit"] + texts["/examples"]
 
 	// flag strings
+	texts["usage"] = "Usage"
+	texts["bin"] = strings.ToLower(texts["name"])
+	texts["options"] = "options"
+	texts["words"] = "words"
 	texts["usageV"] = "Show program & dictionary version numbers"
 	texts["usageL"] = "Use specified language \n\tValid values: " + texts["languages"]
 	texts["usageI"] = "Display infix location data"
@@ -56,12 +72,14 @@ func init() {
 
 	// error message strings
 	texts["none"] = "No Results\n"
-	texts["noDataError"] = "Error 1: Failed to open and/or read dictionary file (" + texts["dictionary"] + ")"
-	texts["fileError"] = "Error 2: Failed to open and/or read configuration file (" + texts["config"] + ")"
-	texts["noOptionError"] = "Error 3: Invalid option"
-	texts["invalidIntError"] = "Error 4: Input must be a decimal integer in range 0 <= n <= 32767 or octal integer in range 0 <= n <= 77777"
-	texts["invalidOctalError"] = "Error 5: Invalid octal integer"
-	texts["invalidDecimalError"] = "Error 6: Invalid decimal integer"
+	texts["noDataError"] = "err 1: failed to open and/or read dictionary file (" + texts["dictionary"] + ")"
+	texts["fileError"] = "err 2: failed to open and/or read configuration file (" + texts["config"] + ")"
+	texts["noOptionError"] = "err 3: invalid option"
+	texts["invalidIntError"] = "err 4: input must be a decimal integer in range 0 <= n <= 32767 or octal integer in range 0 <= n <= 77777"
+	texts["invalidOctalError"] = "err 5: invalid octal integer"
+	texts["invalidDecimalError"] = "err 6: invalid decimal integer"
+	texts["invalidLanguageError"] = "err 7: invalid language option"
+	texts["invalidPOSFilterError"] = "err 8: invalid part of speech filter"
 }
 
 // Text function is the accessor for []string texts

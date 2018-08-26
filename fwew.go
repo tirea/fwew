@@ -40,6 +40,16 @@ const (
 	defField int = 6 // dictionary.txt line field 6 is Local definition
 )
 
+// flags / options
+var (
+	configuration            config.Config
+	language, posFilter      *string
+	showVersion, showInfixes *bool
+	showIPA, reverse         *bool
+	useAffixes, numConvert   *bool
+	markdown                 *bool
+)
+
 func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	var (
 		result    affixes.Word
@@ -54,7 +64,10 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	for _, c := range badChars {
 		word = strings.Replace(word, c, "", -1)
 	}
-
+	// No Results if empty string after removing sketch chars
+	if len(word) == 0 {
+		return results
+	}
 	// Prepare file for searching
 	dictData, err := os.Open(util.Text("dictionary"))
 	defer dictData.Close()
@@ -158,87 +171,101 @@ func printResults(results []affixes.Word, reverse, showInfixes, showIPA, useAffi
 	}
 }
 
-func setFlags(arg string, r, i, ipa, a, n *bool, l, p *string) {
-	const start int = 4 // s,e,t,[ = 0,1,2,3
-	flagList := strings.Split(arg[start:len(arg)-1], ",")
-	setList := []string{}
-
+func setFlags(arg string, argsMode bool) {
+	var (
+		flagList []string
+		r        = reverse
+		i        = showInfixes
+		ipa      = showIPA
+		a        = useAffixes
+		n        = numConvert
+		m        = markdown
+		l        = language
+		p        = posFilter
+		err      error
+		langs    = strings.Split(util.Text("languages"), ", ")
+	)
+	if argsMode {
+		start := util.IndexStr(arg, '[') + 1
+		flagList = strings.Split(arg[start:len(arg)-1], ",")
+	} else {
+		flagList = strings.Split(arg, " ")
+	}
 	for _, f := range flagList {
 		switch {
 		case f == "":
-			fmt.Printf("<! %s: r=%t, i=%t, ipa=%t, a=%t, l=%s, p=%s >\n\n", util.Text("cset"), *r, *i, *ipa, *a, *l, *p)
 		case f == "r":
-			*r = true
-			setList = append(setList, f)
+			*r = !*r
 		case f == "i":
-			*i = true
-			setList = append(setList, f)
+			*i = !*i
 		case f == "ipa":
-			*ipa = true
-			setList = append(setList, f)
+			*ipa = !*ipa
 		case f == "a":
-			*a = true
-			setList = append(setList, f)
+			*a = !*a
 		case f == "n":
-			*n = true
-			setList = append(setList, f)
+			*n = !*n
+		case f == "m":
+			*m = !*m
 		case strings.HasPrefix(f, "l="):
-			*l = f[2:]
-			setList = append(setList, f)
+			if util.ContainsStr(langs, f[2:]) {
+				*l = f[2:]
+			} else {
+				err = fmt.Errorf("%s: %s (%s: %s)", util.Text("invalidLanguageError"), f[2:], util.Text("options"), util.Text("languages"))
+				fmt.Println(err)
+				fmt.Println()
+			}
 		case strings.HasPrefix(f, "p="):
 			*p = f[2:]
-			setList = append(setList, f)
 		default:
-			fmt.Printf("%s: %s\n\n", util.Text("noOptionError"), f)
+			err = fmt.Errorf("%s: %s", util.Text("noOptionError"), f)
+			fmt.Println(err)
+			fmt.Println()
 		}
 	}
-
-	if len(setList) != 0 {
-		fmt.Printf("<! %v %s >\n\n", setList, util.Text("set"))
+	if err == nil {
+		fmt.Printf("%s r=%t i=%t ipa=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *r, *i, *ipa, *a, *n, *m, *l, *p)
 	}
 }
 
-func unsetFlags(arg string, r, i, ipa, a, n *bool) {
-	const start int = 6 // u,n,s,e,t,[ = 0,1,2,3,4,5
-	flagList := strings.Split(arg[6:len(arg)-1], ",")
-	unsetList := []string{}
-	for _, f := range flagList {
-		switch f {
-		case "":
-			fmt.Println()
-		case "r":
-			*r = false
-			unsetList = append(unsetList, f)
-		case "i":
-			*i = false
-			unsetList = append(unsetList, f)
-		case "ipa":
-			*ipa = false
-			unsetList = append(unsetList, f)
-		case "a":
-			*a = false
-			unsetList = append(unsetList, f)
-		case "n":
-			*n = false
-			unsetList = append(unsetList, f)
-		default:
-			fmt.Printf("<! %s: %s >\n", util.Text("noOptionError"), f)
-		}
+func printHelp() {
+	flag.Usage = func() {
+		fmt.Printf("%s: ", util.Text("usage"))
+		fmt.Printf("%s [%s] [%s]\n", util.Text("bin"), util.Text("options"), util.Text("words"))
+		fmt.Printf("%s:\n", util.Text("options"))
+		flag.PrintDefaults()
 	}
-	if len(unsetList) != 0 {
-		fmt.Printf("<! %v %s >\n\n", unsetList, util.Text("unset"))
+	flag.Usage()
+}
+
+func slashCommand(s string, argsMode bool) {
+	var (
+		sc      []string
+		command string
+		args    []string
+	)
+	sc = strings.Split(s, " ")
+	command = sc[0]
+	if len(sc) > 1 {
+		args = sc[1:]
+	}
+	switch command {
+	case "/help":
+		printHelp()
+	case "/commands":
+		fmt.Println(util.Text("slashCommandHelp"))
+	case "/set":
+		setFlags(strings.Join(args, " "), argsMode)
+	case "/unset":
+		setFlags(strings.Join(args, " "), argsMode)
+	case "/quit", "/exit", "/q", "/wc":
+		os.Exit(0)
 	}
 }
 
 func main() {
 	var (
-		configuration            config.Config
-		results                  []affixes.Word
-		language, posFilter      *string
-		showVersion, showInfixes *bool
-		showIPA, reverse         *bool
-		useAffixes, numConvert   *bool
-		markdown                 *bool
+		results  []affixes.Word
+		argsMode bool
 	)
 	configuration = config.ReadConfig()
 	// Version flag, for displaying version data
@@ -260,6 +287,7 @@ func main() {
 	// Markdown formatting
 	markdown = flag.Bool("m", false, util.Text("usageM"))
 	flag.Parse()
+	argsMode = flag.NArg() > 0
 
 	if *showVersion {
 		fmt.Println(util.Version)
@@ -269,13 +297,13 @@ func main() {
 	}
 
 	// ARGS MODE
-	if flag.NArg() > 0 {
+	if argsMode {
 		for _, arg := range flag.Args() {
 			arg = strings.Replace(arg, "’", "'", -1)
 			if strings.HasPrefix(arg, "set[") && strings.HasSuffix(arg, "]") {
-				setFlags(arg, reverse, showInfixes, showIPA, useAffixes, numConvert, language, posFilter)
+				setFlags(arg, argsMode)
 			} else if strings.HasPrefix(arg, "unset[") && strings.HasSuffix(arg, "]") {
-				unsetFlags(arg, reverse, showInfixes, showIPA, useAffixes, numConvert)
+				setFlags(arg, argsMode)
 			} else {
 				if *numConvert {
 					fmt.Println(numbers.Convert(arg, *reverse))
@@ -305,10 +333,8 @@ func main() {
 			}
 
 			if input != "" {
-				if strings.HasPrefix(input, "set[") && strings.HasSuffix(input, "]") {
-					setFlags(input, reverse, showInfixes, showIPA, useAffixes, numConvert, language, posFilter)
-				} else if strings.HasPrefix(input, "unset[") && strings.HasSuffix(input, "]") {
-					unsetFlags(input, reverse, showInfixes, showIPA, useAffixes, numConvert)
+				if strings.HasPrefix(input, "/") {
+					slashCommand(input, argsMode)
 				} else {
 					if *numConvert {
 						fmt.Println(numbers.Convert(input, *reverse))
