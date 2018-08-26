@@ -8052,14 +8052,14 @@
 5632	pl	volve	ˈvol.vɛ	\N	adj.	ósmy
 5632	ru	volve	ˈvol.vɛ	\N	adj.	восьмой
 5632	sv	volve	ˈvol.vɛ	\N	adj.	åttonde (ordningstal)
-5640	de	tsyänel	t͡sjæ.nɛl	\N	n.	Fernseh/Radiosender
-5640	eng	tsyänel	t͡sjæ.nɛl	\N	n.	TV channel
-5640	est	tsyänel	t͡sjæ.nɛl	\N	n.	Telekanal
-5640	hu	tsyänel	t͡sjæ.nɛl	\N	n.	TV csatorna
-5640	nl	tsyänel	t͡sjæ.nɛl	\N	n.	tv kanaal
-5640	pl	tsyänel	t͡sjæ.nɛl	\N	n.	kanał telewizyjny
-5640	ru	tsyänel	t͡sjæ.nɛl	\N	n.	телеканал
-5640	sv	tsyänel	t͡sjæ.nɛl	\N	n.	TVkanal
+5640	de	tsyänel	ˈt͡sjæ.nɛl	\N	n.	Fernseh/Radiosender
+5640	eng	tsyänel	ˈt͡sjæ.nɛl	\N	n.	TV channel
+5640	est	tsyänel	ˈt͡sjæ.nɛl	\N	n.	Telekanal
+5640	hu	tsyänel	ˈt͡sjæ.nɛl	\N	n.	TV csatorna
+5640	nl	tsyänel	ˈt͡sjæ.nɛl	\N	n.	tv kanaal
+5640	pl	tsyänel	ˈt͡sjæ.nɛl	\N	n.	kanał telewizyjny
+5640	ru	tsyänel	ˈt͡sjæ.nɛl	\N	n.	телеканал
+5640	sv	tsyänel	ˈt͡sjæ.nɛl	\N	n.	TVkanal
 5644	de	trrtxon	tṛ.t'on	\N	n.	der TagundNachtZyklus auf Pandora
 5644	eng	trrtxon	tṛ.t'on	\N	n.	the day and night cycle of Pandora
 5644	est	trrtxon	tṛ.t'on	\N	n.	ööpäev
@@ -10468,22 +10468,22 @@
 7436	pl	muntrr	ˈmun.tṛ	\N	n.	weekend
 7436	ru	muntrr	ˈmun.tṛ	\N	n.	выходные дни
 7436	sv	muntrr	ˈmun.tṛ	\N	n.	helg
-7440	de	kintrram	ˈkin.tṛam	\N	n.	letzte Woche
-7440	eng	kintrram	ˈkin.tṛam	\N	n.	last week
-7440	est	kintrram	ˈkin.tṛam	\N	n.	eelmine nädal
-7440	hu	kintrram	ˈkin.tṛam	\N	n.	a múlt (előző) hét
-7440	nl	kintrram	ˈkin.tṛam	\N	n.	vorige week
-7440	pl	kintrram	ˈkin.tṛam	\N	n.	poprzedni tydzień
-7440	ru	kintrram	ˈkin.tṛam	\N	n.	последняя неделя
-7440	sv	kintrram	ˈkin.tṛam	\N	n.	förra veckan
-7444	de	kintrray	ˈkin.tṛaj	\N	n.	nächste Woche
-7444	eng	kintrray	ˈkin.tṛaj	\N	n.	next week
-7444	est	kintrray	ˈkin.tṛaj	\N	n.	järgmine nädal
-7444	hu	kintrray	ˈkin.tṛaj	\N	n.	a jövö (következő) hét
-7444	nl	kintrray	ˈkin.tṛaj	\N	n.	volgende week
-7444	pl	kintrray	ˈkin.tṛaj	\N	n.	następny tydzień
-7444	ru	kintrray	ˈkin.tṛaj	\N	n.	следующая неделя
-7444	sv	kintrray	ˈkin.tṛaj	\N	n.	nästa vecka
+7440	de	kintrram	ˈkin.tṛ.am	\N	n.	letzte Woche
+7440	eng	kintrram	ˈkin.tṛ.am	\N	n.	last week
+7440	est	kintrram	ˈkin.tṛ.am	\N	n.	eelmine nädal
+7440	hu	kintrram	ˈkin.tṛ.am	\N	n.	a múlt (előző) hét
+7440	nl	kintrram	ˈkin.tṛ.am	\N	n.	vorige week
+7440	pl	kintrram	ˈkin.tṛ.am	\N	n.	poprzedni tydzień
+7440	ru	kintrram	ˈkin.tṛ.am	\N	n.	последняя неделя
+7440	sv	kintrram	ˈkin.tṛ.am	\N	n.	förra veckan
+7444	de	kintrray	ˈkin.tṛ.aj	\N	n.	nächste Woche
+7444	eng	kintrray	ˈkin.tṛ.aj	\N	n.	next week
+7444	est	kintrray	ˈkin.tṛ.aj	\N	n.	järgmine nädal
+7444	hu	kintrray	ˈkin.tṛ.aj	\N	n.	a jövö (következő) hét
+7444	nl	kintrray	ˈkin.tṛ.aj	\N	n.	volgende week
+7444	pl	kintrray	ˈkin.tṛ.aj	\N	n.	następny tydzień
+7444	ru	kintrray	ˈkin.tṛ.aj	\N	n.	следующая неделя
+7444	sv	kintrray	ˈkin.tṛ.aj	\N	n.	nästa vecka
 7448	de	muntrram	ˈmun.tṛ.am	\N	n.	letztes Wochenende
 7448	eng	muntrram	ˈmun.tṛ.am	\N	n.	last weekend
 7448	est	muntrram	ˈmun.tṛ.am	\N	n.	eelmine nädalavahetus
@@ -11483,14 +11483,14 @@
 7996	pl	tìtstewnga'	tɪ.ˈt͡stɛw.ŋaʔ	\N	adj.	zuchwały, odważny
 7996	ru	tìtstewnga'	tɪ.ˈt͡stɛw.ŋaʔ	\N	adj.	храбрый, смелый
 7996	sv	tìtstewnga'	tɪ.ˈt͡stɛw.ŋaʔ	\N	adj.	modig, tapper
-8000	de	stxenutìng	ˈst'ɛ,nu,t·ɪŋ	stxenut<0><1><2>ìng	vtr.	anbieten
-8000	eng	stxenutìng	ˈst'ɛ,nu,t·ɪŋ	stxenut<0><1><2>ìng	vtr.	offer
-8000	est	stxenutìng	ˈst'ɛ,nu,t·ɪŋ	stxenut<0><1><2>ìng	vtr.	pakkuma
-8000	hu	stxenutìng	ˈst'ɛ,nu,t·ɪŋ	stxenut<0><1><2>ìng	vtr.	ajánl
-8000	nl	stxenutìng	ˈst'ɛ,nu,t·ɪŋ	stxenut<0><1><2>ìng	vtr.	aanbieden
-8000	pl	stxenutìng	ˈst'ɛ,nu,t·ɪŋ	stxenut<0><1><2>ìng	vtr.	proponować, oferować
-8000	ru	stxenutìng	ˈst'ɛ,nu,t·ɪŋ	stxenut<0><1><2>ìng	vtr.	предлагать
-8000	sv	stxenutìng	ˈst'ɛ,nu,t·ɪŋ	stxenut<0><1><2>ìng	vtr.	erbjuda, offra
+8000	de	stxenutìng	ˈst'ɛ.nu.t·ɪŋ	stxenut<0><1><2>ìng	vtr.	anbieten
+8000	eng	stxenutìng	ˈst'ɛ.nu.t·ɪŋ	stxenut<0><1><2>ìng	vtr.	offer
+8000	est	stxenutìng	ˈst'ɛ.nu.t·ɪŋ	stxenut<0><1><2>ìng	vtr.	pakkuma
+8000	hu	stxenutìng	ˈst'ɛ.nu.t·ɪŋ	stxenut<0><1><2>ìng	vtr.	ajánl
+8000	nl	stxenutìng	ˈst'ɛ.nu.t·ɪŋ	stxenut<0><1><2>ìng	vtr.	aanbieden
+8000	pl	stxenutìng	ˈst'ɛ.nu.t·ɪŋ	stxenut<0><1><2>ìng	vtr.	proponować, oferować
+8000	ru	stxenutìng	ˈst'ɛ.nu.t·ɪŋ	stxenut<0><1><2>ìng	vtr.	предлагать
+8000	sv	stxenutìng	ˈst'ɛ.nu.t·ɪŋ	stxenut<0><1><2>ìng	vtr.	erbjuda, offra
 8004	de	tsyär	t͡sj·æɾ	tsy<0><1><2>är	vtr.	ablehnen, abweisen, zurückweisen
 8004	eng	tsyär	t͡sj·æɾ	tsy<0><1><2>är	vtr.	reject
 8004	est	tsyär	t͡sj·æɾ	tsy<0><1><2>är	vtr.	tagasi lükkama, ära põlgama
@@ -11938,13 +11938,13 @@
 8236	pl	flìnutx	flɪ.ˈnut'	\N	n.	grubość
 8236	ru	flìnutx	flɪ.ˈnut'	\N	n.	толщина
 8236	sv	flìnutx	flɪ.ˈnut'	\N	n.	tjocklek
-8240	de	sneyä	snɛ.ˈjæ	\N	pn.	sein, ihr eigene, r, s
-8240	eng	sneyä	snɛ.ˈjæ	\N	pn.	his own, her own, its own
-8240	est	sneyä	snɛ.ˈjæ	\N	pn.	tema enda oma
-8240	hu	sneyä	snɛ.ˈjæ	\N	pn.	saját(ja) egyes szám első személy
-8240	nl	sneyä	snɛ.ˈjæ	\N	pn.	zijn eigen, haar eigen, diens eigen
-8240	pl	sneyä	snɛ.ˈjæ	\N	pn.	własnego
-8240	ru	sneyä	snɛ.ˈjæ	\N	pn.	его, её
+8240	de	sneyä	ˈsnɛ.jæ	\N	pn.	sein, ihr eigene, r, s
+8240	eng	sneyä	ˈsnɛ.jæ	\N	pn.	his own, her own, its own
+8240	est	sneyä	ˈsnɛ.jæ	\N	pn.	tema enda oma
+8240	hu	sneyä	ˈsnɛ.jæ	\N	pn.	saját(ja) egyes szám első személy
+8240	nl	sneyä	ˈsnɛ.jæ	\N	pn.	zijn eigen, haar eigen, diens eigen
+8240	pl	sneyä	ˈsnɛ.jæ	\N	pn.	własnego
+8240	ru	sneyä	ˈsnɛ.jæ	\N	pn.	его, её
 8244	de	säsyep	sæ.ˈsjɛp̚	\N	n.	Falle
 8244	eng	säsyep	sæ.ˈsjɛp̚	\N	n.	trap
 8244	est	säsyep	sæ.ˈsjɛp̚	\N	n.	lõks
@@ -14064,13 +14064,13 @@
 9524	nl	ingyentsyìp	ˈiŋ.jɛn.t͡sjɪp̚	\N	n.	truuk, kunstje, vingervlugheid
 9524	pl	ingyentsyìp	ˈiŋ.jɛn.t͡sjɪp̚	\N	n.	sztuczka, sposób, naciągnięcie, podstęp, chwyt
 9524	ru	ingyentsyìp	ˈiŋ.jɛn.t͡sjɪp̚	\N	n.	трюк, фокус, особый приём
-9528	de	ningyen	ˈniŋ,jɛn	\N	adv.	in mysteriöser, rätselhafter Weise
-9528	eng	ningyen	ˈniŋ,jɛn	\N	adv.	mysteriously, in a puzzling fashion
-9528	est	ningyen	ˈniŋ,jɛn	\N	adv.	kummaliselt, arusaamatult, segadusseajavalt
-9528	hu	ningyen	ˈniŋ,jɛn	\N	adv.	titokzatosan, rejtélyes módon
-9528	nl	ningyen	ˈniŋ,jɛn	\N	adv.	mysterieus
-9528	pl	ningyen	ˈniŋ,jɛn	\N	adv.	tajemniczo, w niezrozumiały sposób
-9528	ru	ningyen	ˈniŋ,jɛn	\N	adv.	загадочно
+9528	de	ningyen	ˈniŋ.jɛn	\N	adv.	in mysteriöser, rätselhafter Weise
+9528	eng	ningyen	ˈniŋ.jɛn	\N	adv.	mysteriously, in a puzzling fashion
+9528	est	ningyen	ˈniŋ.jɛn	\N	adv.	kummaliselt, arusaamatult, segadusseajavalt
+9528	hu	ningyen	ˈniŋ.jɛn	\N	adv.	titokzatosan, rejtélyes módon
+9528	nl	ningyen	ˈniŋ.jɛn	\N	adv.	mysterieus
+9528	pl	ningyen	ˈniŋ.jɛn	\N	adv.	tajemniczo, w niezrozumiały sposób
+9528	ru	ningyen	ˈniŋ.jɛn	\N	adv.	загадочно
 9532	de	ingyenga'	ˈiŋ.jɛ.ŋaʔ	\N	adj.	mysteriös, rätselhaft
 9532	eng	ingyenga'	ˈiŋ.jɛ.ŋaʔ	\N	adj.	mysterious, puzzling, enigmatic
 9532	est	ingyenga'	ˈiŋ.jɛ.ŋaʔ	\N	adj.	arusaamatu, segane, kummaline
@@ -15024,12 +15024,12 @@
 10144	hu	krrka	ˈkṛ.ka	\N	adp.	alatt, folyamán, közben
 10144	nl	krrka	ˈkṛ.ka	\N	adp.	tijdens
 10144	ru	krrka	ˈkṛ.ka	\N	adp.	в течение
-10148	de	tìreyn	+tɪ.ˈɾɛjn	\N	n.	Zug, Eisenbahn, Bahn
-10148	eng	tìreyn	+tɪ.ˈɾɛjn	\N	n.	train
-10148	est	tìreyn	+tɪ.ˈɾɛjn	\N	n.	rong
-10148	hu	tìreyn	+tɪ.ˈɾɛjn	\N	n.	vonat
-10148	nl	tìreyn	+tɪ.ˈɾɛjn	\N	n.	trein
-10148	ru	tìreyn	+tɪ.ˈɾɛjn	\N	n.	поезд, тамвай
+10148	de	tìreyn	tɪ.ˈɾɛjn	\N	n.	Zug, Eisenbahn, Bahn
+10148	eng	tìreyn	tɪ.ˈɾɛjn	\N	n.	train
+10148	est	tìreyn	tɪ.ˈɾɛjn	\N	n.	rong
+10148	hu	tìreyn	tɪ.ˈɾɛjn	\N	n.	vonat
+10148	nl	tìreyn	tɪ.ˈɾɛjn	\N	n.	trein
+10148	ru	tìreyn	tɪ.ˈɾɛjn	\N	n.	поезд, тамвай
 10152	de	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Los Angeles
 10152	eng	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Los Angeles
 10152	est	LosÄntsyelesì	los.ˈant͡sJɛ.lɛ.sɪ	\N	pn.	Los Angeles
@@ -15402,11 +15402,11 @@
 10444	est	tìkelu	tɪ.ˈkɛ.lu	\N	n.	puudus
 10444	hu	tìkelu	tɪ.ˈkɛ.lu	\N	n.	hiány
 10444	nl	tìkelu	tɪ.ˈkɛ.lu	\N	n.	gebrek
-10448	de	tompakel	ˈtom.pa,kel	\N	n.	Dürre, Trockenheit, Trockenperiode
-10448	eng	tompakel	ˈtom.pa,kel	\N	n.	drought
-10448	est	tompakel	ˈtom.pa,kel	\N	n.	põud
-10448	hu	tompakel	ˈtom.pa,kel	\N	n.	aszály
-10448	nl	tompakel	ˈtom.pa,kel	\N	n.	droogte
+10448	de	tompakel	ˈtom.pa.kel	\N	n.	Dürre, Trockenheit, Trockenperiode
+10448	eng	tompakel	ˈtom.pa.kel	\N	n.	drought
+10448	est	tompakel	ˈtom.pa.kel	\N	n.	põud
+10448	hu	tompakel	ˈtom.pa.kel	\N	n.	aszály
+10448	nl	tompakel	ˈtom.pa.kel	\N	n.	droogte
 10452	de	syuvekel	ˈsju.vɛ.kɛl	\N	n.	Hungersnot
 10452	eng	syuvekel	ˈsju.vɛ.kɛl	\N	n.	famine
 10452	est	syuvekel	ˈsju.vɛ.kɛl	\N	n.	nälg
@@ -15627,11 +15627,11 @@
 10628	est	nivi	ˈni.vi	\N	n.	võrkkiik (magamiseks, üldine termin)
 10628	hu	nivi	ˈni.vi	\N	n.	függőágy (általános)
 10628	nl	nivi	ˈni.vi	\N	n.	slaap hangmat (algemene term)
-10632	de	swaynivi	ˈswaj,ni,vi	\N	n.	Familienhängematte (zum Schlafen)
-10632	eng	swaynivi	ˈswaj,ni,vi	\N	n.	family hammock
-10632	est	swaynivi	ˈswaj,ni,vi	\N	n.	perekonna võrkkiik
-10632	hu	swaynivi	ˈswaj,ni,vi	\N	n.	családi függőágy
-10632	nl	swaynivi	ˈswaj,ni,vi	\N	n.	familie hangmat
+10632	de	swaynivi	ˈswaj.ni.vi	\N	n.	Familienhängematte (zum Schlafen)
+10632	eng	swaynivi	ˈswaj.ni.vi	\N	n.	family hammock
+10632	est	swaynivi	ˈswaj.ni.vi	\N	n.	perekonna võrkkiik
+10632	hu	swaynivi	ˈswaj.ni.vi	\N	n.	családi függőágy
+10632	nl	swaynivi	ˈswaj.ni.vi	\N	n.	familie hangmat
 10636	de	snonivi	ˈsno.ni.vi	\N	n.	Hängematte für Einzelpersonen
 10636	eng	snonivi	ˈsno.ni.vi	\N	n.	singleperson hammock
 10636	est	snonivi	ˈsno.ni.vi	\N	n.	ühe inimese võrkkiik
@@ -16322,11 +16322,11 @@
 11296	est	lì'kong	ˈlɪʔ.koŋ	\N	n.	silp
 11296	hu	lì'kong	ˈlɪʔ.koŋ	\N	n.	szótag
 11296	nl	lì'kong	ˈlɪʔ.koŋ	\N	n.	lettergreep
-11300	de	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	Affix
-11300	eng	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	affix
-11300	est	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	liide
-11300	hu	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	toldalék
-11300	nl	lì'uvi	ˈlɪ.'ʔu.vi	\N	n.	affix
+11300	de	lì'uvi	ˈlɪ.ʔu.vi	\N	n.	Affix
+11300	eng	lì'uvi	ˈlɪ.ʔu.vi	\N	n.	affix
+11300	est	lì'uvi	ˈlɪ.ʔu.vi	\N	n.	liide
+11300	hu	lì'uvi	ˈlɪ.ʔu.vi	\N	n.	toldalék
+11300	nl	lì'uvi	ˈlɪ.ʔu.vi	\N	n.	affix
 11304	de	eolì'uvi	ˈɛ.o.lɪ.ʔu.vi	\N	n.	Präfix, Vorsilbe
 11304	eng	eolì'uvi	ˈɛ.o.lɪ.ʔu.vi	\N	n.	prefix
 11304	est	eolì'uvi	ˈɛ.o.lɪ.ʔu.vi	\N	n.	eesliide
@@ -16473,14 +16473,14 @@
 11436	est	hafyonga'	ha.ˈfjo.ŋaʔ	\N	adj.	tark, mõistlik (elutu kohta)
 11436	hu	hafyonga'	ha.ˈfjo.ŋaʔ	\N	adj.	bölcs
 11436	nl	hafyonga'	ha.ˈfjo.ŋaʔ	\N	adj.	wijs
-11440	eng	fkxara	ˈfkâa.ɾa	\N	n.	stress (mental or emotional feeling)
-11440	est	fkxara	ˈfkâa.ɾa	\N	n.	pinge, stress (vaimne või emotsionaalne tunne)
-11440	hu	fkxara	ˈfkâa.ɾa	\N	n.	stressz (érzelmi feszültség)
-11440	nl	fkxara	ˈfkâa.ɾa	\N	n.	stress (mentaal of emotioneel gevoel)
-11444	eng	fkxaranga'	ˈfkâa.ɾa.ŋaʔ	\N	adj.	stressful
-11444	est	fkxaranga'	ˈfkâa.ɾa.ŋaʔ	\N	adj.	pingeline, stressirohke
-11444	hu	fkxaranga'	ˈfkâa.ɾa.ŋaʔ	\N	adj.	stresszes (feszültségteli)
-11444	nl	fkxaranga'	ˈfkâa.ɾa.ŋaʔ	\N	adj.	stressvol
+11440	eng	fkxara	ˈfk'a.ɾa	\N	n.	stress (mental or emotional feeling)
+11440	est	fkxara	ˈfk'a.ɾa	\N	n.	pinge, stress (vaimne või emotsionaalne tunne)
+11440	hu	fkxara	ˈfk'a.ɾa	\N	n.	stressz (érzelmi feszültség)
+11440	nl	fkxara	ˈfk'a.ɾa	\N	n.	stress (mentaal of emotioneel gevoel)
+11444	eng	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	\N	adj.	stressful
+11444	est	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	\N	adj.	pingeline, stressirohke
+11444	hu	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	\N	adj.	stresszes (feszültségteli)
+11444	nl	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	\N	adj.	stressvol
 11448	eng	afpawng	a.ˈfpawŋ	\N	n.	grief
 11448	est	afpawng	a.ˈfpawŋ	\N	n.	lein
 11448	hu	afpawng	a.ˈfpawŋ	\N	n.	bánat
@@ -16505,14 +16505,14 @@
 11468	est	tong	t·oŋ	t<0><1><2>ong	vtr.	kustutama
 11468	hu	tong	t·oŋ	t<0><1><2>ong	vtr.	elolt
 11468	nl	tong	t·oŋ	t<0><1><2>ong	vtr.	uitmaken, doven
-11472	eng	reypaytun	ˈɾɛj.paj.tun	\N	adj.	red ("blood tun")
+11472	eng	reypaytun	ˈɾɛj.paj.tun	\N	adj.	red (``blood tun")
 11472	est	reypaytun	ˈɾɛj.paj.tun	\N	adj.	punane (veripunane)
 11472	hu	reypaytun	ˈɾɛj.paj.tun	\N	adj.	piros 
 11472	nl	reypaytun	ˈɾɛj.paj.tun	\N	adj.	rood ("bloed tun")
-11476	eng	txeptun	ˈtâɛp.tun	\N	adj.	orange ("fire tun")
-11476	est	txeptun	ˈtâɛp.tun	\N	adj.	oranž (tuleleegi värvi)
-11476	hu	txeptun	ˈtâɛp.tun	\N	adj.	narancssárga
-11476	nl	txeptun	ˈtâɛp.tun	\N	adj.	oranje ("vuur tun")
+11476	eng	txeptun	ˈt'ɛp.tun	\N	adj.	orange (``fire tun")
+11476	est	txeptun	ˈt'ɛp.tun	\N	adj.	oranž (tuleleegi värvi)
+11476	hu	txeptun	ˈt'ɛp.tun	\N	adj.	narancssárga
+11476	nl	txeptun	ˈt'ɛp.tun	\N	adj.	oranje ("vuur tun")
 11480	eng	vultsyìp	ˈvul.t͡sjɪp̚	\N	n.	stick
 11480	est	vultsyìp	ˈvul.t͡sjɪp̚	\N	n.	kepp
 11480	hu	vultsyìp	ˈvul.t͡sjɪp̚	\N	n.	pálca
@@ -16673,10 +16673,10 @@
 11636	est	txurtu	ˈt'uɾ.tu	\N	n.	tugev, julge isik (vastand sõnale meyptu)
 11636	hu	txurtu	ˈt'uɾ.tu	\N	n.	erős személy 
 11636	nl	txurtu	ˈt'uɾ.tu	\N	n.	sterk/gespierd persoon
-11640	eng	tìtxantslusam	tɪ.ˈt'ant͡slusam	\N	n.	wisdom (seldom used)
-11640	est	tìtxantslusam	tɪ.ˈt'ant͡slusam	\N	n.	tarkus (harv sõna)
-11640	hu	tìtxantslusam	tɪ.ˈt'ant͡slusam	\N	n.	bölcsesség (ritkán használt)
-11640	nl	tìtxantslusam	tɪ.ˈt'ant͡slusam	\N	n.	wijsheid (zelden gebruikt)
+11640	eng	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	\N	n.	wisdom (seldom used)
+11640	est	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	\N	n.	tarkus (harv sõna)
+11640	hu	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	\N	n.	bölcsesség (ritkán használt)
+11640	nl	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	\N	n.	wijsheid (zelden gebruikt)
 11644	eng	pamrelvul	pam.ˈrel.vul	\N	n.	pen, pencil, lit. "writing stick."
 11644	est	pamrelvul	pam.ˈrel.vul	\N	n.	pliiats, pastakas (otse: kirjutamiskepp)
 11644	hu	pamrelvul	pam.ˈrel.vul	\N	n.	toll, ceruza, szó szerint: írópálca
@@ -16700,6 +16700,18 @@
 11664	eng	uolì’uvi	ˈu.o.lɪ.ʔu.vi	\N	n.	suffix
 11664	hu	uolì’uvi	ˈu.o.lɪ.ʔu.vi	\N	n.	toldalék, utótag
 11664	nl	uolì’uvi	ˈu.o.lɪ.ʔu.vi	\N	n.	suffix
+11668	eng	'on si	ˈʔon s·i	'on s<0><1><2>i	vin.	shape, give shape (to something)
+11672	eng	kxange	ˈk'·a.ŋ·e	kx<0><1>ang<2>e	vin.	yawn
+11676	eng	säkxange	sæ.ˈk'a.ŋɛ	\N	n.	yawn
+11680	eng	walew	w·a.ˈl·ɛw	w<0><1>al<2>ew	vin.	get over, accept some fact, reconcile oneself, move on
+11684	eng	nìnew	nɪ.ˈnɛw	\N	adv.	voluntarily, willingly, by desire
+11688	eng	tawtxew	ˈtaw.t'ɛw	\N	n.	horizon, skyline
+11692	eng	frir	fɾiɾ	\N	n.	layer
+11696	eng	lefrir	le.ˈfɾiɾ	\N	adj.	layered
+11700	eng	nìfrir	nɪ.ˈfɾiɾ	\N	adv.	in layers
+11704	eng	leyr	lɛjr	\N	adj.	frozen
+11708	eng	leyr si	ˈlɛjr s·i	leyr s<0><1><2>i	vin.	freeze (something)
+11712	eng	lesar si	lɛ.ˈsaɾ s·i	lesar s<0><1><2>i	vin.	be useful, be of use, come in handy
 -1	eng	Vawmataw	ˈvaw.ma.taw	\N	prop.n.	Eyktan Ayhangvurä
 0	eng	Eywa	ˈɛj.wa	\N	prop.n.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.
 1	eng	Tìlu	tɪ.ˈlu	\N	prop.n.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i
