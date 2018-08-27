@@ -65,7 +65,7 @@ func init() {
 	texts["config"] = filepath.Join(texts["dataDir"], "config.json")
 	texts["dictionary"] = filepath.Join(texts["dataDir"], "dictionary.txt")
 	texts["dictURL"] = "https://tirea.learnnavi.org/dictionarydata/dictionary.txt"
-	texts["dlSuccess"] = texts["dictURL"] + "\nsaved to\n" + texts["dictionary"]
+	texts["dlSuccess"] = texts["dictURL"] + "\nsaved to\n" + texts["dictionary"] + "\n"
 
 	// general message strings
 	texts["cset"] = "Currently set"
