@@ -16,6 +16,10 @@
 package util
 
 import (
+	"fmt"
+	"io"
+	"net/http"
+	"os"
 	"strings"
 	"unicode"
 )
@@ -130,4 +134,28 @@ func Valid(input int64, reverse bool) bool {
 		return true
 	}
 	return false
+}
+
+// DownloadDict downloads the latest released version of the dictionary file
+func DownloadDict() error {
+	var (
+		filepath = Text("dictionary")
+		url      = Text("dictURL")
+	)
+	out, err := os.Create(filepath)
+	if err != nil {
+		return err
+	}
+	defer out.Close()
+	resp, err := http.Get(url)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+	_, err = io.Copy(out, resp.Body)
+	if err != nil {
+		return err
+	}
+	fmt.Println(Text("dlSuccess"))
+	return nil
 }

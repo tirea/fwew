@@ -174,14 +174,6 @@ func printResults(results []affixes.Word, reverse, showInfixes, showIPA, useAffi
 func setFlags(arg string, argsMode bool) {
 	var (
 		flagList []string
-		r        = reverse
-		i        = showInfixes
-		ipa      = showIPA
-		a        = useAffixes
-		n        = numConvert
-		m        = markdown
-		l        = language
-		p        = posFilter
 		err      error
 		langs    = strings.Split(util.Text("languages"), ", ")
 	)
@@ -195,27 +187,27 @@ func setFlags(arg string, argsMode bool) {
 		switch {
 		case f == "":
 		case f == "r":
-			*r = !*r
+			*reverse = !*reverse
 		case f == "i":
-			*i = !*i
+			*showInfixes = !*showInfixes
 		case f == "ipa":
-			*ipa = !*ipa
+			*showIPA = !*showIPA
 		case f == "a":
-			*a = !*a
+			*useAffixes = !*useAffixes
 		case f == "n":
-			*n = !*n
+			*numConvert = !*numConvert
 		case f == "m":
-			*m = !*m
+			*markdown = !*markdown
 		case strings.HasPrefix(f, "l="):
 			if util.ContainsStr(langs, f[2:]) {
-				*l = f[2:]
+				*language = f[2:]
 			} else {
 				err = fmt.Errorf("%s: %s (%s: %s)", util.Text("invalidLanguageError"), f[2:], util.Text("options"), util.Text("languages"))
 				fmt.Println(err)
 				fmt.Println()
 			}
 		case strings.HasPrefix(f, "p="):
-			*p = f[2:]
+			*posFilter = f[2:]
 		default:
 			err = fmt.Errorf("%s: %s", util.Text("noOptionError"), f)
 			fmt.Println(err)
@@ -223,7 +215,7 @@ func setFlags(arg string, argsMode bool) {
 		}
 	}
 	if err == nil {
-		fmt.Printf("%s r=%t i=%t ipa=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *r, *i, *ipa, *a, *n, *m, *l, *p)
+		fmt.Printf("%s r=%t i=%t ipa=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *reverse, *showInfixes, *showIPA, *useAffixes, *numConvert, *markdown, *language, *posFilter)
 	}
 }
 
@@ -257,6 +249,8 @@ func slashCommand(s string, argsMode bool) {
 		setFlags(strings.Join(args, " "), argsMode)
 	case "/unset":
 		setFlags(strings.Join(args, " "), argsMode)
+	case "/update":
+		util.DownloadDict()
 	case "/quit", "/exit", "/q", "/wc":
 		os.Exit(0)
 	}
