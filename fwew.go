@@ -291,6 +291,8 @@ func slashCommand(s string, argsMode bool) {
 		util.DownloadDict()
 	case "/quit", "/exit", "/q", "/wc":
 		os.Exit(0)
+	default:
+		fmt.Println()
 	}
 }
 
