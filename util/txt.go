@@ -27,36 +27,40 @@ var texts = map[string]string{}
 
 func init() {
 	// main program strings
-	texts["name"] = "Fwew"
+	texts["name"] = "fwew"
 	texts["tagline"] = "The Best Na'vi Dictionary on the Command Line"
-	texts["tip"] = "Type \"/help\" or \"/commands\" for more info"
+	texts["tip"] = "type \"/help\" or \"/commands\" for more info"
 	texts["author"] = "Tirea Aean"
 	texts["header"] = fmt.Sprintf("%s\n%s\n%s\n", Version, texts["tagline"], texts["tip"])
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
 	texts["prompt"] = "~>> "
 
 	// slash-commands Help
-	texts["/set"] = "/set       show currently set options, set options separated by space\n"
-	texts["/unset"] = "/unset     unset options separated by space\n"
+	texts["/set"] = "/set       show currently set options, or set given options (separated by space)\n"
+	texts["/unset"] = "/unset     unset given options (separated by space)\n"
+	texts["/list"] = "/list      list all words with given part of speech\n"
+	texts["/update"] = "/update    download and update the dictionary file\n"
 	texts["/commands"] = "/commands  Show this commands help text\n"
 	texts["/help"] = "/help      Show main help text\n"
 	texts["/exit"] = "/exit      exit/quit the program (aliases /quit /q /wc)\n\n"
-	texts["/examples"] = "Examples:\n/set\n/set ipa l=de\n/unset ipa\n/set i l=eng\n/unset a r"
-	texts["slashCommandHelp"] = texts["/set"] + texts["/unset"] + texts["/commands"] + texts["/help"] + texts["/exit"] + texts["/examples"]
+	texts["/examples"] = fmt.Sprintf("%s:\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n",
+		"examples", "/set", "/set i ipa", "/unset i", "/list svin.", "/update", "/commands", "/help", "/exit")
+	texts["slashCommandHelp"] = texts["/set"] + texts["/unset"] + texts["/list"] +
+		texts["/update"] + texts["/commands"] + texts["/help"] + texts["/exit"] + texts["/examples"]
 
 	// flag strings
-	texts["usage"] = "Usage"
+	texts["usage"] = "usage"
 	texts["bin"] = strings.ToLower(texts["name"])
 	texts["options"] = "options"
 	texts["words"] = "words"
-	texts["usageV"] = "Show program & dictionary version numbers"
-	texts["usageL"] = "Use specified language \n\tValid values: " + texts["languages"]
-	texts["usageI"] = "Display infix location data"
-	texts["usageIPA"] = "Display IPA data"
-	texts["usageP"] = "Search for word(s) with specified part of speech"
-	texts["usageR"] = "Reverse the lookup direction from Na'vi->Local to Local->Na'vi"
-	texts["usageA"] = "Find all matches by using affixes to match the input word"
-	texts["usageN"] = "Convert Numbers Octal<->Decimal"
+	texts["usageV"] = "show program & dictionary version numbers"
+	texts["usageL"] = "use specified language \n\tValid values: " + texts["languages"]
+	texts["usageI"] = "display infix location data"
+	texts["usageIPA"] = "display IPA data"
+	texts["usageP"] = "search for word(s) with specified part of speech"
+	texts["usageR"] = "reverse the lookup direction from Na'vi->local to local->Na'vi"
+	texts["usageA"] = "find all matches by using affixes to match the input word"
+	texts["usageN"] = "convert numbers octal<->decimal"
 	texts["defaultFilter"] = "all"
 
 	// file strings
@@ -68,12 +72,12 @@ func init() {
 	texts["dlSuccess"] = texts["dictURL"] + "\nsaved to\n" + texts["dictionary"] + "\n"
 
 	// general message strings
-	texts["cset"] = "Currently set"
+	texts["cset"] = "currently set"
 	texts["set"] = "set"
 	texts["unset"] = "unset"
 
 	// error message strings
-	texts["none"] = "No Results\n"
+	texts["none"] = "no results\n"
 	texts["noDataError"] = "err 1: failed to open and/or read dictionary file (" + texts["dictionary"] + ")"
 	texts["fileError"] = "err 2: failed to open and/or read configuration file (" + texts["config"] + ")"
 	texts["noOptionError"] = "err 3: invalid option"

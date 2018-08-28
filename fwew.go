@@ -50,7 +50,7 @@ var (
 	markdown                 *bool
 )
 
-func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
+func fwew(word string) []affixes.Word {
 	var (
 		result    affixes.Word
 		results   []affixes.Word
@@ -86,11 +86,11 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 		result = affixes.InitWordStruct(result, fields)
 
 		// Looking for Local word in Definition field
-		if reverse {
+		if *reverse {
 			// whole-word matching
 			defString = util.StripChars(fields[defField], ",;")
-			if fields[lcField] == lc {
-				if posFilter == "all" || fields[posField] == posFilter {
+			if fields[lcField] == *language {
+				if *posFilter == "all" || fields[posField] == *posFilter {
 					for _, w := range strings.Split(defString, " ") {
 						if strings.ToLower(w) == strings.ToLower(word) && !added {
 							results = append(results, result)
@@ -103,13 +103,13 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 
 			// Looking for Na'vi word in Na'vi field
 		} else {
-			if fields[lcField] == lc {
+			if fields[lcField] == *language {
 				if strings.ToLower(fields[navField]) == strings.ToLower(word) {
 					results = append(results, result)
-					if !useAffixes {
+					if !*useAffixes {
 						break
 					}
-				} else if useAffixes {
+				} else if *useAffixes {
 					result.Target = word
 					result = affixes.Reconstruct(result)
 					if result.ID != "-1" {
@@ -126,7 +126,7 @@ func fwew(word, lc, posFilter string, reverse, useAffixes bool) []affixes.Word {
 	return results
 }
 
-func printResults(results []affixes.Word, reverse, showInfixes, showIPA, useAffixes, markdown bool) {
+func printResults(results []affixes.Word) {
 	if len(results) != 0 {
 		var out string
 
@@ -138,7 +138,7 @@ func printResults(results []affixes.Word, reverse, showInfixes, showIPA, useAffi
 			inf := fmt.Sprintf("%s ", w.InfixLocations)
 			def := fmt.Sprintf("%s\n", w.Definition)
 
-			if markdown {
+			if *markdown {
 				nav = "**" + nav + "** "
 				pos = "*" + pos + "* "
 			} else {
@@ -148,15 +148,15 @@ func printResults(results []affixes.Word, reverse, showInfixes, showIPA, useAffi
 
 			out += num
 			out += nav
-			if showIPA {
+			if *showIPA {
 				out += ipa
 			}
-			if showInfixes && w.InfixLocations != "\\N" {
+			if *showInfixes && w.InfixLocations != "\\N" {
 				out += inf
 			}
 			out += pos
 			out += def
-			if useAffixes && len(w.Affixes) > 0 {
+			if *useAffixes && len(w.Affixes) > 0 {
 				for key, value := range w.Affixes {
 					out += fmt.Sprintf("    %s: %s\n", key, value)
 				}
@@ -229,6 +229,42 @@ func printHelp() {
 	flag.Usage()
 }
 
+func listByPos(pos string) {
+	var (
+		result  affixes.Word
+		results []affixes.Word
+		fields  []string
+	)
+	// No Results if empty string after removing sketch chars
+	if len(pos) == 0 {
+		fmt.Println()
+		return
+	}
+	// Prepare file for searching
+	dictData, err := os.Open(util.Text("dictionary"))
+	defer dictData.Close()
+	if err != nil {
+		fmt.Println(errors.New(util.Text("noDataError")))
+		log.Fatal(err)
+	}
+	scanner := bufio.NewScanner(dictData)
+
+	// Go through each line and see what we can find
+	for scanner.Scan() {
+		line := scanner.Text()
+		// Store the fields of the line into fields array
+		fields = strings.Split(line, "\t")
+		if fields[lcField] == *language {
+			if strings.Contains(fields[posField], pos) {
+				// Put the stuff from fields into the Word struct
+				result = affixes.InitWordStruct(result, fields)
+				results = append(results, result)
+			}
+		}
+	}
+	printResults(results)
+}
+
 func slashCommand(s string, argsMode bool) {
 	var (
 		sc      []string
@@ -249,6 +285,8 @@ func slashCommand(s string, argsMode bool) {
 		setFlags(strings.Join(args, " "), argsMode)
 	case "/unset":
 		setFlags(strings.Join(args, " "), argsMode)
+	case "/list":
+		listByPos(strings.Join(args, " "))
 	case "/update":
 		util.DownloadDict()
 	case "/quit", "/exit", "/q", "/wc":
@@ -302,8 +340,8 @@ func main() {
 				if *numConvert {
 					fmt.Println(numbers.Convert(arg, *reverse))
 				} else {
-					results = fwew(arg, *language, *posFilter, *reverse, *useAffixes)
-					printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes, *markdown)
+					results = fwew(arg)
+					printResults(results)
 				}
 			}
 		}
@@ -333,8 +371,8 @@ func main() {
 					if *numConvert {
 						fmt.Println(numbers.Convert(input, *reverse))
 					} else {
-						results = fwew(input, *language, *posFilter, *reverse, *useAffixes)
-						printResults(results, *reverse, *showInfixes, *showIPA, *useAffixes, *markdown)
+						results = fwew(input)
+						printResults(results)
 					}
 				}
 			} else {
