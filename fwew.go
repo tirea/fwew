@@ -356,6 +356,7 @@ func main() {
 			fmt.Print(util.Text("prompt"))
 
 			scanner := bufio.NewScanner(os.Stdin)
+			scanner.Scan()
 			input := scanner.Text()
 			input = strings.Replace(input, "’", "'", -1)
 
