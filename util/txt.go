@@ -38,13 +38,15 @@ func init() {
 	// slash-commands Help
 	texts["/set"] = "/set       show currently set options, or set given options (separated by space)\n"
 	texts["/unset"] = "/unset     unset given options (separated by space)\n"
-	texts["/list"] = "/list      list all words with given part of speech\n"
+	texts["/list"] = "/list      list all words that meet given criteria\n"
 	texts["/update"] = "/update    download and update the dictionary file\n"
 	texts["/commands"] = "/commands  Show this commands help text\n"
 	texts["/help"] = "/help      Show main help text\n"
 	texts["/exit"] = "/exit      exit/quit the program (aliases /quit /q /wc)\n\n"
-	texts["/examples"] = fmt.Sprintf("%s:\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n",
-		"examples", "/set", "/set i ipa", "/unset i", "/list svin.", "/update", "/commands", "/help", "/exit")
+	texts["/examples"] = fmt.Sprintf("%s:\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n",
+		"examples", "/set", "/set i ipa", "/unset i", "/list pos has svin.", "/list pos is vtrm.",
+		"/list word starts prr", "/list word ends tut", "/list word has kang", "/list syllables >= 5",
+		"/list syllables = 1", "/update", "/commands", "/help", "/exit")
 	texts["slashCommandHelp"] = texts["/set"] + texts["/unset"] + texts["/list"] +
 		texts["/update"] + texts["/commands"] + texts["/help"] + texts["/exit"] + texts["/examples"]
 
