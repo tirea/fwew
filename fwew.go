@@ -21,6 +21,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strconv"
 	"strings"
 
 	"github.com/tirea/fwew/affixes"
@@ -229,18 +230,39 @@ func printHelp() {
 	flag.Usage()
 }
 
-func listByPos(pos string) {
+func syllableCount(w affixes.Word) int64 {
+	// syllable dot counter
+	var sdc int64 = 0
+	for _, char := range w.IPA {
+		if char == '.' {
+			sdc += 1
+		}
+	}
+	return sdc + 1
+}
+
+func listWords(args []string) {
 	var (
 		result  affixes.Word
 		results []affixes.Word
 		fields  []string
+		what    = args[0]
+		cond    = args[1]
+		spec    = args[2]
 	)
-	// No Results if empty string after removing sketch chars
-	if len(pos) == 0 {
-		fmt.Println()
-		return
-	}
-	// Prepare file for searching
+	// /list what cond spec
+	// /list pos has svin.
+	// /list pos is v.
+	// /list word starts ft
+	// /list word ends ang
+	// /list word has ts
+	// /list syllables > 1
+	// /list syllables = 2
+	// /list syllables <= 3
+
+	// result = affixes.InitWordStruct(result, fields)
+	// results = append(results, result)
+
 	dictData, err := os.Open(util.Text("dictionary"))
 	defer dictData.Close()
 	if err != nil {
@@ -248,17 +270,69 @@ func listByPos(pos string) {
 		log.Fatal(err)
 	}
 	scanner := bufio.NewScanner(dictData)
-
-	// Go through each line and see what we can find
 	for scanner.Scan() {
 		line := scanner.Text()
-		// Store the fields of the line into fields array
 		fields = strings.Split(line, "\t")
 		if fields[lcField] == *language {
-			if strings.Contains(fields[posField], pos) {
-				// Put the stuff from fields into the Word struct
+			switch what {
+			case "pos":
+				if cond == "is" {
+					if fields[posField] == spec {
+						result = affixes.InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				} else if cond == "has" {
+					if strings.Contains(fields[posField], spec) {
+						result = affixes.InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				}
+			case "word":
+				if cond == "starts" {
+					if strings.HasPrefix(fields[navField], spec) {
+						result = affixes.InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				} else if cond == "ends" {
+					if strings.HasSuffix(fields[navField], spec) {
+						result = affixes.InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				} else if cond == "has" {
+					if strings.Contains(fields[navField], spec) {
+						result = affixes.InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				}
+			case "syllables":
 				result = affixes.InitWordStruct(result, fields)
-				results = append(results, result)
+				ispec, err := strconv.ParseInt(spec, 10, 64)
+				if err != nil {
+					fmt.Println(util.Text("invalidDecimalError"))
+					return
+				}
+				switch cond {
+				case "<":
+					if syllableCount(result) < ispec {
+						results = append(results, result)
+					}
+				case "<=":
+					if syllableCount(result) <= ispec {
+						results = append(results, result)
+					}
+				case "=":
+					if syllableCount(result) == ispec {
+						results = append(results, result)
+					}
+				case ">=":
+					if syllableCount(result) >= ispec {
+						results = append(results, result)
+					}
+				case ">":
+					if syllableCount(result) > ispec {
+						results = append(results, result)
+					}
+				}
 			}
 		}
 	}
@@ -286,7 +360,11 @@ func slashCommand(s string, argsMode bool) {
 	case "/unset":
 		setFlags(strings.Join(args, " "), argsMode)
 	case "/list":
-		listByPos(strings.Join(args, " "))
+		if len(args) == 3 {
+			listWords(args)
+		} else {
+			fmt.Println()
+		}
 	case "/update":
 		util.DownloadDict()
 	case "/quit", "/exit", "/q", "/wc":
