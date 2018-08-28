@@ -355,13 +355,12 @@ func main() {
 		for {
 			fmt.Print(util.Text("prompt"))
 
-			reader := bufio.NewReader(os.Stdin)
-			input, err := reader.ReadString('\n')
-			input = strings.Trim(input, "\n")
+			scanner := bufio.NewScanner(os.Stdin)
+			input := scanner.Text()
 			input = strings.Replace(input, "’", "'", -1)
 
 			// catch EOF error
-			if err != nil {
+			if err := scanner.Err(); err != nil {
 				fmt.Println()
 				os.Exit(0)
 			}
