@@ -16713,8 +16713,8 @@
 11708	eng	leyr si	ˈlɛjr s·i	leyr s<0><1><2>i	vin.	freeze (something)
 11712	eng	lesar si	lɛ.ˈsaɾ s·i	lesar s<0><1><2>i	vin.	be useful, be of use, come in handy
 -1	eng	Vawmataw	ˈvaw.ma.taw	\N	prop.n.	Eyktan Ayhangvurä
-0	eng	Eywa	ˈɛj.wa	\N	prop.n.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.
-1	eng	Tìlu	tɪ.ˈlu	\N	prop.n.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i
-2	eng	mako si	ˈma.ko s·i	mako s<1><2><3>i	vin.	to construct a sentence in a difficult to read fashion
-3	eng	nävi	ˈnæ.vi	\N	n.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)
-5	eng	pokx	pok'	p<0><1><2>okx	vtr.	poke
+0	eng	Eywa	ˈɛj.wa	\N	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.
+1	eng	Tìlu	tɪ.ˈlu	\N	meme.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i
+2	eng	mako si	ˈma.ko s·i	mako s<1><2><3>i	meme.	to construct a sentence in a difficult to read fashion
+3	eng	nävi	ˈnæ.vi	\N	meme.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)
+5	eng	pokx	pok'	p<0><1><2>okx	meme.	poke
