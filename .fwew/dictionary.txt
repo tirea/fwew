@@ -16052,11 +16052,11 @@
 10992	est	tìtxurnga'	tɪ.ˈt'uɾ. ŋaʔ	\N	adj.	võimas (elutu kohta)
 10992	hu	tìtxurnga'	tɪ.ˈt'uɾ. ŋaʔ	\N	adj.	erős
 10992	nl	tìtxurnga'	tɪ.ˈt'uɾ. ŋaʔ	\N	adj.	machtig
-10996	de	leym	l·ɛjm	l<0><1><2>eym	vim.	ausrufen, herausrufen, aufschreien
-10996	eng	leym	l·ɛjm	l<0><1><2>eym	vim.	call, cry out, exclaim
-10996	est	leym	l·ɛjm	l<0><1><2>eym	vim.	hüüdma, karjuma
-10996	hu	leym	l·ɛjm	l<0><1><2>eym	vim.	kiált
-10996	nl	leym	l·ɛjm	l<0><1><2>eym	vim.	roepen, (uit)schreeuwen
+10996	de	leym	l·ɛjm	l<0><1><2>eym	vin.	ausrufen, herausrufen, aufschreien
+10996	eng	leym	l·ɛjm	l<0><1><2>eym	vin.	call, cry out, exclaim
+10996	est	leym	l·ɛjm	l<0><1><2>eym	vin.	hüüdma, karjuma
+10996	hu	leym	l·ɛjm	l<0><1><2>eym	vin.	kiált
+10996	nl	leym	l·ɛjm	l<0><1><2>eym	vin.	roepen, (uit)schreeuwen
 11000	de	nìzen	nɪ.ˈzɛn	\N	adv.	notwendigerweise, zwangsläufig, zwingend, zwingendermaßen
 11000	eng	nìzen	nɪ.ˈzɛn	\N	adv.	necessarily
 11000	est	nìzen	nɪ.ˈzɛn	\N	adv.	kindlasti, ilmtingimata
