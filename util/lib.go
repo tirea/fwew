@@ -101,9 +101,9 @@ func IsLetter(s string) bool {
 func Reverse(s string) string {
 	n := len(s)
 	runes := make([]rune, n)
-	for _, rune := range s {
+	for _, r := range s {
 		n--
-		runes[n] = rune
+		runes[n] = r
 	}
 	return string(runes[n:])
 }

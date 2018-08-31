@@ -32,11 +32,11 @@ import (
 
 // Global
 const (
-	idField  int = 0 // dictionary.txt line Field 0 is Database ID
+	// idField  int = 0 // dictionary.txt line Field 0 is Database ID
 	lcField  int = 1 // dictionary.txt line field 1 is Language Code
 	navField int = 2 // dictionary.txt line field 2 is Na'vi word
-	ipaField int = 3 // dictionary.txt line field 3 is IPA data
-	infField int = 4 // dictionary.txt line field 4 is Infix location data
+	//ipaField int = 3 // dictionary.txt line field 3 is IPA data
+	//infField int = 4 // dictionary.txt line field 4 is Infix location data
 	posField int = 5 // dictionary.txt line field 5 is Part of Speech data
 	defField int = 6 // dictionary.txt line field 6 is Local definition
 )

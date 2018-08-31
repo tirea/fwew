@@ -22,7 +22,7 @@ import (
 	"strings"
 )
 
-var usr, err = user.Current()
+var usr, _ = user.Current()
 var texts = map[string]string{}
 
 func init() {
@@ -96,6 +96,6 @@ func Text(s string) string {
 }
 
 // SetText is the setter for []string texts
-func SetText(i, s string) {
-	texts[i] = s
-}
+//func SetText(i, s string) {
+//	texts[i] = s
+//}

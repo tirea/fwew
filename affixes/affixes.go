@@ -97,7 +97,7 @@ func prefix(w Word) Word {
 		re            *regexp.Regexp
 		reString      string
 		attempt       string
-		matchPrefixes = []string{}
+		matchPrefixes []string
 	)
 
 	// pull this out of the switch because the pos data for verbs is so irregular,
@@ -158,7 +158,7 @@ func suffix(w Word) Word {
 		re            *regexp.Regexp
 		reString      string
 		attempt       string
-		matchSuffixes = []string{}
+		matchSuffixes []string
 		adp           = []string{"mungwrr", "kxamlä", "tafkip", "pxisre", "pximaw",
 			"ftumfa", "mìkam", "nemfa", "takip", "lisre", "talun", "krrka", "teri",
 			"fkip", "pxaw", "pxel", "luke", "rofa", "fpi", "ftu", "kip", "vay", "lok",
@@ -263,7 +263,7 @@ func infix(w Word) Word {
 		pos0InfixString string
 		pos1InfixString string
 		pos2InfixString string
-		matchInfixes    = []string{}
+		matchInfixes    []string
 	)
 
 	reString = strings.Replace(w.InfixLocations, "<0>", pos0InfixRe, 1)

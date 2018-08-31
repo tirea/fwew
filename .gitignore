@@ -3,3 +3,4 @@ debug.txt
 input*.txt
 output*.txt
 .DS_Store
+.idea
