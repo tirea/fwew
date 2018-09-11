@@ -40,6 +40,7 @@ type Word struct {
 	InfixLocations string
 	PartOfSpeech   string
 	Definition     string
+	Source         string
 	Affixes        map[string][]string
 }
 
@@ -52,13 +53,14 @@ func (w Word) String() string {
 // InitWordStruct is basically a constructer for Word struct
 func InitWordStruct(w Word, dataFields []string) Word {
 	const (
-		idField  int = 0 // dictionary.tsv line Field 0 is Database ID
-		lcField  int = 1 // dictionary.tsv line field 1 is Language Code
-		navField int = 2 // dictionary.tsv line field 2 is Na'vi word
-		ipaField int = 3 // dictionary.tsv line field 3 is IPA data
-		infField int = 4 // dictionary.tsv line field 4 is Infix location data
-		posField int = 5 // dictionary.tsv line field 5 is Part of Speech data
-		defField int = 6 // dictionary.tsv line field 6 is Local definition
+		idField  int = 0 // dictionary.txt line Field 0 is Database ID
+		lcField  int = 1 // dictionary.txt line field 1 is Language Code
+		navField int = 2 // dictionary.txt line field 2 is Na'vi word
+		ipaField int = 3 // dictionary.txt line field 3 is IPA data
+		infField int = 4 // dictionary.txt line field 4 is Infix location data
+		posField int = 5 // dictionary.txt line field 5 is Part of Speech data
+		defField int = 6 // dictionary.txt line field 6 is Local definition
+		srcField int = 7 // dictionary.txt line field 7 is Source data
 	)
 	w.ID = dataFields[idField]
 	w.LangCode = dataFields[lcField]
@@ -67,6 +69,7 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	w.InfixLocations = dataFields[infField]
 	w.PartOfSpeech = dataFields[posField]
 	w.Definition = dataFields[defField]
+	w.Source = dataFields[srcField]
 	w.Affixes = map[string][]string{}
 
 	return w
@@ -84,6 +87,7 @@ func CloneWordStruct(w Word) Word {
 	nw.InfixLocations = w.InfixLocations
 	nw.PartOfSpeech = w.PartOfSpeech
 	nw.Definition = w.Definition
+	nw.Source = w.Source
 	nw.Affixes = make(map[string][]string)
 	for k := range w.Affixes {
 		nw.Affixes[k] = make([]string, len(w.Affixes[k]))
@@ -104,7 +108,7 @@ func prefix(w Word) Word {
 	// the switch condition would be like 25 possibilities long
 	if strings.HasPrefix(w.PartOfSpeech, "v") ||
 		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
-		inf := w.Affixes["infixes"]
+		inf := w.Affixes[util.Text("inf")]
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
 			reString = "(a|tì)?"
 		} else {
@@ -149,7 +153,7 @@ func prefix(w Word) Word {
 
 	w.Attempt = attempt + w.Attempt
 
-	w.Affixes["prefixes"] = matchPrefixes
+	w.Affixes[util.Text("pre")] = matchPrefixes
 	return w
 }
 
@@ -175,8 +179,8 @@ func suffix(w Word) Word {
 	// the switch condition would be like 25 possibilities long
 	if strings.HasPrefix(w.PartOfSpeech, "v") ||
 		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
-		inf := w.Affixes["infixes"]
-		pre := w.Affixes["prefixes"]
+		inf := w.Affixes[util.Text("inf")]
+		pre := w.Affixes[util.Text("pre")]
 		// word is verb with <us> or <awn>
 		if len(inf) == 1 && (inf[0] == "us" || inf[0] == "awn") {
 			// it's a tì-<us> gerund; treat it like a noun
@@ -239,13 +243,13 @@ func suffix(w Word) Word {
 	}
 
 	w.Attempt = w.Attempt + attempt
-	w.Affixes["suffixes"] = matchSuffixes
+	w.Affixes[util.Text("suf")] = matchSuffixes
 	return w
 }
 
 func infix(w Word) Word {
 	// Have we already attempted infixes?
-	if _, ok := w.Affixes["infixes"]; ok {
+	if _, ok := w.Affixes[util.Text("inf")]; ok {
 		return w
 	}
 	// Does the word even have infix positions??
@@ -310,7 +314,7 @@ func infix(w Word) Word {
 
 	w.Attempt = attempt
 	if len(matchInfixes) != 0 {
-		w.Affixes["infixes"] = matchInfixes
+		w.Affixes[util.Text("inf")] = matchInfixes
 	}
 
 	return w

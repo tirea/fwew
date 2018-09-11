@@ -59,6 +59,7 @@ func init() {
 	texts["usageL"] = "use specified language \n\tValid values: " + texts["languages"]
 	texts["usageI"] = "display infix location data"
 	texts["usageIPA"] = "display IPA data"
+	texts["usageS"] = "display source data"
 	texts["usageP"] = "search for word(s) with specified part of speech"
 	texts["usageR"] = "reverse the lookup direction from Na'vi->local to local->Na'vi"
 	texts["usageA"] = "find all matches by using affixes to match the input word"
@@ -77,6 +78,10 @@ func init() {
 	texts["cset"] = "currently set"
 	texts["set"] = "set"
 	texts["unset"] = "unset"
+	texts["pre"] = "Prefixes"
+	texts["inf"] = "Infixes"
+	texts["suf"] = "Suffixes"
+	texts["src"] = "source"
 
 	// error message strings
 	texts["none"] = "no results\n"

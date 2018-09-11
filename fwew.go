@@ -47,6 +47,7 @@ var (
 	language, posFilter      *string
 	showVersion, showInfixes *bool
 	showIPA, reverse         *bool
+	showSource               *bool
 	useAffixes, numConvert   *bool
 	markdown                 *bool
 )
@@ -138,6 +139,7 @@ func printResults(results []affixes.Word) {
 			pos := fmt.Sprintf("%s", w.PartOfSpeech)
 			inf := fmt.Sprintf("%s ", w.InfixLocations)
 			def := fmt.Sprintf("%s\n", w.Definition)
+			src := fmt.Sprintf("    %s: %s\n", util.Text("src"), w.Source)
 
 			if *markdown {
 				nav = "**" + nav + "** "
@@ -161,6 +163,9 @@ func printResults(results []affixes.Word) {
 				for key, value := range w.Affixes {
 					out += fmt.Sprintf("    %s: %s\n", key, value)
 				}
+			}
+			if *showSource && w.Source != "" {
+				out += src
 			}
 		}
 		out += fmt.Sprintf("\n")
@@ -193,6 +198,8 @@ func setFlags(arg string, argsMode bool) {
 			*showInfixes = !*showInfixes
 		case f == "ipa":
 			*showIPA = !*showIPA
+		case f == "s":
+			*showSource = !*showSource
 		case f == "a":
 			*useAffixes = !*useAffixes
 		case f == "n":
@@ -216,7 +223,7 @@ func setFlags(arg string, argsMode bool) {
 		}
 	}
 	if err == nil {
-		fmt.Printf("%s r=%t i=%t ipa=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *reverse, *showInfixes, *showIPA, *useAffixes, *numConvert, *markdown, *language, *posFilter)
+		fmt.Printf("%s r=%t i=%t ipa=%t s=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *reverse, *showInfixes, *showIPA, *showSource, *useAffixes, *numConvert, *markdown, *language, *posFilter)
 	}
 }
 
@@ -390,7 +397,9 @@ func main() {
 	showInfixes = flag.Bool("i", false, util.Text("usageI"))
 	// IPA flag, opt to show IPA data
 	showIPA = flag.Bool("ipa", false, util.Text("usageIPA"))
-	// Show part of speech flag
+	// Source flag, opt to show source data
+	showSource = flag.Bool("s", false, util.Text("usageS"))
+	// Filter part of speech flag, opt to filter by part of speech
 	posFilter = flag.String("p", configuration.PosFilter, util.Text("usageP"))
 	// Attempt to find all matches using affixes
 	useAffixes = flag.Bool("a", configuration.UseAffixes, util.Text("usageA"))
