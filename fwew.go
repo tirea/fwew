@@ -248,7 +248,75 @@ func syllableCount(w affixes.Word) int64 {
 	return sdc + 1
 }
 
-func listWords(args []string) {
+func listWordsSubset(args []string, subset []affixes.Word) []affixes.Word {
+	var (
+		results []affixes.Word
+		what    = args[0]
+		cond    = args[1]
+		spec    = args[2]
+	)
+	// /list word starts tì and pos is n.
+	// /list syllables > 2 and pos is v.
+	for _, w := range subset {
+		switch what {
+		case "pos":
+			if cond == "is" {
+				if w.PartOfSpeech == spec {
+					results = append(results, w)
+				}
+			} else if cond == "has" {
+				if strings.Contains(w.PartOfSpeech, spec) {
+					results = append(results, w)
+				}
+			}
+		case "word":
+			if cond == "starts" {
+				if strings.HasPrefix(w.Navi, spec) {
+					results = append(results, w)
+				}
+			} else if cond == "ends" {
+				if strings.HasSuffix(w.Navi, spec) {
+					results = append(results, w)
+				}
+			} else if cond == "has" {
+				if strings.Contains(w.Navi, spec) {
+					results = append(results, w)
+				}
+			}
+		case "syllables":
+			ispec, err := strconv.ParseInt(spec, 10, 64)
+			if err != nil {
+				fmt.Println(util.Text("invalidDecimalError"))
+				return nil
+			}
+			switch cond {
+			case "<":
+				if syllableCount(w) < ispec {
+					results = append(results, w)
+				}
+			case "<=":
+				if syllableCount(w) <= ispec {
+					results = append(results, w)
+				}
+			case "=":
+				if syllableCount(w) == ispec {
+					results = append(results, w)
+				}
+			case ">=":
+				if syllableCount(w) >= ispec {
+					results = append(results, w)
+				}
+			case ">":
+				if syllableCount(w) > ispec {
+					results = append(results, w)
+				}
+			}
+		}
+	}
+	return results
+}
+
+func listWords(args []string) []affixes.Word {
 	var (
 		result  affixes.Word
 		results []affixes.Word
@@ -316,7 +384,7 @@ func listWords(args []string) {
 				ispec, err := strconv.ParseInt(spec, 10, 64)
 				if err != nil {
 					fmt.Println(util.Text("invalidDecimalError"))
-					return
+					return nil
 				}
 				switch cond {
 				case "<":
@@ -343,7 +411,7 @@ func listWords(args []string) {
 			}
 		}
 	}
-	printResults(results)
+	return results
 }
 
 func slashCommand(s string, argsMode bool) {
@@ -351,11 +419,14 @@ func slashCommand(s string, argsMode bool) {
 		sc      []string
 		command string
 		args    []string
+		exprs   [][]string
+		nargs   int
 	)
 	sc = strings.Split(s, " ")
 	command = sc[0]
 	if len(sc) > 1 {
 		args = sc[1:]
+		nargs = len(args)
 	}
 	switch command {
 	case "/help":
@@ -367,8 +438,31 @@ func slashCommand(s string, argsMode bool) {
 	case "/unset":
 		setFlags(strings.Join(args, " "), argsMode)
 	case "/list":
-		if len(args) == 3 {
-			listWords(args)
+		// word starts tì
+		if nargs == 3 {
+			printResults(listWords(args))
+			// word starts tì and pos is n. and syllables > 10
+		} else if len(args) > 3 {
+			//validate length of args, needs to be 4n-1
+			valid := false
+			// 10 nested query triplets is insane overkill
+			for n := 1; n <= 10; n++ {
+				if 4*n-1 == nargs {
+					valid = true
+				}
+			}
+			if !valid {
+				fmt.Println()
+				return
+			}
+			for i := 0; i < len(args); i += 4 {
+				exprs = append(exprs, args[i:i+3])
+			}
+			subset := listWords(exprs[0])
+			for _, expr := range exprs[1:] {
+				subset = listWordsSubset(expr, subset)
+			}
+			printResults(subset)
 		} else {
 			fmt.Println()
 		}
