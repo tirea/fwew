@@ -519,6 +519,8 @@ func main() {
 				setFlags(arg, argsMode)
 			} else if strings.HasPrefix(arg, "unset[") && strings.HasSuffix(arg, "]") {
 				setFlags(arg, argsMode)
+			} else if strings.HasPrefix(arg, "/") {
+				slashCommand(arg, argsMode)
 			} else {
 				if *numConvert {
 					fmt.Println(numbers.Convert(arg, *reverse))
