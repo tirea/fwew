@@ -132,7 +132,7 @@ func prefix(w Word) Word {
 		fmt.Printf("Prefix reString: %s\n", reString)
 	}
 	re = regexp.MustCompile(reString)
-	tmp := re.FindAllStringSubmatch(w.Target, -1)
+	tmp := re.FindAllStringSubmatch(strings.ToLower(w.Target), -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchPrefixes = tmp[0][1:]
 	}
@@ -175,8 +175,7 @@ func suffix(w Word) Word {
 		nSufRe   string = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?"
 	)
 
-	// pull this out of the switch because the pos data for verbs is so irregular,
-	// the switch condition would be like 25 possibilities long
+	// verbs
 	if strings.HasPrefix(w.PartOfSpeech, "v") ||
 		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
 		inf := w.Affixes[util.Text("inf")]
@@ -204,13 +203,16 @@ func suffix(w Word) Word {
 		}
 	} else {
 		switch w.PartOfSpeech {
-		case "n.", "pn.", "dem.", "dem., pn.":
+		// nouns and noun-likes
+		case "n.", "pn.", "prop.n.", "inter.", "dem.", "dem., pn.":
 			reString = nSufRe
 			for _, s := range adp {
 				reString += "(" + s + ")?"
 			}
+		// adjectives
 		case "adj.":
 			reString = adjSufRe
+		// numbers
 		case "num.":
 			reString = "(ve)?(a)?"
 		default:
@@ -223,7 +225,7 @@ func suffix(w Word) Word {
 		fmt.Printf("Suffix reString: %s\n", reString)
 	}
 	re = regexp.MustCompile(reString)
-	tmp := re.FindAllStringSubmatch(w.Target, -1)
+	tmp := re.FindAllStringSubmatch(strings.ToLower(w.Target), -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchSuffixes = tmp[0][1:]
 	}
@@ -278,7 +280,7 @@ func infix(w Word) Word {
 	}
 
 	re, _ = regexp.Compile(reString)
-	tmp := re.FindAllStringSubmatch(w.Target, -1)
+	tmp := re.FindAllStringSubmatch(strings.ToLower(w.Target), -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchInfixes = tmp[0][1:]
 	}
