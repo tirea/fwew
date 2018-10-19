@@ -132,7 +132,7 @@ func prefix(w Word) Word {
 		fmt.Printf("Prefix reString: %s\n", reString)
 	}
 	re = regexp.MustCompile(reString)
-	tmp := re.FindAllStringSubmatch(strings.ToLower(w.Target), -1)
+	tmp := re.FindAllStringSubmatch(w.Target, -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchPrefixes = tmp[0][1:]
 	}
@@ -150,6 +150,8 @@ func prefix(w Word) Word {
 	for _, p := range matchPrefixes {
 		attempt = attempt + p
 	}
+
+	// TODO: handle me+'e, pxe+'e
 
 	w.Attempt = attempt + w.Attempt
 
@@ -220,12 +222,21 @@ func suffix(w Word) Word {
 		}
 	}
 
-	reString = w.Attempt + reString
+	// o -> e vowel shift support
+	if strings.HasSuffix(w.Attempt, "o") {
+		reString = strings.Replace(w.Attempt, "o", "[oe]", -1) + reString
+		// a -> e vowel shift support
+	} else if strings.HasSuffix(w.Attempt, "a") {
+		reString = strings.Replace(w.Attempt, "a", "[ae]", -1) + reString
+	} else {
+		reString = w.Attempt + reString
+	}
+
 	if debug {
 		fmt.Printf("Suffix reString: %s\n", reString)
 	}
 	re = regexp.MustCompile(reString)
-	tmp := re.FindAllStringSubmatch(strings.ToLower(w.Target), -1)
+	tmp := re.FindAllStringSubmatch(w.Target, -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchSuffixes = tmp[0][1:]
 	}
@@ -244,6 +255,15 @@ func suffix(w Word) Word {
 		attempt = attempt + p
 	}
 
+	// o -> e vowel shift support for pronouns with -yä
+	if w.PartOfSpeech == "pn." && util.ContainsStr(matchSuffixes, "yä") {
+		if strings.HasSuffix(w.Attempt, "o") {
+			w.Attempt = strings.TrimSuffix(w.Attempt, "o") + "e"
+			// a -> e vowel shift support
+		} else if strings.HasSuffix(w.Attempt, "a") {
+			w.Attempt = strings.TrimSuffix(w.Attempt, "a") + "e"
+		}
+	}
 	w.Attempt = w.Attempt + attempt
 	w.Affixes[util.Text("suf")] = matchSuffixes
 	return w
@@ -280,7 +300,7 @@ func infix(w Word) Word {
 	}
 
 	re, _ = regexp.Compile(reString)
-	tmp := re.FindAllStringSubmatch(strings.ToLower(w.Target), -1)
+	tmp := re.FindAllStringSubmatch(w.Target, -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchInfixes = tmp[0][1:]
 	}
@@ -313,6 +333,8 @@ func infix(w Word) Word {
 	if debug {
 		fmt.Printf("matchInfixes: %s\n", matchInfixes)
 	}
+
+	// TODO: handle <ol>ll, <er>rr
 
 	w.Attempt = attempt
 	if len(matchInfixes) != 0 {
@@ -348,13 +370,14 @@ func lenite(w Word) Word {
 }
 
 func matches(w Word) bool {
-	return strings.ToLower(w.Attempt) == strings.ToLower(w.Target)
+	return w.Attempt == w.Target
 }
 
 // Reconstruct is the main function of affixes.go, responsible for the affixing algorithm
 func Reconstruct(w Word) Word {
 
-	w.Attempt = w.Navi
+	w.Attempt = strings.ToLower(w.Navi)
+	w.Target = strings.ToLower(w.Target)
 
 	// clone w as wl
 	wl := CloneWordStruct(w)
