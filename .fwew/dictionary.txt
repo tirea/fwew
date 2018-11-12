@@ -16786,28 +16786,46 @@
 11760	est	oare	o.ˈa.ɾɛ	NULL	n.	kuu (taevakeha)	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11760	nl	oare	o.ˈa.ɾɛ	NULL	n.	maan	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11764	eng	vospxì'aw	vo.sp'ɪ.ˈʔaw	NULL	n.	January	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
-11768	eng	vospxì'aw	vo.sp'ɪ.ˈʔaw	NULL	n.	January	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11764	nl	vospxì'aw	vo.sp'ɪ.ˈʔaw	NULL	n.	januari	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11772	eng	vospxìmun	vo.sp'ɪ.ˈmun	NULL	n.	February	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11772	nl	vospxìmun	vo.sp'ɪ.ˈmun	NULL	n.	februari	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11776	eng	vospxey	vo.ˈsp'ɛj	NULL	n.	March	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11776	nl	vospxey	vo.ˈsp'ɛj	NULL	n.	maart	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11780	eng	vospxìtsìng	vo.sp'ɪ.ˈt͡sɪŋ	NULL	n.	April	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11780	nl	vospxìtsìng	vo.sp'ɪ.ˈt͡sɪŋ	NULL	n.	april	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11784	eng	vospxìmrr	vo.sp'ɪ.ˈmṛ	NULL	n.	May	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11784	nl	vospxìmrr	vo.sp'ɪ.ˈmṛ	NULL	n.	mei	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11788	eng	vospxìpuk	vo.sp'ɪ.ˈpuk̚	NULL	n.	June	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11788	nl	vospxìpuk	vo.sp'ɪ.ˈpuk̚	NULL	n.	juni	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11792	eng	vospxìkin	vo.sp'ɪ.ˈkin	NULL	n.	July	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11792	nl	vospxìkin	vo.sp'ɪ.ˈkin	NULL	n.	juli	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11796	eng	vospxìvol	vo.sp'ɪ.ˈvol	NULL	n.	August	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11796	nl	vospxìvol	vo.sp'ɪ.ˈvol	NULL	n.	augustus	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11800	eng	vospxìvolaw	vo.sp'ɪ.vo.ˈlaw	NULL	n.	September	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11800	nl	vospxìvolaw	vo.sp'ɪ.vo.ˈlaw	NULL	n.	september	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11804	eng	vospxìvomun	vo.sp'ɪ.vo.ˈmun	NULL	n.	October	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11804	nl	vospxìvomun	vo.sp'ɪ.vo.ˈmun	NULL	n.	oktober	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11808	eng	vospxìvopey	vo.sp'ɪ.vo.ˈpɛj	NULL	n.	November	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11808	nl	vospxìvopey	vo.sp'ɪ.vo.ˈpɛj	NULL	n.	november	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11812	eng	vospxìvosìng	vo.sp'ɪ.vo.ˈsɪŋ	NULL	n.	December	NULL
+11812	nl	vospxìvosìng	vo.sp'ɪ.vo.ˈsɪŋ	NULL	n.	december	NULL
 11816	eng	zìskrrsom	zɪ.sɪ.kṛ.ˈsom	NULL	n.	summer	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11816	nl	zìskrrsom	zɪ.sɪ.kṛ.ˈsom	NULL	n.	zomer	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11820	eng	zìskrrwew	zɪ.sɪ.kṛ.ˈwɛw	NULL	n.	winter	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
-11824	eng	paw	paw	paw	vin.	grow; germinate and develop (of a plant)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11820	nl	zìskrrwew	zɪ.sɪ.kṛ.ˈwɛw	NULL	n.	winter	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11824	eng	paw	p·aw	p<0><1><2>aw	vin.	grow; germinate and develop (of a plant)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11824	nl	paw	p·aw	p<0><1><2>aw	vin.	groeien; ontkiemen en ontwikkelen (van een plant)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11828	eng	tìpaw	tɪ.ˈpaw	NULL	n.	growth	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11828	nl	tìpaw	tɪ.ˈpaw	NULL	n.	groei	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11832	eng	zìskrrmipaw	zɪ.sɪ.kṛ.ˈmi.paw	NULL	n.	spring	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
-11836	eng	tsawn	t͡sawn	tsawn	vtr.	gather growing food from the forest; pick; harvest (in agriculture)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11832	nl	zìskrrmipaw	zɪ.sɪ.kṛ.ˈmi.paw	NULL	n.	lente	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11836	eng	tsawn	t͡s·awn	ts<0><1><2>awn	vtr.	gather growing food from the forest; pick; harvest (in agriculture)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11836	nl	tsawn	t͡s·awn	ts<0><1><2>awn	vtr.	eten uit het bos verzamelen; plukken; oogsten	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11840	eng	zìskrrtsawn	zɪ.sɪ.kṛ.ˈt͡sawn	NULL	n.	autumn, fall	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
--1	eng	Vawmataw	ˈvaw.ma.taw	\N	prop.n.	Eyktan Ayhangvurä	LN Discord
-0	eng	Eywa	ˈɛj.wa	\N	prop.n.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
-1	eng	Tìlu	tɪ.ˈlu	\N	prop.n.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i	LN Discord
-2	eng	mako si	ˈma.ko s·i	mako s<1><2><3>i	vin.	to construct a sentence in a difficult to read fashion	LN Discord
-3	eng	nävi	ˈnæ.vi	\N	n.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)	LN Discord
-5	eng	pokx	pok'	p<0><1><2>okx	vtr.	poke	LN Discord
+11840	nl	zìskrrtsawn	zɪ.sɪ.kṛ.ˈt͡sawn	NULL	n.	herfst	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+-1	eng	Vawmataw	ˈvaw.ma.taw	\N	meme.	Eyktan Ayhangvurä	LN Discord
+0	eng	Eywa	ˈɛj.wa	\N	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
+1	eng	Tìlu	tɪ.ˈlu	\N	meme.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i	LN Discord
+2	eng	mako si	ˈma.ko s·i	mako s<1><2><3>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
+3	eng	nävi	ˈnæ.vi	\N	meme.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)	LN Discord
+5	eng	pokx	pok'	p<0><1><2>okx	meme.	poke	LN Discord
