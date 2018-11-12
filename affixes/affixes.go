@@ -207,10 +207,11 @@ func suffix(w Word) Word {
 		switch w.PartOfSpeech {
 		// nouns and noun-likes
 		case "n.", "pn.", "prop.n.", "inter.", "dem.", "dem., pn.":
-			reString = nSufRe
+			// reString = nSufRe
 			for _, s := range adp {
 				reString += "(" + s + ")?"
 			}
+			reString += nSufRe // move this down here to stop cases cannibalizing adp
 		// adjectives
 		case "adj.":
 			reString = adjSufRe
