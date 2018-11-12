@@ -28,10 +28,9 @@ var texts = map[string]string{}
 func init() {
 	// main program strings
 	texts["name"] = "fwew"
-	texts["tagline"] = "The Best Na'vi Dictionary on the Command Line"
 	texts["tip"] = "type \"/help\" or \"/commands\" for more info"
 	texts["author"] = "Tirea Aean"
-	texts["header"] = fmt.Sprintf("%s\n%s\n%s\n", Version, texts["tagline"], texts["tip"])
+	texts["header"] = fmt.Sprintf("%s\n%s\n", Version, texts["tip"])
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
 	texts["prompt"] = "~>> "
 
