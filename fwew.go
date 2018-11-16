@@ -106,6 +106,10 @@ func fwew(word string) []affixes.Word {
 			// Looking for Na'vi word in Na'vi field
 		} else {
 			if fields[lcField] == *language {
+				// be able to search with or without --word+ marking
+				fields[navField] = strings.Replace(fields[navField], "+", "", -1)
+				fields[navField] = strings.Replace(fields[navField], "--", "", -1)
+				word = strings.Replace(word, "--", "", -1)
 				if strings.ToLower(fields[navField]) == strings.ToLower(word) {
 					results = append(results, result)
 					if !*useAffixes {

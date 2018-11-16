@@ -620,14 +620,14 @@
 424	pl	fpeio	fpɛ.ˈi.o	NULL	n.	wyzwanie (ceremonialne)	ASG
 424	ru	fpeio	fpɛ.ˈi.o	NULL	n.	вызов (церемониальный)	ASG
 424	sv	fpeio	fpɛ.ˈi.o	NULL	n.	utmaning (högtidlig)	ASG
-428	de	fpi	fpi	NULL	adp.	wegen, zuliebe, um ... willen	ASG
-428	eng	fpi	fpi	NULL	adp.	for the sake of, for the benefit of	ASG
-428	est	fpi	fpi	NULL	adp.	(millegi) pärast, tõttu  (Ma tapan jumala pärast. Eesti keeles eraldi väljend tegelikult puudub.)	ASG
-428	hu	fpi	fpi	NULL	adp.	(azért), hogy; valaminek az érdekében	ASG
-428	nl	fpi	fpi	NULL	adp.	in het belang van, voor het nut van	ASG
-428	pl	fpi	fpi	NULL	adp.	dla, na korzyść (czegoś)	ASG
-428	ru	fpi	fpi	NULL	adp.	ради, изза, для, с целью	ASG
-428	sv	fpi	fpi	NULL	adp.	för sakens skull, till förmån för	ASG
+428	de	fpi+	fpi	NULL	adp.	wegen, zuliebe, um ... willen	ASG
+428	eng	fpi+	fpi	NULL	adp.	for the sake of, for the benefit of	ASG
+428	est	fpi+	fpi	NULL	adp.	(millegi) pärast, tõttu  (Ma tapan jumala pärast. Eesti keeles eraldi väljend tegelikult puudub.)	ASG
+428	hu	fpi+	fpi	NULL	adp.	(azért), hogy; valaminek az érdekében	ASG
+428	nl	fpi+	fpi	NULL	adp.	in het belang van, voor het nut van	ASG
+428	pl	fpi+	fpi	NULL	adp.	dla, na korzyść (czegoś)	ASG
+428	ru	fpi+	fpi	NULL	adp.	ради, изза, для, с целью	ASG
+428	sv	fpi+	fpi	NULL	adp.	för sakens skull, till förmån för	ASG
 432	de	fpìl	fp·ɪl	fp<0><1><2>ìl	vtr.	denken	Taronyu's dictionary -> Paul Frommer
 432	eng	fpìl	fp·ɪl	fp<0><1><2>ìl	vtr.	think	Taronyu's dictionary -> Paul Frommer
 432	est	fpìl	fp·ɪl	fp<0><1><2>ìl	vtr.	mõtlema, arvama	Taronyu's dictionary -> Paul Frommer
@@ -972,14 +972,14 @@
 616	pl	irayo	i.ˈɾa.jo	NULL	n., intj.	podziękowanie, dzięki	Taronyu's dictionary -> James Cameron
 616	ru	irayo	i.ˈɾa.jo	NULL	n., intj.	спасибо	Taronyu's dictionary -> James Cameron
 616	sv	irayo	i.ˈɾa.jo	NULL	n., intj.	tack	Taronyu's dictionary -> James Cameron
-648	de	ìlä	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	folgend, entlang, via; laut	Taronyu's dictionary 9.661 < Frommer
-648	eng	ìlä	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	by, via, following, according to	Taronyu's dictionary 9.661 < Frommer
-648	est	ìlä	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	(millegi, kellegi) kaudu, läbi	Taronyu's dictionary 9.661 < Frommer
-648	hu	ìlä	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	által(a), révén, keresztül, mentén	Taronyu's dictionary 9.661 < Frommer
-648	nl	ìlä	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	via, volgens	Taronyu's dictionary 9.661 < Frommer
-648	pl	ìlä	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	przez, podążając za, zgodnie z	Taronyu's dictionary 9.661 < Frommer
-648	ru	ìlä	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	посредством чеголибо, сквозь, через, согласно чемуто	Taronyu's dictionary 9.661 < Frommer
-648	sv	ìlä	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	av, via, efter	Taronyu's dictionary 9.661 < Frommer
+648	de	ìlä+	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	folgend, entlang, via; laut	Taronyu's dictionary 9.661 < Frommer
+648	eng	ìlä+	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	by, via, following, according to	Taronyu's dictionary 9.661 < Frommer
+648	est	ìlä+	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	(millegi, kellegi) kaudu, läbi	Taronyu's dictionary 9.661 < Frommer
+648	hu	ìlä+	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	által(a), révén, keresztül, mentén	Taronyu's dictionary 9.661 < Frommer
+648	nl	ìlä+	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	via, volgens	Taronyu's dictionary 9.661 < Frommer
+648	pl	ìlä+	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	przez, podążając za, zgodnie z	Taronyu's dictionary 9.661 < Frommer
+648	ru	ìlä+	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	посредством чеголибо, сквозь, через, согласно чемуто	Taronyu's dictionary 9.661 < Frommer
+648	sv	ìlä+	ˈɪ.lÃ¦] or [ɪ.ˈlÃ¦	NULL	adp.	av, via, efter	Taronyu's dictionary 9.661 < Frommer
 676	de	ka	ka	NULL	adp.	(quer) über, übergreifend	Frommer
 676	eng	ka	ka	NULL	adp.	across, covering thoroughly	Frommer
 676	est	ka	ka	NULL	adp.	üleni	Frommer
@@ -1691,14 +1691,14 @@
 1104	pl	mikyun	ˈmik.jun	NULL	n.	ucho	Taronyu’s dictionary -> Survival Guide Taronyu’s dictionary -> James Cameron
 1104	ru	mikyun	ˈmik.jun	NULL	n.	ухо	Taronyu’s dictionary -> Survival Guide Taronyu’s dictionary -> James Cameron
 1104	sv	mikyun	ˈmik.jun	NULL	n.	öra	Taronyu’s dictionary -> Survival Guide Taronyu’s dictionary -> James Cameron
-1108	de	mì	mɪ	NULL	adp.	in, im, an, auf	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
-1108	eng	mì	mɪ	NULL	adp.	in, on	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
-1108	est	mì	mɪ	NULL	adp.	sees, peal	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
-1108	hu	mì	mɪ	NULL	adp.	bent, benne, rajta, ban/ben, on/en/ön	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
-1108	nl	mì	mɪ	NULL	adp.	in, op	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
-1108	pl	mì	mɪ	NULL	adp.	w, na	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
-1108	ru	mì	mɪ	NULL	adp.	в, на	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
-1108	sv	mì	mɪ	NULL	adp.	i, på	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
+1108	de	mì+	mɪ	NULL	adp.	in, im, an, auf	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
+1108	eng	mì+	mɪ	NULL	adp.	in, on	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
+1108	est	mì+	mɪ	NULL	adp.	sees, peal	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
+1108	hu	mì+	mɪ	NULL	adp.	bent, benne, rajta, ban/ben, on/en/ön	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
+1108	nl	mì+	mɪ	NULL	adp.	in, op	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
+1108	pl	mì+	mɪ	NULL	adp.	w, na	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
+1108	ru	mì+	mɪ	NULL	adp.	в, на	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
+1108	sv	mì+	mɪ	NULL	adp.	i, på	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
 1112	de	mìn	m·ɪn	m<0><1><2>ìn	vin.	rotieren (um eine Achse), wenden	Taronyu's Dictionary 9.53 http://forum.learnnavi.org/language-updates/ftarpa-and-skienpa-added-to-dict/msg570362/#msg570362
 1112	eng	mìn	m·ɪn	m<0><1><2>ìn	vin.	turn, rotate on an axis	Taronyu's Dictionary 9.53 http://forum.learnnavi.org/language-updates/ftarpa-and-skienpa-added-to-dict/msg570362/#msg570362
 1112	est	mìn	m·ɪn	m<0><1><2>ìn	vin.	pöörlema (ümber telje)  Mìn ne ftärpa Keera vasakule	Taronyu's Dictionary 9.53 http://forum.learnnavi.org/language-updates/ftarpa-and-skienpa-added-to-dict/msg570362/#msg570362
@@ -2314,14 +2314,14 @@
 1484	pl	paywll	ˈpaj.wḷ	NULL	n.	aloeparilus succulentus, dapofet	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
 1484	ru	paywll	ˈpaj.wḷ	NULL	n.	дапофет («водное растение», названо так изза мясистых сочных листьев, в которых накапливает влагу из почвы)	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
 1484	sv	paywll	ˈpaj.wḷ	NULL	n.	vattenväxt, dapophet	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-1488	de	pe	pɛ	NULL	affix	Interrogativ Marker	Frommer
-1488	eng	pe	pɛ	NULL	affix	inter. marker	Frommer
-1488	est	pe	pɛ	NULL	affix	küsimuse märkija	Frommer
-1488	hu	pe	pɛ	NULL	affix	kérdőszóképző	Frommer
-1488	nl	pe	pɛ	NULL	affix	vvn. markeerder	Frommer
-1488	pl	pe	pɛ	NULL	affix	pytajnik	Frommer
-1488	ru	pe	pɛ	NULL	affix	вопросительный маркер	Frommer
-1488	sv	pe	pɛ	NULL	affix	interr. frågemarkör	Frommer
+1488	de	--pe+	pɛ	NULL	affix	Interrogativ Marker	Frommer
+1488	eng	--pe+	pɛ	NULL	affix	inter. marker	Frommer
+1488	est	--pe+	pɛ	NULL	affix	küsimuse märkija	Frommer
+1488	hu	--pe+	pɛ	NULL	affix	kérdőszóképző	Frommer
+1488	nl	--pe+	pɛ	NULL	affix	vvn. markeerder	Frommer
+1488	pl	--pe+	pɛ	NULL	affix	pytajnik	Frommer
+1488	ru	--pe+	pɛ	NULL	affix	вопросительный маркер	Frommer
+1488	sv	--pe+	pɛ	NULL	affix	interr. frågemarkör	Frommer
 1492	de	pe'un	ˈp·ɛ.ʔ·un	p<0><1>e'<2>un	vtr.	entscheiden, beschließen	Paul Frommer http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/
 1492	eng	pe'un	ˈp·ɛ.ʔ·un	p<0><1>e'<2>un	vtr.	decide	Paul Frommer http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/
 1492	est	pe'un	ˈp·ɛ.ʔ·un	p<0><1>e'<2>un	vtr.	otsustama	Paul Frommer http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/
@@ -5321,30 +5321,30 @@
 4064	pl	tafkip	ta.ˈfkip̚	NULL	adp.	spośród	Taronyu’s Dictionary 9.58 < Frommer
 4064	ru	tafkip	ta.ˈfkip̚	NULL	adp.	вниз от группы коголибо	Taronyu’s Dictionary 9.58 < Frommer
 4064	sv	tafkip	ta.ˈfkip̚	NULL	adp.	från upp bland	Taronyu’s Dictionary 9.58 < Frommer
-4068	de	ro	ɾo	NULL	adp.	an, bei (Ortsangabe)	Taronyu's Dictionary 9.58 < Frommer
-4068	eng	ro	ɾo	NULL	adp.	at (locative)	Taronyu's Dictionary 9.58 < Frommer
-4068	est	ro	ɾo	NULL	adp.	kohakääne	Taronyu's Dictionary 9.58 < Frommer
-4068	hu	ro	ɾo	NULL	adp.	nál/nél	Taronyu's Dictionary 9.58 < Frommer
-4068	nl	ro	ɾo	NULL	adp.	op (locatief)	Taronyu's Dictionary 9.58 < Frommer
-4068	pl	ro	ɾo	NULL	adp.	w, na	Taronyu's Dictionary 9.58 < Frommer
-4068	ru	ro	ɾo	NULL	adp.	приставка местоположения	Taronyu's Dictionary 9.58 < Frommer
-4068	sv	ro	ɾo	NULL	adp.	på, vid (plats)	Taronyu's Dictionary 9.58 < Frommer
-4072	de	sre	sɾɛ	NULL	adp.	vor (Zeit)	Taronyu's Dictionary 9.58 < Frommer
-4072	eng	sre	sɾɛ	NULL	adp.	before (time)	Taronyu's Dictionary 9.58 < Frommer
-4072	est	sre	sɾɛ	NULL	adp.	enne (aeg)	Taronyu's Dictionary 9.58 < Frommer
-4072	hu	sre	sɾɛ	NULL	adp.	korábban, megelőzőleg	Taronyu's Dictionary 9.58 < Frommer
-4072	nl	sre	sɾɛ	NULL	adp.	voor (tijd)	Taronyu's Dictionary 9.58 < Frommer
-4072	pl	sre	sɾɛ	NULL	adp.	przed (o czasie)	Taronyu's Dictionary 9.58 < Frommer
-4072	ru	sre	sɾɛ	NULL	adp.	до, раньше	Taronyu's Dictionary 9.58 < Frommer
-4072	sv	sre	sɾɛ	NULL	adp.	före (tidsmässigt)	Taronyu's Dictionary 9.58 < Frommer
-4076	de	wä	wÃ¦	NULL	adp.	gegen (wie bei: kämpfen gegen)	Taronyu's Dictionary 9.58 < Frommer
-4076	eng	wä	wÃ¦	NULL	adp.	against (as in: fight against)	Taronyu's Dictionary 9.58 < Frommer
-4076	est	wä	wÃ¦	NULL	adp.	vastu (kellegi vastu võitlema)	Taronyu's Dictionary 9.58 < Frommer
-4076	hu	wä	wÃ¦	NULL	adp.	ellen (pl: harcolni vki ellen)	Taronyu's Dictionary 9.58 < Frommer
-4076	nl	wä	wÃ¦	NULL	adp.	tegen (als in: vechten tegen)	Taronyu's Dictionary 9.58 < Frommer
-4076	pl	wä	wÃ¦	NULL	adp.	przeciw (np.: walczyć przeciw)	Taronyu's Dictionary 9.58 < Frommer
-4076	ru	wä	wÃ¦	NULL	adp.	против	Taronyu's Dictionary 9.58 < Frommer
-4076	sv	wä	wÃ¦	NULL	adp.	emot, mot (som i: slåss mot)	Taronyu's Dictionary 9.58 < Frommer
+4068	de	ro+	ɾo	NULL	adp.	an, bei (Ortsangabe)	Taronyu's Dictionary 9.58 < Frommer
+4068	eng	ro+	ɾo	NULL	adp.	at (locative)	Taronyu's Dictionary 9.58 < Frommer
+4068	est	ro+	ɾo	NULL	adp.	kohakääne	Taronyu's Dictionary 9.58 < Frommer
+4068	hu	ro+	ɾo	NULL	adp.	nál/nél	Taronyu's Dictionary 9.58 < Frommer
+4068	nl	ro+	ɾo	NULL	adp.	op (locatief)	Taronyu's Dictionary 9.58 < Frommer
+4068	pl	ro+	ɾo	NULL	adp.	w, na	Taronyu's Dictionary 9.58 < Frommer
+4068	ru	ro+	ɾo	NULL	adp.	приставка местоположения	Taronyu's Dictionary 9.58 < Frommer
+4068	sv	ro+	ɾo	NULL	adp.	på, vid (plats)	Taronyu's Dictionary 9.58 < Frommer
+4072	de	sre+	sɾɛ	NULL	adp.	vor (Zeit)	Taronyu's Dictionary 9.58 < Frommer
+4072	eng	sre+	sɾɛ	NULL	adp.	before (time)	Taronyu's Dictionary 9.58 < Frommer
+4072	est	sre+	sɾɛ	NULL	adp.	enne (aeg)	Taronyu's Dictionary 9.58 < Frommer
+4072	hu	sre+	sɾɛ	NULL	adp.	korábban, megelőzőleg	Taronyu's Dictionary 9.58 < Frommer
+4072	nl	sre+	sɾɛ	NULL	adp.	voor (tijd)	Taronyu's Dictionary 9.58 < Frommer
+4072	pl	sre+	sɾɛ	NULL	adp.	przed (o czasie)	Taronyu's Dictionary 9.58 < Frommer
+4072	ru	sre+	sɾɛ	NULL	adp.	до, раньше	Taronyu's Dictionary 9.58 < Frommer
+4072	sv	sre+	sɾɛ	NULL	adp.	före (tidsmässigt)	Taronyu's Dictionary 9.58 < Frommer
+4076	de	wä+	wÃ¦	NULL	adp.	gegen (wie bei: kämpfen gegen)	Taronyu's Dictionary 9.58 < Frommer
+4076	eng	wä+	wÃ¦	NULL	adp.	against (as in: fight against)	Taronyu's Dictionary 9.58 < Frommer
+4076	est	wä+	wÃ¦	NULL	adp.	vastu (kellegi vastu võitlema)	Taronyu's Dictionary 9.58 < Frommer
+4076	hu	wä+	wÃ¦	NULL	adp.	ellen (pl: harcolni vki ellen)	Taronyu's Dictionary 9.58 < Frommer
+4076	nl	wä+	wÃ¦	NULL	adp.	tegen (als in: vechten tegen)	Taronyu's Dictionary 9.58 < Frommer
+4076	pl	wä+	wÃ¦	NULL	adp.	przeciw (np.: walczyć przeciw)	Taronyu's Dictionary 9.58 < Frommer
+4076	ru	wä+	wÃ¦	NULL	adp.	против	Taronyu's Dictionary 9.58 < Frommer
+4076	sv	wä+	wÃ¦	NULL	adp.	emot, mot (som i: slåss mot)	Taronyu's Dictionary 9.58 < Frommer
 4084	de	fäpa	ˈfÃ¦.pa	NULL	n.	Spitze, Gipfel	Taronyu’s Dictionary 9.576 < Frommer
 4084	eng	fäpa	ˈfÃ¦.pa	NULL	n.	top	Taronyu’s Dictionary 9.576 < Frommer
 4084	est	fäpa	ˈfÃ¦.pa	NULL	n.	peal	Taronyu’s Dictionary 9.576 < Frommer
@@ -7119,14 +7119,14 @@
 5068	pl	pxiye'rìn	p'i.ˈjɛʔ.ɾɪn	NULL	adv.	natychmiast (nie tak szybko jak pxiswaway)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
 5068	ru	pxiye'rìn	p'i.ˈjɛʔ.ɾɪn	NULL	adv.	немедленно (но не так скоро, как pxiswaway)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
 5068	sv	pxiye'rìn	p'i.ˈjɛʔ.ɾɪn	NULL	adv.	omedelbart (inte så snart som pxiswaway)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
-5072	de	pxisre	p'i.ˈsɾɛ	NULL	adp.	direkt vor (zeitl.)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
-5072	eng	pxisre	p'i.ˈsɾɛ	NULL	adp.	right before	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
-5072	est	pxisre	p'i.ˈsɾɛ	NULL	adp.	just enne	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
-5072	hu	pxisre	p'i.ˈsɾɛ	NULL	adp.	éppen előtte	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
-5072	nl	pxisre	p'i.ˈsɾɛ	NULL	adp.	vlak voor	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
-5072	pl	pxisre	p'i.ˈsɾɛ	NULL	adp.	tuż przed (o czasie)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
-5072	ru	pxisre	p'i.ˈsɾɛ	NULL	adp.	непосредственно перед	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
-5072	sv	pxisre	p'i.ˈsɾɛ	NULL	adp.	precis innan	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
+5072	de	pxisre+	p'i.ˈsɾɛ	NULL	adp.	direkt vor (zeitl.)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
+5072	eng	pxisre+	p'i.ˈsɾɛ	NULL	adp.	right before	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
+5072	est	pxisre+	p'i.ˈsɾɛ	NULL	adp.	just enne	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
+5072	hu	pxisre+	p'i.ˈsɾɛ	NULL	adp.	éppen előtte	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
+5072	nl	pxisre+	p'i.ˈsɾɛ	NULL	adp.	vlak voor	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
+5072	pl	pxisre+	p'i.ˈsɾɛ	NULL	adp.	tuż przed (o czasie)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
+5072	ru	pxisre+	p'i.ˈsɾɛ	NULL	adp.	непосредственно перед	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
+5072	sv	pxisre+	p'i.ˈsɾɛ	NULL	adp.	precis innan	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
 5076	de	pximaw	p'i.ˈmaw	NULL	adp.	direkt nach (zeitl.)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
 5076	eng	pximaw	p'i.ˈmaw	NULL	adp.	right after	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
 5076	est	pximaw	p'i.ˈmaw	NULL	adp.	kohe pärast	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/
@@ -10149,14 +10149,14 @@
 7264	pl	li	li	NULL	adv.	już	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7264	ru	li	li	NULL	adv.	уже	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7264	sv	li	li	NULL	adv.	redan	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7268	de	lisre	ˈli.sɾɛ	NULL	adp.	bis (spätestens)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7268	eng	lisre	ˈli.sɾɛ	NULL	adp.	by, before, up to but not after	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7268	est	lisre	ˈli.sɾɛ	NULL	adp.	(mingiks ajaks) teostama	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7268	hu	lisre	ˈli.sɾɛ	NULL	adp.	mire, amíg, addigra	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7268	nl	lisre	ˈli.sɾɛ	NULL	adp.	tot, voor, tot aan maar niet na	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7268	pl	lisre	ˈli.sɾɛ	NULL	adp.	do, przed, aż do, ale nie później	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7268	ru	lisre	ˈli.sɾɛ	NULL	adp.	до того (о времени)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7268	sv	lisre	ˈli.sɾɛ	NULL	adp.	fram tills, före	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7268	de	lisre+	ˈli.sɾɛ	NULL	adp.	bis (spätestens)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7268	eng	lisre+	ˈli.sɾɛ	NULL	adp.	by, before, up to but not after	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7268	est	lisre+	ˈli.sɾɛ	NULL	adp.	(mingiks ajaks) teostama	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7268	hu	lisre+	ˈli.sɾɛ	NULL	adp.	mire, amíg, addigra	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7268	nl	lisre+	ˈli.sɾɛ	NULL	adp.	tot, voor, tot aan maar niet na	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7268	pl	lisre+	ˈli.sɾɛ	NULL	adp.	do, przed, aż do, ale nie później	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7268	ru	lisre+	ˈli.sɾɛ	NULL	adp.	до того (о времени)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7268	sv	lisre+	ˈli.sɾɛ	NULL	adp.	fram tills, före	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7272	de	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	sich etwas vorstellen, ausmalen, imaginieren (komp. aus ronsem Geist, rel Bild, ngop erschaffen, Umgangssprache [Ron.sREw.Nop] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7272	eng	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	imagine, envision (c.w. of ronsem mind, rel picture, ngop create, casual pronunciation [Ron.sREw.Nop] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7272	est	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	kujutle, kujuta ette  (tuletatud sõnadest ronsem mõistus, rel pilt, ngop clooma, kõnekeelselt [Ron.sREw.Nop] 	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
@@ -11819,14 +11819,14 @@
 8172	pl	fìtsap	fɪ.ˈt͡sap̚	NULL	adv.	wzajemnie	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
 8172	ru	fìtsap	fɪ.ˈt͡sap̚	NULL	adv.	друг друга	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
 8172	sv	fìtsap	fɪ.ˈt͡sap̚	NULL	adv.	varandra	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
-8176	de	nuä	ˈnu.Ã¦	NULL	adp.	jenseits, (weit) hinter	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
-8176	eng	nuä	ˈnu.Ã¦	NULL	adp.	beyond	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
-8176	est	nuä	ˈnu.Ã¦	NULL	adp.	taga, kaugemal (nt. Awnga kelku si nuä ayram alusìng  me elame hõljuvate mägede taga/mägedest edasi)	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
-8176	hu	nuä	ˈnu.Ã¦	NULL	adp.	túl (valamin)	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
-8176	nl	nuä	ˈnu.Ã¦	NULL	adp.	voorbij	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
-8176	pl	nuä	ˈnu.Ã¦	NULL	adp.	poza, w dużej odległości od	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
-8176	ru	nuä	ˈnu.Ã¦	NULL	adp.	запределами	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
-8176	sv	nuä	ˈnu.Ã¦	NULL	adp.	bortom	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
+8176	de	nuä+	ˈnu.Ã¦	NULL	adp.	jenseits, (weit) hinter	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
+8176	eng	nuä+	ˈnu.Ã¦	NULL	adp.	beyond	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
+8176	est	nuä+	ˈnu.Ã¦	NULL	adp.	taga, kaugemal (nt. Awnga kelku si nuä ayram alusìng  me elame hõljuvate mägede taga/mägedest edasi)	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
+8176	hu	nuä+	ˈnu.Ã¦	NULL	adp.	túl (valamin)	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
+8176	nl	nuä+	ˈnu.Ã¦	NULL	adp.	voorbij	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
+8176	pl	nuä+	ˈnu.Ã¦	NULL	adp.	poza, w dużej odległości od	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
+8176	ru	nuä+	ˈnu.Ã¦	NULL	adp.	запределами	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
+8176	sv	nuä+	ˈnu.Ã¦	NULL	adp.	bortom	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
 8180	de	kanfpìl	ˈk·an.fp·ɪl	k<0><1>anfp<2>ìl	vin.	konzentrieren, Aufmerksamkeit richten auf	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
 8180	eng	kanfpìl	ˈk·an.fp·ɪl	k<0><1>anfp<2>ìl	vin.	concentrate, focus one's attention	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
 8180	est	kanfpìl	ˈk·an.fp·ɪl	k<0><1>anfp<2>ìl	vin.	keskenduma, tähelepanu koondama	Frommer (30.10.2011) http://naviteri.org/2011/10/more-vocabulary-a-bit-of-grammar/
@@ -12784,13 +12784,13 @@
 8736	nl	syeha si	ˈsjɛ.ha s·i	syeha s<0><1><2>i	vin.	ademen	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/
 8736	pl	syeha si	ˈsjɛ.ha s·i	syeha s<0><1><2>i	vin.	oddychać	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/
 8736	ru	syeha si	ˈsjɛ.ha s·i	syeha s<0><1><2>i	vin.	дышать	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/
-8740	de	sko	sko	NULL	adp.	(etwas, jemand) als (etwas, jemand anderes), in der Rolle als, in der Eigenschaft als	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
-8740	eng	sko	sko	NULL	adp.	something as, in the capacity of, or in the role of, something else	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
-8740	est	sko	sko	NULL	adp.	olev kääne (kellegina, millegina)	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
-8740	hu	sko	sko	NULL	adp.	mint..., ... szerepében	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
-8740	nl	sko	sko	NULL	adp.	iets als, met de capaciteit van/in de rol van iets anders	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
-8740	pl	sko	sko	NULL	adp.	jako, w roli	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
-8740	ru	sko	sko	NULL	adp.	как, в роли	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
+8740	de	sko+	sko	NULL	adp.	(etwas, jemand) als (etwas, jemand anderes), in der Rolle als, in der Eigenschaft als	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
+8740	eng	sko+	sko	NULL	adp.	something as, in the capacity of, or in the role of, something else	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
+8740	est	sko+	sko	NULL	adp.	olev kääne (kellegina, millegina)	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
+8740	hu	sko+	sko	NULL	adp.	mint..., ... szerepében	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
+8740	nl	sko+	sko	NULL	adp.	iets als, met de capaciteit van/in de rol van iets anders	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
+8740	pl	sko+	sko	NULL	adp.	jako, w roli	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
+8740	ru	sko+	sko	NULL	adp.	как, в роли	http://naviteri.org/2012/03/spring-vocabulary-part-2/ (31 Mar 2012)
 8744	de	sna'o	ˈsna.ʔo	NULL	n.	Satz (von Objekten), Gruppe, Haufen, Klumpen, Bestand (von Bäumen)	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/
 8744	eng	sna'o	ˈsna.ʔo	NULL	n.	set, group, pile, clump, stand	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/
 8744	est	sna'o	ˈsna.ʔo	NULL	n.	grupp, kogumik, hulk, kogum (elutu kohta)	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/
