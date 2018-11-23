@@ -127,6 +127,13 @@ func prefix(w Word) Word {
 		}
 	}
 
+	if strings.HasPrefix(w.Attempt, "e") {
+		reString = reString + "(e)?"
+		w.Attempt = w.Attempt[1:]
+	} else if strings.HasPrefix(w.Attempt, "'e") {
+		reString = reString + "('e)?"
+		w.Attempt = w.Attempt[2:]
+	}
 	reString = reString + w.Attempt + ".*"
 	if debug {
 		fmt.Printf("Prefix reString: %s\n", reString)
@@ -137,6 +144,7 @@ func prefix(w Word) Word {
 		matchPrefixes = tmp[0][1:]
 	}
 	matchPrefixes = util.DeleteEmpty(matchPrefixes)
+
 	if debug {
 		fmt.Printf("matchPrefixes: %s\n", matchPrefixes)
 	}
@@ -151,11 +159,13 @@ func prefix(w Word) Word {
 		attempt = attempt + p
 	}
 
-	// TODO: handle me+'e, pxe+'e
-
 	w.Attempt = attempt + w.Attempt
 
-	w.Affixes[util.Text("pre")] = matchPrefixes
+	matchPrefixes = util.DeleteElement(matchPrefixes, "e")
+	if len(matchPrefixes) > 0 {
+		w.Affixes[util.Text("pre")] = matchPrefixes
+	}
+
 	return w
 }
 
@@ -294,7 +304,14 @@ func infix(w Word) Word {
 	)
 
 	reString = strings.Replace(w.InfixLocations, "<0>", pos0InfixRe, 1)
-	reString = strings.Replace(reString, "<1>", pos1InfixRe, 1)
+	// handle <ol>ll and <er>rr
+	if strings.Contains(reString, "<1>ll") {
+		reString = strings.Replace(reString, "<1>ll", pos1InfixRe+"(ll)?", 1)
+	} else if strings.Contains(w.InfixLocations, "<1>rr") {
+		reString = strings.Replace(reString, "<1>rr", pos1InfixRe+"(rr)?", 1)
+	} else {
+		reString = strings.Replace(reString, "<1>", pos1InfixRe, 1)
+	}
 	reString = strings.Replace(reString, "<2>", pos2InfixRe, 1)
 	if debug {
 		fmt.Printf("Infix reString: %s\n", reString)
@@ -306,6 +323,8 @@ func infix(w Word) Word {
 		matchInfixes = tmp[0][1:]
 	}
 	matchInfixes = util.DeleteEmpty(matchInfixes)
+	matchInfixes = util.DeleteElement(matchInfixes, "ll")
+	matchInfixes = util.DeleteElement(matchInfixes, "rr")
 
 	for _, i := range matchInfixes {
 		if i == "äp" || i == "eyk" {
@@ -321,12 +340,6 @@ func infix(w Word) Word {
 	attempt = strings.Replace(attempt, "<1>", pos1InfixString, 1)
 	attempt = strings.Replace(attempt, "<2>", pos2InfixString, 1)
 
-	/*
-		hardCodeHax := map[string][]string{}
-		hardCodeHax["poltxe"] = []string{"plltxe", "ol"}
-		hardCodeHax["molte"] = []string{"mllte", "ol"}
-	*/
-
 	if util.ContainsStr(matchInfixes, "eiy") {
 		eiy := util.Index(matchInfixes, "eiy")
 		matchInfixes[eiy] = "ei"
@@ -335,8 +348,12 @@ func infix(w Word) Word {
 		fmt.Printf("matchInfixes: %s\n", matchInfixes)
 	}
 
-	// TODO: handle <ol>ll, <er>rr
-
+	// handle <ol>ll and <er>rr
+	if strings.Contains(attempt, "olll") {
+		attempt = strings.Replace(attempt, "olll", "ol", 1)
+	} else if strings.Contains(attempt, "errr") {
+		attempt = strings.Replace(attempt, "errr", "er", 1)
+	}
 	w.Attempt = attempt
 	if len(matchInfixes) != 0 {
 		w.Affixes[util.Text("inf")] = matchInfixes

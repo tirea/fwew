@@ -52,19 +52,25 @@ func ContainsStr(s []string, q string) bool {
 	return false
 }
 
-// DeleteEmpty "deletes" all empty string entries in s
-// actually returns a new string slice containing all non-empty strings in s
-func DeleteEmpty(s []string) []string {
+// DeleteElement "deletes" all occurrences of q in s
+// actually returns a new string slice containing the original minus all q
+func DeleteElement(s []string, q string) []string {
 	if len(s) == 0 {
 		return s
 	}
 	var r []string
 	for _, str := range s {
-		if str != "" {
+		if str != q {
 			r = append(r, str)
 		}
 	}
 	return r
+}
+
+// DeleteEmpty "deletes" all empty string entries in s
+// actually returns a new string slice containing all non-empty strings in s
+func DeleteEmpty(s []string) []string {
+	return DeleteElement(s, "")
 }
 
 // Index return the index of q in s
