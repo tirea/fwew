@@ -540,7 +540,11 @@ func main() {
 		fmt.Println(util.Text("header"))
 
 		for {
-			fmt.Print(util.Text("prompt"))
+			if *reverse {
+				fmt.Print(util.Text("prompt_R"))
+			} else {
+				fmt.Print(util.Text("prompt_N"))
+			}
 
 			scanner := bufio.NewScanner(os.Stdin)
 			scanner.Scan()

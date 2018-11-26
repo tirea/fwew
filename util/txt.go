@@ -32,7 +32,8 @@ func init() {
 	texts["author"] = "Tirea Aean"
 	texts["header"] = fmt.Sprintf("%s\n%s\n", Version, texts["tip"])
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
-	texts["prompt"] = "~>> "
+	texts["prompt_N"] = "N~> "
+	texts["prompt_R"] = "R~> "
 
 	// slash-commands Help
 	texts["/set"] = "/set       show currently set options, or set given options (separated by space)\n"
