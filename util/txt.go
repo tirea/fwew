@@ -64,6 +64,7 @@ func init() {
 	texts["usageR"] = "reverse the lookup direction from Na'vi->local to local->Na'vi"
 	texts["usageA"] = "find all matches by using affixes to match the input word"
 	texts["usageN"] = "convert numbers octal<->decimal"
+	texts["usageM"] = "format output in markdown for bold and italic (mostly useful for fwew-discord bot)"
 	texts["defaultFilter"] = "all"
 
 	// file strings
