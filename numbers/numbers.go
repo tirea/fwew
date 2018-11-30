@@ -37,96 +37,127 @@ var naviVocab = [][]string{
 	{"", "l", "", "", ""},
 }
 
-var wordToDigit = map[string]int{
-	"zazam": 10000,
-	"vozam": 1000,
-	"zam":   100,
-	"za":    100,
-	"vol":   10,
-	"vo":    10,
-	"'aw":   1,
-	"aw":    1,
-	"me":    2,
-	"mun":   2,
-	"pxe":   3,
-	"pey":   3,
-	"tsì":   4,
-	"sìng":  4,
-	"mrr":   5,
-	"pu":    6,
-	"fu":    6,
-	"ki":    7,
-	"hin":   7,
+// "word number portion": octal value
+var numTable = map[string]int{
+	"kizazam":  070000,
+	"kizaza":   070000,
+	"puzazam":  060000,
+	"puzaza":   060000,
+	"mrrzazam": 050000,
+	"mrrzaza":  050000,
+	"rrzazam":  050000,
+	"rrzaza":   050000,
+	"tsìzazam": 040000,
+	"tsìzaza":  040000,
+	"pxezazam": 030000,
+	"pxezaza":  030000,
+	"mezazam":  020000,
+	"mezaza":   020000,
+	"ezazam":   020000,
+	"ezaza":    020000,
+	"zazam":    010000,
+	"zaza":     010000,
+	"kivozam":  07000,
+	"kivoza":   07000,
+	"puvozam":  06000,
+	"puvoza":   06000,
+	"mrrvozam": 05000,
+	"mrrvoza":  05000,
+	"rrvozam":  05000,
+	"rrvoza":   05000,
+	"tsìvozam": 04000,
+	"tsìvoza":  04000,
+	"pxevozam": 03000,
+	"pxevoza":  03000,
+	"mevozam":  02000,
+	"mevoza":   02000,
+	"evozam":   02000,
+	"evoza":    02000,
+	"vozam":    01000,
+	"voza":     01000,
+	"kizam":    0700,
+	"kiza":     0700,
+	"puzam":    0600,
+	"puza":     0600,
+	"mrrzam":   0500,
+	"mrrza":    0500,
+	"rrzam":    0500,
+	"rrza":     0500,
+	"tsìzam":   0400,
+	"tsìza":    0400,
+	"pxezam":   0300,
+	"pxeza":    0300,
+	"mezam":    0200,
+	"meza":     0200,
+	"ezam":     0200,
+	"eza":      0200,
+	"zam":      0100,
+	"za":       0100,
+	"kivol":    070,
+	"kivo":     070,
+	"puvol":    060,
+	"puvo":     060,
+	"mrrvol":   050,
+	"mrrvo":    050,
+	"rrvol":    050,
+	"rrvo":     050,
+	"tsìvol":   040,
+	"tsìvo":    040,
+	"pxevol":   030,
+	"pxevo":    030,
+	"mevol":    020,
+	"mevo":     020,
+	"evol":     020,
+	"evo":      020,
+	"vol":      010,
+	"vo":       010,
+	"hin":      07,
+	"fu":       06,
+	"mrr":      05,
+	"rr":       05,
+	"sìng":     04,
+	"pey":      03,
+	"mun":      02,
+	"un":       02,
+	"aw":       01,
 }
 
 func unwordify(input string) string {
 	var (
-		reString     string
+		matchNumbers []string
 		re           *regexp.Regexp
-		matchNumbers = []string{}
-		digits       int
-		multiplier   = 1
+		reString     string
+		s            string
+		n            int
 	)
-
-	input = strings.ToLower(input)
-
-	if input == "kew" {
+	s = strings.ToLower(input)
+	// kew
+	if s == "kew" {
 		return "0"
 	}
-
+	// 'aw mune pxey tsìng mrr pukap kinä vol
 	for i, w := range naviVocab[0] {
-		if input == w && w != "" {
-			return strconv.FormatInt(int64(i), 10)
+		if s == w && w != "" {
+			return strconv.FormatInt(int64(i), 8)
 		}
 	}
-	// build regexp string
-	// for each power of 8 zazam -> vol
-	for i := len(naviVocab[3]) - 1; i > 0; i-- {
-		reString += "("
-		// for each prefix me -> ki
-		for i2, w := range naviVocab[2][2:] {
-			reString += w
-			if i2 != len(naviVocab[2][2:])-1 {
-				reString += "|"
-			}
-		}
-		reString += ")?"
-		if i != 1 {
-			reString += "(" + naviVocab[3][i] + ")?"
-		} else {
-			reString += "(" + naviVocab[3][i] + naviVocab[4][i] + "|" + naviVocab[3][i] + ")?"
-		}
-	}
-	// last digit
-	reString += "("
-	for i3, w := range naviVocab[1][1:] {
-		reString += w
-		if i3 != len(naviVocab[1][1:])-1 {
-			reString += "|"
-		}
-	}
-	reString += ")?"
+	// build regexp for all other numbers
+	reString = "(mezazam|mezaza|pxezazam|pxezaza|tsìzazam|tsìzaza|mrrzazam|mrrzaza|puzazam|puzaza|kizazam|kizaza|zazam|zaza)?"
+	reString += "(mevozam|mevoza|evozam|evoza|pxevozam|pxevoza|tsìvozam|tsìvoza|mrrvozam|mrrvoza|rrvozam|rrvoza|puvozam|puvoza|kivozam|kivoza|vozam|voza)?"
+	reString += "(mezam|meza|ezam|eza|pxezam|pxeza|tsìzam|tsìza|mrrzam|mrrza|rrzam|rrza|puzam|puza|kizam|kiza|zam|za)?"
+	reString += "(mevol|mevo|evol|evo|pxevol|pxevo|tsìvol|tsìvo|mrrvol|mrrvo|rrvol|rrvo|puvol|puvo|kivol|kivo|vol|vo)?"
+	reString += "(aw|mun|un|pey|sìng|mrr|rr|fu|hin)?"
 	re = regexp.MustCompile(reString)
-	tmp := re.FindAllStringSubmatch(input, -1)
+	tmp := re.FindAllStringSubmatch(s, -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchNumbers = tmp[0][1:]
 	}
-	matchNumbers = util.DeleteEmpty(matchNumbers)
 
-	// calculate
 	for _, w := range matchNumbers {
-		if util.ContainsStr(naviVocab[2][2:], w) {
-			multiplier = wordToDigit[w]
-		} else if util.ContainsStr(naviVocab[1][1:], w) {
-			digits += wordToDigit[w]
-		} else {
-			digits += multiplier * wordToDigit[w]
-		}
-		if w == "mrr" { // no idea why this is necessary but it is.
-			digits += wordToDigit[w]
-		}
+		n += numTable[w]
 	}
-	return fmt.Sprintf("%d", digits)
+
+	return strconv.FormatInt(int64(n), 8)
 }
 
 func wordify(input string) string {
