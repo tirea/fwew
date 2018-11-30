@@ -70,9 +70,18 @@ func fwew(word string) []affixes.Word {
 	if len(word) == 0 {
 		return results
 	}
+	// hardcoded hack for tseyä
+	if word == "tseyä" {
+		result = affixes.InitWordStruct(result, []string{
+			"5268", "eng", "tsaw", "t͡saw", "NULL", "dem., pn.", "that, it (as intransitive subject)",
+			"http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)",
+		})
+		result.Affixes[util.Text("suf")] = []string{"yä"}
+		results = append(results, result)
+		return results
+	}
 	// Prepare file for searching
 	dictData, err := os.Open(util.Text("dictionary"))
-	defer dictData.Close()
 	if err != nil {
 		fmt.Println(errors.New(util.Text("noDataError")))
 		log.Fatal(err)
@@ -128,7 +137,11 @@ func fwew(word string) []affixes.Word {
 			}
 		}
 	}
-
+	err = dictData.Close()
+	if err != nil {
+		fmt.Println(errors.New(util.Text("dictCloseError")))
+		log.Fatal(err)
+	}
 	return results
 }
 
@@ -343,7 +356,6 @@ func listWords(args []string) []affixes.Word {
 	// results = append(results, result)
 
 	dictData, err := os.Open(util.Text("dictionary"))
-	defer dictData.Close()
 	if err != nil {
 		fmt.Println(errors.New(util.Text("noDataError")))
 		log.Fatal(err)
@@ -415,6 +427,11 @@ func listWords(args []string) []affixes.Word {
 			}
 		}
 	}
+	err = dictData.Close()
+	if err != nil {
+		fmt.Println(errors.New(util.Text("dictCloseError")))
+		log.Fatal(err)
+	}
 	return results
 }
 
@@ -471,7 +488,10 @@ func slashCommand(s string, argsMode bool) {
 			fmt.Println()
 		}
 	case "/update":
-		util.DownloadDict()
+		err := util.DownloadDict()
+		if err != nil {
+			log.Fatal(err)
+		}
 	case "/quit", "/exit", "/q", "/wc":
 		os.Exit(0)
 	default:

@@ -93,6 +93,7 @@ func init() {
 	texts["invalidDecimalError"] = "err 6: invalid decimal integer"
 	texts["invalidLanguageError"] = "err 7: invalid language option"
 	texts["invalidPOSFilterError"] = "err 8: invalid part of speech filter"
+	texts["dictCloseError"] = "err 9: failed to close dictionary file (" + texts["dictionary"] + ")"
 }
 
 // Text function is the accessor for []string texts

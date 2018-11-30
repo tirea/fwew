@@ -41,7 +41,10 @@ func ReadConfig() Config {
 	}
 
 	var config Config
-	json.Unmarshal(configfile, &config)
+	err := json.Unmarshal(configfile, &config)
+	if err != nil {
+		log.Fatal(e)
+	}
 
 	return config
 }
