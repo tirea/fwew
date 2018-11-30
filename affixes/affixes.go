@@ -304,35 +304,8 @@ func infix(w Word) Word {
 	)
 
 	// Hardcode hack for z**enke
-	if w.Navi == "zenke" {
-		reString = "z" + pos0InfixRe + pos1InfixRe + "enke"
-		re = regexp.MustCompile(reString)
-		tmp := re.FindAllStringSubmatch(w.Target, -1)
-		attempt = strings.Replace(w.InfixLocations, "eke", "ke", 1)
-		var matchInfixesZ []string
-		if len(tmp) > 0 && len(tmp[0]) >= 1 {
-			matchInfixesZ = tmp[0][1:]
-		}
-		matchInfixesZ = util.DeleteEmpty(matchInfixesZ)
-		for _, i := range matchInfixesZ {
-			if i == "äp" || i == "eyk" {
-				pos0InfixString += i
-			} else if util.ContainsStr([]string{"eiy", "ei", "äng", "eng", "ats", "uy"}, i) {
-				pos2InfixString += i + "e"
-			} else {
-				pos1InfixString += i
-			}
-		}
-		attempt = strings.Replace(attempt, "<0>", pos0InfixString, 1)
-		attempt = strings.Replace(attempt, "<1>", pos1InfixString, 1)
-		attempt = strings.Replace(attempt, "<2>", pos2InfixString, 1)
-		if attempt == w.Target {
-			w.Attempt = attempt
-			if len(matchInfixesZ) != 0 {
-				w.Affixes[util.Text("inf")] = matchInfixesZ
-			}
-			return w
-		}
+	if w.Navi == "zenke" && (strings.Contains(w.Target, "uy") || strings.Contains(w.Target, "ats")) {
+		w.InfixLocations = strings.Replace(w.InfixLocations, "ke", "eke", 1)
 	}
 
 	reString = strings.Replace(w.InfixLocations, "<0>", pos0InfixRe, 1)

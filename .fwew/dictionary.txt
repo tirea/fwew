@@ -5169,14 +5169,14 @@
 3964	pl	yem	j·ɛm	y<0><1><2>em	vtr.	umieszczać, kłaść	Taronyu's Dictionary 9.53 < Frommer
 3964	ru	yem	j·ɛm	y<0><1><2>em	vtr.	положить, поставить	Taronyu's Dictionary 9.53 < Frommer
 3964	sv	yem	j·ɛm	y<0><1><2>em	vtr.	sätta dit, placera, sätta	Taronyu's Dictionary 9.53 < Frommer
-3968	de	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	nicht dürfen (ii)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
-3968	eng	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	must not (ii)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
-3968	est	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	mitte tohtima (e)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
-3968	hu	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	tilos, nem szabad	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
-3968	nl	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	niet moeten (ii)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
-3968	pl	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	nie móc, nie wolno (ii)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
-3968	ru	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	модальный глагол долженствования с отрицанием (не должен)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
-3968	sv	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>eke	vim.	få inte	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
+3968	de	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>ke	vim.	nicht dürfen (ii)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
+3968	eng	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>ke	vim.	must not (ii)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
+3968	est	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>ke	vim.	mitte tohtima (e)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
+3968	hu	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>ke	vim.	tilos, nem szabad	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
+3968	nl	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>ke	vim.	niet moeten (ii)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
+3968	pl	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>ke	vim.	nie móc, nie wolno (ii)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
+3968	ru	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>ke	vim.	модальный глагол долженствования с отрицанием (не должен)	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
+3968	sv	zenke	ˈz·ɛŋ.kɛ	z<0><1>en<2>ke	vim.	få inte	http://forum.learnnavi.org/language-updates/affective-obligation-%28zenke%29/ (05 Sept 2011)
 3972	de	zup	z·up̚	z<0><1><2>up	vin.	fallen	Taronyu's Dictionary 9.53 < Frommer
 3972	eng	zup	z·up̚	z<0><1><2>up	vin.	fall	Taronyu's Dictionary 9.53 < Frommer
 3972	est	zup	z·up̚	z<0><1><2>up	vin.	kukkuma	Taronyu's Dictionary 9.53 < Frommer
