@@ -20,9 +20,11 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	"math/rand"
 	"os"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/tirea/fwew/affixes"
 	"github.com/tirea/fwew/config"
@@ -333,14 +335,43 @@ func listWordsSubset(args []string, subset []affixes.Word) []affixes.Word {
 	return results
 }
 
+func countLines() int {
+	var (
+		count  int
+		fields []string
+	)
+	dictData, err := os.Open(util.Text("dictionary"))
+	if err != nil {
+		fmt.Println(errors.New(util.Text("noDataError")))
+		log.Fatal(err)
+	}
+	count = 1
+	scanner := bufio.NewScanner(dictData)
+	for scanner.Scan() {
+		line := scanner.Text()
+		fields = strings.Split(line, "\t")
+		if fields[lcField] == *language {
+			count++
+		}
+	}
+	err = dictData.Close()
+	if err != nil {
+		fmt.Println(errors.New(util.Text("dictCloseError")))
+		log.Fatal(err)
+	}
+	return count
+}
+
 func listWords(args []string) []affixes.Word {
 	var (
-		result  affixes.Word
-		results []affixes.Word
-		fields  []string
-		what    = args[0]
-		cond    = args[1]
-		spec    = args[2]
+		result   affixes.Word
+		results  []affixes.Word
+		fields   []string
+		what     = args[0]
+		cond     = args[1]
+		spec     = args[2]
+		count    int
+		numLines int
 	)
 	// /list what cond spec
 	// /list pos has svin.
@@ -360,6 +391,8 @@ func listWords(args []string) []affixes.Word {
 		fmt.Println(errors.New(util.Text("noDataError")))
 		log.Fatal(err)
 	}
+	count = 1
+	numLines = countLines()
 	scanner := bufio.NewScanner(dictData)
 	for scanner.Scan() {
 		line := scanner.Text()
@@ -395,6 +428,23 @@ func listWords(args []string) []affixes.Word {
 						results = append(results, result)
 					}
 				}
+			case "words":
+				s, err := strconv.Atoi(spec)
+				if err != nil {
+					log.Fatal(err)
+				}
+				if cond == "first" {
+					if count <= s {
+						result = affixes.InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				} else if cond == "last" {
+					if count >= numLines-s && count <= numLines {
+						result = affixes.InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				}
+				count++
 			case "syllables":
 				result = affixes.InitWordStruct(result, fields)
 				ispec, err := strconv.ParseInt(spec, 10, 64)
@@ -425,6 +475,49 @@ func listWords(args []string) []affixes.Word {
 					}
 				}
 			}
+		}
+	}
+	err = dictData.Close()
+	if err != nil {
+		fmt.Println(errors.New(util.Text("dictCloseError")))
+		log.Fatal(err)
+	}
+	return results
+}
+
+func random(k int) []affixes.Word {
+	var (
+		results []affixes.Word
+		result  affixes.Word
+		fields  []string
+		i       int
+		r       *rand.Rand
+	)
+	if k < 1 {
+		return results
+	}
+	r = rand.New(rand.NewSource(time.Now().UnixNano()))
+	dictData, err := os.Open(util.Text("dictionary"))
+	if err != nil {
+		fmt.Println(errors.New(util.Text("noDataError")))
+		log.Fatal(err)
+	}
+	scanner := bufio.NewScanner(dictData)
+	for scanner.Scan() {
+		line := scanner.Text()
+		fields = strings.Split(line, "\t")
+		if fields[lcField] == *language {
+			if i < k {
+				result = affixes.InitWordStruct(result, fields)
+				results = append(results, result)
+			} else {
+				j := r.Intn(i)
+				if j < k {
+					result = affixes.InitWordStruct(result, fields)
+					results[j] = result
+				}
+			}
+			i++
 		}
 	}
 	err = dictData.Close()
@@ -484,6 +577,17 @@ func slashCommand(s string, argsMode bool) {
 				subset = listWordsSubset(expr, subset)
 			}
 			printResults(subset)
+		} else {
+			fmt.Println()
+		}
+	case "/random":
+		// k
+		if nargs == 1 && args[0] != "" {
+			k, err := strconv.Atoi(args[0])
+			if err != nil {
+				log.Fatal(err)
+			}
+			printResults(random(k))
 		} else {
 			fmt.Println()
 		}
