@@ -400,6 +400,7 @@ func listWords(args []string) []affixes.Word {
 		if fields[lcField] == *language {
 			switch what {
 			case "pos":
+				spec = strings.ToLower(spec)
 				if cond == "is" {
 					if fields[posField] == spec {
 						result = affixes.InitWordStruct(result, fields)
@@ -412,18 +413,20 @@ func listWords(args []string) []affixes.Word {
 					}
 				}
 			case "word":
+				spec = strings.ToLower(spec)
+				word := strings.ToLower(fields[navField])
 				if cond == "starts" {
-					if strings.HasPrefix(fields[navField], spec) {
+					if strings.HasPrefix(word, spec) {
 						result = affixes.InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				} else if cond == "ends" {
-					if strings.HasSuffix(fields[navField], spec) {
+					if strings.HasSuffix(word, spec) {
 						result = affixes.InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				} else if cond == "has" {
-					if strings.Contains(fields[navField], spec) {
+					if strings.Contains(word, spec) {
 						result = affixes.InitWordStruct(result, fields)
 						results = append(results, result)
 					}
