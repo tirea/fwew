@@ -379,6 +379,8 @@ func listWords(args []string) []affixes.Word {
 	// /list word starts ft
 	// /list word ends ang
 	// /list word has ts
+	// /list words first 20
+	// /list words last 30
 	// /list syllables > 1
 	// /list syllables = 2
 	// /list syllables <= 3
