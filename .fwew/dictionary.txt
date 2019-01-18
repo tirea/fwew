@@ -16876,6 +16876,7 @@
 -1	eng	Vawmataw	ˈvaw.ma.taw	\N	meme.	Eyktan Ayhangvurä	LN Discord
 0	eng	Eywa	ˈɛj.wa	\N	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
 1	eng	Tìlu	tɪ.ˈlu	\N	meme.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i	LN Discord
-2	eng	mako si	ˈma.ko s·i	mako s<1><2><3>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
+2	eng	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
 3	eng	nävi	ˈnæ.vi	\N	meme.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)	LN Discord
 5	eng	pokx	pok'	p<0><1><2>okx	meme.	poke	LN Discord
+6	eng	tsyili si	t͡sji.li s·i	tsyili s<0><1><2>i	meme.	to construct a sentence which has a hilariously outlandish meaning, particularly involving shoe-eating ikran	LN Discord
