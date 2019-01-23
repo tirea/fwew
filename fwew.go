@@ -19,17 +19,16 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/tirea/fwew/affixes"
+	"github.com/tirea/fwew/config"
+	"github.com/tirea/fwew/numbers"
+	"github.com/tirea/fwew/util"
 	"log"
 	"math/rand"
 	"os"
 	"strconv"
 	"strings"
 	"time"
-
-	"github.com/tirea/fwew/affixes"
-	"github.com/tirea/fwew/config"
-	"github.com/tirea/fwew/numbers"
-	"github.com/tirea/fwew/util"
 )
 
 // Global
@@ -498,10 +497,12 @@ func random(k int) []affixes.Word {
 		i       int
 		r       *rand.Rand
 	)
-	if k < 1 {
+	r = rand.New(rand.NewSource(time.Now().UnixNano()))
+	if k == -1337 {
+		k = r.Intn(r.Intn(2342))
+	} else if k < 1 {
 		return results
 	}
-	r = rand.New(rand.NewSource(time.Now().UnixNano()))
 	dictData, err := os.Open(util.Text("dictionary"))
 	if err != nil {
 		fmt.Println(errors.New(util.Text("noDataError")))
@@ -588,11 +589,15 @@ func slashCommand(s string, argsMode bool) {
 	case "/random":
 		// k
 		if nargs == 1 && args[0] != "" {
-			k, err := strconv.Atoi(args[0])
-			if err != nil {
-				log.Fatal(err)
+			if args[0] == "random" {
+				printResults(random(-1337))
+			} else {
+				k, err := strconv.Atoi(args[0])
+				if err != nil {
+					log.Fatal(err)
+				}
+				printResults(random(k))
 			}
-			printResults(random(k))
 		} else {
 			fmt.Println()
 		}
