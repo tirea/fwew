@@ -241,7 +241,34 @@ func setFlags(arg string, argsMode bool) {
 		}
 	}
 	if err == nil {
-		fmt.Printf("%s r=%t i=%t ipa=%t s=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *reverse, *showInfixes, *showIPA, *showSource, *useAffixes, *numConvert, *markdown, *language, *posFilter)
+		var out string
+		out += util.Text("set") + " "
+		out += "[ "
+		if *reverse {
+			out += "r "
+		}
+		if *showInfixes {
+			out += "i "
+		}
+		if *showIPA {
+			out += "ipa "
+		}
+		if *showSource {
+			out += "s "
+		}
+		if *useAffixes {
+			out += "a "
+		}
+		if *numConvert {
+			out += "n "
+		}
+		if *markdown {
+			out += "m "
+		}
+		out += fmt.Sprintf("l=%s p=%s", *language, *posFilter)
+		out += " ]\n\n"
+		//fmt.Printf("%s r=%t i=%t ipa=%t s=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *reverse, *showInfixes, *showIPA, *showSource, *useAffixes, *numConvert, *markdown, *language, *posFilter)
+		fmt.Println(out)
 	}
 }
 
