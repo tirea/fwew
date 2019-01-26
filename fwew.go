@@ -266,7 +266,7 @@ func setFlags(arg string, argsMode bool) {
 			out += "m "
 		}
 		out += fmt.Sprintf("l=%s p=%s", *language, *posFilter)
-		out += " ]\n\n"
+		out += " ]\n"
 		//fmt.Printf("%s r=%t i=%t ipa=%t s=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *reverse, *showInfixes, *showIPA, *showSource, *useAffixes, *numConvert, *markdown, *language, *posFilter)
 		fmt.Println(out)
 	}
