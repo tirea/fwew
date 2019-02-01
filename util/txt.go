@@ -37,7 +37,6 @@ func init() {
 	// slash-commands Help
 	texts["slashCommandHelp"] = "" +
 		"/set       show currently set options, or set given options (separated by space)\n" +
-		"/set       show currently set options, or set given options (separated by space)\n" +
 		"/unset     unset given options (separated by space)\n" +
 		"/list      list all words that meet given criteria\n" +
 		"/random    display given number of random entries\n" +
