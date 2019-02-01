@@ -19,6 +19,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/c-bata/go-prompt"
 	"github.com/tirea/fwew/affixes"
 	"github.com/tirea/fwew/config"
 	"github.com/tirea/fwew/numbers"
@@ -516,6 +517,34 @@ func listWords(args []string) []affixes.Word {
 	return results
 }
 
+func randomSubset(k int, subset []affixes.Word) []affixes.Word {
+	var (
+		results []affixes.Word
+		i       int
+		r       *rand.Rand
+	)
+	r = rand.New(rand.NewSource(time.Now().UnixNano()))
+	if k == -1337 {
+		k = r.Intn(r.Intn(countLines()))
+	} else if k < 1 {
+		return results
+	}
+	for _, w := range subset {
+		if w.LangCode == *language {
+			if i < k {
+				results = append(results, w)
+			} else {
+				j := r.Intn(i)
+				if j < k {
+					results[j] = w
+				}
+			}
+			i++
+		}
+	}
+	return results
+}
+
 func random(k int) []affixes.Word {
 	var (
 		results []affixes.Word
@@ -526,7 +555,7 @@ func random(k int) []affixes.Word {
 	)
 	r = rand.New(rand.NewSource(time.Now().UnixNano()))
 	if k == -1337 {
-		k = r.Intn(r.Intn(2342))
+		k = r.Intn(r.Intn(countLines()))
 	} else if k < 1 {
 		return results
 	}
@@ -570,6 +599,7 @@ func slashCommand(s string, argsMode bool) {
 		nargs   int
 	)
 	sc = strings.Split(s, " ")
+	sc = util.DeleteEmpty(sc)
 	command = sc[0]
 	if len(sc) > 1 {
 		args = sc[1:]
@@ -625,6 +655,21 @@ func slashCommand(s string, argsMode bool) {
 				}
 				printResults(random(k))
 			}
+			// k where what cond spec [and what cond spec...]
+		} else if nargs >= 5 && args[1] == "where" {
+			fargs := args[2:]
+			nFargs := len(fargs)
+			if nFargs == 3 {
+				if args[0] == "random" {
+					printResults(randomSubset(-1337, listWords(fargs)))
+				} else {
+					k, err := strconv.Atoi(args[0])
+					if err != nil {
+						log.Fatal(err)
+					}
+					printResults(randomSubset(k, listWords(fargs)))
+				}
+			}
 		} else {
 			fmt.Println()
 		}
@@ -638,6 +683,74 @@ func slashCommand(s string, argsMode bool) {
 	default:
 		fmt.Println()
 	}
+}
+
+func executor(cmd string) {
+	if cmd != "" {
+		if strings.HasPrefix(cmd, "/") {
+			slashCommand(cmd, false)
+		} else {
+			if *numConvert {
+				fmt.Println(numbers.Convert(cmd, *reverse))
+			} else {
+				printResults(fwew(cmd))
+			}
+		}
+	} else {
+		fmt.Println()
+	}
+}
+
+func completer(d prompt.Document) []prompt.Suggest {
+	if d.GetWordBeforeCursor() == "" {
+		return []prompt.Suggest{}
+	}
+	s := []prompt.Suggest{
+		{Text: "/set", Description: "set option(s)"},
+		{Text: "/unset", Description: "unset option(s)"},
+		{Text: "/list", Description: "list entries satisfying given condition(s)"},
+		{Text: "/random", Description: "list random entries"},
+		{Text: "/update", Description: "update the dictionary data file"},
+		{Text: "/commands", Description: "show commands help"},
+		{Text: "/help", Description: "show usage help"},
+		{Text: "/exit", Description: "end program"},
+		{Text: "/quit", Description: "end program"},
+		{Text: "/q", Description: "end program"},
+		{Text: "r", Description: util.Text("usageR")},
+		{Text: "i", Description: util.Text("usageI")},
+		{Text: "ipa", Description: util.Text("usageIPA")},
+		{Text: "n", Description: util.Text("usageN")},
+		{Text: "a", Description: util.Text("usageA")},
+		{Text: "m", Description: util.Text("usageM")},
+		{Text: "s", Description: util.Text("usageS")},
+		{Text: "l=de", Description: "Deutsch"},
+		{Text: "l=eng", Description: "English"},
+		{Text: "l=est", Description: "Eesti"},
+		{Text: "l=hu", Description: "Magyar"},
+		{Text: "l=nl", Description: "Nederlands"},
+		{Text: "l=pl", Description: "Polski"},
+		{Text: "l=ru", Description: "Русский"},
+		{Text: "l=sv", Description: "Svenska"},
+		{Text: "pos", Description: "part of speech"},
+		{Text: "word", Description: "word"},
+		{Text: "words", Description: "words"},
+		{Text: "syllables", Description: "syllables"},
+		{Text: "random", Description: "random number"},
+		{Text: "where", Description: "add condition to random"},
+		{Text: "starts", Description: "field starts with"},
+		{Text: "ends", Description: "field ends with"},
+		{Text: "first", Description: "list oldest words"},
+		{Text: "last", Description: "list newest words"},
+		{Text: "has", Description: "all matches of condition"},
+		{Text: "is", Description: "exact matches of condition"},
+		{Text: ">=", Description: "syllable count greater or equal"},
+		{Text: ">", Description: "syllable count greater"},
+		{Text: "<=", Description: "syllable count less or equal"},
+		{Text: "<", Description: "syllable count less"},
+		{Text: "=", Description: "syllable count equal"},
+		{Text: "and", Description: "add condition to narrow search"},
+	}
+	return prompt.FilterHasPrefix(s, d.GetWordBeforeCursor(), true)
 }
 
 func main() {
@@ -700,38 +813,11 @@ func main() {
 	} else {
 		fmt.Println(util.Text("header"))
 
-		for {
-			if *reverse {
-				fmt.Print(util.Text("prompt_R"))
-			} else {
-				fmt.Print(util.Text("prompt_N"))
-			}
-
-			scanner := bufio.NewScanner(os.Stdin)
-			scanner.Scan()
-			input := scanner.Text()
-			input = strings.Replace(input, "’", "'", -1)
-
-			// catch EOF error
-			if err := scanner.Err(); err != nil {
-				fmt.Println()
-				os.Exit(0)
-			}
-
-			if input != "" {
-				if strings.HasPrefix(input, "/") {
-					slashCommand(input, argsMode)
-				} else {
-					if *numConvert {
-						fmt.Println(numbers.Convert(input, *reverse))
-					} else {
-						results = fwew(input)
-						printResults(results)
-					}
-				}
-			} else {
-				fmt.Println()
-			}
-		}
+		p := prompt.New(executor, completer,
+			prompt.OptionTitle(util.Text("name")),
+			prompt.OptionPrefix(util.Text("prompt")),
+			prompt.OptionSelectedDescriptionTextColor(prompt.DarkGray),
+		)
+		p.Run()
 	}
 }

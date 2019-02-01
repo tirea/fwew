@@ -34,6 +34,7 @@ func init() {
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
 	texts["prompt_N"] = "n~> "
 	texts["prompt_R"] = "r~> "
+	texts["prompt"] = "~~> "
 
 	// slash-commands Help
 	texts["/set"] = "/set       show currently set options, or set given options (separated by space)\n"
