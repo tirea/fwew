@@ -32,26 +32,40 @@ func init() {
 	texts["author"] = "Tirea Aean"
 	texts["header"] = fmt.Sprintf("%s\n%s\n", Version, texts["tip"])
 	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
-	texts["prompt_N"] = "n~> "
-	texts["prompt_R"] = "r~> "
 	texts["prompt"] = "~~> "
 
 	// slash-commands Help
-	texts["/set"] = "/set       show currently set options, or set given options (separated by space)\n"
-	texts["/unset"] = "/unset     unset given options (separated by space)\n"
-	texts["/list"] = "/list      list all words that meet given criteria\n"
-	texts["/random"] = "/random    display given number of random entries\n"
-	texts["/update"] = "/update    download and update the dictionary file\n"
-	texts["/commands"] = "/commands  show this commands help text\n"
-	texts["/help"] = "/help      show main help text\n"
-	texts["/exit"] = "/exit      exit/quit the program (aliases /quit /q /wc)\n\n"
-	texts["/examples"] = fmt.Sprintf("%s:\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n",
-		"examples", "/set", "/set i ipa", "/unset i", "/list pos has svin.", "/list pos is vtrm.",
-		"/list word starts prr", "/list word ends tut", "/list word has kang", "/list syllables >= 5",
-		"/list syllables = 1", "/list words first 10", "/list words last 20", "/random 8",
-		"/random random", "/update", "/commands", "/help", "/exit")
-	texts["slashCommandHelp"] = texts["/set"] + texts["/unset"] + texts["/list"] + texts["/random"] +
-		texts["/update"] + texts["/commands"] + texts["/help"] + texts["/exit"] + texts["/examples"]
+	texts["slashCommandHelp"] = "" +
+		"/set       show currently set options, or set given options (separated by space)\n" +
+		"/set       show currently set options, or set given options (separated by space)\n" +
+		"/unset     unset given options (separated by space)\n" +
+		"/list      list all words that meet given criteria\n" +
+		"/random    display given number of random entries\n" +
+		"/update    download and update the dictionary file\n" +
+		"/commands  show this commands help text\n" +
+		"/help      show main help text\n" +
+		"/exit      exit/quit the program (aliases /quit /q /wc)\n\n" +
+		"examples:\n" +
+		"/set\n" +
+		"/set i ipa\n" +
+		"/unset i\n" +
+		"/list pos has svin.\n" +
+		"/list pos is vtrm.\n" +
+		"/list word starts prr\n" +
+		"/list word ends tut\n" +
+		"/list word has kang\n" +
+		"/list syllables >= 5\n" +
+		"/list syllables = 1\n" +
+		"/list words first 10\n" +
+		"/list words last 20\n" +
+		"/random 8\n" +
+		"/random random\n" +
+		"/random 2 where pos has vtr.\n" +
+		"/random random where pos is n.\n" +
+		"/update\n" +
+		"/commands\n" +
+		"/help\n" +
+		"/exit\n"
 
 	// flag strings
 	texts["usage"] = "usage"
@@ -104,8 +118,3 @@ func init() {
 func Text(s string) string {
 	return texts[s]
 }
-
-// SetText is the setter for []string texts
-//func SetText(i, s string) {
-//	texts[i] = s
-//}
