@@ -2,32 +2,34 @@
 
 The Best Na'vi Dictionary on the Command Line
 
-Fwew is the improved, faster, cleaner, more modern successor to [vrrtepcli](https://github.com/tirea/vrrtepcli). Fwew was written using the Go Programming Language and is a cross-platform binary text-based program for dictionary lookups. Primarily for the [Na'vi language](https://learnnavi.org). See the [LearnNavi Forum thread](https://forum.learnnavi.org/projects/fwew-a-better-crossplatform-navi-dictionary-terminal-app/).
+Fwew is written using the Go Programming Language and is a cross-platform binary text-based program for dictionary lookups. Primarily for the [Na'vi language](https://learnnavi.org). See the [LearnNavi Forum thread](https://forum.learnnavi.org/projects/fwew-a-better-crossplatform-navi-dictionary-terminal-app/).
 
 ## Install
 
 ### Compile and install from source code
 
-This option is mostly for Contributors and Developers.
+This option is mostly for Contributors and Developers. Or people who like to compile stuff themselves.
 
 You will need the [GO Programming Language](https://golang.org/) and [Git](https://git-scm.com/) installed. If you don't have these and don't want to download/install them, see the next section, `Install program from downloaded .zip`.
 
 Run the following commands from inside a Terminal (Linux, MacOS ONLY)
 
 ```
-cd $HOME                        # Start at home folder
-mkdir -p go                     # Make a folder for all Go source code
-export GOPATH=$HOME/go          # Set GOPATH variable to newly created go folder
-go get github.com/tirea/fwew    # Pretty much same as git clone but puts stuff where it needs to be
-cd go/src/github.com/tirea/fwew # Go to where the code is before trying to build it
-make                            # to just compile
-make install                    # to compile and install
+cd $HOME                           # Start at home folder
+mkdir -p go                        # Make a folder for all Go source code
+export GOPATH=$HOME/go             # Set GOPATH variable to newly created go folder
+go get github.com/c-bata/go-prompt # Install the go-prompt library (fwew depends on this library)
+go get github.com/tirea/fwew       # Pretty much same as git clone but puts stuff where it needs to be
+cd go/src/github.com/tirea/fwew    # Go to where the code is before trying to build it
+make                               # to just compile
+make install                       # to compile and install
 ```
 
 For Windows users, instead run the following from inside a Powershell:
 
 ```
 cd $HOME                             # Start at home folder
+go get github.com/c-bata/go-prompt   # Install the go-prompt library (fwew depends on this library)
 go get github.com/tirea/fwew         # Pretty much same as git clone but puts stuff where it needs to be
 cd .\go\src\github.com\tirea\fwew    # Go to where the code is before trying to build it
 go build -o .\bin\fwew.exe .\fwew.go # compile
@@ -45,7 +47,7 @@ On Windows, you will want to add the path to `fwew.exe` to your `Path` Environme
 
 ### Install program from downloaded .zip
 
-If you don't have Go or Git installed, you don't need to. You can just download the pre-built program here from GitHub in a .zip file then install it, without compiling it yourself.
+If you don't have Go or Git installed, you don't need to. You can just download the pre-built program here from GitHub in a .zip file then install and/or run it, without compiling it yourself.
 
 Windows/MacOS/Linux:
 
@@ -176,124 +178,292 @@ fwew fmetok set[i] omum unset[i] set[r,l=sv] hej
 
 ## REPL
 
-There is also an interactive mode, activated when no words are present in the command line arguments: All flags are set to default values: -v=false -r=false -l=eng -i=false -ipa=false -p="all" The Read-Evaluate-Print-Loop will forever ask you for input until you either type Ctrl+C or Ctrl+D.
+There is also an interactive mode, activated when no words are present in the command line arguments: All flags are set to default values: -v=false -r=false -l=eng -i=false -ipa=false -p="all", unless overridden on the command line. Fwew will continuously prompt you for input.
 
 ```
 fwew
 fwew -i -ipa
 ```
 
-set[] and unset[] commands also work in the REPL. One command per line, and only the command on the line.
+setting options also works in the REPL/Interactive mode. Here however, it's a slash-command, `/set`. flags to be set are separated by space. `/unset` is actually just an alias to `/set`, since what happens here is options are toggled on/off. One command per line, and only the command on the line.
+
+Sample Output of `fwew -i -ipa`:
+```
+fwew 3.1.0-dev "Eana Yayo"
+Na'vi Dictionary 13.9 (02 NOV 2018)
+type "/help" or "/commands" for more info
+
+~~> eltu
+[1] eltu [ˈɛl.tu] n. brain
+
+~~> /unset ipa
+set [ i a l=eng p=all ]
+
+~~> /set l=de r
+set [ r i a l=de p=all ]
+
+~~> wald
+[1] na'rìng n. Wald
+
+~~> /set i ipa p=vtr
+bash-3.2$ fwew -i -ipa
+fwew 3.1.0-dev "Eana Yayo"
+Na'vi Dictionary 13.9 (02 NOV 2018)
+type "/help" or "/commands" for more info
+
+~~> eltu
+[1] eltu [ˈɛl.tu] n. brain
+
+~~> /unset ipa
+set [ i a l=eng p=all ]
+
+~~> /set l=de r
+set [ r i a l=de p=all ]
+
+~~> wald
+[1] na'rìng n. Wald
+
+~~> /set i ipa p=vtr.
+set [ r ipa a l=de p=vtr. ]
+
+~~> essen
+[1] yom [j·om] vtr. essen, speisen, fressen
+
+~~> 
 
 ```
-fwew -i -ipa
-Fwew - Na'vi Dictionary Search - by Tirea Aean
-`fwew -h` for usage, `fwew -v` for version. See README
 
-Fwew:> eltu
-[1] n. brain [ˈɛl.tu] (eltu)
-
-Fwew:> unset[ipa]
-<! [ipa] unset >
-
-Fwew:> set[l=de,r]
-<! [l=de r] set >
-
-Fwew:> wald
-[1] n. na'rìng (wald)
-
-Fwew:> set[i,ipa,p=vtr]
-<! [i ipa p=vtr] set >
-
-Fwew:> essen
-[1] vtr. yom [j·om] y<1><2><3>om (essen, speisen, fressen)
-
-Fwew:>
-```
-
-Use set[] with empty list of flags to show all current set flag values.
+Use `/set` with empty list of flags to show all current set flag values.
 
 ```
-fwew
-Fwew - Na'vi Dictionary Search - by Tirea Aean
-`fwew -h` for usage, `fwew -v` for version. See README
+~~> /set
+set [ a l=eng p=all ]
 
-Fwew:> set[]
-<! Currently set: debug=false, r=false, i=false, ipa=false, l=eng, p=all >
+~~> /set i ipa
+set [ i ipa a l=eng p=all ]
 
-Fwew:> set[debug,i,ipa]
-<! [debug i ipa] set >
-
-Fwew:> set[]
-<! Currently set: debug=true, r=false, i=true, ipa=true, l=eng, p=all >
-
-Fwew:>
+~~> /set
+set [ i ipa a l=eng p=all ]
 ```
 
-## Input & Output Files (Linux / MacOS)
+### /commands 
 
-You can make a text file containing all the words you want to search and all the flag settings.
+While in interactive mode, the following commands are available and can be seen by running the `/commands` command:
+```
+/set       show currently set options, or set given options (separated by space)
+/unset     unset given options (separated by space)
+/list      list all words that meet given criteria
+/random    display given number of random entries
+/update    download and update the dictionary file
+/commands  show this commands help text
+/help      show main help text
+/exit      exit/quit the program (aliases /quit /q /wc)
+```
+
+### /set and /unset
+
+`/set` and `/unset` allow options to be toggled or set while within `fwew`. Here are the available options:
+
+```
+a       use affix-recognition
+i       display infix location data
+ipa     display IPA data
+l=de    use German language
+l=eng   use English language
+l=est   use Estonian language
+l=hu    use Hungarian language
+l=nl    use Dutch language
+l=pl    use Polish language
+l=ru    use Russian language
+l=sv    use Swedish language
+m       format output in markdown for bold and italic (mostly only useful for fwew-discord bot)
+n       convert numbers octal<->decimal
+p=[pos] search for word(s) with specified part of speech abbreviation
+r       reverse the lookup direction from Na'vi->local to local->Na'vi
+s       display source data
+
+```
+
+use any of these you wish to set, and separate them with spaces
+
+```
+/set ipa i l=eng p=all r
+/unset i r
+```
+
+### /list
+
+`/list` is a powerful search feature of `fwew` that allows you to list all of the words that satisfy a set of given conditions.
+
+The syntax is as follows (cond is short for condition, spec is short for specification):
+
+```
+/list what cond spec
+/lits what cond spec and what cond spec [and what cond spec...]
+```
+
+`what` can be any one of the following:
+
+```
+pos          part of speech of na'vi word
+word         na'vi word
+syllables    number of syllables in the na'vi word
+words        selection of na'vi words
+```
+
+`cond` depends on the `what`. Here are the conditions that apply to each `what`:
+
+pos:
+```
+has    part of speech has the following character sequence anywhere
+is     part of speech is exactly the following character sequence
+```
+word:
+```
+starts    word starts with the following character sequence
+ends      word ends with the following character sequence
+has       word has the following character sequence anywhere
+```
+syllables:
+```
+<     less than the following number
+<=    less than or equal to the following number
+=     exactly equal to the following number
+>=    greater than or equal to the following number
+>     greater than the following number
+```
+words:
+```
+first    the first consecutive words in the datafile (chronologically oldest words) 
+last     the last consecutive words in the datafile (chronologically newest words)
+```
+
+`spec` depends on the `cond`. Here are the specifications that apply to each `cond`:
+
+`has`, `is`, `starts`, and `ends` all expect a character sequence to come next.
+
+`<`, `<=`, `=`, `>=`, `>`, `first`, and `last` all expect a number to come next.
+
+#### Examples of /list
+
+List all modal verbs:
+```
+/list pos has v and pos has m.
+```
+List all stative verbs:
+```
+/list pos has svin.
+```
+List all nouns that start with tì:
+```
+/list word starts tì and pos is n.
+```
+List all 3 syllable transitive verbs:
+```
+/list syllables = 3 and pos has vtr.
+```
+List the newest 25 words in the language:
+```
+/list words last 25
+```
+
+### /random
+
+`/random` is a random entry generator that generates the a given number (or random number!) of random entries. It also features a `where` clause in which the `what cond spec` syntax from `/list` is supported to narrow down what kinds of random entries you get.
+
+#### Examples of /random
+
+List 10 random entires
+```
+/random 10
+```
+List 5 random transitive verbs
+```
+/random 5 where pos has vtr
+```
+
+### /update
+
+Running `/update` will download and update the fwew dictionary file.
+
+### /commands and /help
+
+`/commands` shows the list of commands and examples
+`/help` shows the program options / command line flags
+
+### /exit /quit /q
+
+Any of these will quit the program from within.
+
+## Input & Output Files
+
+You can make a text file containing all the words you want to search and all the flag settings. Each thing on its own line.
 
 input.txt:
 
 ```
 eltu
-set[r,p=adp]
+/set r p=adp.
 on
-unset[r]
-set[p=all]
+/unset r
+/set p=all
 prrkxentrrkrr
-set[l=sv]
-tìfmetok nitram
-set[i,ipa]
-taron omum inan
-unset[i,ipa]
+/set l=sv
+tìfmetok
+nitram
+/set i ipa
+taron
+omum
+inan
+/unset i ipa
 ```
 
 pass this file to fwew:
 
 ```
-fwew `cat input.txt`
+fwew -f input.txt
 ```
 
 Fwew output:
 
 ```
-[1] n. brain (eltu)
+cmd eltu
+[1] eltu n. brain
 
-<! [r p=adp] set >
+cmd /set r p=adp.
+cmd on
+[1] mì+ adp. in, on
+[2] sìn adp. on, onto
 
-[1] adp. mì (in, on)
+cmd /unset r
+cmd /set p=all
+cmd prrkxentrrkrr
+[1] prrkxentrrkrr n. day time smoking pleasure, vibrating tongue (Na'vi idiom)
 
-[2] adp. sìn (on, onto)
+cmd /set l=sv
+cmd tìfmetok
+[1] tìfmetok n. test
 
-<! [r] unset >
+cmd nitram
+[1] nitram adj. lycklig, glad (om folk)
 
-<! [p=all] set >
+cmd /set i ipa
+cmd taron
+[1] taron [ˈt·a.ɾ·on] t<0><1>ar<2>on vtr. jaga
 
-[1] n. day time smoking pleasure, vibrating tongue (na'vi idiom) (prrkxentrrkrr)
+cmd omum
+[1] omum [·o.ˈm·um] <0><1>om<2>um vtr. veta, känna till
 
-<! [l=sv] set >
+cmd inan
+[1] inan [·i.ˈn·an] <0><1>in<2>an vtr. läsa (tex. skogen), få kunskap ifrån sinnesintryck
 
-[1] n. test (tìfmetok)
-
-[1] adj. lycklig, glad (om folk) (nitram)
-
-<! [i ipa] set >
-
-[1] vtr. jaga [ˈt·a.ɾ·on] t<1><2>ar<3>on (taron)
-
-[1] vtr. veta, känna till [·o.ˈm·um] <1><2>om<3>um (omum)
-
-[1] vtr. läsa (tex. skogen), få kunskap ifrån sinnesintryck [·i.ˈn·an] <1><2>in<3>an (inan)
-
-<! [i ipa] unset >
+cmd /unset i ipa
 ```
 
 You can also direct the output of Fwew into a new text file.
 
 ```
-fwew `cat input.txt` > output.txt
+fwew -f input.txt > output.txt
 ```
 
 ## Configuration file
