@@ -295,7 +295,7 @@ func infix(w Word) Word {
 		reString        string
 		attempt         string
 		pos0InfixRe     = "(äp)?(eyk)?"
-		pos1InfixRe     = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|irv|ìy|am|ay|er|iv|ol|us|awn)?"
+		pos1InfixRe     = "(ìyev|iyev|ìlm|ìly|ìrm|ìry|ìsy|alm|aly|arm|ary|asy|ìm|imv|ilv|irv|ìy|am|ay|er|iv|ol|us|awn)?"
 		pos2InfixRe     = "(eiy|ei|äng|eng|ats|uy)?"
 		pos0InfixString string
 		pos1InfixString string
