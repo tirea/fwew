@@ -189,28 +189,6 @@ setting options also works in the REPL/Interactive mode. Here however, it's a sl
 
 Sample Output of `fwew -i -ipa`:
 ```
-fwew 3.1.0-dev "Eana Yayo"
-Na'vi Dictionary 13.9 (02 NOV 2018)
-type "/help" or "/commands" for more info
-
-~~> eltu
-[1] eltu [ˈɛl.tu] n. brain
-
-~~> /unset ipa
-set [ i a l=eng p=all ]
-
-~~> /set l=de r
-set [ r i a l=de p=all ]
-
-~~> wald
-[1] na'rìng n. Wald
-
-~~> /set i ipa p=vtr
-bash-3.2$ fwew -i -ipa
-fwew 3.1.0-dev "Eana Yayo"
-Na'vi Dictionary 13.9 (02 NOV 2018)
-type "/help" or "/commands" for more info
-
 ~~> eltu
 [1] eltu [ˈɛl.tu] n. brain
 
@@ -228,8 +206,6 @@ set [ r ipa a l=de p=vtr. ]
 
 ~~> essen
 [1] yom [j·om] vtr. essen, speisen, fressen
-
-~~> 
 
 ```
 
@@ -259,6 +235,9 @@ While in interactive mode, the following commands are available and can be seen 
 /help      show main help text
 /exit      exit/quit the program (aliases /quit /q /wc)
 ```
+
+Note that as of 3.0.0-dev, Tab-completion is possible by typing a command partially then pressing tab to complete it, and additionally pressing tab as nessary to complete the command you are looking for.
+Note also that as of 3.0.0-dev, history is recorded each time you enter a command. Use the up and down arrows to cycle through your history and reuse a previous command or modify a previous command before running again.
 
 ### /set and /unset
 
@@ -380,6 +359,14 @@ List 10 random entires
 List 5 random transitive verbs
 ```
 /random 5 where pos has vtr
+```
+List a random number of random words
+```
+/random random
+```
+List a random number of nouns
+```
+/random random where pos is n.
 ```
 
 ### /update
