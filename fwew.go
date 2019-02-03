@@ -52,6 +52,7 @@ var (
 	showSource               *bool
 	useAffixes, numConvert   *bool
 	markdown                 *bool
+	filename                 *string
 )
 
 func fwew(word string) []affixes.Word {
@@ -173,7 +174,7 @@ func printResults(results []affixes.Word) {
 			if *showIPA {
 				out += ipa
 			}
-			if *showInfixes && w.InfixLocations != "\\N" {
+			if *showInfixes && w.InfixLocations != "\\N" && w.InfixLocations != "NULL" {
 				out += inf
 			}
 			out += pos
@@ -268,8 +269,9 @@ func setFlags(arg string, argsMode bool) {
 		}
 		out += fmt.Sprintf("l=%s p=%s", *language, *posFilter)
 		out += " ]\n"
-		//fmt.Printf("%s r=%t i=%t ipa=%t s=%t a=%t n=%t m=%t l=%s p=%s\n\n", util.Text("set"), *reverse, *showInfixes, *showIPA, *showSource, *useAffixes, *numConvert, *markdown, *language, *posFilter)
-		fmt.Println(out)
+		if len(*filename) == 0 {
+			fmt.Println(out)
+		}
 	}
 }
 
@@ -755,8 +757,8 @@ func completer(d prompt.Document) []prompt.Suggest {
 
 func main() {
 	var (
-		results  []affixes.Word
 		argsMode bool
+		fileMode bool
 	)
 	configuration = config.ReadConfig()
 	// Version flag, for displaying version data
@@ -779,8 +781,10 @@ func main() {
 	numConvert = flag.Bool("n", false, util.Text("usageN"))
 	// Markdown formatting
 	markdown = flag.Bool("m", false, util.Text("usageM"))
+	filename = flag.String("f", "", util.Text("usageF"))
 	flag.Parse()
 	argsMode = flag.NArg() > 0
+	fileMode = len(*filename) > 0
 
 	if *showVersion {
 		fmt.Println(util.Version)
@@ -789,28 +793,37 @@ func main() {
 		}
 	}
 
-	// ARGS MODE
-	if argsMode {
+	if fileMode { // FILE MODE
+		inFile, err := os.Open(*filename)
+		if err != nil {
+			fmt.Println(errors.New(util.Text("noFileError")))
+			log.Fatal(err)
+		}
+		scanner := bufio.NewScanner(inFile)
+		for scanner.Scan() {
+			line := scanner.Text()
+			if !strings.HasPrefix(line, "#") && line != "" {
+				fmt.Printf("cmd %s\n", line)
+				executor(line)
+			}
+		}
+		err = inFile.Close()
+		if err != nil {
+			fmt.Println(errors.New(util.Text("fileCloseError")))
+			log.Fatal(err)
+		}
+	} else if argsMode { // ARGS MODE
 		for _, arg := range flag.Args() {
 			arg = strings.Replace(arg, "’", "'", -1)
 			if strings.HasPrefix(arg, "set[") && strings.HasSuffix(arg, "]") {
 				setFlags(arg, argsMode)
 			} else if strings.HasPrefix(arg, "unset[") && strings.HasSuffix(arg, "]") {
 				setFlags(arg, argsMode)
-			} else if strings.HasPrefix(arg, "/") {
-				slashCommand(arg, argsMode)
 			} else {
-				if *numConvert {
-					fmt.Println(numbers.Convert(arg, *reverse))
-				} else {
-					results = fwew(arg)
-					printResults(results)
-				}
+				executor(arg)
 			}
 		}
-
-		// INTERACTIVE MODE
-	} else {
+	} else { // INTERACTIVE MODE
 		fmt.Println(util.Text("header"))
 
 		p := prompt.New(executor, completer,

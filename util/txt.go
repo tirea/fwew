@@ -81,6 +81,7 @@ func init() {
 	texts["usageA"] = "find all matches by using affixes to match the input word"
 	texts["usageN"] = "convert numbers octal<->decimal"
 	texts["usageM"] = "format output in markdown for bold and italic (mostly useful for fwew-discord bot)"
+	texts["usageF"] = "filename of file to read as input"
 	texts["defaultFilter"] = "all"
 
 	// file strings
@@ -111,6 +112,8 @@ func init() {
 	texts["invalidLanguageError"] = "err 7: invalid language option"
 	texts["invalidPOSFilterError"] = "err 8: invalid part of speech filter"
 	texts["dictCloseError"] = "err 9: failed to close dictionary file (" + texts["dictionary"] + ")"
+	texts["noFileError"] = "err 10: failed to open and/or read input file"
+	texts["fileCloseError"] = "err 11: failed to close input file"
 }
 
 // Text function is the accessor for []string texts
