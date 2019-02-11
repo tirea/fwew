@@ -190,7 +190,7 @@ func printResults(results []affixes.Word) {
 		}
 		out += fmt.Sprintf("\n")
 
-		fmt.Printf(out)
+		fmt.Print(out)
 
 	} else {
 		fmt.Println(util.Text("none"))
