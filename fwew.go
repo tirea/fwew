@@ -55,6 +55,43 @@ var (
 	filename                 *string
 )
 
+func intersection(a, b string) (c string) {
+	m := make(map[rune]bool)
+	for _, r := range a {
+		m[r] = true
+	}
+	for _, r := range b {
+		if _, ok := m[r]; ok {
+			c += string(r)
+		}
+	}
+	return
+}
+
+func similarity(w0, w1 string) float64 {
+	if w0 == w1 {
+		return 1.0
+	}
+	if len(w0) > len(w1)+1 {
+		return 0.0
+	}
+	vowels := "aäeiìoulr"
+	w0v := intersection(w0, vowels)
+	w1v := intersection(w1, vowels)
+	wis := intersection(w0, w1)
+	wav := intersection(w0v, w1)
+	if len(w0v) > len(w1v) {
+		return 0.0
+	}
+	if len(wav) == 0 {
+		return 0.0
+	}
+	scc := len(wis)
+	iratio := float64(scc) / float64(len(w0))
+	lratio := float64(len(w0)) / float64(len(w1))
+	return (iratio + lratio) / 2
+}
+
 func fwew(word string) []affixes.Word {
 	var (
 		result    affixes.Word
@@ -99,11 +136,11 @@ func fwew(word string) []affixes.Word {
 		// Put the stuff from fields into the Word struct
 		result = affixes.InitWordStruct(result, fields)
 
-		// Looking for Local word in Definition field
-		if *reverse {
-			// whole-word matching
-			defString = util.StripChars(fields[defField], ",;")
-			if fields[lcField] == *language {
+		if fields[lcField] == *language {
+			// Looking for Local word in Definition field
+			if *reverse {
+				// whole-word matching
+				defString = util.StripChars(fields[defField], ",;")
 				if *posFilter == "all" || fields[posField] == *posFilter {
 					for _, w := range strings.Split(defString, " ") {
 						if strings.ToLower(w) == strings.ToLower(word) && !added {
@@ -112,12 +149,10 @@ func fwew(word string) []affixes.Word {
 						}
 					}
 				}
-			}
-			added = false
+				added = false
 
-			// Looking for Na'vi word in Na'vi field
-		} else {
-			if fields[lcField] == *language {
+				// Looking for Na'vi word in Na'vi field
+			} else {
 				// be able to search with or without --word+ marking
 				fields[navField] = strings.Replace(fields[navField], "+", "", -1)
 				fields[navField] = strings.Replace(fields[navField], "--", "", -1)
@@ -128,6 +163,12 @@ func fwew(word string) []affixes.Word {
 						break
 					}
 				} else if *useAffixes {
+					// skip words that obviously won't work
+					s := similarity(fields[navField], word)
+					if s < 0.50 {
+						//fmt.Printf("Target: %s | Line: %s | [%f]\n", word, fields[navField], s)
+						continue
+					}
 					result.Target = word
 					result = affixes.Reconstruct(result)
 					if result.ID != "-1" {
