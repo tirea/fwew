@@ -19,17 +19,18 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/c-bata/go-prompt"
-	"github.com/tirea/fwew/affixes"
-	"github.com/tirea/fwew/config"
-	"github.com/tirea/fwew/numbers"
-	"github.com/tirea/fwew/util"
 	"log"
 	"math/rand"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/c-bata/go-prompt"
+	"github.com/tirea/fwew/affixes"
+	"github.com/tirea/fwew/config"
+	"github.com/tirea/fwew/numbers"
+	"github.com/tirea/fwew/util"
 )
 
 // Global
