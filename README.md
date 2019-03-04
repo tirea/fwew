@@ -1,4 +1,5 @@
 # fwew
+[![Build Status](https://travis-ci.com/tirea/fwew.svg?branch=master)](https://travis-ci.com/tirea/fwew)
 
 The Best Na'vi Dictionary on the Command Line
 
