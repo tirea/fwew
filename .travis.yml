@@ -2,11 +2,9 @@ language: go
 
 go:
  - 1.10.x
- - 1.11.x
-
-go_import_path: github.com/tirea/fwew
 
 before_install:
   - go get -v github.com/c-bata/go-prompt
+  - go get -v github.com/tirea/fwew
+  - cd $GOPATH/src/github.com/tirea/fwew
 
-script: go test -v github.com/tirea/fwew/affixes 
