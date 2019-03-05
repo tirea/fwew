@@ -13,15 +13,13 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 // Package numbers contains all the stuff for the number parsing
-package numbers
+package main
 
 import (
 	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"github.com/tirea/fwew/util"
 )
 
 var naviVocab = [][]string{
@@ -161,7 +159,7 @@ func unwordify(input string) string {
 }
 
 func wordify(input string) string {
-	rev := util.Reverse(input)
+	rev := Reverse(input)
 	output := ""
 	if len(input) == 1 {
 		if input == "0" {
@@ -210,10 +208,10 @@ func Convert(input string, reverse bool) string {
 	if reverse {
 		i, err := strconv.ParseInt(input, 10, 64)
 		if err != nil {
-			return fmt.Sprintf("%s: %s\n", util.Text("invalidDecimalError"), input)
+			return fmt.Sprintf("%s: %s\n", Text("invalidDecimalError"), input)
 		}
-		if !util.Valid(i, reverse) {
-			return fmt.Sprintf("%s\n", util.Text("invalidIntError"))
+		if !Valid(i, reverse) {
+			return fmt.Sprintf("%s\n", Text("invalidIntError"))
 		}
 		o := strconv.FormatInt(int64(i), 8)
 		output += fmt.Sprintf("Octal: %s\n", o)
@@ -221,21 +219,21 @@ func Convert(input string, reverse bool) string {
 	} else {
 		var io int64
 		var err error
-		if util.IsLetter(input) {
+		if IsLetter(input) {
 			io, err = strconv.ParseInt(unwordify(input), 8, 64)
 		} else {
 			io, err = strconv.ParseInt(input, 8, 64)
 		}
 		if err != nil {
-			return fmt.Sprintf("%s: %s\n", util.Text("invalidOctalError"), input)
+			return fmt.Sprintf("%s: %s\n", Text("invalidOctalError"), input)
 		}
-		if !util.Valid(io, reverse) {
-			return fmt.Sprintf("%s\n", util.Text("invalidIntError"))
+		if !Valid(io, reverse) {
+			return fmt.Sprintf("%s\n", Text("invalidIntError"))
 		}
 		d := strconv.FormatInt(int64(io), 10)
 		o := strconv.FormatInt(int64(io), 8)
 		output += fmt.Sprintf("Decimal: %s\n", d)
-		if util.IsLetter(input) {
+		if IsLetter(input) {
 			output += fmt.Sprintf("Octal: %s\n", o)
 		} else {
 			output += fmt.Sprintf("Na'vi: %s\n", wordify(input))

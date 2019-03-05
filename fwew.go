@@ -27,26 +27,23 @@ import (
 	"time"
 
 	"github.com/c-bata/go-prompt"
-	"github.com/tirea/fwew/affixes"
-	"github.com/tirea/fwew/config"
-	"github.com/tirea/fwew/numbers"
-	"github.com/tirea/fwew/util"
 )
 
 // Global
 const (
-	// idField  int = 0 // dictionary.txt line Field 0 is Database ID
+	idField  int = 0 // dictionary.txt line Field 0 is Database ID
 	lcField  int = 1 // dictionary.txt line field 1 is Language Code
 	navField int = 2 // dictionary.txt line field 2 is Na'vi word
-	//ipaField int = 3 // dictionary.txt line field 3 is IPA data
-	//infField int = 4 // dictionary.txt line field 4 is Infix location data
+	ipaField int = 3 // dictionary.txt line field 3 is IPA data
+	infField int = 4 // dictionary.txt line field 4 is Infix location data
 	posField int = 5 // dictionary.txt line field 5 is Part of Speech data
 	defField int = 6 // dictionary.txt line field 6 is Local definition
+	srcField int = 7 // dictionary.txt line field 7 is Source data
 )
 
 // flags / options
 var (
-	configuration            config.Config
+	configuration            Config
 	language, posFilter      *string
 	showVersion, showInfixes *bool
 	showIPA, reverse         *bool
@@ -93,10 +90,10 @@ func similarity(w0, w1 string) float64 {
 	return (iratio + lratio) / 2
 }
 
-func fwew(word string) []affixes.Word {
+func fwew(word string) []Word {
 	var (
-		result    affixes.Word
-		results   []affixes.Word
+		result    Word
+		results   []Word
 		fields    []string
 		defString string
 		added     bool
@@ -113,18 +110,18 @@ func fwew(word string) []affixes.Word {
 	}
 	// hardcoded hack for tseyä
 	if word == "tseyä" {
-		result = affixes.InitWordStruct(result, []string{
+		result = InitWordStruct(result, []string{
 			"5268", "eng", "tsaw", "t͡saw", "NULL", "dem., pn.", "that, it (as intransitive subject)",
 			"http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)",
 		})
-		result.Affixes[util.Text("suf")] = []string{"yä"}
+		result.Affixes[Text("suf")] = []string{"yä"}
 		results = append(results, result)
 		return results
 	}
 	// Prepare file for searching
-	dictData, err := os.Open(util.Text("dictionary"))
+	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
-		fmt.Println(errors.New(util.Text("noDataError")))
+		fmt.Println(errors.New(Text("noDataError")))
 		log.Fatal(err)
 	}
 	scanner := bufio.NewScanner(dictData)
@@ -135,13 +132,13 @@ func fwew(word string) []affixes.Word {
 		// Store the fields of the line into fields array
 		fields = strings.Split(line, "\t")
 		// Put the stuff from fields into the Word struct
-		result = affixes.InitWordStruct(result, fields)
+		result = InitWordStruct(result, fields)
 
 		if fields[lcField] == *language {
 			// Looking for Local word in Definition field
 			if *reverse {
 				// whole-word matching
-				defString = util.StripChars(fields[defField], ",;")
+				defString = StripChars(fields[defField], ",;")
 				if *posFilter == "all" || fields[posField] == *posFilter {
 					for _, w := range strings.Split(defString, " ") {
 						if strings.ToLower(w) == strings.ToLower(word) && !added {
@@ -171,7 +168,7 @@ func fwew(word string) []affixes.Word {
 						continue
 					}
 					result.Target = word
-					result = affixes.Reconstruct(result)
+					result = Reconstruct(result)
 					if result.ID != "-1" {
 						results = append(results, result)
 					}
@@ -184,13 +181,13 @@ func fwew(word string) []affixes.Word {
 	}
 	err = dictData.Close()
 	if err != nil {
-		fmt.Println(errors.New(util.Text("dictCloseError")))
+		fmt.Println(errors.New(Text("dictCloseError")))
 		log.Fatal(err)
 	}
 	return results
 }
 
-func printResults(results []affixes.Word) {
+func printResults(results []Word) {
 	if len(results) != 0 {
 		var out string
 
@@ -201,7 +198,7 @@ func printResults(results []affixes.Word) {
 			pos := fmt.Sprintf("%s", w.PartOfSpeech)
 			inf := fmt.Sprintf("%s ", w.InfixLocations)
 			def := fmt.Sprintf("%s\n", w.Definition)
-			src := fmt.Sprintf("    %s: %s\n", util.Text("src"), w.Source)
+			src := fmt.Sprintf("    %s: %s\n", Text("src"), w.Source)
 
 			if *markdown {
 				nav = "**" + nav + "** "
@@ -235,7 +232,7 @@ func printResults(results []affixes.Word) {
 		fmt.Print(out)
 
 	} else {
-		fmt.Println(util.Text("none"))
+		fmt.Println(Text("none"))
 	}
 }
 
@@ -243,10 +240,10 @@ func setFlags(arg string, argsMode bool) {
 	var (
 		flagList []string
 		err      error
-		langs    = strings.Split(util.Text("languages"), ", ")
+		langs    = strings.Split(Text("languages"), ", ")
 	)
 	if argsMode {
-		start := util.IndexStr(arg, '[') + 1
+		start := IndexStr(arg, '[') + 1
 		flagList = strings.Split(arg[start:len(arg)-1], ",")
 	} else {
 		flagList = strings.Split(arg, " ")
@@ -269,24 +266,24 @@ func setFlags(arg string, argsMode bool) {
 		case f == "m":
 			*markdown = !*markdown
 		case strings.HasPrefix(f, "l="):
-			if util.ContainsStr(langs, f[2:]) {
+			if ContainsStr(langs, f[2:]) {
 				*language = f[2:]
 			} else {
-				err = fmt.Errorf("%s: %s (%s: %s)", util.Text("invalidLanguageError"), f[2:], util.Text("options"), util.Text("languages"))
+				err = fmt.Errorf("%s: %s (%s: %s)", Text("invalidLanguageError"), f[2:], Text("options"), Text("languages"))
 				fmt.Println(err)
 				fmt.Println()
 			}
 		case strings.HasPrefix(f, "p="):
 			*posFilter = f[2:]
 		default:
-			err = fmt.Errorf("%s: %s", util.Text("noOptionError"), f)
+			err = fmt.Errorf("%s: %s", Text("noOptionError"), f)
 			fmt.Println(err)
 			fmt.Println()
 		}
 	}
 	if err == nil {
 		var out string
-		out += util.Text("set") + " "
+		out += Text("set") + " "
 		out += "[ "
 		if *reverse {
 			out += "r "
@@ -319,15 +316,15 @@ func setFlags(arg string, argsMode bool) {
 
 func printHelp() {
 	flag.Usage = func() {
-		fmt.Printf("%s: ", util.Text("usage"))
-		fmt.Printf("%s [%s] [%s]\n", util.Text("bin"), util.Text("options"), util.Text("words"))
-		fmt.Printf("%s:\n", util.Text("options"))
+		fmt.Printf("%s: ", Text("usage"))
+		fmt.Printf("%s [%s] [%s]\n", Text("bin"), Text("options"), Text("words"))
+		fmt.Printf("%s:\n", Text("options"))
 		flag.PrintDefaults()
 	}
 	flag.Usage()
 }
 
-func syllableCount(w affixes.Word) int64 {
+func syllableCount(w Word) int64 {
 	// syllable dot counter
 	var sdc int64 = 0
 	for _, char := range w.IPA {
@@ -338,9 +335,9 @@ func syllableCount(w affixes.Word) int64 {
 	return sdc + 1
 }
 
-func listWordsSubset(args []string, subset []affixes.Word) []affixes.Word {
+func listWordsSubset(args []string, subset []Word) []Word {
 	var (
-		results []affixes.Word
+		results []Word
 		what    = args[0]
 		cond    = args[1]
 		spec    = args[2]
@@ -376,7 +373,7 @@ func listWordsSubset(args []string, subset []affixes.Word) []affixes.Word {
 		case "syllables":
 			ispec, err := strconv.ParseInt(spec, 10, 64)
 			if err != nil {
-				fmt.Println(util.Text("invalidDecimalError"))
+				fmt.Println(Text("invalidDecimalError"))
 				return nil
 			}
 			switch cond {
@@ -411,9 +408,9 @@ func countLines() int {
 		count  int
 		fields []string
 	)
-	dictData, err := os.Open(util.Text("dictionary"))
+	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
-		fmt.Println(errors.New(util.Text("noDataError")))
+		fmt.Println(errors.New(Text("noDataError")))
 		log.Fatal(err)
 	}
 	count = 1
@@ -427,16 +424,16 @@ func countLines() int {
 	}
 	err = dictData.Close()
 	if err != nil {
-		fmt.Println(errors.New(util.Text("dictCloseError")))
+		fmt.Println(errors.New(Text("dictCloseError")))
 		log.Fatal(err)
 	}
 	return count
 }
 
-func listWords(args []string) []affixes.Word {
+func listWords(args []string) []Word {
 	var (
-		result   affixes.Word
-		results  []affixes.Word
+		result   Word
+		results  []Word
 		fields   []string
 		what     = args[0]
 		cond     = args[1]
@@ -456,12 +453,12 @@ func listWords(args []string) []affixes.Word {
 	// /list syllables = 2
 	// /list syllables <= 3
 
-	// result = affixes.InitWordStruct(result, fields)
+	// result = InitWordStruct(result, fields)
 	// results = append(results, result)
 
-	dictData, err := os.Open(util.Text("dictionary"))
+	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
-		fmt.Println(errors.New(util.Text("noDataError")))
+		fmt.Println(errors.New(Text("noDataError")))
 		log.Fatal(err)
 	}
 	count = 1
@@ -476,12 +473,12 @@ func listWords(args []string) []affixes.Word {
 				spec = strings.ToLower(spec)
 				if cond == "is" {
 					if fields[posField] == spec {
-						result = affixes.InitWordStruct(result, fields)
+						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				} else if cond == "has" {
 					if strings.Contains(fields[posField], spec) {
-						result = affixes.InitWordStruct(result, fields)
+						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				}
@@ -490,17 +487,17 @@ func listWords(args []string) []affixes.Word {
 				word := strings.ToLower(fields[navField])
 				if cond == "starts" {
 					if strings.HasPrefix(word, spec) {
-						result = affixes.InitWordStruct(result, fields)
+						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				} else if cond == "ends" {
 					if strings.HasSuffix(word, spec) {
-						result = affixes.InitWordStruct(result, fields)
+						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				} else if cond == "has" {
 					if strings.Contains(word, spec) {
-						result = affixes.InitWordStruct(result, fields)
+						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				}
@@ -511,21 +508,21 @@ func listWords(args []string) []affixes.Word {
 				}
 				if cond == "first" {
 					if count <= s {
-						result = affixes.InitWordStruct(result, fields)
+						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				} else if cond == "last" {
 					if count >= numLines-s && count <= numLines {
-						result = affixes.InitWordStruct(result, fields)
+						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				}
 				count++
 			case "syllables":
-				result = affixes.InitWordStruct(result, fields)
+				result = InitWordStruct(result, fields)
 				ispec, err := strconv.ParseInt(spec, 10, 64)
 				if err != nil {
-					fmt.Println(util.Text("invalidDecimalError"))
+					fmt.Println(Text("invalidDecimalError"))
 					return nil
 				}
 				switch cond {
@@ -555,15 +552,15 @@ func listWords(args []string) []affixes.Word {
 	}
 	err = dictData.Close()
 	if err != nil {
-		fmt.Println(errors.New(util.Text("dictCloseError")))
+		fmt.Println(errors.New(Text("dictCloseError")))
 		log.Fatal(err)
 	}
 	return results
 }
 
-func randomSubset(k int, subset []affixes.Word) []affixes.Word {
+func randomSubset(k int, subset []Word) []Word {
 	var (
-		results []affixes.Word
+		results []Word
 		i       int
 		r       *rand.Rand
 	)
@@ -589,10 +586,10 @@ func randomSubset(k int, subset []affixes.Word) []affixes.Word {
 	return results
 }
 
-func random(k int) []affixes.Word {
+func random(k int) []Word {
 	var (
-		results []affixes.Word
-		result  affixes.Word
+		results []Word
+		result  Word
 		fields  []string
 		i       int
 		r       *rand.Rand
@@ -603,9 +600,9 @@ func random(k int) []affixes.Word {
 	} else if k < 1 {
 		return results
 	}
-	dictData, err := os.Open(util.Text("dictionary"))
+	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
-		fmt.Println(errors.New(util.Text("noDataError")))
+		fmt.Println(errors.New(Text("noDataError")))
 		log.Fatal(err)
 	}
 	scanner := bufio.NewScanner(dictData)
@@ -614,12 +611,12 @@ func random(k int) []affixes.Word {
 		fields = strings.Split(line, "\t")
 		if fields[lcField] == *language {
 			if i < k {
-				result = affixes.InitWordStruct(result, fields)
+				result = InitWordStruct(result, fields)
 				results = append(results, result)
 			} else {
 				j := r.Intn(i)
 				if j < k {
-					result = affixes.InitWordStruct(result, fields)
+					result = InitWordStruct(result, fields)
 					results[j] = result
 				}
 			}
@@ -628,7 +625,7 @@ func random(k int) []affixes.Word {
 	}
 	err = dictData.Close()
 	if err != nil {
-		fmt.Println(errors.New(util.Text("dictCloseError")))
+		fmt.Println(errors.New(Text("dictCloseError")))
 		log.Fatal(err)
 	}
 	return results
@@ -643,7 +640,7 @@ func slashCommand(s string, argsMode bool) {
 		nargs   int
 	)
 	sc = strings.Split(s, " ")
-	sc = util.DeleteEmpty(sc)
+	sc = DeleteEmpty(sc)
 	command = sc[0]
 	if len(sc) > 1 {
 		args = sc[1:]
@@ -653,7 +650,7 @@ func slashCommand(s string, argsMode bool) {
 	case "/help":
 		printHelp()
 	case "/commands":
-		fmt.Println(util.Text("slashCommandHelp"))
+		fmt.Println(Text("slashCommandHelp"))
 	case "/set":
 		setFlags(strings.Join(args, " "), argsMode)
 	case "/unset":
@@ -718,7 +715,7 @@ func slashCommand(s string, argsMode bool) {
 			fmt.Println()
 		}
 	case "/update":
-		err := util.DownloadDict()
+		err := DownloadDict()
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -735,7 +732,7 @@ func executor(cmd string) {
 			slashCommand(cmd, false)
 		} else {
 			if *numConvert {
-				fmt.Println(numbers.Convert(cmd, *reverse))
+				fmt.Println(Convert(cmd, *reverse))
 			} else {
 				printResults(fwew(cmd))
 			}
@@ -760,13 +757,13 @@ func completer(d prompt.Document) []prompt.Suggest {
 		{Text: "/exit", Description: "end program"},
 		{Text: "/quit", Description: "end program"},
 		{Text: "/q", Description: "end program"},
-		{Text: "r", Description: util.Text("usageR")},
-		{Text: "i", Description: util.Text("usageI")},
-		{Text: "ipa", Description: util.Text("usageIPA")},
-		{Text: "n", Description: util.Text("usageN")},
-		{Text: "a", Description: util.Text("usageA")},
-		{Text: "m", Description: util.Text("usageM")},
-		{Text: "s", Description: util.Text("usageS")},
+		{Text: "r", Description: Text("usageR")},
+		{Text: "i", Description: Text("usageI")},
+		{Text: "ipa", Description: Text("usageIPA")},
+		{Text: "n", Description: Text("usageN")},
+		{Text: "a", Description: Text("usageA")},
+		{Text: "m", Description: Text("usageM")},
+		{Text: "s", Description: Text("usageS")},
 		{Text: "l=de", Description: "Deutsch"},
 		{Text: "l=eng", Description: "English"},
 		{Text: "l=est", Description: "Eesti"},
@@ -802,34 +799,34 @@ func main() {
 		argsMode bool
 		fileMode bool
 	)
-	configuration = config.ReadConfig()
+	configuration = ReadConfig()
 	// Version flag, for displaying version data
-	showVersion = flag.Bool("v", false, util.Text("usageV"))
+	showVersion = flag.Bool("v", false, Text("usageV"))
 	// Reverse direction flag, for local_lang -> Na'vi lookups
-	reverse = flag.Bool("r", false, util.Text("usageR"))
+	reverse = flag.Bool("r", false, Text("usageR"))
 	// Language specifier flag
-	language = flag.String("l", configuration.Language, util.Text("usageL"))
+	language = flag.String("l", configuration.Language, Text("usageL"))
 	// Infixes flag, opt to show infix location data
-	showInfixes = flag.Bool("i", false, util.Text("usageI"))
+	showInfixes = flag.Bool("i", false, Text("usageI"))
 	// IPA flag, opt to show IPA data
-	showIPA = flag.Bool("ipa", false, util.Text("usageIPA"))
+	showIPA = flag.Bool("ipa", false, Text("usageIPA"))
 	// Source flag, opt to show source data
-	showSource = flag.Bool("s", false, util.Text("usageS"))
+	showSource = flag.Bool("s", false, Text("usageS"))
 	// Filter part of speech flag, opt to filter by part of speech
-	posFilter = flag.String("p", configuration.PosFilter, util.Text("usageP"))
+	posFilter = flag.String("p", configuration.PosFilter, Text("usageP"))
 	// Attempt to find all matches using affixes
-	useAffixes = flag.Bool("a", configuration.UseAffixes, util.Text("usageA"))
+	useAffixes = flag.Bool("a", configuration.UseAffixes, Text("usageA"))
 	// Convert numbers
-	numConvert = flag.Bool("n", false, util.Text("usageN"))
+	numConvert = flag.Bool("n", false, Text("usageN"))
 	// Markdown formatting
-	markdown = flag.Bool("m", false, util.Text("usageM"))
-	filename = flag.String("f", "", util.Text("usageF"))
+	markdown = flag.Bool("m", false, Text("usageM"))
+	filename = flag.String("f", "", Text("usageF"))
 	flag.Parse()
 	argsMode = flag.NArg() > 0
 	fileMode = len(*filename) > 0
 
 	if *showVersion {
-		fmt.Println(util.Version)
+		fmt.Println(Version)
 		if flag.NArg() == 0 {
 			os.Exit(0)
 		}
@@ -838,7 +835,7 @@ func main() {
 	if fileMode { // FILE MODE
 		inFile, err := os.Open(*filename)
 		if err != nil {
-			fmt.Println(errors.New(util.Text("noFileError")))
+			fmt.Println(errors.New(Text("noFileError")))
 			log.Fatal(err)
 		}
 		scanner := bufio.NewScanner(inFile)
@@ -851,7 +848,7 @@ func main() {
 		}
 		err = inFile.Close()
 		if err != nil {
-			fmt.Println(errors.New(util.Text("fileCloseError")))
+			fmt.Println(errors.New(Text("fileCloseError")))
 			log.Fatal(err)
 		}
 	} else if argsMode { // ARGS MODE
@@ -866,11 +863,11 @@ func main() {
 			}
 		}
 	} else { // INTERACTIVE MODE
-		fmt.Println(util.Text("header"))
+		fmt.Println(Text("header"))
 
 		p := prompt.New(executor, completer,
-			prompt.OptionTitle(util.Text("name")),
-			prompt.OptionPrefix(util.Text("prompt")),
+			prompt.OptionTitle(Text("name")),
+			prompt.OptionPrefix(Text("prompt")),
 			prompt.OptionSelectedDescriptionTextColor(prompt.DarkGray),
 		)
 		p.Run()

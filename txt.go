@@ -13,7 +13,7 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 // Package util handles general program stuff. txt.go handles program strings.
-package util
+package main
 
 import (
 	"fmt"

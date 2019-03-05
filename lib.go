@@ -13,7 +13,7 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 // Package util handles general program stuff. lib.go handles common functions.
-package util
+package main
 
 import (
 	"fmt"

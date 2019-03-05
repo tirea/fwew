@@ -13,15 +13,13 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 // Package config handles... the configuration file stuff. Probably.
-package config
+package main
 
 import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
-
-	"github.com/tirea/fwew/util"
 )
 
 // Config is a struct designed to hold the values of the configuration file when loaded
@@ -34,9 +32,9 @@ type Config struct {
 
 // ReadConfig reads a configuration file and puts the data into Config struct
 func ReadConfig() Config {
-	configfile, e := ioutil.ReadFile(util.Text("config"))
+	configfile, e := ioutil.ReadFile(Text("config"))
 	if e != nil {
-		fmt.Println(util.Text("fileError"))
+		fmt.Println(Text("fileError"))
 		log.Fatal(e)
 	}
 
@@ -50,6 +48,6 @@ func ReadConfig() Config {
 }
 
 func (c Config) String() string {
-	// this string only doesn't get translated or called from util.Text() because they're var names
+	// this string only doesn't get translated or called from Text() because they're var names
 	return fmt.Sprintf("Language: %s\nPosFilter: %s\nUseAffixes: %t\nDebugMode: %t\n", c.Language, c.PosFilter, c.UseAffixes, c.DebugMode)
 }

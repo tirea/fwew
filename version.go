@@ -13,7 +13,7 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 // Package util handles general program stuff. version.go handles program version.
-package util
+package main
 
 import "fmt"
 
@@ -25,7 +25,7 @@ type version struct {
 }
 
 // Version is a printable version struct containing program version information
-var Version = version{3, 2, 0, "dev", "Eana Yayo", "Na'vi Dictionary 13.9 (02 NOV 2018)"}
+var Version = version{3, 3, 0, "dev", "Eana Yayo", "Na'vi Dictionary 13.9 (02 NOV 2018)"}
 
 func (v version) String() string {
 	if v.Label != "" {

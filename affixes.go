@@ -13,88 +13,15 @@
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
 // Package affixes handles affix parsing of input
-package affixes
+package main
 
 import (
 	"fmt"
 	"regexp"
 	"strings"
-
-	"github.com/tirea/fwew/config"
-	"github.com/tirea/fwew/util"
 )
 
-var (
-	configuration = config.ReadConfig()
-	debug         = configuration.DebugMode
-)
-
-// Word is a struct that contains all the data about a given word
-type Word struct {
-	ID             string
-	LangCode       string
-	Navi           string
-	Target         string
-	Attempt        string
-	IPA            string
-	InfixLocations string
-	PartOfSpeech   string
-	Definition     string
-	Source         string
-	Affixes        map[string][]string
-}
-
-func (w Word) String() string {
-	// this string only doesn't get translated or called from util.Text() because they're var names
-	return fmt.Sprintf("Id: %s\nLangCode: %s\nNavi: %s\nTarget: %s\nAttempt: %s\nIPA: %s\nInfixLocations: %s\nPartOfSpeech: %s\nDefinition: %s\nAffixes: %v\n",
-		w.ID, w.LangCode, w.Navi, w.Target, w.Attempt, w.IPA, w.InfixLocations, w.PartOfSpeech, w.Definition, w.Affixes)
-}
-
-// InitWordStruct is basically a constructer for Word struct
-func InitWordStruct(w Word, dataFields []string) Word {
-	const (
-		idField  int = 0 // dictionary.txt line Field 0 is Database ID
-		lcField  int = 1 // dictionary.txt line field 1 is Language Code
-		navField int = 2 // dictionary.txt line field 2 is Na'vi word
-		ipaField int = 3 // dictionary.txt line field 3 is IPA data
-		infField int = 4 // dictionary.txt line field 4 is Infix location data
-		posField int = 5 // dictionary.txt line field 5 is Part of Speech data
-		defField int = 6 // dictionary.txt line field 6 is Local definition
-		srcField int = 7 // dictionary.txt line field 7 is Source data
-	)
-	w.ID = dataFields[idField]
-	w.LangCode = dataFields[lcField]
-	w.Navi = dataFields[navField]
-	w.IPA = dataFields[ipaField]
-	w.InfixLocations = dataFields[infField]
-	w.PartOfSpeech = dataFields[posField]
-	w.Definition = dataFields[defField]
-	w.Source = dataFields[srcField]
-	w.Affixes = map[string][]string{}
-
-	return w
-}
-
-// CloneWordStruct is basically a copy constructor for Word struct
-func CloneWordStruct(w Word) Word {
-	var nw Word
-	nw.ID = w.ID
-	nw.LangCode = w.LangCode
-	nw.Navi = w.Navi
-	nw.Target = w.Target
-	nw.Attempt = w.Attempt
-	nw.IPA = w.IPA
-	nw.InfixLocations = w.InfixLocations
-	nw.PartOfSpeech = w.PartOfSpeech
-	nw.Definition = w.Definition
-	nw.Source = w.Source
-	nw.Affixes = make(map[string][]string)
-	for k := range w.Affixes {
-		nw.Affixes[k] = make([]string, len(w.Affixes[k]))
-		copy(nw.Affixes[k], w.Affixes[k])
-	}
-	return nw
-}
+var debug = configuration.DebugMode
 
 func prefix(w Word) Word {
 	var (
@@ -108,7 +35,7 @@ func prefix(w Word) Word {
 	// the switch condition would be like 25 possibilities long
 	if strings.HasPrefix(w.PartOfSpeech, "v") ||
 		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
-		inf := w.Affixes[util.Text("inf")]
+		inf := w.Affixes[Text("inf")]
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
 			reString = "(a|tì)?"
 		} else {
@@ -143,7 +70,7 @@ func prefix(w Word) Word {
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchPrefixes = tmp[0][1:]
 	}
-	matchPrefixes = util.DeleteEmpty(matchPrefixes)
+	matchPrefixes = DeleteEmpty(matchPrefixes)
 
 	if debug {
 		fmt.Printf("matchPrefixes: %s\n", matchPrefixes)
@@ -161,9 +88,9 @@ func prefix(w Word) Word {
 
 	w.Attempt = attempt + w.Attempt
 
-	matchPrefixes = util.DeleteElement(matchPrefixes, "e")
+	matchPrefixes = DeleteElement(matchPrefixes, "e")
 	if len(matchPrefixes) > 0 {
-		w.Affixes[util.Text("pre")] = matchPrefixes
+		w.Affixes[Text("pre")] = matchPrefixes
 	}
 
 	return w
@@ -190,12 +117,12 @@ func suffix(w Word) Word {
 	// verbs
 	if strings.HasPrefix(w.PartOfSpeech, "v") ||
 		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
-		inf := w.Affixes[util.Text("inf")]
-		pre := w.Affixes[util.Text("pre")]
+		inf := w.Affixes[Text("inf")]
+		pre := w.Affixes[Text("pre")]
 		// word is verb with <us> or <awn>
 		if len(inf) == 1 && (inf[0] == "us" || inf[0] == "awn") {
 			// it's a tì-<us> gerund; treat it like a noun
-			if len(pre) > 0 && util.ContainsStr(pre, "tì") && inf[0] == "us" {
+			if len(pre) > 0 && ContainsStr(pre, "tì") && inf[0] == "us" {
 				reString = nSufRe
 				for _, s := range adp {
 					reString += "(" + s + ")?"
@@ -205,7 +132,7 @@ func suffix(w Word) Word {
 				reString = adjSufRe
 			}
 			// It's a tsuk/ketsuk adj from a verb
-		} else if len(inf) == 0 && util.Contains(pre, []string{"tsuk", "ketsuk"}) {
+		} else if len(inf) == 0 && Contains(pre, []string{"tsuk", "ketsuk"}) {
 			reString = adjSufRe
 		} else {
 			reString = "(tswo|yu)?"
@@ -251,7 +178,7 @@ func suffix(w Word) Word {
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchSuffixes = tmp[0][1:]
 	}
-	matchSuffixes = util.DeleteEmpty(matchSuffixes)
+	matchSuffixes = DeleteEmpty(matchSuffixes)
 	if debug {
 		fmt.Printf("matchSuffixes: %s\n", matchSuffixes)
 	}
@@ -267,7 +194,7 @@ func suffix(w Word) Word {
 	}
 
 	// o -> e vowel shift support for pronouns with -yä
-	if w.PartOfSpeech == "pn." && util.ContainsStr(matchSuffixes, "yä") {
+	if w.PartOfSpeech == "pn." && ContainsStr(matchSuffixes, "yä") {
 		if strings.HasSuffix(w.Attempt, "o") {
 			w.Attempt = strings.TrimSuffix(w.Attempt, "o") + "e"
 			// a -> e vowel shift support
@@ -276,13 +203,13 @@ func suffix(w Word) Word {
 		}
 	}
 	w.Attempt = w.Attempt + attempt
-	w.Affixes[util.Text("suf")] = matchSuffixes
+	w.Affixes[Text("suf")] = matchSuffixes
 	return w
 }
 
 func infix(w Word) Word {
 	// Have we already attempted infixes?
-	if _, ok := w.Affixes[util.Text("inf")]; ok {
+	if _, ok := w.Affixes[Text("inf")]; ok {
 		return w
 	}
 	// Does the word even have infix positions??
@@ -327,14 +254,14 @@ func infix(w Word) Word {
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchInfixes = tmp[0][1:]
 	}
-	matchInfixes = util.DeleteEmpty(matchInfixes)
-	matchInfixes = util.DeleteElement(matchInfixes, "ll")
-	matchInfixes = util.DeleteElement(matchInfixes, "rr")
+	matchInfixes = DeleteEmpty(matchInfixes)
+	matchInfixes = DeleteElement(matchInfixes, "ll")
+	matchInfixes = DeleteElement(matchInfixes, "rr")
 
 	for _, i := range matchInfixes {
 		if i == "äp" || i == "eyk" {
 			pos0InfixString = pos0InfixString + i
-		} else if util.ContainsStr([]string{"eiy", "ei", "äng", "eng", "ats", "uy"}, i) {
+		} else if ContainsStr([]string{"eiy", "ei", "äng", "eng", "ats", "uy"}, i) {
 			pos2InfixString = i
 		} else {
 			pos1InfixString = i
@@ -345,8 +272,8 @@ func infix(w Word) Word {
 	attempt = strings.Replace(attempt, "<1>", pos1InfixString, 1)
 	attempt = strings.Replace(attempt, "<2>", pos2InfixString, 1)
 
-	if util.ContainsStr(matchInfixes, "eiy") {
-		eiy := util.Index(matchInfixes, "eiy")
+	if ContainsStr(matchInfixes, "eiy") {
+		eiy := Index(matchInfixes, "eiy")
 		matchInfixes[eiy] = "ei"
 	}
 	if debug {
@@ -361,7 +288,7 @@ func infix(w Word) Word {
 	}
 	w.Attempt = attempt
 	if len(matchInfixes) != 0 {
-		w.Affixes[util.Text("inf")] = matchInfixes
+		w.Affixes[Text("inf")] = matchInfixes
 	}
 
 	return w

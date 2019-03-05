@@ -1,4 +1,4 @@
-package affixes
+package main
 
 import "testing"
 
