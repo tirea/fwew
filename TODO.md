@@ -2,6 +2,7 @@
 
 ## Road Map
 
+- Update README.md
 - fix 'e prefix bug (m, n, u, futa)
 - verbose flag and affix definitions
 
