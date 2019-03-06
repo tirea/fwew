@@ -11,7 +11,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// Package main obviously contains all the stuff for the main program
+// Package main contains all the things
 package main
 
 import (
@@ -453,9 +453,6 @@ func listWords(args []string) []Word {
 	// /list syllables = 2
 	// /list syllables <= 3
 
-	// result = InitWordStruct(result, fields)
-	// results = append(results, result)
-
 	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
 		fmt.Println(errors.New(Text("noDataError")))
@@ -660,13 +657,14 @@ func slashCommand(s string, argsMode bool) {
 		if nargs == 3 {
 			printResults(listWords(args))
 			// word starts tì and pos is n. and syllables > 10
-		} else if len(args) > 3 {
+		} else if nargs > 3 {
 			//validate length of args, needs to be 4n-1
 			valid := false
 			// 10 nested query triplets is insane overkill
 			for n := 1; n <= 10; n++ {
 				if 4*n-1 == nargs {
 					valid = true
+					break
 				}
 			}
 			if !valid {
@@ -724,74 +722,6 @@ func slashCommand(s string, argsMode bool) {
 	default:
 		fmt.Println()
 	}
-}
-
-func executor(cmd string) {
-	if cmd != "" {
-		if strings.HasPrefix(cmd, "/") {
-			slashCommand(cmd, false)
-		} else {
-			if *numConvert {
-				fmt.Println(Convert(cmd, *reverse))
-			} else {
-				printResults(fwew(cmd))
-			}
-		}
-	} else {
-		fmt.Println()
-	}
-}
-
-func completer(d prompt.Document) []prompt.Suggest {
-	if d.GetWordBeforeCursor() == "" {
-		return []prompt.Suggest{}
-	}
-	s := []prompt.Suggest{
-		{Text: "/set", Description: "set option(s)"},
-		{Text: "/unset", Description: "unset option(s)"},
-		{Text: "/list", Description: "list entries satisfying given condition(s)"},
-		{Text: "/random", Description: "list random entries"},
-		{Text: "/update", Description: "update the dictionary data file"},
-		{Text: "/commands", Description: "show commands help"},
-		{Text: "/help", Description: "show usage help"},
-		{Text: "/exit", Description: "end program"},
-		{Text: "/quit", Description: "end program"},
-		{Text: "/q", Description: "end program"},
-		{Text: "r", Description: Text("usageR")},
-		{Text: "i", Description: Text("usageI")},
-		{Text: "ipa", Description: Text("usageIPA")},
-		{Text: "n", Description: Text("usageN")},
-		{Text: "a", Description: Text("usageA")},
-		{Text: "m", Description: Text("usageM")},
-		{Text: "s", Description: Text("usageS")},
-		{Text: "l=de", Description: "Deutsch"},
-		{Text: "l=eng", Description: "English"},
-		{Text: "l=est", Description: "Eesti"},
-		{Text: "l=hu", Description: "Magyar"},
-		{Text: "l=nl", Description: "Nederlands"},
-		{Text: "l=pl", Description: "Polski"},
-		{Text: "l=ru", Description: "Русский"},
-		{Text: "l=sv", Description: "Svenska"},
-		{Text: "pos", Description: "part of speech"},
-		{Text: "word", Description: "word"},
-		{Text: "words", Description: "words"},
-		{Text: "syllables", Description: "syllables"},
-		{Text: "random", Description: "random number"},
-		{Text: "where", Description: "add condition to random"},
-		{Text: "starts", Description: "field starts with"},
-		{Text: "ends", Description: "field ends with"},
-		{Text: "first", Description: "list oldest words"},
-		{Text: "last", Description: "list newest words"},
-		{Text: "has", Description: "all matches of condition"},
-		{Text: "is", Description: "exact matches of condition"},
-		{Text: ">=", Description: "syllable count greater or equal"},
-		{Text: ">", Description: "syllable count greater"},
-		{Text: "<=", Description: "syllable count less or equal"},
-		{Text: "<", Description: "syllable count less"},
-		{Text: "=", Description: "syllable count equal"},
-		{Text: "and", Description: "add condition to narrow search"},
-	}
-	return prompt.FilterHasPrefix(s, d.GetWordBeforeCursor(), true)
 }
 
 func main() {
