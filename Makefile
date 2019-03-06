@@ -1,19 +1,25 @@
-SOURCES = fwew.go word.go affixes.go affixes_test.go config.go numbers.go lib.go txt.go version.go
+SOURCES = affixes.go affixes_test.go completer.go config.go fwew.go lib.go numbers.go txt.go version.go word.go
 
-fwew: format all
+fwew: format compile
+
+all: test docker
 
 format:
 	gofmt -w $(SOURCES)
 
-all:
+compile:
 	go build -o bin/fwew
+
+test: fwew
+	go test -v
+
+docker:
+	docker build -t tirea/fwew:build .
+	docker run -it --rm tirea/fwew:build -v -r test
 
 install: fwew
 	sudo cp bin/fwew /usr/local/bin/
 	cp -r .fwew ~/
-
-test: fwew
-	go test -v
 
 uninstall:
 	sudo rm /usr/local/bin/fwew
