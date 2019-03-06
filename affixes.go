@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// Package affixes handles affix parsing of input
+// Package main contains all the things. affixes.go handles affix parsing of input.
 package main
 
 import (

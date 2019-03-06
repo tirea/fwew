@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// Package util handles general program stuff. lib.go handles common functions.
+// Package main contains all the things. lib.go handles common functions.
 package main
 
 import (

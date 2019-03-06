@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// Package numbers contains all the stuff for the number parsing
+// Package main contains all the things. numbers.go contains all the stuff for the number parsing
 package main
 
 import (

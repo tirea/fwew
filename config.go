@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// Package config handles... the configuration file stuff. Probably.
+// Package main contains all the things. config.go handles... the configuration file stuff. Probably.
 package main
 
 import (

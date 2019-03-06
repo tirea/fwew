@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// Package util handles general program stuff. version.go handles program version.
+// Package main contains all the things. version.go handles program version.
 package main
 
 import "fmt"

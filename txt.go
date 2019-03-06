@@ -12,7 +12,7 @@
 //	You should have received a copy of the GNU General Public License
 //	along with Fwew.  If not, see http://gnu.org/licenses/
 
-// Package util handles general program stuff. txt.go handles program strings.
+// Package main contains all the things. txt.go handles program strings.
 package main
 
 import (
