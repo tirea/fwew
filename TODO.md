@@ -1,28 +1,22 @@
 # TODO
 
-### Update README.md
+### BUGS
 
-- new structure / installation
-- docker pull tirea/fwew
-- docker run -it --rm tirea/fwew ARGS
-
-### Refactoring & Optimization
-
-- how can affixes.go be more efficient?
+- fix 'e prefix bug (m, n, u, futa)
 
 ### Testing
 
 - more code coverage
 - more cases
 
-### BUGS
-
-- fix 'e prefix bug (m, n, u, futa)
-
 ### FEATURES
 
 - verbose flag for affix definitions
 - improve completer suggestions for context
+
+### Refactoring & Optimization
+
+- how can affixes.go be more efficient?
 
 ---
 
