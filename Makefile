@@ -10,7 +10,7 @@ format:
 compile:
 	go build -o bin/fwew
 
-test: fwew
+test: install
 	go test -v
 
 docker:
