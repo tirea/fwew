@@ -4,5 +4,9 @@ go:
  - 1.10.x
  - 1.11.x
 
-before_install:
+services:
+ - docker
+
+install:
   - go get -v github.com/c-bata/go-prompt
+  - make all
