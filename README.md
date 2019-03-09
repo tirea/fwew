@@ -526,7 +526,7 @@ Settings for Fwew are stored in a plain-text JSON file in the `.fwew/` directory
 ```
 
 The default language to use when looking up words is `"eng"` and can be changed here. This is useful for people who 
-don't want to hake to keep typing all the time this, for example:
+don't want to continuously need to type particular options all the time this, for example:
 
 ```
 fwew -l de
@@ -554,4 +554,4 @@ mountain of text to flood your Terminal or Powershell on every `fwew` run. The p
 went wrong in the logic. This option is mostly only useful to Contributors, Developers, and Users who want to report a bug. 
 The `-debug` command line flag was removed in favor of having this option in the config file.
 
-If you edit the config file to set your own defaults, you can override the config file settings using the set[] command keyword as shown above.
+If you edit the config file to set your own defaults, you can override the config file settings using the `/set` command keyword as shown above.
