@@ -9445,14 +9445,14 @@
 6724	pl	hìtxoa	hɪ.ˈt'o.a	NULL	intj.	przepraszam	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6724	ru	hìtxoa	hɪ.ˈt'o.a	NULL	intj.	извините	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6724	sv	hìtxoa	hɪ.ˈt'o.a	NULL	intj.	ursäkta mig,	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6728	de	mäkxu	m·æ.ˈk'u	mäkx<0><1><2>u	vtr.	unterbrechen, aus der harmonischen Balance bringen (für Aktivitäten, Umstände)	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6728	eng	mäkxu	m·æ.ˈk'u	mäkx<0><1><2>u	vtr.	interrupt, throw out of harmonious balance	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6728	est	mäkxu	m·æ.ˈk'u	mäkx<0><1><2>u	vtr.	segama, rikkuma, häirima	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6728	hu	mäkxu	m·æ.ˈk'u	mäkx<0><1><2>u	vtr.	megszakít, félbeszakít, kizökkent	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6728	nl	mäkxu	m·æ.ˈk'u	mäkx<0><1><2>u	vtr.	onderbreken, uit harmonische balans gooien	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6728	pl	mäkxu	m·æ.ˈk'u	mäkx<0><1><2>u	vtr.	przerywać, wyprowadzać z równowagi	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6728	ru	mäkxu	m·æ.ˈk'u	mäkx<0><1><2>u	vtr.	нарушение гармонии	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6728	sv	mäkxu	m·æ.ˈk'u	mäkx<0><1><2>u	vtr.	avbryta, störa, kasta ut ur en harmonisk balans 	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6728	de	mäkxu	m·æ.ˈk'u	m<0><1><2>äkxu	vtr.	unterbrechen, aus der harmonischen Balance bringen (für Aktivitäten, Umstände)	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6728	eng	mäkxu	m·æ.ˈk'u	m<0><1><2>äkxu	vtr.	interrupt, throw out of harmonious balance	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6728	est	mäkxu	m·æ.ˈk'u	m<0><1><2>äkxu	vtr.	segama, rikkuma, häirima	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6728	hu	mäkxu	m·æ.ˈk'u	m<0><1><2>äkxu	vtr.	megszakít, félbeszakít, kizökkent	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6728	nl	mäkxu	m·æ.ˈk'u	m<0><1><2>äkxu	vtr.	onderbreken, uit harmonische balans gooien	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6728	pl	mäkxu	m·æ.ˈk'u	m<0><1><2>äkxu	vtr.	przerywać, wyprowadzać z równowagi	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6728	ru	mäkxu	m·æ.ˈk'u	m<0><1><2>äkxu	vtr.	нарушение гармонии	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6728	sv	mäkxu	m·æ.ˈk'u	m<0><1><2>äkxu	vtr.	avbryta, störa, kasta ut ur en harmonisk balans 	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6732	de	hultstxem	h·ul.ˈt͡st'·ɛm	h<0><1>ultstx<2>em	vtr.	hindern, jmd. unterbrechen, jdm. im Weg sein, ein Hindernis sein	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6732	eng	hultstxem	h·ul.ˈt͡st'·ɛm	h<0><1>ultstx<2>em	vtr.	hinder	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6732	est	hultstxem	h·ul.ˈt͡st'·ɛm	h<0><1>ultstx<2>em	vtr.	takistama	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
@@ -9709,14 +9709,14 @@
 6860	pl	swawtsyìp	ˈswaw.t͡sjɪp̚	NULL	n.	krótka chwila, sekunda	NULL
 6860	ru	swawtsyìp	ˈswaw.t͡sjɪp̚	NULL	n.	мгновение, секунда	NULL
 6860	sv	swawtsyìp	ˈswaw.t͡sjɪp̚	NULL	n.	litet ögonblick, sekund	NULL
-6864	de	käteng	ˈk·æ.tɛŋ	kät<0><0><1>eng	vin.	Zeit verbringen	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	eng	käteng	ˈk·æ.tɛŋ	kät<0><0><1>eng	vin.	spend time with, hang out with	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	est	käteng	ˈk·æ.tɛŋ	kät<0><0><1>eng	vin.	aega veetma, koos olema	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	hu	käteng	ˈk·æ.tɛŋ	kät<0><0><1>eng	vin.	időt tölteni, „lógni” valakivel	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	nl	käteng	ˈk·æ.tɛŋ	kät<0><0><1>eng	vin.	samen zijn met	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	pl	käteng	ˈk·æ.tɛŋ	kät<0><0><1>eng	vin.	spędzać czas ze sobą, spotykać się	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	ru	käteng	ˈk·æ.tɛŋ	kät<0><0><1>eng	vin.	тратить время на	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	sv	käteng	ˈk·æ.tɛŋ	kät<0><0><1>eng	vin.	spendera tid med, hänga med	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	de	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	Zeit verbringen	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	eng	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	spend time with, hang out with	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	est	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	aega veetma, koos olema	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	hu	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	időt tölteni, „lógni” valakivel	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	nl	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	samen zijn met	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	pl	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	spędzać czas ze sobą, spotykać się	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	ru	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	тратить время на	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	sv	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	spendera tid med, hänga med	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
 6868	de	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	beschäftigt sein	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 Sept 2010)
 6868	eng	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	be busy, be occupied	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 Sept 2010)
 6868	est	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	hõivatud olema	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 Sept 2010)
@@ -14664,12 +14664,6 @@
 9896	hu	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	szótár	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
 9896	nl	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	woordenboek	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
 9896	ru	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	словарь	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
-9900	de	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	Wörterbuch	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
-9900	eng	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	dictionary	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
-9900	est	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	sõnastik, sõnaraamat	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
-9900	hu	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	szótár	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
-9900	nl	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	woordenboek	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
-9900	ru	lì'upuk	ˈlɪ.ʔu.puk̚	NULL	n.	словарь	http://naviteri.org/2013/08/fmawn-a-fkol-kilmulat-this-just-in/comment-page-1/#comment-2476 (01 Aug 2013)
 9904	de	nìkemweypey	nɪ.kɛm.ˈwɛj.pɛj	NULL	adv.	in ungeduldiger Weise	http://forum.learnnavi.org/language-updates/how-to-form-negativeopposite-adjectivesadverbs/ (12 Aug 2013)
 9904	eng	nìkemweypey	nɪ.kɛm.ˈwɛj.pɛj	NULL	adv.	impatiently	http://forum.learnnavi.org/language-updates/how-to-form-negativeopposite-adjectivesadverbs/ (12 Aug 2013)
 9904	est	nìkemweypey	nɪ.kɛm.ˈwɛj.pɛj	NULL	adv.	kannatamatult, kärsitult	http://forum.learnnavi.org/language-updates/how-to-form-negativeopposite-adjectivesadverbs/ (12 Aug 2013)
@@ -16187,11 +16181,11 @@
 11160	est	säleymkem	sæ.lɛjm.ˈkɛm	NULL	n.	protestiavaldus, meeleavaldus (konkreetne sündmus)	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11160	hu	säleymkem	sæ.lɛjm.ˈkɛm	NULL	n.	tiltakozás (konkrét)	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11160	nl	säleymkem	sæ.lɛjm.ˈkɛm	NULL	n.	protest, een moment van protesteren	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11164	de	leymfe'	l·ɛjm.ˈfɛʔ	leymf<0><1><2>e'	vin.	beschweren, beklagen	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11164	eng	leymfe'	l·ɛjm.ˈfɛʔ	leymf<0><1><2>e'	vin.	complain	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11164	est	leymfe'	l·ɛjm.ˈfɛʔ	leymf<0><1><2>e'	vin.	kurtma, kaebama	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11164	hu	leymfe'	l·ɛjm.ˈfɛʔ	leymf<0><1><2>e'	vin.	panaszkodik	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11164	nl	leymfe'	l·ɛjm.ˈfɛʔ	leymf<0><1><2>e'	vin.	klagen	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11164	de	leymfe'	l·ɛjm.ˈfɛʔ	l<0><1><2>eymfe'	vin.	beschweren, beklagen	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11164	eng	leymfe'	l·ɛjm.ˈfɛʔ	l<0><1><2>eymfe'	vin.	complain	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11164	est	leymfe'	l·ɛjm.ˈfɛʔ	l<0><1><2>eymfe'	vin.	kurtma, kaebama	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11164	hu	leymfe'	l·ɛjm.ˈfɛʔ	l<0><1><2>eymfe'	vin.	panaszkodik	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11164	nl	leymfe'	l·ɛjm.ˈfɛʔ	l<0><1><2>eymfe'	vin.	klagen	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11168	de	tìleymfe'	tɪ.lɛjm.ˈfɛʔ	NULL	n.	Beschweren, Beklagen	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11168	eng	tìleymfe'	tɪ.lɛjm.ˈfɛʔ	NULL	n.	complaining	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11168	est	tìleymfe'	tɪ.lɛjm.ˈfɛʔ	NULL	n.	kurtmine, kaebamine	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
@@ -16412,11 +16406,11 @@
 11376	est	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	NULL	n.	nimisõnaühend	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
 11376	hu	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	NULL	n.	főnévi kifejezés (főnevet tartalmazó kifejezés)	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
 11376	nl	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	NULL	n.	naamwoordgroep, naamwoordelijk zinsdeel	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
-11380	de	kxì	k'ɪ	NULL	intj.	hi, hey (ungezwungene Begrüßung)	Frommers Blog (16. Juli 2010) http://naviteri.org/2010/07/vocabulary-update/
-11380	eng	kxì	k'ɪ	NULL	intj.	hello (casual)	Frommers Blog (16. Juli 2010) http://naviteri.org/2010/07/vocabulary-update/
-11380	est	kxì	k'ɪ	NULL	intj.	hei (lühike tervitus)	Frommers Blog (16. Juli 2010) http://naviteri.org/2010/07/vocabulary-update/
-11380	hu	kxì	k'ɪ	NULL	intj.	hello	Frommers Blog (16. Juli 2010) http://naviteri.org/2010/07/vocabulary-update/
-11380	nl	kxì	k'ɪ	NULL	intj.	hallo (informeel)	Frommers Blog (16. Juli 2010) http://naviteri.org/2010/07/vocabulary-update/
+11380	de	kxì	k'ɪ	NULL	intj.	hi, hey (ungezwungene Begrüßung)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
+11380	eng	kxì	k'ɪ	NULL	intj.	hello (casual)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
+11380	est	kxì	k'ɪ	NULL	intj.	hei (lühike tervitus)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
+11380	hu	kxì	k'ɪ	NULL	intj.	hello	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
+11380	nl	kxì	k'ɪ	NULL	intj.	hallo (informeel)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
 11384	eng	aho	a.ˈho	aho	vin.	pray	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11384	est	aho	a.ˈho	aho	vin.	palvetama	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11384	hu	aho	a.ˈho	aho	vin.	imádkozik	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
