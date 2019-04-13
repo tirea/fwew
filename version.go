@@ -15,22 +15,34 @@
 // Package main contains all the things. version.go handles program version.
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 type version struct {
 	Major, Minor, Patch int
 	Label               string
 	Name                string
-	Dict                string
+	DictVersion         float64
+	DictBuild           string
 }
 
 // Version is a printable version struct containing program version information
-var Version = version{3, 3, 0, "dev", "Eana Yayo", "Na'vi Dictionary 13.9 (02 NOV 2018)"}
+var Version = version{
+	3, 4, 0,
+	"dev",
+	"Eana Yayo",
+	13.9,
+	"",
+}
 
 func (v version) String() string {
 	if v.Label != "" {
-		return fmt.Sprintf("%s %d.%d.%d-%s \"%s\"\n%s", Text("name"), v.Major, v.Minor, v.Patch, v.Label, v.Name, v.Dict)
+		return fmt.Sprintf("%s %d.%d.%d-%s \"%s\"\nDict Build %s (Custom EE %s)",
+			Text("name"), v.Major, v.Minor, v.Patch, v.Label, v.Name, v.DictBuild, strconv.FormatFloat(v.DictVersion, 'f', -1, 64))
 	}
 
-	return fmt.Sprintf("%s %d.%d.%d \"%s\"\n%s", Text("name"), v.Major, v.Minor, v.Patch, v.Name, v.Dict)
+	return fmt.Sprintf("%s %d.%d.%d \"%s\"\nDict Build %s (Custom EE %s)",
+		Text("name"), v.Major, v.Minor, v.Patch, v.Name, v.DictBuild, strconv.FormatFloat(v.DictVersion, 'f', -1, 64))
 }

@@ -347,26 +347,44 @@ func listWordsSubset(args []string, subset []Word) []Word {
 	for _, w := range subset {
 		switch what {
 		case "pos":
-			if cond == "is" {
+			switch cond {
+			case "starts":
+				if strings.HasPrefix(w.PartOfSpeech, spec) {
+					results = append(results, w)
+				}
+			case "ends":
+				if strings.HasSuffix(w.PartOfSpeech, spec) {
+					results = append(results, w)
+				}
+			case "is":
 				if w.PartOfSpeech == spec {
 					results = append(results, w)
 				}
-			} else if cond == "has" {
+			case "has":
 				if strings.Contains(w.PartOfSpeech, spec) {
+					results = append(results, w)
+				}
+			case "like":
+				if Glob(spec, w.PartOfSpeech) {
 					results = append(results, w)
 				}
 			}
 		case "word":
-			if cond == "starts" {
+			switch cond {
+			case "starts":
 				if strings.HasPrefix(w.Navi, spec) {
 					results = append(results, w)
 				}
-			} else if cond == "ends" {
+			case "ends":
 				if strings.HasSuffix(w.Navi, spec) {
 					results = append(results, w)
 				}
-			} else if cond == "has" {
+			case "has":
 				if strings.Contains(w.Navi, spec) {
+					results = append(results, w)
+				}
+			case "like":
+				if Glob(spec, w.Navi) {
 					results = append(results, w)
 				}
 			}
@@ -442,6 +460,8 @@ func listWords(args []string) []Word {
 		numLines int
 	)
 	// /list what cond spec
+	// /list pos starts v
+	// /list pos ends m.
 	// /list pos has svin.
 	// /list pos is v.
 	// /list word starts ft
@@ -468,13 +488,30 @@ func listWords(args []string) []Word {
 			switch what {
 			case "pos":
 				spec = strings.ToLower(spec)
-				if cond == "is" {
-					if fields[posField] == spec {
+				pos := strings.ToLower(fields[posField])
+				switch cond {
+				case "starts":
+					if strings.HasPrefix(pos, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				} else if cond == "has" {
-					if strings.Contains(fields[posField], spec) {
+				case "ends":
+					if strings.HasSuffix(pos, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "is":
+					if pos == spec {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "has":
+					if strings.Contains(pos, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "like":
+					if Glob(spec, pos) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
@@ -482,18 +519,24 @@ func listWords(args []string) []Word {
 			case "word":
 				spec = strings.ToLower(spec)
 				word := strings.ToLower(fields[navField])
-				if cond == "starts" {
+				switch cond {
+				case "starts":
 					if strings.HasPrefix(word, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				} else if cond == "ends" {
+				case "ends":
 					if strings.HasSuffix(word, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				} else if cond == "has" {
+				case "has":
 					if strings.Contains(word, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "like":
+					if Glob(spec, word) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
@@ -503,12 +546,13 @@ func listWords(args []string) []Word {
 				if err != nil {
 					log.Fatal(err)
 				}
-				if cond == "first" {
+				switch cond {
+				case "first":
 					if count <= s {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				} else if cond == "last" {
+				case "last":
 					if count >= numLines-s && count <= numLines {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)

@@ -75,6 +75,7 @@ func completer(d prompt.Document) []prompt.Suggest {
 		{Text: "where", Description: "add condition to random"},
 		{Text: "starts", Description: "field starts with"},
 		{Text: "ends", Description: "field ends with"},
+		{Text: "like", Description: "field matches wildcard expression"},
 		{Text: "first", Description: "list oldest words"},
 		{Text: "last", Description: "list newest words"},
 		{Text: "has", Description: "all matches of condition"},

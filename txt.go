@@ -26,14 +26,6 @@ var usr, _ = user.Current()
 var texts = map[string]string{}
 
 func init() {
-	// main program strings
-	texts["name"] = "fwew"
-	texts["tip"] = "type \"/help\" or \"/commands\" for more info"
-	texts["author"] = "Tirea Aean"
-	texts["header"] = fmt.Sprintf("%s\n%s\n", Version, texts["tip"])
-	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
-	texts["prompt"] = "~~> "
-
 	// slash-commands Help
 	texts["slashCommandHelp"] = "" +
 		"/set       show currently set options, or set given options (separated by space)\n" +
@@ -114,6 +106,15 @@ func init() {
 	texts["dictCloseError"] = "err 9: failed to close dictionary file (" + texts["dictionary"] + ")"
 	texts["noFileError"] = "err 10: failed to open and/or read input file"
 	texts["fileCloseError"] = "err 11: failed to close input file"
+
+	// main program strings
+	texts["name"] = "fwew"
+	texts["tip"] = "type \"/help\" or \"/commands\" for more info"
+	texts["author"] = "Tirea Aean"
+	Version.DictBuild = SHA1Hash(texts["dictionary"])
+	texts["header"] = fmt.Sprintf("%s\n%s\n", Version, texts["tip"])
+	texts["languages"] = "de, eng, est, hu, nl, pl, ru, sv"
+	texts["prompt"] = "~~> "
 }
 
 // Text function is the accessor for []string texts
