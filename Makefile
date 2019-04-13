@@ -1,4 +1,5 @@
 SOURCES = affixes.go affixes_test.go completer.go config.go fwew.go lib.go numbers.go txt.go version.go word.go
+TAG=build
 
 fwew: format compile
 
@@ -14,7 +15,7 @@ test: install
 	go test -v
 
 docker:
-	docker build -t tirea/fwew:build .
+	docker build -t tirea/fwew:$(TAG) .
 	docker run -it --rm tirea/fwew:build -v -r test
 
 install: fwew
