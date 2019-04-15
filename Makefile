@@ -16,7 +16,7 @@ test: install
 
 docker:
 	docker build -t tirea/fwew:$(TAG) .
-	docker run -it --rm tirea/fwew:build -v -r test
+	docker run -it --rm tirea/fwew:$(TAG) -v -r test
 
 install: fwew
 	sudo cp bin/fwew /usr/local/bin/
