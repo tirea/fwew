@@ -21,19 +21,23 @@ import (
 	"strings"
 )
 
-func executor(cmd string) {
-	if cmd != "" {
-		if strings.HasPrefix(cmd, "/") {
-			slashCommand(cmd, false)
-		} else {
-			if *numConvert {
-				fmt.Println(Convert(cmd, *reverse))
+func executor(cmds string) {
+	csvCmds := strings.Split(cmds, ",")
+	for _, cmd := range csvCmds {
+		cmd = strings.Trim(cmd, " ")
+		if cmd != "" {
+			if strings.HasPrefix(cmd, "/") {
+				slashCommand(cmd, false)
 			} else {
-				printResults(fwew(cmd))
+				if *numConvert {
+					fmt.Println(Convert(cmd, *reverse))
+				} else {
+					printResults(fwew(cmd))
+				}
 			}
+		} else {
+			fmt.Println()
 		}
-	} else {
-		fmt.Println()
 	}
 }
 
