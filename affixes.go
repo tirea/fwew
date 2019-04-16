@@ -21,7 +21,7 @@ import (
 	"strings"
 )
 
-var debug = configuration.DebugMode
+var debug = false
 
 func prefix(w Word) Word {
 	var (
@@ -38,7 +38,7 @@ func prefix(w Word) Word {
 		inf := w.Affixes[Text("inf")]
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
 			reString = "(a|tì)?"
-		} else {
+		} else if strings.Contains(w.Target, "ketsuk") || strings.Contains(w.Target, "tsuk") {
 			reString = "(a)?(ketsuk|tsuk)?"
 		}
 	} else {
