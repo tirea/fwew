@@ -31,14 +31,15 @@ import (
 
 // Global
 const (
-	idField  int = 0 // dictionary.txt line Field 0 is Database ID
-	lcField  int = 1 // dictionary.txt line field 1 is Language Code
-	navField int = 2 // dictionary.txt line field 2 is Na'vi word
-	ipaField int = 3 // dictionary.txt line field 3 is IPA data
-	infField int = 4 // dictionary.txt line field 4 is Infix location data
-	posField int = 5 // dictionary.txt line field 5 is Part of Speech data
-	defField int = 6 // dictionary.txt line field 6 is Local definition
-	srcField int = 7 // dictionary.txt line field 7 is Source data
+	idField  int    = 0 // dictionary.txt line Field 0 is Database ID
+	lcField  int    = 1 // dictionary.txt line field 1 is Language Code
+	navField int    = 2 // dictionary.txt line field 2 is Na'vi word
+	ipaField int    = 3 // dictionary.txt line field 3 is IPA data
+	infField int    = 4 // dictionary.txt line field 4 is Infix location data
+	posField int    = 5 // dictionary.txt line field 5 is Part of Speech data
+	defField int    = 6 // dictionary.txt line field 6 is Local definition
+	srcField int    = 7 // dictionary.txt line field 7 is Source data
+	space    string = " "
 )
 
 // flags / options
@@ -99,7 +100,7 @@ func fwew(word string) []Word {
 		added     bool
 	)
 
-	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", " ")
+	badChars := strings.Split("` ~ @ # $ % ^ & * ( ) [ ] { } < > _ / . , ; : ! ? | + \\", space)
 	// remove all the sketchy chars from arguments
 	for _, c := range badChars {
 		word = strings.Replace(word, c, "", -1)
@@ -140,7 +141,7 @@ func fwew(word string) []Word {
 				// whole-word matching
 				defString = StripChars(fields[defField], ",;")
 				if *posFilter == "all" || fields[posField] == *posFilter {
-					for _, w := range strings.Split(defString, " ") {
+					for _, w := range strings.Split(defString, space) {
 						if strings.ToLower(w) == strings.ToLower(word) && !added {
 							results = append(results, result)
 							added = true
@@ -204,8 +205,8 @@ func printResults(results []Word) {
 				nav = "**" + nav + "** "
 				pos = "*" + pos + "* "
 			} else {
-				nav += " "
-				pos += " "
+				nav += space
+				pos += space
 			}
 
 			out += num
@@ -246,7 +247,7 @@ func setFlags(arg string, argsMode bool) {
 		start := IndexStr(arg, '[') + 1
 		flagList = strings.Split(arg[start:len(arg)-1], ",")
 	} else {
-		flagList = strings.Split(arg, " ")
+		flagList = strings.Split(arg, space)
 	}
 	for _, f := range flagList {
 		switch {
@@ -283,7 +284,7 @@ func setFlags(arg string, argsMode bool) {
 	}
 	if err == nil {
 		var out string
-		out += Text("set") + " "
+		out += Text("set") + space
 		out += "[ "
 		if *reverse {
 			out += "r "
@@ -679,8 +680,9 @@ func slashCommand(s string, argsMode bool) {
 		args    []string
 		exprs   [][]string
 		nargs   int
+		setArg  string
 	)
-	sc = strings.Split(s, " ")
+	sc = strings.Split(s, space)
 	sc = DeleteEmpty(sc)
 	command = sc[0]
 	if len(sc) > 1 {
@@ -692,10 +694,21 @@ func slashCommand(s string, argsMode bool) {
 		printHelp()
 	case "/commands":
 		fmt.Println(Text("slashCommandHelp"))
-	case "/set":
-		setFlags(strings.Join(args, " "), argsMode)
-	case "/unset":
-		setFlags(strings.Join(args, " "), argsMode)
+	case "/set", "/unset":
+		setArg = strings.Join(args, space)
+		setFlags(setArg, argsMode)
+	// aliases for /set
+	case "/a", "/i", "/ipa", "/l", "/n", "/p", "/r", "/s", "/v":
+		for _, c := range command {
+			if c != '/' {
+				setArg += string(c)
+			}
+		}
+		if nargs > 0 {
+			setArg += space
+		}
+		setArg += strings.Join(args, space)
+		setFlags(setArg, argsMode)
 	case "/list":
 		// word starts tì
 		if nargs == 3 {
