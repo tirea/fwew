@@ -30,7 +30,7 @@ type version struct {
 
 // Version is a printable version struct containing program version information
 var Version = version{
-	3, 6, 0,
+	3, 6, 1,
 	"dev",
 	"Eana Yayo",
 	13.9,
@@ -39,10 +39,10 @@ var Version = version{
 
 func (v version) String() string {
 	if v.Label != "" {
-		return fmt.Sprintf("%s %d.%d.%d-%s \"%s\"\nDict Build %s (Custom EE %s)",
+		return fmt.Sprintf("%s %d.%d.%d-%s \"%s\"\ndictionary %s (EE %s)",
 			Text("name"), v.Major, v.Minor, v.Patch, v.Label, v.Name, v.DictBuild, strconv.FormatFloat(v.DictVersion, 'f', -1, 64))
 	}
 
-	return fmt.Sprintf("%s %d.%d.%d \"%s\"\nDict Build %s (Custom EE %s)",
+	return fmt.Sprintf("%s %d.%d.%d \"%s\"\ndictionary %s (EE %s)",
 		Text("name"), v.Major, v.Minor, v.Patch, v.Name, v.DictBuild, strconv.FormatFloat(v.DictVersion, 'f', -1, 64))
 }
