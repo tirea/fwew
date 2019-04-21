@@ -9709,14 +9709,14 @@
 6860	pl	swawtsyìp	ˈswaw.t͡sjɪp̚	NULL	n.	krótka chwila, sekunda	NULL
 6860	ru	swawtsyìp	ˈswaw.t͡sjɪp̚	NULL	n.	мгновение, секунда	NULL
 6860	sv	swawtsyìp	ˈswaw.t͡sjɪp̚	NULL	n.	litet ögonblick, sekund	NULL
-6864	de	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	Zeit verbringen	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	eng	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	spend time with, hang out with	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	est	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	aega veetma, koos olema	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	hu	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	időt tölteni, „lógni” valakivel	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	nl	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	samen zijn met	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	pl	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	spędzać czas ze sobą, spotykać się	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	ru	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	тратить время на	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
-6864	sv	käteng	ˈk·æ.tɛŋ	kät<0><1><2>eng	vin.	spendera tid med, hänga med	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	de	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	Zeit verbringen	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	eng	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	spend time with, hang out with	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	est	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	aega veetma, koos olema	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	hu	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	időt tölteni, „lógni” valakivel	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	nl	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	samen zijn met	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	pl	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	spędzać czas ze sobą, spotykać się	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	ru	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	тратить время на	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
+6864	sv	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	spendera tid med, hänga med	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/
 6868	de	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	beschäftigt sein	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 Sept 2010)
 6868	eng	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	be busy, be occupied	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 Sept 2010)
 6868	est	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	hõivatud olema	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 Sept 2010)
@@ -10756,14 +10756,14 @@
 7584	pl	am'a	am.ˈʔa	NULL	n.	wątpliwość	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
 7584	ru	am'a	am.ˈʔa	NULL	n.	сомнения	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
 7584	sv	am'a	am.ˈʔa	NULL	n.	tvekan	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
-7588	de	nga'	ŋaʔ	nga'	vtr.	enthalten, beinhalten, umfassen	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
-7588	eng	nga'	ŋaʔ	nga'	vtr.	contain	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
-7588	est	nga'	ŋaʔ	nga'	vtr.	sisaldama	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
-7588	hu	nga'	ŋaʔ	nga'	vtr.	tartalmaz	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
-7588	nl	nga'	ŋaʔ	nga'	vtr.	bevatten	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
-7588	pl	nga'	ŋaʔ	nga'	vtr.	zawierać	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
-7588	ru	nga'	ŋaʔ	nga'	vtr.	содержать	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
-7588	sv	nga'	ŋaʔ	nga'	vtr.	innehålla	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
+7588	de	nga'	ŋ·aʔ'	ng<0><1><2>a'	vtr.	enthalten, beinhalten, umfassen	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
+7588	eng	nga'	ŋ·aʔ'	ng<0><1><2>a'	vtr.	contain	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
+7588	est	nga'	ŋ·aʔ'	ng<0><1><2>a'	vtr.	sisaldama	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
+7588	hu	nga'	ŋ·aʔ'	ng<0><1><2>a'	vtr.	tartalmaz	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
+7588	nl	nga'	ŋ·aʔ'	ng<0><1><2>a'	vtr.	bevatten	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
+7588	pl	nga'	ŋ·aʔ'	ng<0><1><2>a'	vtr.	zawierać	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
+7588	ru	nga'	ŋ·aʔ'	ng<0><1><2>a'	vtr.	содержать	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
+7588	sv	nga'	ŋ·aʔ'	ng<0><1><2>a'	vtr.	innehålla	Frommer (5.5. 2011) http://naviteri.org/2011/05/weather-part-2-and-a-bit-more-2/
 7592	de	tìftang si	tɪ.ˈftaŋ s·i	tìftang s<0><1><2>i	vin.	stoppen (jemanden, etwas)	Frommer (2.2.2011) http://forum.learnnavi.org/language-updates/stop!/
 7592	eng	tìftang si	tɪ.ˈftaŋ s·i	tìftang s<0><1><2>i	vin.	stop (someone or something) 	Frommer (2.2.2011) http://forum.learnnavi.org/language-updates/stop!/
 7592	est	tìftang si	tɪ.ˈftaŋ s·i	tìftang s<0><1><2>i	vin.	peatama (kedagi või midagi)	Frommer (2.2.2011) http://forum.learnnavi.org/language-updates/stop!/
@@ -13350,13 +13350,13 @@
 9088	hu	nìTsyungwen	nɪ.ˈt͡sjuŋ.wɛn	NULL	adv.	Zhongwen	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
 9088	nl	nìTsyungwen	nɪ.ˈt͡sjuŋ.wɛn	NULL	adv.	Zhongyuan	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
 9088	ru	nìTsyungwen	nɪ.ˈt͡sjuŋ.wɛn	NULL	adv.	Zhongwen	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-9092	de	reykol	ɾɛj.ˈkol	reykol	vtr.	musizieren, veranlassen zu singen (poetisch)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
-9092	eng	reykol	ɾɛj.ˈkol	reykol	vtr.	play music, make to sing (poetic)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
-9092	est	reykol	ɾɛj.ˈkol	reykol	vtr.	muusikat mängima, laulma	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
-9092	hu	reykol	ɾɛj.ˈkol	reykol	vtr.	zenél, énekeltet (költői)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
-9092	nl	reykol	ɾɛj.ˈkol	reykol	vtr.	muziek maken, laten zingen (dichterlijk)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
-9092	pl	reykol	ɾɛj.ˈkol	reykol	vtr.	grać muzyke, sklaniać do śpiewu	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
-9092	ru	reykol	ɾɛj.ˈkol	reykol	vtr.	играть музыку, петь (поэтично)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
+9092	de	reykol	ɾɛj.ˈk·ol	reyk<0><1><2>ol	vtr.	musizieren, veranlassen zu singen (poetisch)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
+9092	eng	reykol	ɾɛj.ˈk·ol	reyk<0><1><2>ol	vtr.	play music, make to sing (poetic)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
+9092	est	reykol	ɾɛj.ˈk·ol	reyk<0><1><2>ol	vtr.	muusikat mängima, laulma	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
+9092	hu	reykol	ɾɛj.ˈk·ol	reyk<0><1><2>ol	vtr.	zenél, énekeltet (költői)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
+9092	nl	reykol	ɾɛj.ˈk·ol	reyk<0><1><2>ol	vtr.	muziek maken, laten zingen (dichterlijk)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
+9092	pl	reykol	ɾɛj.ˈk·ol	reyk<0><1><2>ol	vtr.	grać muzyke, sklaniać do śpiewu	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
+9092	ru	reykol	ɾɛj.ˈk·ol	reyk<0><1><2>ol	vtr.	играть музыку, петь (поэтично)	Frommer (31.1. 2011) http://naviteri.org/2011/01/new-year-new-vocabulary/
 9096	de	nrra	ˈnṛ.a	NULL	n.	Stolz, Gefühl von Stolz	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/
 9096	eng	nrra	ˈnṛ.a	NULL	n.	pride, feeling of pride	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/
 9096	est	nrra	ˈnṛ.a	NULL	n.	uhkus, uhke tunne	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/
@@ -13693,13 +13693,13 @@
 9308	nl	vezo	vɛ.ˈz·o	vez<0><1><2>o	vin.	op orde zijn, georganiseerd zijn	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
 9308	pl	vezo	vɛ.ˈz·o	vez<0><1><2>o	vin.	być uporządkowanym, być dobrze zorganizowanym	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
 9308	ru	vezo	vɛ.ˈz·o	vez<0><1><2>o	vin.	быть в порядке	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
-9312	de	vezeyko	vɛ.zɛj.ˈko	vezeyko	vtr.	ordnen, ordentlich machen, aufräumen, in Ordnung bringen	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
-9312	eng	vezeyko	vɛ.zɛj.ˈko	vezeyko	vtr.	put in order, organize	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
-9312	est	vezeyko	vɛ.zɛj.ˈko	vezeyko	vtr.	korrastama, korda seadma, organiseerima	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
-9312	hu	vezeyko	vɛ.zɛj.ˈko	vezeyko	vtr.	rendbe rak, redszerez	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
-9312	nl	vezeyko	vɛ.zɛj.ˈko	vezeyko	vtr.	op orde brengen, organiseren	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
-9312	pl	vezeyko	vɛ.zɛj.ˈko	vezeyko	vtr.	sprzątać, organizować	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
-9312	ru	vezeyko	vɛ.zɛj.ˈko	vezeyko	vtr.	организовать	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
+9312	de	vezeyko	vɛ.zɛj.ˈk·o	vezeyk<0><1><2>o	vtr.	ordnen, ordentlich machen, aufräumen, in Ordnung bringen	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
+9312	eng	vezeyko	vɛ.zɛj.ˈk·o	vezeyk<0><1><2>o	vtr.	put in order, organize	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
+9312	est	vezeyko	vɛ.zɛj.ˈk·o	vezeyk<0><1><2>o	vtr.	korrastama, korda seadma, organiseerima	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
+9312	hu	vezeyko	vɛ.zɛj.ˈk·o	vezeyk<0><1><2>o	vtr.	rendbe rak, redszerez	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
+9312	nl	vezeyko	vɛ.zɛj.ˈk·o	vezeyk<0><1><2>o	vtr.	op orde brengen, organiseren	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
+9312	pl	vezeyko	vɛ.zɛj.ˈk·o	vezeyk<0><1><2>o	vtr.	sprzątać, organizować	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
+9312	ru	vezeyko	vɛ.zɛj.ˈk·o	vezeyk<0><1><2>o	vtr.	организовать	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
 9316	de	vefya	ˈvɛ.fja	NULL	n.	Methode, Herangehensweise, System, Prozedere, Prozess	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
 9316	eng	vefya	ˈvɛ.fja	NULL	n.	system, process, procedure, approach	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
 9316	est	vefya	ˈvɛ.fja	NULL	n.	süsteem, protsess, lähenemisviis	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/
@@ -16411,10 +16411,10 @@
 11380	est	kxì	k'ɪ	NULL	intj.	hei (lühike tervitus)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
 11380	hu	kxì	k'ɪ	NULL	intj.	hello	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
 11380	nl	kxì	k'ɪ	NULL	intj.	hallo (informeel)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
-11384	eng	aho	a.ˈho	aho	vin.	pray	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
-11384	est	aho	a.ˈho	aho	vin.	palvetama	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
-11384	hu	aho	a.ˈho	aho	vin.	imádkozik	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
-11384	nl	aho	a.ˈho	aho	vin.	bidden	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11384	eng	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	pray	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11384	est	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	palvetama	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11384	hu	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	imádkozik	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11384	nl	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	bidden	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11388	eng	tìaho	tɪ.a.ˈho	NULL	n.	prayer (in general, abstract idea)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11388	est	tìaho	tɪ.a.ˈho	NULL	n.	palvetamine	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11388	hu	tìaho	tɪ.a.ˈho	NULL	n.	imádság (általános, elvont értelemben)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
@@ -16575,10 +16575,10 @@
 11544	est	tìhan	tɪ.ˈhan	NULL	n.	kaotus, ilmajäämine	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11544	hu	tìhan	tɪ.ˈhan	NULL	n.	elvesztés	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11544	nl	tìhan	tɪ.ˈhan	NULL	n.	verlies	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
-11548	eng	hipx	hip'	hipx	vtr.	control	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
-11548	est	hipx	hip'	hipx	vtr.	kontrollima, korda hoidma	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
-11548	hu	hipx	hip'	hipx	vtr.	irányít, szabályoz	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
-11548	nl	hipx	hip'	hipx	vtr.	controleren	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11548	eng	hipx	h·ip'	h<0><1><2>ipx	vtr.	control	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11548	est	hipx	h·ip'	h<0><1><2>ipx	vtr.	kontrollima, korda hoidma	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11548	hu	hipx	h·ip'	h<0><1><2>ipx	vtr.	irányít, szabályoz	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11548	nl	hipx	h·ip'	h<0><1><2>ipx	vtr.	controleren	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11552	eng	tìhipx	tɪ.ˈhip'	NULL	n.	control	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11552	est	tìhipx	tɪ.ˈhip'	NULL	n.	kontroll, kord	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11552	hu	tìhipx	tɪ.ˈhip'	NULL	n.	irányítás	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
