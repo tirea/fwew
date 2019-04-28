@@ -8107,14 +8107,14 @@
 5668	pl	tìftia	tɪ.ftiˈ.a	NULL	n.	studia, nauka	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
 5668	ru	tìftia	tɪ.ftiˈ.a	NULL	n.	учение	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
 5668	sv	tìftia	tɪ.ftiˈ.a	NULL	n.	studie	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
-5672	de	tìftia kifkeyä	tɪ.ftiˈ.a ki.ˈfkɛ.jæ	NULL	n.	Wissenschaft, Studium der physischen Welt	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
-5672	eng	tìftia kifkeyä	tɪ.ftiˈ.a ki.ˈfkɛ.jæ	NULL	n.	science, the study of the physical world	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
-5672	est	tìftia kifkeyä	tɪ.ftiˈ.a ki.ˈfkɛ.jæ	NULL	n.	teadus, füüsilise maailma õpe	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
-5672	hu	tìftia kifkeyä	tɪ.ftiˈ.a ki.ˈfkɛ.jæ	NULL	n.	tudomány, természettudomány	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
-5672	nl	tìftia kifkeyä	tɪ.ftiˈ.a ki.ˈfkɛ.jæ	NULL	n.	wetenschap, de studie van de fysieke wereld	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
-5672	pl	tìftia kifkeyä	tɪ.ftiˈ.a ki.ˈfkɛ.jæ	NULL	n.	nauki ścisłe, nauka o materialnym świecie	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
-5672	ru	tìftia kifkeyä	tɪ.ftiˈ.a ki.ˈfkɛ.jæ	NULL	n.	наука, изучение реального мира	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
-5672	sv	tìftia kifkeyä	tɪ.ftiˈ.a ki.ˈfkɛ.jæ	NULL	n.	vetenskap, studien av fysiska världen	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
+5672	de	tìftia kifkeyä	tɪ.fti.ˈa ki.ˈfkɛ.jæ	NULL	n.	Wissenschaft, Studium der physischen Welt	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
+5672	eng	tìftia kifkeyä	tɪ.fti.ˈa ki.ˈfkɛ.jæ	NULL	n.	science, the study of the physical world	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
+5672	est	tìftia kifkeyä	tɪ.fti.ˈa ki.ˈfkɛ.jæ	NULL	n.	teadus, füüsilise maailma õpe	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
+5672	hu	tìftia kifkeyä	tɪ.fti.ˈa ki.ˈfkɛ.jæ	NULL	n.	tudomány, természettudomány	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
+5672	nl	tìftia kifkeyä	tɪ.fti.ˈa ki.ˈfkɛ.jæ	NULL	n.	wetenschap, de studie van de fysieke wereld	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
+5672	pl	tìftia kifkeyä	tɪ.fti.ˈa ki.ˈfkɛ.jæ	NULL	n.	nauki ścisłe, nauka o materialnym świecie	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
+5672	ru	tìftia kifkeyä	tɪ.fti.ˈa ki.ˈfkɛ.jæ	NULL	n.	наука, изучение реального мира	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
+5672	sv	tìftia kifkeyä	tɪ.fti.ˈa ki.ˈfkɛ.jæ	NULL	n.	vetenskap, studien av fysiska världen	Frommer (21. Dezember 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
 5676	de	pxir	p'iɾ	NULL	n.	Bier	Frommer (14. Jun 2010) http://www.fr-online.de/panorama/interview-mit-erfinder-der-avatar-filmsprache-tok-pesengit-oeyae-pxir-l-,1472782,4476184.html
 5676	eng	pxir	p'iɾ	NULL	n.	beer	Frommer (14. Jun 2010) http://www.fr-online.de/panorama/interview-mit-erfinder-der-avatar-filmsprache-tok-pesengit-oeyae-pxir-l-,1472782,4476184.html
 5676	est	pxir	p'iɾ	NULL	n.	õlu	Frommer (14. Jun 2010) http://www.fr-online.de/panorama/interview-mit-erfinder-der-avatar-filmsprache-tok-pesengit-oeyae-pxir-l-,1472782,4476184.html
@@ -15276,11 +15276,11 @@
 10348	est	tìftiatu	tɪ.ftiˈ.a.tu	NULL	n.	uurija	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
 10348	hu	tìftiatu	tɪ.ftiˈ.a.tu	NULL	n.	kutató	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
 10348	nl	tìftiatu	tɪ.ftiˈ.a.tu	NULL	n.	onderzoeker	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
-10352	de	tìftiatu kifkeyä	tɪ.ftiˈa.tu kÃ¬.ˈfkɛJ.Jæ	NULL	n.	Wissenschaftler	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
-10352	eng	tìftiatu kifkeyä	tɪ.ftiˈa.tu kÃ¬.ˈfkɛJ.Jæ	NULL	n.	scientist	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
-10352	est	tìftiatu kifkeyä	tɪ.ftiˈa.tu kÃ¬.ˈfkɛJ.Jæ	NULL	n.	teadlane	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
-10352	hu	tìftiatu kifkeyä	tɪ.ftiˈa.tu kÃ¬.ˈfkɛJ.Jæ	NULL	n.	tudós	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
-10352	nl	tìftiatu kifkeyä	tɪ.ftiˈa.tu kÃ¬.ˈfkɛJ.Jæ	NULL	n.	wetenschapper	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
+10352	de	tìftiatu kifkeyä	tɪ.fti.ˈa.tu ki.ˈfkɛ.jæ	NULL	n.	Wissenschaftler	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
+10352	eng	tìftiatu kifkeyä	tɪ.fti.ˈa.tu ki.ˈfkɛ.jæ	NULL	n.	scientist	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
+10352	est	tìftiatu kifkeyä	tɪ.fti.ˈa.tu ki.ˈfkɛ.jæ	NULL	n.	teadlane	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
+10352	hu	tìftiatu kifkeyä	tɪ.fti.ˈa.tu ki.ˈfkɛ.jæ	NULL	n.	tudós	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
+10352	nl	tìftiatu kifkeyä	tɪ.fti.ˈa.tu ki.ˈfkɛ.jæ	NULL	n.	wetenschapper	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
 10356	de	heyr	hɛJɾ	NULL	n.	Brustkorb, Brust, Torso	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
 10356	eng	heyr	hɛJɾ	NULL	n.	chest	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
 10356	est	heyr	hɛJɾ	NULL	n.	rind	http://naviteri.org/2015/03/kap-si-ayunil-saylahe-threats-dreams-and-other-things/ (31 Mar 2015)
@@ -15967,7 +15967,7 @@
 10924	hu	stiwi	ˈsti.wi	NULL	n.	csíny, rosszalkodás	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
 10924	nl	stiwi	ˈsti.wi	NULL	n.	kattekwaad	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
 10928	de	stiwi si	ˈsti.wi s·i	stiwi s<0><1><2>i	vin.	unartig, ungezogen, frech sein; Unfug treiben, Unheil anrichten	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
-10928	eng	stiwi si	ˈsti.wi s·i	stiwi s<0><1><2>i	vin.	be naughty, do mis	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
+10928	eng	stiwi si	ˈsti.wi s·i	stiwi s<0><1><2>i	vin.	be naughty, do mischief	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
 10928	est	stiwi si	ˈsti.wi s·i	stiwi s<0><1><2>i	vin.	ulakas, üleannetu, riukalik olema	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
 10928	hu	stiwi si	ˈsti.wi s·i	stiwi s<0><1><2>i	vin.	rosszalkodik	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
 10928	nl	stiwi si	ˈsti.wi s·i	stiwi s<0><1><2>i	vin.	ondeugend zijn, kattekwaad uithalen	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
