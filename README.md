@@ -50,7 +50,7 @@ Then in a new Powershell window:
 
 ```
 cd go\src                               # This is where we will download the fwew source code
-go get github.com/c-bata/go-prompt      # Install the go-prompt library (fwew depends on this libra>
+go get github.com/c-bata/go-prompt      # Install the go-prompt library (fwew depends on this library)
 git clone https://github.com/tirea/fwew # Download the code
 cd fwew                                 # Go to where the code is before trying to build it
 go build -o fwew.exe                    # compile
