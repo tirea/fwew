@@ -45,13 +45,15 @@ cd $HOME                                # Start at home folder
 mkdir go\src                            # Make a folder for all Go source code
 setx GOPATH %USERPROFILE%\go            # Set GOPATH variable to newly created go folder
 ```
-Open a new Powershell so that last line takes effect, then continue:
+
+Then in a new Powershell window:
+
 ```
-cd go\src\                              # This is where we will download the fwew source code
-go get github.com/c-bata/go-prompt      # Install the go-prompt library (fwew depends on this library)
+cd go\src                               # This is where we will download the fwew source code
+go get github.com/c-bata/go-prompt      # Install the go-prompt library (fwew depends on this libra>
 git clone https://github.com/tirea/fwew # Download the code
 cd fwew                                 # Go to where the code is before trying to build it
-go build -o $HOME\fwew.exe .\fwew.go    # compile
+go build -o fwew.exe                    # compile
 cp -Recurse .\.fwew $HOME\              # copy data file folder to your user's home folder
 ```
 
