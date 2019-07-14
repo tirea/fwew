@@ -118,6 +118,21 @@ func fwew(word string) []Word {
 		result.Affixes[Text("suf")] = []string{"yä"}
 		results = append(results, result)
 		return results
+		// hardcoded hacks for oey and ngey
+	} else if word == "oey" {
+		result = InitWordStruct(result, []string{
+			"1380", "eng", "oe", "ˈo.ɛ", "NULL", "pn.", "I, me", "Frommer / Taronyus Wörterbuch",
+		})
+		result.Affixes[Text("suf")] = []string{"y"}
+		results = append(results, result)
+		return results
+	} else if word == "ngey" {
+		result = InitWordStruct(result, []string{
+			"1348", "eng", "nga", "ŋa", "NULL", "pn.", "you", "Avatar Movie",
+		})
+		result.Affixes[Text("suf")] = []string{"y"}
+		results = append(results, result)
+		return results
 	}
 	// Prepare file for searching
 	dictData, err := os.Open(Text("dictionary"))
@@ -164,7 +179,7 @@ func fwew(word string) []Word {
 				} else if *useAffixes {
 					// skip words that obviously won't work
 					s := similarity(fields[navField], word)
-					if s < 0.50 {
+					if s < 0.50 && !strings.HasSuffix(strings.ToLower(word), "eyä") {
 						//fmt.Printf("Target: %s | Line: %s | [%f]\n", word, fields[navField], s)
 						continue
 					}
@@ -327,10 +342,10 @@ func printHelp() {
 
 func syllableCount(w Word) int64 {
 	// syllable dot counter
-	var sdc int64 = 0
+	var sdc int64
 	for _, char := range w.IPA {
 		if char == '.' {
-			sdc += 1
+			sdc++
 		}
 	}
 	return sdc + 1
