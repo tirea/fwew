@@ -44,11 +44,9 @@ func prefix(w Word) Word {
 	} else {
 		switch w.PartOfSpeech {
 		case "n.", "pn.":
-			reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(fì)?(tsa)?(me)?(pxe)?(fne)?(munsna)?"
-		case "dem.", "dem., pn.":
-			reString = "(pe)?(fray)?(tsay)?(fay)?(pay)?(ay)?(fra)?(me)?(pxe)?(fne)?(munsna)?"
+			reString = "^(pe|fray|tsay|fay|pay|fra|fì|tsa)?(ay|me|pxe|pe)?(fne)?(munsna)?"
 		case "adj.":
-			reString = "(nìk|nì|a)?(ke|a)?"
+			reString = "^(nìk|nì|a)?(ke|a)?"
 		default:
 			return w // Not a type that has a prefix, return word without attempting.
 		}
@@ -102,21 +100,15 @@ func suffix(w Word) Word {
 		reString      string
 		attempt       string
 		matchSuffixes []string
-		adp           = []string{"mungwrr", "kxamlä", "tafkip", "pxisre", "pximaw",
-			"ftumfa", "mìkam", "nemfa", "takip", "lisre", "talun", "krrka", "teri",
-			"fkip", "pxaw", "pxel", "luke", "rofa", "fpi", "ftu", "kip", "vay", "lok",
-			"maw", "sìn", "sre", "few", "kam", "kay", "nuä", "sko", "yoa", "äo", "eo",
-			"fa", "hu", "ka", "mì", "na", "ne", "ta", "io", "uo", "ro", "wä", "sì?",
-		}
 	)
 	const (
-		adjSufRe string = "(a)?"
-		nSufRe   string = "(nga')?(tsyìp)?(o)?(pe)?(ìri)?(ìlä)?(ìl)?(eyä)?(yä)?(ä)?(it)?(ri)?(ru)?(ti)?(tu)?(ur)?(l)?(r)?(t)?(y)?"
+		adjSufRe string = "(a)?$"
+		nSufRe   string = "(nga'|tsyìp|tu)?(o)?(pe)?(mungwrr|kxamlä|tafkip|pxisre|pximaw|ftumfa|mìkam|nemfa|takip|lisre|talun|krrka|teri|fkip|pxaw|pxel|luke|rofa|fpi|ftu|kip|vay|lok|maw|sìn|sre|few|kam|kay|nuä|sko|yoa|äo|eo|fa|hu|ka|mì|na|ne|ta|io|uo|ro|wä|sì|ìri|ìl|eyä|yä|ä|it|ri|ru|ti|ur|l|r|t)?$"
 	)
 
 	// verbs
-	if strings.HasPrefix(w.PartOfSpeech, "v") ||
-		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
+	if !strings.Contains(w.PartOfSpeech, "adv") &&
+		strings.Contains(w.PartOfSpeech, "v") || w.PartOfSpeech == "" {
 		inf := w.Affixes[Text("inf")]
 		pre := w.Affixes[Text("pre")]
 		// word is verb with <us> or <awn>
@@ -124,9 +116,6 @@ func suffix(w Word) Word {
 			// it's a tì-<us> gerund; treat it like a noun
 			if len(pre) > 0 && ContainsStr(pre, "tì") && inf[0] == "us" {
 				reString = nSufRe
-				for _, s := range adp {
-					reString += "(" + s + ")?"
-				}
 				// Just a regular <us> or <awn> verb
 			} else {
 				reString = adjSufRe
@@ -134,21 +123,16 @@ func suffix(w Word) Word {
 			// It's a tsuk/ketsuk adj from a verb
 		} else if len(inf) == 0 && Contains(pre, []string{"tsuk", "ketsuk"}) {
 			reString = adjSufRe
+		} else if strings.Contains(w.Target, "tswo") {
+			reString = "(tswo)?" + nSufRe
 		} else {
-			reString = "(tswo|yu)?"
-			for _, s := range adp {
-				reString += "(" + s + ")?"
-			}
+			reString = "(yu)?$"
 		}
 	} else {
 		switch w.PartOfSpeech {
 		// nouns and noun-likes
 		case "n.", "pn.", "prop.n.", "inter.", "dem.", "dem., pn.":
-			// reString = nSufRe
-			for _, s := range adp {
-				reString += "(" + s + ")?"
-			}
-			reString += nSufRe // move this down here to stop cases cannibalizing adp
+			reString = nSufRe
 		// adjectives
 		case "adj.":
 			reString = adjSufRe
