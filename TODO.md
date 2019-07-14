@@ -2,6 +2,8 @@
 
 ### BUGS
 
+- fix ' for ’ in REPL
+- fix Xsiyu
 - fix 'e prefix bug (m, n, u, futa)
 
 ### Testing
