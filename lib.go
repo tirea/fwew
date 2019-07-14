@@ -174,7 +174,7 @@ func DownloadDict() error {
 	return nil
 }
 
-// https://github.com/ryanuber/go-glob
+// GLOB https://github.com/ryanuber/go-glob
 // The character which is treated like a glob
 const GLOB = "*"
 
@@ -228,6 +228,7 @@ func Glob(pattern, subj string) bool {
 	return trailingGlob || strings.HasSuffix(subj, parts[end])
 }
 
+// SHA1Hash gets hash of dictionary file
 func SHA1Hash(filename string) string {
 	f, err := os.Open(filename)
 	if err != nil {
