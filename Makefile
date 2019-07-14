@@ -1,4 +1,4 @@
-SOURCES = affixes.go affixes_test.go completer.go config.go fwew.go lib.go numbers.go txt.go version.go word.go
+SOURCES = affixes.go affixes_test.go completer.go config.go fwew.go fwew_test.go lib.go lib_test.go numbers.go numbers_test.go txt.go version.go word.go
 TAG=build
 
 fwew: format compile
