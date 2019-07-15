@@ -105,6 +105,9 @@ func fwew(word string) []Word {
 	for _, c := range badChars {
 		word = strings.Replace(word, c, "", -1)
 	}
+	// normalize tìftang character
+	word = strings.Replace(word, "’", "'", -1)
+	word = strings.Replace(word, "‘", "'", -1)
 	// No Results if empty string after removing sketch chars
 	if len(word) == 0 {
 		return results
