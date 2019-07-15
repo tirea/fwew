@@ -3,7 +3,6 @@
 ### BUGS
 
 -   fix Xsiyu
--   fix 'e prefix bug (u)
 
 ### Testing
 
