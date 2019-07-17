@@ -3835,7 +3835,7 @@
 2356	ru	tsatu	ˈt͡sa.tu	NULL	dem.	этот (указание на землянина или на'ви)	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2356	sv	tsatu	ˈt͡sa.tu	NULL	dem.	den där (personen)	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2360	de	tsawke	ˈt͡saw.kɛ	NULL	n.	Sonne	http://en.wiktionary.org/wiki/Appendix:Na’vi
-2360	eng	tsawke	ˈt͡saw.kɛ	NULL	n.	sun	http://en.wiktionary.org/wiki/Appendix:Na’vi
+2360	eng	tsawke	ˈt͡saw.kɛ	NULL	n.	sun; Alpha Centauri A	http://en.wiktionary.org/wiki/Appendix:Na’vi
 2360	est	tsawke	ˈt͡saw.kɛ	NULL	n.	päike	http://en.wiktionary.org/wiki/Appendix:Na’vi
 2360	hu	tsawke	ˈt͡saw.kɛ	NULL	n.	nap (égitest)	http://en.wiktionary.org/wiki/Appendix:Na’vi
 2360	nl	tsawke	ˈt͡saw.kɛ	NULL	n.	zon	http://en.wiktionary.org/wiki/Appendix:Na’vi
@@ -16867,10 +16867,51 @@
 11840	est	zìskrrtsawn	zɪ.sɪ.kṛ.ˈt͡sawn	NULL	n.	sügis	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11840	hu	zìskrrtsawn	zɪ.sɪ.kṛ.ˈt͡sawn	NULL	n.	ősz (évszak)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11840	nl	zìskrrtsawn	zɪ.sɪ.kṛ.ˈt͡sawn	NULL	n.	herfst	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
--1	eng	Vawmataw	ˈvaw.ma.taw	\N	meme.	Eyktan Ayhangvurä	LN Discord
-0	eng	Eywa	ˈɛj.wa	\N	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
-1	eng	Tìlu	tɪ.ˈlu	\N	meme.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i	LN Discord
+12961	eng	'asap	ˈʔa.sap̚	NULL	n.	sudden shock	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12962	eng	'asap si	ˈʔa.sap s·i	asap s<0><1><2>i	vin.	be shocked, be startled	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12963	eng	fe'pey	feʔ.ˈp·ɛj	fe'pey	vin.	feel dread, expect something bad to happen, fear (with tsnì for thing dreaded) (ii)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12964	eng	ketrìp	ˈkɛt.ɾIp̚	NULL	adj.	unfortunate, inauspicious	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12965	eng	txansngum	t'an.ˈsŋum	NULL	n.	desperation; feeling of great worry	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12966	eng	txansngum si	t'an.ˈsŋum s·i	txansngum s<0><1><2>i	vin.	feel desperate	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12967	eng	tskawr	t͡sk·awɾ	tsk<0><1><2>awr	vin.	limp	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12968	eng	txavä'	t'a.ˈvæʔ	NULL	adj.	disgusting	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12969	eng	nìflä	nI.ˈflæ	NULL	adv.	successfully	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12970	eng	txantsawl	ˈt'an.t͡sawl	NULL	adj.	giant, huge	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	eng	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	love greatly, enjoy tremendously	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12972	eng	zeykoyu	zɛj.ˈko.ju	NULL	n.	healer	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12973	eng	tìranpam	tI.ˈɾan.pam	NULL	n.	footstep (sound)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12974	eng	ftuopa	ˈftu.o.pa	NULL	adp.	from behind	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12975	eng	fyeng	fjɛŋ	NULL	adj.	steep	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12976	eng	kavan	ˈk·a.v·an	k<0><1>av<2>an	vtr.	support (physically)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12977	eng	lepxìmrun	lɛ.ˈp'Im.ɾun	NULL	adj.	common, often	found	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12978	eng	kelpxìmrun	kɛl.ˈp'Im.ɾun	NULL	adj.	rare	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12979	eng	zung	z·uŋ	z<0><1><2>ung	vin.	crouch	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12980	eng	fpivìl	fpi.ˈvIl	NULL	intj.	hmm, let's see, let me think	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12981	eng	kom	k·om	k<0><1><2>om	vim.	dare	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12982	eng	mam	mam	mam	vtr.	wrap	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12983	eng	yomvey	j·om.ˈvɛj	y<0><1><2>omvey	vin.	dine on flesh, be caniverous (ii)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12984	eng	yomzeswa	j·om.ˈzɛ.swa	y<0><1><2>omzeswa	vin.	graze (ii) 	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12985	eng	txap	t'·ap̚	tx<0><1><2>ap	vtr.	press, press on, apply (physical) pressure to	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12986	eng	tìtxap	tI.ˈt'ap̚	NULL	n.	pressure (physical)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12987	eng	semkä	sɛm.ˈkæ	NULL	n.	bridge	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12988	eng	emkäfya	em.ˈkæ.fja	NULL	n.	ford, crossing	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12989	eng	fil	fil	NULL	n.	child's toy, plaything	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12990	eng	sunkesun	ˈsun.kɛ.sun	NULL	adv.	like it or not	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12991	eng	maitan	ma.ˈi.tan	NULL	ph.	my son (form of address)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12992	eng	maite	ma.ˈi.tɛ	NULL	ph.	my daughter (form of address)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12993	eng	loho	ˈl·o.h·o	l<0><1>oh<2>o	vin.	be surprising (experiencer in dative)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12994	eng	tìloho	tI.ˈlo.ho	NULL	n.	surprise	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12995	eng	nìloho	nI.ˈlo.ho	NULL	adv.	surprisingly	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12996	eng	Tsawkenay	t͡saw.kɛ.ˈnaj	NULL	n.	Alpha Centauri B	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12997	eng	Tawsnrrtsyìp	taw.ˈsnṛ.t͡sjIp̚	NULL	n.	Alpha Centauri C aka Proxima Centauri	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12998	eng	Snrrtsyìp	ˈsnṛ.t͡sjIp̚	NULL	n.	Alpha Centauri C aka Proxima Centauri (Colloquial)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12999	eng	kuru	ˈku.ɾu	NULL	n.	neural queue	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+13000	eng	nìtxukx	nI.ˈt'uk'	NULL	adv.	deeply	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+13001	eng	raw	ɾaw	NULL	adp.	down to	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+-1	eng	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Eyktan Ayhangvurä	LN Discord
+0	eng	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
+1	eng	Tìlu	tɪ.ˈlu	NULL	meme.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i	LN Discord
 2	eng	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
-3	eng	nävi	ˈnæ.vi	\N	meme.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)	LN Discord
+3	eng	nävi	ˈnæ.vi	NULL	meme.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)	LN Discord
 5	eng	pokx	pok'	p<0><1><2>okx	meme.	poke	LN Discord
 6	eng	tsyili si	t͡sji.li s·i	tsyili s<0><1><2>i	meme.	to construct a sentence which has a hilariously outlandish meaning, particularly involving shoe-eating ikran	LN Discord
