@@ -387,6 +387,26 @@ func listWordsSubset(args []string, subset []Word) []Word {
 				if Glob(spec, w.PartOfSpeech) {
 					results = append(results, w)
 				}
+			case "not-starts":
+				if !strings.HasPrefix(w.PartOfSpeech, spec) {
+					results = append(results, w)
+				}
+			case "not-ends":
+				if !strings.HasSuffix(w.PartOfSpeech, spec) {
+					results = append(results, w)
+				}
+			case "not-is":
+				if w.PartOfSpeech != spec {
+					results = append(results, w)
+				}
+			case "not-has":
+				if !strings.Contains(w.PartOfSpeech, spec) {
+					results = append(results, w)
+				}
+			case "not-like":
+				if !Glob(spec, w.PartOfSpeech) {
+					results = append(results, w)
+				}
 			}
 		case "word":
 			switch cond {
@@ -432,6 +452,10 @@ func listWordsSubset(args []string, subset []Word) []Word {
 				}
 			case ">":
 				if syllableCount(w) > ispec {
+					results = append(results, w)
+				}
+			case "!=":
+				if syllableCount(w) != ispec {
 					results = append(results, w)
 				}
 			}
@@ -483,9 +507,20 @@ func listWords(args []string) []Word {
 	// /list pos ends m.
 	// /list pos has svin.
 	// /list pos is v.
+	// /list pos like *
+	// /list pos not-starts v
+	// /list pos not-ends m.
+	// /list pos not-has svin.
+	// /list pos not-is v.
+	// /list pos not-like *
 	// /list word starts ft
 	// /list word ends ang
 	// /list word has ts
+	// /list word like *
+	// /list word not-starts ft
+	// /list word not-ends ang
+	// /list word not-has ts
+	// /list word not-like *
 	// /list words first 20
 	// /list words last 30
 	// /list syllables > 1
@@ -534,6 +569,31 @@ func listWords(args []string) []Word {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
+				case "not-starts":
+					if !strings.HasPrefix(pos, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "not-ends":
+					if !strings.HasSuffix(pos, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "not-is":
+					if pos != spec {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "not-has":
+					if !strings.Contains(pos, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "not-like":
+					if !Glob(spec, pos) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
 				}
 			case "word":
 				spec = strings.ToLower(spec)
@@ -556,6 +616,26 @@ func listWords(args []string) []Word {
 					}
 				case "like":
 					if Glob(spec, word) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "not-starts":
+					if !strings.HasPrefix(word, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "not-ends":
+					if !strings.HasSuffix(word, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "not-has":
+					if !strings.Contains(word, spec) {
+						result = InitWordStruct(result, fields)
+						results = append(results, result)
+					}
+				case "not-like":
+					if !Glob(spec, word) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
@@ -604,6 +684,10 @@ func listWords(args []string) []Word {
 					}
 				case ">":
 					if syllableCount(result) > ispec {
+						results = append(results, result)
+					}
+				case "!=":
+					if syllableCount(result) != ispec {
 						results = append(results, result)
 					}
 				}
