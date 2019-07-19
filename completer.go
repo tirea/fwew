@@ -66,6 +66,7 @@ func completer(d prompt.Document) []prompt.Suggest {
 		{Text: "i", Description: Text("usageI")},
 		{Text: "ipa", Description: Text("usageIPA")},
 		{Text: "n", Description: Text("usageN")},
+		{Text: "and", Description: "add condition to narrow search"},
 		{Text: "a", Description: Text("usageA")},
 		{Text: "m", Description: Text("usageM")},
 		{Text: "s", Description: Text("usageS")},
@@ -95,7 +96,12 @@ func completer(d prompt.Document) []prompt.Suggest {
 		{Text: "<=", Description: "syllable count less or equal"},
 		{Text: "<", Description: "syllable count less"},
 		{Text: "=", Description: "syllable count equal"},
-		{Text: "and", Description: "add condition to narrow search"},
+		{Text: "not-starts", Description: "field does not start with"},
+		{Text: "not-ends", Description: "field does not end with"},
+		{Text: "not-like", Description: "field does not match wildcard expression"},
+		{Text: "not-has", Description: "all matches of not condition"},
+		{Text: "not-is", Description: "exact matches of not condition"},
+		{Text: "!=", Description: "syllable count not equal"},
 	}
 	return prompt.FilterHasPrefix(s, d.GetWordBeforeCursor(), true)
 }
