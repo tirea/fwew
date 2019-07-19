@@ -426,6 +426,22 @@ func listWordsSubset(args []string, subset []Word) []Word {
 				if Glob(spec, w.Navi) {
 					results = append(results, w)
 				}
+			case "not-starts":
+				if !strings.HasPrefix(w.Navi, spec) {
+					results = append(results, w)
+				}
+			case "not-ends":
+				if !strings.HasSuffix(w.Navi, spec) {
+					results = append(results, w)
+				}
+			case "not-has":
+				if !strings.Contains(w.Navi, spec) {
+					results = append(results, w)
+				}
+			case "not-like":
+				if !Glob(spec, w.Navi) {
+					results = append(results, w)
+				}
 			}
 		case "syllables":
 			ispec, err := strconv.ParseInt(spec, 10, 64)
