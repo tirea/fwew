@@ -12868,13 +12868,13 @@
 8796	nl	maweypeyyu	ma.ˈwɛj.pɛj.ju	NULL	n.	Iemand die geduldig is	Frommer (18. Juni 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
 8796	pl	maweypeyyu	ma.ˈwɛj.pɛj.ju	NULL	n.	osoba cierpliwa	Frommer (18. Juni 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
 8796	ru	maweypeyyu	ma.ˈwɛj.pɛj.ju	NULL	n.	терпящий	Frommer (18. Juni 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-8804	de	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftxulì'<0><1><2>u	vin.	eine Rede halten	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
-8804	eng	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftxulì'<0><1><2>u	vin.	orate, give speech	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
-8804	est	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftxulì'<0><1><2>u	vin.	kõnelema, kõne edasi andma	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
-8804	hu	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftxulì'<0><1><2>u	vin.	szónokol, beszédet mond	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
-8804	nl	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftxulì'<0><1><2>u	vin.	oreren, een toespraak houden	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
-8804	pl	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftxulì'<0><1><2>u	vin.	przemawiać, wygłaszać mowę	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
-8804	ru	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftxulì'<0><1><2>u	vin.	произносить речь	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
+8804	de	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftx<0><1><2>ulì'u	vin.	eine Rede halten	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
+8804	eng	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftx<0><1><2>ulì'u	vin.	orate, give speech	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
+8804	est	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftx<0><1><2>ulì'u	vin.	kõnelema, kõne edasi andma	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
+8804	hu	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftx<0><1><2>ulì'u	vin.	szónokol, beszédet mond	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
+8804	nl	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftx<0><1><2>ulì'u	vin.	oreren, een toespraak houden	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
+8804	pl	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftx<0><1><2>ulì'u	vin.	przemawiać, wygłaszać mowę	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
+8804	ru	ftxulì'u	ft'·u.ˈlɪ.ʔu	ftx<0><1><2>ulì'u	vin.	произносить речь	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
 8808	de	ftxulì'uyu	ft'u.ˈlɪ.ʔu.ju	NULL	n.	Redner, (öffentlicher) Sprecher	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
 8808	eng	ftxulì'uyu	ft'u.ˈlɪ.ʔu.ju	NULL	n.	orator, (public) speaker	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
 8808	est	ftxulì'uyu	ft'u.ˈlɪ.ʔu.ju	NULL	n.	kõneleja	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/
@@ -16166,11 +16166,11 @@
 11148	est	tìkemwiä	tɪ.kɛm.ˈwi.æ	NULL	n.	ebaõiglus	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11148	hu	tìkemwiä	tɪ.kɛm.ˈwi.æ	NULL	n.	igazságtalanság	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11148	nl	tìkemwiä	tɪ.kɛm.ˈwi.æ	NULL	n.	oneerlijkheid, onrecht	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11152	de	leymkem	l·ɛjm.ˈkɛm	leymk<0><1><2>em	vin.	protestieren	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11152	eng	leymkem	l·ɛjm.ˈkɛm	leymk<0><1><2>em	vin.	protest	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11152	est	leymkem	l·ɛjm.ˈkɛm	leymk<0><1><2>em	vin.	protesteerima, vastu seisma, meelt avaldama	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11152	hu	leymkem	l·ɛjm.ˈkɛm	leymk<0><1><2>em	vin.	tiltakozik	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
-11152	nl	leymkem	l·ɛjm.ˈkɛm	leymk<0><1><2>em	vin.	protesteren	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11152	de	leymkem	l·ɛjm.ˈkɛm	l<0><1><2>eymkem	vin.	protestieren	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11152	eng	leymkem	l·ɛjm.ˈkɛm	l<0><1><2>eymkem	vin.	protest	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11152	est	leymkem	l·ɛjm.ˈkɛm	l<0><1><2>eymkem	vin.	protesteerima, vastu seisma, meelt avaldama	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11152	hu	leymkem	l·ɛjm.ˈkɛm	l<0><1><2>eymkem	vin.	tiltakozik	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
+11152	nl	leymkem	l·ɛjm.ˈkɛm	l<0><1><2>eymkem	vin.	protesteren	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11156	de	tìleymkem	tɪ.lɛjm.ˈkɛm	NULL	n.	Protestieren (abstrakt)	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11156	eng	tìleymkem	tɪ.lɛjm.ˈkɛm	NULL	n.	protesting, protest (abstract concept)	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
 11156	est	tìleymkem	tɪ.lɛjm.ˈkɛm	NULL	n.	protesteerimine, meeleavaldus (abstraktne)	http://naviteri.org/2017/09/zisikrr-amip-ayliu-amip-new-words-for-the-new-season/ (30 Sept 2017)
@@ -16883,7 +16883,7 @@
 12974	eng	ftuopa	ˈftu.o.pa	NULL	adp.	from behind	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12975	eng	fyeng	fjɛŋ	NULL	adj.	steep	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12976	eng	kavan	ˈk·a.v·an	k<0><1>av<2>an	vtr.	support (physically)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12977	eng	lepxìmrun	lɛ.ˈp'Im.ɾun	NULL	adj.	common, often	found	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12977	eng	lepxìmrun	lɛ.ˈp'Im.ɾun	NULL	adj.	common, often found	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12978	eng	kelpxìmrun	kɛl.ˈp'Im.ɾun	NULL	adj.	rare	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12979	eng	zung	z·uŋ	z<0><1><2>ung	vin.	crouch	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12980	eng	fpivìl	fpi.ˈvIl	NULL	intj.	hmm, let's see, let me think	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
