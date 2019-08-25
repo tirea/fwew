@@ -16908,7 +16908,7 @@
 12999	eng	kuru	ˈku.ɾu	NULL	n.	neural queue	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 13000	eng	nìtxukx	nI.ˈt'uk'	NULL	adv.	deeply	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 13001	eng	raw	ɾaw	NULL	adp.	down to	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
--1	eng	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Eyktan Ayhangvurä	LN Discord
+-1	eng	Vawmataw	ˈvaw.ma.taw	NULL	meme.	The Right Honourable Vawmataw, by the grace of Eywa of Hangvurburg Earl, Lord Memeyu, Head of the Skxawngs, defender of the memes	LN Discord
 0	eng	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
 1	eng	Tìlu	tɪ.ˈlu	NULL	meme.	nawma tute a lu ngopyu 'ipua aykeyeyä ahì'i	LN Discord
 2	eng	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
