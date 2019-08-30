@@ -1,5 +1,15 @@
 SOURCES = affixes.go affixes_test.go completer.go config.go fwew.go fwew_test.go lib.go lib_test.go numbers.go numbers_test.go txt.go version.go word.go
-TAG=build
+TAG = build
+OS = nix
+ifeq ($(OS),nix)
+CP = sudo cp
+RM = sudo rm
+BINDEST = /usr/local/bin
+else ifeq ($(OS),termux)
+CP = cp
+RM = rm
+BINDEST = /data/data/com.termux/files/usr/bin
+endif
 
 fwew: format compile
 
@@ -19,11 +29,11 @@ docker:
 	docker run -it --rm tirea/fwew:$(TAG) -v -r test
 
 install: fwew
-	sudo cp bin/fwew /usr/local/bin/
+	$(CP) bin/fwew $(BINDEST)/
 	cp -r .fwew ~/
 
 uninstall:
-	sudo rm /usr/local/bin/fwew
+	$(RM) $(BINDEST)/fwew
 	rm -rf ~/.fwew
 
 clean:
