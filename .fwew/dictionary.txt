@@ -16910,6 +16910,16 @@
 12999	eng	kuru	ˈku.ɾu	NULL	n.	neural queue	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 13000	eng	nìtxukx	nI.ˈt'uk'	NULL	adv.	deeply	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 13001	eng	raw	ɾaw	NULL	adp.	down to	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+13002	eng	kantseng	ˈkan.t͡sɛŋ	NULL	n.	destination	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13003	eng	la'a	ˈla.ʔa	NULL	n.	physical separation, distance between two places or objects	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13004	eng	pela'a	pɛ.ˈla.ʔa	NULL	inter.	how near, how far, what distance	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13005	eng	la'ape	ˈla.ʔa.pɛ	NULL	inter.	how near, how far, what distance	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13006	eng	pelìmsim	pɛ.ˈlɪm.sim	NULL	inter.	how near, how far	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13007	eng	lìmsimpe	ˈlɪm.sim.pɛ	NULL	inter.	how near, how far	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13008	eng	keynven	kɛjn.ˈven	k<0><1><2>eynven	vin.	step	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13009	eng	ralke	ˈɾal.kɛ	NULL	adj.	meaningless, devoid of content	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13010	eng	tìfkeytongay	tɪ.fkɛj.to.ˈŋaj	NULL	n.	reality	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13011	eng	lefkeytongay	lɛ.fkɛj.to.ˈŋaj	NULL	adj.	real	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 -2	eng	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -1	eng	Vawmataw	ˈvaw.ma.taw	NULL	meme.	The Right Honourable Vawmataw, by the grace of Eywa of Hangvurburg Earl, Lord Memeyu, Head of the Skxawngs, defender of the memes	LN Discord
 0	eng	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
