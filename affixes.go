@@ -296,7 +296,7 @@ func lenite(w Word) Word {
 	for k, v := range lenTable {
 		if strings.HasPrefix(w.Navi, k) {
 			w.Attempt = strings.Replace(w.Attempt, k, v, 1)
-			w.Affixes["lenition"] = append(w.Affixes["lenition"], k+"->"+v)
+			w.Affixes["lenition"] = append(w.Affixes["lenition"], k+"→"+v)
 			return w
 		}
 	}
