@@ -52,6 +52,7 @@ func completer(d prompt.Document) []prompt.Suggest {
 		{Text: "/random", Description: "list random entries"},
 		{Text: "/update", Description: "update the dictionary data file"},
 		{Text: "/commands", Description: "show commands help"},
+		{Text: "/version", Description: "show version info"},
 		{Text: "/help", Description: "show usage help"},
 		{Text: "/exit", Description: "end program"},
 		{Text: "/quit", Description: "end program"},

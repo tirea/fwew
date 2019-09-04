@@ -892,6 +892,8 @@ func slashCommand(s string, argsMode bool) {
 		if err != nil {
 			log.Fatal(err)
 		}
+	case "/version":
+		fmt.Println(Version)
 	case "/quit", "/exit", "/q", "/wc":
 		os.Exit(0)
 	default:
