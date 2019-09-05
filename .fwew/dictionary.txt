@@ -16916,10 +16916,11 @@
 13005	eng	la'ape	ˈla.ʔa.pɛ	NULL	inter.	how near, how far, what distance	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13006	eng	pelìmsim	pɛ.ˈlɪm.sim	NULL	inter.	how near, how far	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13007	eng	lìmsimpe	ˈlɪm.sim.pɛ	NULL	inter.	how near, how far	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
-13008	eng	keynven	kɛjn.ˈven	k<0><1><2>eynven	vin.	step	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13008	eng	keynven	k·ɛjn.ˈvɛn	k<0><1><2>eynven	vin.	step	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13009	eng	ralke	ˈɾal.kɛ	NULL	adj.	meaningless, devoid of content	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13010	eng	tìfkeytongay	tɪ.fkɛj.to.ˈŋaj	NULL	n.	reality	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13011	eng	lefkeytongay	lɛ.fkɛj.to.ˈŋaj	NULL	adj.	real	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13012	eng	säsrese'a	sæ.sɾɛ.sɛ.ˈʔa	NULL	n.	a prediction	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/#comment-30279
 -2	eng	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -1	eng	Vawmataw	ˈvaw.ma.taw	NULL	meme.	The Right Honourable Vawmataw, by the grace of Eywa of Hangvurburg Earl, Lord Memeyu, Head of the Skxawngs, defender of the memes	LN Discord
 0	eng	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
