@@ -4585,7 +4585,9 @@
 2828	pl	zoplo	zop.ˈlo	NULL	n.	obraza, potwarz	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2828	ru	zoplo	zop.ˈlo	NULL	n.	оскорбление, обида	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2828	sv	zoplo	zop.ˈlo	NULL	n.	förolämpning	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2830	de	zoplo si	zop.ˈlo s·i	zoplo s<0><1><2>i	vin.	beleidigen, kränken	http://forum.learnnavi.org/language-updates/little-confirmation-on-teach-and-insult/ (15 Dec 2015)
 2830	eng	zoplo si	zop.ˈlo s·i	zoplo s<0><1><2>i	vin.	offend, insult	http://forum.learnnavi.org/language-updates/little-confirmation-on-teach-and-insult/ (15 Dec 2015)
+2830	nl	zoplo si	zop.ˈlo s·i	zoplo s<0><1><2>i	vin.	beledigen	http://forum.learnnavi.org/language-updates/little-confirmation-on-teach-and-insult/ (15 Dec 2015)
 2832	de	zusawkrr	zu.ˈsaw.kṛ	NULL	n.	Zukunft, in der Zukunft	http://wiki.learnnavi.org/index.php?title=Canon#Numerals
 2832	eng	zusawkrr	zu.ˈsaw.kṛ	NULL	n.	future	http://wiki.learnnavi.org/index.php?title=Canon#Numerals
 2832	est	zusawkrr	zu.ˈsaw.kṛ	NULL	n.	tulevik	http://wiki.learnnavi.org/index.php?title=Canon#Numerals
@@ -10158,14 +10160,14 @@
 7268	pl	lisre+	ˈli.sɾɛ	NULL	adp.	do, przed, aż do, ale nie później	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7268	ru	lisre+	ˈli.sɾɛ	NULL	adp.	до того (о времени)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7268	sv	lisre+	ˈli.sɾɛ	NULL	adp.	fram tills, före	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	de	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	sich etwas vorstellen, ausmalen, imaginieren (komp. aus ronsem Geist, rel Bild, ngop erschaffen, Umgangssprache [Ron.sREw.Nop] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	eng	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	imagine, envision (c.w. of ronsem mind, rel picture, ngop create, casual pronunciation [Ron.sREw.Nop] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	est	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	kujutle, kujuta ette  (tuletatud sõnadest ronsem mõistus, rel pilt, ngop clooma, kõnekeelselt [Ron.sREw.Nop] 	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	hu	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	elképzel, felidéz  (eredete: ronsem elme, rel kép, ngop alkot, köznapi kiejtése [Ron.sREw.Nop] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	nl	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	verbeelden, zich voorstellen (c.w. van ronsem geest, rel afbeelding, ngop maken, spreektaal [Ron.sREw.Nop] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	pl	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	wyobrażać, używać wyobaźni (zł. ronsem umysł, rel obraz oraz ngop tworzyć, wymowa potoczna [Ron.sREw.Nop])	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	ru	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	вообразить, предвидеть (с.с. от ronsem разум, rel картинка, ngop создать, разговорное произношение [Ron.sREw.Nop])	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	sv	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	föreställa sig, visionera (sammansättn. ronsem sinne, rel bild, ngop skapa, vardagligt uttal [Ron.sREw.Nop] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	de	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	sich etwas vorstellen, ausmalen, imaginieren (komp. aus ronsem Geist, rel Bild, ngop erschaffen, Umgangssprache [ˈɾon.sɾɛl.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	eng	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	imagine, envision (c.w. of ronsem mind, rel picture, ngop create, casual pronunciation [ˈɾon.sɾɛl.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	est	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	kujutle, kujuta ette  (tuletatud sõnadest ronsem mõistus, rel pilt, ngop clooma, kõnekeelselt [ˈɾon.sɾɛl.ŋ·op̚] 	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	hu	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	elképzel, felidéz  (eredete: ronsem elme, rel kép, ngop alkot, köznapi kiejtése [ˈɾon.sɾɛl.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	nl	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	verbeelden, zich voorstellen (c.w. van ronsem geest, rel afbeelding, ngop maken, spreektaal [ˈɾon.sɾɛw.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	pl	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	wyobrażać, używać wyobaźni (zł. ronsem umysł, rel obraz oraz ngop tworzyć, wymowa potoczna [ˈɾon.sɾɛl.ŋ·op̚])	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	ru	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	вообразить, предвидеть (с.с. от ronsem разум, rel картинка, ngop создать, разговорное произношение [ˈɾon.sɾɛl.ŋ·op̚])	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	sv	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	föreställa sig, visionera (sammansättn. ronsem sinne, rel bild, ngop skapa, vardagligt uttal [ˈɾon.sɾɛl.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7276	de	ronsrel	ˈɾon.sɾɛl	NULL	n.	Vorgestelltes, Ausgemaltes, Imaginiertes	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7276	eng	ronsrel	ˈɾon.sɾɛl	NULL	n.	something imagined	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7276	est	ronsrel	ˈɾon.sɾɛl	NULL	n.	kujuteldav asi	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
@@ -15767,7 +15769,9 @@
 10744	est	tìmungwrr si	tɪ.muŋ.ˈwṛ s·i	tìmungwrr s<0><1><2>i	vin.	erandit tegema	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
 10744	hu	tìmungwrr si	tɪ.muŋ.ˈwṛ s·i	tìmungwrr s<0><1><2>i	vin.	kivételezik, kivételt tesz	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
 10744	nl	tìmungwrr si	tɪ.muŋ.ˈwṛ s·i	tìmungwrr s<0><1><2>i	vin.	een uitzondering maken	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
+10746	de	tarpongu	ˈtaɾ.po.ŋu	NULL	n.	Jagdgesellschaft	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
 10746	eng	tarpongu	ˈtaɾ.po.ŋu	NULL	n.	hunting party	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
+10746	nl	tarpongu	ˈtaɾ.po.ŋu	NULL	n.	jachtgroep	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
 10748	de	nawfwe	naw.ˈfwɛ	NULL	adj.	fließend (für das Sprechen)	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
 10748	eng	nawfwe	naw.ˈfwɛ	NULL	adj.	fluent (for speech)	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
 10748	est	nawfwe	naw.ˈfwɛ	NULL	adj.	sorav	http://naviteri.org/2015/08/aylifyavi-lereyfya-2-cultural-terms-2-and-more/ (30 Aug 2015)
@@ -16413,516 +16417,735 @@
 11380	est	kxì	k'ɪ	NULL	intj.	hei (lühike tervitus)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
 11380	hu	kxì	k'ɪ	NULL	intj.	hello	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
 11380	nl	kxì	k'ɪ	NULL	intj.	hallo (informeel)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
+11384	de	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	beten	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11384	eng	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	pray	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11384	est	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	palvetama	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11384	hu	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	imádkozik	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11384	nl	aho	·a.ˈh·o	<0><1>ah<2>o	vin.	bidden	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11388	de	tìaho	tɪ.a.ˈho	NULL	n.	Gebet (allgemein, abstrakt)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11388	eng	tìaho	tɪ.a.ˈho	NULL	n.	prayer (in general, abstract idea)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11388	est	tìaho	tɪ.a.ˈho	NULL	n.	palvetamine	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11388	hu	tìaho	tɪ.a.ˈho	NULL	n.	imádság (általános, elvont értelemben)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11388	nl	tìaho	tɪ.a.ˈho	NULL	n.	gebed (abstract idee)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11392	de	saho	sa.ˈho	NULL	n.	Gebet (konkret)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11392	eng	saho	sa.ˈho	NULL	n.	prayer	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11392	est	saho	sa.ˈho	NULL	n.	palve	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11392	hu	saho	sa.ˈho	NULL	n.	ima	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11392	nl	saho	sa.ˈho	NULL	n.	gebed	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11396	de	syawn	sjawn	NULL	n.	Segen	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11396	eng	syawn	sjawn	NULL	n.	blessing	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11396	est	syawn	sjawn	NULL	n.	õnnistus	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11396	hu	syawn	sjawn	NULL	n.	áldás	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11396	nl	syawn	sjawn	NULL	n.	zegening	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11400	de	tìng syawn	t·ɪŋ sjawn	t<0><1><2>ìng syawn	vin.	segnen, Segen geben	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11400	eng	tìng syawn	t·ɪŋ sjawn	t<0><1><2>ìng syawn	vin.	bless	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11400	est	tìng syawn	t·ɪŋ sjawn	t<0><1><2>ìng syawn	vin.	õnnistama, õnnistust andma	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11400	hu	tìng syawn	t·ɪŋ sjawn	t<0><1><2>ìng syawn	vin.	(meg)áld	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11400	nl	tìng syawn	t·ɪŋ sjawn	t<0><1><2>ìng syawn	vin.	zegenen	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11404	de	parul	pa.ˈɾul	NULL	n.	Wunder	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11404	eng	parul	pa.ˈɾul	NULL	n.	miracle	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11404	est	parul	pa.ˈɾul	NULL	n.	ime	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11404	hu	parul	pa.ˈɾul	NULL	n.	csoda	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11404	nl	parul	pa.ˈɾul	NULL	n.	wonder	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11408	de	parulnga'	pa.ˈɾul.ŋaʔ	NULL	adj.	wunderbar, übernatürlich	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11408	eng	parulnga'	pa.ˈɾul.ŋaʔ	NULL	adj.	miraculous	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11408	est	parulnga'	pa.ˈɾul.ŋaʔ	NULL	adj.	imepärane	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11408	hu	parulnga'	pa.ˈɾul.ŋaʔ	NULL	adj.	csodálatos	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11408	nl	parulnga'	pa.ˈɾul.ŋaʔ	NULL	adj.	wonderbaarlijk	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11412	de	parultsyìp	pa.ˈɾul.t͡sjɪp̚	NULL	n.	Liebes (Kosename, Kosewort für Kinder), wörtl. kleines Wunder	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11412	eng	parultsyìp	pa.ˈɾul.t͡sjɪp̚	NULL	n.	term of affection for children	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11412	est	parultsyìp	pa.ˈɾul.t͡sjɪp̚	NULL	n.	laste kohta käiv hellitussõna	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11412	hu	parultsyìp	pa.ˈɾul.t͡sjɪp̚	NULL	n.	(gyermek szeretetteli megszólítása) szó szerint: "kis csoda"	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11412	nl	parultsyìp	pa.ˈɾul.t͡sjɪp̚	NULL	n.	liefkozende term voor kinderen (lett.: klein wonder)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11416	de	keltrrtrr	kɛl.ˈtṛ.tṛ	NULL	adj.	ungewöhnlich	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11416	eng	keltrrtrr	kɛl.ˈtṛ.tṛ	NULL	adj.	unusual	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11416	est	keltrrtrr	kɛl.ˈtṛ.tṛ	NULL	adj.	ebatavaline	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11416	hu	keltrrtrr	kɛl.ˈtṛ.tṛ	NULL	adj.	 szokatlan	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11416	nl	keltrrtrr	kɛl.ˈtṛ.tṛ	NULL	adj.	ongewoon	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11420	de	txankeltrrtrr	ˈt'an.kɛl.tṛ.tṛ	NULL	adj.	außergewöhnlich	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11420	eng	txankeltrrtrr	ˈt'an.kɛl.tṛ.tṛ	NULL	adj.	extraordinary	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11420	est	txankeltrrtrr	ˈt'an.kɛl.tṛ.tṛ	NULL	adj.	erakordne, väga ebatavaline	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11420	hu	txankeltrrtrr	ˈt'an.kɛl.tṛ.tṛ	NULL	adj.	rendkívüli	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11420	nl	txankeltrrtrr	ˈt'an.kɛl.tṛ.tṛ	NULL	adj.	buitengewoon	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11424	de	nìtxankeltrrtrr	nɪ.ˈt'an.kɛl.tṛ.tṛ	NULL	adv.	in außergewöhnlicher Weise, außergewöhnlicherweise	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11424	eng	nìtxankeltrrtrr	nɪ.ˈt'an.kɛl.tṛ.tṛ	NULL	adv.	extraordinarily	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11424	est	nìtxankeltrrtrr	nɪ.ˈt'an.kɛl.tṛ.tṛ	NULL	adv.	erakordselt	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11424	hu	nìtxankeltrrtrr	nɪ.ˈt'an.kɛl.tṛ.tṛ	NULL	adv.	rendkívül	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11424	nl	nìtxankeltrrtrr	nɪ.ˈt'an.kɛl.tṛ.tṛ	NULL	adv.	buitengewoon	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11428	de	hafyon	ha.ˈfjon	NULL	n.	Weisheit	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11428	eng	hafyon	ha.ˈfjon	NULL	n.	wisdom	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11428	est	hafyon	ha.ˈfjon	NULL	n.	tarkus (elukogemusest tulenev)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11428	hu	hafyon	ha.ˈfjon	NULL	n.	bölcsesség	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11428	nl	hafyon	ha.ˈfjon	NULL	n.	wijsheid	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11432	de	lafyon	la.ˈfjon	NULL	adj.	weise	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11432	eng	lafyon	la.ˈfjon	NULL	adj.	wise	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11432	est	lafyon	la.ˈfjon	NULL	adj.	tark, elukogenud (inimeste kohta)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11432	hu	lafyon	la.ˈfjon	NULL	adj.	bölcs	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11432	nl	lafyon	la.ˈfjon	NULL	adj.	wijs	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11436	de	hafyonga'	ha.ˈfjo.ŋaʔ	NULL	adj.	weise	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11436	eng	hafyonga'	ha.ˈfjo.ŋaʔ	NULL	adj.	wise	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11436	est	hafyonga'	ha.ˈfjo.ŋaʔ	NULL	adj.	tark, mõistlik (elutu kohta)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11436	hu	hafyonga'	ha.ˈfjo.ŋaʔ	NULL	adj.	bölcs	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11436	nl	hafyonga'	ha.ˈfjo.ŋaʔ	NULL	adj.	wijs	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11440	de	fkxara	ˈfk'a.ɾa	NULL	n.	Stress, Überlastung, Belastung, Beanspruchung (mentales oder emotionales Gefühl)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11440	eng	fkxara	ˈfk'a.ɾa	NULL	n.	stress (mental or emotional feeling)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11440	est	fkxara	ˈfk'a.ɾa	NULL	n.	pinge, stress (vaimne või emotsionaalne tunne)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11440	hu	fkxara	ˈfk'a.ɾa	NULL	n.	stressz (érzelmi feszültség)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11440	nl	fkxara	ˈfk'a.ɾa	NULL	n.	stress (mentaal of emotioneel gevoel)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11444	de	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	NULL	adj.	anstrengend, stressig, aufreibend	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11444	eng	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	NULL	adj.	stressful	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11444	est	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	NULL	adj.	pingeline, stressirohke	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11444	hu	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	NULL	adj.	stresszes (feszültséggel teli)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11444	nl	fkxaranga'	ˈfk'a.ɾa.ŋaʔ	NULL	adj.	stressvol	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11448	de	afpawng	a.ˈfpawŋ	NULL	n.	Trauer, Kummer, Gram, Schmerz	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11448	eng	afpawng	a.ˈfpawŋ	NULL	n.	grief	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11448	est	afpawng	a.ˈfpawŋ	NULL	n.	lein	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11448	hu	afpawng	a.ˈfpawŋ	NULL	n.	bánat	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11448	nl	afpawng	a.ˈfpawŋ	NULL	n.	rouw	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11452	de	afpawng si	a.ˈfpawŋ s·i	afpawng s<0><1><2>i	vin.	trauern, sich grämen, betrübt sein, Kummer bereiten	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11452	eng	afpawng si	a.ˈfpawŋ s·i	afpawng s<0><1><2>i	vin.	grieve	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11452	est	afpawng si	a.ˈfpawŋ s·i	afpawng s<0><1><2>i	vin.	leinama	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11452	hu	afpawng si	a.ˈfpawŋ s·i	afpawng s<0><1><2>i	vin.	bánkódik	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11452	nl	afpawng si	a.ˈfpawŋ s·i	afpawng s<0><1><2>i	vin.	rouwen	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11456	de	keyn	k·ɛjn	k<0><1><2>eyn	vtr.	herunternehmen, ablegen, absetzen, weglegen	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11456	eng	keyn	k·ɛjn	k<0><1><2>eyn	vtr.	put down	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11456	est	keyn	k·ɛjn	k<0><1><2>eyn	vtr.	langetama, maha panema	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11456	hu	keyn	k·ɛjn	k<0><1><2>eyn	vtr.	letesz	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11456	nl	keyn	k·ɛjn	k<0><1><2>eyn	vtr.	neerzetten	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11460	de	palon	ˈp·a.l·on	p<0><1>al<2>on	vin.	brennen (Feuer)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11460	eng	palon	ˈp·a.l·on	p<0><1>al<2>on	vin.	burn	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11460	est	palon	ˈp·a.l·on	p<0><1>al<2>on	vin.	põlema	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11460	hu	palon	ˈp·a.l·on	p<0><1>al<2>on	vin.	ég (a tűz)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11460	nl	palon	ˈp·a.l·on	p<0><1>al<2>on	vin.	verbranden	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11464	de	rem	rɛm	NULL	n.	Brennholz, Brennstoff, Brennmaterial	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11464	eng	rem	rɛm	NULL	n.	fuel	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11464	est	rem	rɛm	NULL	n.	kütus	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11464	hu	rem	rɛm	NULL	n.	tüzelőanyag	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11464	nl	rem	rɛm	NULL	n.	brandstof	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11468	de	tong	t·oŋ	t<0><1><2>ong	vtr.	(Feuere) auslöschen, (Feuer) löschen	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11468	eng	tong	t·oŋ	t<0><1><2>ong	vtr.	put out, quench	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11468	est	tong	t·oŋ	t<0><1><2>ong	vtr.	kustutama	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11468	hu	tong	t·oŋ	t<0><1><2>ong	vtr.	elolt	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11468	nl	tong	t·oŋ	t<0><1><2>ong	vtr.	uitmaken, doven	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11472	de	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	rot (blutrot)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11472	eng	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	red (``blood tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11472	est	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	punane (veripunane)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11472	hu	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	piros 	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11472	nl	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	rood ("bloed tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11476	de	txeptun	ˈt'ɛp.tun	NULL	adj.	orange (feuerrot)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11476	eng	txeptun	ˈt'ɛp.tun	NULL	adj.	orange (``fire tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11476	est	txeptun	ˈt'ɛp.tun	NULL	adj.	oranž (tuleleegi värvi)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11476	hu	txeptun	ˈt'ɛp.tun	NULL	adj.	narancssárga	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11476	nl	txeptun	ˈt'ɛp.tun	NULL	adj.	oranje ("vuur tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11480	de	vultsyìp	ˈvul.t͡sjɪp̚	NULL	n.	Stock (eines Baumes, Astes)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11480	eng	vultsyìp	ˈvul.t͡sjɪp̚	NULL	n.	stick	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11480	est	vultsyìp	ˈvul.t͡sjɪp̚	NULL	n.	kepp	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11480	hu	vultsyìp	ˈvul.t͡sjɪp̚	NULL	n.	pálca	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11480	nl	vultsyìp	ˈvul.t͡sjɪp̚	NULL	n.	stok	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11484	de	'opinvultsyìp	ˈʔo.pin.vul.t͡sjɪp̚	NULL	n.	Bundstift, kurz: pinvul	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11484	eng	'opinvultsyìp	ˈʔo.pin.vul.t͡sjɪp̚	NULL	n.	crayon	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11484	est	'opinvultsyìp	ˈʔo.pin.vul.t͡sjɪp̚	NULL	n.	värvipliiats	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11484	hu	'opinvultsyìp	ˈʔo.pin.vul.t͡sjɪp̚	NULL	n.	rajzkréta	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11484	nl	'opinvultsyìp	ˈʔo.pin.vul.t͡sjɪp̚	NULL	n.	(was)krijtje	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11488	de	pinvul	ˈpin.vul	NULL	n.	Bundstift, kurz von: 'opinvultsyìp	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11488	eng	pinvul	ˈpin.vul	NULL	n.	crayon	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11488	est	pinvul	ˈpin.vul	NULL	n.	värvipliiats (lühend sõnast 'opinvultsyìp)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11488	hu	pinvul	ˈpin.vul	NULL	n.	rajzkréta	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11488	nl	pinvul	ˈpin.vul	NULL	n.	(was)krijtje	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11492	de	srankehe	sɾan.ˈkɛ.hɛ	NULL	part., intj.	mehr oder weniger, etwas, ja und nein, ein bisschen, gewissermaßen	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11492	eng	srankehe	sɾan.ˈkɛ.hɛ	NULL	part., intj.	more or less, somewhat, yes and no, kind of	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11492	est	srankehe	sɾan.ˈkɛ.hɛ	NULL	part., intj.	nii ja naa, enamvähem	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11492	hu	srankehe	sɾan.ˈkɛ.hɛ	NULL	part., intj.	többékevésbé, igen is meg nem is	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11492	nl	srankehe	sɾan.ˈkɛ.hɛ	NULL	part., intj.	min of meer, enigszins, ja en nee, ongeveer	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11496	de	tì'ongokx	tɪ.ˈʔo.ŋok'̚	NULL	n.	Geburt	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11496	eng	tì'ongokx	tɪ.ˈʔo.ŋok'̚	NULL	n.	birth	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11496	est	tì'ongokx	tɪ.ˈʔo.ŋok'̚	NULL	n.	sünd	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11496	hu	tì'ongokx	tɪ.ˈʔo.ŋok'̚	NULL	n.	születés	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11496	nl	tì'ongokx	tɪ.ˈʔo.ŋok'̚	NULL	n.	geboorte	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11500	de	rìkxi	r·ɪ.ˈk'·i	r<0><1>ìkx<2>i	vin.	zittern, schaudern, erschaudern, frösteln	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11500	eng	rìkxi	r·ɪ.ˈk'·i	r<0><1>ìkx<2>i	vin.	tremble, shake, shiver	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11500	est	rìkxi	r·ɪ.ˈk'·i	r<0><1>ìkx<2>i	vin.	värisema, lõdisema	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11500	hu	rìkxi	r·ɪ.ˈk'·i	r<0><1>ìkx<2>i	vin.	remeg, rázkódik, reszket	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11500	nl	rìkxi	r·ɪ.ˈk'·i	r<0><1>ìkx<2>i	vin.	trillen, schudden, rillen	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11504	de	nìrìkxi	nɪ.ɾɪ.ˈk'i	NULL	adv.	zitternd, schaudernd, fröstelnd, in zitternder Weise, in schaudernder Weise, in fröstelnder Weise	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11504	eng	nìrìkxi	nɪ.ɾɪ.ˈk'i	NULL	adv.	shakily, tremblingly	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11504	est	nìrìkxi	nɪ.ɾɪ.ˈk'i	NULL	adv.	värisevalt, lõdisedes	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11504	hu	nìrìkxi	nɪ.ɾɪ.ˈk'i	NULL	adv.	remegve, rázkódva, reszketve	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11504	nl	nìrìkxi	nɪ.ɾɪ.ˈk'i	NULL	adv.	trillerig, schuddend	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11508	de	kawkxan	kaw.ˈk'an	NULL	adj.	frei, nicht blockiert, ungehindert, unversperrt	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11508	eng	kawkxan	kaw.ˈk'an	NULL	adj.	free, unblocked, unobstructed, clear	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11508	est	kawkxan	kaw.ˈk'an	NULL	adj.	vaba, puhas, ilma takistuseta	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11508	hu	kawkxan	kaw.ˈk'an	NULL	adj.	szabad, akadálytalan	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
 11508	nl	kawkxan	kaw.ˈk'an	NULL	adj.	vrij, niet geblokkeerd, onbelemmerd	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)
+11512	de	fnelan	ˈfnɛ.lan	NULL	n.	Mann, Männchen (Geschlechtsunterscheidung)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11512	eng	fnelan	ˈfnɛ.lan	NULL	n.	male	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11512	est	fnelan	ˈfnɛ.lan	NULL	n.	meessoost, isane	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11512	hu	fnelan	ˈfnɛ.lan	NULL	n.	hím, férfi	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11512	nl	fnelan	ˈfnɛ.lan	NULL	n.	man	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11516	de	fnele	ˈfnɛ.lɛ	NULL	n.	Frau, Weibchen (Geschlechtsunterscheidung)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11516	eng	fnele	ˈfnɛ.lɛ	NULL	n.	female	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11516	est	fnele	ˈfnɛ.lɛ	NULL	n.	naissoost, emane	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11516	hu	fnele	ˈfnɛ.lɛ	NULL	n.	nőstény, nő	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11516	nl	fnele	ˈfnɛ.lɛ	NULL	n.	vrouw	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11520	de	lefnelan	lɛ.ˈfnɛ.lan	NULL	adj.	männlich	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11520	eng	lefnelan	lɛ.ˈfnɛ.lan	NULL	adj.	male	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11520	est	lefnelan	lɛ.ˈfnɛ.lan	NULL	adj.	meessoost, isane	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11520	hu	lefnelan	lɛ.ˈfnɛ.lan	NULL	adj.	hím, férfi	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11520	nl	lefnelan	lɛ.ˈfnɛ.lan	NULL	adj.	mannelijk	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11524	de	lefnele	lɛ.ˈfnɛ.lɛ	NULL	adj.	weiblich	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11524	eng	lefnele	lɛ.ˈfnɛ.lɛ	NULL	adj.	female	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11524	est	lefnele	lɛ.ˈfnɛ.lɛ	NULL	adj.	naissoost, emane	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11524	hu	lefnele	lɛ.ˈfnɛ.lɛ	NULL	adj.	nőstény, női	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11524	nl	lefnele	lɛ.ˈfnɛ.lɛ	NULL	adj.	vrouwelijk	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11528	de	fwìng	fwɪŋ	NULL	n.	Demütigung, Erniedrigung, Beschämung, Blamage, Peinlichkeit, Gesichtsverlust	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11528	eng	fwìng	fwɪŋ	NULL	n.	humiliation, embarrassment, loss of face	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11528	est	fwìng	fwɪŋ	NULL	n.	häbi, alandus, piinlikkus, 	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11528	hu	fwìng	fwɪŋ	NULL	n.	megaláztatás, szégyen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11528	nl	fwìng	fwɪŋ	NULL	n.	vernedering, verlegenheid, gezichtsverlies	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11532	de	fwìng si	fwɪŋ s·i	fwìng s<0><1><2>i	vin.	demütigen, beschämen, erniedrigen, Schmach zufügen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11532	eng	fwìng si	fwɪŋ s·i	fwìng s<0><1><2>i	vin.	humiliate	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11532	est	fwìng si	fwɪŋ s·i	fwìng s<0><1><2>i	vin.	häbi tegema, häbistama, alandama	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11532	hu	fwìng si	fwɪŋ s·i	fwìng s<0><1><2>i	vin.	megaláz, megszégyenít	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11532	nl	fwìng si	fwɪŋ s·i	fwìng s<0><1><2>i	vin.	vernederen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11536	de	fyawìntxuyu	fja.wɪn.ˈt'u.ju	NULL	n.	Führer, Anführer, jemand, der die Führung übernimmt	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11536	eng	fyawìntxuyu	fja.wɪn.ˈt'u.ju	NULL	n.	guide	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11536	est	fyawìntxuyu	fja.wɪn.ˈt'u.ju	NULL	n.	juhendaja, teenäitaja	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11536	hu	fyawìntxuyu	fja.wɪn.ˈt'u.ju	NULL	n.	vezető (személy)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11536	nl	fyawìntxuyu	fja.wɪn.ˈt'u.ju	NULL	n.	gids (persoon)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11540	de	han	h·an	h<0><1><2>an	vtr.	(etwas) verlieren	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11540	eng	han	h·an	h<0><1><2>an	vtr.	lose	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11540	est	han	h·an	h<0><1><2>an	vtr.	ära kaotama	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11540	hu	han	h·an	h<0><1><2>an	vtr.	elveszít	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11540	nl	han	h·an	h<0><1><2>an	vtr.	verliezen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11544	de	tìhan	tɪ.ˈhan	NULL	n.	Verlust	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11544	eng	tìhan	tɪ.ˈhan	NULL	n.	loss	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11544	est	tìhan	tɪ.ˈhan	NULL	n.	kaotus, ilmajäämine	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11544	hu	tìhan	tɪ.ˈhan	NULL	n.	elvesztés	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11544	nl	tìhan	tɪ.ˈhan	NULL	n.	verlies	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11548	de	hipx	h·ip'	h<0><1><2>ipx	vtr.	kontrollieren, steuern, Kontrolle haben, Kontrolle ausüben	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11548	eng	hipx	h·ip'	h<0><1><2>ipx	vtr.	control	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11548	est	hipx	h·ip'	h<0><1><2>ipx	vtr.	kontrollima, korda hoidma	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11548	hu	hipx	h·ip'	h<0><1><2>ipx	vtr.	irányít, szabályoz	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11548	nl	hipx	h·ip'	h<0><1><2>ipx	vtr.	controleren	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11552	de	tìhipx	tɪ.ˈhip'	NULL	n.	Kontrolle, Einfluss	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11552	eng	tìhipx	tɪ.ˈhip'	NULL	n.	control	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11552	est	tìhipx	tɪ.ˈhip'	NULL	n.	kontroll, kord	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11552	hu	tìhipx	tɪ.ˈhip'	NULL	n.	irányítás	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11552	nl	tìhipx	tɪ.ˈhip'	NULL	n.	controle	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11556	de	snotipx	sno.ˈtip'	NULL	n.	Selbstkontrolle	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11556	eng	snotipx	sno.ˈtip'	NULL	n.	selfcontrol	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11556	est	snotipx	sno.ˈtip'	NULL	n.	enesekontroll	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11556	hu	snotipx	sno.ˈtip'	NULL	n.	önuralom	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11556	nl	snotipx	sno.ˈtip'	NULL	n.	zelfcontrole	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11560	de	kämunge	kæ.ˈm·u.ŋ·ɛ	käm<0><1>ung<2>e	vtr.	hinbringen, wegbringen, wegnehmen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11560	eng	kämunge	kæ.ˈm·u.ŋ·ɛ	käm<0><1>ung<2>e	vtr.	take	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11560	est	kämunge	kæ.ˈm·u.ŋ·ɛ	käm<0><1>ung<2>e	vtr.	viima	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11560	hu	kämunge	kæ.ˈm·u.ŋ·ɛ	käm<0><1>ung<2>e	vtr.	visz	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11560	nl	kämunge	kæ.ˈm·u.ŋ·ɛ	käm<0><1>ung<2>e	vtr.	nemen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11564	de	kawnomum	kaw.ˈno.mum	NULL	adj.	unbekannt, ungewusst	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11564	eng	kawnomum	kaw.ˈno.mum	NULL	adj.	unknown	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11564	est	kawnomum	kaw.ˈno.mum	NULL	adj.	teadmata, tundmata	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11564	hu	kawnomum	kaw.ˈno.mum	NULL	adj.	ismeretlen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11564	nl	kawnomum	kaw.ˈno.mum	NULL	adj.	onbekend	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11568	de	le'awtu	lɛ.ˈʔaw.tu	NULL	adj.	allein, einsam	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11568	eng	le'awtu	lɛ.ˈʔaw.tu	NULL	adj.	alone, on one's own, by one's self; lonely	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11568	est	le'awtu	lɛ.ˈʔaw.tu	NULL	adj.	üksi, üksik, ainus, üksildane (neutraalne; kasuta siseliidet <äng> väljendamaks kurba üksildust)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11568	hu	le'awtu	lɛ.ˈʔaw.tu	NULL	adj.	egyedül lévő, magányos	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11568	nl	le'awtu	lɛ.ˈʔaw.tu	NULL	adj.	alleen, in z'n eentje; eenzaam	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11572	de	lie si	ˈli.ɛ s·i	lie s<0><1><2>i	vin.	erleben, erfahren, ein Erlebnis machen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11572	eng	lie si	ˈli.ɛ s·i	lie s<0><1><2>i	vin.	experience	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11572	est	lie si	ˈli.ɛ s·i	lie s<0><1><2>i	vin.	kogema, tundma	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11572	hu	lie si	ˈli.ɛ s·i	lie s<0><1><2>i	vin.	tapasztal	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11572	nl	lie si	ˈli.ɛ s·i	lie s<0><1><2>i	vin.	ervaren	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11576	de	liswa	li.ˈswa	NULL	n.	Nahrung, Ernährung, Versorgung	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11576	eng	liswa	li.ˈswa	NULL	n.	nourishment	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11576	est	liswa	li.ˈswa	NULL	n.	toit, kehatäide	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11576	hu	liswa	li.ˈswa	NULL	n.	táplálkozás, táplálás	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11576	nl	liswa	li.ˈswa	NULL	n.	voeding	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11580	de	liswa si	li.ˈswa s·i	liswa s<0><1><2>i	vin.	ernähren, nähren, Nahrung bereitstellen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11580	eng	liswa si	li.ˈswa s·i	liswa s<0><1><2>i	vin.	nourish, provide nourishment	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11580	est	liswa si	li.ˈswa s·i	liswa s<0><1><2>i	vin.	toitma, toitu pakkuma	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11580	hu	liswa si	li.ˈswa s·i	liswa s<0><1><2>i	vin.	táplál	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11580	nl	liswa si	li.ˈswa s·i	liswa s<0><1><2>i	vin.	voeden, voorzien van voeding	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11584	de	meuia si	mɛ.ˈu.i.a s·i	meuia s<0><1><2>i	vin.	ehren, Ehre erweisen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11584	eng	meuia si	mɛ.ˈu.i.a s·i	meuia s<0><1><2>i	vin.	honor	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11584	est	meuia si	mɛ.ˈu.i.a s·i	meuia s<0><1><2>i	vin.	au andma	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11584	hu	meuia si	mɛ.ˈu.i.a s·i	meuia s<0><1><2>i	vin.	(meg)tisztel	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11584	nl	meuia si	mɛ.ˈu.i.a s·i	meuia s<0><1><2>i	vin.	eren	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11588	de	meyptu	ˈmɛjp.tu	NULL	n.	Schwächling, Hänfling, Weichling (eine Person von schwacher Statur oder Charakter)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11588	eng	meyptu	ˈmɛjp.tu	NULL	n.	weakling	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11588	est	meyptu	ˈmɛjp.tu	NULL	n.	nõrguke, joršš (füüsiliselt või iseloomult nõrk)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11588	hu	meyptu	ˈmɛjp.tu	NULL	n.	gyenge személy	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11588	nl	meyptu	ˈmɛjp.tu	NULL	n.	zwakkeling	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11592	de	nafpawng	na.ˈfpawŋ	NULL	adv.	trauernd, in trauernder Weise	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11592	eng	nafpawng	na.ˈfpawŋ	NULL	adv.	grievingly, with grief	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11592	est	nafpawng	na.ˈfpawŋ	NULL	adv.	leinates	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11592	hu	nafpawng	na.ˈfpawŋ	NULL	adv.	bánatosan	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11592	nl	nafpawng	na.ˈfpawŋ	NULL	adv.	rouwend, met rouw	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11596	de	nìt'iluke	nɪt.ˈʔi.lu.kɛ	NULL	adv.	in endloser Weise, in unendlicher Weise, für immer	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11596	eng	nìt'iluke	nɪt.ˈʔi.lu.kɛ	NULL	adv.	neverendingly, forever	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11596	est	nìt'iluke	nɪt.ˈʔi.lu.kɛ	NULL	adv.	lõputult, igavesti	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11596	hu	nìt'iluke	nɪt.ˈʔi.lu.kɛ	NULL	adv.	vég nélkül, örökké	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11596	nl	nìt'iluke	nɪt.ˈʔi.lu.kɛ	NULL	adv.	oneindig, voor altijd	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11600	de	nongspe'	n·oŋ.ˈsp·ɛʔ	n<0><1>ongsp<2>e'	vtr.	verfolgen mit dem Vorhaben zu fangen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11600	eng	nongspe'	n·oŋ.ˈsp·ɛʔ	n<0><1>ongsp<2>e'	vtr.	pursue with an intent to capture	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11600	est	nongspe'	n·oŋ.ˈsp·ɛʔ	n<0><1>ongsp<2>e'	vtr.	jälitama, taga ajama eesmärgiga kinni püüda	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11600	hu	nongspe'	n·oŋ.ˈsp·ɛʔ	n<0><1>ongsp<2>e'	vtr.	üldöz	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11600	nl	nongspe'	n·oŋ.ˈsp·ɛʔ	n<0><1>ongsp<2>e'	vtr.	achtervolgen met de intentie te vangen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11604	de	tìsyortsyìp	tɪ.ˈsjoɾ.t͡sjɪp̚	NULL	n.	Pause, kleine Erholung, kleine Entspannung	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11604	eng	tìsyortsyìp	tɪ.ˈsjoɾ.t͡sjɪp̚	NULL	n.	break, small rest or relaxation	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11604	est	tìsyortsyìp	tɪ.ˈsjoɾ.t͡sjɪp̚	NULL	n.	paus, puhkehetk	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11604	hu	tìsyortsyìp	tɪ.ˈsjoɾ.t͡sjɪp̚	NULL	n.	rövid szünet, pihenés, relaxáció	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11604	nl	tìsyortsyìp	tɪ.ˈsjoɾ.t͡sjɪp̚	NULL	n.	pauze, korte rust of ontspanning	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11608	de	to tìtseri	to tɪ.ˈt͡sɛ.ɾi	NULL	ph.	als es scheint, als dir bewusst ist	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11608	eng	to tìtseri	to tɪ.ˈt͡sɛ.ɾi	NULL	ph.	than is apparent, than you are aware of	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11608	est	to tìtseri	to tɪ.ˈt͡sɛ.ɾi	NULL	ph.	rohkem kui tundub; rohkem kui võiks arvata	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11608	hu	to tìtseri	to tɪ.ˈt͡sɛ.ɾi	NULL	ph.	..., mint ahogy gondolod / .., mint ahogy hinnéd	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11608	nl	to tìtseri	to tɪ.ˈt͡sɛ.ɾi	NULL	ph.	dan duidelijk is, dan waar je vanaf weet	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11612	de	tswal	t͡swal	NULL	n.	Macht, Stärke (physisch, psychologisch, emotional oder politisch)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11612	eng	tswal	t͡swal	NULL	n.	power	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11612	est	tswal	t͡swal	NULL	n.	võim	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11612	hu	tswal	t͡swal	NULL	n.	erő, hatalom	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11612	nl	tswal	t͡swal	NULL	n.	kracht	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11616	de	letswal	le.ˈt͡swal	NULL	adj.	mächtig	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11616	eng	letswal	le.ˈt͡swal	NULL	adj.	powerful	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11616	est	letswal	le.ˈt͡swal	NULL	adj.	võimas (inimeste kohta)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11616	hu	letswal	le.ˈt͡swal	NULL	adj.	erős, hatalommal bíró	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11616	nl	letswal	le.ˈt͡swal	NULL	adj.	krachtig	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11620	de	tswalnga'	ˈt͡swal.ŋaʔ	NULL	adj.	mächtig	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11620	eng	tswalnga'	ˈt͡swal.ŋaʔ	NULL	adj.	powerful	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11620	est	tswalnga'	ˈt͡swal.ŋaʔ	NULL	adj.	võimas (elutu kohta)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11620	hu	tswalnga'	ˈt͡swal.ŋaʔ	NULL	adj.	erős, hatalommal bíró	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11620	nl	tswalnga'	ˈt͡swal.ŋaʔ	NULL	adj.	krachtig	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11624	de	tswesya	ˈt͡swɛ.sja	NULL	n.	Strömung, Lauf (eines Flusses)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11624	eng	tswesya	ˈt͡swɛ.sja	NULL	n.	current	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11624	est	tswesya	ˈt͡swɛ.sja	NULL	n.	vool, voolus, hoobus	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11624	hu	tswesya	ˈt͡swɛ.sja	NULL	n.	folyás	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11624	nl	tswesya	ˈt͡swɛ.sja	NULL	n.	stroom	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11628	de	tswesya si	ˈt͡swɛ.sja s·i	tswesya s<0><1><2>i	vin.	fließen, strömen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11628	eng	tswesya si	ˈt͡swɛ.sja s·i	tswesya s<0><1><2>i	vin.	flow	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11628	est	tswesya si	ˈt͡swɛ.sja s·i	tswesya s<0><1><2>i	vin.	voolama	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11628	hu	tswesya si	ˈt͡swɛ.sja s·i	tswesya s<0><1><2>i	vin.	folyik	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11628	nl	tswesya si	ˈt͡swɛ.sja s·i	tswesya s<0><1><2>i	vin.	stromen	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11632	de	txe'lankong	t'ɛʔ.ˈlan.koŋ	NULL	n.	Herzschlag	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11632	eng	txe'lankong	t'ɛʔ.ˈlan.koŋ	NULL	n.	heartbeat	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11632	est	txe'lankong	t'ɛʔ.ˈlan.koŋ	NULL	n.	südamelöök	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11632	hu	txe'lankong	t'ɛʔ.ˈlan.koŋ	NULL	n.	szívdobbanás	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11632	nl	txe'lankong	t'ɛʔ.ˈlan.koŋ	NULL	n.	hartslag	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11636	de	txurtu	ˈt'uɾ.tu	NULL	n.	Kraftmensch, starke Person (Person von starker Statur oder Charakter)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11636	eng	txurtu	ˈt'uɾ.tu	NULL	n.	strongman/woman, brawny person	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11636	est	txurtu	ˈt'uɾ.tu	NULL	n.	tugev, julge isik (vastand sõnale meyptu)	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11636	hu	txurtu	ˈt'uɾ.tu	NULL	n.	erős személy 	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
 11636	nl	txurtu	ˈt'uɾ.tu	NULL	n.	sterk/gespierd persoon	http://naviteri.org/2018/04/100a-liu-amip-64-new-words-part-2/ (30 Apr 2018)
+11640	de	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	NULL	n.	Weisheit (selten genutzt), siehe: hafyon	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/comment-page-1/#comment-28331 (01 Apr 2018)
 11640	eng	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	NULL	n.	wisdom (seldom used)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/comment-page-1/#comment-28331 (01 Apr 2018)
 11640	est	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	NULL	n.	tarkus (harv sõna)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/comment-page-1/#comment-28331 (01 Apr 2018)
 11640	hu	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	NULL	n.	bölcsesség (ritkán használt)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/comment-page-1/#comment-28331 (01 Apr 2018)
 11640	nl	tìtxantslusam	tɪ.ˈt'an.t͡slu.sam	NULL	n.	wijsheid (zelden gebruikt)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/comment-page-1/#comment-28331 (01 Apr 2018)
+11644	de	pamrelvul	pam.ˈrel.vul	NULL	n.	Stift, Bleistift, oft gekürzt zu: relvul	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11644	eng	pamrelvul	pam.ˈrel.vul	NULL	n.	pen, pencil, lit. "writing stick."	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11644	est	pamrelvul	pam.ˈrel.vul	NULL	n.	pliiats, pastakas (otse: kirjutamiskepp)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11644	hu	pamrelvul	pam.ˈrel.vul	NULL	n.	toll, ceruza, szó szerint: írópálca	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11644	nl	pamrelvul	pam.ˈrel.vul	NULL	n.	pen, potlood, lett. "schrijfstok"	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
+11648	de	relvul	ˈɾɛl.vul	NULL	n.	Stift, Bleistift, kurze Form von: pamrelvul	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11648	eng	relvul	ˈɾɛl.vul	NULL	n.	pen, pencil, lit. "writing stick." (short form of pamrelvul)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11648	est	relvul	ˈɾɛl.vul	NULL	n.	pliiats, pastakas (otse: kirjutamiskepp; lühendatud sõnast pamrelvul)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11648	hu	relvul	ˈɾɛl.vul	NULL	n.	toll, ceruza, szó szerint: írópálca (pamrelvul rövid alakja)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11648	nl	relvul	ˈɾɛl.vul	NULL	n.	pen, potlood, lett. "schrijfstok" (korte vorm van pamrelvul)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
+11652	de	pamrelvul lerìn	pam.ˈrel.vul le.ˈɾɪn	NULL	n.	Holzstift	NULL
 11652	eng	pamrelvul lerìn	pam.ˈrel.vul le.ˈɾɪn	NULL	n.	pencil, lit. "wooden writing stick."	NULL
 11652	est	pamrelvul lerìn	pam.ˈrel.vul le.ˈɾɪn	NULL	n.	pliiats (otse: puidust kirjutuskep)	NULL
 11652	hu	pamrelvul lerìn	pam.ˈrel.vul le.ˈɾɪn	NULL	n.	ceruza, szó szerint: írópálca fából	NULL
 11652	nl	pamrelvul lerìn	pam.ˈrel.vul le.ˈɾɪn	NULL	n.	potlood, lett. "houten schrijfstok"	NULL
+11656	de	pensìl	ˈpen.sɪl	NULL	n.	Bleistift	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11656	eng	pensìl	ˈpen.sɪl	NULL	n.	pencil	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11656	est	pensìl	ˈpen.sɪl	NULL	n.	pliiats	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11656	hu	pensìl	ˈpen.sɪl	NULL	n.	ceruza	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
 11656	nl	pensìl	ˈpen.sɪl	NULL	n.	potlood	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28354 (04 Apr 2018)
+11660	de	'opinsung	ˈʔo.pin.s·uŋ	'opins<0><1><2>ung	vtr.	kolorieren, ausmalen, farbig machen, anmalen	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28355 (04 Apr 2018)
 11660	eng	'opinsung	ˈʔo.pin.s·uŋ	'opins<0><1><2>ung	vtr.	color, color in	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28355 (04 Apr 2018)
 11660	est	'opinsung	ˈʔo.pin.s·uŋ	'opins<0><1><2>ung	vtr.	värvima	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28355 (04 Apr 2018)
 11660	hu	'opinsung	ˈʔo.pin.s·uŋ	'opins<0><1><2>ung	vtr.	(ki)színez	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28355 (04 Apr 2018)
 11660	nl	'opinsung	ˈʔo.pin.s·uŋ	'opins<0><1><2>ung	vtr.	kleuren, inkleuren	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/#comment-28355 (04 Apr 2018)
+11664	de	uolì’uvi	ˈu.o.lɪ.ʔu.vi	NULL	n.	Präfix, Nachsilbe	http://naviteri.org/2017/10/more-language-for-talking-about-language/ (05 Oct 2017)
 11664	eng	uolì’uvi	ˈu.o.lɪ.ʔu.vi	NULL	n.	suffix	http://naviteri.org/2017/10/more-language-for-talking-about-language/ (05 Oct 2017)
 11664	est	uolì’uvi	ˈu.o.lɪ.ʔu.vi	NULL	n.	järelliide	http://naviteri.org/2017/10/more-language-for-talking-about-language/ (05 Oct 2017)
 11664	hu	uolì’uvi	ˈu.o.lɪ.ʔu.vi	NULL	n.	toldalék, utótag	http://naviteri.org/2017/10/more-language-for-talking-about-language/ (05 Oct 2017)
 11664	nl	uolì’uvi	ˈu.o.lɪ.ʔu.vi	NULL	n.	suffix	http://naviteri.org/2017/10/more-language-for-talking-about-language/ (05 Oct 2017)
+11668	de	'on si	ˈʔon s·i	'on s<0><1><2>i	vin.	formen, (etwas) Form geben (physisch oder metaphorisch)	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11668	eng	'on si	ˈʔon s·i	'on s<0><1><2>i	vin.	shape, give shape (to something)	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11668	est	'on si	ˈʔon s·i	'on s<0><1><2>i	vin.	voolima, kujundama, kuju andma	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11668	hu	'on si	ˈʔon s·i	'on s<0><1><2>i	vin.	formál, alakot ad	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11668	nl	'on si	ˈʔon s·i	'on s<0><1><2>i	vin.	vormen, (iets) vormgeven	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11672	de	kxange	ˈk'·a.ŋ·e	kx<0><1>ang<2>e	vin.	gähnen	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11672	eng	kxange	ˈk'·a.ŋ·e	kx<0><1>ang<2>e	vin.	yawn	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11672	est	kxange	ˈk'·a.ŋ·e	kx<0><1>ang<2>e	vin.	haigutama	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11672	hu	kxange	ˈk'·a.ŋ·e	kx<0><1>ang<2>e	vin.	ásít	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11672	nl	kxange	ˈk'·a.ŋ·e	kx<0><1>ang<2>e	vin.	gapen	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11676	de	säkxange	sæ.ˈk'a.ŋɛ	NULL	n.	Gähnen	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11676	eng	säkxange	sæ.ˈk'a.ŋɛ	NULL	n.	yawn	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11676	est	säkxange	sæ.ˈk'a.ŋɛ	NULL	n.	haigutus	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11676	hu	säkxange	sæ.ˈk'a.ŋɛ	NULL	n.	ásítás	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11676	nl	säkxange	sæ.ˈk'a.ŋɛ	NULL	n.	geeuw	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11680	de	walew	w·a.ˈl·ɛw	w<0><1>al<2>ew	vin.	etwas überwinden, seinen Umstand akzeptieren, sich mit etwas abfinden, weitermachen	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11680	eng	walew	w·a.ˈl·ɛw	w<0><1>al<2>ew	vin.	get over, accept some fact, reconcile oneself, move on	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11680	est	walew	w·a.ˈl·ɛw	w<0><1>al<2>ew	vin.	leppima, üle saama, edasi elama	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11680	hu	walew	w·a.ˈl·ɛw	w<0><1>al<2>ew	vin.	túl teszi magát valamin	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11680	nl	walew	w·a.ˈl·ɛw	w<0><1>al<2>ew	vin.	ergens overheen komen, een feit accepteren, zich ergens bij neerleggen, verder gaan	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11684	de	nìnew	nɪ.ˈnɛw	NULL	adv.	freiwillig, aus freien Stücken, bereitwillig	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11684	eng	nìnew	nɪ.ˈnɛw	NULL	adv.	voluntarily, willingly, by desire	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11684	est	nìnew	nɪ.ˈnɛw	NULL	adv.	vabatahtlikult, tahtlikult	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11684	hu	nìnew	nɪ.ˈnɛw	NULL	adv.	akarattal, önként	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11684	nl	nìnew	nɪ.ˈnɛw	NULL	adv.	vrijwillig, met genoegen, gewillig	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11688	de	tawtxew	ˈtaw.t'ɛw	NULL	n.	Horizont	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11688	eng	tawtxew	ˈtaw.t'ɛw	NULL	n.	horizon, skyline	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11688	est	tawtxew	ˈtaw.t'ɛw	NULL	n.	horisont, taevapiir	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11688	hu	tawtxew	ˈtaw.t'ɛw	NULL	n.	horizont	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11688	nl	tawtxew	ˈtaw.t'ɛw	NULL	n.	horizon, skyline	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11692	de	frir	fɾiɾ	NULL	n.	Schicht	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11692	eng	frir	fɾiɾ	NULL	n.	layer	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11692	est	frir	fɾiɾ	NULL	n.	kiht	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11692	hu	frir	fɾiɾ	NULL	n.	réteg	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11692	nl	frir	fɾiɾ	NULL	n.	laag	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11696	de	lefrir	le.ˈfɾiɾ	NULL	adj.	geschichtet, stufig, schichtig	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11696	eng	lefrir	le.ˈfɾiɾ	NULL	adj.	layered	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11696	est	lefrir	le.ˈfɾiɾ	NULL	adj.	kihiline	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11696	hu	lefrir	le.ˈfɾiɾ	NULL	adj.	réteges	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11696	nl	lefrir	le.ˈfɾiɾ	NULL	adj.	gelaagd	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11700	de	nìfrir	nɪ.ˈfɾiɾ	NULL	adv.	in Schichten	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11700	eng	nìfrir	nɪ.ˈfɾiɾ	NULL	adv.	in layers	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11700	est	nìfrir	nɪ.ˈfɾiɾ	NULL	adv.	kihiti	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11700	hu	nìfrir	nɪ.ˈfɾiɾ	NULL	adv.	rétegesen	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11700	nl	nìfrir	nɪ.ˈfɾiɾ	NULL	adv.	in lagen	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11704	de	leyr	lɛjr	NULL	adj.	gefroren	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11704	eng	leyr	lɛjr	NULL	adj.	frozen	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11704	est	leyr	lɛjr	NULL	adj.	külmunud	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11704	hu	leyr	lɛjr	NULL	adj.	fagyott	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11704	nl	leyr	lɛjr	NULL	adj.	bevroren	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11708	de	leyr si	ˈlɛjr s·i	leyr s<0><1><2>i	vin.	einfrieren	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11708	eng	leyr si	ˈlɛjr s·i	leyr s<0><1><2>i	vin.	freeze (something)	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11708	est	leyr si	ˈlɛjr s·i	leyr s<0><1><2>i	vin.	külmutama	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11708	hu	leyr si	ˈlɛjr s·i	leyr s<0><1><2>i	vin.	fagyaszt	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
 11708	nl	leyr si	ˈlɛjr s·i	leyr s<0><1><2>i	vin.	(iets) bevriezen	http://naviteri.org/2018/07/ta-sulfatu-a-ayliu-niul-more-words-from-our-experts/ (31 July 2018)
+11712	de	lesar si	lɛ.ˈsaɾ s·i	lesar s<0><1><2>i	vin.	nützlich sein, von Nutzen sein, sich als nützlich erweisen	http://naviteri.org/2012/06/spring-vocabulary-part-3/comment-page-1/#comment-1515 (20 Jun 2012); https://forum.learnnavi.org/website-info/the-dictionary/msg586881/#msg586881 (11 Jun 2013)
 11712	eng	lesar si	lɛ.ˈsaɾ s·i	lesar s<0><1><2>i	vin.	be useful, be of use, come in handy	http://naviteri.org/2012/06/spring-vocabulary-part-3/comment-page-1/#comment-1515 (20 Jun 2012); https://forum.learnnavi.org/website-info/the-dictionary/msg586881/#msg586881 (11 Jun 2013)
 11712	est	lesar si	lɛ.ˈsaɾ s·i	lesar s<0><1><2>i	vin.	kasulik olema, kasu andma	http://naviteri.org/2012/06/spring-vocabulary-part-3/comment-page-1/#comment-1515 (20 Jun 2012); https://forum.learnnavi.org/website-info/the-dictionary/msg586881/#msg586881 (11 Jun 2013)
 11712	hu	lesar si	lɛ.ˈsaɾ s·i	lesar s<0><1><2>i	vin.	hasznosnak lenni	http://naviteri.org/2012/06/spring-vocabulary-part-3/comment-page-1/#comment-1515 (20 Jun 2012); https://forum.learnnavi.org/website-info/the-dictionary/msg586881/#msg586881 (11 Jun 2013)
 11712	nl	lesar si	lɛ.ˈsaɾ s·i	lesar s<0><1><2>i	vin.	nuttig zijn, van dienst zijn, van pas komen	http://naviteri.org/2012/06/spring-vocabulary-part-3/comment-page-1/#comment-1515 (20 Jun 2012); https://forum.learnnavi.org/website-info/the-dictionary/msg586881/#msg586881 (11 Jun 2013)
+11716	de	leftxozä	lɛ.ˈft'o.zæ	NULL	adj.	feierlich	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11716	eng	leftxozä	lɛ.ˈft'o.zæ	NULL	adj.	celebratory	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11716	est	leftxozä	lɛ.ˈft'o.zæ	NULL	adj.	pidulik, tähistav, püha	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11716	hu	leftxozä	lɛ.ˈft'o.zæ	NULL	adj.	ünnepélyes	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11716	nl	leftxozä	lɛ.ˈft'o.zæ	NULL	adj.	feestelijk	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
+11720	de	Kelnì	ˈkɛl.nɪ	NULL	prop.n.	Köln	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11720	eng	Kelnì	ˈkɛl.nɪ	NULL	prop.n.	Köln, Cologne	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11720	est	Kelnì	ˈkɛl.nɪ	NULL	prop.n.	Köln	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11720	hu	Kelnì	ˈkɛl.nɪ	NULL	prop.n.	Köln	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11720	nl	Kelnì	ˈkɛl.nɪ	NULL	prop.n.	Keulen	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
+11724	de	Poston	ˈpo.ston	NULL	prop.n.	Boston	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11724	eng	Poston	ˈpo.ston	NULL	prop.n.	Boston	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11724	est	Poston	ˈpo.ston	NULL	prop.n.	Boston	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11724	hu	Poston	ˈpo.ston	NULL	prop.n.	Boston	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11724	nl	Poston	ˈpo.ston	NULL	prop.n.	Boston	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
+11728	de	Nìyu Yorkì	ni.ˌju ˈjor.kɪ	NULL	prop.n.	New York	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11728	eng	Nìyu Yorkì	ni.ˌju ˈjor.kɪ	NULL	prop.n.	New York	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11728	est	Nìyu Yorkì	ni.ˌju ˈjor.kɪ	NULL	prop.n.	New York	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11728	hu	Nìyu Yorkì	ni.ˌju ˈjor.kɪ	NULL	prop.n.	New York	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
 11728	nl	Nìyu Yorkì	ni.ˌju ˈjor.kɪ	NULL	prop.n.	New York	https://forum.learnnavi.org/language-updates/new-words-leftxoza-(celebratory)-poston-(boston)-kelni-(koln-cologne)/ (21 September 2018)
+11732	de	fpxamo	ˈfp'a.mo	NULL	adj.	entsetzlich, grausam, schrecklich, furchtbar, fürchterlich	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11732	eng	fpxamo	ˈfp'a.mo	NULL	adj.	terrible, horrible, awful	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11732	est	fpxamo	ˈfp'a.mo	NULL	adj.	kohutav, õudne, jube	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11732	hu	fpxamo	ˈfp'a.mo	NULL	adj.	szörnyű, rettenetes, borzalmas	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11732	nl	fpxamo	ˈfp'a.mo	NULL	adj.	vreselijk, verschrikkelijk	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
+11736	de	tìfpxamo	tɪ.ˈfp'a.mo	NULL	n.	Entsetzen, Schrecken, Grauen, Horror	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11736	eng	tìfpxamo	tɪ.ˈfp'a.mo	NULL	n.	horror	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11736	est	tìfpxamo	tɪ.ˈfp'a.mo	NULL	n.	õudus	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11736	hu	tìfpxamo	tɪ.ˈfp'a.mo	NULL	n.	szörnyűség, borzalom	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11736	nl	tìfpxamo	tɪ.ˈfp'a.mo	NULL	n.	vrees, schrik, horror	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
+11740	de	nìfpxamo	nɪ.ˈfp'a.mo	NULL	adv.	auf entsetzliche Weise, auf grauenhafte Weise	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11740	eng	nìfpxamo	nɪ.ˈfp'a.mo	NULL	adv.	horribly, terribly, awfully	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11740	est	nìfpxamo	nɪ.ˈfp'a.mo	NULL	adv.	kohutavalt, õudselt, jubedalt	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11740	hu	nìfpxamo	nɪ.ˈfp'a.mo	NULL	adv.	szörnyen, rettenetesen, borzalmasan	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11740	nl	nìfpxamo	nɪ.ˈfp'a.mo	NULL	adv.	vreselijk, verschrikkelijk	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
+11744	de	tsyul	t͡sj·ul	tsy<0><1><2>ul	vtr.	(etwas) anfangen, (etwas) beginnen	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11744	eng	tsyul	t͡sj·ul	tsy<0><1><2>ul	vtr.	begin, start	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11744	est	tsyul	t͡sj·ul	tsy<0><1><2>ul	vtr.	alustama	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11744	hu	tsyul	t͡sj·ul	tsy<0><1><2>ul	vtr.	elkezd	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11744	nl	tsyul	t͡sj·ul	tsy<0><1><2>ul	vtr.	beginnen, starten	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
+11748	de	tìtsyul	tɪ.ˈt͡sjul	NULL	n.	Anfang (zeitlich oder örtlich neutral)	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11748	eng	tìtsyul	tɪ.ˈt͡sjul	NULL	n.	beginning, start	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11748	est	tìtsyul	tɪ.ˈt͡sjul	NULL	n.	algus	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11748	hu	tìtsyul	tɪ.ˈt͡sjul	NULL	n.	kezdet	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11748	nl	tìtsyul	tɪ.ˈt͡sjul	NULL	n.	begin, start	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
+11752	de	nawang	ˈn·a.w·aŋ	n<0><1>aw<2>ang	vin.	verschmelzen, mischen, sich verbinden, (mit etwas) eins werden	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11752	eng	nawang	ˈn·a.w·aŋ	n<0><1>aw<2>ang	vin.	merge, become one with	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11752	est	nawang	ˈn·a.w·aŋ	n<0><1>aw<2>ang	vin.	üheks saama, ühinema	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11752	hu	nawang	ˈn·a.w·aŋ	n<0><1>aw<2>ang	vin.	egyesül	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11752	nl	nawang	ˈn·a.w·aŋ	n<0><1>aw<2>ang	vin.	samenkomen, een worden met	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
+11756	de	lamaytxa	la.maj.ˈt'a	NULL	n.	Flut, mächtige Ansammlung von Wasser	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11756	eng	lamaytxa	la.maj.ˈt'a	NULL	n.	flood	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11756	est	lamaytxa	la.maj.ˈt'a	NULL	n.	uputus	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11756	hu	lamaytxa	la.maj.ˈt'a	NULL	n.	árvíz	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11756	nl	lamaytxa	la.maj.ˈt'a	NULL	n.	overstroming	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
+11760	de	oare	o.ˈa.ɾɛ	NULL	n.	Mond	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11760	eng	oare	o.ˈa.ɾɛ	NULL	n.	moon	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11760	est	oare	o.ˈa.ɾɛ	NULL	n.	kuu (taevakeha)	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11760	hu	oare	o.ˈa.ɾɛ	NULL	n.	hold	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
 11760	nl	oare	o.ˈa.ɾɛ	NULL	n.	maan	http://naviteri.org/2018/08/fmawnti-stolawm-srak-have-you-heard-the-news/ (31 Aug 2018)
+11764	de	vospxì'aw	vo.sp'ɪ.ˈʔaw	NULL	n.	Januar	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11764	eng	vospxì'aw	vo.sp'ɪ.ˈʔaw	NULL	n.	January	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11764	est	vospxì'aw	vo.sp'ɪ.ˈʔaw	NULL	n.	Jaanuar	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11764	hu	vospxì'aw	vo.sp'ɪ.ˈʔaw	NULL	n.	január	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11764	nl	vospxì'aw	vo.sp'ɪ.ˈʔaw	NULL	n.	januari	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11772	de	vospxìmun	vo.sp'ɪ.ˈmun	NULL	n.	Februar	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11772	eng	vospxìmun	vo.sp'ɪ.ˈmun	NULL	n.	February	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11772	est	vospxìmun	vo.sp'ɪ.ˈmun	NULL	n.	Veebruar	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11772	hu	vospxìmun	vo.sp'ɪ.ˈmun	NULL	n.	február	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11772	nl	vospxìmun	vo.sp'ɪ.ˈmun	NULL	n.	februari	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11776	de	vospxey	vo.ˈsp'ɛj	NULL	n.	März	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11776	eng	vospxey	vo.ˈsp'ɛj	NULL	n.	March	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11776	est	vospxey	vo.ˈsp'ɛj	NULL	n.	Märts	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11776	hu	vospxey	vo.ˈsp'ɛj	NULL	n.	március	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11776	nl	vospxey	vo.ˈsp'ɛj	NULL	n.	maart	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11780	de	vospxìtsìng	vo.sp'ɪ.ˈt͡sɪŋ	NULL	n.	April	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11780	eng	vospxìtsìng	vo.sp'ɪ.ˈt͡sɪŋ	NULL	n.	April	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11780	est	vospxìtsìng	vo.sp'ɪ.ˈt͡sɪŋ	NULL	n.	Aprill	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11780	hu	vospxìtsìng	vo.sp'ɪ.ˈt͡sɪŋ	NULL	n.	április	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11780	nl	vospxìtsìng	vo.sp'ɪ.ˈt͡sɪŋ	NULL	n.	april	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11784	de	vospxìmrr	vo.sp'ɪ.ˈmṛ	NULL	n.	Mai	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11784	eng	vospxìmrr	vo.sp'ɪ.ˈmṛ	NULL	n.	May	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11784	est	vospxìmrr	vo.sp'ɪ.ˈmṛ	NULL	n.	Mai	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11784	hu	vospxìmrr	vo.sp'ɪ.ˈmṛ	NULL	n.	május	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11784	nl	vospxìmrr	vo.sp'ɪ.ˈmṛ	NULL	n.	mei	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11788	de	vospxìpuk	vo.sp'ɪ.ˈpuk̚	NULL	n.	Juni	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11788	eng	vospxìpuk	vo.sp'ɪ.ˈpuk̚	NULL	n.	June	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11788	est	vospxìpuk	vo.sp'ɪ.ˈpuk̚	NULL	n.	Juuni	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11788	hu	vospxìpuk	vo.sp'ɪ.ˈpuk̚	NULL	n.	június	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11788	nl	vospxìpuk	vo.sp'ɪ.ˈpuk̚	NULL	n.	juni	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11792	de	vospxìkin	vo.sp'ɪ.ˈkin	NULL	n.	Juli	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11792	eng	vospxìkin	vo.sp'ɪ.ˈkin	NULL	n.	July	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11792	est	vospxìkin	vo.sp'ɪ.ˈkin	NULL	n.	Juuli	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11792	hu	vospxìkin	vo.sp'ɪ.ˈkin	NULL	n.	július	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11792	nl	vospxìkin	vo.sp'ɪ.ˈkin	NULL	n.	juli	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11796	de	vospxìvol	vo.sp'ɪ.ˈvol	NULL	n.	August	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11796	eng	vospxìvol	vo.sp'ɪ.ˈvol	NULL	n.	August	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11796	est	vospxìvol	vo.sp'ɪ.ˈvol	NULL	n.	August	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11796	hu	vospxìvol	vo.sp'ɪ.ˈvol	NULL	n.	augusztus	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11796	nl	vospxìvol	vo.sp'ɪ.ˈvol	NULL	n.	augustus	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11800	de	vospxìvolaw	vo.sp'ɪ.vo.ˈlaw	NULL	n.	September	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11800	eng	vospxìvolaw	vo.sp'ɪ.vo.ˈlaw	NULL	n.	September	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11800	est	vospxìvolaw	vo.sp'ɪ.vo.ˈlaw	NULL	n.	September	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11800	hu	vospxìvolaw	vo.sp'ɪ.vo.ˈlaw	NULL	n.	szeptember	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11800	nl	vospxìvolaw	vo.sp'ɪ.vo.ˈlaw	NULL	n.	september	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11804	de	vospxìvomun	vo.sp'ɪ.vo.ˈmun	NULL	n.	Oktober	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11804	eng	vospxìvomun	vo.sp'ɪ.vo.ˈmun	NULL	n.	October	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11804	est	vospxìvomun	vo.sp'ɪ.vo.ˈmun	NULL	n.	Oktoober	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11804	hu	vospxìvomun	vo.sp'ɪ.vo.ˈmun	NULL	n.	október	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11804	nl	vospxìvomun	vo.sp'ɪ.vo.ˈmun	NULL	n.	oktober	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11808	de	vospxìvopey	vo.sp'ɪ.vo.ˈpɛj	NULL	n.	November	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11808	eng	vospxìvopey	vo.sp'ɪ.vo.ˈpɛj	NULL	n.	November	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11808	est	vospxìvopey	vo.sp'ɪ.vo.ˈpɛj	NULL	n.	November	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11808	hu	vospxìvopey	vo.sp'ɪ.vo.ˈpɛj	NULL	n.	november	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11808	nl	vospxìvopey	vo.sp'ɪ.vo.ˈpɛj	NULL	n.	november	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11812	de	vospxìvosìng	vo.sp'ɪ.vo.ˈsɪŋ	NULL	n.	Dezember	NULL
 11812	eng	vospxìvosìng	vo.sp'ɪ.vo.ˈsɪŋ	NULL	n.	December	NULL
 11812	est	vospxìvosìng	vo.sp'ɪ.vo.ˈsɪŋ	NULL	n.	Detsember	NULL
 11812	hu	vospxìvosìng	vo.sp'ɪ.vo.ˈsɪŋ	NULL	n.	december	NULL
 11812	nl	vospxìvosìng	vo.sp'ɪ.vo.ˈsɪŋ	NULL	n.	december	NULL
+11816	de	zìskrrsom	zɪ.skṛ.ˈsom	NULL	n.	Sommer	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11816	eng	zìskrrsom	zɪ.skṛ.ˈsom	NULL	n.	summer	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11816	est	zìskrrsom	zɪ.skṛ.ˈsom	NULL	n.	suvi	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11816	hu	zìskrrsom	zɪ.skṛ.ˈsom	NULL	n.	nyár	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11816	nl	zìskrrsom	zɪ.skṛ.ˈsom	NULL	n.	zomer	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11820	de	zìskrrwew	zɪ.skṛ.ˈwɛw	NULL	n.	Winter	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11820	eng	zìskrrwew	zɪ.skṛ.ˈwɛw	NULL	n.	winter	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11820	est	zìskrrwew	zɪ.skṛ.ˈwɛw	NULL	n.	talv	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11820	hu	zìskrrwew	zɪ.skṛ.ˈwɛw	NULL	n.	tél	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11820	nl	zìskrrwew	zɪ.skṛ.ˈwɛw	NULL	n.	winter	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11824	de	paw	p·aw	p<0><1><2>aw	vin.	wachsen, keimen und entwickeln (einer Pflanze)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11824	eng	paw	p·aw	p<0><1><2>aw	vin.	grow; germinate and develop (of a plant)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11824	est	paw	p·aw	p<0><1><2>aw	vin.	kasvama, paiknema ja arenema (taime kohta)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11824	hu	paw	p·aw	p<0><1><2>aw	vin.	grow; germinate and develop (of a plant)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11824	nl	paw	p·aw	p<0><1><2>aw	vin.	groeien; ontkiemen en ontwikkelen (van een plant)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11828	de	tìpaw	tɪ.ˈpaw	NULL	n.	Wachstum	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11828	eng	tìpaw	tɪ.ˈpaw	NULL	n.	growth	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11828	est	tìpaw	tɪ.ˈpaw	NULL	n.	kasvamine	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11828	hu	tìpaw	tɪ.ˈpaw	NULL	n.	növés, növekedés	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11828	nl	tìpaw	tɪ.ˈpaw	NULL	n.	groei	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11832	de	zìskrrmipaw	zɪ.skṛ.ˈmi.paw	NULL	n.	Frühling	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11832	eng	zìskrrmipaw	zɪ.skṛ.ˈmi.paw	NULL	n.	spring	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11832	est	zìskrrmipaw	zɪ.skṛ.ˈmi.paw	NULL	n.	kevad	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11832	hu	zìskrrmipaw	zɪ.skṛ.ˈmi.paw	NULL	n.	tavasz	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11832	nl	zìskrrmipaw	zɪ.skṛ.ˈmi.paw	NULL	n.	lente	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11836	de	tsawn	t͡s·awn	ts<0><1><2>awn	vtr.	sammeln von Essen aus dem Wald, pflücken, (in der Landwirtschaft) ernten	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11836	eng	tsawn	t͡s·awn	ts<0><1><2>awn	vtr.	gather growing food from the forest; pick; harvest (in agriculture)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11836	est	tsawn	t͡s·awn	ts<0><1><2>awn	vtr.	korjama, lõikama (metsaande, viljasaaki vms)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11836	hu	tsawn	t͡s·awn	ts<0><1><2>awn	vtr.	arat, összeszed	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11836	nl	tsawn	t͡s·awn	ts<0><1><2>awn	vtr.	eten uit het bos verzamelen; plukken; oogsten	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+11840	de	zìskrrtsawn	zɪ.skṛ.ˈt͡sawn	NULL	n.	Herbst	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11840	eng	zìskrrtsawn	zɪ.skṛ.ˈt͡sawn	NULL	n.	autumn, fall	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11840	est	zìskrrtsawn	zɪ.skṛ.ˈt͡sawn	NULL	n.	sügis	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11840	hu	zìskrrtsawn	zɪ.skṛ.ˈt͡sawn	NULL	n.	ősz (évszak)	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
 11840	nl	zìskrrtsawn	zɪ.skṛ.ˈt͡sawn	NULL	n.	herfst	http://naviteri.org/2018/10/aysrr-ayvospxi-ayzisikrr-days-months-seasons/ (30 Oct 2018)
+12961	de	'asap	ˈʔa.sap̚	NULL	n.	plötzlicher Schock, unerwarteter Schock	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12961	eng	'asap	ˈʔa.sap̚	NULL	n.	sudden shock	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12961	nl	'asap	ˈʔa.sap̚	NULL	n.	plotselinge schok	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12962	de	'asap si	ˈʔa.sap s·i	asap s<0><1><2>i	vin.	schockiert sein, erschrocken sein	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12962	eng	'asap si	ˈʔa.sap s·i	asap s<0><1><2>i	vin.	be shocked, be startled	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12962	nl	'asap si	ˈʔa.sap s·i	asap s<0><1><2>i	vin.	schrikken, geschokt zijn	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12963	de	fe'pey	feʔ.ˈp·ɛj	fe'p<0><1><2>ey	vin.	befürchten, erwarten, dass etwas Schlimmes passiert	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12963	eng	fe'pey	feʔ.ˈp·ɛj	fe'p<0><1><2>ey	vin.	feel dread, expect something bad to happen, fear (with tsnì for thing dreaded) (ii)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12963	nl	fe'pey	feʔ.ˈp·ɛj	fe'p<0><1><2>ey	vin.	vrezen, bang zijn voor, iets slechts voorspellen (met tsnì voor wat gevreesd wordt) (ii) 	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12964	de	ketrìp	ˈkɛt.ɾIp̚	NULL	adj.	ungünstig, unvorteilhaft	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12964	eng	ketrìp	ˈkɛt.ɾIp̚	NULL	adj.	unfortunate, inauspicious	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12964	nl	ketrìp	ˈkɛt.ɾIp̚	NULL	adj.	onheilspellend, ongelukkig	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12965	de	txansngum	t'an.ˈsŋum	NULL	n.	Verzweiflung, Gefühl von großer Sorge	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12965	eng	txansngum	t'an.ˈsŋum	NULL	n.	desperation; feeling of great worry	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12965	nl	txansngum	t'an.ˈsŋum	NULL	n.	wanhoop, grote zorgen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12966	de	txansngum si	t'an.ˈsŋum s·i	txansngum s<0><1><2>i	vin.	verzweifelt sein	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12966	eng	txansngum si	t'an.ˈsŋum s·i	txansngum s<0><1><2>i	vin.	feel desperate	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12966	nl	txansngum si	t'an.ˈsŋum s·i	txansngum s<0><1><2>i	vin.	wanhopen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12967	de	tskawr	t͡sk·awɾ	tsk<0><1><2>awr	vin.	humpeln	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12967	eng	tskawr	t͡sk·awɾ	tsk<0><1><2>awr	vin.	limp	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12967	nl	tskawr	t͡sk·awɾ	tsk<0><1><2>awr	vin.	hinken	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12968	de	txavä'	t'a.ˈvæʔ	NULL	adj.	widerlich, widerwärtig, abstoßend	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12968	eng	txavä'	t'a.ˈvæʔ	NULL	adj.	disgusting	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12968	nl	txavä'	t'a.ˈvæʔ	NULL	adj.	walgelijk, vies	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12969	de	nìflä	nI.ˈflæ	NULL	adv.	erfolgreich, in erfolgreicher Weise	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12969	eng	nìflä	nI.ˈflæ	NULL	adv.	successfully	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12969	nl	nìflä	nI.ˈflæ	NULL	adv.	succesvol	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12970	de	txantsawl	ˈt'an.t͡sawl	NULL	adj.	gigantisch, riesig	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12970	eng	txantsawl	ˈt'an.t͡sawl	NULL	adj.	giant, huge	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12970	nl	txantsawl	ˈt'an.t͡sawl	NULL	adj.	enorm, gigantisch	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	de	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	sehr mögen, enorm genießen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12971	eng	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	love greatly, enjoy tremendously	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	nl	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	erg houden van	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12972	de	zeykoyu	zɛj.ˈko.ju	NULL	n.	Heiler	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12972	eng	zeykoyu	zɛj.ˈko.ju	NULL	n.	healer	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12972	nl	zeykoyu	zɛj.ˈko.ju	NULL	n.	genezer	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12973	de	tìranpam	tI.ˈɾan.pam	NULL	n.	Schritt (Geräusch)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12973	eng	tìranpam	tI.ˈɾan.pam	NULL	n.	footstep (sound)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12973	nl	tìranpam	tI.ˈɾan.pam	NULL	n.	voetstap (geluid)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12974	de	ftuopa	ˈftu.o.pa	NULL	adp.	von hinten, hintenherum	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12974	eng	ftuopa	ˈftu.o.pa	NULL	adp.	from behind	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12974	nl	ftuopa	ˈftu.o.pa	NULL	adp.	van achter	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12975	de	fyeng	fjɛŋ	NULL	adj.	steil	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12975	eng	fyeng	fjɛŋ	NULL	adj.	steep	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12975	nl	fyeng	fjɛŋ	NULL	adj.	steil	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12976	de	kavan	ˈk·a.v·an	k<0><1>av<2>an	vtr.	(jemanden/etwas) stützen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12976	eng	kavan	ˈk·a.v·an	k<0><1>av<2>an	vtr.	support (physically)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12976	nl	kavan	ˈk·a.v·an	k<0><1>av<2>an	vtr.	ondersteunen (fysiek)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12977	de	lepxìmrun	lɛ.ˈp'Im.ɾun	NULL	adj.	häufig, häufig anzutreffen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12977	eng	lepxìmrun	lɛ.ˈp'Im.ɾun	NULL	adj.	common, often found	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12977	nl	lepxìmrun	lɛ.ˈp'Im.ɾun	NULL	adj.	veelvoorkomend, niet zeldzaam	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12978	de	kelpxìmrun	kɛl.ˈp'Im.ɾun	NULL	adj.	selten, selten anzutreffen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12978	eng	kelpxìmrun	kɛl.ˈp'Im.ɾun	NULL	adj.	rare	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12978	nl	kelpxìmrun	kɛl.ˈp'Im.ɾun	NULL	adj.	zeldzaam	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12979	de	zung	z·uŋ	z<0><1><2>ung	vin.	hocken, kauern, sich ducken	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12979	eng	zung	z·uŋ	z<0><1><2>ung	vin.	crouch	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12979	nl	zung	z·uŋ	z<0><1><2>ung	vin.	hurken	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12980	de	fpivìl	fpi.ˈvIl	NULL	intj.	hmmm ..., lass mich nachdenken	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12980	eng	fpivìl	fpi.ˈvIl	NULL	intj.	hmm, let's see, let me think	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12980	nl	fpivìl	fpi.ˈvIl	NULL	intj.	hmm, eens kijken, laat me nadenken	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12981	de	kom	k·om	k<0><1><2>om	vim.	wagen (etwas zu tun), sich trauen (etwas zu tun)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12981	eng	kom	k·om	k<0><1><2>om	vim.	dare	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12981	nl	kom	k·om	k<0><1><2>om	vim.	durven	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12982	de	mam	mam	mam	vtr.	wickeln, einwickeln, umwickeln	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12982	eng	mam	mam	mam	vtr.	wrap	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12982	nl	mam	mam	mam	vtr.	eromheen doen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12983	de	yomvey	j·om.ˈvɛj	y<0><1><2>omvey	vin.	sich von Fleisch ernähren, fleischfressend sein	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12983	eng	yomvey	j·om.ˈvɛj	y<0><1><2>omvey	vin.	dine on flesh, be caniverous (ii)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12983	nl	yomvey	j·om.ˈvɛj	y<0><1><2>omvey	vin.	vlees eten, carnivoor zijn (ii)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12984	de	yomzeswa	j·om.ˈzɛ.swa	y<0><1><2>omzeswa	vin.	grasen, weiden	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12984	eng	yomzeswa	j·om.ˈzɛ.swa	y<0><1><2>omzeswa	vin.	graze (ii) 	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12984	nl	yomzeswa	j·om.ˈzɛ.swa	y<0><1><2>omzeswa	vin.	grazen (ii)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12985	de	txap	t'·ap̚	tx<0><1><2>ap	vtr.	drücken, aufdrücken, Druck ausüben auf	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12985	eng	txap	t'·ap̚	tx<0><1><2>ap	vtr.	press, press on, apply (physical) pressure to	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12985	nl	txap	t'·ap̚	tx<0><1><2>ap	vtr.	duwen, druk uitoefenen op	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12986	de	tìtxap	tI.ˈt'ap̚	NULL	n.	Druck	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12986	eng	tìtxap	tI.ˈt'ap̚	NULL	n.	pressure (physical)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12986	nl	tìtxap	tI.ˈt'ap̚	NULL	n.	druk (fysiek)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12987	de	semkä	sɛm.ˈkæ	NULL	n.	Brücke	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12987	eng	semkä	sɛm.ˈkæ	NULL	n.	bridge	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12987	nl	semkä	sɛm.ˈkæ	NULL	n.	brug	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12988	de	emkäfya	em.ˈkæ.fja	NULL	n.	Furt, Überquerung	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12988	eng	emkäfya	em.ˈkæ.fja	NULL	n.	ford, crossing	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12988	nl	emkäfya	em.ˈkæ.fja	NULL	n.	doorwaadbare plaats, oversteekplaats in een rivier	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12989	de	fil	fil	NULL	n.	Kinderspielzeug, Spielzeug	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12989	eng	fil	fil	NULL	n.	child's toy, plaything	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12989	nl	fil	fil	NULL	n.	speelgoed	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12990	de	sunkesun	ˈsun.kɛ.sun	NULL	adv.	ob es dir gefällt oder nicht	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12990	eng	sunkesun	ˈsun.kɛ.sun	NULL	adv.	like it or not	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12990	nl	sunkesun	ˈsun.kɛ.sun	NULL	adv.	of je het nou leuk vindt of niet	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12991	de	maitan	ma.ˈi.tan	NULL	ph.	mein Sohn (Anredeform)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12991	eng	maitan	ma.ˈi.tan	NULL	ph.	my son (form of address)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12991	nl	maitan	ma.ˈi.tan	NULL	ph.	mijn zoon (aanspreekvorm)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12992	de	maite	ma.ˈi.tɛ	NULL	ph.	meine Tochter (Anredeform)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12992	eng	maite	ma.ˈi.tɛ	NULL	ph.	my daughter (form of address)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12992	nl	maite	ma.ˈi.tɛ	NULL	ph.	mijn dochter (aanspreekvorm)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12993	de	loho	ˈl·o.h·o	l<0><1>oh<2>o	vin.	überrascht sein, überraschend sein	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12993	eng	loho	ˈl·o.h·o	l<0><1>oh<2>o	vin.	be surprising (experiencer in dative)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12993	nl	loho	ˈl·o.h·o	l<0><1>oh<2>o	vin.	verrassend zijn (datief voor degene die verrast is)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12994	de	tìloho	tI.ˈlo.ho	NULL	n.	Überraschung	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12994	eng	tìloho	tI.ˈlo.ho	NULL	n.	surprise	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12994	nl	tìloho	tI.ˈlo.ho	NULL	n.	verrassing	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12995	de	nìloho	nI.ˈlo.ho	NULL	adv.	überraschend, überraschenderweise	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12995	eng	nìloho	nI.ˈlo.ho	NULL	adv.	surprisingly	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12995	nl	nìloho	nI.ˈlo.ho	NULL	adv.	verrassend	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12996	de	Tsawkenay	t͡saw.kɛ.ˈnaj	NULL	n.	Alpha Centauri B	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12996	eng	Tsawkenay	t͡saw.kɛ.ˈnaj	NULL	n.	Alpha Centauri B	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12996	nl	Tsawkenay	t͡saw.kɛ.ˈnaj	NULL	n.	Alpha Centauri B	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12997	de	Tawsnrrtsyìp	taw.ˈsnṛ.t͡sjIp̚	NULL	n.	Alpha Centauri C aka Proxima Centauri	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12997	eng	Tawsnrrtsyìp	taw.ˈsnṛ.t͡sjIp̚	NULL	n.	Alpha Centauri C aka Proxima Centauri	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12997	nl	Tawsnrrtsyìp	taw.ˈsnṛ.t͡sjIp̚	NULL	n.	Alpha Centauri C (Proxima Centauri)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12998	de	Snrrtsyìp	ˈsnṛ.t͡sjIp̚	NULL	n.	Alpha Centauri C aka Proxima Centauri (umgangssprachlich)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12998	eng	Snrrtsyìp	ˈsnṛ.t͡sjIp̚	NULL	n.	Alpha Centauri C aka Proxima Centauri (Colloquial)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12998	nl	Snrrtsyìp	ˈsnṛ.t͡sjIp̚	NULL	n.	Alpha Centauri C (Proxima Centauri) (spreektaal)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12999	de	kuru	ˈku.ɾu	NULL	n.	Queue, neuraler Zopf	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12999	eng	kuru	ˈku.ɾu	NULL	n.	neural queue	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12999	nl	kuru	ˈku.ɾu	NULL	n.	zenuwstaart, zenuwvlecht	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+13000	de	nìtxukx	nI.ˈt'uk'	NULL	adv.	tief, in tiefer Weise (auch metaphorisch)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 13000	eng	nìtxukx	nI.ˈt'uk'	NULL	adv.	deeply	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+13000	nl	nìtxukx	nI.ˈt'uk'	NULL	adv.	diep	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+13001	de	raw	ɾaw	NULL	adp.	nach unten, runter (in Richtung)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 13001	eng	raw	ɾaw	NULL	adp.	down to	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+13001	nl	raw	ɾaw	NULL	adp.	naar (naar beneden)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+13002	de	kantseng	ˈkan.t͡sɛŋ	NULL	n.	Ziel	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13002	eng	kantseng	ˈkan.t͡sɛŋ	NULL	n.	destination	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13002	nl	kantseng	ˈkan.t͡sɛŋ	NULL	n.	bestemming	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13003	de	la'a	ˈla.ʔa	NULL	n.	physische Trennung, Abstand zwischen zwei Orten oder Personen	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13003	eng	la'a	ˈla.ʔa	NULL	n.	physical separation, distance between two places or objects	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13003	nl	la'a	ˈla.ʔa	NULL	n.	afstand	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13004	de	pela'a	pɛ.ˈla.ʔa	NULL	inter.	wie nah, wie fern, wie weit entfernt	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13004	eng	pela'a	pɛ.ˈla.ʔa	NULL	inter.	how near, how far, what distance	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13004	nl	pela'a	pɛ.ˈla.ʔa	NULL	inter.	hoe ver weg	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13005	de	la'ape	ˈla.ʔa.pɛ	NULL	inter.	wie nah, wie weit, wie weit entfernt	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13005	eng	la'ape	ˈla.ʔa.pɛ	NULL	inter.	how near, how far, what distance	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13005	nl	la'ape	ˈla.ʔa.pɛ	NULL	inter.	hoe ver weg	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13006	de	pelìmsim	pɛ.ˈlɪm.sim	NULL	inter.	wie weit weg, wie nah	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13006	eng	pelìmsim	pɛ.ˈlɪm.sim	NULL	inter.	how near, how far	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13006	nl	pelìmsim	pɛ.ˈlɪm.sim	NULL	inter.	hoe ver weg	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13007	de	lìmsimpe	ˈlɪm.sim.pɛ	NULL	inter.	wie weit weg, wie nah	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13007	eng	lìmsimpe	ˈlɪm.sim.pɛ	NULL	inter.	how near, how far	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13007	nl	lìmsimpe	ˈlɪm.sim.pɛ	NULL	inter.	hoe ver weg	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13008	de	keynven	k·ɛjn.ˈvɛn	k<0><1><2>eynven	vin.	stehen	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13008	eng	keynven	k·ɛjn.ˈvɛn	k<0><1><2>eynven	vin.	step	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13008	nl	keynven	k·ɛjn.ˈvɛn	k<0><1><2>eynven	vin.	stappen	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13009	de	ralke	ˈɾal.kɛ	NULL	adj.	bedeutungslos, sinnlos, ohne Inhalt	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13009	eng	ralke	ˈɾal.kɛ	NULL	adj.	meaningless, devoid of content	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13009	nl	ralke	ˈɾal.kɛ	NULL	adj.	betekenisloos, zonder inhoud	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13010	de	tìfkeytongay	tɪ.fkɛj.to.ˈŋaj	NULL	n.	Realität	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13010	eng	tìfkeytongay	tɪ.fkɛj.to.ˈŋaj	NULL	n.	reality	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13010	nl	tìfkeytongay	tɪ.fkɛj.to.ˈŋaj	NULL	n.	realiteit, werkelijkheid	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13011	de	lefkeytongay	lɛ.fkɛj.to.ˈŋaj	NULL	adj.	real, echt	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13011	eng	lefkeytongay	lɛ.fkɛj.to.ˈŋaj	NULL	adj.	real	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13011	nl	lefkeytongay	lɛ.fkɛj.to.ˈŋaj	NULL	adj.	werkelijk, echt	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13012	de	säsrese'a	sæ.sɾɛ.sɛ.ˈʔa	NULL	n.	Vorhersage, Vorraussage	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/#comment-30279
 13012	eng	säsrese'a	sæ.sɾɛ.sɛ.ˈʔa	NULL	n.	a prediction	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/#comment-30279
+13012	nl	säsrese'a	sæ.sɾɛ.sɛ.ˈʔa	NULL	n.	verwachting	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/#comment-30279
 -2	eng	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -1	eng	Vawmataw	ˈvaw.ma.taw	NULL	meme.	The Right Honourable Vawmataw, by the grace of Eywa of Hangvurburg Earl, Lord Memeyu, Head of the Skxawngs, defender of the memes	LN Discord
+-1	de	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Der sehr ehrenwerte Vawmataw, von Eywas Gnaden Graf von Hangham, Herr Memeyu, Oberhaupt der Skxawngs, Verteidiger der Memes	LN Discord
 0	eng	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
 2	eng	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
 3	eng	nävi	ˈnæ.vi	NULL	meme.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)	LN Discord
