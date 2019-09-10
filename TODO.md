@@ -11,6 +11,8 @@
 
 ### FEATURES
 
+-   /config var value
+-   -c var=value
 -   verbose flag for affix definitions
 -   improve completer suggestions for context
 
