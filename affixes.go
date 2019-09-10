@@ -21,14 +21,13 @@ import (
 	"strings"
 )
 
-var debug = false
-
 func prefix(w Word) Word {
 	var (
 		re            *regexp.Regexp
 		reString      string
 		attempt       string
 		matchPrefixes []string
+		debug         = configuration.DebugMode
 	)
 
 	// pull this out of the switch because the pos data for verbs is so irregular,
@@ -100,6 +99,7 @@ func suffix(w Word) Word {
 		reString      string
 		attempt       string
 		matchSuffixes []string
+		debug         = configuration.DebugMode
 	)
 	const (
 		adjSufRe string = "(a)?$"
@@ -192,6 +192,7 @@ func suffix(w Word) Word {
 }
 
 func infix(w Word) Word {
+	var debug = configuration.DebugMode
 	// Have we already attempted infixes?
 	if _, ok := w.Affixes[Text("inf")]; ok {
 		return w
@@ -309,6 +310,7 @@ func matches(w Word) bool {
 
 // Reconstruct is the main function of affixes.go, responsible for the affixing algorithm
 func Reconstruct(w Word) Word {
+	var debug = configuration.DebugMode
 
 	w.Attempt = strings.ToLower(w.Navi)
 	w.Target = strings.ToLower(w.Target)
