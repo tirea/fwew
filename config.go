@@ -32,14 +32,14 @@ type Config struct {
 
 // ReadConfig reads a configuration file and puts the data into Config struct
 func ReadConfig() Config {
-	configfile, e := ioutil.ReadFile(Text("config"))
+	configFile, e := ioutil.ReadFile(Text("config"))
 	if e != nil {
 		fmt.Println(Text("fileError"))
 		log.Fatal(e)
 	}
 
 	var config Config
-	err := json.Unmarshal(configfile, &config)
+	err := json.Unmarshal(configFile, &config)
 	if err != nil {
 		log.Fatal(e)
 	}
