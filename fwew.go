@@ -892,6 +892,7 @@ func slashCommand(s string, argsMode bool) {
 		if err != nil {
 			log.Fatal(err)
 		}
+		Version.DictBuild = SHA1Hash(texts["dictionary"])
 	case "/version":
 		fmt.Println(Version)
 	case "/quit", "/exit", "/q", "/wc":
