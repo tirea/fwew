@@ -736,7 +736,7 @@ func randomSubset(k int, subset []Word) []Word {
 				results = append(results, w)
 			} else {
 				j := r.Intn(i)
-				if j < k {
+				if j < k && results != nil {
 					results[j] = w
 				}
 			}
@@ -775,7 +775,7 @@ func random(k int) []Word {
 				results = append(results, result)
 			} else {
 				j := r.Intn(i)
-				if j < k {
+				if j < k && results != nil {
 					result = InitWordStruct(result, fields)
 					results[j] = result
 				}
@@ -849,17 +849,19 @@ func slashCommand(s string, argsMode bool) {
 			for i := 0; i < len(args); i += 4 {
 				exprs = append(exprs, args[i:i+3])
 			}
-			subset := listWords(exprs[0])
-			for _, expr := range exprs[1:] {
-				subset = listWordsSubset(expr, subset)
+			if exprs != nil {
+				subset := listWords(exprs[0])
+				for _, expr := range exprs[1:] {
+					subset = listWordsSubset(expr, subset)
+				}
+				printResults(subset)
 			}
-			printResults(subset)
 		} else {
 			fmt.Println()
 		}
 	case "/random":
 		// k
-		if nargs == 1 && args[0] != "" {
+		if args != nil && nargs == 1 && args[0] != "" {
 			if args[0] == "random" {
 				printResults(random(-1337))
 			} else {
@@ -870,7 +872,7 @@ func slashCommand(s string, argsMode bool) {
 				printResults(random(k))
 			}
 			// k where what cond spec [and what cond spec...]
-		} else if nargs >= 5 && args[1] == "where" {
+		} else if args != nil && nargs >= 5 && args[1] == "where" {
 			fargs := args[2:]
 			nFargs := len(fargs)
 			if nFargs == 3 {
