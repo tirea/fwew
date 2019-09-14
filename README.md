@@ -265,19 +265,6 @@ set [ r ipa a l=de p=vtr. ]
 
 ```
 
-Use `/set` with empty list of flags to show all current set flag values.
-
-```
-~~> /set
-set [ a l=eng p=all ]
-
-~~> /set i ipa
-set [ i ipa a l=eng p=all ]
-
-~~> /set
-set [ i ipa a l=eng p=all ]
-```
-
 ### /commands 
 
 While in interactive mode, the following commands are available and can be seen by running the `/commands` command:
@@ -318,14 +305,29 @@ n       convert numbers octal<->decimal
 p=[pos] search for word(s) with specified part of speech abbreviation
 r       reverse the lookup direction from Na'vi->local to local->Na'vi
 s       display source data
+```
 
+Use `/set` with empty list of flags to show all current set flag values.
+
+```
+~~> /set
+set [ a l=eng p=all ]
+
+~~> /set i ipa
+set [ i ipa a l=eng p=all ]
+
+~~> /set
+set [ i ipa a l=eng p=all ]
 ```
 
 use any of these you wish to set, and separate them with spaces
 
 ```
-/set ipa i l=eng p=all r
-/unset i r
+~~> /set ipa i l=eng p=all r
+set [ r i ipa a l=eng p=all ]
+
+~~> /unset i r
+set [ ipa a l=eng p=all ]
 ```
 
 ### /list
@@ -354,12 +356,14 @@ pos:
 ```
 has    part of speech has the following character sequence anywhere
 is     part of speech is exactly the following character sequence
+like   part of speech is like (matches) the following wildcard pattern
 ```
 word:
 ```
 starts    word starts with the following character sequence
 ends      word ends with the following character sequence
 has       word has the following character sequence anywhere
+like      word is like (matches) the following wildcard pattern
 ```
 syllables:
 ```
@@ -380,6 +384,8 @@ last     the last consecutive words in the datafile (chronologically newest word
 `has`, `is`, `starts`, and `ends` all expect a character sequence to come next.
 
 `<`, `<=`, `=`, `>=`, `>`, `first`, and `last` all expect a number to come next.
+
+`like` expects a character sequence, usually containing at least one wildcard asterisk, to come next. 
 
 #### Examples of /list
 
@@ -514,11 +520,15 @@ fwew -f input.txt > output.txt
 
 ## Configuration file
 
-Settings for Fwew are stored in a plain-text JSON file in the `.fwew/` directory.
+Settings for Fwew are stored in a plain-text JSON file in the `.fwew/` directory. The file format is essentially key-value pairs:
+
+```JSON
+    "key": "value",
+```
 
 `config.json`:
 
-```
+```JSON
 {
     "language": "eng",
     "posFilter": "all",
@@ -556,4 +566,64 @@ mountain of text to flood your Terminal or Powershell on every `fwew` run. The p
 went wrong in the logic. This option is mostly only useful to Contributors, Developers, and Users who want to report a bug. 
 The `-debug` command line flag was removed in favor of having this option in the config file.
 
-If you edit the config file to set your own defaults, you can override the config file settings using the `/set` command keyword as shown above.
+If you edit the config file to set your own defaults, you can override the config file settings using command line flags
+or by using the `/set` command keyword as shown above.
+
+## Saving options without editing the config file
+
+As of fwew 3.9.0-dev, support for saving options as default has been added. 
+
+### Using command line flag
+
+```
+fwew -c <key>=<value>
+```
+or
+```
+fwew -c "<key>=<value>"
+```
+
+For example, to quickly run fwew for the sole sake of updating the default language to Dutch:
+
+```
+fwew -c language=nl
+```
+or
+```
+fwew -c "language nl"
+```
+
+### Using /config
+
+See what default values are set in the config file
+```
+~~> /config
+```
+
+Set the default value of `key` to `value`
+```
+~~> /config key value
+```
+or
+```
+~~> /config key=value
+```
+
+For example set the default behavior of fwew to not check for affixes
+```
+~~> /config useAffixes false
+```
+or
+```
+~~> /config useAffixes=false
+```
+
+As always, slash-commands are all usable from the command line as well, so the following is also possible:
+
+```
+fwew "/config key value"
+```
+or
+```
+fwew "/config key=value"
+```
