@@ -15,7 +15,17 @@
 // Package main contains all the things. affixes_test.go -- you guess it -- tests affixes.go functions.
 package main
 
-import "testing"
+import (
+	"flag"
+	"testing"
+)
+
+func init() {
+	// set relevant option flag(s)
+	configuration = ReadConfig()
+	debug = flag.Bool("d", configuration.DebugMode, Text("usageD"))
+	flag.Parse()
+}
 
 func TestPrefix(t *testing.T) {
 	w0 := Word{
