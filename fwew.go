@@ -50,8 +50,9 @@ var (
 	showIPA, reverse         *bool
 	showSource               *bool
 	useAffixes, numConvert   *bool
-	markdown                 *bool
+	markdown, debug          *bool
 	filename                 *string
+	configure                *string
 )
 
 func intersection(a, b string) (c string) {
@@ -284,6 +285,8 @@ func setFlags(arg string, argsMode bool) {
 			*numConvert = !*numConvert
 		case f == "m":
 			*markdown = !*markdown
+		case f == "d":
+			*debug = !*debug
 		case strings.HasPrefix(f, "l="):
 			if ContainsStr(langs, f[2:]) {
 				*language = f[2:]
@@ -324,6 +327,9 @@ func setFlags(arg string, argsMode bool) {
 		}
 		if *markdown {
 			out += "m "
+		}
+		if *debug {
+			out += "d "
 		}
 		out += fmt.Sprintf("l=%s p=%s", *language, *posFilter)
 		out += " ]\n"
@@ -799,6 +805,7 @@ func slashCommand(s string, argsMode bool) {
 		exprs   [][]string
 		nargs   int
 		setArg  string
+		confArg string
 	)
 	sc = strings.Split(s, space)
 	sc = DeleteEmpty(sc)
@@ -897,6 +904,9 @@ func slashCommand(s string, argsMode bool) {
 		Version.DictBuild = SHA1Hash(texts["dictionary"])
 	case "/version":
 		fmt.Println(Version)
+	case "/config":
+		confArg = strings.Join(args, space)
+		configuration = WriteConfig(confArg)
 	case "/quit", "/exit", "/q", "/wc":
 		os.Exit(0)
 	default:
@@ -930,7 +940,12 @@ func main() {
 	numConvert = flag.Bool("n", false, Text("usageN"))
 	// Markdown formatting
 	markdown = flag.Bool("m", false, Text("usageM"))
+	// Input file / Fwewscript
 	filename = flag.String("f", "", Text("usageF"))
+	// Configuration editing
+	configure = flag.String("c", "", Text("usageC"))
+	// Debug mode
+	debug = flag.Bool("d", configuration.DebugMode, Text("usageD"))
 	flag.Parse()
 	argsMode = flag.NArg() > 0
 	fileMode = len(*filename) > 0
@@ -940,6 +955,11 @@ func main() {
 		if flag.NArg() == 0 {
 			os.Exit(0)
 		}
+	}
+
+	if *configure != "" {
+		configuration = WriteConfig(*configure)
+		os.Exit(0)
 	}
 
 	if fileMode { // FILE MODE

@@ -11,8 +11,9 @@
 
 ### FEATURES
 
--   /config var value
--   -c var=value
+-   add -d flag for debug, /set d, /config var value, -c var=value
+-   
+
 -   verbose flag for affix definitions
 -   improve completer suggestions for context
 

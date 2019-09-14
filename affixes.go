@@ -27,7 +27,6 @@ func prefix(w Word) Word {
 		reString      string
 		attempt       string
 		matchPrefixes []string
-		debug         = configuration.DebugMode
 	)
 
 	// pull this out of the switch because the pos data for verbs is so irregular,
@@ -59,7 +58,7 @@ func prefix(w Word) Word {
 		w.Attempt = w.Attempt[2:]
 	}
 	reString = reString + w.Attempt + ".*"
-	if debug {
+	if *debug {
 		fmt.Printf("Prefix reString: %s\n", reString)
 	}
 	re = regexp.MustCompile(reString)
@@ -69,7 +68,7 @@ func prefix(w Word) Word {
 	}
 	matchPrefixes = DeleteEmpty(matchPrefixes)
 
-	if debug {
+	if *debug {
 		fmt.Printf("matchPrefixes: %s\n", matchPrefixes)
 	}
 
@@ -99,7 +98,6 @@ func suffix(w Word) Word {
 		reString      string
 		attempt       string
 		matchSuffixes []string
-		debug         = configuration.DebugMode
 	)
 	const (
 		adjSufRe string = "(a)?$"
@@ -154,7 +152,7 @@ func suffix(w Word) Word {
 		reString = w.Attempt + reString
 	}
 
-	if debug {
+	if *debug {
 		fmt.Printf("Suffix reString: %s\n", reString)
 	}
 	re = regexp.MustCompile(reString)
@@ -163,7 +161,7 @@ func suffix(w Word) Word {
 		matchSuffixes = tmp[0][1:]
 	}
 	matchSuffixes = DeleteEmpty(matchSuffixes)
-	if debug {
+	if *debug {
 		fmt.Printf("matchSuffixes: %s\n", matchSuffixes)
 	}
 
@@ -192,7 +190,6 @@ func suffix(w Word) Word {
 }
 
 func infix(w Word) Word {
-	var debug = configuration.DebugMode
 	// Have we already attempted infixes?
 	if _, ok := w.Affixes[Text("inf")]; ok {
 		return w
@@ -230,7 +227,7 @@ func infix(w Word) Word {
 		reString = strings.Replace(reString, "<1>", pos1InfixRe, 1)
 	}
 	reString = strings.Replace(reString, "<2>", pos2InfixRe, 1)
-	if debug {
+	if *debug {
 		fmt.Printf("Infix reString: %s\n", reString)
 	}
 
@@ -261,7 +258,7 @@ func infix(w Word) Word {
 		eiy := Index(matchInfixes, "eiy")
 		matchInfixes[eiy] = "ei"
 	}
-	if debug {
+	if *debug {
 		fmt.Printf("matchInfixes: %s\n", matchInfixes)
 	}
 
@@ -310,8 +307,6 @@ func matches(w Word) bool {
 
 // Reconstruct is the main function of affixes.go, responsible for the affixing algorithm
 func Reconstruct(w Word) Word {
-	var debug = configuration.DebugMode
-
 	w.Attempt = strings.ToLower(w.Navi)
 	w.Target = strings.ToLower(w.Target)
 
@@ -323,7 +318,7 @@ func Reconstruct(w Word) Word {
 	// only try to infix verbs
 	if strings.HasPrefix(w.PartOfSpeech, "v") || strings.HasPrefix(w.PartOfSpeech, "svin.") {
 		w = infix(w)
-		if debug {
+		if *debug {
 			fmt.Println("INFIX")
 			fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 		}
@@ -333,7 +328,7 @@ func Reconstruct(w Word) Word {
 	}
 
 	w = prefix(w)
-	if debug {
+	if *debug {
 		fmt.Println("PREFIX")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
@@ -347,7 +342,7 @@ func Reconstruct(w Word) Word {
 
 	if !strings.HasPrefix(w.Attempt, w.Target[0:1]) {
 		w = lenite(w)
-		if debug {
+		if *debug {
 			fmt.Println("LENITE")
 			fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 		}
@@ -357,7 +352,7 @@ func Reconstruct(w Word) Word {
 	}
 
 	w = suffix(w)
-	if debug {
+	if *debug {
 		fmt.Println("SUFFIX")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
@@ -370,7 +365,7 @@ func Reconstruct(w Word) Word {
 	}
 
 	w = lenite(w)
-	if debug {
+	if *debug {
 		fmt.Println("LENITE")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
@@ -378,7 +373,7 @@ func Reconstruct(w Word) Word {
 		return w
 	}
 
-	if debug {
+	if *debug {
 		fmt.Println("GIVING UP")
 	}
 	return Word{ID: "-1"}

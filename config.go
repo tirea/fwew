@@ -20,6 +20,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"strings"
 )
 
 // Config is a struct designed to hold the values of the configuration file when loaded
@@ -41,9 +42,81 @@ func ReadConfig() Config {
 	var config Config
 	err := json.Unmarshal(configFile, &config)
 	if err != nil {
-		log.Fatal(e)
+		log.Fatal(err)
 	}
 
+	return config
+}
+
+func WriteConfig(entry string) Config {
+	var s []string
+	config := ReadConfig()
+	if strings.Contains(entry, " ") {
+		s = strings.Split(entry, " ")
+	} else if strings.Contains(entry, "=") {
+		s = strings.Split(entry, "=")
+	}
+
+	// parse key-value pairs from user input and store as data in Config struct
+	if len(s) == 2 {
+		key := s[0]
+		value := s[1]
+		switch strings.ToLower(key) {
+		case "language":
+			if strings.Contains(Text("languages"), value) {
+				config.Language = value
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "posfilter":
+			if strings.Contains(Text("POSFilters"), value) {
+				config.PosFilter = value
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "useaffixes":
+			if value == "true" {
+				config.UseAffixes = true
+			} else if value == "false" {
+				config.UseAffixes = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "debugmode":
+			if value == "true" {
+				config.DebugMode = true
+			} else if value == "false" {
+				config.DebugMode = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		default:
+			fmt.Printf("%s: %s\n\n", Text("configOptionError"), key)
+			return config
+		}
+
+		// convert Config struct to JSON
+		jconf, err := json.Marshal(config)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		e := ioutil.WriteFile(Text("config"), jconf, 0644)
+		if e != nil {
+			log.Fatal(e)
+		}
+		fmt.Println(Text("configSaved"))
+
+	} else if len(s) == 0 {
+		fmt.Println(config)
+	} else {
+		fmt.Println(Text("configSyntaxError"))
+	}
+	fmt.Println()
 	return config
 }
 
