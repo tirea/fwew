@@ -11,6 +11,7 @@
 
 ### FEATURES
 
+-   add /config to /commands
 -   verbose flag for affix definitions
 -   improve completer suggestions for context
 
