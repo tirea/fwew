@@ -28,35 +28,40 @@ var texts = map[string]string{}
 func init() {
 	// slash-commands Help
 	texts["slashCommandHelp"] = "" +
-		"/set       show currently set options, or set given options (separated by space)\n" +
-		"/unset     unset given options (separated by space)\n" +
-		"/list      list all words that meet given criteria\n" +
-		"/random    display given number of random entries\n" +
-		"/update    download and update the dictionary file\n" +
-		"/commands  show this commands help text\n" +
-		"/help      show main help text\n" +
-		"/exit      exit/quit the program (aliases /quit /q /wc)\n\n" +
-		"examples:\n" +
-		"/set\n" +
-		"/set i ipa\n" +
-		"/unset i\n" +
-		"/list pos has svin.\n" +
-		"/list pos is vtrm.\n" +
-		"/list word starts prr\n" +
-		"/list word ends tut\n" +
-		"/list word has kang\n" +
-		"/list syllables >= 5\n" +
-		"/list syllables = 1\n" +
-		"/list words first 10\n" +
-		"/list words last 20\n" +
-		"/random 8\n" +
-		"/random random\n" +
-		"/random 2 where pos has vtr.\n" +
-		"/random random where pos is n.\n" +
+		"/set [flag]\n" +
+		"        set given options (separated by space)\n" +
+		"        or show currently set options\n" +
+		"/unset [flag]\n" +
+		"        unset given options (separated by space)\n" +
+		"        or show currently set options\n" +
+		"/list <what> <cond> <spec> [and <what> <cond> <spec> ...]\n" +
+		"        list all words that meet given criteria\n" +
+		"/random <num> [where <what> <cond> <spec>]\n" +
+		"        display given whole number > 0 of random entries\n" +
+		"        for both /list and /random, <what>, <cond>, and <spec> work as follows:\n" +
+		"        <what> is any one of: pos, word, words, syllables\n" +
+		"        <cond> depends on the <what> used:\n" +
+		"                <what>    | valid <cond>\n" +
+		"                ----------|------------------------------------\n" +
+		"                pos       | any one of: is, has, like\n" +
+		"                word      | any one of: starts, ends, has, like\n" +
+		"                words     | any one of: first, last\n" +
+		"                syllables | any one of: <, <=, =, >=, >\n" +
+		"        <spec> depends on the <cond> used:\n" +
+		"                <cond>                       | valid <spec>\n" +
+		"                -----------------------------|----------------------\n" +
+		"                is, has, starts, ends        | any string of letter(s)\n" +
+		"                <, <=, =, >=, >, first, last | any whole number > 0\n" +
+		"                like                         | any string of letter(s) and\n" +
+		"                                             |     wildcard asterisk(s)\n" +
 		"/update\n" +
+		"        download and update the dictionary file\n" +
 		"/commands\n" +
+		"        show this commands help text\n" +
 		"/help\n" +
-		"/exit\n"
+		"        show main help text\n" +
+		"/exit\n" +
+		"        exit/quit the program (aliases /quit /q /wc)\n"
 
 	// prompt suggest strings
 	texts["/setDesc"] = "set option(s)"
@@ -111,26 +116,6 @@ func init() {
 	texts["not-isDesc"] = "exact matches of not condition"
 	texts["!=Desc"] = "syllable count not equal"
 
-	// flag strings
-	texts["usage"] = "usage"
-	texts["bin"] = strings.ToLower(texts["name"])
-	texts["options"] = "options"
-	texts["words"] = "words"
-	texts["usageV"] = "show program & dictionary version numbers"
-	texts["usageL"] = "use specified language \n\tValid values: " + texts["languages"]
-	texts["usageI"] = "display infix location data"
-	texts["usageIPA"] = "display IPA data"
-	texts["usageS"] = "display source data"
-	texts["usageP"] = "search for word(s) with specified part of speech"
-	texts["usageR"] = "reverse the lookup direction from Na'vi->local to local->Na'vi"
-	texts["usageA"] = "find all matches by using affixes to match the input word"
-	texts["usageN"] = "convert numbers octal<->decimal"
-	texts["usageM"] = "format output in markdown for bold and italic (mostly useful for fwew-discord bot)"
-	texts["usageF"] = "filename of file to read as input"
-	texts["usageC"] = "edit variable in configuration file"
-	texts["usageD"] = "enable debug mode"
-	texts["defaultFilter"] = "all"
-
 	// file strings
 	texts["homeDir"], _ = filepath.Abs(usr.HomeDir)
 	texts["dataDir"] = filepath.Join(texts["homeDir"], ".fwew")
@@ -177,6 +162,26 @@ func init() {
 	texts["POSFilters"] += "vtrm., vtr.part., intj.vin., svin.prop.n.affixvin., intj.dem.dem., n.sbd.n., adv."
 	texts["POSFilters"] += "adj., n.adj., adv.adj., intj.dem., pn.vtr., vin.adv., intj.pn., adv.ph.vin., vtr.adj.,  conj."
 	texts["prompt"] = "~~> "
+
+	// flag strings
+	texts["usage"] = "usage"
+	texts["bin"] = strings.ToLower(texts["name"])
+	texts["options"] = "options"
+	texts["words"] = "words"
+	texts["usageV"] = "show program & dictionary version numbers"
+	texts["usageL"] = "use specified language \n\tValid values: " + texts["languages"]
+	texts["usageI"] = "display infix location data"
+	texts["usageIPA"] = "display IPA data"
+	texts["usageS"] = "display source data"
+	texts["usageP"] = "search for word(s) with specified part of speech"
+	texts["usageR"] = "reverse the lookup direction from Na'vi->local to local->Na'vi"
+	texts["usageA"] = "find all matches by using affixes to match the input word"
+	texts["usageN"] = "convert numbers octal<->decimal"
+	texts["usageM"] = "format output in markdown for bold and italic (mostly useful for fwew-discord bot)"
+	texts["usageF"] = "filename of file to read as input"
+	texts["usageC"] = "edit variable in configuration file"
+	texts["usageD"] = "enable debug mode"
+	texts["defaultFilter"] = "all"
 }
 
 // Text function is the accessor for []string texts
