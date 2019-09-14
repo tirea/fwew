@@ -1,5 +1,5 @@
 bin/fwew
-debug.txt
+debug*.txt
 input*.txt
 output*.txt
 .DS_Store
