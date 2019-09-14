@@ -17128,7 +17128,7 @@
 13007	de	lìmsimpe	ˈlɪm.sim.pɛ	NULL	inter.	wie weit weg, wie nah	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13007	eng	lìmsimpe	ˈlɪm.sim.pɛ	NULL	inter.	how near, how far	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13007	nl	lìmsimpe	ˈlɪm.sim.pɛ	NULL	inter.	hoe ver weg	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
-13008	de	keynven	k·ɛjn.ˈvɛn	k<0><1><2>eynven	vin.	stehen	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
+13008	de	keynven	k·ɛjn.ˈvɛn	k<0><1><2>eynven	vin.	treten, auftreten, schreiten, einen Schritt machen	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13008	eng	keynven	k·ɛjn.ˈvɛn	k<0><1><2>eynven	vin.	step	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13008	nl	keynven	k·ɛjn.ˈvɛn	k<0><1><2>eynven	vin.	stappen	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
 13009	de	ralke	ˈɾal.kɛ	NULL	adj.	bedeutungslos, sinnlos, ohne Inhalt	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/
