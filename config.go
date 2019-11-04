@@ -116,7 +116,6 @@ func WriteConfig(entry string) Config {
 	} else {
 		fmt.Println(Text("configSyntaxError"))
 	}
-	fmt.Println()
 	return config
 }
 
