@@ -4,7 +4,7 @@
 
 The Best Na'vi Dictionary on the Command Line
 
-Fwew is written using the Go Programming Language and is a cross-platform binary text-based program for dictionary lookups. 
+Fwew is written using the Go Programming Language and is a cross-platform text-based program for dictionary lookups.
 Primarily for the [Na'vi language](https://learnnavi.org). 
 See the [LearnNavi Forum thread](https://forum.learnnavi.org/projects/fwew-a-better-crossplatform-navi-dictionary-terminal-app/).
 
