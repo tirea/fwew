@@ -10160,14 +10160,14 @@
 7268	pl	lisre+	ˈli.sɾɛ	NULL	adp.	do, przed, aż do, ale nie później	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7268	ru	lisre+	ˈli.sɾɛ	NULL	adp.	до того (о времени)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7268	sv	lisre+	ˈli.sɾɛ	NULL	adp.	fram tills, före	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	de	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	sich etwas vorstellen, ausmalen, imaginieren (komp. aus ronsem Geist, rel Bild, ngop erschaffen, Umgangssprache [ˈɾon.sɾɛl.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	eng	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	imagine, envision (c.w. of ronsem mind, rel picture, ngop create, casual pronunciation [ˈɾon.sɾɛl.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	est	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	kujutle, kujuta ette  (tuletatud sõnadest ronsem mõistus, rel pilt, ngop clooma, kõnekeelselt [ˈɾon.sɾɛl.ŋ·op̚] 	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	hu	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	elképzel, felidéz  (eredete: ronsem elme, rel kép, ngop alkot, köznapi kiejtése [ˈɾon.sɾɛl.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	de	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	sich etwas vorstellen, ausmalen, imaginieren (komp. aus ronsem Geist, rel Bild, ngop erschaffen, Umgangssprache [ˈɾon.sɾɛw.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	eng	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	imagine, envision (c.w. from ronsem mind, rel picture, ngop create, casual pronunciation [ˈɾon.sɾɛw.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	est	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	kujutle, kujuta ette  (tuletatud sõnadest ronsem mõistus, rel pilt, ngop clooma, kõnekeelselt [ˈɾon.sɾɛw.ŋ·op̚] 	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	hu	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	elképzel, felidéz  (eredete: ronsem elme, rel kép, ngop alkot, köznapi kiejtése [ˈɾon.sɾɛw.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7272	nl	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	verbeelden, zich voorstellen (c.w. van ronsem geest, rel afbeelding, ngop maken, spreektaal [ˈɾon.sɾɛw.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	pl	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	wyobrażać, używać wyobaźni (zł. ronsem umysł, rel obraz oraz ngop tworzyć, wymowa potoczna [ˈɾon.sɾɛl.ŋ·op̚])	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	ru	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	вообразить, предвидеть (с.с. от ronsem разум, rel картинка, ngop создать, разговорное произношение [ˈɾon.sɾɛl.ŋ·op̚])	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
-7272	sv	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	föreställa sig, visionera (sammansättn. ronsem sinne, rel bild, ngop skapa, vardagligt uttal [ˈɾon.sɾɛl.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	pl	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	wyobrażać, używać wyobaźni (zł. ronsem umysł, rel obraz oraz ngop tworzyć, wymowa potoczna [ˈɾon.sɾɛw.ŋ·op̚])	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	ru	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	вообразить, предвидеть (с.с. от ronsem разум, rel картинка, ngop создать, разговорное произношение [ˈɾon.sɾɛw.ŋ·op̚])	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
+7272	sv	ronsrelngop	ˈɾon.sɾɛl.ŋ·op̚	ronsrelng<0><1><2>op	vtr.	föreställa sig, visionera (sammansättn. ronsem sinne, rel bild, ngop skapa, vardagligt uttal [ˈɾon.sɾɛw.ŋ·op̚] )	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7276	de	ronsrel	ˈɾon.sɾɛl	NULL	n.	Vorgestelltes, Ausgemaltes, Imaginiertes	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7276	eng	ronsrel	ˈɾon.sɾɛl	NULL	n.	something imagined	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
 7276	est	ronsrel	ˈɾon.sɾɛl	NULL	n.	kujuteldav asi	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/
@@ -17050,9 +17050,9 @@
 12981	de	kom	k·om	k<0><1><2>om	vim.	wagen (etwas zu tun), sich trauen (etwas zu tun)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12981	eng	kom	k·om	k<0><1><2>om	vim.	dare	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12981	nl	kom	k·om	k<0><1><2>om	vim.	durven	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12982	de	mam	mam	mam	vtr.	wickeln, einwickeln, umwickeln	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12982	eng	mam	mam	mam	vtr.	wrap	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12982	nl	mam	mam	mam	vtr.	eromheen doen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12982	de	mam	m·am	m<0><1><2>am	vtr.	wickeln, einwickeln, umwickeln	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12982	eng	mam	m·am	m<0><1><2>am	vtr.	wrap	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12982	nl	mam	m·am	m<0><1><2>am	vtr.	eromheen doen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12983	de	yomvey	j·om.ˈvɛj	y<0><1><2>omvey	vin.	sich von Fleisch ernähren, fleischfressend sein	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12983	eng	yomvey	j·om.ˈvɛj	y<0><1><2>omvey	vin.	dine on flesh, be caniverous (ii)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12983	nl	yomvey	j·om.ˈvɛj	y<0><1><2>omvey	vin.	vlees eten, carnivoor zijn (ii)	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
@@ -17143,6 +17143,51 @@
 13012	de	säsrese'a	sæ.sɾɛ.sɛ.ˈʔa	NULL	n.	Vorhersage, Vorraussage	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/#comment-30279
 13012	eng	säsrese'a	sæ.sɾɛ.sɛ.ˈʔa	NULL	n.	a prediction	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/#comment-30279
 13012	nl	säsrese'a	sæ.sɾɛ.sɛ.ˈʔa	NULL	n.	verwachting	http://naviteri.org/2019/08/aawa-lifya-si-lifyavi-amip-a-few-new-words-and-expressions/#comment-30279
+13013	eng	fyìpmaut	ˈfjɪp.ma.ut̚	NULL	n.	squid fruit tree	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13013	nl	fyìpmaut	ˈfjɪp.ma.ut̚	NULL	n.	inktvisvrucht boom	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13014	eng	fyìp	fjɪp̚	NULL	n.	tendril, tentacle	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13014	nl	fyìp	fjɪp̚	NULL	n.	tentakel, rank	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13015	eng	koaktutral	ko.ˈak.tut.ɾal	NULL	n.	goblin thistle	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13015	nl	koaktutral	ko.ˈak.tut.ɾal	NULL	n.	kobold distel	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13016	eng	lanutral	ˈla.nut.ɾal	NULL	n.	dandetiger	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13016	nl	lanutral	ˈla.nut.ɾal	NULL	n.	tijgertand boom	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13017	eng	lan	lan	NULL	n.	resin	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13017	nl	lan	lan	NULL	n.	hars	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13018	eng	paysyul	ˈpaj.sjul	NULL	n.	water lily	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13018	nl	paysyul	ˈpaj.sjul	NULL	n.	waterlelie	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13019	eng	rumaut	ˈɾu.ma.ut̚	NULL	n.	cannonball fruit tree	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13019	nl	rumaut	ˈɾu.ma.ut̚	NULL	n.	kogelvrucht boom	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13020	eng	tsawksyul	ˈt͡sawk.sjul	NULL	n.	sun lily	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13020	nl	tsawksyul	ˈt͡sawk.sjul	NULL	n.	zonnelelie	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13021	eng	tumpasuk	ˈtum.pa.suk̚	NULL	n.	celia fruit tree	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13021	nl	tumpasuk	ˈtum.pa.suk̚	NULL	n.	celiavrucht boom	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13022	eng	fyuatx	fju.ˈat'	NULL	n.	anemonoid	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13022	nl	fyuatx	fju.ˈat'	NULL	n.	anemonoïde	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13023	eng	lortsyal	ˈloɾ.t͡sjal	NULL	n.	shimmyfly	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13023	nl	lortsyal	ˈloɾ.t͡sjal	NULL	n.	flitsvlieg	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13024	eng	nalutsa	na.ˈlu.t͡sa	NULL	n.	large armored whalelike sea creature	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13024	nl	nalutsa	na.ˈlu.t͡sa	NULL	n.	groot gepantserd walvisachtig zeewezen	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13025	eng	skuka	ˈsku.ka	NULL	n.	sagittaria	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13025	nl	skuka	ˈsku.ka	NULL	n.	sagittaria	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13026	eng	srakat	ˈsɾa.kat̚	NULL	n.	dinicthoid	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13026	nl	srakat	ˈsɾa.kat̚	NULL	n.	dinicthoïde	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13027	eng	tsiki	ˈt͡si.ki	NULL	n.	reef tick	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13027	nl	tsiki	ˈt͡si.ki	NULL	n.	rifteek	http://naviteri.org/2019/07/mipa-ayewll-mipa-ayioang-new-plants-new-animals/ (31 JUL 2019)
+13028	eng	teylupil	ˈtɛj.lu.pil	NULL	n.	teylu-face (vulgar)	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13028	nl	teylupil	ˈtɛj.lu.pil	NULL	n.	teylu-gezicht (belediging)	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13029	eng	kalweyaveng	kal.ˈwɛj.a.vɛŋ	NULL	n.	son of a bitch (vulgar)	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13029	nl	kalweyaveng	kal.ˈwɛj.a.vɛŋ	NULL	n.	hoerenzoon (belediging) let.: 'zoon van een gifspin'	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13030	eng	txanfwìngtu	t'an.ˈfwɪŋ.tu	NULL	n.	bastard, loser (vulgar)	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13030	nl	txanfwìngtu	t'an.ˈfwɪŋ.tu	NULL	n.	bastaard loser (belediging) let.: 'iemand met veel vernedering'	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13031	eng	kurkung	ˈkuɾ.kuŋ	NULL	n.	asshole (vulgar)	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13031	nl	kurkung	ˈkuɾ.kuŋ	NULL	n.	rotzak (belediging) let.: 'rottende vlecht'	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13032	eng	kung	kuŋ	NULL	adj.	putrid, fetid, rotten	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13032	nl	kung	kuŋ	NULL	adj.	smerig, stinkend, rottend	http://naviteri.org/2019/09/choice-statements-vs-choice-questions-and-some-insults/ (30 SEP 2019)
+13033	eng	stä'nìpam	ˈstæʔ.nɪ.pam	NULL	n.	recording	http://naviteri.org/2019/10/vurway-alor-a-beautiful-narrative-poem-2/
+13033	nl	stä'nìpam	ˈstæʔ.nɪ.pam	NULL	n.	opname (van geluid)	http://naviteri.org/2019/10/vurway-alor-a-beautiful-narrative-poem-2/
+13034	eng	stä'nìpam si	ˈstæʔ.nɪ.pam s·i	stä'nìpam s<0><1><2>i	vin.	to record	http://naviteri.org/2019/10/vurway-alor-a-beautiful-narrative-poem-2/
+13034	nl	stä'nìpam si	ˈstæʔ.nɪ.pam s·i	stä'nìpam s<0><1><2>i	vin.	opnemen (van geluid)	http://naviteri.org/2019/10/vurway-alor-a-beautiful-narrative-poem-2/
+13035	eng	pxoe	ˈp'o.ɛ	NULL	pn.	we three, us three (exclusive)	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Trials_.26_transitivity
 -2	eng	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord
