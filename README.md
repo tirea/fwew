@@ -49,7 +49,7 @@ setx GOPATH %USERPROFILE%\go            # Set GOPATH variable to newly created g
 Then in a new Powershell window:
 
 ```
-cd go\src                               # This is where we will download the fwew source code
+cd $HOME\go\src                               # This is where we will download the fwew source code
 go get github.com/c-bata/go-prompt      # Install the go-prompt library (fwew depends on this library)
 git clone https://github.com/tirea/fwew # Download the code
 cd fwew                                 # Go to where the code is before trying to build it
