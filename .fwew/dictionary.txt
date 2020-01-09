@@ -998,7 +998,7 @@
 680	sv	kä	k·æ	k<0><1><2>ä	vin.	åka, gå, fara	Taronyu's dictionary 9.75 < Frommer
 684	de	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	giftige Spinnenart	Taronyu's dictionary -> Survival Guide
 684	eng	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	species of poisonous arachnid	Taronyu's dictionary -> Survival Guide
-684	est	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	mürgise ämbliku liik	Taronyu's dictionary -> Survival Guide
+684	est	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	astelämblik	Taronyu's dictionary -> Survival Guide
 684	hu	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	mérgező pókszabású állat (pandorai állatfaj)	Taronyu's dictionary -> Survival Guide
 684	nl	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	giftige spinnensoort	Taronyu's dictionary -> Survival Guide
 684	pl	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	scorpiosista virosae, arachnoid	Taronyu's dictionary -> Survival Guide
@@ -8514,7 +8514,7 @@
 6116	sv	kem si	ˈkɛm ˈs·i	kem s<0><1><2>i	vin.	göra	NULL
 6120	de	tswin	t͡swin	NULL	n.	Queue, geflochtener Zopf (für tsaheylu)	Frommers Blog (11. July 2010) http://naviteri.org/2010/07/diminutives-conversational-expressions/
 6120	eng	tswin	t͡swin	NULL	n.	queue, braid	Frommers Blog (11. July 2010) http://naviteri.org/2010/07/diminutives-conversational-expressions/
-6120	est	tswin	t͡swin	NULL	n.	juuksepats, Na'videl olev närvipats (sideme loomiseks)	Frommers Blog (11. July 2010) http://naviteri.org/2010/07/diminutives-conversational-expressions/
+6120	est	tswin	t͡swin	NULL	n.	juuksepats, Na'videl olev närvipats (sideme loomiseks), närvipats	Frommers Blog (11. July 2010) http://naviteri.org/2010/07/diminutives-conversational-expressions/
 6120	hu	tswin	t͡swin	NULL	n.	copf, idegköteg	Frommers Blog (11. July 2010) http://naviteri.org/2010/07/diminutives-conversational-expressions/
 6120	nl	tswin	t͡swin	NULL	n.	vlecht, staart	Frommers Blog (11. July 2010) http://naviteri.org/2010/07/diminutives-conversational-expressions/
 6120	pl	tswin	t͡swin	NULL	n.	warkocz	Frommers Blog (11. July 2010) http://naviteri.org/2010/07/diminutives-conversational-expressions/
@@ -17188,12 +17188,18 @@
 13034	eng	stä'nìpam si	ˈstæʔ.nɪ.pam s·i	stä'nìpam s<0><1><2>i	vin.	to record	http://naviteri.org/2019/10/vurway-alor-a-beautiful-narrative-poem-2/
 13034	nl	stä'nìpam si	ˈstæʔ.nɪ.pam s·i	stä'nìpam s<0><1><2>i	vin.	opnemen (van geluid)	http://naviteri.org/2019/10/vurway-alor-a-beautiful-narrative-poem-2/
 13035	eng	pxoe	ˈp'o.ɛ	NULL	pn.	we three, us three (exclusive)	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Trials_.26_transitivity
+13036	eng	lìktap	ˈlɪk.tap̚	NULL	adj.	crooked	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)
+13037	eng	ventil	ˈven.til	NULL	n.	ankle	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)
+13038	eng	hupx	h·up'	h<0><1><2>upx	vtr.	miss, not hit a target	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)
+13039	eng	tsawtsray	ˈt͡saw.t͡sɾaj	NULL	n.	small or medium-sized city	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)
+13040	eng	txantsawtsray	t'an.ˈt͡saw.t͡sɾaj	NULL	n.	large city, metropolis	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)
 -2	eng	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -1	eng	Vawmataw	ˈvaw.ma.taw	NULL	meme.	The Right Honourable Vawmataw, by the grace of Eywa of Hangvurburg Earl, Lord Memeyu, Head of the Skxawngs, defender of the memes	LN Discord
 -1	de	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Der sehr ehrenwerte Vawmataw, von Eywas Gnaden Graf von Hangham, Herr Memeyu, Oberhaupt der Skxawngs, Verteidiger der Memes	LN Discord
 -1	nl	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Zijne Koninklijke Hoogheid Vawmataw, bij gratie van Eywa, Hertog van de Hangvurburcht, Heer Memeyu, Opperhoofd van de Skxawngs, verdediger van de memes	LN Discord
+-1	fr	Vawmataw	'vaw.ma.taw	NULL	meme.	Le Très Honorable Vawmataw, par la grâce d'Eywa comte de Hangvourbourg, Seigneur des Mèmes, Chef des Skawngs, défenseur des mèmes	LN Discord
 0	eng	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
 0	nl	Eywa	ˈɛj.wa	NULL	meme.	Wie is Eywa? Alleen maar hun godheid! Hun godin, die bestaat uit alle levende dingen. Alles wat ze kennen! Als je ook maar een beetje training had gehad, had je dat allang geweten.	JCA
 2	eng	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
