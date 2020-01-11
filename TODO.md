@@ -2,7 +2,6 @@
 
 ### BUGS
 
-- fix Xsiyu
 - fix /random n to first do all the where filtering before truncating 
   to n number of words;
   allows /random n where a b c and d e f [and g h i...]
