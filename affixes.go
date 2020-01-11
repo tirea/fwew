@@ -292,20 +292,20 @@ func lenite(w Word) Word {
 	if _, ok := w.Affixes["lenition"]; ok {
 		return w
 	}
-	lenTable := map[string]string{
-		"kx": "k",
-		"px": "p",
-		"tx": "t",
-		"k":  "h",
-		"p":  "f",
-		"ts": "s",
-		"t":  "s",
-		"'":  "",
+	lenTable := [8][2]string{
+		{"kx", "k"},
+		{"px", "p"},
+		{"tx", "t"},
+		{"k", "h"},
+		{"p", "f"},
+		{"ts", "s"},
+		{"t", "s"},
+		{"'", ""},
 	}
-	for k, v := range lenTable {
-		if strings.HasPrefix(w.Navi, k) {
-			w.Attempt = strings.Replace(w.Attempt, k, v, 1)
-			w.Affixes["lenition"] = append(w.Affixes["lenition"], k+"→"+v)
+	for _, v := range lenTable {
+		if strings.HasPrefix(w.Navi, v[0]) {
+			w.Attempt = strings.Replace(w.Attempt, v[0], v[1], 1)
+			w.Affixes["lenition"] = append(w.Affixes["lenition"], v[0]+"→"+v[1])
 			return w
 		}
 	}
@@ -338,7 +338,7 @@ func Reconstruct(w Word) Word {
 
 	w = prefix(w)
 	if *debug {
-		fmt.Println("PREFIX")
+		fmt.Println("PREFIX w")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
 	if matches(w) {
@@ -347,7 +347,7 @@ func Reconstruct(w Word) Word {
 
 	w = suffix(w)
 	if *debug {
-		fmt.Println("SUFFIX")
+		fmt.Println("SUFFIX w")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
 	if matches(w) {
@@ -357,7 +357,7 @@ func Reconstruct(w Word) Word {
 	if !strings.HasPrefix(w.Attempt, w.Target[0:1]) {
 		w = lenite(w)
 		if *debug {
-			fmt.Println("LENITE")
+			fmt.Println("LENITE w")
 			fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 		}
 		if matches(w) {
@@ -367,7 +367,7 @@ func Reconstruct(w Word) Word {
 
 	w = lenite(w)
 	if *debug {
-		fmt.Println("LENITE")
+		fmt.Println("LENITE w")
 		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
 	}
 	if matches(w) {
@@ -375,16 +375,28 @@ func Reconstruct(w Word) Word {
 	}
 
 	wl = lenite(wl)
+	if *debug {
+		fmt.Println("LENITE wl")
+		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
+	}
 	if matches(wl) {
 		return wl
 	}
 
 	wl = prefix(wl)
+	if *debug {
+		fmt.Println("PREFIX wl")
+		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
+	}
 	if matches(wl) {
 		return wl
 	}
 
 	wl = suffix(wl)
+	if *debug {
+		fmt.Println("SUFFIX wl")
+		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
+	}
 	if matches(wl) {
 		return wl
 	}
