@@ -50,13 +50,16 @@ func prefix(w Word) Word {
 		}
 	}
 
-	if strings.HasPrefix(w.Attempt, "e") {
-		reString = reString + "(e)?"
-		w.Attempt = w.Attempt[1:]
-	} else if strings.HasPrefix(w.Attempt, "'e") {
-		reString = reString + "('e)?"
-		w.Attempt = w.Attempt[2:]
+	if strings.HasPrefix(w.Target, "me") || strings.HasPrefix(w.Target, "pxe") || strings.HasPrefix(w.Target, "pe") {
+		if strings.HasPrefix(w.Attempt, "e") {
+			reString = reString + "(e)?"
+			w.Attempt = w.Attempt[1:]
+		} else if strings.HasPrefix(w.Attempt, "'e") {
+			reString = reString + "('e)?"
+			w.Attempt = w.Attempt[2:]
+		}
 	}
+
 	reString = reString + w.Attempt + ".*"
 	if *debug {
 		fmt.Printf("Prefix reString: %s\n", reString)
@@ -95,6 +98,7 @@ func prefix(w Word) Word {
 func suffix(w Word) Word {
 	var (
 		re            *regexp.Regexp
+		tmp           [][]string
 		reString      string
 		attempt       string
 		matchSuffixes []string
@@ -156,7 +160,11 @@ func suffix(w Word) Word {
 		fmt.Printf("Suffix reString: %s\n", reString)
 	}
 	re = regexp.MustCompile(reString)
-	tmp := re.FindAllStringSubmatch(w.Target, -1)
+	if strings.HasSuffix(w.Target, "siyu") {
+		tmp = re.FindAllStringSubmatch(strings.Replace(w.Target, "siyu", " siyu", -1), -1)
+	} else {
+		tmp = re.FindAllStringSubmatch(w.Target, -1)
+	}
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
 		matchSuffixes = tmp[0][1:]
 	}
@@ -185,6 +193,9 @@ func suffix(w Word) Word {
 		}
 	}
 	w.Attempt = w.Attempt + attempt
+	if strings.Contains(w.Attempt, " ") && strings.HasSuffix(w.Attempt, "siyu") {
+		w.Attempt = strings.Replace(w.Attempt, " siyu", "siyu", -1)
+	}
 	w.Affixes[Text("suf")] = matchSuffixes
 	return w
 }
@@ -312,8 +323,6 @@ func Reconstruct(w Word) Word {
 
 	// clone w as wl
 	wl := CloneWordStruct(w)
-	// wl will be the lenited version of w
-	wl = lenite(wl)
 
 	// only try to infix verbs
 	if strings.HasPrefix(w.PartOfSpeech, "v") || strings.HasPrefix(w.PartOfSpeech, "svin.") {
@@ -335,9 +344,14 @@ func Reconstruct(w Word) Word {
 	if matches(w) {
 		return w
 	}
-	wl = prefix(wl)
-	if matches(wl) {
-		return wl
+
+	w = suffix(w)
+	if *debug {
+		fmt.Println("SUFFIX")
+		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
+	}
+	if matches(w) {
+		return w
 	}
 
 	if !strings.HasPrefix(w.Attempt, w.Target[0:1]) {
@@ -351,19 +365,6 @@ func Reconstruct(w Word) Word {
 		}
 	}
 
-	w = suffix(w)
-	if *debug {
-		fmt.Println("SUFFIX")
-		fmt.Printf("Navi: %s | Attempt: %s | Target: %s\n", w.Navi, w.Attempt, w.Target)
-	}
-	if matches(w) {
-		return w
-	}
-	wl = suffix(wl)
-	if matches(wl) {
-		return wl
-	}
-
 	w = lenite(w)
 	if *debug {
 		fmt.Println("LENITE")
@@ -371,6 +372,21 @@ func Reconstruct(w Word) Word {
 	}
 	if matches(w) {
 		return w
+	}
+
+	wl = lenite(wl)
+	if matches(wl) {
+		return wl
+	}
+
+	wl = prefix(wl)
+	if matches(wl) {
+		return wl
+	}
+
+	wl = suffix(wl)
+	if matches(wl) {
+		return wl
 	}
 
 	if *debug {
