@@ -2,7 +2,6 @@
 
 ### BUGS
 
-- add support for pem+ and pep+ prefixes (counterparts of pay+)
 - add plurals/genders of pesu
 - fix /random n to first do all the where filtering before truncating 
   to n number of words;
@@ -17,7 +16,6 @@
 
 ### FEATURES
 
-- Add proper nouns to dict
 - add all affixes and their definitions to the dictionary file
 - implement /list tag [is|has] tag
   modal, ofp, nfp, uncountable, irregular infix, body part, family,
