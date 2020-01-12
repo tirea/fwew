@@ -28,7 +28,7 @@
 - implement `/prefixes`
 - implement `/list infixes {pos} {pro|unpro|all}`
 - implement `/infixes`
-- implement /list suffixes {pos} {pro|unpro|all}`
+- implement `/list suffixes {pos} {pro|unpro|all}`
 - implement `/suffixes`
 - implement `/lenition` (with alias: `/len` )
 - merge fr, hu, est into dict
