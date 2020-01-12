@@ -2,6 +2,8 @@
 
 ### BUGS
 
+- add support for pem+ and pep+ prefixes (counterparts of pay+)
+- add plurals/genders of pesu
 - fix /random n to first do all the where filtering before truncating 
   to n number of words;
   allows /random n where a b c and d e f [and g h i...]
