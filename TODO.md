@@ -2,32 +2,40 @@
 
 ### BUGS
 
-- add plurals/genders of pesu
 - fix /random n to first do all the where filtering before truncating 
-  to n number of words;
-  allows /random n where a b c and d e f [and g h i...]
-  to actually yield results
+  Repro:
+  `/random 5 where pos is n. and word starts l`
 - fix /list to give actually specified number of words even after filtering
+  Repro:
+  `/list words last 10 and pos not-is meme.`
 
 ### Testing
 
 - more code coverage
-- more cases
+- more test cases
 
 ### FEATURES
 
+- add all forms of pesu from Horen 3.4.1.1 to the dictionary file
 - add all affixes and their definitions to the dictionary file
-- implement /list tag [is|has] tag
-  modal, ofp, nfp, uncountable, irregular infix, body part, family,
-  waterfalls, senses, si-verbs
-- implement /list prefixes [pos] [pro|unpro|all]
-- implement /list infixes [pos] [pro|unpro|all]
-- implement /list suffixes [pos] [pro|unpro|all]
-- implement /lenition ( /len )
+- implement `/list tag [is|has] tag`
+  Tag ideas:
+  modal, ofp, nfp, uncountable, ii, body, family,
+  waterfall, sense, si-verbs, F-word, Tsa-word,
+  emotion, lenition, color, flora, fauna, linguistics,
+  loan, Disney, time, weather, music...
+- implement `/list prefixes {pos} {pro|unpro|all}`
+- implement `/prefixes`
+- implement `/list infixes {pos} {pro|unpro|all}`
+- implement `/infixes`
+- implement /list suffixes {pos} {pro|unpro|all}`
+- implement `/suffixes`
+- implement `/lenition` (with alias: `/len` )
 - merge fr, hu, est into dict
 
 ### Refactoring & Optimization
 
 - how can affixes.go be more efficient?
 
-**Always remember to update util/version.go if major/minor changes are made to what it produces or how it works**
+**Always remember to update util/version.go if major/minor changes are made 
+to what it produces or how it works**
