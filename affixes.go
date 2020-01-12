@@ -38,11 +38,13 @@ func prefix(w Word) Word {
 			reString = "(a|tì)?"
 		} else if strings.Contains(w.Target, "ketsuk") || strings.Contains(w.Target, "tsuk") {
 			reString = "(a)?(ketsuk|tsuk)?"
+		} else if strings.Contains(w.Target, "siyu") && w.PartOfSpeech == "vin." {
+			reString = "^(pep|pem|pe|fray|tsay|fay|pay|fra|fì|tsa)?(ay|me|pxe|pe)?(fne)?(munsna)?"
 		}
 	} else {
 		switch w.PartOfSpeech {
 		case "n.", "pn.":
-			reString = "^(pe|fray|tsay|fay|pay|fra|fì|tsa)?(ay|me|pxe|pe)?(fne)?(munsna)?"
+			reString = "^(pep|pem|pe|fray|tsay|fay|pay|fra|fì|tsa)?(ay|me|pxe|pe)?(fne)?(munsna)?"
 		case "adj.":
 			reString = "^(nìk|nì|a)?(ke|a)?"
 		default:
