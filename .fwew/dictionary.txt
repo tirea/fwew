@@ -17241,7 +17241,6 @@
 13086	eng	Swotulu	ˈswo.tu.lu	NULL	prop.n.	sacred river	https://forum.learnnavi.org/language-updates/landscape-words/msg161645/#msg161645 (28 Mar 2010)
 13087	eng	Swotu Wayä	ˈswo.tu ˈwaj.æ	NULL	prop.n.	sacred place of song	https://forum.learnnavi.org/language-updates/expansion-to-flora-fauna-and-places-from-the-valley-of-mo'ara/ (21 May 2019)
 13088	eng	Tawkami	taw.ˈka.mi	NULL	prop.n.	Na'vi Clan name	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)
-13089	eng	Tawtute	ˈtaw.tu.tɛ	NULL	prop.n.	Sky-person, human	NULL
 13090	eng	Tipani	ˈti.pa.ni	NULL	prop.n.	Na'vi Clan name	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)
 13091	eng	Tonowari	to.no.ˈwa.ɾi	NULL	prop.n.	male Na'vi of the Metkayina Clan	https://learnnavi.org/2017/05/09/cliff-curtis-joins-cast-for-avatar-sequels/ (09 May 2017)
 13092	eng	Tsahìk	ˈt͡sa.hɪk̚	NULL	prop.n.	matriarch, high priestess, interpreter	https://en.wiktionary.org/wiki/Appendix:Na'vi
