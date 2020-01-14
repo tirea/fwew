@@ -806,6 +806,8 @@ func slashCommand(s string, argsMode bool) {
 		nargs   int
 		setArg  string
 		confArg string
+		k       int
+		err     error
 	)
 	sc = strings.Split(s, space)
 	sc = DeleteEmpty(sc)
@@ -891,6 +893,38 @@ func slashCommand(s string, argsMode bool) {
 						log.Fatal(err)
 					}
 					printResults(randomSubset(k, listWords(fargs)))
+				}
+			} else if nFargs > 3 {
+				//validate length of fargs, needs to be 4n-1
+				valid := false
+				// 10 nested query triplets is insane overkill
+				for n := 1; n <= 10; n++ {
+					if 4*n-1 == nFargs {
+						valid = true
+						break
+					}
+				}
+				if !valid {
+					fmt.Println()
+					return
+				}
+				for i := 0; i < nFargs; i += 4 {
+					exprs = append(exprs, fargs[i:i+3])
+				}
+				if exprs != nil {
+					subset := listWords(exprs[0])
+					for _, expr := range exprs[1:] {
+						subset = listWordsSubset(expr, subset)
+					}
+					if args[0] == "random" {
+						k = -1337
+					} else {
+						k, err = strconv.Atoi(args[0])
+						if err != nil {
+							log.Fatal(err)
+						}
+					}
+					printResults(randomSubset(k, subset))
 				}
 			}
 		} else {
