@@ -2,9 +2,6 @@
 
 ### BUGS
 
-- fix /random n to first do all the where filtering before truncating  
-Repro:  
-`/random 5 where pos is n. and word starts l`
 - fix /list to give actually specified number of words even after filtering  
 Repro:  
 `/list words last 10 and pos not-is meme.`
