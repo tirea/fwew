@@ -15,7 +15,7 @@ Repro:
   modal, ofp, nfp, uncountable, ii, body, family,  
   waterfall, sense, si-verbs, F-word, Tsa-word,  
   emotion, lenition, color, flora, fauna, linguistics,  
-  loan, Disney, time, weather, music...
+  loan, Disney, time, weather, <eyk>, music...
 - implement `/list prefixes {pos} {pro|unpro|all}`
 - implement `/prefixes`
 - implement `/list infixes {pos} {pro|unpro|all}`
