@@ -2818,14 +2818,14 @@
 1788	pl	si	s·i	s<0><1><2>i	vin.	czasownik posiłkowy robić, tworzyć	Frommer
 1788	ru	si	s·i	s<0><1><2>i	vin.	вспомогательный глагол, постпозиционный несвязный глагол делать	Frommer
 1788	sv	si	s·i	s<0><1><2>i	vin.	hjälpverb, ickebindande verb göra	Frommer
-1792	de	sì	sɪ	NULL	conj.	und (connects two things, can be attached as --sÃ¬: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1792	de	sì	sɪ	NULL	conj.	und (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
 1792	eng	sì	sɪ	NULL	conj.	and (connects two things, can be attached as sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1792	est	sì	sɪ	NULL	conj.	ja (connects two things, can be attached as --sÃ¬: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1792	hu	sì	sɪ	NULL	conj.	és (connects two things, can be attached as --sÃ¬: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1792	nl	sì	sɪ	NULL	conj.	en (connects two things, can be attached as --sÃ¬: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1792	pl	sì	sɪ	NULL	conj.	i (connects two things, can be attached as --sÃ¬: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1792	ru	sì	sɪ	NULL	conj.	и (connects two things, can be attached as --sÃ¬: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1792	sv	sì	sɪ	NULL	conj.	och (connects two things, can be attached as --sÃ¬: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1792	est	sì	sɪ	NULL	conj.	ja (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1792	hu	sì	sɪ	NULL	conj.	és (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1792	nl	sì	sɪ	NULL	conj.	en (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1792	pl	sì	sɪ	NULL	conj.	i (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1792	ru	sì	sɪ	NULL	conj.	и (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1792	sv	sì	sɪ	NULL	conj.	och (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi
 1796	de	sìk	sɪk̚	NULL	adv.	Zitat Ende (siehe auch san)	http://en.wiktionary.org/wiki/Appendix:Na'vi
 1796	eng	sìk	sɪk̚	NULL	adv.	unquote	http://en.wiktionary.org/wiki/Appendix:Na'vi
 1796	est	sìk	sɪk̚	NULL	adv.	otsekõne lõpp	http://en.wiktionary.org/wiki/Appendix:Na'vi
@@ -16407,11 +16407,11 @@
 11368	est	sävll	sæ.ˈvḷ	NULL	n.	märk, signaal, tähistus	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/ (31 Dec 2017)
 11368	hu	sävll	sæ.ˈvḷ	NULL	n.	jel, jelzés	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/ (31 Dec 2017)
 11368	nl	sävll	sæ.ˈvḷ	NULL	n.	teken, indicatie, signaal	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/ (31 Dec 2017)
-11376	de	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	NULL	n.	Nominalphrase (ein Teilsatz, dessen ausschlaggebendes oder zentrales Wort ein Substantiv ist)	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
-11376	eng	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	NULL	n.	noun phrase (phrase whose pivotal or central word is a noun)	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
-11376	est	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	NULL	n.	nimisõnaühend	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
-11376	hu	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	NULL	n.	főnévi kifejezés (főnevet tartalmazó kifejezés)	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
-11376	nl	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kÃ¬ŋ.vi	NULL	n.	naamwoordgroep, naamwoordelijk zinsdeel	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
+11376	de	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kɪŋ.vi	NULL	n.	Nominalphrase (ein Teilsatz, dessen ausschlaggebendes oder zentrales Wort ein Substantiv ist)	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
+11376	eng	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kɪŋ.vi	NULL	n.	noun phrase (phrase whose pivotal or central word is a noun)	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
+11376	est	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kɪŋ.vi	NULL	n.	nimisõnaühend	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
+11376	hu	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kɪŋ.vi	NULL	n.	főnévi kifejezés (főnevet tartalmazó kifejezés)	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
+11376	nl	tstxolì'ukìngvi	t͡st'o.ˈlɪʔ.u.kɪŋ.vi	NULL	n.	naamwoordgroep, naamwoordelijk zinsdeel	http://naviteri.org/2017/12/zisit-amip-lefpom-ma-eylan-happy-new-year-friends/#comment-27964 (01 Jan 2018)
 11380	de	kxì	k'ɪ	NULL	intj.	hi, hey (ungezwungene Begrüßung)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
 11380	eng	kxì	k'ɪ	NULL	intj.	hello (casual)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
 11380	est	kxì	k'ɪ	NULL	intj.	hei (lühike tervitus)	http://naviteri.org/2018/02/negative-questions-in-navi/ (28 Feb 2018)
