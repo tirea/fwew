@@ -25,6 +25,16 @@ Repro:
 - implement `/lenition` (with alias: `/len` )
 - merge fr, hu, est into dict
 
+### IDEAS
+
+- `/help <command>`
+- `/list <what> <cond> <spec> limit <n>`
+- Stress underlining rather than IPA default
+- `/examples <word> [limit <n>]`
+- `/define <jargony linguistics term>`
+- SQLite DB?
+- `/audio <Na'vi word(s)>`
+
 ### Testing
 
 - more code coverage
