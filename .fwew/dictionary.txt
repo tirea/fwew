@@ -8261,14 +8261,6 @@
 5768	nl	mìnyu	ˈmɪn.ju	NULL	n.	draaier, gedraaide lelie	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
 5768	ru	mìnyu	ˈmɪn.ju	NULL	n.	скрученная лилия	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
 5768	sv	mìnyu	ˈmɪn.ju	NULL	n.	tvinnad lilja	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-5772	de	mìnyu	ˈmɪn.ju	NULL	n.	Dreher, Drechsler	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-5772	eng	mìnyu	ˈmɪn.ju	NULL	n.	turner	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-5772	est	mìnyu	ˈmɪn.ju	NULL	n.	keeraja, pööraja	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-5772	hu	mìnyu	ˈmɪn.ju	NULL	n.	turner	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-5772	nl	mìnyu	ˈmɪn.ju	NULL	n.	draaier	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-5772	pl	mìnyu	ˈmɪn.ju	NULL	n.	tokarz	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-5772	ru	mìnyu	ˈmɪn.ju	NULL	n.	скрученная лилия	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
-5772	sv	mìnyu	ˈmɪn.ju	NULL	n.	vändare, tvistare	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
 5776	de	väfewll	ˈvæ.fɛ.wḷ	NULL	n.	Grüne Tausendfüßerpflanze, Stinkpflanze, Scolopendra virens	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
 5776	eng	väfewll	ˈvæ.fɛ.wḷ	NULL	n.	Centipede, badsmell plant	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
 5776	est	väfewll	ˈvæ.fɛ.wḷ	NULL	n.	Haisik (centipede)	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)
@@ -17218,7 +17210,6 @@
 13063	eng	Mo'ara	mo.ˈʔa.ɾa	NULL	prop.n.	a valley on Pandora (Note: Also the name of the Disney Pandora location)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 13064	eng	Mo'at	ˈmo.ʔat̚	NULL	prop.n.	tsahìk of the Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13065	eng	Mo'at'ite	mo.ʔat.ʔi.tɛ	NULL	prop.n.	daughter of Mo'at	NULL
-13066	eng	Na'vi	ˈnaʔ.vi	NULL	prop.n.	the People, indigenous Pandoran sentient race	JCA
 13067	eng	Naranawm	naɾ.a.ˈnawm	NULL	prop.n.	Polyphemus	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
 13068	eng	Nawmtoruktek	nawm.ˈto.ɾuk.tɛk̚	NULL	prop.n.	Toruk Makto Totem	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)
 13069	eng	Neteyam	nɛ.ˈtɛj.am	NULL	prop.n.	Jake and Neytiri's first born son	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
