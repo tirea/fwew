@@ -43,7 +43,7 @@ func prefix(w Word) Word {
 		}
 	} else {
 		switch w.PartOfSpeech {
-		case "n.", "pn.":
+		case "n.", "pn.", "prop.n.":
 			reString = "^(pep|pem|pe|fray|tsay|fay|pay|fra|fì|tsa)?(ay|me|pxe|pe)?(fne)?(munsna)?"
 		case "adj.":
 			reString = "^(nìk|nì|a)?(ke|a)?"
