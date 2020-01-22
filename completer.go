@@ -35,8 +35,8 @@ func executor(cmds string) {
 					printResults(fwew(cmd))
 				}
 			}
-		} else {
-			fmt.Println()
+		} else if len(csvCmds) == 1 {
+			fmt.Println("printing newline")
 		}
 	}
 }
