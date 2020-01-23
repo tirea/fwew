@@ -1006,7 +1006,9 @@ func main() {
 		for scanner.Scan() {
 			line := scanner.Text()
 			if !strings.HasPrefix(line, "#") && line != "" {
-				fmt.Printf("cmd %s\n", line)
+				if !*markdown {
+					fmt.Printf("cmd %s\n", line)
+				}
 				executor(line)
 			}
 		}
