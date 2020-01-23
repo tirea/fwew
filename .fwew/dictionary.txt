@@ -17248,6 +17248,7 @@
 13103	eng	Uniltaron	ˌu.nil.ˈta.ɾon	NULL	prop.n.	Dream Hunt	https://en.wiktionary.org/wiki/Appendix:Na'vi
 13104	eng	Utral Aymokriyä	ˈut.ɾal aj.ˈmok.ɾi.jæ	NULL	prop.n.	Tree of Voices	https://wiki.learnnavi.org/Corpus#Lemondrop.com (26 Jan 2010)
 13105	eng	Va'ru	ˈvaʔ.ɾu	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
+13106	eng	Vitrautral	vit.ˈɾa.ut.ɾal	NULL	prop.n.	Tree of Souls	Frommer
 -2	eng	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord
