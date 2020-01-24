@@ -133,18 +133,18 @@ func unwordify(input string) string {
 	if s == "kew" {
 		return "0"
 	}
-	// 'aw mune pxey tsìng mrr pukap kinä vol
+	// 'aw mune pxey tsìng mrr pukap kinä
 	for i, w := range naviVocab[0] {
 		if s == w && w != "" {
 			return strconv.FormatInt(int64(i), 8)
 		}
 	}
 	// build regexp for all other numbers
-	reString = "(mezazam|mezaza|pxezazam|pxezaza|tsìzazam|tsìzaza|mrrzazam|mrrzaza|puzazam|puzaza|kizazam|kizaza|zazam|zaza)?"
-	reString += "(mevozam|mevoza|evozam|evoza|pxevozam|pxevoza|tsìvozam|tsìvoza|mrrvozam|mrrvoza|rrvozam|rrvoza|puvozam|puvoza|kivozam|kivoza|vozam|voza)?"
-	reString += "(mezam|meza|ezam|eza|pxezam|pxeza|tsìzam|tsìza|mrrzam|mrrza|rrzam|rrza|puzam|puza|kizam|kiza|zam|za)?"
-	reString += "(mevol|mevo|evol|evo|pxevol|pxevo|tsìvol|tsìvo|mrrvol|mrrvo|rrvol|rrvo|puvol|puvo|kivol|kivo|vol|vo)?"
-	reString += "(aw|mun|un|pey|sìng|mrr|rr|fu|hin)?"
+	reString = "a?(mezazam|mezaza|pxezazam|pxezaza|tsìzazam|tsìzaza|mrrzazam|mrrzaza|puzazam|puzaza|kizazam|kizaza|zazam|zaza)?a?"
+	reString += "a?(mevozam|mevoza|evozam|evoza|pxevozam|pxevoza|tsìvozam|tsìvoza|mrrvozam|mrrvoza|rrvozam|rrvoza|puvozam|puvoza|kivozam|kivoza|vozam|voza)?a?"
+	reString += "a?(mezam|meza|ezam|eza|pxezam|pxeza|tsìzam|tsìza|mrrzam|mrrza|rrzam|rrza|puzam|puza|kizam|kiza|zam|za)?a?"
+	reString += "a?(mevol|mevo|evol|evo|pxevol|pxevo|tsìvol|tsìvo|mrrvol|mrrvo|rrvol|rrvo|puvol|puvo|kivol|kivo|vol|vo)?a?"
+	reString += "a?(aw|mun|un|pey|sìng|mrr|rr|fu|hin)?a?"
 	re = regexp.MustCompile(reString)
 	tmp := re.FindAllStringSubmatch(s, -1)
 	if len(tmp) > 0 && len(tmp[0]) >= 1 {
