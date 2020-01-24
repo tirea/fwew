@@ -17249,6 +17249,28 @@
 13104	eng	Utral Aymokriyä	ˈut.ɾal aj.ˈmok.ɾi.jæ	NULL	prop.n.	Tree of Voices	https://wiki.learnnavi.org/Corpus#Lemondrop.com (26 Jan 2010)
 13105	eng	Va'ru	ˈvaʔ.ɾu	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13106	eng	Vitrautral	vit.ˈɾa.ut.ɾal	NULL	prop.n.	Tree of Souls	Frommer
+13107	eng	pemsu	pɛm.ˈsu	NULL	inter.	what two people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13108	eng	mesupe	mɛ.ˈsu.pɛ	NULL	inter.	what two people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13109	eng	pepsu	pɛp.ˈsu	NULL	inter.	what three people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13110	eng	pxesupe	p'ɛ.ˈsu.pɛ	NULL	inter.	what three people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13111	eng	paysu	paj.ˈsu	NULL	inter.	what people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13112	eng	aysupe	aj.ˈsu.pɛ	NULL	inter.	what people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13113	eng	pestan	pɛ.ˈstan	NULL	inter.	what man	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13114	eng	tutampe	tu.ˈtam.pɛ	NULL	inter.	what man	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13115	eng	pemstan	pɛm.ˈstan	NULL	inter.	what two men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13116	eng	mestampe	mɛ.ˈstam.pɛ	NULL	inter.	what two men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13117	eng	pepstan	pɛp.ˈstan	NULL	inter.	what three men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13118	eng	pxestampe	p'ɛ.ˈstam.pɛ	NULL	inter.	what three men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13119	eng	paystan	paj.ˈstan	NULL	inter.	what men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13120	eng	aystampe	aj.ˈstam.pɛ	NULL	inter.	what men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13121	eng	peste	pɛ.ˈstɛ	NULL	inter.	what woman	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13122	eng	tutepe	tu.ˈtɛ.pɛ	NULL	inter.	what two women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13123	eng	pemste	pɛm.ˈstɛ	NULL	inter.	what two women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13124	eng	mestepe	mɛ.ˈstɛ.pɛ	NULL	inter.	what two women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13125	eng	pepste	pɛp.ˈstɛ	NULL	inter.	what three women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13126	eng	pxestepe	p'ɛ.ˈstɛ.pɛ	NULL	inter.	what three women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13127	eng	payste	paj.ˈstɛ	NULL	inter.	what women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13128	eng	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	what women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
 -2	eng	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord
