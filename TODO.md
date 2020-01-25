@@ -8,8 +8,8 @@ Repro:
 
 ### FEATURES
 
-- add all forms of pesu from Horen 3.4.1.1 to the dictionary file
 - add all affixes and their definitions to the dictionary file
+- fix tsa-{adp.}, tsa-{case}
 - implement `/list tag [is|has] tag`  
   Tag ideas:  
   modal, ofp, nfp, uncountable, ii, body, family,  
