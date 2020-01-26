@@ -33,12 +33,12 @@ type Word struct {
 }
 
 func (w Word) String() string {
-	// this string only doesn't get translated or called from util.Text() because they're var names
+	// this string only doesn't get translated or called from Text() because they're var names
 	return fmt.Sprintf("Id: %s\nLangCode: %s\nNavi: %s\nTarget: %s\nAttempt: %s\nIPA: %s\nInfixLocations: %s\nPartOfSpeech: %s\nDefinition: %s\nAffixes: %v\n",
 		w.ID, w.LangCode, w.Navi, w.Target, w.Attempt, w.IPA, w.InfixLocations, w.PartOfSpeech, w.Definition, w.Affixes)
 }
 
-// InitWordStruct is basically a constructer for Word struct
+// InitWordStruct is basically a constructor for Word struct
 func InitWordStruct(w Word, dataFields []string) Word {
 	//const (
 	//	idField  int = 0 // dictionary.txt line Field 0 is Database ID
