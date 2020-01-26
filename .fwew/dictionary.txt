@@ -7513,14 +7513,14 @@
 5284	nl	sau	sa.ˈu	NULL	intj.	uitroep van uitputting	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
 5284	ru	sau	sa.ˈu	NULL	intj.	кряхтение, сопровождающее напряженное усилие междометие	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
 5284	sv	sau	sa.ˈu	NULL	intj.	uttryck av ansträngning, uff, urgh	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
-5288	de	tsahey	ˈt͡sa.ˈhɛj	NULL	intj.	Ausruf der Warnung oder Frustration, 'Ach, Mist!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
-5288	eng	tsahey	ˈt͡sa.ˈhɛj	NULL	intj.	expression of warning or frustration, 'crap!', 'ah, hell!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
-5288	est	tsahey	ˈt͡sa.ˈhɛj	NULL	intj.	hoiatuse või viha väljendus ('jama!', 'põrgusse!')	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
-5288	hu	tsahey	ˈt͡sa.ˈhɛj	NULL	intj.	figyelmeztetést vagy csalódottságot kifejező szó 'a francba!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
-5288	nl	tsahey	ˈt͡sa.ˈhɛj	NULL	intj.	uitroep van waarschuwing of frustratie, 'oh, nee!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
-5288	pl	tsahey	ˈt͡sa.ˈhɛj	NULL	intj.	ostrzeżenie lub wyrażenie frustracji czy gniewu, kurwa!, do diabła!	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
-5288	ru	tsahey	ˈt͡sa.ˈhɛj	NULL	intj.	«проклятье!», «вот досада!», выражающее разочарование или предостережение местоимение	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
-5288	sv	tsahey	ˈt͡sa.ˈhɛj	NULL	intj.	uttryck av varning eller frustration, "skit också!"	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
+5288	de	tsahey	t͡sa.ˈhɛj	NULL	intj.	Ausruf der Warnung oder Frustration, 'Ach, Mist!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
+5288	eng	tsahey	t͡sa.ˈhɛj	NULL	intj.	expression of warning or frustration, 'crap!', 'ah, hell!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
+5288	est	tsahey	t͡sa.ˈhɛj	NULL	intj.	hoiatuse või viha väljendus ('jama!', 'põrgusse!')	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
+5288	hu	tsahey	t͡sa.ˈhɛj	NULL	intj.	figyelmeztetést vagy csalódottságot kifejező szó 'a francba!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
+5288	nl	tsahey	t͡sa.ˈhɛj	NULL	intj.	uitroep van waarschuwing of frustratie, 'oh, nee!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
+5288	pl	tsahey	t͡sa.ˈhɛj	NULL	intj.	ostrzeżenie lub wyrażenie frustracji czy gniewu, kurwa!, do diabła!	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
+5288	ru	tsahey	t͡sa.ˈhɛj	NULL	intj.	«проклятье!», «вот досада!», выражающее разочарование или предостережение местоимение	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
+5288	sv	tsahey	t͡sa.ˈhɛj	NULL	intj.	uttryck av varning eller frustration, "skit också!"	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
 5292	de	wiya	ˈwi.ja	NULL	intj.	Ausruf der Warnung oder Frustration, 'Verdammt!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
 5292	eng	wiya	ˈwi.ja	NULL	intj.	expression of warning or frustration, 'damn!'	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
 5292	est	wiya	ˈwi.ja	NULL	intj.	hoiatuse või viha väljendus ('kurat!')	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/
@@ -17198,7 +17198,7 @@
 13051	eng	Eytukan	ˈɛj.tu.kan	NULL	prop.n.	male leader of the Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13052	eng	Eywa	ˈɛj.wa	NULL	prop.n.	world spirit, Gaia	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13053	eng	Eywa'eveng	ˌɛj.wa.ˈʔɛ.vɛŋ	NULL	prop.n.	Pandora	https://forum.learnnavi.org/news-announcements/a-response-from-paul-frommer!/ (20 Jan 2010)
-13054	eng	ɪknimaya	ˈik.ni.ˈma.ja	NULL	prop.n.	Stairway to Heaven, the rite of passage for young Na'vi	ASG
+13054	eng	Iknimaya	ˌik.ni.ˈma.ja	NULL	prop.n.	Stairway to Heaven, the rite of passage for young Na'vi	ASG
 13055	eng	Ìstaw	ɪ.ˈstaw	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13056	eng	Kamun	ˈka.mun	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13057	eng	Kekunan	ˈkɛ.ku.nan	NULL	prop.n.	Na'vi Clan name	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)
