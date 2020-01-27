@@ -81,6 +81,16 @@ func prefix(w Word) Word {
 	if len(matchPrefixes) == 0 {
 		return w
 	}
+	// only allow lenition after lenition-causing prefixes when prefixes and lenition present
+	if len(w.Affixes["lenition"]) > 0 && len(matchPrefixes) > 0 {
+		if Contains(matchPrefixes, []string{"fne", "munsna"}) {
+			return w
+		}
+		lenPre := []string{"pep", "pem", "pe", "fray", "tsay", "fay", "pay", "ay", "me", "pxe"}
+		if Contains(matchPrefixes, []string{"fì", "tsa", "fra"}) && !Contains(matchPrefixes, lenPre) {
+			return w
+		}
+	}
 
 	// build what prefixes to put on
 	for _, p := range matchPrefixes {
