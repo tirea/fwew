@@ -371,6 +371,26 @@ func listWordsSubset(args []string, subset []Word) []Word {
 	// /list syllables > 2 and pos is v.
 	for _, w := range subset {
 		switch what {
+		case "words":
+			s, err := strconv.Atoi(spec)
+			if err != nil {
+				log.Fatal(err)
+			}
+			switch cond {
+			case "first":
+				if len(subset) >= s {
+					return subset[0 : s-1]
+				} else {
+					return subset
+				}
+			case "last":
+				if len(subset) >= s {
+					return subset[len(subset)-s:]
+				} else {
+					return subset
+				}
+
+			}
 		case "pos":
 			switch cond {
 			case "starts":
@@ -859,10 +879,13 @@ func slashCommand(s string, argsMode bool) {
 				exprs = append(exprs, args[i:i+3])
 			}
 			if exprs != nil {
-				subset := listWords(exprs[0])
-				for _, expr := range exprs[1:] {
-					subset = listWordsSubset(expr, subset)
+				subset := listWords(exprs[1])
+				if len(exprs) > 2 {
+					for _, expr := range exprs[2:] {
+						subset = listWordsSubset(expr, subset)
+					}
 				}
+				subset = listWordsSubset(exprs[0], subset)
 				printResults(subset)
 			}
 		} else {
