@@ -2,14 +2,13 @@
 
 ### BUGS
 
-- fix /list to give actually specified number of words even after filtering  
-Repro:  
-`/list words last 10 and pos not-is meme.`
+- fix tsa-{adp.}, tsa-{case}
+Repro:
+`tsamì tsafa tsal tsat tsaru tseyä tsari`
 
 ### FEATURES
 
 - add all affixes and their definitions to the dictionary file
-- fix tsa-{adp.}, tsa-{case}
 - implement `/list tag [is|has] tag`  
   Tag ideas:  
   modal, ofp, nfp, uncountable, ii, body, family,  
