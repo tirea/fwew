@@ -21,6 +21,19 @@ import (
 	"strings"
 )
 
+const (
+	adj   = "adj."
+	adv   = "adv."
+	dem   = "dem."
+	inter = "inter."
+	n     = "n."
+	num   = "num."
+	pn    = "pn."
+	propN = "prop.n."
+	vin   = "vin."
+	svin  = "svin."
+)
+
 func prefix(w Word) Word {
 	var (
 		re            *regexp.Regexp
@@ -32,7 +45,7 @@ func prefix(w Word) Word {
 	// pull this out of the switch because the pos data for verbs is so irregular,
 	// the switch condition would be like 25 possibilities long
 	if strings.HasPrefix(w.PartOfSpeech, "v") ||
-		strings.HasPrefix(w.PartOfSpeech, "svin.") || w.PartOfSpeech == "" {
+		strings.HasPrefix(w.PartOfSpeech, svin) || w.PartOfSpeech == "" {
 		inf := w.Affixes[Text("inf")]
 		if len(inf) > 0 && (inf[0] == "us" || inf[0] == "awn") {
 			reString = "(a|tì)?"
@@ -43,9 +56,9 @@ func prefix(w Word) Word {
 		}
 	} else {
 		switch w.PartOfSpeech {
-		case "n.", "pn.", "prop.n.":
+		case n, pn, propN:
 			reString = "^(pep|pem|pe|fray|tsay|fay|pay|fra|fì|tsa)?(ay|me|pxe|pe)?(fne)?(munsna)?"
-		case "adj.":
+		case adj:
 			reString = "^(nìk|nì|a)?(ke|a)?"
 		default:
 			return w // Not a type that has a prefix, return word without attempting.
@@ -121,7 +134,7 @@ func suffix(w Word) Word {
 	)
 
 	// verbs
-	if !strings.Contains(w.PartOfSpeech, "adv") &&
+	if !strings.Contains(w.PartOfSpeech, adv) &&
 		strings.Contains(w.PartOfSpeech, "v") || w.PartOfSpeech == "" {
 		inf := w.Affixes[Text("inf")]
 		pre := w.Affixes[Text("pre")]
@@ -145,13 +158,13 @@ func suffix(w Word) Word {
 	} else {
 		switch w.PartOfSpeech {
 		// nouns and noun-likes
-		case "n.", "pn.", "prop.n.", "inter.", "dem.", "dem., pn.":
+		case n, pn, propN, inter, dem, "dem., pn.":
 			reString = nSufRe
-		// adjectives
-		case "adj.":
+			// adjectives
+		case adj:
 			reString = adjSufRe
 		// numbers
-		case "num.":
+		case num:
 			reString = "(ve)?(a)?"
 		default:
 			return w // Not a type that has a suffix, return word without attempting.
@@ -196,7 +209,7 @@ func suffix(w Word) Word {
 	}
 
 	// o -> e vowel shift support for pronouns with -yä
-	if w.PartOfSpeech == "pn." && ContainsStr(matchSuffixes, "yä") {
+	if w.PartOfSpeech == pn && ContainsStr(matchSuffixes, "yä") {
 		if strings.HasSuffix(w.Attempt, "o") {
 			w.Attempt = strings.TrimSuffix(w.Attempt, "o") + "e"
 			// a -> e vowel shift support
@@ -337,7 +350,7 @@ func Reconstruct(w Word) Word {
 	wl := CloneWordStruct(w)
 
 	// only try to infix verbs
-	if strings.HasPrefix(w.PartOfSpeech, "v") || strings.HasPrefix(w.PartOfSpeech, "svin.") {
+	if strings.HasPrefix(w.PartOfSpeech, "v") || strings.HasPrefix(w.PartOfSpeech, svin) {
 		w = infix(w)
 		if *debug {
 			fmt.Println("INFIX")

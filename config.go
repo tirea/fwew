@@ -48,6 +48,7 @@ func ReadConfig() Config {
 	return config
 }
 
+// WriteConfig saves specified options to the config file
 func WriteConfig(entry string) Config {
 	var s []string
 	config := ReadConfig()

@@ -63,6 +63,28 @@ func init() {
 		"/exit\n" +
 		"        exit/quit the program (aliases /quit /q /wc)\n"
 
+	// <what> strings
+	texts["w_pos"] = "pos"
+	texts["w_word"] = "word"
+	texts["w_words"] = "words"
+	texts["w_syllables"] = "syllables"
+	// <cond> strings
+	texts["c_is"] = "is"
+	texts["c_has"] = "has"
+	texts["c_like"] = "like"
+	texts["c_starts"] = "starts"
+	texts["c_ends"] = "ends"
+	texts["c_not-is"] = "not-is"
+	texts["c_not-has"] = "not-has"
+	texts["c_not-like"] = "not-like"
+	texts["c_not-starts"] = "not-starts"
+	texts["c_not-ends"] = "not-ends"
+	texts["c_first"] = "first"
+	texts["c_last"] = "last"
+
+	// random
+	texts["n_random"] = "random"
+
 	// prompt suggest strings
 	texts["/setDesc"] = "set option(s)"
 	texts["/unsetDesc"] = "unset option(s)"
@@ -85,9 +107,9 @@ func init() {
 	texts["l=ruDesc"] = "Русский"
 	texts["l=svDesc"] = "Svenska"
 	texts["posDesc"] = "part of speech"
-	texts["wordDesc"] = "word"
-	texts["wordsDesc"] = "words"
-	texts["syllablesDesc"] = "syllables"
+	texts["wordDesc"] = texts["w_word"]
+	texts["wordsDesc"] = texts["w_words"]
+	texts["syllablesDesc"] = texts["w_syllables"]
 	texts["randomDesc"] = "random number"
 	texts["whereDesc"] = "add condition to random"
 	texts["startsDesc"] = "field starts with"
@@ -167,7 +189,6 @@ func init() {
 	texts["usage"] = "usage"
 	texts["bin"] = strings.ToLower(texts["name"])
 	texts["options"] = "options"
-	texts["words"] = "words"
 	texts["usageV"] = "show program & dictionary version numbers"
 	texts["usageL"] = "use specified language \n\tValid values: " + texts["languages"]
 	texts["usageI"] = "display infix location data"

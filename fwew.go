@@ -342,7 +342,7 @@ func setFlags(arg string, argsMode bool) {
 func printHelp() {
 	flag.Usage = func() {
 		fmt.Printf("%s: ", Text("usage"))
-		fmt.Printf("%s [%s] [%s]\n", Text("bin"), Text("options"), Text("words"))
+		fmt.Printf("%s [%s] [%s]\n", Text("bin"), Text("options"), Text("w_words"))
 		fmt.Printf("%s:\n", Text("options"))
 		flag.PrintDefaults()
 	}
@@ -371,105 +371,102 @@ func listWordsSubset(args []string, subset []Word) []Word {
 	// /list syllables > 2 and pos is v.
 	for _, w := range subset {
 		switch what {
-		case "words":
+		case Text("w_words"):
 			s, err := strconv.Atoi(spec)
 			if err != nil {
 				log.Fatal(err)
 			}
 			switch cond {
-			case "first":
+			case Text("c_first"):
 				if len(subset) >= s {
 					return subset[0 : s-1]
-				} else {
-					return subset
 				}
-			case "last":
+				return subset
+			case Text("c_last"):
 				if len(subset) >= s {
 					return subset[len(subset)-s:]
-				} else {
-					return subset
 				}
-
+				return subset
 			}
-		case "pos":
+		case Text("w_pos"):
 			switch cond {
-			case "starts":
+			case Text("c_starts"):
 				if strings.HasPrefix(w.PartOfSpeech, spec) {
 					results = append(results, w)
 				}
-			case "ends":
+			case Text("c_ends"):
 				if strings.HasSuffix(w.PartOfSpeech, spec) {
 					results = append(results, w)
 				}
-			case "is":
+			case Text("c_is"):
 				if w.PartOfSpeech == spec {
 					results = append(results, w)
 				}
-			case "has":
+			case Text("c_has"):
 				if strings.Contains(w.PartOfSpeech, spec) {
 					results = append(results, w)
 				}
-			case "like":
+			case Text("c_like"):
 				if Glob(spec, w.PartOfSpeech) {
 					results = append(results, w)
 				}
-			case "not-starts":
+			case Text("c_not-starts"):
 				if !strings.HasPrefix(w.PartOfSpeech, spec) {
 					results = append(results, w)
 				}
-			case "not-ends":
+			case Text("c_not-ends"):
 				if !strings.HasSuffix(w.PartOfSpeech, spec) {
 					results = append(results, w)
 				}
-			case "not-is":
+			case Text("c_not-is"):
 				if w.PartOfSpeech != spec {
 					results = append(results, w)
 				}
-			case "not-has":
+			case Text("c_not-has"):
 				if !strings.Contains(w.PartOfSpeech, spec) {
 					results = append(results, w)
 				}
-			case "not-like":
+			case Text("c_not-like"):
 				if !Glob(spec, w.PartOfSpeech) {
 					results = append(results, w)
 				}
 			}
-		case "word":
+		case Text("w_word"):
 			switch cond {
-			case "starts":
+			case Text("c_starts"):
 				if strings.HasPrefix(w.Navi, spec) {
 					results = append(results, w)
 				}
-			case "ends":
+			case Text("c_ends"):
 				if strings.HasSuffix(w.Navi, spec) {
 					results = append(results, w)
 				}
-			case "has":
+			case Text("c_has"):
 				if strings.Contains(w.Navi, spec) {
 					results = append(results, w)
 				}
-			case "like":
+			case Text("c_like"):
 				if Glob(spec, w.Navi) {
 					results = append(results, w)
 				}
-			case "not-starts":
+			case Text("c_not-starts"):
 				if !strings.HasPrefix(w.Navi, spec) {
 					results = append(results, w)
 				}
-			case "not-ends":
+			case Text("c_not-ends"):
 				if !strings.HasSuffix(w.Navi, spec) {
 					results = append(results, w)
 				}
-			case "not-has":
+			case Text("c_not-has"):
 				if !strings.Contains(w.Navi, spec) {
 					results = append(results, w)
 				}
-			case "not-like":
+			case Text("c_not-like"):
 				if !Glob(spec, w.Navi) {
 					results = append(results, w)
 				}
 			}
-		case "syllables":
+		case Text("w_syllables"):
 			ispec, err := strconv.ParseInt(spec, 10, 64)
 			if err != nil {
 				fmt.Println(Text("invalidDecimalError"))
@@ -582,125 +579,125 @@ func listWords(args []string) []Word {
 		fields = strings.Split(line, "\t")
 		if fields[lcField] == *language {
 			switch what {
-			case "pos":
+			case Text("w_pos"):
 				spec = strings.ToLower(spec)
 				pos := strings.ToLower(fields[posField])
 				switch cond {
-				case "starts":
+				case Text("c_starts"):
 					if strings.HasPrefix(pos, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "ends":
+				case Text("c_ends"):
 					if strings.HasSuffix(pos, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "is":
+				case Text("c_is"):
 					if pos == spec {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "has":
+				case Text("c_has"):
 					if strings.Contains(pos, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "like":
+				case Text("c_like"):
 					if Glob(spec, pos) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-starts":
+				case Text("c_not-starts"):
 					if !strings.HasPrefix(pos, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-ends":
+				case Text("c_not-ends"):
 					if !strings.HasSuffix(pos, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-is":
+				case Text("c_not-is"):
 					if pos != spec {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-has":
+				case Text("c_not-has"):
 					if !strings.Contains(pos, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-like":
+				case Text("c_not-like"):
 					if !Glob(spec, pos) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				}
-			case "word":
+			case Text("w_word"):
 				spec = strings.ToLower(spec)
 				word := strings.ToLower(fields[navField])
 				switch cond {
-				case "starts":
+				case Text("c_starts"):
 					if strings.HasPrefix(word, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "ends":
+				case Text("c_ends"):
 					if strings.HasSuffix(word, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "has":
+				case Text("c_has"):
 					if strings.Contains(word, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "like":
+				case Text("c_like"):
 					if Glob(spec, word) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-starts":
+				case Text("c_not-starts"):
 					if !strings.HasPrefix(word, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-ends":
+				case Text("c_not-ends"):
 					if !strings.HasSuffix(word, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-has":
+				case Text("c_not-has"):
 					if !strings.Contains(word, spec) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "not-like":
+				case Text("c_not-like"):
 					if !Glob(spec, word) {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				}
-			case "words":
+			case Text("w_words"):
 				s, err := strconv.Atoi(spec)
 				if err != nil {
 					log.Fatal(err)
 				}
 				switch cond {
-				case "first":
+				case Text("c_first"):
 					if count <= s {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
-				case "last":
+				case Text("c_last"):
 					if count >= numLines-s && count <= numLines {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
 				}
 				count++
-			case "syllables":
+			case Text("w_syllables"):
 				result = InitWordStruct(result, fields)
 				ispec, err := strconv.ParseInt(spec, 10, 64)
 				if err != nil {
@@ -894,7 +891,7 @@ func slashCommand(s string, argsMode bool) {
 	case "/random":
 		// k
 		if args != nil && nargs == 1 && args[0] != "" {
-			if args[0] == "random" {
+			if args[0] == Text("n_random") {
 				printResults(random(-1337))
 			} else {
 				k, err := strconv.Atoi(args[0])
@@ -908,7 +905,7 @@ func slashCommand(s string, argsMode bool) {
 			fargs := args[2:]
 			nFargs := len(fargs)
 			if nFargs == 3 {
-				if args[0] == "random" {
+				if args[0] == Text("n_random") {
 					printResults(randomSubset(-1337, listWords(fargs)))
 				} else {
 					k, err := strconv.Atoi(args[0])
@@ -939,7 +936,7 @@ func slashCommand(s string, argsMode bool) {
 					for _, expr := range exprs[1:] {
 						subset = listWordsSubset(expr, subset)
 					}
-					if args[0] == "random" {
+					if args[0] == Text("n_random") {
 						k = -1337
 					} else {
 						k, err = strconv.Atoi(args[0])
@@ -958,7 +955,7 @@ func slashCommand(s string, argsMode bool) {
 		if err != nil {
 			log.Fatal(err)
 		}
-		Version.DictBuild = SHA1Hash(texts["dictionary"])
+		Version.DictBuild = SHA1Hash(Text("dictionary"))
 	case "/version":
 		fmt.Println(Version)
 	case "/config":
