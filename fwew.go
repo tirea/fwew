@@ -75,6 +75,9 @@ func similarity(w0, w1 string) float64 {
 	if len(w0) > len(w1)+1 {
 		return 0.0
 	}
+	if w0 == "nga" && w1 == "ngey" {
+		return 1.0
+	}
 	vowels := "aäeiìoulr"
 	w0v := intersection(w0, vowels)
 	w1v := intersection(w1, vowels)
@@ -113,31 +116,7 @@ func fwew(word string) []Word {
 	if len(word) == 0 {
 		return results
 	}
-	// hardcoded hack for tseyä
-	if word == "tseyä" {
-		result = InitWordStruct(result, []string{
-			"5268", "eng", "tsaw", "t͡saw", "NULL", "dem., pn.", "that, it (as intransitive subject)",
-			"http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)",
-		})
-		result.Affixes[Text("suf")] = []string{"yä"}
-		results = append(results, result)
-		return results
-		// hardcoded hacks for oey and ngey
-	} else if word == "oey" {
-		result = InitWordStruct(result, []string{
-			"1380", "eng", "oe", "ˈo.ɛ", "NULL", "pn.", "I, me", "Frommer / Taronyus Wörterbuch",
-		})
-		result.Affixes[Text("suf")] = []string{"y"}
-		results = append(results, result)
-		return results
-	} else if word == "ngey" {
-		result = InitWordStruct(result, []string{
-			"1348", "eng", "nga", "ŋa", "NULL", "pn.", "you", "Avatar Movie",
-		})
-		result.Affixes[Text("suf")] = []string{"y"}
-		results = append(results, result)
-		return results
-	}
+
 	// Prepare file for searching
 	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
@@ -183,8 +162,10 @@ func fwew(word string) []Word {
 				} else if *useAffixes {
 					// skip words that obviously won't work
 					s := similarity(fields[navField], word)
+					if *debug {
+						fmt.Printf("Target: %s | Line: %s | [%f]\n", word, fields[navField], s)
+					}
 					if s < 0.50 && !strings.HasSuffix(strings.ToLower(word), "eyä") {
-						//fmt.Printf("Target: %s | Line: %s | [%f]\n", word, fields[navField], s)
 						continue
 					}
 					result.Target = word
@@ -566,10 +547,10 @@ func listWords(args []string) []Word {
 	// /list syllables = 2
 	// /list syllables <= 3
 
-	dictData, err := os.Open(Text("dictionary"))
-	if err != nil {
+	dictData, err0 := os.Open(Text("dictionary"))
+	if err0 != nil {
 		fmt.Println(errors.New(Text("noDataError")))
-		log.Fatal(err)
+		log.Fatal(err0)
 	}
 	count = 1
 	numLines = countLines()
@@ -680,9 +661,9 @@ func listWords(args []string) []Word {
 					}
 				}
 			case Text("w_words"):
-				s, err := strconv.Atoi(spec)
-				if err != nil {
-					log.Fatal(err)
+				s, err1 := strconv.Atoi(spec)
+				if err1 != nil {
+					log.Fatal(err1)
 				}
 				switch cond {
 				case Text("c_first"):
@@ -699,8 +680,8 @@ func listWords(args []string) []Word {
 				count++
 			case Text("w_syllables"):
 				result = InitWordStruct(result, fields)
-				ispec, err := strconv.ParseInt(spec, 10, 64)
-				if err != nil {
+				ispec, err2 := strconv.ParseInt(spec, 10, 64)
+				if err2 != nil {
 					fmt.Println(Text("invalidDecimalError"))
 					return nil
 				}
@@ -733,10 +714,10 @@ func listWords(args []string) []Word {
 			}
 		}
 	}
-	err = dictData.Close()
-	if err != nil {
+	err3 := dictData.Close()
+	if err3 != nil {
 		fmt.Println(errors.New(Text("dictCloseError")))
-		log.Fatal(err)
+		log.Fatal(err3)
 	}
 	return results
 }
@@ -894,7 +875,7 @@ func slashCommand(s string, argsMode bool) {
 			if args[0] == Text("n_random") {
 				printResults(random(-1337))
 			} else {
-				k, err := strconv.Atoi(args[0])
+				k, err = strconv.Atoi(args[0])
 				if err != nil {
 					log.Fatal(err)
 				}
@@ -908,7 +889,7 @@ func slashCommand(s string, argsMode bool) {
 				if args[0] == Text("n_random") {
 					printResults(randomSubset(-1337, listWords(fargs)))
 				} else {
-					k, err := strconv.Atoi(args[0])
+					k, err = strconv.Atoi(args[0])
 					if err != nil {
 						log.Fatal(err)
 					}

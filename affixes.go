@@ -22,16 +22,16 @@ import (
 )
 
 const (
-	adj   = "adj."
-	adv   = "adv."
-	dem   = "dem."
-	inter = "inter."
-	n     = "n."
-	num   = "num."
-	pn    = "pn."
-	propN = "prop.n."
-	vin   = "vin."
-	svin  = "svin."
+	adj   string = "adj."
+	adv   string = "adv."
+	dem   string = "dem."
+	inter string = "inter."
+	n     string = "n."
+	num   string = "num."
+	pn    string = "pn."
+	propN string = "prop.n."
+	vin   string = "vin."
+	svin  string = "svin."
 )
 
 func prefix(w Word) Word {
@@ -131,7 +131,27 @@ func suffix(w Word) Word {
 	const (
 		adjSufRe string = "(a|sì)?$"
 		nSufRe   string = "(nga'|tsyìp|tu)?(o)?(pe)?(mungwrr|kxamlä|tafkip|pxisre|pximaw|ftumfa|mìkam|nemfa|takip|lisre|talun|krrka|teri|fkip|pxaw|pxel|luke|rofa|fpi|ftu|kip|vay|lok|maw|sìn|sre|few|kam|kay|nuä|sko|yoa|äo|eo|fa|hu|ka|mì|na|ne|ta|io|uo|ro|wä|sì|ìri|ìl|eyä|yä|ä|it|ri|ru|ti|ur|l|r|t)?$"
+		ngey     string = "ngey"
 	)
+
+	// hardcoded hack for tseyä
+	if w.Target == "tseyä" && w.Navi == "tsaw" {
+		w.Affixes[Text("suf")] = []string{"yä"}
+		w.Attempt = "tseyä"
+		return w
+	}
+	// hardcoded hack for oey
+	if w.Target == "oey" && w.Navi == "oe" {
+		w.Affixes[Text("suf")] = []string{"y"}
+		w.Attempt = "oey"
+		return w
+	}
+	// hardcoded hack for ngey
+	if w.Target == ngey && w.Navi == "nga" {
+		w.Affixes[Text("suf")] = []string{"y"}
+		w.Attempt = ngey
+		return w
+	}
 
 	// verbs
 	if !strings.Contains(w.PartOfSpeech, adv) &&
