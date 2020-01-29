@@ -2,10 +2,6 @@
 
 ### BUGS
 
-- fix tsa-{adp.}, tsa-{case}
-Repro:
-`tsamì tsafa tsal tsat tsaru tseyä tsari`
-
 ### FEATURES
 
 - add all affixes and their definitions to the dictionary file
