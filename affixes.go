@@ -75,6 +75,10 @@ func prefix(w Word) Word {
 		}
 	}
 
+	if w.Navi == "soaia" && strings.HasSuffix(w.Target, "soaiä") {
+		w.Attempt = strings.Replace(w.Attempt, "soaia", "soai", -1)
+	}
+
 	reString = reString + w.Attempt + ".*"
 	if *debug {
 		fmt.Printf("Prefix reString: %s\n", reString)
@@ -191,8 +195,12 @@ func suffix(w Word) Word {
 		}
 	}
 
-	// o -> e vowel shift support
-	if strings.HasSuffix(w.Attempt, "o") {
+	// soaiä support
+	if w.Navi == "soaia" && strings.HasSuffix(w.Target, "soaiä") {
+		w.Attempt = strings.Replace(w.Attempt, "soaia", "soai", -1)
+		reString = w.Attempt + reString
+		// o -> e vowel shift support
+	} else if strings.HasSuffix(w.Attempt, "o") {
 		reString = strings.Replace(w.Attempt, "o", "[oe]", -1) + reString
 		// a -> e vowel shift support
 	} else if strings.HasSuffix(w.Attempt, "a") {
