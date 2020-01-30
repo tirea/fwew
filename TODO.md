@@ -1,9 +1,12 @@
 # TODO
 
-### BUGS
+## BUGS
 
-### FEATURES
+## FEATURES
 
+- implement `/lenition` (with alias: `/len` )
+- `/help <command>`
+- Stress underlining rather than IPA default
 - add all affixes and their definitions to the dictionary file
 - implement `/list tag [is|has] tag`  
   Tag ideas:  
@@ -17,24 +20,20 @@
 - implement `/infixes`
 - implement `/list suffixes {pos} {pro|unpro|all}`
 - implement `/suffixes`
-- implement `/lenition` (with alias: `/len` )
 
 ### IDEAS
 
-- `/help <command>`
 - `/list <what> <cond> <spec> limit <n>`
-- Stress underlining rather than IPA default
 - `/examples <word> [limit <n>]`
 - `/define <jargony linguistics term>`
-- SQLite DB?
 - `/audio <Na'vi word(s)>`
 
-### Testing
+## Testing
 
 - more code coverage
 - more test cases
 
-### Refactoring & Optimization
+## Refactoring & Optimization
 
 - how can affixes.go be more efficient?
 
