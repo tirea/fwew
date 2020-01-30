@@ -19825,7 +19825,7 @@
 13119	eng	paystan	paj.ˈstan	NULL	inter.	what men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
 13120	eng	aystampe	aj.ˈstam.pɛ	NULL	inter.	what men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
 13121	eng	peste	pɛ.ˈstɛ	NULL	inter.	what woman	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
-13122	eng	tutepe	tu.ˈtɛ.pɛ	NULL	inter.	what two women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
+13122	eng	tutepe	tu.ˈtɛ.pɛ	NULL	inter.	what woman	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
 13123	eng	pemste	pɛm.ˈstɛ	NULL	inter.	what two women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
 13124	eng	mestepe	mɛ.ˈstɛ.pɛ	NULL	inter.	what two women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
 13125	eng	pepste	pɛp.ˈstɛ	NULL	inter.	what three women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)
