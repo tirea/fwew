@@ -24,7 +24,7 @@ func init() {
 	// set relevant option flag(s)
 	configuration = ReadConfig()
 	debug = flag.Bool("d", configuration.DebugMode, Text("usageD"))
-	flag.Parse()
+	//flag.Parse()
 }
 
 func TestPrefix(t *testing.T) {
