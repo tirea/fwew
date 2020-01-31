@@ -19833,7 +19833,7 @@
 13081	eng	Rotxo	ˈɾo.t'o	NULL	prop.n.	male Na'vi of the Metkayina Clan	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
 13081	fr	Rotxo	ˈɾo.t'o	NULL	prop.n.	homme Na'vi du clan Metkayina	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
 13082	eng	Satu'li	saˈtuʔ.li	NULL	prop.n.	Canteen in the Valley of Mo'ara	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
-13082	fr	Satu'li	saˈtuʔ.li	NULL	prop.n.	catine dans la vallée de Mo'ara	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
+13082	fr	Satu'li	saˈtuʔ.li	NULL	prop.n.	cantine dans la vallée de Mo'ara	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 13083	eng	Seze	ˈsɛ.zɛ	NULL	prop.n.	Neytiri's banshee	ZS, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13083	fr	Seze	ˈsɛ.zɛ	NULL	prop.n.	banshee de Neytiri	ZS, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13084	eng	Silwanin	sil.wa.nin	NULL	prop.n.	Neytiri's sister	NULL
