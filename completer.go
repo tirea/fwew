@@ -50,6 +50,8 @@ func completer(d prompt.Document) []prompt.Suggest {
 		{Text: "/unset", Description: Text("/unsetDesc")},
 		{Text: "/list", Description: Text("/listDesc")},
 		{Text: "/random", Description: Text("/randomDesc")},
+		{Text: "/lenition", Description: Text("/lenitionDesc")},
+		{Text: "/len", Description: Text("/lenitionDesc")},
 		{Text: "/update", Description: Text("/updateDesc")},
 		{Text: "/commands", Description: Text("/commandsDesc")},
 		{Text: "/config", Description: Text("/configDesc")},

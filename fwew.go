@@ -931,6 +931,8 @@ func slashCommand(s string, argsMode bool) {
 		} else {
 			fmt.Println()
 		}
+	case "/lenition", "/len":
+		fmt.Println(Text("lenTable"))
 	case "/update":
 		err := DownloadDict()
 		if err != nil {

@@ -92,6 +92,7 @@ func init() {
 	texts["/randomDesc"] = "list random entries"
 	texts["/updateDesc"] = "update the dictionary data file"
 	texts["/commandsDesc"] = "show commands help"
+	texts["/lenitionDesc"] = "show lenition table"
 	texts["/configDesc"] = "edit configuration file"
 	texts["/versionDesc"] = "show version info"
 	texts["/helpDesc"] = "show usage help"
@@ -204,6 +205,13 @@ func init() {
 	texts["usageC"] = "edit variable in configuration file"
 	texts["usageD"] = "enable debug mode"
 	texts["defaultFilter"] = "all"
+
+	// lenition table
+	texts["lenTable"] = "" +
+		"px, tx, kx → p,  t,  k\n" +
+		"p,  t,  k  → f,  s,  h\n" +
+		"        ts → s\n" +
+		"        '  → (disappears)"
 }
 
 // Text function is the accessor for []string texts

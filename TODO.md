@@ -4,15 +4,14 @@
 
 ## FEATURES
 
-- implement `/lenition` (with alias: `/len` )
 - `/help <command>`
 - Stress underlining rather than IPA default
 - add all affixes and their definitions to the dictionary file
-- implement `/list tag [is|has] tag`  
-  Tag ideas:  
-  modal, ofp, nfp, uncountable, ii, body, family,  
-  waterfall, sense, si-verbs, F-word, Tsa-word,  
-  emotion, lenition, color, flora, fauna, linguistics,  
+- implement `/list tag [is|has] tag`
+  Tag ideas:
+  modal, ofp, nfp, uncountable, ii, body, family,
+  waterfall, sense, si-verbs, F-word, Tsa-word,
+  emotion, lenition, color, flora, fauna, linguistics,
   loan, Disney, time, weather, <eyk>, music...
 - implement `/list prefixes {pos} {pro|unpro|all}`
 - implement `/prefixes`
@@ -37,5 +36,5 @@
 
 - how can affixes.go be more efficient?
 
-**Always remember to update util/version.go if major/minor changes are made 
+**Always remember to update util/version.go if major/minor changes are made
 to what it produces or how it works**
