@@ -330,15 +330,13 @@ func printHelp() {
 	flag.Usage()
 }
 
-func syllableCount(w Word) int64 {
-	// syllable dot counter
-	var sdc int64
-	for _, char := range w.IPA {
-		if char == '.' {
-			sdc++
-		}
+func syllableCount(w Word) int {
+	var numSyllables int
+	var vowels = []string{"a", "ä", "e", "i", "ì", "o", "u", "ll", "rr"}
+	for _, p := range vowels {
+		numSyllables += strings.Count(w.Navi, p)
 	}
-	return sdc + 1
+	return numSyllables
 }
 
 func listWordsSubset(args []string, subset []Word) []Word {
@@ -448,7 +446,7 @@ func listWordsSubset(args []string, subset []Word) []Word {
 				}
 			}
 		case Text("w_syllables"):
-			ispec, err := strconv.ParseInt(spec, 10, 64)
+			ispec, err := strconv.Atoi(spec)
 			if err != nil {
 				fmt.Println(Text("invalidDecimalError"))
 				return nil
@@ -680,7 +678,7 @@ func listWords(args []string) []Word {
 				count++
 			case Text("w_syllables"):
 				result = InitWordStruct(result, fields)
-				ispec, err2 := strconv.ParseInt(spec, 10, 64)
+				ispec, err2 := strconv.Atoi(spec)
 				if err2 != nil {
 					fmt.Println(Text("invalidDecimalError"))
 					return nil
