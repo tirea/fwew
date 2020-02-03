@@ -334,7 +334,7 @@ func syllableCount(w Word) int {
 	var numSyllables int
 	var vowels = []string{"a", "ä", "e", "i", "ì", "o", "u", "ll", "rr"}
 	for _, p := range vowels {
-		numSyllables += strings.Count(w.Navi, p)
+		numSyllables += strings.Count(strings.ToLower(w.Navi), p)
 	}
 	return numSyllables
 }
