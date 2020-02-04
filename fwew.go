@@ -16,10 +16,8 @@ package main
 
 import (
 	"bufio"
-	"errors"
 	"flag"
 	"fmt"
-	"log"
 	"math/rand"
 	"os"
 	"strconv"
@@ -120,8 +118,8 @@ func fwew(word string) []Word {
 	// Prepare file for searching
 	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
-		fmt.Println(errors.New(Text("noDataError")))
-		log.Fatal(err)
+		fmt.Println(Text("noDataError"))
+		os.Exit(1)
 	}
 	scanner := bufio.NewScanner(dictData)
 
@@ -182,8 +180,8 @@ func fwew(word string) []Word {
 	}
 	err = dictData.Close()
 	if err != nil {
-		fmt.Println(errors.New(Text("dictCloseError")))
-		log.Fatal(err)
+		fmt.Println(Text("dictCloseError"))
+		os.Exit(1)
 	}
 	return results
 }
@@ -279,7 +277,7 @@ func setFlags(arg string, argsMode bool) {
 		case strings.HasPrefix(f, "p="):
 			*posFilter = f[2:]
 		default:
-			err = fmt.Errorf("%s: %s", Text("noOptionError"), f)
+			err = fmt.Errorf("%s (%s)", Text("noOptionError"), f)
 			fmt.Println(err)
 			fmt.Println()
 		}
@@ -353,7 +351,7 @@ func listWordsSubset(args []string, subset []Word) []Word {
 		case Text("w_words"):
 			s, err := strconv.Atoi(spec)
 			if err != nil {
-				log.Fatal(err)
+				fmt.Printf("%s (%s)", Text("invalidNumericError"), spec)
 			}
 			switch cond {
 			case Text("c_first"):
@@ -489,10 +487,10 @@ func countLines() int {
 	)
 	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
-		fmt.Println(errors.New(Text("noDataError")))
-		log.Fatal(err)
+		fmt.Println(Text("noDataError"))
+		os.Exit(1)
 	}
-	count = 1
+	count = 0
 	scanner := bufio.NewScanner(dictData)
 	for scanner.Scan() {
 		line := scanner.Text()
@@ -503,8 +501,8 @@ func countLines() int {
 	}
 	err = dictData.Close()
 	if err != nil {
-		fmt.Println(errors.New(Text("dictCloseError")))
-		log.Fatal(err)
+		fmt.Println(Text("dictCloseError"))
+		os.Exit(1)
 	}
 	return count
 }
@@ -547,8 +545,8 @@ func listWords(args []string) []Word {
 
 	dictData, err0 := os.Open(Text("dictionary"))
 	if err0 != nil {
-		fmt.Println(errors.New(Text("noDataError")))
-		log.Fatal(err0)
+		fmt.Println(Text("noDataError"))
+		os.Exit(1)
 	}
 	count = 1
 	numLines = countLines()
@@ -661,7 +659,8 @@ func listWords(args []string) []Word {
 			case Text("w_words"):
 				s, err1 := strconv.Atoi(spec)
 				if err1 != nil {
-					log.Fatal(err1)
+					fmt.Printf("%s (%s)\n", Text("invalidNumericError"), spec)
+					os.Exit(1)
 				}
 				switch cond {
 				case Text("c_first"):
@@ -714,8 +713,8 @@ func listWords(args []string) []Word {
 	}
 	err3 := dictData.Close()
 	if err3 != nil {
-		fmt.Println(errors.New(Text("dictCloseError")))
-		log.Fatal(err3)
+		fmt.Println(Text("dictCloseError"))
+		os.Exit(1)
 	}
 	return results
 }
@@ -764,8 +763,8 @@ func random(k int) []Word {
 	}
 	dictData, err := os.Open(Text("dictionary"))
 	if err != nil {
-		fmt.Println(errors.New(Text("noDataError")))
-		log.Fatal(err)
+		fmt.Println(Text("noDataError"))
+		os.Exit(1)
 	}
 	scanner := bufio.NewScanner(dictData)
 	for scanner.Scan() {
@@ -787,8 +786,8 @@ func random(k int) []Word {
 	}
 	err = dictData.Close()
 	if err != nil {
-		fmt.Println(errors.New(Text("dictCloseError")))
-		log.Fatal(err)
+		fmt.Println(Text("dictCloseError"))
+		os.Exit(1)
 	}
 	return results
 }
@@ -875,7 +874,8 @@ func slashCommand(s string, argsMode bool) {
 			} else {
 				k, err = strconv.Atoi(args[0])
 				if err != nil {
-					log.Fatal(err)
+					fmt.Printf("%s (%s)\n", Text("invalidNumericError"), args[0])
+					os.Exit(1)
 				}
 				printResults(random(k))
 			}
@@ -889,7 +889,8 @@ func slashCommand(s string, argsMode bool) {
 				} else {
 					k, err = strconv.Atoi(args[0])
 					if err != nil {
-						log.Fatal(err)
+						fmt.Printf("%s (%s)\n", Text("invalidNumericError"), args[0])
+						os.Exit(1)
 					}
 					printResults(randomSubset(k, listWords(fargs)))
 				}
@@ -920,7 +921,8 @@ func slashCommand(s string, argsMode bool) {
 					} else {
 						k, err = strconv.Atoi(args[0])
 						if err != nil {
-							log.Fatal(err)
+							fmt.Printf("%s (%s)\n", Text("invalidNumericError"), args[0])
+							os.Exit(1)
 						}
 					}
 					printResults(randomSubset(k, subset))
@@ -934,7 +936,8 @@ func slashCommand(s string, argsMode bool) {
 	case "/update":
 		err := DownloadDict()
 		if err != nil {
-			log.Fatal(err)
+			fmt.Println(Text("downloadError"))
+			os.Exit(1)
 		}
 		Version.DictBuild = SHA1Hash(Text("dictionary"))
 	case "/version":
@@ -1000,8 +1003,8 @@ func main() {
 	if fileMode { // FILE MODE
 		inFile, err := os.Open(*filename)
 		if err != nil {
-			fmt.Println(errors.New(Text("noFileError")))
-			log.Fatal(err)
+			fmt.Printf("%s (%s)\n", Text("noFileError"), *filename)
+			os.Exit(1)
 		}
 		scanner := bufio.NewScanner(inFile)
 		for scanner.Scan() {
@@ -1015,8 +1018,8 @@ func main() {
 		}
 		err = inFile.Close()
 		if err != nil {
-			fmt.Println(errors.New(Text("fileCloseError")))
-			log.Fatal(err)
+			fmt.Println(Text("fileCloseError"))
+			os.Exit(1)
 		}
 	} else if argsMode { // ARGS MODE
 		for _, arg := range flag.Args() {

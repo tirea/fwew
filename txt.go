@@ -160,8 +160,8 @@ func init() {
 
 	// error message strings
 	texts["none"] = "no results\n"
-	texts["noDataError"] = "err 1: failed to open and/or read dictionary file (" + texts["dictionary"] + ")"
-	texts["fileError"] = "err 2: failed to open and/or read configuration file (" + texts["config"] + ")"
+	texts["noDataError"] = "err 1: failed to open dictionary file (" + texts["dictionary"] + ")"
+	texts["fileError"] = "err 2: failed to open configuration file (" + texts["config"] + ")"
 	texts["noOptionError"] = "err 3: invalid option"
 	texts["invalidIntError"] = "err 4: input must be a decimal integer in range 0 <= n <= 32767 or octal integer in range 0 <= n <= 77777"
 	texts["invalidOctalError"] = "err 5: invalid octal integer"
@@ -169,11 +169,13 @@ func init() {
 	texts["invalidLanguageError"] = "err 7: invalid language option"
 	texts["invalidPOSFilterError"] = "err 8: invalid part of speech filter"
 	texts["dictCloseError"] = "err 9: failed to close dictionary file (" + texts["dictionary"] + ")"
-	texts["noFileError"] = "err 10: failed to open and/or read input file"
+	texts["noFileError"] = "err 10: failed to open file"
 	texts["fileCloseError"] = "err 11: failed to close input file"
 	texts["configSyntaxError"] = "err 12: invalid syntax for config"
 	texts["configOptionError"] = "err 13: invalid config option"
 	texts["configValueError"] = "err 14: invalid config value for"
+	texts["invalidNumericError"] = "err 15: invalid numeric digits"
+	texts["downloadError"] = "err 16: could not download dictionary update"
 
 	// main program strings
 	texts["name"] = "fwew"
