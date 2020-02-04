@@ -22,7 +22,7 @@ compile:
 	go build -o bin/fwew
 
 test: install
-	go test -v
+	go test -v -cover
 
 docker:
 	docker build -t tirea/fwew:$(TAG) .
