@@ -1001,6 +1001,10 @@ func main() {
 	}
 
 	if fileMode { // FILE MODE
+		if *markdown {
+			// restrict Discord users to cwd
+			*filename = "./" + *filename
+		}
 		inFile, err := os.Open(*filename)
 		if err != nil {
 			fmt.Printf("%s (%s)\n", Text("noFileError"), *filename)
