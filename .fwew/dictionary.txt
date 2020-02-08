@@ -19930,7 +19930,7 @@
 -1	eng	Vawmataw	ˈvaw.ma.taw	NULL	meme.	The Right Honourable Vawmataw, by the grace of Eywa of Hangvurburg Earl, Lord Memeyu, Head of the Skxawngs, defender of the memes	LN Discord
 -1	de	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Der sehr ehrenwerte Vawmataw, von Eywas Gnaden Graf von Hangham, Herr Memeyu, Oberhaupt der Skxawngs, Verteidiger der Memes	LN Discord
 -1	nl	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Zijne Koninklijke Hoogheid Vawmataw, bij gratie van Eywa, Hertog van de Hangvurburcht, Heer Memeyu, Opperhoofd van de Skxawngs, verdediger van de memes	LN Discord
--1	fr	Vawmataw	'vaw.ma.taw	NULL	meme.	Le Très Honorable Vawmataw, par la grâce d'Eywa comte de Hangvourbourg, Seigneur des Mèmes, Chef des Skawngs, défenseur des mèmes	LN Discord
+-1	fr	Vawmataw	'vaw.ma.taw	NULL	meme.	Le Très Honorable Vawmataw, par la grâce d'Eywa comte de Hangvourbourg, Seigneur des Mèmes, Chef des Skxawngs, défenseur des mèmes	LN Discord
 0	eng	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
 0	nl	Eywa	ˈɛj.wa	NULL	meme.	Wie is Eywa? Alleen maar hun godheid! Hun godin, die bestaat uit alle levende dingen. Alles wat ze kennen! Als je ook maar een beetje training had gehad, had je dat allang geweten.	JCA
 2	eng	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
