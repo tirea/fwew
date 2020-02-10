@@ -546,24 +546,24 @@
 360	pl	fìtxan	fɪ.ˈt'an	NULL	adv.	tak, tak badzo	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/
 360	ru	fìtxan	fɪ.ˈt'an	NULL	adv.	настолько (степень выраженности)	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/
 360	sv	fìtxan	fɪ.ˈt'an	NULL	adv.	så, i sådan utsträckning	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/
-364	de	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	hier, dieser Ort	ASG
-364	eng	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	here, this place	ASG
-364	est	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	siin, selles kohas, see koht	ASG
-364	fr	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	ici | (à) cet endroit | (à) ce lieu | on peut également dire: fìtsenge	ASG
-364	hu	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	itt, ez(en) a hely(en)	ASG
-364	nl	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	hier, deze plaats	ASG
-364	pl	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	tutaj, w tym miejscu	ASG
-364	ru	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	тут, здесь, в этом месте	ASG
-364	sv	fìtseng	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	här, det här stället	ASG
-365	de	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	hier, dieser Ort	alternate: fìtseng
-365	eng	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	here, this place	alternate: fìtseng
-365	est	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	siin, selles kohas, see koht	alternate: fìtseng
-365	fr	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	ici | (à) cet endroit | (à) ce lieu | [on peut également dire]: fìtseng	alternate: fìtseng
-365	hu	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	itt, ez(en) a hely(en)	alternate: fìtseng
-365	nl	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	hier, deze plaats	alternate: fìtseng
-365	pl	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	tutaj, w tym miejscu	alternate: fìtseng
-365	ru	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	тут, здесь, в этом месте	alternate: fìtseng
-365	sv	fìtsenge	fɪ.ˈt͡sɛŋ(ɛ)	NULL	adv., n.	här, det här stället	alternate: fìtseng
+364	de	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	hier, dieser Ort	ASG
+364	eng	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	here, this place	ASG
+364	est	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	siin, selles kohas, see koht	ASG
+364	fr	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	ici | (à) cet endroit | (à) ce lieu | on peut également dire: fìtsenge	ASG
+364	hu	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	itt, ez(en) a hely(en)	ASG
+364	nl	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	hier, deze plaats	ASG
+364	pl	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	tutaj, w tym miejscu	ASG
+364	ru	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	тут, здесь, в этом месте	ASG
+364	sv	fìtseng	fɪ.ˈt͡sɛŋ	NULL	adv., n.	här, det här stället	ASG
+365	de	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	hier, dieser Ort	alternate: fìtseng
+365	eng	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	here, this place	alternate: fìtseng
+365	est	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	siin, selles kohas, see koht	alternate: fìtseng
+365	fr	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	ici | (à) cet endroit | (à) ce lieu | [on peut également dire]: fìtseng	alternate: fìtseng
+365	hu	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	itt, ez(en) a hely(en)	alternate: fìtseng
+365	nl	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	hier, deze plaats	alternate: fìtseng
+365	pl	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	tutaj, w tym miejscu	alternate: fìtseng
+365	ru	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	тут, здесь, в этом месте	alternate: fìtseng
+365	sv	fìtsenge	fɪ.ˈt͡sɛ.ŋɛ	NULL	adv., n.	här, det här stället	alternate: fìtseng
 368	de	fì'u	fɪ.ˈʔu	NULL	pn.	dies, dieses (Ding)	ASG
 368	eng	fì'u	fɪ.ˈʔu	NULL	pn.	this (thing)	ASG
 368	est	fì'u	fɪ.ˈʔu	NULL	pn.	see (asi)	ASG
@@ -3360,24 +3360,24 @@
 1880	pl	spxin	sp'in	NULL	adj.	chory	http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
 1880	ru	spxin	sp'in	NULL	adj.	больной	http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
 1880	sv	spxin	sp'in	NULL	adj.	sjuk	http://wiki.learnnavi.org/index.php?title=Canon#Midsummer_Night.27s_Dream_Vocabulary
-1884	de	srak	ˈsɾak(ɛ)	NULL	part.	kennzeichnet Ja oder Nein Fragen	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1884	eng	srak	ˈsɾak(ɛ)	NULL	part.	inter. marker for yes or no questions	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1884	est	srak	ˈsɾak(ɛ)	NULL	part.	märgib kas...? küsimusi	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1884	fr	srak	ˈsɾak(ɛ)	NULL	part.	[marqueur de question fermée placée en fin de phrase]	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1884	hu	srak	ˈsɾak(ɛ)	NULL	part.	eldöntendő kérdés jele	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1884	nl	srak	ˈsɾak(ɛ)	NULL	part.	vvn., markeerder voor ja/nee vragen	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1884	pl	srak	ˈsɾak(ɛ)	NULL	part.	pytajnik tak/nie	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1884	ru	srak	ˈsɾak(ɛ)	NULL	part.	маркер вопросов, требующих ответа «да» или «нет»	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1884	sv	srak	ˈsɾak(ɛ)	NULL	part.	interj. markör för ja och nejfrågor	http://en.wiktionary.org/wiki/Appendix:Na'vi
-1885	de	srake	ˈsɾak(ɛ)	NULL	part.	kennzeichnet Ja oder Nein Fragen	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
-1885	eng	srake	ˈsɾak(ɛ)	NULL	part.	inter. marker for yes or no questions	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
-1885	est	srake	ˈsɾak(ɛ)	NULL	part.	märgib kas...? küsimusi	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
-1885	fr	srake	ˈsɾak(ɛ)	NULL	part.	[marqueur de question fermée placée en début de phrase]	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
-1885	hu	srake	ˈsɾak(ɛ)	NULL	part.	eldöntendő kérdés jele	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
-1885	nl	srake	ˈsɾak(ɛ)	NULL	part.	vvn., markeerder voor ja/nee vragen	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
-1885	pl	srake	ˈsɾak(ɛ)	NULL	part.	pytajnik tak/nie	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
-1885	ru	srake	ˈsɾak(ɛ)	NULL	part.	маркер вопросов, требующих ответа «да» или «нет»	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
-1885	sv	srake	ˈsɾak(ɛ)	NULL	part.	interj. markör för ja och nejfrågor	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1884	de	srak	sɾak̚	NULL	part.	kennzeichnet Ja oder Nein Fragen	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1884	eng	srak	sɾak̚	NULL	part.	inter. marker for yes or no questions	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1884	est	srak	sɾak̚	NULL	part.	märgib kas...? küsimusi	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1884	fr	srak	sɾak̚	NULL	part.	[marqueur de question fermée placée en fin de phrase]	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1884	hu	srak	sɾak̚	NULL	part.	eldöntendő kérdés jele	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1884	nl	srak	sɾak̚	NULL	part.	vvn., markeerder voor ja/nee vragen	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1884	pl	srak	sɾak̚	NULL	part.	pytajnik tak/nie	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1884	ru	srak	sɾak̚	NULL	part.	маркер вопросов, требующих ответа «да» или «нет»	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1884	sv	srak	sɾak̚	NULL	part.	interj. markör för ja och nejfrågor	http://en.wiktionary.org/wiki/Appendix:Na'vi
+1885	de	srake	ˈsɾa.kɛ	NULL	part.	kennzeichnet Ja oder Nein Fragen	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1885	eng	srake	ˈsɾa.kɛ	NULL	part.	inter. marker for yes or no questions	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1885	est	srake	ˈsɾa.kɛ	NULL	part.	märgib kas...? küsimusi	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1885	fr	srake	ˈsɾa.kɛ	NULL	part.	[marqueur de question fermée placée en début de phrase]	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1885	hu	srake	ˈsɾa.kɛ	NULL	part.	eldöntendő kérdés jele	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1885	nl	srake	ˈsɾa.kɛ	NULL	part.	vvn., markeerder voor ja/nee vragen	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1885	pl	srake	ˈsɾa.kɛ	NULL	part.	pytajnik tak/nie	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1885	ru	srake	ˈsɾa.kɛ	NULL	part.	маркер вопросов, требующих ответа «да» или «нет»	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
+1885	sv	srake	ˈsɾa.kɛ	NULL	part.	interj. markör för ja och nejfrågor	Frommer (01. December 2009) http://www.vanityfair.com/online/oscars/2009/12/brushing-up-on-navi-the-language-of-avatar.html
 1888	de	srane	ˈsɾa.nɛ	NULL	part., intj.	ja	http://en.wiktionary.org/wiki/Appendix:Na'vi
 1888	eng	srane	ˈsɾa.nɛ	NULL	part., intj.	yes	http://en.wiktionary.org/wiki/Appendix:Na'vi
 1888	est	srane	ˈsɾa.nɛ	NULL	part., intj.	jah	http://en.wiktionary.org/wiki/Appendix:Na'vi
@@ -3576,24 +3576,24 @@
 1980	pl	talioang	ˈtal.ˌi.o.aŋ	NULL	n.	sturmbeest	James Cameron's Avatar - The Game
 1980	ru	talioang	ˈtal.ˌi.o.aŋ	NULL	n.	штормбык	James Cameron's Avatar - The Game
 1980	sv	talioang	ˈtal.ˌi.o.aŋ	NULL	n.	sturmbeest (varelse som lever på Pandora)	James Cameron's Avatar - The Game
-1984	de	talun	ta.ˈlun(a)	NULL	conj.	weil, denn, vom Beweggrund ausgehend	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1984	eng	talun	ta.ˈlun(a)	NULL	conj.	because, from the reason	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1984	est	talun	ta.ˈlun(a)	NULL	conj.	sellepärast (põhjus)	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1984	fr	talun	ta.ˈlun(a)	NULL	conj.	parce que | ([forme abrégée de] taluna)	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1984	hu	talun	ta.ˈlun(a)	NULL	conj.	mert	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1984	nl	talun	ta.ˈlun(a)	NULL	conj.	omdat	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1984	pl	talun	ta.ˈlun(a)	NULL	conj.	ponieważ, z powodu	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1984	ru	talun	ta.ˈlun(a)	NULL	conj.	поэтому, по этой причине	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1984	sv	talun	ta.ˈlun(a)	NULL	conj.	därför, ifrån anledningen	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-1985	de	taluna	ta.ˈlun(a)	NULL	conj.	weil, denn, vom Beweggrund ausgehend	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-1985	eng	taluna	ta.ˈlun(a)	NULL	conj.	because, from the reason	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-1985	est	taluna	ta.ˈlun(a)	NULL	conj.	sellepärast (põhjus)	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-1985	fr	taluna	ta.ˈlun(a)	NULL	conj.	parce que	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-1985	hu	taluna	ta.ˈlun(a)	NULL	conj.	mert	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-1985	nl	taluna	ta.ˈlun(a)	NULL	conj.	omdat	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-1985	pl	taluna	ta.ˈlun(a)	NULL	conj.	ponieważ, z powodu	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-1985	ru	taluna	ta.ˈlun(a)	NULL	conj.	поэтому, по этой причине	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-1985	sv	taluna	ta.ˈlun(a)	NULL	conj.	därför, ifrån anledningen	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1984	de	talun	ta.ˈlun	NULL	conj.	weil, denn, vom Beweggrund ausgehend	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1984	eng	talun	ta.ˈlun	NULL	conj.	because, from the reason	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1984	est	talun	ta.ˈlun	NULL	conj.	sellepärast (põhjus)	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1984	fr	talun	ta.ˈlun	NULL	conj.	parce que | ([forme abrégée de] taluna)	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1984	hu	talun	ta.ˈlun	NULL	conj.	mert	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1984	nl	talun	ta.ˈlun	NULL	conj.	omdat	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1984	pl	talun	ta.ˈlun	NULL	conj.	ponieważ, z powodu	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1984	ru	talun	ta.ˈlun	NULL	conj.	поэтому, по этой причине	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1984	sv	talun	ta.ˈlun	NULL	conj.	därför, ifrån anledningen	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+1985	de	taluna	ta.ˈlu.na	NULL	conj.	weil, denn, vom Beweggrund ausgehend	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1985	eng	taluna	ta.ˈlu.na	NULL	conj.	because, from the reason	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1985	est	taluna	ta.ˈlu.na	NULL	conj.	sellepärast (põhjus)	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1985	fr	taluna	ta.ˈlu.na	NULL	conj.	parce que	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1985	hu	taluna	ta.ˈlu.na	NULL	conj.	mert	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1985	nl	taluna	ta.ˈlu.na	NULL	conj.	omdat	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1985	pl	taluna	ta.ˈlu.na	NULL	conj.	ponieważ, z powodu	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1985	ru	taluna	ta.ˈlu.na	NULL	conj.	поэтому, по этой причине	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+1985	sv	taluna	ta.ˈlu.na	NULL	conj.	därför, ifrån anledningen	Frommer (01.02.2010) an Prrton http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
 1988	de	tam	t·am	t<0><1><2>am	vin., intj.	ausreichen, genügen, reichen; Okay, in Ordnung	Frommer (18. Feb 2010) http://forum.learnnavi.org/language-updates/ok!-we-got-ok/
 1988	eng	tam	t·am	t<0><1><2>am	vin., intj.	that will suffice, that will do, OK	Frommer (18. Feb 2010) http://forum.learnnavi.org/language-updates/ok!-we-got-ok/
 1988	est	tam	t·am	t<0><1><2>am	vin., intj.	piisama, olgu, okei	Frommer (18. Feb 2010) http://forum.learnnavi.org/language-updates/ok!-we-got-ok/
@@ -3666,24 +3666,24 @@
 2020	pl	taw	taw	NULL	n.	niebo	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2020	ru	taw	taw	NULL	n.	небо	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2020	sv	taw	taw	NULL	n.	himmel, sky	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2024	de	taweyk	ta.ˈwɛjk(a)	NULL	conj.	weil, aufgrund der Ursache	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2024	eng	taweyk	ta.ˈwɛjk(a)	NULL	conj.	because, based on the cause	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2024	est	taweyk	ta.ˈwɛjk(a)	NULL	conj.	sellepärast (põhjendus)	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2024	fr	taweyk	ta.ˈwɛjk(a)	NULL	conj.	parce que | à cause de	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2024	hu	taweyk	ta.ˈwɛjk(a)	NULL	conj.	mert, „azon oknál fogva”	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2024	nl	taweyk	ta.ˈwɛjk(a)	NULL	conj.	omdat, vanwege de reden	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2024	pl	taweyk	ta.ˈwɛjk(a)	NULL	conj.	ponieważ, dlatego że, gdyż, bowiem	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2024	ru	taweyk	ta.ˈwɛjk(a)	NULL	conj.	поэтому, по причине	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2024	sv	taweyk	ta.ˈwɛjk(a)	NULL	conj.	därför, baserad på orsaken	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
-2025	de	taweyka	ta.ˈwɛjk(a)	NULL	conj.	weil, aufgrund der Ursache	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-2025	eng	taweyka	ta.ˈwɛjk(a)	NULL	conj.	because, based on the cause	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-2025	est	taweyka	ta.ˈwɛjk(a)	NULL	conj.	sellepärast (põhjendus)	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-2025	fr	taweyka	ta.ˈwɛjk(a)	NULL	conj.	parce que | à cause de	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-2025	hu	taweyka	ta.ˈwɛjk(a)	NULL	conj.	mert, „azon oknál fogva”	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-2025	nl	taweyka	ta.ˈwɛjk(a)	NULL	conj.	omdat, vanwege de reden	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-2025	pl	taweyka	ta.ˈwɛjk(a)	NULL	conj.	ponieważ, dlatego że, gdyż, bowiem	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-2025	ru	taweyka	ta.ˈwɛjk(a)	NULL	conj.	поэтому, по причине	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
-2025	sv	taweyka	ta.ˈwɛjk(a)	NULL	conj.	därför, baserad på orsaken	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2024	de	taweyk	ta.ˈwɛjk̚	NULL	conj.	weil, aufgrund der Ursache	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2024	eng	taweyk	ta.ˈwɛjk̚	NULL	conj.	because, based on the cause	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2024	est	taweyk	ta.ˈwɛjk̚	NULL	conj.	sellepärast (põhjendus)	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2024	fr	taweyk	ta.ˈwɛjk̚	NULL	conj.	parce que | à cause de	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2024	hu	taweyk	ta.ˈwɛjk̚	NULL	conj.	mert, „azon oknál fogva”	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2024	nl	taweyk	ta.ˈwɛjk̚	NULL	conj.	omdat, vanwege de reden	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2024	pl	taweyk	ta.ˈwɛjk̚	NULL	conj.	ponieważ, dlatego że, gdyż, bowiem	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2024	ru	taweyk	ta.ˈwɛjk̚	NULL	conj.	поэтому, по причине	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2024	sv	taweyk	ta.ˈwɛjk̚	NULL	conj.	därför, baserad på orsaken	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/msg69552/
+2025	de	taweyka	ta.ˈwɛj.ka	NULL	conj.	weil, aufgrund der Ursache	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2025	eng	taweyka	ta.ˈwɛj.ka	NULL	conj.	because, based on the cause	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2025	est	taweyka	ta.ˈwɛj.ka	NULL	conj.	sellepärast (põhjendus)	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2025	fr	taweyka	ta.ˈwɛj.ka	NULL	conj.	parce que | à cause de	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2025	hu	taweyka	ta.ˈwɛj.ka	NULL	conj.	mert, „azon oknál fogva”	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2025	nl	taweyka	ta.ˈwɛj.ka	NULL	conj.	omdat, vanwege de reden	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2025	pl	taweyka	ta.ˈwɛj.ka	NULL	conj.	ponieważ, dlatego że, gdyż, bowiem	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2025	ru	taweyka	ta.ˈwɛj.ka	NULL	conj.	поэтому, по причине	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
+2025	sv	taweyka	ta.ˈwɛj.ka	NULL	conj.	därför, baserad på orsaken	Frommer (01. February 2010) http://forum.learnnavi.org/language-updates/talun-taweyk-tafral-lun-oeyk-holpxay-hol/
 2032	de	tawsìp	ˈtaw.sɪp̚	NULL	n.	Himmelsschiff	NULL
 2032	eng	tawsìp	ˈtaw.sɪp̚	NULL	n.	skyship	NULL
 2032	est	tawsìp	ˈtaw.sɪp̚	NULL	n.	taevalaev	NULL
@@ -4350,24 +4350,24 @@
 2376	pl	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	widzieć (fizycznie)	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2376	ru	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	видеть, смотреть (зрительное ощущение)	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2376	sv	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	se (fysiskt)	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	de	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	Platz, Ort	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	eng	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	place	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	est	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	koht	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	fr	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	place, endroit	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	hu	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	hely	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	nl	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	plaats	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	pl	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	miejsce	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	ru	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	место	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2380	sv	tseng	ˈt͡sɛŋ(ɛ)	NULL	n.	plats	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	de	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	Platz, Ort	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	eng	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	place	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	est	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	koht	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	fr	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	place	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	hu	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	hely	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	nl	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	plaats	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	pl	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	miejsce	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	ru	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	место	http://en.wiktionary.org/wiki/Appendix:Na'vi
-2381	sv	tsenge	ˈt͡sɛŋ(ɛ)	NULL	n.	plats	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	de	tseng	t͡sɛŋ	NULL	n.	Platz, Ort	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	eng	tseng	t͡sɛŋ	NULL	n.	place	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	est	tseng	t͡sɛŋ	NULL	n.	koht	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	fr	tseng	t͡sɛŋ	NULL	n.	place, endroit	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	hu	tseng	t͡sɛŋ	NULL	n.	hely	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	nl	tseng	t͡sɛŋ	NULL	n.	plaats	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	pl	tseng	t͡sɛŋ	NULL	n.	miejsce	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	ru	tseng	t͡sɛŋ	NULL	n.	место	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2380	sv	tseng	t͡sɛŋ	NULL	n.	plats	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	de	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	Platz, Ort	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	eng	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	place	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	est	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	koht	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	fr	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	place	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	hu	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	hely	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	nl	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	plaats	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	pl	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	miejsce	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	ru	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	место	http://en.wiktionary.org/wiki/Appendix:Na'vi
+2381	sv	tsenge	ˈt͡sɛ.ŋɛ	NULL	n.	plats	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2384	de	tsengpe	ˈt͡sɛŋ.pɛ	NULL	inter.	Wo? (welcher Ort?)	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2384	eng	tsengpe	ˈt͡sɛŋ.pɛ	NULL	inter.	where	http://en.wiktionary.org/wiki/Appendix:Na'vi
 2384	est	tsengpe	ˈt͡sɛŋ.pɛ	NULL	inter.	kus	http://en.wiktionary.org/wiki/Appendix:Na'vi
