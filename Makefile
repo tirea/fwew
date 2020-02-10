@@ -19,7 +19,7 @@ format:
 	gofmt -w $(SOURCES)
 
 compile:
-	go build -o bin/fwew
+	go build -o bin/fwew ./...
 
 test: install
 	go test -v -cover
