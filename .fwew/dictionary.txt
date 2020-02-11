@@ -5894,15 +5894,15 @@
 4020	pl	kxamlä	ˈk'am.læ	NULL	adp.	poprzez (przez środek)	Taronyu's Dictionary 9.58 < Frommer
 4020	ru	kxamlä	ˈk'am.læ	NULL	adp.	сквозь	Taronyu's Dictionary 9.58 < Frommer
 4020	sv	kxamlä	ˈk'am.læ	NULL	adp.	genom (via mitten)	Taronyu's Dictionary 9.58 < Frommer
-4024	de	lok	l·ok̚	NULL	adp.	nahe bei, nahe an	Taronyu's dictionary 9.53 < Frommer
-4024	eng	lok	l·ok̚	NULL	adp.	close to	Taronyu's dictionary 9.53 < Frommer
-4024	est	lok	l·ok̚	NULL	adp.	lähedal (millelegi)	Taronyu's dictionary 9.53 < Frommer
-4024	fr	lok	l·ok̚	NULL	adp.	près de | proche de	Taronyu's dictionary 9.53 < Frommer
-4024	hu	lok	l·ok̚	NULL	adp.	közel(ében)	Taronyu's dictionary 9.53 < Frommer
-4024	nl	lok	l·ok̚	NULL	adp.	dicht bij	Taronyu's dictionary 9.53 < Frommer
-4024	pl	lok	l·ok̚	NULL	adp.	blisko	Taronyu's dictionary 9.53 < Frommer
-4024	ru	lok	l·ok̚	NULL	adp.	рядом (с чемлибо), близко (к чемулибо)	Taronyu's dictionary 9.53 < Frommer
-4024	sv	lok	l·ok̚	NULL	adp.	nära, tätt intill	Taronyu's dictionary 9.53 < Frommer
+4024	de	lok	lok̚	NULL	adp.	nahe bei, nahe an	Taronyu's dictionary 9.53 < Frommer
+4024	eng	lok	lok̚	NULL	adp.	close to	Taronyu's dictionary 9.53 < Frommer
+4024	est	lok	lok̚	NULL	adp.	lähedal (millelegi)	Taronyu's dictionary 9.53 < Frommer
+4024	fr	lok	lok̚	NULL	adp.	près de | proche de	Taronyu's dictionary 9.53 < Frommer
+4024	hu	lok	lok̚	NULL	adp.	közel(ében)	Taronyu's dictionary 9.53 < Frommer
+4024	nl	lok	lok̚	NULL	adp.	dicht bij	Taronyu's dictionary 9.53 < Frommer
+4024	pl	lok	lok̚	NULL	adp.	blisko	Taronyu's dictionary 9.53 < Frommer
+4024	ru	lok	lok̚	NULL	adp.	рядом (с чемлибо), близко (к чемулибо)	Taronyu's dictionary 9.53 < Frommer
+4024	sv	lok	lok̚	NULL	adp.	nära, tätt intill	Taronyu's dictionary 9.53 < Frommer
 4028	de	maw	maw	NULL	adp.	nach (Zeit)	Frommer (19. Feb 2010) http://wiki.learnnavi.org/index.php?title=Canon#Zenke
 4028	eng	maw	maw	NULL	adp.	after (time)	Frommer (19. Feb 2010) http://wiki.learnnavi.org/index.php?title=Canon#Zenke
 4028	est	maw	maw	NULL	adp.	pärast (aeg)	Frommer (19. Feb 2010) http://wiki.learnnavi.org/index.php?title=Canon#Zenke
@@ -19378,12 +19378,12 @@
 12970	fr	txantsawl	ˈt'an.t͡sawl	NULL	adj.	géant | immense | énorme	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12970	hu	txantsawl	ˈt'an.t͡sawl	NULL	adj.	óriási, hatalmas	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12970	nl	txantsawl	ˈt'an.t͡sawl	NULL	adj.	enorm, gigantisch	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12971	de	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	sehr mögen, enorm genießen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12971	eng	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	love greatly, enjoy tremendously	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12971	est	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	tugevalt meeldima, tugevalt rahuldust pakkuv	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12971	fr	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	aimer beaucoup | profiter énormément	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12971	hu	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	nagyon szeret	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
-12971	nl	txasunu	t'a.ˈsu.nu	txas<0><1>un<2>u	vin.	erg houden van	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	de	txasunu	t'a.ˈs·u.n·u	txas<0><1>un<2>u	vin.	sehr mögen, enorm genießen	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	eng	txasunu	t'a.ˈs·u.n·u	txas<0><1>un<2>u	vin.	love greatly, enjoy tremendously	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	est	txasunu	t'a.ˈs·u.n·u	txas<0><1>un<2>u	vin.	tugevalt meeldima, tugevalt rahuldust pakkuv	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	fr	txasunu	t'a.ˈs·u.n·u	txas<0><1>un<2>u	vin.	aimer beaucoup | profiter énormément	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	hu	txasunu	t'a.ˈs·u.n·u	txas<0><1>un<2>u	vin.	nagyon szeret	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
+12971	nl	txasunu	t'a.ˈs·u.n·u	txas<0><1>un<2>u	vin.	erg houden van	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12972	de	zeykoyu	zɛj.ˈko.ju	NULL	n.	Heiler	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12972	eng	zeykoyu	zɛj.ˈko.ju	NULL	n.	healer	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
 12972	est	zeykoyu	zɛj.ˈko.ju	NULL	n.	ravitseja	http://naviteri.org/2019/06/50a-liu-amip-40-new-words%EF%BB%BF/
