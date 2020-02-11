@@ -1121,15 +1121,15 @@
 680	pl	kä	k·æ	k<0><1><2>ä	vin.	iść	Taronyu's dictionary 9.75 < Frommer
 680	ru	kä	k·æ	k<0><1><2>ä	vin.	идти, ехать, двигаться	Taronyu's dictionary 9.75 < Frommer
 680	sv	kä	k·æ	k<0><1><2>ä	vin.	åka, gå, fara	Taronyu's dictionary 9.75 < Frommer
-684	de	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	giftige Spinnenart	Taronyu's dictionary -> Survival Guide
-684	eng	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	species of poisonous arachnid	Taronyu's dictionary -> Survival Guide
-684	est	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	astelämblik	Taronyu's dictionary -> Survival Guide
-684	fr	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	espèce d'arachnide venimeuse | [Scorpiosista virosae]	Taronyu's dictionary -> Survival Guide
-684	hu	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	mérgező pókszabású állat (pandorai állatfaj)	Taronyu's dictionary -> Survival Guide
-684	nl	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	giftige spinnensoort	Taronyu's dictionary -> Survival Guide
-684	pl	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	scorpiosista virosae, arachnoid	Taronyu's dictionary -> Survival Guide
-684	ru	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	вид ядовитых паукообразных	Taronyu's dictionary -> Survival Guide
-684	sv	kali'weya	ka.liʔ.wɛ.ja	NULL	n.	en art av giftigt spindeldjur	Taronyu's dictionary -> Survival Guide
+684	de	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	giftige Spinnenart	Taronyu's dictionary -> Survival Guide
+684	eng	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	species of poisonous arachnid	Taronyu's dictionary -> Survival Guide
+684	est	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	astelämblik	Taronyu's dictionary -> Survival Guide
+684	fr	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	espèce d'arachnide venimeuse | [Scorpiosista virosae]	Taronyu's dictionary -> Survival Guide
+684	hu	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	mérgező pókszabású állat (pandorai állatfaj)	Taronyu's dictionary -> Survival Guide
+684	nl	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	giftige spinnensoort	Taronyu's dictionary -> Survival Guide
+684	pl	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	scorpiosista virosae, arachnoid	Taronyu's dictionary -> Survival Guide
+684	ru	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	вид ядовитых паукообразных	Taronyu's dictionary -> Survival Guide
+684	sv	kali'weya	ka.liʔ.ˈwɛ.ja	NULL	n.	en art av giftigt spindeldjur	Taronyu's dictionary -> Survival Guide
 688	de	kalin	ka.ˈlin	NULL	adj.	süß (Geschmack)	Taronyu's Dictionary 9.75 < Frommer
 688	eng	kalin	ka.ˈlin	NULL	adj.	sweet to the taste	Taronyu's Dictionary 9.75 < Frommer
 688	est	kalin	ka.ˈlin	NULL	adj.	hea maitsega	Taronyu's Dictionary 9.75 < Frommer
@@ -8726,15 +8726,15 @@
 5424	pl	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	być wspaniałym, fascynujacym (posp.)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
 5424	ru	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	быть удивленным, восхищенным (сленг)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
 5424	sv	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	att vara fascinerande, otrolig (slangord)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5428	de	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	Giraffe (Lehnwort)	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5428	eng	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	giraffe	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5428	est	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	Kaelkirjak	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5428	fr	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	girafe	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5428	hu	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	zsiráf	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5428	nl	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	giraf	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5428	pl	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	żyrafa	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5428	ru	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	жираф	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5428	sv	tsyìräfì	t͡sjɪ.ɾæ.fɪ	NULL	n.	giraff	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	de	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	Giraffe (Lehnwort)	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	eng	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	giraffe	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	est	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	Kaelkirjak	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	fr	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	girafe	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	hu	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	zsiráf	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	nl	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	giraf	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	pl	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	żyrafa	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	ru	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	жираф	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
+5428	sv	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	giraff	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
 5432	de	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	das (Relativpronomen)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
 5432	eng	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
 5432	est	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	see, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
@@ -8825,22 +8825,22 @@
 5468	pl	ham	ham	NULL	adj.	poprzedni	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
 5468	ru	ham	ham	NULL	adj.	предыдущий	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
 5468	sv	ham	ham	NULL	adj.	föregående	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)
-5472	de	matsa	ma.t͡sa	NULL	n.	Matze (jiddisches Lehnwort); ungesäuertes Brot	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5472	eng	matsa	ma.t͡sa	NULL	n.	matsa, crackers	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5472	est	matsa	ma.t͡sa	NULL	n.	kuivik	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5472	fr	matsa	ma.t͡sa	NULL	n.	crakers (Mot hébreu 'matza')	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5472	hu	matsa	ma.t͡sa	NULL	n.	matsa, crackers	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5472	nl	matsa	ma.t͡sa	NULL	n.	matse, broodkoek	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5472	ru	matsa	ma.t͡sa	NULL	n.	маца, крекеры	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5472	sv	matsa	ma.t͡sa	NULL	n.	matsa, kex	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5476	de	hametsì	ha.mɛ.t͡sɪ	NULL	n.	Gesäuertes, Sauerteig (jiddisches Lehnwort)	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5476	eng	hametsì	ha.mɛ.t͡sɪ	NULL	n.	leavened bread	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5476	est	hametsì	ha.mɛ.t͡sɪ	NULL	n.	juuretis	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5476	fr	hametsì	ha.mɛ.t͡sɪ	NULL	n.	pain au levain	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5476	hu	hametsì	ha.mɛ.t͡sɪ	NULL	n.	kovászos kenyér	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5476	nl	hametsì	ha.mɛ.t͡sɪ	NULL	n.	ongedesemd brood	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5476	ru	hametsì	ha.mɛ.t͡sɪ	NULL	n.	дрожжевой хлеб	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
-5476	sv	hametsì	ha.mɛ.t͡sɪ	NULL	n.	syrat bröd	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5472	de	matsa	ˈma.t͡sa	NULL	n.	Matze (jiddisches Lehnwort); ungesäuertes Brot	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5472	eng	matsa	ˈma.t͡sa	NULL	n.	matsa, crackers	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5472	est	matsa	ˈma.t͡sa	NULL	n.	kuivik	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5472	fr	matsa	ˈma.t͡sa	NULL	n.	crakers (Mot hébreu 'matza')	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5472	hu	matsa	ˈma.t͡sa	NULL	n.	matsa, crackers	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5472	nl	matsa	ˈma.t͡sa	NULL	n.	matse, broodkoek	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5472	ru	matsa	ˈma.t͡sa	NULL	n.	маца, крекеры	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5472	sv	matsa	ˈma.t͡sa	NULL	n.	matsa, kex	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5476	de	hametsì	ha.ˈmɛ.t͡sɪ	NULL	n.	Gesäuertes, Sauerteig (jiddisches Lehnwort)	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5476	eng	hametsì	ha.ˈmɛ.t͡sɪ	NULL	n.	leavened bread	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5476	est	hametsì	ha.ˈmɛ.t͡sɪ	NULL	n.	juuretis	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5476	fr	hametsì	ha.ˈmɛ.t͡sɪ	NULL	n.	pain au levain	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5476	hu	hametsì	ha.ˈmɛ.t͡sɪ	NULL	n.	kovászos kenyér	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5476	nl	hametsì	ha.ˈmɛ.t͡sɪ	NULL	n.	ongedesemd brood	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5476	ru	hametsì	ha.ˈmɛ.t͡sɪ	NULL	n.	дрожжевой хлеб	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
+5476	sv	hametsì	ha.ˈmɛ.t͡sɪ	NULL	n.	syrat bröd	Frommer (22. March 2010) http://whyisthisnight.com/addl-more.html#na%27vi
 5528	de	tìkangkemvi	tɪ.ˈkaŋ.kɛm.vi	NULL	n.	Projekt, Teil einer Arbeit	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
 5528	eng	tìkangkemvi	tɪ.ˈkaŋ.kɛm.vi	NULL	n.	project, piece of work	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
 5528	est	tìkangkemvi	tɪ.ˈkaŋ.kɛm.vi	NULL	n.	projekt, töö osa	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
@@ -8931,15 +8931,15 @@
 5564	pl	pum	pum	NULL	pn.	\\ ten (zaimek odnoszący się do wcześniej wspomnianego rzeczownika albo zaimka)	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
 5564	ru	pum	pum	NULL	pn.	тот (заменитель предыдущего существительного или местоимения)	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
 5564	sv	pum	pum	NULL	pn.	en (pronomen för att modifiera substantiv eller pronomen)	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
-5572	de	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	USA, Vereinigte Staaten von Amerika	NULL
-5572	eng	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	U.S.A.	NULL
-5572	est	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	USA	NULL
-5572	fr	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	États-Unis	NULL
-5572	hu	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	USA	NULL
-5572	nl	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	Verenigde Staten	NULL
-5572	pl	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	USA	NULL
-5572	ru	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	США	NULL
-5572	sv	Yuesey	ju.ɛ.sɛj	NULL	prop.n.	USA	NULL
+5572	de	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	USA, Vereinigte Staaten von Amerika	NULL
+5572	eng	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	U.S.A.	NULL
+5572	est	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	USA	NULL
+5572	fr	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	États-Unis	NULL
+5572	hu	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	USA	NULL
+5572	nl	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	Verenigde Staten	NULL
+5572	pl	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	USA	NULL
+5572	ru	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	США	NULL
+5572	sv	Yuesey	ju.ɛ.ˈsɛj	NULL	prop.n.	USA	NULL
 5576	de	teya si	tɛ.ˈja ˈs·i	teya s<0><1><2>i	vin.	füllen (Dativ für die Sache, die gefüllt wird)	NULL
 5576	eng	teya si	tɛ.ˈja ˈs·i	teya s<0><1><2>i	vin.	fill (with dative of thing filled)	NULL
 5576	est	teya si	tɛ.ˈja ˈs·i	teya s<0><1><2>i	vin.	täitma ( asi, mida täidetakse datiivselt)	NULL
@@ -9075,15 +9075,15 @@
 5640	pl	tsyänel	ˈt͡sjæ.nɛl	NULL	n.	kanał telewizyjny	Frommer (26. Feb 2010) http://wiki.learnnavi.org/index.php?title=Corpus#Good_Morning_America
 5640	ru	tsyänel	ˈt͡sjæ.nɛl	NULL	n.	телеканал	Frommer (26. Feb 2010) http://wiki.learnnavi.org/index.php?title=Corpus#Good_Morning_America
 5640	sv	tsyänel	ˈt͡sjæ.nɛl	NULL	n.	TVkanal	Frommer (26. Feb 2010) http://wiki.learnnavi.org/index.php?title=Corpus#Good_Morning_America
-5644	de	trrtxon	tṛ.t'on	NULL	n.	der TagundNachtZyklus auf Pandora	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5644	eng	trrtxon	tṛ.t'on	NULL	n.	the day and night cycle of Pandora	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5644	est	trrtxon	tṛ.t'on	NULL	n.	ööpäev	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5644	fr	trrtxon	tṛ.t'on	NULL	n.	jour & nuit (le cycle complet d'une rotation Pandorienne)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5644	hu	trrtxon	tṛ.t'on	NULL	n.	napéj változás Pandorán, egy pandorai nap	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5644	nl	trrtxon	tṛ.t'on	NULL	n.	de dag en nacht cyclus van Pandora	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5644	pl	trrtxon	tṛ.t'on	NULL	n.	doba	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5644	ru	trrtxon	tṛ.t'on	NULL	n.	суточный цикл Пандоры	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
-5644	sv	trrtxon	tṛ.t'on	NULL	n.	dag och natt cykeln av Pandora	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	de	trrtxon	ˈtṛ.t'on	NULL	n.	der TagundNachtZyklus auf Pandora	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	eng	trrtxon	ˈtṛ.t'on	NULL	n.	the day and night cycle of Pandora	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	est	trrtxon	ˈtṛ.t'on	NULL	n.	ööpäev	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	fr	trrtxon	ˈtṛ.t'on	NULL	n.	jour & nuit (le cycle complet d'une rotation Pandorienne)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	hu	trrtxon	ˈtṛ.t'on	NULL	n.	napéj változás Pandorán, egy pandorai nap	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	nl	trrtxon	ˈtṛ.t'on	NULL	n.	de dag en nacht cyclus van Pandora	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	pl	trrtxon	ˈtṛ.t'on	NULL	n.	doba	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	ru	trrtxon	ˈtṛ.t'on	NULL	n.	суточный цикл Пандоры	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
+5644	sv	trrtxon	ˈtṛ.t'on	NULL	n.	dag och natt cykeln av Pandora	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/
 5648	de	au	a.ˈu	NULL	intj.	Ausruf der Betroffenheit	Taronyu Dictionary
 5648	eng	au	a.ˈu	NULL	intj.	exclamation of consternation	Taronyu Dictionary
 5648	est	au	a.ˈu	NULL	intj.	jahmatuse märkija	Taronyu Dictionary
@@ -9111,14 +9111,14 @@
 5660	pl	lekoren	lɛ.ko.ˈɾɛn	NULL	adj.	prawny	Frommer (10. March 2010) http://schott.blogs.nytimes.com/2010/03/10/questions-answered-invented-languages/
 5660	ru	lekoren	lɛ.ko.ˈɾɛn	NULL	adj.	правильный	Frommer (10. March 2010) http://schott.blogs.nytimes.com/2010/03/10/questions-answered-invented-languages/
 5660	sv	lekoren	lɛ.ko.ˈɾɛn	NULL	adj.	angående lagar och regler	Frommer (10. March 2010) http://schott.blogs.nytimes.com/2010/03/10/questions-answered-invented-languages/
-5664	de	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	Tageszeitraucherspaß, vibrierende Zunge (Na'viIdiom)	NULL
-5664	eng	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	day time smoking pleasure, vibrating tongue (Na'vi idiom)	NULL
-5664	est	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	suitsetamise nautimine päevasel ajal (Na'vi idioom)	NULL
-5664	fr	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	plaisir diurne de fumer, vibration de la langue	NULL
-5664	hu	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	„nappali örömteli füstölgés”, dohányzás (na'vi idióma)	NULL
-5664	nl	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	rookplezier overdag, trillende tong (Na'vi idioom)	NULL
-5664	ru	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	учебное словоскороговорка	NULL
-5664	sv	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	dagtidsrökandenjutning, vibrerande tunga (Na'vi idiom)	NULL
+5664	de	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	Tageszeitraucherspaß, vibrierende Zunge (Na'viIdiom)	Skxawng (08 Jan 2010) https://forum.learnnavi.org/vocab-phrases/daytime-smoking-pleasure/msg306222/#msg306222 https://forum.learnnavi.org/spam/prrkxentrrkrr
+5664	eng	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	day time smoking pleasure, vibrating tongue (Na'vi idiom)	Skxawng (08 Jan 2010) https://forum.learnnavi.org/vocab-phrases/daytime-smoking-pleasure/msg306222/#msg306222 https://forum.learnnavi.org/spam/prrkxentrrkrr
+5664	est	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	suitsetamise nautimine päevasel ajal (Na'vi idioom)	Skxawng (08 Jan 2010) https://forum.learnnavi.org/vocab-phrases/daytime-smoking-pleasure/msg306222/#msg306222 https://forum.learnnavi.org/spam/prrkxentrrkrr
+5664	fr	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	plaisir diurne de fumer, vibration de la langue	Skxawng (08 Jan 2010) https://forum.learnnavi.org/vocab-phrases/daytime-smoking-pleasure/msg306222/#msg306222 https://forum.learnnavi.org/spam/prrkxentrrkrr
+5664	hu	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	„nappali örömteli füstölgés”, dohányzás (na'vi idióma)	Skxawng (08 Jan 2010) https://forum.learnnavi.org/vocab-phrases/daytime-smoking-pleasure/msg306222/#msg306222 https://forum.learnnavi.org/spam/prrkxentrrkrr
+5664	nl	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	rookplezier overdag, trillende tong (Na'vi idioom)	Skxawng (08 Jan 2010) https://forum.learnnavi.org/vocab-phrases/daytime-smoking-pleasure/msg306222/#msg306222 https://forum.learnnavi.org/spam/prrkxentrrkrr
+5664	ru	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	учебное словоскороговорка	Skxawng (08 Jan 2010) https://forum.learnnavi.org/vocab-phrases/daytime-smoking-pleasure/msg306222/#msg306222 https://forum.learnnavi.org/spam/prrkxentrrkrr
+5664	sv	prrkxentrrkrr	pṛ.k'ɛn.tṛ.kṛ	NULL	n.	dagtidsrökandenjutning, vibrerande tunga (Na'vi idiom)	Skxawng (08 Jan 2010) https://forum.learnnavi.org/vocab-phrases/daytime-smoking-pleasure/msg306222/#msg306222 https://forum.learnnavi.org/spam/prrkxentrrkrr
 5668	de	tìftia	tɪ.ftiˈ.a	NULL	n.	Studium	Frommer (21. December 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
 5668	eng	tìftia	tɪ.ftiˈ.a	NULL	n.	study	Frommer (21. December 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
 5668	est	tìftia	tɪ.ftiˈ.a	NULL	n.	õpe	Frommer (21. December 2009) http://wiki.learnnavi.org/index.php/Corpus#Science_Magazine
@@ -10690,15 +10690,15 @@
 6756	pl	nì'eng	nɪ.ˈʔɛŋ	NULL	adv.	równo, identycznie, tak samo	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6756	ru	nì'eng	nɪ.ˈʔɛŋ	NULL	adv.	эквиваллентно	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6756	sv	nì'eng	nɪ.ˈʔɛŋ	NULL	adv.	lika, på samma nivå	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	de	Pari	pa.ɾi	NULL	prop.n.	Paris (Hauptstadt Frankreichs)	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	eng	Pari	pa.ɾi	NULL	prop.n.	Paris	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	est	Pari	pa.ɾi	NULL	prop.n.	Pariis	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	fr	Pari	pa.ɾi	NULL	prop.n.	Paris	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	hu	Pari	pa.ɾi	NULL	prop.n.	Párizs	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	nl	Pari	pa.ɾi	NULL	prop.n.	Parijs	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	pl	Pari	pa.ɾi	NULL	prop.n.	Paryż	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	ru	Pari	pa.ɾi	NULL	prop.n.	Париж	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
-6760	sv	Pari	pa.ɾi	NULL	prop.n.	Paris	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	de	Pari	ˈpa.ɾi	NULL	prop.n.	Paris (Hauptstadt Frankreichs)	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	eng	Pari	ˈpa.ɾi	NULL	prop.n.	Paris	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	est	Pari	ˈpa.ɾi	NULL	prop.n.	Pariis	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	fr	Pari	ˈpa.ɾi	NULL	prop.n.	Paris	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	hu	Pari	ˈpa.ɾi	NULL	prop.n.	Párizs	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	nl	Pari	ˈpa.ɾi	NULL	prop.n.	Parijs	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	pl	Pari	ˈpa.ɾi	NULL	prop.n.	Paryż	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	ru	Pari	ˈpa.ɾi	NULL	prop.n.	Париж	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
+6760	sv	Pari	ˈpa.ɾi	NULL	prop.n.	Paris	(26 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6764	de	tì'ong	tɪ.ˈʔoŋ	NULL	n.	Aufblühen, Ausblühen	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6764	eng	tì'ong	tɪ.ˈʔoŋ	NULL	n.	blooming, unfolding	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
 6764	est	tì'ong	tɪ.ˈʔoŋ	NULL	n.	õitsemine	Frommer (26. Sep 2010) http://naviteri.org/2010/09/getting-to-know-you-part-1/
@@ -10735,15 +10735,15 @@
 6776	pl	leyn	l·ɛjn	l<0><1><2>eyn	vtr.	powtarzać	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
 6776	ru	leyn	l·ɛjn	l<0><1><2>eyn	vtr.	повторять	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
 6776	sv	leyn	l·ɛjn	l<0><1><2>eyn	vtr.	repetera, göra igen	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	de	päsketpol	pæ.skɛt.pol	NULL	n.	Basketball	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	eng	päsketpol	pæ.skɛt.pol	NULL	n.	basketball	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	est	päsketpol	pæ.skɛt.pol	NULL	n.	korvpall	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	fr	päsketpol	pæ.skɛt.pol	NULL	n.	basket-ball	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	hu	päsketpol	pæ.skɛt.pol	NULL	n.	basketball	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	nl	päsketpol	pæ.skɛt.pol	NULL	n.	basketbal	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	pl	päsketpol	pæ.skɛt.pol	NULL	n.	koszykówka	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	ru	päsketpol	pæ.skɛt.pol	NULL	n.	баскетбол	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
-6780	sv	päsketpol	pæ.skɛt.pol	NULL	n.	basket	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	de	päsketpol	ˈpæ.skɛt.pol	NULL	n.	Basketball	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	eng	päsketpol	ˈpæ.skɛt.pol	NULL	n.	basketball	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	est	päsketpol	ˈpæ.skɛt.pol	NULL	n.	korvpall	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	fr	päsketpol	ˈpæ.skɛt.pol	NULL	n.	basket-ball	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	hu	päsketpol	ˈpæ.skɛt.pol	NULL	n.	basketball	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	nl	päsketpol	ˈpæ.skɛt.pol	NULL	n.	basketbal	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	pl	päsketpol	ˈpæ.skɛt.pol	NULL	n.	koszykówka	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	ru	päsketpol	ˈpæ.skɛt.pol	NULL	n.	баскетбол	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
+6780	sv	päsketpol	ˈpæ.skɛt.pol	NULL	n.	basket	(28 September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
 6784	de	nìFranse	nɪ.ˈfɾan.sɛ	NULL	adv.	französisch, in Französisch	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
 6784	eng	nìFranse	nɪ.ˈfɾan.sɛ	NULL	adv.	French	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
 6784	est	nìFranse	nɪ.ˈfɾan.sɛ	NULL	adv.	prantsuse moodi, prantsuse keeles	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/
@@ -11194,15 +11194,15 @@
 6988	pl	nìftxan	nɪ.ˈft'an	NULL	adv.	tak, tak bardzo	Frommer (01.12. 2010) http://forum.learnnavi.org/language-updates/as-x-as-y-keep-on-keepin-on/
 6988	ru	nìftxan	nɪ.ˈft'an	NULL	adv.	так, до этих пределов	Frommer (01.12. 2010) http://forum.learnnavi.org/language-updates/as-x-as-y-keep-on-keepin-on/
 6988	sv	nìftxan	nɪ.ˈft'an	NULL	adv.	så, i sådan utsträckning	Frommer (01.12. 2010) http://forum.learnnavi.org/language-updates/as-x-as-y-keep-on-keepin-on/
-6992	de	Yeysu	jɛj.su	NULL	prop.n.	Jesus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
-6992	eng	Yeysu	jɛj.su	NULL	prop.n.	Jesus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
-6992	est	Yeysu	jɛj.su	NULL	prop.n.	Jeesus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
-6992	fr	Yeysu	jɛj.su	NULL	prop.n.	Jésus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
-6992	hu	Yeysu	jɛj.su	NULL	prop.n.	Jézus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
-6992	nl	Yeysu	jɛj.su	NULL	prop.n.	Jezus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
-6992	pl	Yeysu	jɛj.su	NULL	prop.n.	Jezus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
-6992	ru	Yeysu	jɛj.su	NULL	prop.n.	Исус	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
-6992	sv	Yeysu	jɛj.su	NULL	prop.n.	Jesus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	de	Yeysu	ˈjɛj.su	NULL	prop.n.	Jesus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	eng	Yeysu	ˈjɛj.su	NULL	prop.n.	Jesus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	est	Yeysu	ˈjɛj.su	NULL	prop.n.	Jeesus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	fr	Yeysu	ˈjɛj.su	NULL	prop.n.	Jésus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	hu	Yeysu	ˈjɛj.su	NULL	prop.n.	Jézus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	nl	Yeysu	ˈjɛj.su	NULL	prop.n.	Jezus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	pl	Yeysu	ˈjɛj.su	NULL	prop.n.	Jezus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	ru	Yeysu	ˈjɛj.su	NULL	prop.n.	Исус	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
+6992	sv	Yeysu	ˈjɛj.su	NULL	prop.n.	Jesus	(01 Dec 2010) http://forum.learnnavi.org/language-updates/for-%28duration%29-jesus-loan-word/
 7172	de	lelì'fya	lɛ.ˈlɪʔ.fja	NULL	adj.	Sprach, die Sprache betreffend	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
 7172	eng	lelì'fya	lɛ.ˈlɪʔ.fja	NULL	adj.	concerning language, regarding language	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
 7172	est	lelì'fya	lɛ.ˈlɪʔ.fja	NULL	adj.	keelealane	Frommer (24. June 2010) http://naviteri.org/2010/06/first-post/
@@ -13467,14 +13467,14 @@
 8252	pl	snaytu	ˈsnaj.tu	NULL	n.	przegrany	Frommer (31.12.2011) http://naviteri.org/2011/12/a-note-on-the-word-%E2%80%9Cyora%E2%80%99tu%E2%80%9D/
 8252	ru	snaytu	ˈsnaj.tu	NULL	n.	неудачник	Frommer (31.12.2011) http://naviteri.org/2011/12/a-note-on-the-word-%E2%80%9Cyora%E2%80%99tu%E2%80%9D/
 8252	sv	snaytu	ˈsnaj.tu	NULL	n.	förlorare	Frommer (31.12.2011) http://naviteri.org/2011/12/a-note-on-the-word-%E2%80%9Cyora%E2%80%99tu%E2%80%9D/
-8256	de	way a plltxe	waj a pḷ.t'ɛ	NULL	ph.	gesprochenes Gedicht (i.S. melodische Rezitation)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8256	eng	way a plltxe	waj a pḷ.t'ɛ	NULL	ph.	spoken poem (as a melodic recital)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8256	est	way a plltxe	waj a pḷ.t'ɛ	NULL	ph.	luuletus e. räägitud laul	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8256	fr	way a plltxe	waj a pḷ.t'ɛ	NULL	ph.	poème (cérémonial)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8256	hu	way a plltxe	waj a pḷ.t'ɛ	NULL	ph.	vers szavalás (melodikus elbeszélés)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8256	nl	way a plltxe	waj a pḷ.t'ɛ	NULL	ph.	gesproken gedicht (als melodieuze voordracht)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8256	pl	way a plltxe	waj a pḷ.t'ɛ	NULL	ph.	recytowany wiersz (deklamacja do melodii)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8256	ru	way a plltxe	waj a pḷ.t'ɛ	NULL	ph.	мелодичный речитатив	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8256	de	way a plltxe	waj a pḷ.ˈt'ɛ	NULL	ph.	gesprochenes Gedicht (i.S. melodische Rezitation)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8256	eng	way a plltxe	waj a pḷ.ˈt'ɛ	NULL	ph.	spoken poem (as a melodic recital)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8256	est	way a plltxe	waj a pḷ.ˈt'ɛ	NULL	ph.	luuletus e. räägitud laul	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8256	fr	way a plltxe	waj a pḷ.ˈt'ɛ	NULL	ph.	poème (cérémonial)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8256	hu	way a plltxe	waj a pḷ.ˈt'ɛ	NULL	ph.	vers szavalás (melodikus elbeszélés)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8256	nl	way a plltxe	waj a pḷ.ˈt'ɛ	NULL	ph.	gesproken gedicht (als melodieuze voordracht)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8256	pl	way a plltxe	waj a pḷ.ˈt'ɛ	NULL	ph.	recytowany wiersz (deklamacja do melodii)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8256	ru	way a plltxe	waj a pḷ.ˈt'ɛ	NULL	ph.	мелодичный речитатив	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
 8260	de	way a rol	waj a ɾol	NULL	ph.	gesungenes Gedicht	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
 8260	eng	way a rol	waj a ɾol	NULL	ph.	sung poem	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
 8260	est	way a rol	waj a ɾol	NULL	ph.	lauldud laul	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
@@ -13483,14 +13483,14 @@
 8260	nl	way a rol	waj a ɾol	NULL	ph.	gezongen gedicht	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
 8260	pl	way a rol	waj a ɾol	NULL	ph.	poezja śpiewana	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
 8260	ru	way a rol	waj a ɾol	NULL	ph.	песенная поэма	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8264	de	wayä aylì'u	waj.æ ajlɪ.ʔu	NULL	ph.	Gedichttext, Liedtext	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8264	eng	wayä aylì'u	waj.æ ajlɪ.ʔu	NULL	ph.	words of a poem or lyrics of a song	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8264	est	wayä aylì'u	waj.æ ajlɪ.ʔu	NULL	ph.	luuletuse või laulu sõnad	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8264	fr	wayä aylì'u	waj.æ ajlɪ.ʔu	NULL	ph.	mots ou paroles d'un poème ou chant (cérémonial)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8264	hu	wayä aylì'u	waj.æ ajlɪ.ʔu	NULL	ph.	vers vagy dal szövege	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8264	nl	wayä aylì'u	waj.æ ajlɪ.ʔu	NULL	ph.	woorden van een gedicht, tekst van een lied	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8264	pl	wayä aylì'u	waj.æ ajlɪ.ʔu	NULL	ph.	wiersz lub słowa pieśni	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
-8264	ru	wayä aylì'u	waj.æ ajlɪ.ʔu	NULL	ph.	слова поэмы или текст песни	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8264	de	wayä aylì'u	ˈwaj.æ aj.ˈlɪ.ʔu	NULL	ph.	Gedichttext, Liedtext	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8264	eng	wayä aylì'u	ˈwaj.æ aj.ˈlɪ.ʔu	NULL	ph.	words of a poem or lyrics of a song	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8264	est	wayä aylì'u	ˈwaj.æ aj.ˈlɪ.ʔu	NULL	ph.	luuletuse või laulu sõnad	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8264	fr	wayä aylì'u	ˈwaj.æ aj.ˈlɪ.ʔu	NULL	ph.	mots ou paroles d'un poème ou chant (cérémonial)	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8264	hu	wayä aylì'u	ˈwaj.æ aj.ˈlɪ.ʔu	NULL	ph.	vers vagy dal szövege	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8264	nl	wayä aylì'u	ˈwaj.æ aj.ˈlɪ.ʔu	NULL	ph.	woorden van een gedicht, tekst van een lied	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8264	pl	wayä aylì'u	ˈwaj.æ aj.ˈlɪ.ʔu	NULL	ph.	wiersz lub słowa pieśni	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
+8264	ru	wayä aylì'u	ˈwaj.æ aj.ˈlɪ.ʔu	NULL	ph.	слова поэмы или текст песни	Frommer (30. December 2011) http://naviteri.org/2011/12/ulte-yora%E2%80%99tu-leiu-and-the-winner-is/
 8268	de	ultxatu	ul.ˈt'a.tu	NULL	n.	Teilnehmer eines Treffens	Frommer (31.12.2011) http://naviteri.org/2011/12/a-note-on-the-word-%E2%80%9Cyora%E2%80%99tu%E2%80%9D/
 8268	eng	ultxatu	ul.ˈt'a.tu	NULL	n.	meeting participant	Frommer (31.12.2011) http://naviteri.org/2011/12/a-note-on-the-word-%E2%80%9Cyora%E2%80%99tu%E2%80%9D/
 8268	est	ultxatu	ul.ˈt'a.tu	NULL	n.	kohtuja, kohtumises osaleja	Frommer (31.12.2011) http://naviteri.org/2011/12/a-note-on-the-word-%E2%80%9Cyora%E2%80%99tu%E2%80%9D/
@@ -18310,12 +18310,12 @@
 11112	fr	tswìk	t͡sw·ɪk	tsw<0><1><2>ìk	vtr.	sucer | aspirer	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 11112	hu	tswìk	t͡sw·ɪk	tsw<0><1><2>ìk	vtr.	szívni	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 11112	nl	tswìk	t͡sw·ɪk	tsw<0><1><2>ìk	vtr.	opzuigen	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
-11116	de	tswìk kxenerit	t͡sw·ɪk k'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	(Zigarette) rauchen (wörtl. Rauch saugen)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
-11116	eng	tswìk kxenerit	t͡sw·ɪk k'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	smoke (lit. to suck smoke)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
-11116	est	tswìk kxenerit	t͡sw·ɪk k'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	suitsetama (suitsu imema)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
-11116	fr	tswìk kxenerit	t͡sw·ɪk k'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	fumer ([une cigarette ou toute autre chose])	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
-11116	hu	tswìk kxenerit	t͡sw·ɪk k'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	dohányzik (sz.sz.: füstöt szív)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
-11116	nl	tswìk kxenerit	t͡sw·ɪk k'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	roken (let. rook opzuigen)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
+11116	de	tswìk kxenerit	t͡sw·ɪk ˈk'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	(Zigarette) rauchen (wörtl. Rauch saugen)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
+11116	eng	tswìk kxenerit	t͡sw·ɪk ˈk'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	smoke (lit. to suck smoke)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
+11116	est	tswìk kxenerit	t͡sw·ɪk ˈk'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	suitsetama (suitsu imema)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
+11116	fr	tswìk kxenerit	t͡sw·ɪk ˈk'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	fumer ([une cigarette ou toute autre chose])	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
+11116	hu	tswìk kxenerit	t͡sw·ɪk ˈk'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	dohányzik (sz.sz.: füstöt szív)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
+11116	nl	tswìk kxenerit	t͡sw·ɪk ˈk'ɛ.nɛ.ɾit̚	tsw<0><1><2>ìk kxenerit	vin.	roken (let. rook opzuigen)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 11120	de	taksyokx	t·ak.ˈsjok'	taksy<0><1><2>okx	vin.	klatschen, applaudieren	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 11120	eng	taksyokx	t·ak.ˈsjok'	taksy<0><1><2>okx	vin.	clap hands	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 11120	est	taksyokx	t·ak.ˈsjok'	taksy<0><1><2>okx	vin.	plaksutama	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
@@ -19760,8 +19760,8 @@
 13043	fr	Anurai	ˈa.nu.ɾa.i	NULL	prop.n.	nom de clan Na'vi	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)
 13044	eng	Aonung	a.o.ˈnuN	NULL	prop.n.	male Na'vi of the Metkayina Clan	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
 13044	fr	Aonung	a.o.ˈnuN	NULL	prop.n.	homme Na'vi du clan Metkayina	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
-13045	eng	Ateyitan	a.tɛj.i.tan	NULL	prop.n.	son of Ateyo	NULL
-13045	fr	Ateyitan	a.tɛj.i.tan	NULL	prop.n.	fils d'Ateyo	NULL
+13045	eng	Ateyitan	a.ˈtɛj.i.tan	NULL	prop.n.	son of Ateyo	NULL
+13045	fr	Ateyitan	a.ˈtɛj.i.tan	NULL	prop.n.	fils d'Ateyo	NULL
 13046	eng	Ateyo	a.ˈtɛ.jo	NULL	prop.n.	male Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13046	fr	Ateyo	a.ˈtɛ.jo	NULL	prop.n.	homme Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13047	eng	ayRam aLusìng	aj.ˈɾam a.lu.ˈsɪN	NULL	prop.n.	the Floating Mountains	NULL
@@ -19788,8 +19788,8 @@
 13057	fr	Kekunan	ˈkɛ.ku.nan	NULL	prop.n.	nom de clan Na'vi	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)
 13058	eng	Kelutral	ˈkɛl.ut.ɾal	NULL	prop.n.	Hometree	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13058	fr	Kelutral	ˈkɛl.ut.ɾal	NULL	prop.n.	arbre-maison	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
-13059	eng	Li'ona	lɪ.ʔo.na	NULL	prop.n.	Na'vi Clan name	Avatar Game http://forum.learnnavi.org/language-updates/ltasygt-with-ke-and-nga/msg163181/#msg163181 (29 Mar 2010)
-13059	fr	Li'ona	lɪ.ʔo.na	NULL	prop.n.	nom de clan Na'vi	Avatar Game http://forum.learnnavi.org/language-updates/ltasygt-with-ke-and-nga/msg163181/#msg163181 (29 Mar 2010)
+13059	eng	Li'ona	lɪ.ˈʔo.na	NULL	prop.n.	Na'vi Clan name	Avatar Game http://forum.learnnavi.org/language-updates/ltasygt-with-ke-and-nga/msg163181/#msg163181 (29 Mar 2010)
+13059	fr	Li'ona	lɪ.ˈʔo.na	NULL	prop.n.	nom de clan Na'vi	Avatar Game http://forum.learnnavi.org/language-updates/ltasygt-with-ke-and-nga/msg163181/#msg163181 (29 Mar 2010)
 13060	eng	Lo'ak	ˈloʔ.ak̚	NULL	prop.n.	Jake and Neytiri's second born son	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
 13060	fr	Lo'ak	ˈloʔ.ak̚	NULL	prop.n.	deuxième fils de Jake et Neytiri	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
 13061	eng	Lo'akur	lo.ʔa.ˈkuɾ	NULL	prop.n.	Toruk Makto Amulet	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)
@@ -19800,8 +19800,8 @@
 13063	fr	Mo'ara	mo.ˈʔa.ɾa	NULL	prop.n.	vallée sur Pandora (Note: Également le nom de la section Pandora à Disney)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 13064	eng	Mo'at	ˈmo.ʔat̚	NULL	prop.n.	tsahìk of the Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13064	fr	Mo'at	ˈmo.ʔat̚	NULL	prop.n.	tsahìk du clan Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
-13065	eng	Mo'at'ite	mo.ʔat.ʔi.tɛ	NULL	prop.n.	daughter of Mo'at	NULL
-13065	fr	Mo'at'ite	mo.ʔat.ʔi.tɛ	NULL	prop.n.	fille de Mo'at	NULL
+13065	eng	Mo'at'ite	ˈmo.ʔat.ʔi.tɛ	NULL	prop.n.	daughter of Mo'at	NULL
+13065	fr	Mo'at'ite	ˈmo.ʔat.ʔi.tɛ	NULL	prop.n.	fille de Mo'at	NULL
 13067	eng	Naranawm	naɾ.a.ˈnawm	NULL	prop.n.	Polyphemus	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
 13067	fr	Naranawm	naɾ.a.ˈnawm	NULL	prop.n.	Polyphemus	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)
 13068	eng	Nawmtoruktek	nawm.ˈto.ɾuk.tɛk̚	NULL	prop.n.	Toruk Makto Totem	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)
@@ -19810,10 +19810,10 @@
 13069	fr	Neteyam	nɛ.ˈtɛj.am	NULL	prop.n.	fils aîné de Jake et Neytiri	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
 13070	eng	Newey	nɛ.ˈwɛj	NULL	prop.n.	female Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13070	fr	Newey	nɛ.ˈwɛj	NULL	prop.n.	femme Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
-13071	eng	Neytiri	nɛj.ti.ɾi	NULL	prop.n.	female Na'vi of the Omatikaya Clan	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
-13071	fr	Neytiri	nɛj.ti.ɾi	NULL	prop.n.	femme Na'vi du clan Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
-13072	eng	Ninat	ni.nat̚	NULL	prop.n.	female singer of the Omatikaya Clan	JCA
-13072	fr	Ninat	ni.nat̚	NULL	prop.n.	chanteuse du clan Omatikaya	JCA
+13071	eng	Neytiri	nɛj.ˈti.ɾi	NULL	prop.n.	female Na'vi of the Omatikaya Clan	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
+13071	fr	Neytiri	nɛj.ˈti.ɾi	NULL	prop.n.	femme Na'vi du clan Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
+13072	eng	Ninat	ni.ˈnat̚	NULL	prop.n.	female singer of the Omatikaya Clan	JCA
+13072	fr	Ninat	ni.ˈnat̚	NULL	prop.n.	chanteuse du clan Omatikaya	JCA
 13073	eng	Omatikaya	o.ma.ti.ˈka.ja	NULL	prop.n.	Blue Flute Clan	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13073	fr	Omatikaya	o.ma.ti.ˈka.ja	NULL	prop.n.	clan de la flûte bleue	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13074	eng	Otranyu	ot.ˈɾan.ju	NULL	prop.n.	male Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
@@ -19836,8 +19836,8 @@
 13082	fr	Satu'li	saˈtuʔ.li	NULL	prop.n.	cantine dans la vallée de Mo'ara	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)
 13083	eng	Seze	ˈsɛ.zɛ	NULL	prop.n.	Neytiri's banshee	ZS, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13083	fr	Seze	ˈsɛ.zɛ	NULL	prop.n.	banshee de Neytiri	ZS, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
-13084	eng	Silwanin	sil.wa.nin	NULL	prop.n.	Neytiri's sister	NULL
-13084	fr	Silwanin	sil.wa.nin	NULL	prop.n.	sœur de Neytiri	NULL
+13084	eng	Silwanin	sil.ˈwa.nin	NULL	prop.n.	Neytiri's sister	NULL
+13084	fr	Silwanin	sil.ˈwa.nin	NULL	prop.n.	sœur de Neytiri	NULL
 13085	eng	Sorewn	so.ˈɾɛwn	NULL	prop.n.	female Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13085	fr	Sorewn	so.ˈɾɛwn	NULL	prop.n.	femme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13086	eng	Swotulu	ˈswo.tu.lu	NULL	prop.n.	sacred river	https://forum.learnnavi.org/language-updates/landscape-words/msg161645/#msg161645 (28 Mar 2010)
@@ -19860,8 +19860,8 @@
 13095	fr	Tskaha	ˈt͡ska.ha	NULL	prop.n.	nom de clan Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13096	eng	Tsu'tey	t͡suʔ.ˈtɛj	NULL	prop.n.	male of the Omatikaya Clan	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13096	fr	Tsu'tey	t͡suʔ.ˈtɛj	NULL	prop.n.	homme du clan Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
-13097	eng	Tsumongwi	t͡su.moN.wi	NULL	prop.n.	original name for the Omatikaya	JC
-13097	fr	Tsumongwi	t͡su.moN.wi	NULL	prop.n.	nom d'origine des Omatikayas	JC
+13097	eng	Tsumongwi	t͡su.moŋ.wi	NULL	prop.n.	original name for the Omatikaya	JC
+13097	fr	Tsumongwi	t͡su.moŋ.wi	NULL	prop.n.	nom d'origine des Omatikayas	JC
 13098	eng	Tuke	ˈtu.kɛ	NULL	prop.n.	female Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13098	fr	Tuke	ˈtu.kɛ	NULL	prop.n.	femme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)
 13099	eng	Tuktirey	tuk.ˈti.ɾɛj	NULL	prop.n.	Jake and Neytiri's daughter	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)
