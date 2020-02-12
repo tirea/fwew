@@ -2,10 +2,16 @@
 
 ## BUGS
 
-## FEATURES
+## ROADMAP
 
+### In Progress
+
+-   Stress underlining rather than IPA default (rename -s to -src, use -s flag)
+-   dot-style infix locations flag (use -id flag)
 -   `/help <command>`
--   Stress underlining rather than IPA default
+
+### Future
+
 -   add all affixes and their definitions to the dictionary file
 -   implement `/list tag [is|has] tag`
     Tag ideas:
@@ -20,19 +26,19 @@
 -   implement `/list suffixes {pos} {pro|unpro|all}`
 -   implement `/suffixes`
 
-### IDEAS
+### Ideas
 
 -   `/limit <n>` where `/limin 0` is no limit
 -   `/examples <word> [limit <n>]`
 -   `/define <jargony linguistics term>`
 -   `/audio <Na'vi word(s)>`
 
-## Testing
+## TESTING
 
 -   more code coverage
 -   more test cases
 
-## Refactoring & Optimization
+## REFACTORING & OPTIMIZATION
 
 -   how can affixes.go be more efficient?
 
