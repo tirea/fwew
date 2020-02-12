@@ -19924,20 +19924,20 @@
 13127	fr	payste	paj.ˈstɛ	NULL	inter.	quelles femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-ste	NULL
 13128	en	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	what women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-ste-pe	NULL
 13128	fr	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	quelles femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-ste-pe	NULL
--2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord
--2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord
--2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord
--1	en	Vawmataw	ˈvaw.ma.taw	NULL	meme.	The Right Honourable Vawmataw, by the grace of Eywa of Hangvurburg Earl, Lord Memeyu, Head of the Skxawngs, defender of the memes	LN Discord
--1	de	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Der sehr ehrenwerte Vawmataw, von Eywas Gnaden Graf von Hangham, Herr Memeyu, Oberhaupt der Skxawngs, Verteidiger der Memes	LN Discord
--1	nl	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Zijne Koninklijke Hoogheid Vawmataw, bij gratie van Eywa, Hertog van de Hangvurburcht, Heer Memeyu, Opperhoofd van de Skxawngs, verdediger van de memes	LN Discord
--1	fr	Vawmataw	'vaw.ma.taw	NULL	meme.	Le Très Honorable Vawmataw, par la grâce d'Eywa comte de Hangvourbourg, Seigneur des Mèmes, Chef des Skxawngs, défenseur des mèmes	LN Discord
-0	en	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA
-0	nl	Eywa	ˈɛj.wa	NULL	meme.	Wie is Eywa? Alleen maar hun godheid! Hun godin, die bestaat uit alle levende dingen. Alles wat ze kennen! Als je ook maar een beetje training had gehad, had je dat allang geweten.	JCA
-2	en	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord
-2	nl	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	een moeilijk te lezen zin construeren	LN Discord
-3	en	nävi	ˈnæ.vi	NULL	meme.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)	LN Discord
-3	nl	nävi	ˈnæ.vi	NULL	meme.	een veelvoorkomende of begrijpelijke fout die Na'vi-beginners kunnen maken (meervoud: nävis)	LN Discord
-5	en	pokx	pok'	p<0><1><2>okx	meme.	poke	LN Discord
-5	nl	pokx	pok'	p<0><1><2>okx	meme.	porren	LN Discord
-6	en	tsyili si	t͡sji.li s·i	tsyili s<0><1><2>i	meme.	to construct a sentence which has a hilariously outlandish meaning, particularly involving shoe-eating ikran	LN Discord
-6	nl	tsyili si	t͡sji.li s·i	tsyili s<0><1><2>i	meme.	zinnen construeren met een hilarisch vreemde betekenis, met name te maken hebbend met ikrans die schoenen opeten	LN Discord
+-2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
+-2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
+-2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
+-1	en	Vawmataw	ˈvaw.ma.taw	NULL	meme.	The Right Honourable Vawmataw, by the grace of Eywa of Hangvurburg Earl, Lord Memeyu, Head of the Skxawngs, defender of the memes	LN Discord	1	vaw-ma-taw	NULL
+-1	de	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Der sehr ehrenwerte Vawmataw, von Eywas Gnaden Graf von Hangham, Herr Memeyu, Oberhaupt der Skxawngs, Verteidiger der Memes	LN Discord	1	vaw-ma-taw	NULL
+-1	nl	Vawmataw	ˈvaw.ma.taw	NULL	meme.	Zijne Koninklijke Hoogheid Vawmataw, bij gratie van Eywa, Hertog van de Hangvurburcht, Heer Memeyu, Opperhoofd van de Skxawngs, verdediger van de memes	LN Discord	1	vaw-ma-taw	NULL
+-1	fr	Vawmataw	'vaw.ma.taw	NULL	meme.	Le Très Honorable Vawmataw, par la grâce d'Eywa comte de Hangvourbourg, Seigneur des Mèmes, Chef des Skxawngs, défenseur des mèmes	LN Discord	1	vaw-ma-taw	NULL
+0	en	Eywa	ˈɛj.wa	NULL	meme.	Who's Eywa? Only their deity! Their goddess, made up of all living things. Everything they know! You'd know this if you had any training whatsoever.	JCA	1	ey-wa	NULL
+0	nl	Eywa	ˈɛj.wa	NULL	meme.	Wie is Eywa? Alleen maar hun godheid! Hun godin, die bestaat uit alle levende dingen. Alles wat ze kennen! Als je ook maar een beetje training had gehad, had je dat allang geweten.	JCA	1	ey-wa	NULL
+2	en	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	to construct a sentence in a difficult to read fashion	LN Discord	1	ma-ko si	mako s..i
+2	nl	mako si	ˈma.ko s·i	mako s<0><1><2>i	meme.	een moeilijk te lezen zin construeren	LN Discord	1	ma-ko si	mako s..i
+3	en	nävi	ˈnæ.vi	NULL	meme.	a common or understandable mistake a beginner to the Na'vi language would make (plural: nävis)	LN Discord	1	nä-vi	NULL
+3	nl	nävi	ˈnæ.vi	NULL	meme.	een veelvoorkomende of begrijpelijke fout die Na'vi-beginners kunnen maken (meervoud: nävis)	LN Discord	1	nä-vi	NULL
+5	en	pokx	pok'	p<0><1><2>okx	meme.	poke	LN Discord	1	pokx	p..okx
+5	nl	pokx	pok'	p<0><1><2>okx	meme.	porren	LN Discord	1	pokx	p..okx
+6	en	tsyili si	t͡sji.li s·i	tsyili s<0><1><2>i	meme.	to construct a sentence which has a hilariously outlandish meaning, particularly involving shoe-eating ikran	LN Discord	1	tsyi-li si	tsyili s..i
+6	nl	tsyili si	t͡sji.li s·i	tsyili s<0><1><2>i	meme.	zinnen construeren met een hilarisch vreemde betekenis, met name te maken hebbend met ikrans die schoenen opeten	LN Discord	1	tsyi-li si	stili s..i
