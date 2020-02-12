@@ -13,13 +13,18 @@ endif
 
 fwew: format compile
 
-all: test docker
+all: test docker cross-compile
 
 format:
 	gofmt -w $(SOURCES)
 
 compile:
 	go build -o bin/fwew ./...
+
+cross-compile:
+	GOOS=darwin go build -o bin/mac/fwew ./...
+	GOOS=linux go build -o bin/linux/fwew ./...
+	GOOS=windows go build -o bin/windows/fwew.exe ./...
 
 test: install
 	go test -v -cover
