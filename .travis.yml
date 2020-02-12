@@ -17,6 +17,4 @@ install:
   - go get github.com/mattn/go-runewidth
   - go get github.com/c-bata/go-prompt
   - go get github.com/pkg/term
-  - go get golang.org/x/sync
-  - go get golang.org/x/sys
   - make all
