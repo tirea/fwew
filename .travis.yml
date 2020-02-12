@@ -10,5 +10,4 @@ services:
  - docker
 
 install:
-  - go get -v github.com/c-bata/go-prompt
   - make all
