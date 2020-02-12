@@ -18,4 +18,5 @@ services:
   - docker
 
 install:
-  - env GO111MODULE=on make all
+  - go get github.com/c-bata/go-prompt
+  - make all
