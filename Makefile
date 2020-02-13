@@ -46,12 +46,5 @@ uninstall:
 	$(RM) $(BINDEST)/fwew
 	rm -rf ~/.fwew
 
-release:
-	cd bin
-	tar -czvf fwew-linux-4.0.0-dev.tar.gz linux/fwew
-	zip fwew-macos-4.0.0-dev.zip mac/fwew
-	zip fwew-windows-4.0.0-dev.zip windows/fwew.exe
-	cd -
-
 clean:
-	rm -f bin/fwew*
+	rm -f bin/fwew
