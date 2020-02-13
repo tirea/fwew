@@ -199,6 +199,11 @@ func doMdUnderline(w Word) string {
 		err              error
 	)
 
+	if !strings.Contains(w.Syllables, "-") {
+		out = w.Syllables
+		return out
+	}
+
 	mdUnderline = "__"
 	dashed = fmt.Sprintf("%s", w.Syllables)
 	dSlice = strings.Split(dashed, "-")
