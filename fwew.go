@@ -325,7 +325,11 @@ func setFlags(arg string, argsMode bool) {
 			*showInfixes = !*showInfixes
 		case f == "ipa":
 			*showIPA = !*showIPA
+		case f == "id":
+			*showInfDots = !*showInfDots
 		case f == "s":
+			*showDashed = !*showDashed
+		case f == "src":
 			*showSource = !*showSource
 		case f == "a":
 			*useAffixes = !*useAffixes
@@ -358,6 +362,12 @@ func setFlags(arg string, argsMode bool) {
 		if *reverse {
 			out += "r "
 		}
+		if *showInfDots {
+			out += "id "
+		}
+		if *showDashed {
+			out += "s "
+		}
 		if *showInfixes {
 			out += "i "
 		}
@@ -365,7 +375,7 @@ func setFlags(arg string, argsMode bool) {
 			out += "ipa "
 		}
 		if *showSource {
-			out += "s "
+			out += "src "
 		}
 		if *useAffixes {
 			out += "a "
@@ -889,7 +899,7 @@ func slashCommand(s string, argsMode bool) {
 		setArg = strings.Join(args, space)
 		setFlags(setArg, argsMode)
 	// aliases for /set
-	case "/a", "/i", "/ipa", "/l", "/n", "/p", "/r", "/s":
+	case "/a", "/id", "/s", "/i", "/ipa", "/l", "/n", "/p", "/r", "/src":
 		for _, c := range command {
 			if c != '/' {
 				setArg += string(c)
