@@ -188,10 +188,12 @@ func fwew(word string) []Word {
 	return results
 }
 
-func doMdUnderline(w Word) string {
+func doUnderline(w Word) string {
 	var (
 		out              string
 		mdUnderline      string
+		shUnderlineA     string
+		shUnderlineB     string
 		dashed           string
 		dSlice           []string
 		stressedIndex    int
@@ -203,8 +205,9 @@ func doMdUnderline(w Word) string {
 		out = w.Syllables
 		return out
 	}
-
 	mdUnderline = "__"
+	shUnderlineA = "\033[4m"
+	shUnderlineB = "\033[0m"
 	dashed = fmt.Sprintf("%s", w.Syllables)
 	dSlice = strings.Split(dashed, "-")
 	stressedIndex, err = strconv.Atoi(w.Stressed)
@@ -216,12 +219,20 @@ func doMdUnderline(w Word) string {
 
 	if strings.Contains(stressedSyllable, " ") {
 		tmp := strings.Split(stressedSyllable, " ")
-		tmp[0] = mdUnderline + tmp[0] + mdUnderline
+		if *markdown {
+			tmp[0] = mdUnderline + tmp[0] + mdUnderline
+		} else {
+			tmp[0] = shUnderlineA + tmp[0] + shUnderlineB
+		}
 		stressedSyllable = strings.Join(tmp, " ")
 		dSlice[stressedIndex-1] = stressedSyllable
 		out = strings.Join(dSlice, "-")
 	} else {
-		dSlice[stressedIndex-1] = mdUnderline + stressedSyllable + mdUnderline
+		if *markdown {
+			dSlice[stressedIndex-1] = mdUnderline + stressedSyllable + mdUnderline
+		} else {
+			dSlice[stressedIndex-1] = shUnderlineA + stressedSyllable + shUnderlineB
+		}
 		out = strings.Join(dSlice, "-")
 	}
 
@@ -246,13 +257,12 @@ func printResults(results []Word) {
 			inf := fmt.Sprintf("%s", w.InfixLocations)
 			def := fmt.Sprintf("%s", w.Definition)
 			src := fmt.Sprintf("    %s: %s\n", Text("src"), w.Source)
-			syl := fmt.Sprintf("%s", w.Syllables)
+			syl := doUnderline(w)
 			ifd := fmt.Sprintf("%s", w.InfixDots)
 
 			if *markdown {
 				nav = mdBold + nav + mdBold
 				pos = mdItalic + pos + mdItalic
-				syl = doMdUnderline(w)
 			}
 
 			out += num + space + nav + space
