@@ -6,8 +6,6 @@
 
 ### In Progress
 
--   Stress underlining rather than IPA default (rename -s to -src, use -s flag)
--   dot-style infix locations flag (use -id flag)
 -   `/help <command>`
 
 ### Future

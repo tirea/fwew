@@ -29,13 +29,43 @@ type Word struct {
 	PartOfSpeech   string
 	Definition     string
 	Source         string
+	Stressed       string
+	Syllables      string
+	InfixDots      string
 	Affixes        map[string][]string
 }
 
 func (w Word) String() string {
 	// this string only doesn't get translated or called from Text() because they're var names
-	return fmt.Sprintf("Id: %s\nLangCode: %s\nNavi: %s\nTarget: %s\nAttempt: %s\nIPA: %s\nInfixLocations: %s\nPartOfSpeech: %s\nDefinition: %s\nAffixes: %v\n",
-		w.ID, w.LangCode, w.Navi, w.Target, w.Attempt, w.IPA, w.InfixLocations, w.PartOfSpeech, w.Definition, w.Affixes)
+	return fmt.Sprintf(""+
+		"Id: %s\n"+
+		"LangCode: %s\n"+
+		"Navi: %s\n"+
+		"Target: %s\n"+
+		"Attempt: %s\n"+
+		"IPA: %s\n"+
+		"InfixLocations: %s\n"+
+		"PartOfSpeech: %s\n"+
+		"Definition: %s\n"+
+		"Source: %s\n"+
+		"Stressed: %s\n"+
+		"Syllables: %s\n"+
+		"InfixDots: %s\n"+
+		"Affixes: %v\n",
+		w.ID,
+		w.LangCode,
+		w.Navi,
+		w.Target,
+		w.Attempt,
+		w.IPA,
+		w.InfixLocations,
+		w.PartOfSpeech,
+		w.Definition,
+		w.Source,
+		w.Stressed,
+		w.Syllables,
+		w.InfixDots,
+		w.Affixes)
 }
 
 // InitWordStruct is basically a constructor for Word struct
@@ -49,6 +79,9 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	//	posField int = 5 // dictionary.txt line field 5 is Part of Speech data
 	//	defField int = 6 // dictionary.txt line field 6 is Local definition
 	//	srcField int = 7 // dictionary.txt line field 7 is Source data
+	//  stsField int = 8 // dictionary.txt line field 8 is Stressed syllable #
+	//  sylField int = 9 // dictionary.txt line field 9 is syllable breakdown
+	//  ifdField int = 10 // dictionary.txt line field 10 is dot-style infix data
 	//)
 	w.ID = dataFields[idField]
 	w.LangCode = dataFields[lcField]
@@ -58,6 +91,9 @@ func InitWordStruct(w Word, dataFields []string) Word {
 	w.PartOfSpeech = dataFields[posField]
 	w.Definition = dataFields[defField]
 	w.Source = dataFields[srcField]
+	w.Stressed = dataFields[stsField]
+	w.Syllables = dataFields[sylField]
+	w.InfixDots = dataFields[ifdField]
 	w.Affixes = map[string][]string{}
 
 	return w
@@ -76,6 +112,9 @@ func CloneWordStruct(w Word) Word {
 	nw.PartOfSpeech = w.PartOfSpeech
 	nw.Definition = w.Definition
 	nw.Source = w.Source
+	nw.Stressed = w.Stressed
+	nw.Syllables = w.Syllables
+	nw.InfixDots = w.InfixDots
 	nw.Affixes = make(map[string][]string)
 	for k := range w.Affixes {
 		nw.Affixes[k] = make([]string, len(w.Affixes[k]))

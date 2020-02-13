@@ -29,28 +29,30 @@ import (
 
 // Global
 const (
-	idField  int    = 0 // dictionary.txt line Field 0 is Database ID
-	lcField  int    = 1 // dictionary.txt line field 1 is Language Code
-	navField int    = 2 // dictionary.txt line field 2 is Na'vi word
-	ipaField int    = 3 // dictionary.txt line field 3 is IPA data
-	infField int    = 4 // dictionary.txt line field 4 is Infix location data
-	posField int    = 5 // dictionary.txt line field 5 is Part of Speech data
-	defField int    = 6 // dictionary.txt line field 6 is Local definition
-	srcField int    = 7 // dictionary.txt line field 7 is Source data
+	idField  int    = 0  // dictionary.txt line Field 0 is Database ID
+	lcField  int    = 1  // dictionary.txt line field 1 is Language Code
+	navField int    = 2  // dictionary.txt line field 2 is Na'vi word
+	ipaField int    = 3  // dictionary.txt line field 3 is IPA data
+	infField int    = 4  // dictionary.txt line field 4 is Infix location data
+	posField int    = 5  // dictionary.txt line field 5 is Part of Speech data
+	defField int    = 6  // dictionary.txt line field 6 is Local definition
+	srcField int    = 7  // dictionary.txt line field 7 is Source data
+	stsField int    = 8  // dictionary.txt line field 8 is Stressed syllable #
+	sylField int    = 9  // dictionary.txt line field 9 is syllable breakdown
+	ifdField int    = 10 // dictionary.txt line field 10 is dot-style infix data
 	space    string = " "
 )
 
 // flags / options
 var (
 	configuration            Config
+	configure, filename      *string
 	language, posFilter      *string
-	showVersion, showInfixes *bool
-	showIPA, reverse         *bool
-	showSource               *bool
+	showInfixes, showIPA     *bool
+	showInfDots, showDashed  *bool
+	showVersion, showSource  *bool
 	useAffixes, numConvert   *bool
-	markdown, debug          *bool
-	filename                 *string
-	configure                *string
+	markdown, debug, reverse *bool
 )
 
 func intersection(a, b string) (c string) {
@@ -186,47 +188,99 @@ func fwew(word string) []Word {
 	return results
 }
 
+func doMdUnderline(w Word) string {
+	var (
+		out         string
+		mdUnderline string
+		dashed      string
+		dSlice      []string
+		stressed    int
+		err         error
+	)
+
+	mdUnderline = "__"
+	dashed = fmt.Sprintf("%s", w.Syllables)
+	dSlice = strings.Split(dashed, "-")
+	stressed, err = strconv.Atoi(w.Stressed)
+	if err != nil {
+		fmt.Println(Text("invalidNumericError"))
+		os.Exit(1)
+	}
+
+	dSlice[stressed-1] = mdUnderline + dSlice[stressed-1] + mdUnderline
+	out = strings.Join(dSlice, "-")
+
+	return out
+}
+
 func printResults(results []Word) {
 	if len(results) != 0 {
-		var out string
+		var (
+			out      string
+			mdBold   = "**"
+			mdItalic = "*"
+			newline  = "\n"
+			valNull  = "NULL"
+		)
 
 		for i, w := range results {
-			num := fmt.Sprintf("[%d] ", i+1)
+			num := fmt.Sprintf("[%d]", i+1)
 			nav := fmt.Sprintf("%s", w.Navi)
-			ipa := fmt.Sprintf("[%s] ", w.IPA)
+			ipa := fmt.Sprintf("[%s]", w.IPA)
 			pos := fmt.Sprintf("%s", w.PartOfSpeech)
-			inf := fmt.Sprintf("%s ", w.InfixLocations)
-			def := fmt.Sprintf("%s\n", w.Definition)
+			inf := fmt.Sprintf("%s", w.InfixLocations)
+			def := fmt.Sprintf("%s", w.Definition)
 			src := fmt.Sprintf("    %s: %s\n", Text("src"), w.Source)
+			syl := fmt.Sprintf("%s", w.Syllables)
+			ifd := fmt.Sprintf("%s", w.InfixDots)
 
 			if *markdown {
-				nav = "**" + nav + "** "
-				pos = "*" + pos + "* "
-			} else {
-				nav += space
-				pos += space
+				nav = mdBold + nav + mdBold
+				pos = mdItalic + pos + mdItalic
+				syl = doMdUnderline(w)
 			}
 
-			out += num
-			out += nav
+			out += num + space + nav + space
+
 			if *showIPA {
-				out += ipa
+				out += ipa + space
 			}
-			if *showInfixes && w.InfixLocations != "\\N" && w.InfixLocations != "NULL" {
-				out += inf
+
+			if *showInfixes && w.InfixLocations != valNull {
+				out += inf + space
 			}
-			out += pos
-			out += def
+
+			if *showDashed {
+				out += "(" + syl
+				if *showInfDots && w.InfixDots != valNull {
+					out += "," + space
+				} else {
+					out += ")" + space
+				}
+			}
+
+			if *showInfDots && w.InfixDots != valNull {
+				if !*showDashed {
+					out += "("
+				}
+				out += ifd + ")" + space
+
+			}
+
+			out += pos + space + def + newline
+
 			if *useAffixes && len(w.Affixes) > 0 {
 				for key, value := range w.Affixes {
 					out += fmt.Sprintf("    %s: %s\n", key, value)
 				}
 			}
+
 			if *showSource && w.Source != "" {
 				out += src
 			}
 		}
-		out += fmt.Sprintf("\n")
+
+		out += newline
 
 		fmt.Print(out)
 
@@ -966,10 +1020,14 @@ func main() {
 	language = flag.String("l", configuration.Language, Text("usageL"))
 	// Infixes flag, opt to show infix location data
 	showInfixes = flag.Bool("i", false, Text("usageI"))
+	// Infix locations in dot notation
+	showInfDots = flag.Bool("id", false, Text("usageID"))
 	// IPA flag, opt to show IPA data
 	showIPA = flag.Bool("ipa", false, Text("usageIPA"))
+	// Show syllable breakdown / stress
+	showDashed = flag.Bool("s", false, Text("usageS"))
 	// Source flag, opt to show source data
-	showSource = flag.Bool("s", false, Text("usageS"))
+	showSource = flag.Bool("src", false, Text("usageSrc"))
 	// Filter part of speech flag, opt to filter by part of speech
 	posFilter = flag.String("p", configuration.PosFilter, Text("usageP"))
 	// Attempt to find all matches using affixes
