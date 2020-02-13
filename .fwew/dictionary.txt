@@ -5633,15 +5633,15 @@
 3880	pl	tì'awm	tɪ.ˈʔawm	NULL	n.	obozowisko	Frommer (9. April 2010) http://forum.learnnavi.org/language-updates/titing-ahii-ayliu-amip-awngar/	2	tì-'awm	NULL
 3880	ru	tì'awm	tɪ.ˈʔawm	NULL	n.	разбивка лагеря	Frommer (9. April 2010) http://forum.learnnavi.org/language-updates/titing-ahii-ayliu-amip-awngar/	2	tì-'awm	NULL
 3880	sv	tì'awm	tɪ.ˈʔawm	NULL	n.	camping	Frommer (9. April 2010) http://forum.learnnavi.org/language-updates/titing-ahii-ayliu-amip-awngar/	2	tì-'awm	NULL
-3884	de	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	arbeiten	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
-3884	en	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	work	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
-3884	et	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	töötama	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
-3884	fr	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	travailler	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
-3884	hu	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	dolgozik	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
-3884	nl	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	werken	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
-3884	pl	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	pracować	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
-3884	ru	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	работать, трудиться	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
-3884	sv	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	arbeta	Taronyu's Dictionary 9.53 < Frommer	3	tì-kang-kem si	tìkangkem s..i
+3884	de	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	arbeiten	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
+3884	en	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	work	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
+3884	et	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	töötama	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
+3884	fr	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	travailler	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
+3884	hu	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	dolgozik	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
+3884	nl	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	werken	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
+3884	pl	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	pracować	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
+3884	ru	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	работать, трудиться	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
+3884	sv	tìkangkem si	tɪ.ˈkaŋ.kɛm ˈs·i	tìkangkem s<0><1><2>i	vin.	arbeta	Taronyu's Dictionary 9.53 < Frommer	2	tì-kang-kem si	tìkangkem s..i
 3888	de	tìng tseng	ˈt·ɪŋ ˈt͡sɛŋ	t<0><1><2>ìng tseng	vin.	zurückziehen, zurückweichen, Platz machen	http://forum.learnnavi.org/language-updates/frommerian-words-and-our-wiki-vocabulary/msg121291/#msg121291 (28 Feb 2010)	1	tìng tseng	t..ìng tseng
 3888	en	tìng tseng	ˈt·ɪŋ ˈt͡sɛŋ	t<0><1><2>ìng tseng	vin.	back down, give ground	http://forum.learnnavi.org/language-updates/frommerian-words-and-our-wiki-vocabulary/msg121291/#msg121291 (28 Feb 2010)	1	tìng tseng	t..ìng tseng
 3888	et	tìng tseng	ˈt·ɪŋ ˈt͡sɛŋ	t<0><1><2>ìng tseng	vin.	tagasi astuma, eest ära tulema	http://forum.learnnavi.org/language-updates/frommerian-words-and-our-wiki-vocabulary/msg121291/#msg121291 (28 Feb 2010)	1	tìng tseng	t..ìng tseng
