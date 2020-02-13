@@ -190,25 +190,35 @@ func fwew(word string) []Word {
 
 func doMdUnderline(w Word) string {
 	var (
-		out         string
-		mdUnderline string
-		dashed      string
-		dSlice      []string
-		stressed    int
-		err         error
+		out              string
+		mdUnderline      string
+		dashed           string
+		dSlice           []string
+		stressedIndex    int
+		stressedSyllable string
+		err              error
 	)
 
 	mdUnderline = "__"
 	dashed = fmt.Sprintf("%s", w.Syllables)
 	dSlice = strings.Split(dashed, "-")
-	stressed, err = strconv.Atoi(w.Stressed)
+	stressedIndex, err = strconv.Atoi(w.Stressed)
 	if err != nil {
 		fmt.Println(Text("invalidNumericError"))
 		os.Exit(1)
 	}
+	stressedSyllable = dSlice[stressedIndex-1]
 
-	dSlice[stressed-1] = mdUnderline + dSlice[stressed-1] + mdUnderline
-	out = strings.Join(dSlice, "-")
+	if strings.Contains(stressedSyllable, " ") {
+		tmp := strings.Split(stressedSyllable, " ")
+		tmp[0] = mdUnderline + tmp[0] + mdUnderline
+		stressedSyllable = strings.Join(tmp, " ")
+		dSlice[stressedIndex-1] = stressedSyllable
+		out = strings.Join(dSlice, "-")
+	} else {
+		dSlice[stressedIndex-1] = mdUnderline + stressedSyllable + mdUnderline
+		out = strings.Join(dSlice, "-")
+	}
 
 	return out
 }
