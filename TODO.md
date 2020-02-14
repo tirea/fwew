@@ -10,6 +10,7 @@
 
 ### Future
 
+-   `-e bool` etymology flag
 -   add all affixes and their definitions to the dictionary file
 -   implement `/list tag [is|has] tag`
     Tag ideas:
