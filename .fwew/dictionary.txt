@@ -12798,7 +12798,7 @@
 7936	en	vingkap	ˈv·iŋ.k·ap̚	v<0><1>ingk<2>ap	vtr.	occur to one, pop into one's mind	Frommer (04. September 2011) http://naviteri.org/2011/09/%E2%80%9Cby-the-way-what-are-you-reading%E2%80%9D/	1	ving-kap	v.ingk.ap
 7936	et	vingkap	ˈv·iŋ.k·ap̚	v<0><1>ingk<2>ap	vtr.	pähe turgatama, mõtesse tulema	Frommer (04. September 2011) http://naviteri.org/2011/09/%E2%80%9Cby-the-way-what-are-you-reading%E2%80%9D/	1	ving-kap	v.ingk.ap
 7936	fr	vingkap	ˈv·iŋ.k·ap̚	v<0><1>ingk<2>ap	vtr.	survenir | venir à l'esprit | frapper (dans le sens [ça m'a frappé])	Frommer (04. September 2011) http://naviteri.org/2011/09/%E2%80%9Cby-the-way-what-are-you-reading%E2%80%9D/	1	ving-kap	v.ingk.ap
-7936	hu	vingkap	ˈv·iŋ.k·ap̚	v<0><1>ingk<2>ap	vtr.	eszébe jut, ``beugrik"	Frommer (04. September 2011) http://naviteri.org/2011/09/%E2%80%9Cby-the-way-what-are-you-reading%E2%80%9D/	1	ving-kap	v.ingk.ap
+7936	hu	vingkap	ˈv·iŋ.k·ap̚	v<0><1>ingk<2>ap	vtr.	eszébe jut, "beugrik"	Frommer (04. September 2011) http://naviteri.org/2011/09/%E2%80%9Cby-the-way-what-are-you-reading%E2%80%9D/	1	ving-kap	v.ingk.ap
 7936	nl	vingkap	ˈv·iŋ.k·ap̚	v<0><1>ingk<2>ap	vtr.	een ingeving krijgen, een licht opgaan	Frommer (04. September 2011) http://naviteri.org/2011/09/%E2%80%9Cby-the-way-what-are-you-reading%E2%80%9D/	1	ving-kap	v.ingk.ap
 7936	pl	vingkap	ˈv·iŋ.k·ap̚	v<0><1>ingk<2>ap	vtr.	przyjść do głowy, przyjść na myśl	Frommer (04. September 2011) http://naviteri.org/2011/09/%E2%80%9Cby-the-way-what-are-you-reading%E2%80%9D/	1	ving-kap	v.ingk.ap
 7936	ru	vingkap	ˈv·iŋ.k·ap̚	v<0><1>ingk<2>ap	vtr.	обратить внимание	Frommer (04. September 2011) http://naviteri.org/2011/09/%E2%80%9Cby-the-way-what-are-you-reading%E2%80%9D/	1	ving-kap	v.ingk.ap
@@ -14010,7 +14010,7 @@
 8536	en	mek	mɛk̚	NULL	adj.	empty, or metaphorically: having no value	Frommer (29. Feb 2012) http://naviteri.org/2012/02/trr-asawnung-lefpom-happy-leap-day/	1	mek	NULL
 8536	et	mek	mɛk̚	NULL	adj.	tühi; metafooriliselt: väärtusetu	Frommer (29. Feb 2012) http://naviteri.org/2012/02/trr-asawnung-lefpom-happy-leap-day/	1	mek	NULL
 8536	fr	mek	mɛk̚	NULL	adj.	vide	Frommer (29. Feb 2012) http://naviteri.org/2012/02/trr-asawnung-lefpom-happy-leap-day/	1	mek	NULL
-8536	hu	mek	mɛk̚	NULL	adj.	üres; vagy átvitt értelemben: ``értéktelen"	Frommer (29. Feb 2012) http://naviteri.org/2012/02/trr-asawnung-lefpom-happy-leap-day/	1	mek	NULL
+8536	hu	mek	mɛk̚	NULL	adj.	üres; vagy átvitt értelemben: "értéktelen"	Frommer (29. Feb 2012) http://naviteri.org/2012/02/trr-asawnung-lefpom-happy-leap-day/	1	mek	NULL
 8536	nl	mek	mɛk̚	NULL	adj.	leeg, ook als metafoor: geen waarde hebbend	Frommer (29. Feb 2012) http://naviteri.org/2012/02/trr-asawnung-lefpom-happy-leap-day/	1	mek	NULL
 8536	pl	mek	mɛk̚	NULL	adj.	pusty, w przenośni: bezwartościowy	Frommer (29. Feb 2012) http://naviteri.org/2012/02/trr-asawnung-lefpom-happy-leap-day/	1	mek	NULL
 8536	ru	mek	mɛk̚	NULL	adj.	пустой, незначимый	Frommer (29. Feb 2012) http://naviteri.org/2012/02/trr-asawnung-lefpom-happy-leap-day/	1	mek	NULL
@@ -15221,11 +15221,11 @@
 9184	nl	syeprel	sjɛp.ˈɾɛl	NULL	n.	camera	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	syep-rel	NULL
 9184	pl	syeprel	sjɛp.ˈɾɛl	NULL	n.	kamera	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	syep-rel	NULL
 9184	ru	syeprel	sjɛp.ˈɾɛl	NULL	n.	фотокамера	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	syep-rel	NULL
-9200	de	swoa	ˈswo.a	NULL	n.	berauschendes Getränk, ``Spirituosen''	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
-9200	en	swoa	ˈswo.a	NULL	n.	intoxicating beverage, or ``spirits''	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
+9200	de	swoa	ˈswo.a	NULL	n.	berauschendes Getränk, "Spirituosen"	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
+9200	en	swoa	ˈswo.a	NULL	n.	intoxicating beverage, or "spirits"	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
 9200	et	swoa	ˈswo.a	NULL	n.	vägijooks, narkootiline jook, mõnujook	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
 9200	fr	swoa	ˈswo.a	NULL	n.	brevage enivrant | grisant (spiritueux)	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
-9200	hu	swoa	ˈswo.a	NULL	n.	részegítő ital, vagy ``szesz''	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
+9200	hu	swoa	ˈswo.a	NULL	n.	részegítő ital, vagy "szesz"	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
 9200	nl	swoa	ˈswo.a	NULL	n.	bedwelmende drank, geestrijk vocht	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
 9200	pl	swoa	ˈswo.a	NULL	n.	napój wyskokowy	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
 9200	ru	swoa	ˈswo.a	NULL	n.	опьяняющие напитки, «спиртное»	Frommer (22 Jul 2012) http://forum.learnnavi.org/language-updates/new-words-from-the-2012-avatarmeet-navi-class/	1	swo-a	NULL
@@ -15293,7 +15293,7 @@
 9232	nl	syon	sjon	NULL	n.	onderdeel, attribuut, karaktertrek, aspect, facet	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	syon	NULL
 9232	pl	syon	sjon	NULL	n.	cecha, znamię, właściwość, charakterystyka, sedno, przejaw, aspekt	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	syon	NULL
 9232	ru	syon	sjon	NULL	n.	способность, характеристика	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	syon	NULL
-9236	de	ran	ɾan	NULL	n.	wesentliche Charakteristik, innewohnende Charakteristik, Essenz, Konstitution; für Personen ``Persönlichkeit, Individualität"	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ran	NULL
+9236	de	ran	ɾan	NULL	n.	wesentliche Charakteristik, innewohnende Charakteristik, Essenz, Konstitution; für Personen "Persönlichkeit, Individualität"	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ran	NULL
 9236	en	ran	ɾan	NULL	n.	intrinsic character or nature, essence, constititution; basic nature of something resulting from the totality of its properties; often best translated as personality	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ran	NULL
 9236	et	ran	ɾan	NULL	n.	üldine olek või seisund looduses, olemus, inimeste puhul iseloom.	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ran	NULL
 9236	fr	ran	ɾan	NULL	n.	constitution | essence | nature | personnalité	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ran	NULL
@@ -15461,8 +15461,8 @@
 9320	nl	velke	ˈvɛl.kɛ	NULL	adj.	chaotisch, rommelig, ongeorganiseerd, puinhoop	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	vel-ke	NULL
 9320	pl	velke	ˈvɛl.kɛ	NULL	adj.	chaotyczny, nieuporządkowany, niezorganizowany	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	vel-ke	NULL
 9320	ru	velke	ˈvɛl.kɛ	NULL	adj.	беспорядочно	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	vel-ke	NULL
-9324	de	venga'	ˈvɛ.ŋaʔ	NULL	adj.	organisiert, ``alles im Griff haben", ``den Überblick behalten"	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ve-nga'	NULL
-9324	en	venga'	ˈvɛ.ŋaʔ	NULL	adj.	organized, ``on top of things''	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ve-nga'	NULL
+9324	de	venga'	ˈvɛ.ŋaʔ	NULL	adj.	organisiert, "alles im Griff haben", "den Überblick behalten"	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ve-nga'	NULL
+9324	en	venga'	ˈvɛ.ŋaʔ	NULL	adj.	organized, "on top of things"	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ve-nga'	NULL
 9324	et	venga'	ˈvɛ.ŋaʔ	NULL	adj.	organiseeritud	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ve-nga'	NULL
 9324	fr	venga'	ˈvɛ.ŋaʔ	NULL	adj.	organisé | ordonné	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ve-nga'	NULL
 9324	hu	venga'	ˈvɛ.ŋaʔ	NULL	adj.	rendezett	Frommer (02 Oct 2012) http://naviteri.org/2012/10/mipa-vospxi-mipa-ayliu-new-words-for-the-new-month/	1	ve-nga'	NULL
@@ -18767,13 +18767,13 @@
 11468	hu	tong	t·oŋ	t<0><1><2>ong	vtr.	elolt	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	tong	t..ong
 11468	nl	tong	t·oŋ	t<0><1><2>ong	vtr.	uitmaken, doven	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	tong	t..ong
 11472	de	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	rot (blutrot)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	rey-pay-tun	NULL
-11472	en	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	red (``blood tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	rey-pay-tun	NULL
+11472	en	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	red ("blood tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	rey-pay-tun	NULL
 11472	et	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	punane (veripunane)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	rey-pay-tun	NULL
 11472	fr	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	rouge | ([rouge sang])	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	rey-pay-tun	NULL
 11472	hu	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	piros 	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	rey-pay-tun	NULL
 11472	nl	reypaytun	ˈɾɛj.paj.tun	NULL	adj.	rood ("bloed tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	rey-pay-tun	NULL
 11476	de	txeptun	ˈt'ɛp.tun	NULL	adj.	orange (feuerrot)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	txep-tun	NULL
-11476	en	txeptun	ˈt'ɛp.tun	NULL	adj.	orange (``fire tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	txep-tun	NULL
+11476	en	txeptun	ˈt'ɛp.tun	NULL	adj.	orange ("fire tun")	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	txep-tun	NULL
 11476	et	txeptun	ˈt'ɛp.tun	NULL	adj.	oranž (tuleleegi värvi)	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	txep-tun	NULL
 11476	fr	txeptun	ˈt'ɛp.tun	NULL	adj.	orange | ([rouge feu])	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	txep-tun	NULL
 11476	hu	txeptun	ˈt'ɛp.tun	NULL	adj.	narancssárga	http://naviteri.org/2018/03/100a-liu-amip-64-new-words-part-1/ (31 Mar 2018)	1	txep-tun	NULL
