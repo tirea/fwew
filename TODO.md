@@ -6,12 +6,13 @@
 
 ### In Progress
 
+-   add all affixes and their definitions to the dictionary file
+-   fwewable affixes
 -   `/help <command>`
 
 ### Future
 
 -   `-e bool` etymology flag
--   add all affixes and their definitions to the dictionary file
 -   implement `/list tag [is|has] tag`
     Tag ideas:
     modal, ofp, nfp, uncountable, ii, body, family,
@@ -27,7 +28,7 @@
 
 ### Ideas
 
--   `/limit <n>` where `/limin 0` is no limit
+-   `/limit <n>` where `/limit 0` is no limit
 -   `/examples <word> [limit <n>]`
 -   `/define <jargony linguistics term>`
 -   `/audio <Na'vi word(s)>`
