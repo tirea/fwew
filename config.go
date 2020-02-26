@@ -59,8 +59,8 @@ func ReadConfig() Config {
 // WriteConfig saves specified options to the config file
 func WriteConfig(entry string) Config {
 	var s []string
-	var strTrue = "true"
-	var strFalse = "false"
+	const strTrue = "true"
+	const strFalse = "false"
 	config := ReadConfig()
 	if strings.Contains(entry, " ") {
 		s = strings.Split(entry, " ")
