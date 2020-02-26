@@ -2,5 +2,13 @@
     "language": "en",
     "posFilter": "all",
     "useAffixes": true,
+    "showInfixes": false,
+    "showIPA": false,
+    "showInfDots": false,
+    "showDashed": false,
+    "showSource": false,
+    "numConvert": false,
+    "markdown": false,
+    "reverse": false,
     "DebugMode": false
 }

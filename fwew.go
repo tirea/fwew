@@ -1050,27 +1050,27 @@ func main() {
 	// Version flag, for displaying version data
 	showVersion = flag.Bool("v", false, Text("usageV"))
 	// Reverse direction flag, for local_lang -> Na'vi lookups
-	reverse = flag.Bool("r", false, Text("usageR"))
+	reverse = flag.Bool("r", configuration.Reverse, Text("usageR"))
 	// Language specifier flag
 	language = flag.String("l", configuration.Language, Text("usageL"))
 	// Infixes flag, opt to show infix location data
-	showInfixes = flag.Bool("i", false, Text("usageI"))
+	showInfixes = flag.Bool("i", configuration.ShowInfixes, Text("usageI"))
 	// Infix locations in dot notation
-	showInfDots = flag.Bool("id", false, Text("usageID"))
+	showInfDots = flag.Bool("id", configuration.ShowInfDots, Text("usageID"))
 	// IPA flag, opt to show IPA data
-	showIPA = flag.Bool("ipa", false, Text("usageIPA"))
+	showIPA = flag.Bool("ipa", configuration.ShowIPA, Text("usageIPA"))
 	// Show syllable breakdown / stress
-	showDashed = flag.Bool("s", false, Text("usageS"))
+	showDashed = flag.Bool("s", configuration.ShowDashed, Text("usageS"))
 	// Source flag, opt to show source data
-	showSource = flag.Bool("src", false, Text("usageSrc"))
+	showSource = flag.Bool("src", configuration.ShowSource, Text("usageSrc"))
 	// Filter part of speech flag, opt to filter by part of speech
 	posFilter = flag.String("p", configuration.PosFilter, Text("usageP"))
 	// Attempt to find all matches using affixes
 	useAffixes = flag.Bool("a", configuration.UseAffixes, Text("usageA"))
 	// Convert numbers
-	numConvert = flag.Bool("n", false, Text("usageN"))
+	numConvert = flag.Bool("n", configuration.NumConvert, Text("usageN"))
 	// Markdown formatting
-	markdown = flag.Bool("m", false, Text("usageM"))
+	markdown = flag.Bool("m", configuration.Markdown, Text("usageM"))
 	// Input file / Fwewscript
 	filename = flag.String("f", "", Text("usageF"))
 	// Configuration editing

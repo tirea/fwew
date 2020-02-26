@@ -25,10 +25,18 @@ import (
 
 // Config is a struct designed to hold the values of the configuration file when loaded
 type Config struct {
-	Language   string `json:"language"`
-	PosFilter  string `json:"posFilter"`
-	UseAffixes bool   `json:"useAffixes"`
-	DebugMode  bool   `json:"DebugMode"`
+	Language    string `json:"language"`
+	PosFilter   string `json:"posFilter"`
+	UseAffixes  bool   `json:"useAffixes"`
+	ShowInfixes bool   `json:"showInfixes"`
+	ShowIPA     bool   `json:"showIPA"`
+	ShowInfDots bool   `json:"showInfDots"`
+	ShowDashed  bool   `json:"showDashed"`
+	ShowSource  bool   `json:"showSource"`
+	NumConvert  bool   `json:"numConvert"`
+	Markdown    bool   `json:"markdown"`
+	Reverse     bool   `json:"reverse"`
+	DebugMode   bool   `json:"DebugMode"`
 }
 
 // ReadConfig reads a configuration file and puts the data into Config struct
@@ -51,6 +59,8 @@ func ReadConfig() Config {
 // WriteConfig saves specified options to the config file
 func WriteConfig(entry string) Config {
 	var s []string
+	var strTrue = "true"
+	var strFalse = "false"
 	config := ReadConfig()
 	if strings.Contains(entry, " ") {
 		s = strings.Split(entry, " ")
@@ -78,18 +88,90 @@ func WriteConfig(entry string) Config {
 				return config
 			}
 		case "useaffixes":
-			if value == "true" {
+			if value == strTrue {
 				config.UseAffixes = true
-			} else if value == "false" {
+			} else if value == strFalse {
 				config.UseAffixes = false
 			} else {
 				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
 				return config
 			}
+		case "showinfixes":
+			if value == strTrue {
+				config.ShowInfixes = true
+			} else if value == strFalse {
+				config.ShowInfixes = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "showipa":
+			if value == strTrue {
+				config.ShowIPA = true
+			} else if value == strFalse {
+				config.ShowIPA = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "showinfdots":
+			if value == strTrue {
+				config.ShowInfDots = true
+			} else if value == strFalse {
+				config.ShowInfDots = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "showdashed":
+			if value == strTrue {
+				config.ShowDashed = true
+			} else if value == strFalse {
+				config.ShowDashed = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "showsource":
+			if value == strTrue {
+				config.ShowSource = true
+			} else if value == strFalse {
+				config.ShowSource = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "numconvert":
+			if value == strTrue {
+				config.NumConvert = true
+			} else if value == strFalse {
+				config.NumConvert = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "markdown":
+			if value == strTrue {
+				config.Markdown = true
+			} else if value == strFalse {
+				config.Markdown = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
+		case "reverse":
+			if value == strTrue {
+				config.Reverse = true
+			} else if value == strFalse {
+				config.Reverse = false
+			} else {
+				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
+				return config
+			}
 		case "debugmode":
-			if value == "true" {
+			if value == strTrue {
 				config.DebugMode = true
-			} else if value == "false" {
+			} else if value == strFalse {
 				config.DebugMode = false
 			} else {
 				fmt.Printf("%s %s: %s\n\n", Text("configValueError"), key, value)
@@ -121,6 +203,19 @@ func WriteConfig(entry string) Config {
 }
 
 func (c Config) String() string {
+	var str string
+	str += fmt.Sprintf("Language: %s\n", c.Language)
+	str += fmt.Sprintf("PosFilter: %s\n", c.PosFilter)
+	str += fmt.Sprintf("UseAffixes: %t\n", c.UseAffixes)
+	str += fmt.Sprintf("ShowInfixes: %t\n", c.ShowInfixes)
+	str += fmt.Sprintf("ShowIPA: %t\n", c.ShowIPA)
+	str += fmt.Sprintf("ShowInfDots: %t\n", c.ShowInfDots)
+	str += fmt.Sprintf("ShowDashed: %t\n", c.ShowDashed)
+	str += fmt.Sprintf("ShowSource: %t\n", c.ShowSource)
+	str += fmt.Sprintf("NumConvert: %t\n", c.NumConvert)
+	str += fmt.Sprintf("Markdown: %t\n", c.Markdown)
+	str += fmt.Sprintf("Reverse: %t\n", c.Reverse)
+	str += fmt.Sprintf("DebugMode: %t\n", c.DebugMode)
 	// this string only doesn't get translated or called from Text() because they're var names
-	return fmt.Sprintf("Language: %s\nPosFilter: %s\nUseAffixes: %t\nDebugMode: %t\n", c.Language, c.PosFilter, c.UseAffixes, c.DebugMode)
+	return str
 }
