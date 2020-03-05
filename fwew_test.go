@@ -21,7 +21,7 @@ import (
 )
 
 const (
-	numWords   = 2526
+	numWords   = 2512
 	numMemes   = 7
 	totalWords = numWords + numMemes
 )
