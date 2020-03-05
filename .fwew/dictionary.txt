@@ -19924,6 +19924,28 @@
 13127	fr	payste	paj.ˈstɛ	NULL	inter.	quelles femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-ste	NULL
 13128	en	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	what women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-ste-pe	NULL
 13128	fr	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	quelles femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-ste-pe	NULL
+13129	en	yokx	jok'	NULL	n.	shield	https://forum.learnnavi.org/language-updates/vocabulary-from-disney's-na'vi-translator	1	yokx	NULL
+13129	fr	yokx	jok'	NULL	n.	bouclier, protection	https://forum.learnnavi.org/language-updates/vocabulary-from-disney's-na'vi-translator	1	yokx	NULL
+13130	en	smaw	sm·aw	sm<0><1><2>aw	vtr.	approve of	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	smaw	sm..aw
+13130	fr	smaw	sm·aw	sm<0><1><2>aw	vtr.	approuver	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	smaw	sm..aw
+13131	en	tìsmaw	tɪ.ˈsmaw	NULL	n.	approval	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-smaw	NULL
+13131	fr	tìsmaw	tɪ.ˈsmaw	NULL	n.	approbation	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-smaw	NULL
+13132	en	natxu	n·a.ˈt'·u	n<0><1>tx<2>u	vtr.	disapprove of	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	na-txu	n.atx.u
+13132	fr	natxu	n·a.ˈt'·u	n<0><1>tx<2>u	vtr.	désapprouver	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	na-txu	n.atx.u
+13133	en	tìnatxu	tɪ.na.ˈt'u	NULL	n.	disapproval	http://naviteri.org/2020/02/some-words-for-leap-year-day/	3	tì-na-txu	NULL
+13133	fr	tìnatxu	tɪ.na.ˈt'u	NULL	n.	désapprobation	http://naviteri.org/2020/02/some-words-for-leap-year-day/	3	tì-na-txu	NULL
+13134	en	la'um	ˈl·a.ʔ·um	l<0><1>a'<2>um	vin.	pretend (use with tsnì)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	la-'um	l.a'.um
+13134	fr	la'um	ˈl·a.ʔ·um	l<0><1>a'<2>um	vin.	prétendre (utilisé avec tsnì)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	la-'um	l.a'.um
+13135	en	tìla'um	tɪ.ˈla.ʔum	NULL	n.	pretence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-la-'um	NULL
+13135	fr	tìla'um	tɪ.ˈla.ʔum	NULL	n.	prétexte	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-la-'um	NULL
+13136	en	tsaktap	ˈt͡sak.tap̚ 	NULL	n.	violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap	NULL
+13136	fr	tsaktap	ˈt͡sak.tap̚ 	NULL	n.	violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap	NULL
+13137	en	letsaktap	lɛ.ˈt͡sak.tap̚ 	NULL	adj.	violent	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	le-tsak-tap	NULL
+13137	fr	letsaktap	lɛ.ˈt͡sak.tap̚ 	NULL	adj.	violent	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	le-tsak-tap	NULL
+13138	en	tsaktap si	ˈt͡sak.tap s·i	tsaktap s<0><1><2>i	vin.	be violent, use violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap si	tsaktap s..i
+13138	fr	tsaktap si	ˈt͡sak.tap s·i	tsaktap s<0><1><2>i	vin.	être violent, utiliser la violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap si	tsaktap s..i
+13139	en	mungwrrtxo	muŋ.ˈwṛt'o	NULL	conj.	unless, except if (usually used with subjunctive <iv>)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	mung-wrr-txo	NULL
+13139	fr	mungwrrtxo	muŋ.ˈwṛt'o	NULL	conj.	à moins que, sauf si (habituellement utilisé avec le subjonctif <iv>)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	mung-wrr-txo	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
