@@ -440,7 +440,7 @@ func listWordsSubset(args []string, subset []Word) []Word {
 		case Text("w_words"):
 			s, err := strconv.Atoi(spec)
 			if err != nil {
-				fmt.Printf("%s (%s)", Text("invalidNumericError"), spec)
+				fmt.Printf("%s (%s)\n", Text("invalidNumericError"), spec)
 				return nil
 			}
 			switch cond {
@@ -750,7 +750,7 @@ func listWords(args []string) []Word {
 				s, err1 := strconv.Atoi(spec)
 				if err1 != nil {
 					fmt.Printf("%s (%s)\n", Text("invalidNumericError"), spec)
-					os.Exit(1)
+					return nil
 				}
 				switch cond {
 				case Text("c_first"):
