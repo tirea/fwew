@@ -440,12 +440,13 @@ func listWordsSubset(args []string, subset []Word) []Word {
 		case Text("w_words"):
 			s, err := strconv.Atoi(spec)
 			if err != nil {
-				fmt.Printf("%s (%s)", Text("invalidNumericError"), spec)
+				fmt.Printf("%s (%s)\n", Text("invalidNumericError"), spec)
+				return nil
 			}
 			switch cond {
 			case Text("c_first"):
 				if len(subset) >= s {
-					return subset[0 : s-1]
+					return subset[0:s]
 				}
 				return subset
 			case Text("c_last"):
@@ -749,7 +750,7 @@ func listWords(args []string) []Word {
 				s, err1 := strconv.Atoi(spec)
 				if err1 != nil {
 					fmt.Printf("%s (%s)\n", Text("invalidNumericError"), spec)
-					os.Exit(1)
+					return nil
 				}
 				switch cond {
 				case Text("c_first"):
@@ -758,7 +759,7 @@ func listWords(args []string) []Word {
 						results = append(results, result)
 					}
 				case Text("c_last"):
-					if count >= numLines-s && count <= numLines {
+					if count > numLines-s && count <= numLines {
 						result = InitWordStruct(result, fields)
 						results = append(results, result)
 					}
