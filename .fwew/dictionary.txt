@@ -2604,15 +2604,15 @@
 1484	pl	paywll	ˈpaj.wḷ	NULL	n.	aloeparilus succulentus, dapofet	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	pay-wll	NULL
 1484	ru	paywll	ˈpaj.wḷ	NULL	n.	дапофет («водное растение», названо так изза мясистых сочных листьев, в которых накапливает влагу из почвы)	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	pay-wll	NULL
 1484	sv	paywll	ˈpaj.wḷ	NULL	n.	vattenväxt, dapophet	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	pay-wll	NULL
-1488	de	--pe+	pɛ	NULL	affix	Interrogativ Marker	Frommer	1	pe	NULL
-1488	en	--pe+	pɛ	NULL	affix	inter. marker	Frommer	1	pe	NULL
-1488	et	--pe+	pɛ	NULL	affix	küsimuse märkija	Frommer	1	pe	NULL
-1488	fr	--pe+	pɛ	NULL	affix	que quoi (particule utilisée pour générer une question)	Frommer	1	pe	NULL
-1488	hu	--pe+	pɛ	NULL	affix	kérdőszóképző	Frommer	1	pe	NULL
-1488	nl	--pe+	pɛ	NULL	affix	vvn. markeerder	Frommer	1	pe	NULL
-1488	pl	--pe+	pɛ	NULL	affix	pytajnik	Frommer	1	pe	NULL
-1488	ru	--pe+	pɛ	NULL	affix	вопросительный маркер	Frommer	1	pe	NULL
-1488	sv	--pe+	pɛ	NULL	affix	interr. frågemarkör	Frommer	1	pe	NULL
+1488	de	--pe+	pɛ	NULL	affix	Interrogativ Marker	Frommer	1	--	NULL
+1488	en	--pe+	pɛ	NULL	affix	inter. marker	Frommer	1	--	NULL
+1488	et	--pe+	pɛ	NULL	affix	küsimuse märkija	Frommer	1	--	NULL
+1488	fr	--pe+	pɛ	NULL	affix	que quoi (particule utilisée pour générer une question)	Frommer	1	--	NULL
+1488	hu	--pe+	pɛ	NULL	affix	kérdőszóképző	Frommer	1	--	NULL
+1488	nl	--pe+	pɛ	NULL	affix	vvn. markeerder	Frommer	1	--	NULL
+1488	pl	--pe+	pɛ	NULL	affix	pytajnik	Frommer	1	--	NULL
+1488	ru	--pe+	pɛ	NULL	affix	вопросительный маркер	Frommer	1	--	NULL
+1488	sv	--pe+	pɛ	NULL	affix	interr. frågemarkör	Frommer	1	--	NULL
 1492	de	pe'un	ˈp·ɛ.ʔ·un	p<0><1>e'<2>un	vtr.	entscheiden, beschließen	Paul Frommer http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/	1	pe-'un	p.e'.un
 1492	en	pe'un	ˈp·ɛ.ʔ·un	p<0><1>e'<2>un	vtr.	decide	Paul Frommer http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/	1	pe-'un	p.e'.un
 1492	et	pe'un	ˈp·ɛ.ʔ·un	p<0><1>e'<2>un	vtr.	otsustama	Paul Frommer http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/	1	pe-'un	p.e'.un
