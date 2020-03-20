@@ -19946,6 +19946,11 @@
 13138	fr	tsaktap si	ˈt͡sak.tap s·i	tsaktap s<0><1><2>i	vin.	être violent, utiliser la violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap si	tsaktap s..i
 13139	en	mungwrrtxo	muŋ.ˈwṛt'o	NULL	conj.	unless, except if (usually used with subjunctive <iv>)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	mung-wrr-txo	NULL
 13139	fr	mungwrrtxo	muŋ.ˈwṛt'o	NULL	conj.	à moins que, sauf si (habituellement utilisé avec le subjonctif <iv>)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	mung-wrr-txo	NULL
+13140	en	tìvirä	tɪ.vi.ˈɾæ	NULL	n.	spread, proliferation	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	3	tì-vi-rä	NULL
+13141	en	wrrkä	wṛ.ˈk·æ	wrrk<0><1><2>ä	vin.	go out, go outside	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	wrr-kä	wrrk..ä
+13142	en	txung	t'·uŋ	tx<0><1><2>ung	vtr.	disturb, disrupt, bother, affect negatively	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	txung	tx..ung
+13143	en	palang	ˈp·a.l·aŋ	p<0><1>al<2>ang	vtr.	contact (in a social sense), communicate with	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	pa-lang	p.al.ang
+13144	en	tìpalang	tɪ.ˈpa.laŋ	NULL	n.	(social) contact	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	tì-pa-lang	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
