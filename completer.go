@@ -36,7 +36,7 @@ func executor(cmds string) {
 				}
 			}
 		} else if len(csvCmds) == 1 {
-			fmt.Println("printing newline")
+			fmt.Println("")
 		}
 	}
 }
