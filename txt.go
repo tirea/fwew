@@ -27,41 +27,65 @@ var texts = map[string]string{}
 
 func init() {
 	// slash-commands Help
-	texts["slashCommandHelp"] = "" +
-		"/set [flag]\n" +
-		"        set given options (separated by space)\n" +
-		"        or show currently set options\n" +
-		"/unset [flag]\n" +
-		"        unset given options (separated by space)\n" +
-		"        or show currently set options\n" +
-		"/list <what> <cond> <spec> [and <what> <cond> <spec> ...]\n" +
-		"        list all words that meet given criteria\n" +
-		"/random <num> [where <what> <cond> <spec>]\n" +
-		"        display given whole number > 0 of random entries\n" +
-		"        for both /list and /random, <what>, <cond>, and <spec> work as follows:\n" +
-		"        <what> is any one of: pos, word, words, syllables\n" +
-		"        <cond> depends on the <what> used:\n" +
-		"                <what>    | valid <cond>\n" +
-		"                ----------|------------------------------------\n" +
-		"                pos       | any one of: is, has, like\n" +
-		"                word      | any one of: starts, ends, has, like\n" +
-		"                words     | any one of: first, last\n" +
-		"                syllables | any one of: <, <=, =, >=, >\n" +
-		"        <spec> depends on the <cond> used:\n" +
-		"                <cond>                       | valid <spec>\n" +
-		"                -----------------------------|----------------------\n" +
-		"                is, has, starts, ends        | any string of letter(s)\n" +
-		"                <, <=, =, >=, >, first, last | any whole number > 0\n" +
-		"                like                         | any string of letter(s) and\n" +
-		"                                             |     wildcard asterisk(s)\n" +
-		"/update\n" +
-		"        download and update the dictionary file\n" +
-		"/commands\n" +
-		"        show this commands help text\n" +
-		"/help\n" +
-		"        show main help text\n" +
-		"/exit\n" +
-		"        exit/quit the program (aliases /quit /q /wc)\n"
+	texts["slashCommandHelp"] = `commands:
+/set [options]
+  	set given options (separated by space) or show currently set options
+  	type "/help" for valid options (use without the '-' prefix)
+  	notes:
+  	c is a function and is implemented as /config (see below)
+  	v is a function and is implemented as /version (see below)
+  	f is a function not supported in interactive mode
+/unset [options]
+  	alias for /set [options]
+/<option>
+  	shortcut alias for /set <option>
+/list <what> <cond> <spec> [and <what> <cond> <spec> ...]
+  	list all words that meet given criteria
+  	<what> is any one of: pos, word, words, syllables
+  	<cond> depends on the <what> used:
+  	  <what>    | valid <cond>
+  	  ----------|------------------------------------
+  	  pos       | any one of: is, has, like
+  	  word      | any one of: starts, ends, has, like
+  	  words     | any one of: first, last
+  	  syllables | any one of: <, <=, =, >=, >
+  	<spec> depends on the <cond> used:
+  	  <cond>                       | valid <spec>
+  	  -----------------------------|----------------------------
+  	  is, has, starts, ends        | any string of letter(s)
+  	  <, <=, =, >=, >, first, last | any whole number > 0
+  	  like                         | any string of letter(s) and
+  	                               |     wildcard asterisk(s)
+/random <number>
+/random <number> where <what> <cond> <spec> [and <what> <cond> <spec> ...]
+  	show given <number> of random entries
+  	<what>, <cond>, and <spec> work the same way as with /list
+/random random
+/random random where <what> <cond> <spec> [and <what> <cond> <spec> ...]
+  	show random number of random entries
+  	<what>, <cond>, and <spec> work the same way as with /list
+/lenition
+  	display the lenition table
+/len
+  	shortcut alias for /lenition
+/update
+  	download and update the dictionary file
+/config <option> <value>
+/config [option=value ...]
+  	update the default options in the config file
+  	type "/config" to see valid options and their current default values
+  	valid values are "true" or "false" for all except Language and PosFilter
+  	Language: type "/help" for supported language codes
+  	PosFilter: any part of speech abbreviation (including '.' at the end)
+  	<option> and <value> are not case-sensitive
+/commands
+  	show this commands help text
+/help
+  	show main help text
+/version
+  	show version information
+/exit
+  	exit/quit the program (aliases /quit /q /wc)`
 
 	// <what> strings
 	texts["w_pos"] = "pos"
@@ -194,28 +218,28 @@ func init() {
 	texts["bin"] = strings.ToLower(texts["name"])
 	texts["options"] = "options"
 	texts["usageV"] = "show program & dictionary version numbers"
-	texts["usageL"] = "use specified language \n\tValid values: " + texts["languages"]
+	texts["usageL"] = "use specified language\nsupported languages: " + texts["languages"] + "\n"
 	texts["usageI"] = "display infix location data in bracket notation"
 	texts["usageID"] = "display infix location data in dot notation"
 	texts["usageIPA"] = "display IPA data"
 	texts["usageS"] = "display syllable/stress breakdown"
 	texts["usageSrc"] = "display source data"
-	texts["usageP"] = "search for word(s) with specified part of speech"
+	texts["usageP"] = "search for word(s) with specified part of speech\n"
 	texts["usageR"] = "reverse the lookup direction from Na'vi->local to local->Na'vi"
 	texts["usageA"] = "find all matches by using affixes to match the input word"
 	texts["usageN"] = "convert numbers octal<->decimal"
-	texts["usageM"] = "format output in markdown for bold and italic (mostly useful for fwew-discord bot)"
+	texts["usageM"] = "format output in markdown for bold and italic\n(mostly useful for fwew-discord bot)"
 	texts["usageF"] = "filename of file to read as input"
-	texts["usageC"] = "edit variable in configuration file"
-	texts["usageD"] = "enable debug mode"
+	texts["usageC"] = "edit option in configuration file"
+	texts["usageD"] = "enable (insanely verbose) debug mode"
 	texts["defaultFilter"] = "all"
 
 	// lenition table
-	texts["lenTable"] = "" +
-		"px, tx, kx → p,  t,  k\n" +
-		"p,  t,  k  → f,  s,  h\n" +
-		"        ts → s\n" +
-		"        '  → (disappears)"
+	texts["lenTable"] = `lenition:
+px, tx, kx → p,  t,  k
+p,  t,  k  → f,  s,  h
+        ts → s
+        '  → (disappears)`
 }
 
 // Text function is the accessor for []string texts
