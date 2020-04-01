@@ -7,8 +7,6 @@
 ### In Progress
 
 -   add all affixes and their definitions to the dictionary file
--   fwewable affixes
--   `/help <command>`
 
 ### Future
 
