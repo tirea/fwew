@@ -20,12 +20,6 @@ import (
 	"testing"
 )
 
-const (
-	numWords   = 2517
-	numMemes   = 7
-	totalWords = numWords + numMemes
-)
-
 func TestSimilarity(t *testing.T) {
 	f0 := similarity("fmetok", "fmetok")
 	if f0 != 1.0 {
@@ -126,8 +120,4 @@ func TestSyllableCount(t *testing.T) {
 
 	w = Word{Navi: "tìng tseng"}
 	testEqualInt(t, 2, syllableCount(w))
-}
-
-func TestCountLines(t *testing.T) {
-	testEqualInt(t, totalWords, countLines())
 }
