@@ -19956,10 +19956,14 @@
 13143	fr	palang	ˈp·a.l·aŋ	p<0><1>al<2>ang	vtr.	contacter (au sens social du terme), communiquer avec	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	pa-lang	p.al.ang
 13144	en	tìpalang	tɪ.ˈpa.laŋ	NULL	n.	(social) contact	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	tì-pa-lang	NULL
 13144	fr	tìpalang	tɪ.ˈpa.laŋ	NULL	n.	contact (social)	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	tì-pa-lang	NULL
-13145	en	tstunkem	ˈt͡stun.kɛm	NULL	n.	favor, act of kindness	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem	NULL
+13145	en	tstunkem	ˈt͡stun.kɛm	NULL	n.	favor, act of kindness (usually pronounced tstungkem)	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem	NULL
+13145	fr	tstunkem	ˈt͡stun.kɛm	NULL	n.	faveur, acte de bonté (souvent prononcé tsungkem)	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem	NULL
 13146	en	tstunkem si	ˈt͡stun.kɛm s·i	tstunkem s<0><1><2>i	vin.	do a favor	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem si	tstunkem s..i
+13146	fr	tstunkem si	ˈt͡stun.kɛm s·i	tstunkem s<0><1><2>i	vin.	faire une faveur	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem si	tstunkem s..i
 13147	en	tstunkemtsyìp	ˈt͡stun.kɛm.t͡syɪp̚	NULL	n.	little favor	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem-tsyìp	NULL
+13147	fr	tstunkemtsyìp	ˈt͡stun.kɛm.t͡syɪp̚	NULL	n.	petite faveur	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem-tsyìp	NULL
 13148	en	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	a bite	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
+13148	fr	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	morsure	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
