@@ -20018,64 +20018,94 @@
 13128	nl	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	welke vrouwen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-ste-pe	NULL
 13129	en	yokx	jok'	NULL	n.	shield	https://forum.learnnavi.org/language-updates/vocabulary-from-disney's-na'vi-translator	1	yokx	NULL
 13129	fr	yokx	jok'	NULL	n.	bouclier, protection	https://forum.learnnavi.org/language-updates/vocabulary-from-disney's-na'vi-translator	1	yokx	NULL
+13129	nl	yokx	jok'	NULL	n.	schild	https://forum.learnnavi.org/language-updates/vocabulary-from-disney's-na'vi-translator	1	yokx	NULL
 13130	en	smaw	sm·aw	sm<0><1><2>aw	vtr.	approve of	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	smaw	sm..aw
 13130	fr	smaw	sm·aw	sm<0><1><2>aw	vtr.	approuver	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	smaw	sm..aw
+13130	nl	smaw	sm·aw	sm<0><1><2>aw	vtr.	goedkeuren	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	smaw	sm..aw
 13131	en	tìsmaw	tɪ.ˈsmaw	NULL	n.	approval	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-smaw	NULL
 13131	fr	tìsmaw	tɪ.ˈsmaw	NULL	n.	approbation	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-smaw	NULL
+13131	nl	tìsmaw	tɪ.ˈsmaw	NULL	n.	goedkeuring	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-smaw	NULL
 13132	en	natxu	n·a.ˈt'·u	n<0><1>tx<2>u	vtr.	disapprove of	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	na-txu	n.atx.u
 13132	fr	natxu	n·a.ˈt'·u	n<0><1>tx<2>u	vtr.	désapprouver	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	na-txu	n.atx.u
+13132	nl	natxu	n·a.ˈt'·u	n<0><1>tx<2>u	vtr.	afkeuren	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	na-txu	n.atx.u
 13133	en	tìnatxu	tɪ.na.ˈt'u	NULL	n.	disapproval	http://naviteri.org/2020/02/some-words-for-leap-year-day/	3	tì-na-txu	NULL
 13133	fr	tìnatxu	tɪ.na.ˈt'u	NULL	n.	désapprobation	http://naviteri.org/2020/02/some-words-for-leap-year-day/	3	tì-na-txu	NULL
+13133	nl	tìnatxu	tɪ.na.ˈt'u	NULL	n.	afkeuring	http://naviteri.org/2020/02/some-words-for-leap-year-day/	3	tì-na-txu	NULL
 13134	en	la'um	ˈl·a.ʔ·um	l<0><1>a'<2>um	vin.	pretend (use with tsnì)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	la-'um	l.a'.um
 13134	fr	la'um	ˈl·a.ʔ·um	l<0><1>a'<2>um	vin.	prétendre (utilisé avec tsnì)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	la-'um	l.a'.um
+13134	nl	la'um	ˈl·a.ʔ·um	l<0><1>a'<2>um	vin.	doen alsof, voorwenden (gebruikt met tsnì)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	la-'um	l.a'.um
 13135	en	tìla'um	tɪ.ˈla.ʔum	NULL	n.	pretence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-la-'um	NULL
 13135	fr	tìla'um	tɪ.ˈla.ʔum	NULL	n.	prétexte	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-la-'um	NULL
+13135	nl	tìla'um	tɪ.ˈla.ʔum	NULL	n.	voorwendsel, smoes	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	tì-la-'um	NULL
 13136	en	tsaktap	ˈt͡sak.tap̚ 	NULL	n.	violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap	NULL
 13136	fr	tsaktap	ˈt͡sak.tap̚ 	NULL	n.	violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap	NULL
+13136	nl	tsaktap	ˈt͡sak.tap̚ 	NULL	n.	geweld	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap	NULL
 13137	en	letsaktap	lɛ.ˈt͡sak.tap̚ 	NULL	adj.	violent	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	le-tsak-tap	NULL
 13137	fr	letsaktap	lɛ.ˈt͡sak.tap̚ 	NULL	adj.	violent	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	le-tsak-tap	NULL
+13137	nl	letsaktap	lɛ.ˈt͡sak.tap̚ 	NULL	adj.	gewelddadig	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	le-tsak-tap	NULL
 13138	en	tsaktap si	ˈt͡sak.tap s·i	tsaktap s<0><1><2>i	vin.	be violent, use violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap si	tsaktap s..i
 13138	fr	tsaktap si	ˈt͡sak.tap s·i	tsaktap s<0><1><2>i	vin.	être violent, utiliser la violence	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap si	tsaktap s..i
+13138	nl	tsaktap si	ˈt͡sak.tap s·i	tsaktap s<0><1><2>i	vin.	geweld gebruiken, gewelddadig zijn	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	tsak-tap si	tsaktap s..i
 13139	en	mungwrrtxo	muŋ.ˈwṛt'o	NULL	conj.	unless, except if (usually used with subjunctive <iv>)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	mung-wrr-txo	NULL
 13139	fr	mungwrrtxo	muŋ.ˈwṛt'o	NULL	conj.	à moins que, sauf si (habituellement utilisé avec le subjonctif <iv>)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	mung-wrr-txo	NULL
+13139	nl	mungwrrtxo	muŋ.ˈwṛt'o	NULL	conj.	behalve als (meestal gebruikt met <iv>)	http://naviteri.org/2020/02/some-words-for-leap-year-day/	2	mung-wrr-txo	NULL
 13140	en	tìvirä	tɪ.vi.ˈɾæ	NULL	n.	spread, proliferation	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	3	tì-vi-rä	NULL
 13140	fr	tìvirä	tɪ.vi.ˈɾæ	NULL	n.	diffusion, propagation, prolifération	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	3	tì-vi-rä	NULL
+13140	nl	tìvirä	tɪ.vi.ˈɾæ	NULL	n.	verspreiding	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	3	tì-vi-rä	NULL
 13141	en	wrrkä	wṛ.ˈk·æ	wrrk<0><1><2>ä	vin.	go out, go outside	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	wrr-kä	wrrk..ä
 13141	fr	wrrkä	wṛ.ˈk·æ	wrrk<0><1><2>ä	vin.	sortir (à l'extérieur)	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	wrr-kä	wrrk..ä
+13141	nl	wrrkä	wṛ.ˈk·æ	wrrk<0><1><2>ä	vin.	naar buiten gaan	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	wrr-kä	wrrk..ä
 13142	en	txung	t'·uŋ	tx<0><1><2>ung	vtr.	disturb, disrupt, bother, affect negatively	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	txung	tx..ung
 13142	fr	txung	t'·uŋ	tx<0><1><2>ung	vtr.	déranger, perturber, gêner, affecter négativement	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	txung	tx..ung
+13142	nl	txung	t'·uŋ	tx<0><1><2>ung	vtr.	storen, lastig vallen, negatief beïnvloeden	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	txung	tx..ung
 13143	en	palang	ˈp·a.l·aŋ	p<0><1>al<2>ang	vtr.	contact (in a social sense), communicate with	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	pa-lang	p.al.ang
 13143	fr	palang	ˈp·a.l·aŋ	p<0><1>al<2>ang	vtr.	contacter (au sens social du terme), communiquer avec	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	pa-lang	p.al.ang
+13143	nl	palang	ˈp·a.l·aŋ	p<0><1>al<2>ang	vtr.	communiceren met, socializen	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	1	pa-lang	p.al.ang
 13144	en	tìpalang	tɪ.ˈpa.laŋ	NULL	n.	(social) contact	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	tì-pa-lang	NULL
 13144	fr	tìpalang	tɪ.ˈpa.laŋ	NULL	n.	contact (social)	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	tì-pa-lang	NULL
+13144	nl	tìpalang	tɪ.ˈpa.laŋ	NULL	n.	(sociaal) contact	http://naviteri.org/2020/03/teri-tifkeytok-lefkrr-about-the-present-situation/	2	tì-pa-lang	NULL
 13145	en	tstunkem	ˈt͡stun.kɛm	NULL	n.	favor, act of kindness (usually pronounced tstungkem)	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem	NULL
 13145	fr	tstunkem	ˈt͡stun.kɛm	NULL	n.	faveur, acte de bonté (souvent prononcé tsungkem)	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem	NULL
+13145	nl	tstunkem	ˈt͡stun.kɛm	NULL	n.	gunst, goede daad (meestal uitgesproken als tstungkem)	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem	NULL
 13146	en	tstunkem si	ˈt͡stun.kɛm s·i	tstunkem s<0><1><2>i	vin.	do a favor	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem si	tstunkem s..i
 13146	fr	tstunkem si	ˈt͡stun.kɛm s·i	tstunkem s<0><1><2>i	vin.	faire une faveur	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem si	tstunkem s..i
+13146	nl	tstunkem si	ˈt͡stun.kɛm s·i	tstunkem s<0><1><2>i	vin.	een goede daad doen, (iemand) een plezier doen	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem si	tstunkem s..i
 13147	en	tstunkemtsyìp	ˈt͡stun.kɛm.t͡syɪp̚	NULL	n.	little favor	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem-tsyìp	NULL
 13147	fr	tstunkemtsyìp	ˈt͡stun.kɛm.t͡syɪp̚	NULL	n.	petite faveur	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem-tsyìp	NULL
+13147	nl	tstunkemtsyìp	ˈt͡stun.kɛm.t͡syɪp̚	NULL	n.	kleine gunst	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem-tsyìp	NULL
 13148	en	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	a bite	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
 13148	fr	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	morsure	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
+13148	nl	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	beet	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
 13149	en	tsawng	t͡sawŋ	ts<0><1><2>awng	vin.	shatter, break into pieces	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	tsawng	ts..awng
 13149	fr	tsawng	t͡sawŋ	ts<0><1><2>awng	vin.	(se) briser | briser en plusieurs morceaux	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	tsawng	ts..awng
+13149	nl	tsawng	t͡sawŋ	ts<0><1><2>awng	vin.	verbrijzelen, in stukken breken	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	tsawng	ts..awng
 13150	en	pon	pon	p<0><1><2>on	vtr.	balance	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	pon	p..on
 13150	fr	pon	pon	p<0><1><2>on	vtr.	balancer	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	pon	p..on
+13150	nl	pon	pon	p<0><1><2>on	vtr.	balanceren	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	pon	p..on
 13151	en	mei	ˈmɛ.i	NULL	adj.	wet	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	me-i	NULL
 13151	fr	mei	ˈmɛ.i	NULL	adj.	mouillé, trempé	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	me-i	NULL
+13151	nl	mei	ˈmɛ.i	NULL	adj.	nat	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	me-i	NULL
 13152	en	meitayo	mɛ.i.ˈta.jo	NULL	n.	wetlands	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	3	me-i-ta-yo	NULL
 13152	fr	meitayo	mɛ.i.ˈta.jo	NULL	n.	marécages	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	3	me-i-ta-yo	NULL
+13152	nl	meitayo	mɛ.i.ˈta.jo	NULL	n.	moeras, nat gebied	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	3	me-i-ta-yo	NULL
 13153	en	lipx	lip'	l<0><1><2>ipx	vin.	drip	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	lipx	l..ipx
 13153	fr	lipx	lip'	l<0><1><2>ipx	vin.	dégoutter, tomber goutte à goutte	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	lipx	l..ipx
+13153	nl	lipx	lip'	l<0><1><2>ipx	vin.	druppelen	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	lipx	l..ipx
 13154	en	fäpyo	ˈfæp.jo	NULL	n.	roof	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fäp-yo	NULL
 13154	fr	fäpyo	ˈfæp.jo	NULL	n.	toit	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fäp-yo	NULL
+13154	nl	fäpyo	ˈfæp.jo	NULL	n.	dak	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fäp-yo	NULL
 13155	en	sälipx	sæ.ˈlip'	NULL	n.	drop (of a liquid)	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	sä-lipx	NULL
 13155	fr	sälipx	sæ.ˈlip'	NULL	n.	goutte (d'un liquide)	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	sä-lipx	NULL
+13155	nl	sälipx	sæ.ˈlip'	NULL	n.	druppel (van een vloeistof)	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	sä-lipx	NULL
 13156	en	kxutslu	ˈk'u.t͡slu	NULL	n.	risk	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	kxu-tslu	NULL
 13156	fr	kxutslu	ˈk'u.t͡slu	NULL	n.	risque	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	kxu-tslu	NULL
+13156	nl	kxutslu	ˈk'u.t͡slu	NULL	n.	risico	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	kxu-tslu	NULL
 13157	en	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	risky	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
 13157	fr	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	risqué	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
+13157	nl	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	riskant	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
 13158	en	fura	ˈfu.ɾa	NULL	pn., sbd.	that	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
 13158	fr	fura	ˈfu.ɾa	NULL	pn., sbd.	que | subordonnée à une proposition d'un verbe qui requiert le datif | forme raccourcie de: fì'ur a	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
+13158	nl	fura	ˈfu.ɾa	NULL	pn., sbd.	dat	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
