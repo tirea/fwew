@@ -20057,15 +20057,25 @@
 13148	en	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	a bite	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
 13148	fr	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	morsure	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
 13149	en	tsawng	t͡sawŋ	ts<0><1><2>awng	vin.	shatter, break into pieces	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	tsawng	ts..awng
+13149	fr	tsawng	t͡sawŋ	ts<0><1><2>awng	vin.	(se) briser | briser en plusieurs morceaux	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	tsawng	ts..awng
 13150	en	pon	pon	p<0><1><2>on	vtr.	balance	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	pon	p..on
+13150	fr	pon	pon	p<0><1><2>on	vtr.	balancer	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	pon	p..on
 13151	en	mei	ˈmɛ.i	NULL	adj.	wet	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	me-i	NULL
+13151	fr	mei	ˈmɛ.i	NULL	adj.	mouillé, trempé	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	me-i	NULL
 13152	en	meitayo	mɛ.i.ˈta.jo	NULL	n.	wetlands	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	3	me-i-ta-yo	NULL
+13152	fr	meitayo	mɛ.i.ˈta.jo	NULL	n.	marécages	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	3	me-i-ta-yo	NULL
 13153	en	lipx	lip'	l<0><1><2>ipx	vin.	drip	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	lipx	l..ipx
+13153	fr	lipx	lip'	l<0><1><2>ipx	vin.	dégoutter, tomber goutte à goutte	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	lipx	l..ipx
 13154	en	fäpyo	ˈfæp.jo	NULL	n.	roof	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fäp-yo	NULL
+13154	fr	fäpyo	ˈfæp.jo	NULL	n.	toit	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fäp-yo	NULL
 13155	en	sälipx	sæ.ˈlip'	NULL	n.	drop (of a liquid)	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	sä-lipx	NULL
+13155	fr	sälipx	sæ.ˈlip'	NULL	n.	goutte (d'un liquide)	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	sä-lipx	NULL
 13156	en	kxutslu	ˈk'u.t͡slu	NULL	n.	risk	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	kxu-tslu	NULL
+13156	fr	kxutslu	ˈk'u.t͡slu	NULL	n.	risque	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	kxu-tslu	NULL
 13157	en	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	risky	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
+13157	fr	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	risqué	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
 13158	en	fura	ˈfu.ɾa	NULL	pn., sbd.	that	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
+13158	fr	fura	ˈfu.ɾa	NULL	pn., sbd.	que | subordonnée à une proposition d'un verbe qui requiert le datif | forme raccourcie de: fì'ur a	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
