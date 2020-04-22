@@ -20,16 +20,12 @@ If you don't have these and don't want to download/install them, skip to one of 
 #### Linux or macOS
 
 Run the following commands from inside a Terminal:
+This is made to work with GO >1.12. Since GO only supports current-2 everything <1.12 is not supported anymore.
 
 ```
 cd $HOME                                 # Start at home folder
-mkdir -p go/src                          # Make a folder for all Go source code
-export GOPATH=$HOME/go                   # Set GOPATH variable to newly created go folder
-```
-You may want to add that last line in your shell config file (~/.bashrc, ~/.zshrc, or similar)
-```
-cd go/src/                               # This is where we will download the fwew source code
-go get github.com/c-bata/go-prompt       # Install the go-prompt library (fwew depends on this library)
+mkdir -p go                              # Make a folder for all Go source code
+cd go/                                   # This is where we will download the fwew source code
 git clone https://github.com/tirea/fwew  # Download the code
 cd fwew                                  # Go to where the code is before trying to build it
 make                                     # to just compile
@@ -42,15 +38,8 @@ Run the following from inside a Powershell:
 
 ```
 cd $HOME                                # Start at home folder
-mkdir go\src                            # Make a folder for all Go source code
-setx GOPATH %USERPROFILE%\go            # Set GOPATH variable to newly created go folder
-```
-
-Then in a new Powershell window:
-
-```
-cd $HOME\go\src                               # This is where we will download the fwew source code
-go get github.com/c-bata/go-prompt      # Install the go-prompt library (fwew depends on this library)
+mkdir go                                # Make a folder for all Go source code
+cd go                                   # This is where we will download the fwew source code
 git clone https://github.com/tirea/fwew # Download the code
 cd fwew                                 # Go to where the code is before trying to build it
 go build -o fwew.exe                    # compile
