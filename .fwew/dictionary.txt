@@ -19742,188 +19742,280 @@
 13034	nl	stä'nìpam si	ˈstæʔ.nɪ.pam s·i	stä'nìpam s<0><1><2>i	vin.	opnemen (van geluid)	http://naviteri.org/2019/10/vurway-alor-a-beautiful-narrative-poem-2/	1	stä'-nì-pam si	stä'nìpam s..i
 13035	en	pxoe	ˈp'o.ɛ	NULL	pn.	we three, us three (exclusive)	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Trials_.26_transitivity	1	pxo-e	NULL
 13035	fr	pxoe	ˈp'o.ɛ	NULL	pn.	nous trois ([exclusif, excluant toi])	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Trials_.26_transitivity	1	pxo-e	NULL
+13035	nl	pxoe	ˈp'o.ɛ	NULL	pn.	wij, wij drie (exclusief)	Frommer http://wiki.learnnavi.org/index.php?title=Canon#Trials_.26_transitivity	1	pxo-e	NULL
 13036	en	lìktap	ˈlɪk.tap̚	NULL	adj.	crooked	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	lìk-tap	NULL
 13036	fr	lìktap	ˈlɪk.tap̚	NULL	adj.	tordu, courbé	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	lìk-tap	NULL
+13036	nl	lìktap	ˈlɪk.tap̚	NULL	adj.	krom, scheef	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	lìk-tap	NULL
 13037	en	ventil	ˈvɛn.til	NULL	n.	ankle	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	ven-til	NULL
 13037	fr	ventil	ˈvɛn.til	NULL	n.	cheville	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	ven-til	NULL
+13037	nl	ventil	ˈvɛn.til	NULL	n.	enkel	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	ven-til	NULL
 13038	en	hupx	h·up'	h<0><1><2>upx	vtr.	miss, not hit a target	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	hupx	h..upx
 13038	fr	hupx	h·up'	h<0><1><2>upx	vtr.	manquer/rater (sa cible), ne pas atteindre sa cible	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	hupx	h..upx
+13038	nl	hupx	h·up'	h<0><1><2>upx	vtr.	missen, een doel niet raken	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	hupx	h..upx
 13039	en	tsawtsray	ˈt͡saw.t͡sɾaj	NULL	n.	small or medium-sized city	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	tsaw-tsray	NULL
 13039	fr	tsawtsray	ˈt͡saw.t͡sɾaj	NULL	n.	ville de taille petite ou moyenne	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	tsaw-tsray	NULL
+13039	nl	tsawtsray	ˈt͡saw.t͡sɾaj	NULL	n.	stad van kleine of gemiddelde grootte	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	1	tsaw-tsray	NULL
 13040	en	txantsawtsray	t'an.ˈt͡saw.t͡sɾaj	NULL	n.	large city, metropolis	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	2	txan-tsaw-tsray	NULL
 13040	fr	txantsawtsray	t'an.ˈt͡saw.t͡sɾaj	NULL	n.	grande ville, métropole	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	2	txan-tsaw-tsray	NULL
+13040	nl	txantsawtsray	t'an.ˈt͡saw.t͡sɾaj	NULL	n.	grote stad, metropolis	http://naviteri.org/2019/12/tengkrr-zisit-leratem-as-the-year-changes (31 Dec 2019)	2	txan-tsaw-tsray	NULL
 13041	en	Akwey	ak.ˈwɛj	NULL	prop.n.	male Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ak-wey	NULL
 13041	fr	Akwey	ak.ˈwɛj	NULL	prop.n.	homme Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ak-wey	NULL
+13041	nl	Akwey	ak.ˈwɛj	NULL	prop.n.	mannelijke Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ak-wey	NULL
 13042	en	Amhul	am.ˈhul	NULL	prop.n.	female Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Am-hul	NULL
 13042	fr	Amhul	am.ˈhul	NULL	prop.n.	femme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Am-hul	NULL
+13042	nl	Amhul	am.ˈhul	NULL	prop.n.	vrouwelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Am-hul	NULL
 13043	en	Anurai	ˈa.nu.ɾa.i	NULL	prop.n.	Na'vi Clan name	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	A-nu-ra-i	NULL
 13043	fr	Anurai	ˈa.nu.ɾa.i	NULL	prop.n.	nom de clan Na'vi	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	A-nu-ra-i	NULL
+13043	nl	Anurai	ˈa.nu.ɾa.i	NULL	prop.n.	naam van een Na'vi stam	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	A-nu-ra-i	NULL
 13044	en	Aonung	a.o.ˈnuN	NULL	prop.n.	male Na'vi of the Metkayina Clan	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	3	A-o-nun	NULL
 13044	fr	Aonung	a.o.ˈnuN	NULL	prop.n.	homme Na'vi du clan Metkayina	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	3	A-o-nun	NULL
+13044	nl	Aonung	a.o.ˈnuN	NULL	prop.n.	man van de Metkayina Stam	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	3	A-o-nun	NULL
 13045	en	Ateyitan	a.ˈtɛj.i.tan	NULL	prop.n.	son of Ateyo	NULL	2	A-tey-i-tan	NULL
 13045	fr	Ateyitan	a.ˈtɛj.i.tan	NULL	prop.n.	fils d'Ateyo	NULL	2	A-tey-i-tan	NULL
+13045	nl	Ateyitan	a.ˈtɛj.i.tan	NULL	prop.n.	zoon van Ateyo	NULL	2	A-tey-i-tan	NULL
 13046	en	Ateyo	a.ˈtɛ.jo	NULL	prop.n.	male Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	A-te-yo	NULL
 13046	fr	Ateyo	a.ˈtɛ.jo	NULL	prop.n.	homme Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	A-te-yo	NULL
+13046	nl	Ateyo	a.ˈtɛ.jo	NULL	prop.n.	mannelijke Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	A-te-yo	NULL
 13047	en	ayRam aLusìng	aj.ˈɾam a.lu.ˈsɪN	NULL	prop.n.	the Floating Mountains	NULL	4	ay-Ram a-Lu-sìn	NULL
 13047	fr	ayRam aLusìng	aj.ˈɾam a.lu.ˈsɪN	NULL	prop.n.	Montagnes flottantes Montagnes Hallelujah	NULL	4	ay-Ram a-Lu-sìn	NULL
+13047	nl	ayRam aLusìng	aj.ˈɾam a.lu.ˈsɪN	NULL	prop.n.	de Zwevende Bergen	NULL	4	ay-Ram a-Lu-sìn	NULL
 13048	en	ayVitrayä Ramunong	aj.vit.ˈɾa.jæ ɾa.ˈmu.noŋ	NULL	prop.n.	Well of Souls	NULL	5	ay-Vit-ra-yä Ra-mu-nong	NULL
 13048	fr	ayVitrayä Ramunong	aj.vit.ˈɾa.jæ ɾa.ˈmu.noŋ	NULL	prop.n.	puits des Âmes	NULL	5	ay-Vit-ra-yä Ra-mu-nong	NULL
+13048	nl	ayVitrayä Ramunong	aj.vit.ˈɾa.jæ ɾa.ˈmu.noŋ	NULL	prop.n.	Zielenput	NULL	5	ay-Vit-ra-yä Ra-mu-nong	NULL
 13049	en	Änsìt	ˈæn.sɪt̚	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Än-sìt	NULL
 13049	fr	Änsìt	ˈæn.sɪt̚	NULL	prop.n.	homme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Än-sìt	NULL
+13049	nl	Änsìt	ˈæn.sɪt̚	NULL	prop.n.	mannelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Än-sìt	NULL
 13050	en	Entu	ˈɛn.tu	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	En-tu	NULL
 13050	fr	Entu	ˈɛn.tu	NULL	prop.n.	homme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	En-tu	NULL
+13050	nl	Entu	ˈɛn.tu	NULL	prop.n.	mannelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	En-tu	NULL
 13051	en	Eytukan	ˈɛj.tu.kan	NULL	prop.n.	male leader of the Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ey-tu-kan	NULL
 13051	fr	Eytukan	ˈɛj.tu.kan	NULL	prop.n.	homme leader du clan Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ey-tu-kan	NULL
+13051	nl	Eytukan	ˈɛj.tu.kan	NULL	prop.n.	mannelijke leider van de Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ey-tu-kan	NULL
 13052	en	Eywa	ˈɛj.wa	NULL	prop.n.	world spirit, Gaia	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ey-wa	NULL
 13052	fr	Eywa	ˈɛj.wa	NULL	prop.n.	esprit mondial, équivalant à Gaïa	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ey-wa	NULL
+13052	nl	Eywa	ˈɛj.wa	NULL	prop.n.	wereldgeest, moeder natuur, Gaia	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ey-wa	NULL
 13053	en	Eywa'eveng	ˌɛj.wa.ˈʔɛ.vɛŋ	NULL	prop.n.	Pandora	https://forum.learnnavi.org/news-announcements/a-response-from-paul-frommer!/ (20 Jan 2010)	3	Ey-wa-'e-veng	NULL
 13053	fr	Eywa'eveng	ˌɛj.wa.ˈʔɛ.vɛŋ	NULL	prop.n.	Pandora	https://forum.learnnavi.org/news-announcements/a-response-from-paul-frommer!/ (20 Jan 2010)	3	Ey-wa-'e-veng	NULL
+13053	nl	Eywa'eveng	ˌɛj.wa.ˈʔɛ.vɛŋ	NULL	prop.n.	Pandora	https://forum.learnnavi.org/news-announcements/a-response-from-paul-frommer!/ (20 Jan 2010)	3	Ey-wa-'e-veng	NULL
 13054	en	Iknimaya	ˌik.ni.ˈma.ja	NULL	prop.n.	Stairway to Heaven, the rite of passage for young Na'vi	ASG	3	Ik-ni-ma-ya	NULL
 13054	fr	Iknimaya	ˌik.ni.ˈma.ja	NULL	prop.n.	rite de passage pour un jeune Na'vi	ASG	3	Ik-ni-ma-ya	NULL
+13054	nl	Iknimaya	ˌik.ni.ˈma.ja	NULL	prop.n.	Trap naar de Hemel (overgangsritueel voor jonge Na'vi)	ASG	3	Ik-ni-ma-ya	NULL
 13055	en	Ìstaw	ɪ.ˈstaw	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ì-staw	NULL
 13055	fr	Ìstaw	ɪ.ˈstaw	NULL	prop.n.	homme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ì-staw	NULL
+13055	nl	Ìstaw	ɪ.ˈstaw	NULL	prop.n.	mannelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ì-staw	NULL
 13056	en	Kamun	ˈka.mun	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ka-mun	NULL
 13056	fr	Kamun	ˈka.mun	NULL	prop.n.	homme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ka-mun	NULL
+13056	nl	Kamun	ˈka.mun	NULL	prop.n.	mannelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ka-mun	NULL
 13057	en	Kekunan	ˈkɛ.ku.nan	NULL	prop.n.	Na'vi Clan name	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	Ke-ku-nan	NULL
 13057	fr	Kekunan	ˈkɛ.ku.nan	NULL	prop.n.	nom de clan Na'vi	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	Ke-ku-nan	NULL
+13057	nl	Kekunan	ˈkɛ.ku.nan	NULL	prop.n.	naam van een Na'vi stam	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	Ke-ku-nan	NULL
 13058	en	Kelutral	ˈkɛl.ut.ɾal	NULL	prop.n.	Hometree	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Kel-ut-ral	NULL
 13058	fr	Kelutral	ˈkɛl.ut.ɾal	NULL	prop.n.	arbre-maison	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Kel-ut-ral	NULL
+13058	nl	Kelutral	ˈkɛl.ut.ɾal	NULL	prop.n.	Huisboom	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Kel-ut-ral	NULL
 13059	en	Li'ona	lɪ.ˈʔo.na	NULL	prop.n.	Na'vi Clan name	Avatar Game http://forum.learnnavi.org/language-updates/ltasygt-with-ke-and-nga/msg163181/#msg163181 (29 Mar 2010)	2	Li-'o-na	NULL
 13059	fr	Li'ona	lɪ.ˈʔo.na	NULL	prop.n.	nom de clan Na'vi	Avatar Game http://forum.learnnavi.org/language-updates/ltasygt-with-ke-and-nga/msg163181/#msg163181 (29 Mar 2010)	2	Li-'o-na	NULL
+13059	nl	Li'ona	lɪ.ˈʔo.na	NULL	prop.n.	naam van een Na'vi stam	Avatar Game http://forum.learnnavi.org/language-updates/ltasygt-with-ke-and-nga/msg163181/#msg163181 (29 Mar 2010)	2	Li-'o-na	NULL
 13060	en	Lo'ak	ˈloʔ.ak̚	NULL	prop.n.	Jake and Neytiri's second born son	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	1	Lo'-ak	NULL
 13060	fr	Lo'ak	ˈloʔ.ak̚	NULL	prop.n.	deuxième fils de Jake et Neytiri	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	1	Lo'-ak	NULL
+13060	nl	Lo'ak	ˈloʔ.ak̚	NULL	prop.n.	tweede zoon van Jake en Neytiri	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	1	Lo'-ak	NULL
 13061	en	Lo'akur	lo.ʔa.ˈkuɾ	NULL	prop.n.	Toruk Makto Amulet	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	3	Lo-'a-kur	NULL
 13061	fr	Lo'akur	lo.ʔa.ˈkuɾ	NULL	prop.n.	amulette du Toruk Makto	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	3	Lo-'a-kur	NULL
+13061	nl	Lo'akur	lo.ʔa.ˈkuɾ	NULL	prop.n.	Toruk Makto Amulet	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	3	Lo-'a-kur	NULL
 13062	en	Metkayina	mɛt.ka.ˈji.na	NULL	prop.n.	Reef People Clan	https://learnnavi.org/2017/05/09/cliff-curtis-joins-cast-for-avatar-sequels/ (09 May 2017)	3	Met-ka-yi-na	NULL
 13062	fr	Metkayina	mɛt.ka.ˈji.na	NULL	prop.n.	clan des gens du récif	https://learnnavi.org/2017/05/09/cliff-curtis-joins-cast-for-avatar-sequels/ (09 May 2017)	3	Met-ka-yi-na	NULL
+13062	nl	Metkayina	mɛt.ka.ˈji.na	NULL	prop.n.	Rif-volk Stam	https://learnnavi.org/2017/05/09/cliff-curtis-joins-cast-for-avatar-sequels/ (09 May 2017)	3	Met-ka-yi-na	NULL
 13063	en	Mo'ara	mo.ˈʔa.ɾa	NULL	prop.n.	a valley on Pandora (Note: Also the name of the Disney Pandora location)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	2	Mo-'a-ra	NULL
 13063	fr	Mo'ara	mo.ˈʔa.ɾa	NULL	prop.n.	vallée sur Pandora (Note: Également le nom de la section Pandora à Disney)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	2	Mo-'a-ra	NULL
+13063	nl	Mo'ara	mo.ˈʔa.ɾa	NULL	prop.n.	een vallei op Pandora (Ook de naam van Disney's Pandora)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	2	Mo-'a-ra	NULL
 13064	en	Mo'at	ˈmo.ʔat̚	NULL	prop.n.	tsahìk of the Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Mo-'at	NULL
 13064	fr	Mo'at	ˈmo.ʔat̚	NULL	prop.n.	tsahìk du clan Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Mo-'at	NULL
+13064	nl	Mo'at	ˈmo.ʔat̚	NULL	prop.n.	tsahìk van de Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Mo-'at	NULL
 13065	en	Mo'at'ite	ˈmo.ʔat.ʔi.tɛ	NULL	prop.n.	daughter of Mo'at	NULL	1	Mo-'at-'i-te	NULL
 13065	fr	Mo'at'ite	ˈmo.ʔat.ʔi.tɛ	NULL	prop.n.	fille de Mo'at	NULL	1	Mo-'at-'i-te	NULL
+13065	nl	Mo'at'ite	ˈmo.ʔat.ʔi.tɛ	NULL	prop.n.	dochter van Mo'at	NULL	1	Mo-'at-'i-te	NULL
 13067	en	Naranawm	naɾ.a.ˈnawm	NULL	prop.n.	Polyphemus	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	3	Nar-a-nawm	NULL
 13067	fr	Naranawm	naɾ.a.ˈnawm	NULL	prop.n.	Polyphemus	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	3	Nar-a-nawm	NULL
+13067	nl	Naranawm	naɾ.a.ˈnawm	NULL	prop.n.	Polyphemus	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	3	Nar-a-nawm	NULL
 13068	en	Nawmtoruktek	nawm.ˈto.ɾuk.tɛk̚	NULL	prop.n.	Toruk Makto Totem	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	2	Nawm-to-ruk-tek	NULL
 13068	fr	Nawmtoruktek	nawm.ˈto.ɾuk.tɛk̚	NULL	prop.n.	Totem du Toruk Makto	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	2	Nawm-to-ruk-tek	NULL
+13068	nl	Nawmtoruktek	nawm.ˈto.ɾuk.tɛk̚	NULL	prop.n.	Toruk Makto Totem	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	2	Nawm-to-ruk-tek	NULL
 13069	en	Neteyam	nɛ.ˈtɛj.am	NULL	prop.n.	Jake and Neytiri's first born son	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Ne-tey-am	NULL
 13069	fr	Neteyam	nɛ.ˈtɛj.am	NULL	prop.n.	fils aîné de Jake et Neytiri	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Ne-tey-am	NULL
+13069	nl	Neteyam	nɛ.ˈtɛj.am	NULL	prop.n.	eerste zoon van Jake en Neytiri	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Ne-tey-am	NULL
 13070	en	Newey	nɛ.ˈwɛj	NULL	prop.n.	female Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ne-wey	NULL
 13070	fr	Newey	nɛ.ˈwɛj	NULL	prop.n.	femme Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ne-wey	NULL
+13070	nl	Newey	nɛ.ˈwɛj	NULL	prop.n.	vrouwelijke Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ne-wey	NULL
 13071	en	Neytiri	nɛj.ˈti.ɾi	NULL	prop.n.	female Na'vi of the Omatikaya Clan	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ney-ti-ri	NULL
 13071	fr	Neytiri	nɛj.ˈti.ɾi	NULL	prop.n.	femme Na'vi du clan Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ney-ti-ri	NULL
+13071	nl	Neytiri	nɛj.ˈti.ɾi	NULL	prop.n.	vrouw van de Omatikaya Stam	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ney-ti-ri	NULL
 13072	en	Ninat	ni.ˈnat̚	NULL	prop.n.	female singer of the Omatikaya Clan	JCA	2	Ni-nat	NULL
 13072	fr	Ninat	ni.ˈnat̚	NULL	prop.n.	chanteuse du clan Omatikaya	JCA	2	Ni-nat	NULL
+13072	nl	Ninat	ni.ˈnat̚	NULL	prop.n.	zangeres van de Omatikaya Stam	JCA	2	Ni-nat	NULL
 13073	en	Omatikaya	o.ma.ti.ˈka.ja	NULL	prop.n.	Blue Flute Clan	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	4	O-ma-ti-ka-ya	NULL
 13073	fr	Omatikaya	o.ma.ti.ˈka.ja	NULL	prop.n.	clan de la flûte bleue	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	4	O-ma-ti-ka-ya	NULL
+13073	nl	Omatikaya	o.ma.ti.ˈka.ja	NULL	prop.n.	stam van de Blauwe Fluit (Noot: vaak foutief gespeld als Omaticaya, vanwege het ASG)	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	4	O-ma-ti-ka-ya	NULL
 13074	en	Otranyu	ot.ˈɾan.ju	NULL	prop.n.	male Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ot-ran-yu	NULL
 13074	fr	Otranyu	ot.ˈɾan.ju	NULL	prop.n.	homme Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ot-ran-yu	NULL
+13074	nl	Otranyu	ot.ˈɾan.ju	NULL	prop.n.	mannelijke Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Ot-ran-yu	NULL
 13075	en	Peyral	pɛj.ˈɾal	NULL	prop.n.	female Na'vi of the Omatikaya Clan	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Pey-ral	NULL
 13075	fr	Peyral	pɛj.ˈɾal	NULL	prop.n.	femme Na'vi du clan Omatikaya	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Pey-ral	NULL
+13075	nl	Peyral	pɛj.ˈɾal	NULL	prop.n.	vrouw van de Omatikaya Stam	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Pey-ral	NULL
 13076	en	Pongu Pongu	ˈpo.ŋu ˈpo.ŋu	NULL	prop.n.	party party (irregular use; Name of bar at Disney's Pandora - The World of Avatar)	https://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	2	Po-ngu Po-ngu	NULL
 13076	fr	Pongu Pongu	ˈpo.ŋu ˈpo.ŋu	NULL	prop.n.	« groupe groupe » (utilisation irrégulière; nom du bar à Disney's Pandora - The World of Avatar)	https://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	2	Po-ngu Po-ngu	NULL
+13076	nl	Pongu Pongu	ˈpo.ŋu ˈpo.ŋu	NULL	prop.n.	goep groep (onregelmatig gebruik)	https://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	2	Po-ngu Po-ngu	NULL
 13077	en	Ralu	ˈɾa.lu	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ra-lu	NULL
 13077	fr	Ralu	ˈɾa.lu	NULL	prop.n.	homme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ra-lu	NULL
+13077	nl	Ralu	ˈɾa.lu	NULL	prop.n.	mannelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ra-lu	NULL
 13078	en	Rini	ˈɾi.ni	NULL	prop.n.	female Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ri-ni	NULL
 13078	fr	Rini	ˈɾi.ni	NULL	prop.n.	femme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ri-ni	NULL
+13078	nl	Rini	ˈɾi.ni	NULL	prop.n.	vrouwelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Ri-ni	NULL
 13079	en	Ronal	ˈɾo.nal	NULL	prop.n.	Female Na'vi of the Metkayina Clan	NULL	1	Ro-nal	NULL
 13079	fr	Ronal	ˈɾo.nal	NULL	prop.n.	femme Na'vi du clan Metkayina	NULL	1	Ro-nal	NULL
+13079	nl	Ronal	ˈɾo.nal	NULL	prop.n.	vrouw van de Metkayina Stam	NULL	1	Ro-nal	NULL
 13080	en	Rongloa	ˈɾoŋ.lo.a	NULL	prop.n.	Na'vi Clan name	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Rong-lo-a	NULL
 13080	fr	Rongloa	ˈɾoŋ.lo.a	NULL	prop.n.	nom de clan Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Rong-lo-a	NULL
+13080	nl	Rongloa	ˈɾoŋ.lo.a	NULL	prop.n.	naam van een Na'vi stam	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Rong-lo-a	NULL
 13081	en	Rotxo	ˈɾo.t'o	NULL	prop.n.	male Na'vi of the Metkayina Clan	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	1	Ro-txo	NULL
 13081	fr	Rotxo	ˈɾo.t'o	NULL	prop.n.	homme Na'vi du clan Metkayina	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	1	Ro-txo	NULL
+13081	nl	Rotxo	ˈɾo.t'o	NULL	prop.n.	man van de Metkayina Stam	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	1	Ro-txo	NULL
 13082	en	Satu'li	saˈtuʔ.li	NULL	prop.n.	Canteen in the Valley of Mo'ara	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	1	Satu'-li	NULL
 13082	fr	Satu'li	saˈtuʔ.li	NULL	prop.n.	cantine dans la vallée de Mo'ara	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	1	Satu'-li	NULL
+13082	nl	Satu'li	saˈtuʔ.li	NULL	prop.n.	kantine in de Mo'ara Vallei (Uit Disney's Pandora - The World of Avatar)	http://naviteri.org/2017/06/ayliu-a-ta-eywaeveng-kifkey-uniltirantokxa-words-from-disneys-pandora-the-world-of-avatar/ (30 Jun 2017)	1	Satu'-li	NULL
 13083	en	Seze	ˈsɛ.zɛ	NULL	prop.n.	Neytiri's banshee	ZS, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Se-ze	NULL
 13083	fr	Seze	ˈsɛ.zɛ	NULL	prop.n.	banshee de Neytiri	ZS, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Se-ze	NULL
+13083	nl	Seze	ˈsɛ.zɛ	NULL	prop.n.	Neytiri's ikran	ZS, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Se-ze	NULL
 13084	en	Silwanin	sil.ˈwa.nin	NULL	prop.n.	Neytiri's sister	NULL	2	Sil-wa-nin	NULL
 13084	fr	Silwanin	sil.ˈwa.nin	NULL	prop.n.	sœur de Neytiri	NULL	2	Sil-wa-nin	NULL
+13084	nl	Silwanin	sil.ˈwa.nin	NULL	prop.n.	Neytiri's zus	NULL	2	Sil-wa-nin	NULL
 13085	en	Sorewn	so.ˈɾɛwn	NULL	prop.n.	female Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	So-rewn	NULL
 13085	fr	Sorewn	so.ˈɾɛwn	NULL	prop.n.	femme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	So-rewn	NULL
+13085	nl	Sorewn	so.ˈɾɛwn	NULL	prop.n.	vrouwelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	So-rewn	NULL
 13086	en	Swotulu	ˈswo.tu.lu	NULL	prop.n.	sacred river	https://forum.learnnavi.org/language-updates/landscape-words/msg161645/#msg161645 (28 Mar 2010)	1	Swo-tu-lu	NULL
 13086	fr	Swotulu	ˈswo.tu.lu	NULL	prop.n.	rivière sacrée	https://forum.learnnavi.org/language-updates/landscape-words/msg161645/#msg161645 (28 Mar 2010)	1	Swo-tu-lu	NULL
+13086	nl	Swotulu	ˈswo.tu.lu	NULL	prop.n.	heilige rivier	https://forum.learnnavi.org/language-updates/landscape-words/msg161645/#msg161645 (28 Mar 2010)	1	Swo-tu-lu	NULL
 13087	en	Swotu Wayä	ˈswo.tu ˈwaj.æ	NULL	prop.n.	sacred place of song	https://forum.learnnavi.org/language-updates/expansion-to-flora-fauna-and-places-from-the-valley-of-mo'ara/ (21 May 2019)	2	Swo-tu Way-ä	NULL
 13087	fr	Swotu Wayä	ˈswo.tu ˈwaj.æ	NULL	prop.n.	place sacrée de chant (située dans la vallée de Mo'ara)	https://forum.learnnavi.org/language-updates/expansion-to-flora-fauna-and-places-from-the-valley-of-mo'ara/ (21 May 2019)	2	Swo-tu Way-ä	NULL
+13087	nl	Swotu Wayä	ˈswo.tu ˈwaj.æ	NULL	prop.n.	heilige plaats van zang (Uit Disney's Pandora - The World of Avatar)	https://forum.learnnavi.org/language-updates/expansion-to-flora-fauna-and-places-from-the-valley-of-mo'ara/ (21 May 2019)	2	Swo-tu Way-ä	NULL
 13088	en	Tawkami	taw.ˈka.mi	NULL	prop.n.	Na'vi Clan name	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	2	Taw-ka-mi	NULL
 13088	fr	Tawkami	taw.ˈka.mi	NULL	prop.n.	nom de clan Na'vi	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	2	Taw-ka-mi	NULL
+13088	nl	Tawkami	taw.ˈka.mi	NULL	prop.n.	naam van een Na'vi stam	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	2	Taw-ka-mi	NULL
 13090	en	Tipani	ˈti.pa.ni	NULL	prop.n.	Na'vi Clan name	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	Ti-pa-ni	NULL
 13090	fr	Tipani	ˈti.pa.ni	NULL	prop.n.	nom de clan Na'vi	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	Ti-pa-ni	NULL
+13090	nl	Tipani	ˈti.pa.ni	NULL	prop.n.	naam van een Na'vi stam	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2018)	1	Ti-pa-ni	NULL
 13091	en	Tonowari	to.no.ˈwa.ɾi	NULL	prop.n.	male Na'vi of the Metkayina Clan	https://learnnavi.org/2017/05/09/cliff-curtis-joins-cast-for-avatar-sequels/ (09 May 2017)	3	To-no-wa-ri	NULL
 13091	fr	Tonowari	to.no.ˈwa.ɾi	NULL	prop.n.	homme Na'vi du clan Metkayina	https://learnnavi.org/2017/05/09/cliff-curtis-joins-cast-for-avatar-sequels/ (09 May 2017)	3	To-no-wa-ri	NULL
+13091	nl	Tonowari	to.no.ˈwa.ɾi	NULL	prop.n.	man van de Metkayina Stam	https://learnnavi.org/2017/05/09/cliff-curtis-joins-cast-for-avatar-sequels/ (09 May 2017)	3	To-no-wa-ri	NULL
 13092	en	Tsahìk	ˈt͡sa.hɪk̚	NULL	prop.n.	matriarch, high priestess, interpreter	https://en.wiktionary.org/wiki/Appendix:Na'vi	1	Tsa-hìk	NULL
 13092	fr	Tsahìk	ˈt͡sa.hɪk̚	NULL	prop.n.	matriarche, grande prêtresse, interprète	https://en.wiktionary.org/wiki/Appendix:Na'vi	1	Tsa-hìk	NULL
+13092	nl	Tsahìk	ˈt͡sa.hɪk̚	NULL	prop.n.	moeder van de stam, hogepriesteres, shamaan	https://en.wiktionary.org/wiki/Appendix:Na'vi	1	Tsa-hìk	NULL
 13093	en	Tsenu	ˈt͡sɛ.nu	NULL	prop.n.	female Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tse-nu	NULL
 13093	fr	Tsenu	ˈt͡sɛ.nu	NULL	prop.n.	femme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tse-nu	NULL
+13093	nl	Tsenu	ˈt͡sɛ.nu	NULL	prop.n.	vrouwelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tse-nu	NULL
 13094	en	Tsireya	t͡si.ˈɾɛj.a	NULL	prop.n.	female of the Metkayina Clan	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Tsi-rey-a	NULL
 13094	fr	Tsireya	t͡si.ˈɾɛj.a	NULL	prop.n.	femme du clan Metkayina	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Tsi-rey-a	NULL
+13094	nl	Tsireya	t͡si.ˈɾɛj.a	NULL	prop.n.	vrouw van de Metkayina Stam	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Tsi-rey-a	NULL
 13095	en	Tskaha	ˈt͡ska.ha	NULL	prop.n.	Na'vi Clan name	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tska-ha	NULL
 13095	fr	Tskaha	ˈt͡ska.ha	NULL	prop.n.	nom de clan Na'vi	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tska-ha	NULL
+13095	nl	Tskaha	ˈt͡ska.ha	NULL	prop.n.	naam van een Na'vi stam	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tska-ha	NULL
 13096	en	Tsu'tey	t͡suʔ.ˈtɛj	NULL	prop.n.	male of the Omatikaya Clan	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Tsu'-tey	NULL
 13096	fr	Tsu'tey	t͡suʔ.ˈtɛj	NULL	prop.n.	homme du clan Omatikaya	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Tsu'-tey	NULL
+13096	nl	Tsu'tey	t͡suʔ.ˈtɛj	NULL	prop.n.	man van de Omatikaya Stam	JC, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	2	Tsu'-tey	NULL
 13097	en	Tsumongwi	t͡su.moŋ.wi	NULL	prop.n.	original name for the Omatikaya	JC	1	Tsu-mong-wi	NULL
 13097	fr	Tsumongwi	t͡su.moŋ.wi	NULL	prop.n.	nom d'origine des Omatikayas	JC	1	Tsu-mong-wi	NULL
+13097	nl	Tsumongwi	t͡su.moŋ.wi	NULL	prop.n.	oorspronkelijke naam voor de Omatikaya	JC	1	Tsu-mong-wi	NULL
 13098	en	Tuke	ˈtu.kɛ	NULL	prop.n.	female Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tu-ke	NULL
 13098	fr	Tuke	ˈtu.kɛ	NULL	prop.n.	femme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tu-ke	NULL
+13098	nl	Tuke	ˈtu.kɛ	NULL	prop.n.	vrouwelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Tu-ke	NULL
 13099	en	Tuktirey	tuk.ˈti.ɾɛj	NULL	prop.n.	Jake and Neytiri's daughter	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Tuk-ti-rey	NULL
 13099	fr	Tuktirey	tuk.ˈti.ɾɛj	NULL	prop.n.	fille de Jake et Neytiri	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Tuk-ti-rey	NULL
+13099	nl	Tuktirey	tuk.ˈti.ɾɛj	NULL	prop.n.	dochter van Jake en Neytiri	https://www.joblo.com/movie-news/sully-neytiri-s-children-in-avatar-2-are-here-in-new-photo-225 (27 Sep 2017)	2	Tuk-ti-rey	NULL
 13100	en	Txärpawk	ˈt'æɾ.pawk̚	NULL	prop.n.	Palulukan Bone Horn	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	1	Txär-pawk	NULL
 13100	fr	Txärpawk	ˈt'æɾ.pawk̚	NULL	prop.n.	cor fait d'os de Palulukan	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	1	Txär-pawk	NULL
+13100	nl	Txärpawk	ˈt'æɾ.pawk̚	NULL	prop.n.	Palulukan Bot Hoorn	http://naviteri.org/2017/02/ayioang-amip-si-ayu-alahe-new-animals-and-other-things/ (28 Feb 2017)	1	Txär-pawk	NULL
 13101	en	Txewì	ˈt'ɛ.wɪ	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Txe-wì	NULL
 13101	fr	Txewì	ˈt'ɛ.wɪ	NULL	prop.n.	homme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Txe-wì	NULL
+13101	nl	Txewì	ˈt'ɛ.wɪ	NULL	prop.n.	mannelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Txe-wì	NULL
 13102	en	Txilte	ˈt'il.tɛ	NULL	prop.n.	female Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Txil-te	NULL
 13102	fr	Txilte	ˈt'il.tɛ	NULL	prop.n.	femme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Txil-te	NULL
+13102	nl	Txilte	ˈt'il.tɛ	NULL	prop.n.	vrouwelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Txil-te	NULL
 13103	en	Uniltaron	ˌu.nil.ˈta.ɾon	NULL	prop.n.	Dream Hunt	https://en.wiktionary.org/wiki/Appendix:Na'vi	3	U-nil-ta-ron	NULL
 13103	fr	Uniltaron	ˌu.nil.ˈta.ɾon	NULL	prop.n.	chasse de rêves	https://en.wiktionary.org/wiki/Appendix:Na'vi	3	U-nil-ta-ron	NULL
+13103	nl	Uniltaron	ˌu.nil.ˈta.ɾon	NULL	prop.n.	Droomjacht	https://en.wiktionary.org/wiki/Appendix:Na'vi	3	U-nil-ta-ron	NULL
 13104	en	Utral Aymokriyä	ˈut.ɾal aj.ˈmok.ɾi.jæ	NULL	prop.n.	Tree of Voices	https://wiki.learnnavi.org/Corpus#Lemondrop.com (26 Jan 2010)	3	Ut-ral Ay-mok-ri-yä	NULL
 13104	fr	Utral Aymokriyä	ˈut.ɾal aj.ˈmok.ɾi.jæ	NULL	prop.n.	arbre des voix	https://wiki.learnnavi.org/Corpus#Lemondrop.com (26 Jan 2010)	3	Ut-ral Ay-mok-ri-yä	NULL
+13104	nl	Utral Aymokriyä	ˈut.ɾal aj.ˈmok.ɾi.jæ	NULL	prop.n.	Stemmenboom	https://wiki.learnnavi.org/Corpus#Lemondrop.com (26 Jan 2010)	3	Ut-ral Ay-mok-ri-yä	NULL
 13105	en	Va'ru	ˈvaʔ.ɾu	NULL	prop.n.	male Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Va'-ru	NULL
 13105	fr	Va'ru	ˈvaʔ.ɾu	NULL	prop.n.	homme Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Va'-ru	NULL
+13105	nl	Va'ru	ˈvaʔ.ɾu	NULL	prop.n.	mannelijke Na'vi	PF, https://forum.learnnavi.org/language-updates/stxo/ (05 Jul 2010)	1	Va'-ru	NULL
 13106	en	Vitrautral	vit.ˈɾa.ut.ɾal	NULL	prop.n.	Tree of Souls	Frommer	2	Vit-ra-ut-ral	NULL
 13106	fr	Vitrautral	vit.ˈɾa.ut.ɾal	NULL	prop.n.	arbre des âmes	Frommer	2	Vit-ra-ut-ral	NULL
+13106	nl	Vitrautral	vit.ˈɾa.ut.ɾal	NULL	prop.n.	Zielenboom	Frommer	2	Vit-ra-ut-ral	NULL
 13107	en	pemsu	pɛm.ˈsu	NULL	inter.	what two people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-su	NULL
 13107	fr	pemsu	pɛm.ˈsu	NULL	inter.	quelles deux personnes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-su	NULL
+13107	nl	pemsu	pɛm.ˈsu	NULL	inter.	welke twee personen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-su	NULL
 13108	en	mesupe	mɛ.ˈsu.pɛ	NULL	inter.	what two people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-su-pe	NULL
 13108	fr	mesupe	mɛ.ˈsu.pɛ	NULL	inter.	quelles deux personnes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-su-pe	NULL
+13108	nl	mesupe	mɛ.ˈsu.pɛ	NULL	inter.	welke twee personen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-su-pe	NULL
 13109	en	pepsu	pɛp.ˈsu	NULL	inter.	what three people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-su	NULL
 13109	fr	pepsu	pɛp.ˈsu	NULL	inter.	quelles trois personnes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-su	NULL
+13109	nl	pepsu	pɛp.ˈsu	NULL	inter.	welke drie personen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-su	NULL
 13110	en	pxesupe	p'ɛ.ˈsu.pɛ	NULL	inter.	what three people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-su-pe	NULL
 13110	fr	pxesupe	p'ɛ.ˈsu.pɛ	NULL	inter.	quelles trois personnes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-su-pe	NULL
+13110	nl	pxesupe	p'ɛ.ˈsu.pɛ	NULL	inter.	welke drie personen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-su-pe	NULL
 13111	en	paysu	paj.ˈsu	NULL	inter.	what people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-su	NULL
 13111	fr	paysu	paj.ˈsu	NULL	inter.	quelles personnes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-su	NULL
+13111	nl	paysu	paj.ˈsu	NULL	inter.	welke personen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-su	NULL
 13112	en	aysupe	aj.ˈsu.pɛ	NULL	inter.	what people	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-su-pe	NULL
 13112	fr	aysupe	aj.ˈsu.pɛ	NULL	inter.	quelles personnes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-su-pe	NULL
+13112	nl	aysupe	aj.ˈsu.pɛ	NULL	inter.	welke personen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-su-pe	NULL
 13113	en	pestan	pɛ.ˈstan	NULL	inter.	what man	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pe-stan	NULL
 13113	fr	pestan	pɛ.ˈstan	NULL	inter.	quel homme?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pe-stan	NULL
+13113	nl	pestan	pɛ.ˈstan	NULL	inter.	welke man	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pe-stan	NULL
 13114	en	tutampe	tu.ˈtam.pɛ	NULL	inter.	what man	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	tu-tam-pe	NULL
 13114	fr	tutampe	tu.ˈtam.pɛ	NULL	inter.	quel homme?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	tu-tam-pe	NULL
+13114	nl	tutampe	tu.ˈtam.pɛ	NULL	inter.	welke man	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	tu-tam-pe	NULL
 13115	en	pemstan	pɛm.ˈstan	NULL	inter.	what two men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-stan	NULL
 13115	fr	pemstan	pɛm.ˈstan	NULL	inter.	quels deux hommes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-stan	NULL
+13115	nl	pemstan	pɛm.ˈstan	NULL	inter.	welke twee mannen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-stan	NULL
 13116	en	mestampe	mɛ.ˈstam.pɛ	NULL	inter.	what two men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-stam-pe	NULL
 13116	fr	mestampe	mɛ.ˈstam.pɛ	NULL	inter.	quels deux hommes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-stam-pe	NULL
+13116	nl	mestampe	mɛ.ˈstam.pɛ	NULL	inter.	welke twee mannen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-stam-pe	NULL
 13117	en	pepstan	pɛp.ˈstan	NULL	inter.	what three men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-stan	NULL
 13117	fr	pepstan	pɛp.ˈstan	NULL	inter.	quels trois hommes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-stan	NULL
+13117	nl	pepstan	pɛp.ˈstan	NULL	inter.	welke drie mannen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-stan	NULL
 13118	en	pxestampe	p'ɛ.ˈstam.pɛ	NULL	inter.	what three men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-stam-pe	NULL
 13118	fr	pxestampe	p'ɛ.ˈstam.pɛ	NULL	inter.	quels trois hommes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-stam-pe	NULL
+13118	nl	pxestampe	p'ɛ.ˈstam.pɛ	NULL	inter.	welke drie mannen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-stam-pe	NULL
 13119	en	paystan	paj.ˈstan	NULL	inter.	what men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-stan	NULL
 13119	fr	paystan	paj.ˈstan	NULL	inter.	quels hommes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-stan	NULL
+13119	nl	paystan	paj.ˈstan	NULL	inter.	welke mannen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-stan	NULL
 13120	en	aystampe	aj.ˈstam.pɛ	NULL	inter.	what men	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-stam-pe	NULL
 13120	fr	aystampe	aj.ˈstam.pɛ	NULL	inter.	quels hommes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-stam-pe	NULL
+13120	nl	aystampe	aj.ˈstam.pɛ	NULL	inter.	welke mannen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-stam-pe	NULL
 13121	en	peste	pɛ.ˈstɛ	NULL	inter.	what woman	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pe-ste	NULL
 13121	fr	peste	pɛ.ˈstɛ	NULL	inter.	quelle femme?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pe-ste	NULL
+13121	nl	peste	pɛ.ˈstɛ	NULL	inter.	welke vrouw	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pe-ste	NULL
 13122	en	tutepe	tu.ˈtɛ.pɛ	NULL	inter.	what woman	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	tu-te-pe	NULL
 13122	fr	tutepe	tu.ˈtɛ.pɛ	NULL	inter.	quelle femme?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	tu-te-pe	NULL
+13122	nl	tutepe	tu.ˈtɛ.pɛ	NULL	inter.	welke vrouw	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	tu-te-pe	NULL
 13123	en	pemste	pɛm.ˈstɛ	NULL	inter.	what two women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-ste	NULL
 13123	fr	pemste	pɛm.ˈstɛ	NULL	inter.	quelles deux femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-ste	NULL
+13123	nl	pemste	pɛm.ˈstɛ	NULL	inter.	welke twee vrouwen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pem-ste	NULL
 13124	en	mestepe	mɛ.ˈstɛ.pɛ	NULL	inter.	what two women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-ste-pe	NULL
 13124	fr	mestepe	mɛ.ˈstɛ.pɛ	NULL	inter.	quelles deux femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-ste-pe	NULL
+13124	nl	mestepe	mɛ.ˈstɛ.pɛ	NULL	inter.	welke twee vrouwen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	me-ste-pe	NULL
 13125	en	pepste	pɛp.ˈstɛ	NULL	inter.	what three women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-ste	NULL
 13125	fr	pepste	pɛp.ˈstɛ	NULL	inter.	quelles trois femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-ste	NULL
+13125	nl	pepste	pɛp.ˈstɛ	NULL	inter.	welke drie vrouwen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pep-ste	NULL
 13126	en	pxestepe	p'ɛ.ˈstɛ.pɛ	NULL	inter.	what three women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-ste-pe	NULL
 13126	fr	pxestepe	p'ɛ.ˈstɛ.pɛ	NULL	inter.	quelles trois femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-ste-pe	NULL
+13126	nl	pxestepe	p'ɛ.ˈstɛ.pɛ	NULL	inter.	welke drie vrouwen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pxe-ste-pe	NULL
 13127	en	payste	paj.ˈstɛ	NULL	inter.	what women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-ste	NULL
 13127	fr	payste	paj.ˈstɛ	NULL	inter.	quelles femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-ste	NULL
+13127	nl	payste	paj.ˈstɛ	NULL	inter.	welke vrouwen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	pay-ste	NULL
 13128	en	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	what women	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-ste-pe	NULL
 13128	fr	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	quelles femmes?	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-ste-pe	NULL
+13128	nl	aystepe	aj.ˈstɛ.pɛ	NULL	inter.	welke vrouwen	http://naviteri.org/2011/07/number-in-na%e2%80%99vi/ (30 JUL 2011)	2	ay-ste-pe	NULL
 13129	en	yokx	jok'	NULL	n.	shield	https://forum.learnnavi.org/language-updates/vocabulary-from-disney's-na'vi-translator	1	yokx	NULL
 13129	fr	yokx	jok'	NULL	n.	bouclier, protection	https://forum.learnnavi.org/language-updates/vocabulary-from-disney's-na'vi-translator	1	yokx	NULL
 13130	en	smaw	sm·aw	sm<0><1><2>aw	vtr.	approve of	http://naviteri.org/2020/02/some-words-for-leap-year-day/	1	smaw	sm..aw
@@ -19964,6 +20056,16 @@
 13147	fr	tstunkemtsyìp	ˈt͡stun.kɛm.t͡syɪp̚	NULL	n.	petite faveur	http://naviteri.org/2020/03/mipa-sawasultsyip-a-new-contest/	1	tstun-kem-tsyìp	NULL
 13148	en	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	a bite	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
 13148	fr	säfrìp	sæ.ˈfɾɪp̚	NULL	n.	morsure	http://naviteri.org/2020/04/keltrrtrra-tieylan-an-unusual-friendship/	2	sä-frìp	NULL
+13149	en	tsawng	t͡sawŋ	ts<0><1><2>awng	vin.	shatter, break into pieces	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	tsawng	ts..awng
+13150	en	pon	pon	p<0><1><2>on	vtr.	balance	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	pon	p..on
+13151	en	mei	ˈmɛ.i	NULL	adj.	wet	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	me-i	NULL
+13152	en	meitayo	mɛ.i.ˈta.jo	NULL	n.	wetlands	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	3	me-i-ta-yo	NULL
+13153	en	lipx	lip'	l<0><1><2>ipx	vin.	drip	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	lipx	l..ipx
+13154	en	fäpyo	ˈfæp.jo	NULL	n.	roof	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fäp-yo	NULL
+13155	en	sälipx	sæ.ˈlip'	NULL	n.	drop (of a liquid)	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	sä-lipx	NULL
+13156	en	kxutslu	ˈk'u.t͡slu	NULL	n.	risk	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	kxu-tslu	NULL
+13157	en	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	risky	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
+13158	en	fura	ˈfu.ɾa	NULL	pn., sbd.	that	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
