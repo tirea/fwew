@@ -565,6 +565,43 @@ func listWordsSubset(args []string, subset []Word) []Word {
 					results = append(results, w)
 				}
 			}
+		case Text("w_stress"):
+			ispec, err0 := strconv.Atoi(spec)
+			if err0 != nil {
+				fmt.Println(Text("invalidDecimalError"))
+				return nil
+			}
+			istress, err1 := strconv.Atoi(w.Stressed)
+			if err1 != nil {
+				fmt.Println(Text("invalidDecimalError"))
+				return nil
+			}
+			switch cond {
+			case "<":
+				if istress < ispec {
+					results = append(results, w)
+				}
+			case "<=":
+				if istress <= ispec {
+					results = append(results, w)
+				}
+			case "=":
+				if istress == ispec {
+					results = append(results, w)
+				}
+			case ">=":
+				if istress >= ispec {
+					results = append(results, w)
+				}
+			case ">":
+				if istress > ispec {
+					results = append(results, w)
+				}
+			case "!=":
+				if istress != ispec {
+					results = append(results, w)
+				}
+			}
 		}
 	}
 	return results
@@ -632,6 +669,7 @@ func listWords(args []string) []Word {
 	// /list syllables > 1
 	// /list syllables = 2
 	// /list syllables <= 3
+	// /list stress = 1
 
 	dictData, err0 := os.Open(Text("dictionary"))
 	if err0 != nil {
@@ -798,11 +836,49 @@ func listWords(args []string) []Word {
 						results = append(results, result)
 					}
 				}
+			case Text("w_stress"):
+				result = InitWordStruct(result, fields)
+				ispec, err2 := strconv.Atoi(spec)
+				if err2 != nil {
+					fmt.Println(Text("invalidDecimalError"))
+					return nil
+				}
+				istress, err3 := strconv.Atoi(result.Stressed)
+				if err3 != nil {
+					fmt.Println(Text("invalidDecimalError"))
+					return nil
+				}
+				switch cond {
+				case "<":
+					if istress < ispec {
+						results = append(results, result)
+					}
+				case "<=":
+					if istress <= ispec {
+						results = append(results, result)
+					}
+				case "=":
+					if istress == ispec {
+						results = append(results, result)
+					}
+				case ">=":
+					if istress >= ispec {
+						results = append(results, result)
+					}
+				case ">":
+					if istress > ispec {
+						results = append(results, result)
+					}
+				case "!=":
+					if istress != ispec {
+						results = append(results, result)
+					}
+				}
 			}
 		}
 	}
-	err3 := dictData.Close()
-	if err3 != nil {
+	err4 := dictData.Close()
+	if err4 != nil {
 		fmt.Println(Text("dictCloseError"))
 		os.Exit(1)
 	}
