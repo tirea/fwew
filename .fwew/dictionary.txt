@@ -20106,6 +20106,11 @@
 13158	en	fura	ˈfu.ɾa	NULL	pn., sbd.	that	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
 13158	fr	fura	ˈfu.ɾa	NULL	pn., sbd.	que | subordonnée à une proposition d'un verbe qui requiert le datif | forme raccourcie de: fì'ur a	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
 13158	nl	fura	ˈfu.ɾa	NULL	pn., sbd.	dat	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
+13159	en	tsìpxì	t͡sɪ.ˈp'ɪ	NULL	n.	one-fourth	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	tsì-pxì	NULL
+13160	en	mrrpxì	mṛ.ˈp'ɪ	NULL	n.	one-fifth	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	mrr-pxì	NULL
+13161	en	pupxì	pu.ˈp'ɪ	NULL	n.	one-sixth	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	pu-pxì	NULL
+13162	en	kipxì	ki.ˈp'ɪ	NULL	n.	one-seventh	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	ki-pxì	NULL
+13163	en	vopxì	vo.ˈp'ɪ	NULL	n.	one-eighth	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	vo-pxì	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
