@@ -20111,6 +20111,7 @@
 13161	en	pupxì	pu.ˈp'ɪ	NULL	n.	one-sixth	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	pu-pxì	NULL
 13162	en	kipxì	ki.ˈp'ɪ	NULL	n.	one-seventh	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	ki-pxì	NULL
 13163	en	vopxì	vo.ˈp'ɪ	NULL	n.	one-eighth	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	vo-pxì	NULL
+13164	en	sänume si	sæ.ˈnu.mɛ si	sänume s<0><1><2>i	vin.	teach, instruct, give instruction	https://forum.learnnavi.org/language-updates/little-confirmation-on-teach-and-insult/	2	sä-nu-me si	sänume s..i
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
