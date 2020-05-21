@@ -20280,69 +20280,91 @@
 13165	nl	vun	v·un	v<0><1><2>un	vtr.	zorgen voor, (iemand van iets) voorzien	https://forum.learnnavi.org/language-updates/eywa-will-provide!/ (19 May 2020)	1	vun	v..un
 13166	de	lew säpi	ˈlɛw sæ.ˌp·i	lew säp<0><1><2>i	vin.	sich abdecken, sich bedecken, sich verdecken	https://forum.learnnavi.org/language-updates/prrwll-moss-the-comparative-to-construct/ (24 Feb 2010)	1	lew sä-pi	lew säp..i
 13166	en	lew säpi	ˈlɛw sæ.ˌp·i	lew säp<0><1><2>i	vin.	cover oneself	https://forum.learnnavi.org/language-updates/prrwll-moss-the-comparative-to-construct/ (24 Feb 2010)	1	lew sä-pi	lew säp..i
+13166	fr	lew säpi	ˈlɛw sæ.ˌp·i	lew säp<0><1><2>i	vin.	se couvrir	https://forum.learnnavi.org/language-updates/prrwll-moss-the-comparative-to-construct/ (24 Feb 2010)	1	lew sä-pi	lew säp..i
 13166	nl	lew säpi	ˈlɛw sæ.ˌp·i	lew säp<0><1><2>i	vin.	zich bedekken	https://forum.learnnavi.org/language-updates/prrwll-moss-the-comparative-to-construct/ (24 Feb 2010)	1	lew sä-pi	lew säp..i
 13167	de	piak säpi	pi.ˈak̚ sæ.ˌp·i	piak säp<0><1><2>i	vin.	sich öffnen	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	2	pi-ak sä-pi	piak säp..i
 13167	en	piak säpi	pi.ˈak̚ sæ.ˌp·i	piak säp<0><1><2>i	vin.	open oneself, open by itself, open on its own	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	2	pi-ak sä-pi	piak säp..i
+13167	fr	piak säpi	pi.ˈak̚ sæ.ˌp·i	piak säp<0><1><2>i	vin.	s'ouvrir, ouvrir par soi-même/de soi-même	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	2	pi-ak sä-pi	piak säp..i
 13167	nl	piak säpi	pi.ˈak̚ sæ.ˌp·i	piak säp<0><1><2>i	vin.	zich openen, uit zichzelf opengaan	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	2	pi-ak sä-pi	piak säp..i
 13168	de	tstu säpi	ˈt͡stu sæ.ˌp·i	tstu säp<0><1><2>i	vin.	sich schließen	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	1	tstu sä-pi	tstu säp..i
 13168	en	tstu säpi	ˈt͡stu sæ.ˌp·i	tstu säp<0><1><2>i	vin.	close oneself, close by itself, close on its own	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	1	tstu sä-pi	tstu säp..i
+13168	fr	tstu säpi	ˈt͡stu sæ.ˌp·i	tstu säp<0><1><2>i	vin.	se fermer, fermer par soi-même/de soi-même	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	1	tstu sä-pi	tstu säp..i
 13168	nl	tstu säpi	ˈt͡stu sæ.ˌp·i	tstu säp<0><1><2>i	vin.	zich sluiten, uit zichzelf dichtgaan	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	1	tstu sä-pi	tstu säp..i
 13169	de	ioi säpi	i.ˈo.i sæ.ˌp·i	ioi säp<0><1><2>i	vin.	sich (mit zeremonieller Kleidung) schmücken, sich anziehen	http://naviteri.org/2011/08/new-vocabulary-clothing/ (03 Aug 2011)	2	i-o-i sä-pi	ioi säp..i
 13169	en	ioi säpi	i.ˈo.i sæ.ˌp·i	ioi säp<0><1><2>i	vin.	adorn oneself	http://naviteri.org/2011/08/new-vocabulary-clothing/ (03 Aug 2011)	2	i-o-i sä-pi	ioi säp..i
+13169	fr	ioi säpi	i.ˈo.i sæ.ˌp·i	ioi säp<0><1><2>i	vin.	se décorer, s'orner, se parer (d'un ornement)	http://naviteri.org/2011/08/new-vocabulary-clothing/ (03 Aug 2011)	2	i-o-i sä-pi	ioi säp..i
 13169	nl	ioi säpi	i.ˈo.i sæ.ˌp·i	ioi säp<0><1><2>i	vin.	zich uitdossen	http://naviteri.org/2011/08/new-vocabulary-clothing/ (03 Aug 2011)	2	i-o-i sä-pi	ioi säp..i
 13170	de	tsawlapx	ˈt͡saw.lap'	NULL	n.	Unideltabaum, Großer Wurzelbaum, Magellum deltoids	https://forum.learnnavi.org/language-updates/ewll/ (07 Mar 2020)	1	tsaw-lapx	NULL
 13170	en	tsawlapx	ˈt͡saw.lap'	NULL	n.	unidelta tree, lit. tall large root	https://forum.learnnavi.org/language-updates/ewll/ (07 Mar 2020)	1	tsaw-lapx	NULL
+13170	fr	tsawlapx	ˈt͡saw.lap'	NULL	n.	arbre unidelta, lit. grande racine large	https://forum.learnnavi.org/language-updates/ewll/ (07 Mar 2020)	1	tsaw-lapx	NULL
 13170	nl	tsawlapx	ˈt͡saw.lap'	NULL	n.	unideltaboom, let. hoge grote wortel	https://forum.learnnavi.org/language-updates/ewll/ (07 Mar 2020)	1	tsaw-lapx	NULL
 13171	de	yìmkxa	ˈjɪm.k'a	NULL	n.	Banshee-Fänger, Mundfessel	https://forum.learnnavi.org/language-updates/new-object/ (30 Oct 2019)	1	yìm-kxa	NULL
 13171	en	yìmkxa	ˈjɪm.k'a	NULL	n.	banshee catcher, mouth-binder	https://forum.learnnavi.org/language-updates/new-object/ (30 Oct 2019)	1	yìm-kxa	NULL
+13171	fr	yìmkxa	ˈjɪm.k'a	NULL	n.	attrape-banshee, attache-gueule	https://forum.learnnavi.org/language-updates/new-object/ (30 Oct 2019)	1	yìm-kxa	NULL
 13171	nl	yìmkxa	ˈjɪm.k'a	NULL	n.	ikranvanger, mondbinder	https://forum.learnnavi.org/language-updates/new-object/ (30 Oct 2019)	1	yìm-kxa	NULL
 13172	de	äzan	æ.ˈzan	NULL	n.	Gewalt, Zwang	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan	NULL
 13172	en	äzan	æ.ˈzan	NULL	n.	force, compulsion	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan	NULL
+13172	fr	äzan	æ.ˈzan	NULL	n.	force, contrainte	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan	NULL
 13172	nl	äzan	æ.ˈzan	NULL	n.	dwang	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan	NULL
 13173	de	äzan si	æ.ˈzan s·i	äzan s<0><1><2>i	vin.	zwingen	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan si	äzan s..i
 13173	en	äzan si	æ.ˈzan s·i	äzan s<0><1><2>i	vin.	force, compel	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan si	äzan s..i
+13173	fr	äzan si	æ.ˈzan s·i	äzan s<0><1><2>i	vin.	forcer, contraindre	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan si	äzan s..i
 13173	nl	äzan si	æ.ˈzan s·i	äzan s<0><1><2>i	vin.	dwingen	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan si	äzan s..i
 13174	de	äzanluke	æ.ˈzan.lu.kɛ	NULL	adv.	freiwillig	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-lu-ke	NULL
 13174	en	äzanluke	æ.ˈzan.lu.kɛ	NULL	adv.	voluntarily, without force or compulsion	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-lu-ke	NULL
+13174	fr	äzanluke	æ.ˈzan.lu.kɛ	NULL	adv.	volontairement, sans force ni contrainte	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-lu-ke	NULL
 13174	nl	äzanluke	æ.ˈzan.lu.kɛ	NULL	adv.	vrijwillig, zonder dwang	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-lu-ke	NULL
 13175	de	äzantu	æ.ˈzan.tu	NULL	n.	Freiwilliger, Ehrenamtlicher	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
 13175	en	äzantu	æ.ˈzan.tu	NULL	n.	domineering person; one who is bossy, authoritarian, or dictatorial	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
+13175	fr	äzantu	æ.ˈzan.tu	NULL	n.	personne domination; personne autoritaire, despotique, tyrannique, dictatoriale	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
 13175	nl	äzantu	æ.ˈzan.tu	NULL	n.	bazig persoon, iemand die authoritair of dictatoriaal is	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
 13176	de	nìsok	nɪ.ˈsok̚	NULL	adv.	kürzlich	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	nì-sok	NULL
 13176	en	nìsok	nɪ.ˈsok̚	NULL	adv.	recently	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	nì-sok	NULL
+13176	fr	nìsok	nɪ.ˈsok̚	NULL	adv.	récemment	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	nì-sok	NULL
 13176	nl	nìsok	nɪ.ˈsok̚	NULL	adv.	recentelijk	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	nì-sok	NULL
 13177	de	kemuia	kɛ.ˈmu.i.a	NULL	n.	Entehrung	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a	NULL
 13177	en	kemuia	kɛ.ˈmu.i.a	NULL	n.	dishonor	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a	NULL
+13177	fr	kemuia	kɛ.ˈmu.i.a	NULL	n.	déshonneur	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a	NULL
 13177	nl	kemuia	kɛ.ˈmu.i.a	NULL	n.	schande	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a	NULL
 13178	de	kemuia si	kɛ.ˈmu.i.a s·i	kemuia s<0><1><2>i	vin.	entehren	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a si	kemuia s..i
 13178	en	kemuia si	kɛ.ˈmu.i.a s·i	kemuia s<0><1><2>i	vin.	dishonor	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a si	kemuia s..i
+13178	fr	kemuia si	kɛ.ˈmu.i.a s·i	kemuia s<0><1><2>i	vin.	déshonorer	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a si	kemuia s..i
 13178	nl	kemuia si	kɛ.ˈmu.i.a s·i	kemuia s<0><1><2>i	vin.	onteren, tot schande brengen	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a si	kemuia s..i
 13179	de	tìfnawe'	tɪ.fna.ˈwɛʔ	NULL	n.	Feigheit	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-fna-we'	NULL
 13179	en	tìfnawe'	tɪ.fna.ˈwɛʔ	NULL	n.	cowardice	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-fna-we'	NULL
+13179	fr	tìfnawe'	tɪ.fna.ˈwɛʔ	NULL	n.	lâcheté, faiblesse	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-fna-we'	NULL
 13179	nl	tìfnawe'	tɪ.fna.ˈwɛʔ	NULL	n.	lafheid	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-fna-we'	NULL
 13180	de	kemuianga'	kɛ.ˈmu.i.a.ŋaʔ	NULL	adj.	unehrenhaft	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-anga'	NULL
 13180	en	kemuianga'	kɛ.ˈmu.i.a.ŋaʔ	NULL	adj.	dishonorable	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-anga'	NULL
+13180	fr	kemuianga'	kɛ.ˈmu.i.a.ŋaʔ	NULL	adj.	déshonorable	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-anga'	NULL
 13180	nl	kemuianga'	kɛ.ˈmu.i.a.ŋaʔ	NULL	adj.	oneervol	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-anga'	NULL
 13181	de	tìkankxan	tɪ.kan.ˈk'an	NULL	n.	Hindernis für die eigenen Ziele, Quelle der Frustration	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxan	NULL
 13181	en	tìkankxan	tɪ.kan.ˈk'an	NULL	n.	barrier to one’s goals, source of frustration	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxan	NULL
+13181	fr	tìkankxan	tɪ.kan.ˈk'an	NULL	n.	obstacles aux objectifs de quelqu'un, source de frustration	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxan	NULL
 13181	nl	tìkankxan	tɪ.kan.ˈk'an	NULL	n.	belemmering (van iemands doelen), bron van frustratie	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxan	NULL
 13182	de	tìkankxanga'	tɪ.kan.ˈk'a.ŋaʔ	NULL	adj.	freustrierend	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxa-nga'	NULL
 13182	en	tìkankxanga'	tɪ.kan.ˈk'a.ŋaʔ	NULL	adj.	frustrating	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxa-nga'	NULL
+13182	fr	tìkankxanga'	tɪ.kan.ˈk'a.ŋaʔ	NULL	adj.	frustrant	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxa-nga'	NULL
 13182	nl	tìkankxanga'	tɪ.kan.ˈk'a.ŋaʔ	NULL	adj.	frustrerend	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxa-nga'	NULL
 13183	de	lekxan	lɛ.k'an	NULL	adj.	blockiert, behindert, frustiert	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	le-kxan	NULL
 13183	en	lekxan	lɛ.k'an	NULL	adj.	blocked, obstructed; frustrated	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	le-kxan	NULL
+13183	fr	lekxan	lɛ.k'an	NULL	adj.	bloqué, obstrué, frustré	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	le-kxan	NULL
 13183	nl	lekxan	lɛ.k'an	NULL	adj.	geblokkeerd, gefrustreerd	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	le-kxan	NULL
 13184	de	ftanglen	ftaŋ.ˈlɛn	ft<0><1>angl<2>en	vtr.	verhindern	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ftang-len	ft.angl.en
 13184	en	ftanglen	ftaŋ.ˈlɛn	ft<0><1>angl<2>en	vtr.	prevent	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ftang-len	ft.angl.en
+13184	fr	ftanglen	ftaŋ.ˈlɛn	ft<0><1>angl<2>en	vtr.	prévenir, empêcher	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ftang-len	ft.angl.en
 13184	nl	ftanglen	ftaŋ.ˈlɛn	ft<0><1>angl<2>en	vtr.	voorkomen, vermijden	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ftang-len	ft.angl.en
 13185	de	tìftanglen	tɪ.ftaŋ.ˈlɛn	NULL	n.	Prävention	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-ftang-len	NULL
 13185	en	tìftanglen	tɪ.ftaŋ.ˈlɛn	NULL	n.	prevention	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-ftang-len	NULL
+13185	fr	tìftanglen	tɪ.ftaŋ.ˈlɛn	NULL	n.	prévention	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-ftang-len	NULL
 13185	nl	tìftanglen	tɪ.ftaŋ.ˈlɛn	NULL	n.	preventie, voorkoming	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-ftang-len	NULL
 13186	de	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	ausquetschen	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
 13186	en	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	squeeze	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
+13186	fr	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	presser, serrer, étreindre	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
 13186	nl	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	knijpen	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
 13187	de	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	Sprachlaut, Phonem	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 13187	en	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	speech sound; phoneme	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
+13187	fr	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	phonème	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
