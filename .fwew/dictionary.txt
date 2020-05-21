@@ -20169,6 +20169,7 @@
 13185	nl	tìftanglen	tɪ.ftaŋ.ˈlɛn	NULL	n.	preventie, voorkoming	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-ftang-len	NULL
 13186	en	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	squeeze	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
 13186	nl	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	knijpen	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
+13187	en	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	speech sound; phone, phoneme	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
