@@ -15206,7 +15206,7 @@
 9176	pl	srungtsyìp	ˈsɾuŋ.t͡sjɪp̚	NULL	n.	wskazówka, podpowiedź	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	1	srung-tsyìp	NULL
 9176	ru	srungtsyìp	ˈsɾuŋ.t͡sjɪp̚	NULL	n.	подсказка	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	1	srung-tsyìp	NULL
 9180	de	spulmokri	spul.ˈmok.ɾi	NULL	n.	Telefon	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	spul-mok-ri	NULL
-9180	en	spulmokri	spul.ˈmok.ɾi	NULL	n.	telephone	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	spul-mok-ri	NULL
+9180	en	spulmokri	spul.ˈmok.ɾi	NULL	n.	phone, telephone	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	spul-mok-ri	NULL
 9180	et	spulmokri	spul.ˈmok.ɾi	NULL	n.	telefon	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	spul-mok-ri	NULL
 9180	fr	spulmokri	spul.ˈmok.ɾi	NULL	n.	téléphone | interphone | radio	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	spul-mok-ri	NULL
 9180	hu	spulmokri	spul.ˈmok.ɾi	NULL	n.	telefon	Frommer (19 Jul 2012) http://naviteri.org/2012/07/fivospxiya-aylifyavi-amip-this-months-new-expressions-pt-2/	2	spul-mok-ri	NULL
@@ -20169,7 +20169,7 @@
 13185	nl	tìftanglen	tɪ.ftaŋ.ˈlɛn	NULL	n.	preventie, voorkoming	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-ftang-len	NULL
 13186	en	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	squeeze	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
 13186	nl	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	knijpen	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
-13187	en	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	speech sound; phone, phoneme	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
+13187	en	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	speech sound; phoneme	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
