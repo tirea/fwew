@@ -249,15 +249,15 @@
 128	pl	alaksi	a.ˈlak.si	NULL	adj.	gotowy	ASG	2	a-lak-si	NULL
 128	ru	alaksi	a.ˈlak.si	NULL	adj.	готовый	ASG	2	a-lak-si	NULL
 128	sv	alaksi	a.ˈlak.si	NULL	adj.	redo	ASG	2	a-lak-si	NULL
-140	de	lìm	l·ɪm	l<0><1><2>ìm	svin.	weit weg sein, entfernt sein	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
-140	en	lìm	l·ɪm	l<0><1><2>ìm	svin.	be far	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
-140	et	lìm	l·ɪm	l<0><1><2>ìm	svin.	kaugel olema	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
-140	fr	lìm	l·ɪm	l<0><1><2>ìm	svin.	être loin | être éloigné	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
-140	hu	lìm	l·ɪm	l<0><1><2>ìm	svin.	messze van	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
-140	nl	lìm	l·ɪm	l<0><1><2>ìm	svin.	ver weg zijn	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
-140	pl	lìm	l·ɪm	l<0><1><2>ìm	svin.	być daleko	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
-140	ru	lìm	l·ɪm	l<0><1><2>ìm	svin.	отдаляться, быть далеко	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
-140	sv	lìm	l·ɪm	l<0><1><2>ìm	svin.	långt, vara långt	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	de	lìm	l·ɪm	l<0><1><2>ìm	vin.	weit weg sein, entfernt sein	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	en	lìm	l·ɪm	l<0><1><2>ìm	vin.	be far	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	et	lìm	l·ɪm	l<0><1><2>ìm	vin.	kaugel olema	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	fr	lìm	l·ɪm	l<0><1><2>ìm	vin.	être loin | être éloigné	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	hu	lìm	l·ɪm	l<0><1><2>ìm	vin.	messze van	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	nl	lìm	l·ɪm	l<0><1><2>ìm	vin.	ver weg zijn	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	pl	lìm	l·ɪm	l<0><1><2>ìm	vin.	być daleko	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	ru	lìm	l·ɪm	l<0><1><2>ìm	vin.	отдаляться, быть далеко	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
+140	sv	lìm	l·ɪm	l<0><1><2>ìm	vin.	långt, vara långt	Taronyu's Dictionary 9.53 < Frommer	1	lìm	l..ìm
 152	de	apxa	a.ˈp'a	NULL	adj.	groß, erheblich, umfangreich	ASG	2	a-pxa	NULL
 152	en	apxa	a.ˈp'a	NULL	adj.	large	ASG	2	a-pxa	NULL
 152	et	apxa	a.ˈp'a	NULL	adj.	suur	ASG	2	a-pxa	NULL
@@ -887,24 +887,24 @@
 512	pl	fu	fu	NULL	conj.	lub	ASG	1	fu	NULL
 512	ru	fu	fu	NULL	conj.	или	ASG	1	fu	NULL
 512	sv	fu	fu	NULL	conj.	eller	ASG	1	fu	NULL
-516	de	futa	ˈfu.ta	NULL	pn., sbd.	dass (NebensatzMarker)	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-516	en	futa	ˈfu.ta	NULL	pn., sbd.	that	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-516	et	futa	ˈfu.ta	NULL	pn., sbd.	seda, mis (kõrvallause märkija)	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-516	fr	futa	ˈfu.ta	NULL	pn., sbd.	généralement traduit par que | répétition du sujet ou infinitif	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-516	hu	futa	ˈfu.ta	NULL	pn., sbd.	azt, hogy (alárendelő mellékmondat kötőszava)	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-516	nl	futa	ˈfu.ta	NULL	pn., sbd.	dat	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-516	pl	futa	ˈfu.ta	NULL	pn., sbd.	którego	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-516	ru	futa	ˈfu.ta	NULL	pn., sbd.	что, чтобы	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-516	sv	futa	ˈfu.ta	NULL	pn., sbd.	det	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
-520	de	fwa	fwa	NULL	pn., sbd.	dass (NebensatzMarker)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
-520	en	fwa	fwa	NULL	pn., sbd.	that (subordinate clause marker)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
-520	et	fwa	fwa	NULL	pn., sbd.	see, mis (kõrvallause märkija)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
-520	fr	fwa	fwa	NULL	pn., sbd.	ce qui...	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
-520	hu	fwa	fwa	NULL	pn., sbd.	az, hogy (alárendelő mellékmondat kötőszava)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
-520	nl	fwa	fwa	NULL	pn., sbd.	dat (gesubordineerd zinsdeel markeerder)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
-520	pl	fwa	fwa	NULL	pn., sbd.	który	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
-520	ru	fwa	fwa	NULL	pn., sbd.	тот (который или что) (маркер относительного выражения)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
-520	sv	fwa	fwa	NULL	pn., sbd.	att,  (klausul bisatsmarkör)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+516	de	futa	ˈfu.ta	NULL	sbd.	dass (NebensatzMarker)	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+516	en	futa	ˈfu.ta	NULL	sbd.	that	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+516	et	futa	ˈfu.ta	NULL	sbd.	seda, mis (kõrvallause märkija)	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+516	fr	futa	ˈfu.ta	NULL	sbd.	généralement traduit par que | répétition du sujet ou infinitif	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+516	hu	futa	ˈfu.ta	NULL	sbd.	azt, hogy (alárendelő mellékmondat kötőszava)	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+516	nl	futa	ˈfu.ta	NULL	sbd.	dat	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+516	pl	futa	ˈfu.ta	NULL	sbd.	którego	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+516	ru	futa	ˈfu.ta	NULL	sbd.	что, чтобы	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+516	sv	futa	ˈfu.ta	NULL	sbd.	det	Taronyu's dictionary -> Paul Frommer	1	fu-ta	NULL
+520	de	fwa	fwa	NULL	sbd.	dass (NebensatzMarker)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+520	en	fwa	fwa	NULL	sbd.	that (subordinate clause marker)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+520	et	fwa	fwa	NULL	sbd.	see, mis (kõrvallause märkija)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+520	fr	fwa	fwa	NULL	sbd.	ce qui...	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+520	hu	fwa	fwa	NULL	sbd.	az, hogy (alárendelő mellékmondat kötőszava)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+520	nl	fwa	fwa	NULL	sbd.	dat (gesubordineerd zinsdeel markeerder)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+520	pl	fwa	fwa	NULL	sbd.	który	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+520	ru	fwa	fwa	NULL	sbd.	тот (который или что) (маркер относительного выражения)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
+520	sv	fwa	fwa	NULL	sbd.	att,  (klausul bisatsmarkör)	Taronyu's Dictionary 10.015 => Frommer	1	fwa	NULL
 528	de	fya'o	ˈfja.ʔo	NULL	n.	Pfad, Weg, Verhalten, Art und Weise	ASG	1	fya-'o	NULL
 528	en	fya'o	ˈfja.ʔo	NULL	n.	path, way, manner	ASG	1	fya-'o	NULL
 528	et	fya'o	ˈfja.ʔo	NULL	n.	tee, rada, komme, viis	ASG	1	fya-'o	NULL
@@ -1166,15 +1166,15 @@
 700	pl	kame	ˈk·a.m·ɛ	k<0><1>am<2>e	vtr.	widzieć, rozumieć, zaglądać, wiedzieć (w sensie duchowym)	Avatar Movie	1	ka-me	k.am.e
 700	ru	kame	ˈk·a.m·ɛ	k<0><1>am<2>e	vtr.	видеть сущность, понимать, знать	Avatar Movie	1	ka-me	k.am.e
 700	sv	kame	ˈk·a.m·ɛ	k<0><1>am<2>e	vtr.	se, se in i, förstå, känna (spirituellt)	Avatar Movie	1	ka-me	k.am.e
-704	de	kan	k·an	k<0><1><2>an	vtrm., vtr.	vtrm. zielen, abzielen, beabsichtigen; vtr. zielen, eine Waffe oder anderes Objekt auf ein Ziel richten	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
-704	en	kan	k·an	k<0><1><2>an	vtrm., vtr.	aim, to intend; aim, to direct a weapon or other object at a target	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
-704	et	kan	k·an	k<0><1><2>an	vtrm., vtr.	sihtima, suunama; suunitlema, kavatsema	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
-704	fr	kan	k·an	k<0><1><2>an	vtrm., vtr.	viser (à faire qqch/avec une arme) | avoir l'intention de	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
-704	hu	kan	k·an	k<0><1><2>an	vtrm., vtr.	(meg)céloz	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
-704	nl	kan	k·an	k<0><1><2>an	vtrm., vtr.	doelen op, bedoelen; richten, een wapen of object op een doel richten	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
-704	pl	kan	k·an	k<0><1><2>an	vtrm., vtr.	zamierzać	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
-704	ru	kan	k·an	k<0><1><2>an	vtrm., vtr.	целиться	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
-704	sv	kan	k·an	k<0><1><2>an	vtrm., vtr.	sikta	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	de	kan	k·an	k<0><1><2>an	vtrm.	vtrm. zielen, abzielen, beabsichtigen; vtr. zielen, eine Waffe oder anderes Objekt auf ein Ziel richten	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	en	kan	k·an	k<0><1><2>an	vtrm.	aim, to intend; aim, to direct a weapon or other object at a target	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	et	kan	k·an	k<0><1><2>an	vtrm.	sihtima, suunama; suunitlema, kavatsema	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	fr	kan	k·an	k<0><1><2>an	vtrm.	viser (à faire qqch/avec une arme) | avoir l'intention de	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	hu	kan	k·an	k<0><1><2>an	vtrm.	(meg)céloz	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	nl	kan	k·an	k<0><1><2>an	vtrm.	doelen op, bedoelen; richten, een wapen of object op een doel richten	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	pl	kan	k·an	k<0><1><2>an	vtrm.	zamierzać	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	ru	kan	k·an	k<0><1><2>an	vtrm.	целиться	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
+704	sv	kan	k·an	k<0><1><2>an	vtrm.	sikta	Taronyu's Dictionary 9.5 < Frommer	1	kan	k..an
 708	de	kangay	ka.ˈŋaj	NULL	adj.	gültig, stichhaltig, richtig	Taronyu's Dictionary 9.75 < Frommer	2	ka-ngay	NULL
 708	en	kangay	ka.ˈŋaj	NULL	adj.	valid	Taronyu's Dictionary 9.75 < Frommer	2	ka-ngay	NULL
 708	et	kangay	ka.ˈŋaj	NULL	adj.	kehtiv, tõene	Taronyu's Dictionary 9.75 < Frommer	2	ka-ngay	NULL
@@ -1427,15 +1427,15 @@
 836	pl	kìte'e	kɪ.tɛ.ˈʔɛ	NULL	n.	służba, usługa	Taronyu's dictionary 9.661 < Frommer	3	kì-te-'e	NULL
 836	ru	kìte'e	kɪ.tɛ.ˈʔɛ	NULL	n.	служба, занятие, работа, услуга	Taronyu's dictionary 9.661 < Frommer	3	kì-te-'e	NULL
 836	sv	kìte'e	kɪ.tɛ.ˈʔɛ	NULL	n.	tjänst	Taronyu's dictionary 9.661 < Frommer	3	kì-te-'e	NULL
-848	de	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	verantwortlich sein	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
-848	en	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	be responsible	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
-848	et	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	vastutav olema	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
-848	fr	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	être responsable	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
-848	hu	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	felelős valamiért	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
-848	nl	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	verantwoordelijk zijn	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
-848	pl	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	być odpowiedzialnym	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
-848	ru	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	нести ответственность	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
-848	sv	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	svin.	vara ansvarig	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	de	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	verantwortlich sein	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	en	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	be responsible	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	et	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	vastutav olema	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	fr	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	être responsable	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	hu	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	felelős valamiért	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	nl	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	verantwoordelijk zijn	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	pl	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	być odpowiedzialnym	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	ru	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	нести ответственность	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
+848	sv	kllfro'	kḷ.ˈfɾ·oʔ	kllfr<0><1><2>o'	vin.	vara ansvarig	Taronyu's dictionary 9.661 < Frommer	2	kll-fro'	kllfr..o'
 852	de	kllkulat	kḷ.ˈk·u.l·at̚	kllk<0><1>ul<2>at	vtr.	aufgraben, ausgraben	Taronyu's dictionary 9.689 < Frommer	2	kll-ku-lat	kllk.ul.at
 852	en	kllkulat	kḷ.ˈk·u.l·at̚	kllk<0><1>ul<2>at	vtr.	dig up	Taronyu's dictionary 9.689 < Frommer	2	kll-ku-lat	kllk.ul.at
 852	et	kllkulat	kḷ.ˈk·u.l·at̚	kllk<0><1>ul<2>at	vtr.	kaevama	Taronyu's dictionary 9.689 < Frommer	2	kll-ku-lat	kllk.ul.at
@@ -1777,15 +1777,15 @@
 1040	pl	lrrtok si	ˈlṛ.tok̚ ˈs·i	lrrtok s<0><1><2>i	vin.	usmiechać się	Taronyu's Dictionary 9.665 < Frommer	2	lrr-tok si	lrrtok s..i
 1040	ru	lrrtok si	ˈlṛ.tok̚ ˈs·i	lrrtok s<0><1><2>i	vin.	улыбаться	Taronyu's Dictionary 9.665 < Frommer	2	lrr-tok si	lrrtok s..i
 1040	sv	lrrtok si	ˈlṛ.tok̚ ˈs·i	lrrtok s<0><1><2>i	vin.	le	Taronyu's Dictionary 9.665 < Frommer	2	lrr-tok si	lrrtok s..i
-1044	de	lu	l·u	l<0><1><2>u	vin., svin.	sein, bin, bist, ist, sind (Kopula, Verb der Existenz)	ASG	1	lu	l..u
-1044	en	lu	l·u	l<0><1><2>u	vin., svin.	be, am, is, are	ASG	1	lu	l..u
-1044	et	lu	l·u	l<0><1><2>u	vin., svin.	olema (öeldistäide)	ASG	1	lu	l..u
-1044	fr	lu	l·u	l<0><1><2>u	vin., svin.	être | ([utilisé avec un mot au datif pour former le v.] avoir)	ASG	1	lu	l..u
-1044	hu	lu	l·u	l<0><1><2>u	vin., svin.	van, lenni	ASG	1	lu	l..u
-1044	nl	lu	l·u	l<0><1><2>u	vin., svin.	zijn (existentieel)	ASG	1	lu	l..u
-1044	pl	lu	l·u	l<0><1><2>u	vin., svin.	być	ASG	1	lu	l..u
-1044	ru	lu	l·u	l<0><1><2>u	vin., svin.	быть, являться, существовать	ASG	1	lu	l..u
-1044	sv	lu	l·u	l<0><1><2>u	vin., svin.	vara	ASG	1	lu	l..u
+1044	de	lu	l·u	l<0><1><2>u	vin.	sein, bin, bist, ist, sind (Kopula, Verb der Existenz)	ASG	1	lu	l..u
+1044	en	lu	l·u	l<0><1><2>u	vin.	be, am, is, are	ASG	1	lu	l..u
+1044	et	lu	l·u	l<0><1><2>u	vin.	olema (öeldistäide)	ASG	1	lu	l..u
+1044	fr	lu	l·u	l<0><1><2>u	vin.	être | ([utilisé avec un mot au datif pour former le v.] avoir)	ASG	1	lu	l..u
+1044	hu	lu	l·u	l<0><1><2>u	vin.	van, lenni	ASG	1	lu	l..u
+1044	nl	lu	l·u	l<0><1><2>u	vin.	zijn (existentieel)	ASG	1	lu	l..u
+1044	pl	lu	l·u	l<0><1><2>u	vin.	być	ASG	1	lu	l..u
+1044	ru	lu	l·u	l<0><1><2>u	vin.	быть, являться, существовать	ASG	1	lu	l..u
+1044	sv	lu	l·u	l<0><1><2>u	vin.	vara	ASG	1	lu	l..u
 1048	de	lun	lun	NULL	n.	Grund, Begründung	Frommer	1	lun	NULL
 1048	en	lun	lun	NULL	n.	reason	Frommer	1	lun	NULL
 1048	et	lun	lun	NULL	n.	põhjus	Frommer	1	lun	NULL
@@ -2577,15 +2577,15 @@
 1472	pl	pätsì	ˈpæ.t͡sɪ	NULL	n.	odznaka, symbol	Taronyu's Dictionary -> Survival Guide	1	pä-tsì	NULL
 1472	ru	pätsì	ˈpæ.t͡sɪ	NULL	n.	эмблема, символ, знак	Taronyu's Dictionary -> Survival Guide	1	pä-tsì	NULL
 1472	sv	pätsì	ˈpæ.t͡sɪ	NULL	n.	bricka, emblem	Taronyu's Dictionary -> Survival Guide	1	pä-tsì	NULL
-1476	de	pawm	p·awm	p<0><1><2>awm	v.	fragen	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
-1476	en	pawm	p·awm	p<0><1><2>awm	v.	ask	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
-1476	et	pawm	p·awm	p<0><1><2>awm	v.	küsima	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
-1476	fr	pawm	p·awm	p<0><1><2>awm	v.	interroger	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
-1476	hu	pawm	p·awm	p<0><1><2>awm	v.	kérdez	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
-1476	nl	pawm	p·awm	p<0><1><2>awm	v.	vragen	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
-1476	pl	pawm	p·awm	p<0><1><2>awm	v.	pytać, prosić	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
-1476	ru	pawm	p·awm	p<0><1><2>awm	v.	просить, спрашивать	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
-1476	sv	pawm	p·awm	p<0><1><2>awm	v.	fråga	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	de	pawm	p·awm	p<0><1><2>awm	vtr.	fragen	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	en	pawm	p·awm	p<0><1><2>awm	vtr.	ask	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	et	pawm	p·awm	p<0><1><2>awm	vtr.	küsima	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	fr	pawm	p·awm	p<0><1><2>awm	vtr.	interroger	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	hu	pawm	p·awm	p<0><1><2>awm	vtr.	kérdez	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	nl	pawm	p·awm	p<0><1><2>awm	vtr.	vragen	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	pl	pawm	p·awm	p<0><1><2>awm	vtr.	pytać, prosić	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	ru	pawm	p·awm	p<0><1><2>awm	vtr.	просить, спрашивать	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
+1476	sv	pawm	p·awm	p<0><1><2>awm	vtr.	fråga	Activist Survival Guide; (31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	pawm	p..awm
 1480	de	pay	paj	NULL	n.	Wasser, Flüssigkeit	Taronyu's Dictionary 9.661 < Frommer	1	pay	NULL
 1480	en	pay	paj	NULL	n.	water, liquid	Taronyu's Dictionary 9.661 < Frommer	1	pay	NULL
 1480	et	pay	paj	NULL	n.	vesi, vedelik	Taronyu's Dictionary 9.661 < Frommer	1	pay	NULL
@@ -2721,15 +2721,15 @@
 1540	pl	pizayu	ˈpi.za.ju	NULL	n.	przodek	Taronyu's Dictionary -> Survival Guide	1	pi-za-yu	NULL
 1540	ru	pizayu	ˈpi.za.ju	NULL	n.	прародитель, предок	Taronyu's Dictionary -> Survival Guide	1	pi-za-yu	NULL
 1540	sv	pizayu	ˈpi.za.ju	NULL	n.	förfader	Taronyu's Dictionary -> Survival Guide	1	pi-za-yu	NULL
-1544	de	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	sprechen, reden	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
-1544	en	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	speak	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
-1544	et	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	rääkima	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
-1544	fr	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	parler	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
-1544	hu	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	beszél	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
-1544	nl	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	spreken	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
-1544	pl	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	mówić, rozmawiać	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
-1544	ru	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	говорить, изъясняться	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
-1544	sv	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	v.	prata, tala	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	de	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	sprechen, reden	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	en	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	speak	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	et	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	rääkima	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	fr	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	parler	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	hu	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	beszél	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	nl	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	spreken	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	pl	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	mówić, rozmawiać	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	ru	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	говорить, изъясняться	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
+1544	sv	plltxe	p·ḷ.ˈt'·ɛ	p<0><1>lltx<2>e	vtr.	prata, tala	Taronyu's Dictionary -> Survival Guide	2	pll-txe	p.lltx.e
 1548	de	po	po	NULL	pn.	er, sie	Taronyu's Dictionary -> Survival Guide	1	po	NULL
 1548	en	po	po	NULL	pn.	he, she	Taronyu's Dictionary -> Survival Guide	1	po	NULL
 1548	et	po	po	NULL	pn.	tema	Taronyu's Dictionary -> Survival Guide	1	po	NULL
@@ -3171,15 +3171,15 @@
 1788	pl	si	s·i	s<0><1><2>i	vin.	czasownik posiłkowy robić, tworzyć	Frommer	1	si	s..i
 1788	ru	si	s·i	s<0><1><2>i	vin.	вспомогательный глагол, постпозиционный несвязный глагол делать	Frommer	1	si	s..i
 1788	sv	si	s·i	s<0><1><2>i	vin.	hjälpverb, ickebindande verb göra	Frommer	1	si	s..i
-1792	de	sì	sɪ	NULL	conj.	und (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
-1792	en	sì	sɪ	NULL	conj.	and (connects two things, can be attached as sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
-1792	et	sì	sɪ	NULL	conj.	ja (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
-1792	fr	sì	sɪ	NULL	conj.	et (pour lier deux choses)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
-1792	hu	sì	sɪ	NULL	conj.	és (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
-1792	nl	sì	sɪ	NULL	conj.	en (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
-1792	pl	sì	sɪ	NULL	conj.	i (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
-1792	ru	sì	sɪ	NULL	conj.	и (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
-1792	sv	sì	sɪ	NULL	conj.	och (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	de	sì	sɪ	NULL	part.	und (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	en	sì	sɪ	NULL	part.	and (connects two things, can be attached as sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	et	sì	sɪ	NULL	part.	ja (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	fr	sì	sɪ	NULL	part.	et (pour lier deux choses)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	hu	sì	sɪ	NULL	part.	és (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	nl	sì	sɪ	NULL	part.	en (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	pl	sì	sɪ	NULL	part.	i (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	ru	sì	sɪ	NULL	part.	и (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
+1792	sv	sì	sɪ	NULL	part.	och (connects two things, can be attached as --sì: for clauses use)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sì	NULL
 1796	de	sìk	sɪk̚	NULL	adv.	Zitat Ende (siehe auch san)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sìk	NULL
 1796	en	sìk	sɪk̚	NULL	adv.	unquote	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sìk	NULL
 1796	et	sìk	sɪk̚	NULL	adv.	otsekõne lõpp	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	sìk	NULL
@@ -4224,15 +4224,15 @@
 2304	pl	tutan	tu.ˈtan	NULL	n.	mężczyzna	(stress) http://forum.learnnavi.org/language-updates/words-some-new-some-made-clear/msg145127/#msg145127 (16 Mar 2010)	2	tu-tan	NULL
 2304	ru	tutan	tu.ˈtan	NULL	n.	мужчина	(stress) http://forum.learnnavi.org/language-updates/words-some-new-some-made-clear/msg145127/#msg145127 (16 Mar 2010)	2	tu-tan	NULL
 2304	sv	tutan	tu.ˈtan	NULL	n.	manlig person	(stress) http://forum.learnnavi.org/language-updates/words-some-new-some-made-clear/msg145127/#msg145127 (16 Mar 2010)	2	tu-tan	NULL
-2316	de	tsa'u	ˈt͡sa.ʔu	NULL	dem.	jenes, das (Ding)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
-2316	en	tsa'u	ˈt͡sa.ʔu	NULL	dem.	that (thing)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
-2316	et	tsa'u	ˈt͡sa.ʔu	NULL	dem.	see (asi)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
-2316	fr	tsa'u	ˈt͡sa.ʔu	NULL	dem.	ça | cela	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
-2316	hu	tsa'u	ˈt͡sa.ʔu	NULL	dem.	az (dolog)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
-2316	nl	tsa'u	ˈt͡sa.ʔu	NULL	dem.	dat (ding)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
-2316	pl	tsa'u	ˈt͡sa.ʔu	NULL	dem.	tamta (rzecz)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
-2316	ru	tsa'u	ˈt͡sa.ʔu	NULL	dem.	то, тот (объект), та (вещь)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
-2316	sv	tsa'u	ˈt͡sa.ʔu	NULL	dem.	den där, det där (saken)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	de	tsa'u	ˈt͡sa.ʔu	NULL	n.	jenes, das (Ding)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	en	tsa'u	ˈt͡sa.ʔu	NULL	n.	that (thing)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	et	tsa'u	ˈt͡sa.ʔu	NULL	n.	see (asi)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	fr	tsa'u	ˈt͡sa.ʔu	NULL	n.	ça | cela	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	hu	tsa'u	ˈt͡sa.ʔu	NULL	n.	az (dolog)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	nl	tsa'u	ˈt͡sa.ʔu	NULL	n.	dat (ding)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	pl	tsa'u	ˈt͡sa.ʔu	NULL	n.	tamta (rzecz)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	ru	tsa'u	ˈt͡sa.ʔu	NULL	n.	то, тот (объект), та (вещь)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
+2316	sv	tsa'u	ˈt͡sa.ʔu	NULL	n.	den där, det där (saken)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-'u	NULL
 2320	de	tsaheylu	t͡sa.ˈhɛj.lu	NULL	n.	Band, (neurale) Verbindung	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-hey-lu	NULL
 2320	en	tsaheylu	t͡sa.ˈhɛj.lu	NULL	n.	bond (neural connection)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-hey-lu	NULL
 2320	et	tsaheylu	t͡sa.ˈhɛj.lu	NULL	n.	side	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-hey-lu	NULL
@@ -4242,15 +4242,15 @@
 2320	pl	tsaheylu	t͡sa.ˈhɛj.lu	NULL	n.	więź (połączenie neuralne)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-hey-lu	NULL
 2320	ru	tsaheylu	t͡sa.ˈhɛj.lu	NULL	n.	нейросвязь (между на'ви и живым миром)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-hey-lu	NULL
 2320	sv	tsaheylu	t͡sa.ˈhɛj.lu	NULL	n.	band, förbindelse (nervanslutning)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-hey-lu	NULL
-2328	de	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	das (diese Aktion)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
-2328	en	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	that (action)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
-2328	et	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	see (tegevus)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
-2328	fr	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	cette action	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
-2328	hu	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	az (cselekvés)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
-2328	nl	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	dat, die (actie)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
-2328	pl	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	tamta (czyność)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
-2328	ru	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	указание на действие	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
-2328	sv	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	dem.	den där (handlingen)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	de	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	das (diese Aktion)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	en	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	that (action)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	et	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	see (tegevus)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	fr	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	cette action	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	hu	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	az (cselekvés)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	nl	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	dat, die (actie)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	pl	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	tamta (czyność)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	ru	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	указание на действие	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
+2328	sv	tsakem	ˈt͡sa.kɛm] or [t͡sa.ˈkɛm	NULL	n.	den där (handlingen)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-kem	NULL
 2332	de	tsakrr	t͡sa.ˈkṛ	NULL	adv.	da, dann, zu diesem Zeitpunkt, jene Zeit	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/	2	tsa-krr	NULL
 2332	en	tsakrr	t͡sa.ˈkṛ	NULL	adv.	then, at that time, that time	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/	2	tsa-krr	NULL
 2332	et	tsakrr	t͡sa.ˈkṛ	NULL	adv.	siis, sel ajal	Frommer (31. Mrz 2012) http://naviteri.org/2012/03/spring-vocabulary-part-2/	2	tsa-krr	NULL
@@ -4296,24 +4296,24 @@
 2348	pl	tsap'alute	t͡sap.ˈʔa.lu.tɛ	NULL	n.	przeprosiny	Taronyu's Dictionary -> Survival Guide	2	tsap-'a-lu-te	NULL
 2348	ru	tsap'alute	t͡sap.ˈʔa.lu.tɛ	NULL	n.	извинение, прощение	Taronyu's Dictionary -> Survival Guide	2	tsap-'a-lu-te	NULL
 2348	sv	tsap'alute	t͡sap.ˈʔa.lu.tɛ	NULL	n.	ursäkt	Taronyu's Dictionary -> Survival Guide	2	tsap-'a-lu-te	NULL
-2352	de	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	dort, da, jener Platz	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2352	en	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	there, that place	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2352	et	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	seal, selles kohas, see koht	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2352	fr	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	Ici | là | cette place	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2352	hu	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	ott, az(on) a hely(en)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2352	nl	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	daar, die plaats	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2352	pl	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	tam, w tamtym miejscu	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2352	ru	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	тут, здесь (указание на место)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2352	sv	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	dem., n.	där, det stället	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
-2356	de	tsatu	ˈt͡sa.tu	NULL	dem.	der, die, diese Person (da)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
-2356	en	tsatu	ˈt͡sa.tu	NULL	dem.	that person	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
-2356	et	tsatu	ˈt͡sa.tu	NULL	dem.	see (isik)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
-2356	fr	tsatu	ˈt͡sa.tu	NULL	dem.	cette personne	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
-2356	hu	tsatu	ˈt͡sa.tu	NULL	dem.	ő	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
-2356	nl	tsatu	ˈt͡sa.tu	NULL	dem.	die persoon	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
-2356	pl	tsatu	ˈt͡sa.tu	NULL	dem.	tamta osoba	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
-2356	ru	tsatu	ˈt͡sa.tu	NULL	dem.	этот (указание на землянина или на'ви)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
-2356	sv	tsatu	ˈt͡sa.tu	NULL	dem.	den där (personen)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2352	de	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	dort, da, jener Platz	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2352	en	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	there, that place	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2352	et	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	seal, selles kohas, see koht	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2352	fr	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	Ici | là | cette place	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2352	hu	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	ott, az(on) a hely(en)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2352	nl	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	daar, die plaats	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2352	pl	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	tam, w tamtym miejscu	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2352	ru	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	тут, здесь (указание на место)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2352	sv	tsatseng	t͡sa.ˈt͡sɛŋ] or [ˈt͡sa.t͡sɛŋ	NULL	n.	där, det stället	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tsa-tseng	NULL
+2356	de	tsatu	ˈt͡sa.tu	NULL	n.	der, die, diese Person (da)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2356	en	tsatu	ˈt͡sa.tu	NULL	n.	that person	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2356	et	tsatu	ˈt͡sa.tu	NULL	n.	see (isik)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2356	fr	tsatu	ˈt͡sa.tu	NULL	n.	cette personne	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2356	hu	tsatu	ˈt͡sa.tu	NULL	n.	ő	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2356	nl	tsatu	ˈt͡sa.tu	NULL	n.	die persoon	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2356	pl	tsatu	ˈt͡sa.tu	NULL	n.	tamta osoba	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2356	ru	tsatu	ˈt͡sa.tu	NULL	n.	этот (указание на землянина или на'ви)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
+2356	sv	tsatu	ˈt͡sa.tu	NULL	n.	den där (personen)	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsa-tu	NULL
 2360	de	tsawke	ˈt͡saw.kɛ	NULL	n.	Sonne	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsaw-ke	NULL
 2360	en	tsawke	ˈt͡saw.kɛ	NULL	n.	sun; Alpha Centauri A	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsaw-ke	NULL
 2360	et	tsawke	ˈt͡saw.kɛ	NULL	n.	päike	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsaw-ke	NULL
@@ -4332,15 +4332,15 @@
 2364	pl	tsawl	t͡sawl	NULL	adj.	duży, wysoki	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsawl	NULL
 2364	ru	tsawl	t͡sawl	NULL	adj.	большой, высокий, крупный по телосложению	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsawl	NULL
 2364	sv	tsawl	t͡sawl	NULL	adj.	stor (i storlek), lång	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsawl	NULL
-2368	de	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	Unideltabaum, wörtl. Große dicke Wurzel, magellum deltoids	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	en	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	unidelta tree, lit. tall large root	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	et	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	Tüvipuu (unidelta tree) 	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	fr	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	[Magellum deltoids] | [Forme abrégée]: tsawlapx	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	hu	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	unidelta fa, szó sz. magas, hatalmas gyökér (pandorai növényfaj)	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	nl	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	unideltaboom, let. hoge grote wortel	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	pl	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	magellum deltiods, drzewo unidelta	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	ru	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	«высокий большой корень»	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	sv	tsawlapxangrr	ˈt͡sawl.a.p'a.ŋṛ	NULL	n.	stor, lång rot	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	de	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	Unideltabaum, wörtl. Große dicke Wurzel, magellum deltoids	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	en	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unidelta tree, lit. tall large root	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	et	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	Tüvipuu (unidelta tree) 	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	fr	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	[Magellum deltoids] | [Forme abrégée]: tsawlapx	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	hu	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unidelta fa, szó sz. magas, hatalmas gyökér (pandorai növényfaj)	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	nl	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unideltaboom, let. hoge grote wortel	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	pl	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	magellum deltiods, drzewo unidelta	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	ru	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	«высокий большой корень»	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	sv	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	stor, lång rot	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
 2376	de	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	sehen (im physischen Sinne)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tse-'a	ts.e'.a
 2376	en	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	see (physical sense)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tse-'a	ts.e'.a
 2376	et	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	nägema (otseselt)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tse-'a	ts.e'.a
@@ -4943,15 +4943,15 @@
 2708	pl	'ewll	ˈʔɛ.wḷ	NULL	n.	roślina	Taronyu's Dictionary 9.576 < Frommer	1	'e-wll	NULL
 2708	ru	'ewll	ˈʔɛ.wḷ	NULL	n.	растение	Taronyu's Dictionary 9.576 < Frommer	1	'e-wll	NULL
 2708	sv	'ewll	ˈʔɛ.wḷ	NULL	n.	planta, växt	Taronyu's Dictionary 9.576 < Frommer	1	'e-wll	NULL
-2716	de	wrrpa	ˈwṛ.pa	NULL	n., adv.	außen, außen liegend, Außenseite	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
-2716	en	wrrpa	ˈwṛ.pa	NULL	n., adv.	outside	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
-2716	et	wrrpa	ˈwṛ.pa	NULL	n., adv.	õu, väljas, õues	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
-2716	fr	wrrpa	ˈwṛ.pa	NULL	n., adv.	extérieur	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
-2716	hu	wrrpa	ˈwṛ.pa	NULL	n., adv.	valamin kívüli	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
-2716	nl	wrrpa	ˈwṛ.pa	NULL	n., adv.	buiten	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
-2716	pl	wrrpa	ˈwṛ.pa	NULL	n., adv.	zewnętrze, na zewnątrz	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
-2716	ru	wrrpa	ˈwṛ.pa	NULL	n., adv.	внешний, наружный	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
-2716	sv	wrrpa	ˈwṛ.pa	NULL	n., adv.	utomhus, ute	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	de	wrrpa	ˈwṛ.pa	NULL	adv., n.	außen, außen liegend, Außenseite	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	en	wrrpa	ˈwṛ.pa	NULL	adv., n.	outside	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	et	wrrpa	ˈwṛ.pa	NULL	adv., n.	õu, väljas, õues	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	fr	wrrpa	ˈwṛ.pa	NULL	adv., n.	extérieur	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	hu	wrrpa	ˈwṛ.pa	NULL	adv., n.	valamin kívüli	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	nl	wrrpa	ˈwṛ.pa	NULL	adv., n.	buiten	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	pl	wrrpa	ˈwṛ.pa	NULL	adv., n.	zewnętrze, na zewnątrz	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	ru	wrrpa	ˈwṛ.pa	NULL	adv., n.	внешний, наружный	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
+2716	sv	wrrpa	ˈwṛ.pa	NULL	adv., n.	utomhus, ute	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	wrr-pa	NULL
 2720	de	wutso	ˈwu.t͡so	NULL	n.	Abendessen, Mahlzeit	Taronyu's Dictionary 9.665 < Frommer	1	wu-tso	NULL
 2720	en	wutso	ˈwu.t͡so	NULL	n.	dinner, served meal	Taronyu's Dictionary 9.665 < Frommer	1	wu-tso	NULL
 2720	et	wutso	ˈwu.t͡so	NULL	n.	õhtusöök, serveeritud söök	Taronyu's Dictionary 9.665 < Frommer	1	wu-tso	NULL
@@ -5480,15 +5480,15 @@
 3812	pl	sar	s·aɾ	s<0><1><2>ar	vtr.	używać, stosować	Frommer http://forum.learnnavi.org/language-updates/score!-%281%29-the-verb-to-use-%282%29-more-detail-on-teya-si/	1	sar	s..ar
 3812	ru	sar	s·aɾ	s<0><1><2>ar	vtr.	использовать, применять, употреблять	Frommer http://forum.learnnavi.org/language-updates/score!-%281%29-the-verb-to-use-%282%29-more-detail-on-teya-si/	1	sar	s..ar
 3812	sv	sar	s·aɾ	s<0><1><2>ar	vtr.	använda	Frommer http://forum.learnnavi.org/language-updates/score!-%281%29-the-verb-to-use-%282%29-more-detail-on-teya-si/	1	sar	s..ar
-3816	de	sim	s·im	s<0><1><2>im	svin.	nah/näher sein	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
-3816	en	sim	s·im	s<0><1><2>im	svin.	be near	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
-3816	et	sim	s·im	s<0><1><2>im	svin.	lähedal olema	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
-3816	fr	sim	s·im	s<0><1><2>im	svin.	être près de	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
-3816	hu	sim	s·im	s<0><1><2>im	svin.	közel van	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
-3816	nl	sim	s·im	s<0><1><2>im	svin.	dichtbij zijn	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
-3816	pl	sim	s·im	s<0><1><2>im	svin.	być blisko	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
-3816	ru	sim	s·im	s<0><1><2>im	svin.	находиться поблизости	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
-3816	sv	sim	s·im	s<0><1><2>im	svin.	nära, vara nära	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	de	sim	s·im	s<0><1><2>im	vin.	nah/näher sein	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	en	sim	s·im	s<0><1><2>im	vin.	be near	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	et	sim	s·im	s<0><1><2>im	vin.	lähedal olema	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	fr	sim	s·im	s<0><1><2>im	vin.	être près de	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	hu	sim	s·im	s<0><1><2>im	vin.	közel van	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	nl	sim	s·im	s<0><1><2>im	vin.	dichtbij zijn	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	pl	sim	s·im	s<0><1><2>im	vin.	być blisko	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	ru	sim	s·im	s<0><1><2>im	vin.	находиться поблизости	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
+3816	sv	sim	s·im	s<0><1><2>im	vin.	nära, vara nära	Taronyu's Dictionary 9.53 < Frommer	1	sim	s..im
 3820	de	sleyku	slɛj.ˈk·u	sleyk<0><1><2>u	vtr.	produzieren, herstellen, erzeugen	Taronyu's Dictionary 9.53 < Frommer	2	sley-ku	sleyk..u
 3820	en	sleyku	slɛj.ˈk·u	sleyk<0><1><2>u	vtr.	produce	Taronyu's Dictionary 9.53 < Frommer	2	sley-ku	sleyk..u
 3820	et	sleyku	slɛj.ˈk·u	sleyk<0><1><2>u	vtr.	looma, tekitama	Taronyu's Dictionary 9.53 < Frommer	2	sley-ku	sleyk..u
@@ -6128,15 +6128,15 @@
 4136	pl	pamrel si	pam.ˈɾɛl ˈs·i	pamrel s<0><1><2>i	vin.	pisać	http://forum.learnnavi.org/language-updates/words-some-new-some-made-clear/msg145127/#msg145127 (16 Mar 2010)	2	pam-rel si	pamrel s..i
 4136	ru	pamrel si	pam.ˈɾɛl ˈs·i	pamrel s<0><1><2>i	vin.	писать	http://forum.learnnavi.org/language-updates/words-some-new-some-made-clear/msg145127/#msg145127 (16 Mar 2010)	2	pam-rel si	pamrel s..i
 4136	sv	pamrel si	pam.ˈɾɛl ˈs·i	pamrel s<0><1><2>i	vin.	skriva	http://forum.learnnavi.org/language-updates/words-some-new-some-made-clear/msg145127/#msg145127 (16 Mar 2010)	2	pam-rel si	pamrel s..i
-4140	de	furia	ˈfu.ɾi.a	NULL	pn., sbd.	dass (NebensatzMarker)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
-4140	en	furia	ˈfu.ɾi.a	NULL	pn., sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
-4140	et	furia	ˈfu.ɾi.a	NULL	pn., sbd.	see, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
-4140	fr	furia	ˈfu.ɾi.a	NULL	pn., sbd.	que (marqueur de subordination)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
-4140	hu	furia	ˈfu.ɾi.a	NULL	pn., sbd.	annak, hogy (alárendelő mellékmondat kötőszava)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
-4140	nl	furia	ˈfu.ɾi.a	NULL	pn., sbd.	dat	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
-4140	pl	furia	ˈfu.ɾi.a	NULL	pn., sbd.	który (jeśli chodzi o tego, którego)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
-4140	ru	furia	ˈfu.ɾi.a	NULL	pn., sbd.	что (соединительный союз в сложноподчиненном предложении)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
-4140	sv	furia	ˈfu.ɾi.a	NULL	pn., sbd.	att (klausul bisatsmarkör)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	de	furia	ˈfu.ɾi.a	NULL	sbd.	dass (NebensatzMarker)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	en	furia	ˈfu.ɾi.a	NULL	sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	et	furia	ˈfu.ɾi.a	NULL	sbd.	see, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	fr	furia	ˈfu.ɾi.a	NULL	sbd.	que (marqueur de subordination)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	hu	furia	ˈfu.ɾi.a	NULL	sbd.	annak, hogy (alárendelő mellékmondat kötőszava)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	nl	furia	ˈfu.ɾi.a	NULL	sbd.	dat	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	pl	furia	ˈfu.ɾi.a	NULL	sbd.	który (jeśli chodzi o tego, którego)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	ru	furia	ˈfu.ɾi.a	NULL	sbd.	что (соединительный союз в сложноподчиненном предложении)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
+4140	sv	furia	ˈfu.ɾi.a	NULL	sbd.	att (klausul bisatsmarkör)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	fu-ri-a	NULL
 4144	de	fratseng	ˈfɾa.t͡sɛŋ	NULL	adv.	überall	Frommer http://forum.learnnavi.org/language-updates/minor-updates-anticipated-confirmations/msg138940/#msg138940	1	fra-tseng	NULL
 4144	en	fratseng	ˈfɾa.t͡sɛŋ	NULL	adv.	everywhere	Frommer http://forum.learnnavi.org/language-updates/minor-updates-anticipated-confirmations/msg138940/#msg138940	1	fra-tseng	NULL
 4144	et	fratseng	ˈfɾa.t͡sɛŋ	NULL	adv.	igal pool	Frommer http://forum.learnnavi.org/language-updates/minor-updates-anticipated-confirmations/msg138940/#msg138940	1	fra-tseng	NULL
@@ -6713,15 +6713,15 @@
 4432	pl	kllpa	ˈkḷ.pa	NULL	n.	dno, spód	Taronyu's Dictionary 9.58 < Frommer	1	kll-pa	NULL
 4432	ru	kllpa	ˈkḷ.pa	NULL	n.	низ, дно	Taronyu's Dictionary 9.58 < Frommer	1	kll-pa	NULL
 4432	sv	kllpa	ˈkḷ.pa	NULL	n.	botten	Taronyu's Dictionary 9.58 < Frommer	1	kll-pa	NULL
-4436	de	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	Innenseite, innen, innseitig	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
-4436	en	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	inside	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
-4436	et	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	(millegi) sees	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
-4436	fr	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	dans | dedans	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
-4436	hu	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	belseje, belül, odabent	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
-4436	nl	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	binnen	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
-4436	pl	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	wnętrze, wewnątrz	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
-4436	ru	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	внутри, внутренняя сторона	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
-4436	sv	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	n., adv.	inomhus, inne	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	de	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	Innenseite, innen, innseitig	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	en	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	inside	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	et	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	(millegi) sees	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	fr	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	dans | dedans	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	hu	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	belseje, belül, odabent	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	nl	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	binnen	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	pl	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	wnętrze, wewnątrz	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	ru	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	внутри, внутренняя сторона	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
+4436	sv	mìfa	ˈmɪ.fa] or [mɪ.ˈfa	NULL	adv., n.	inomhus, inne	Taronyu's Dictionary 9.663 < Frommer	1	mì-fa	NULL
 4440	de	nefä	nɛ.ˈfæ	NULL	adv.	nach oben, oben (Richtung)	Taronyu's Dictionary 9.58 < Frommer	2	ne-fä	NULL
 4440	en	nefä	nɛ.ˈfæ	NULL	adv.	up (direction)	Taronyu's Dictionary 9.58 < Frommer	2	ne-fä	NULL
 4440	et	nefä	nɛ.ˈfæ	NULL	adv.	üles (suund)	Taronyu's Dictionary 9.58 < Frommer	2	ne-fä	NULL
@@ -7890,15 +7890,15 @@
 4988	pl	tì'efu	tɪ.ˈʔɛ.fu	NULL	n.	odczucie	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	tì-'e-fu	NULL
 4988	ru	tì'efu	tɪ.ˈʔɛ.fu	NULL	n.	ощущение, чувство	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	tì-'e-fu	NULL
 4988	sv	tì'efu	tɪ.ˈʔɛ.fu	NULL	n.	känsla	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	tì-'e-fu	NULL
-4996	de	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	geduldig sein, gedulden (ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
-4996	en	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	be patient (ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
-4996	et	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	kannatlik olema (e)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
-4996	fr	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	être calme | patient	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
-4996	hu	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	türelmes(nek lenni)(ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
-4996	nl	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	geduld hebben (ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
-4996	pl	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	być cierpliwym (ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
-4996	ru	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	терпеть, быть терпеливым	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
-4996	sv	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	svin.	vara tålmodig	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	de	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	geduldig sein, gedulden (ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	en	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	be patient (ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	et	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	kannatlik olema (e)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	fr	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	être calme | patient	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	hu	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	türelmes(nek lenni)(ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	nl	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	geduld hebben (ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	pl	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	być cierpliwym (ii)	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	ru	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	терпеть, быть терпеливым	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
+4996	sv	maweypey	ma.ˈwɛj.p·ɛj	maweyp<0><1><2>ey	vin.	vara tålmodig	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	ma-wey-pey	maweyp..ey
 5000	de	tìmweypey	tɪm.ˈwɛj.pɛj	NULL	n.	Geduld	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	tìm-wey-pey	NULL
 5000	en	tìmweypey	tɪm.ˈwɛj.pɛj	NULL	n.	patience	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	tìm-wey-pey	NULL
 5000	et	tìmweypey	tɪm.ˈwɛj.pɛj	NULL	n.	kannatlikkus	Frommer (22. April 2010) http://forum.learnnavi.org/language-updates/trr-rrtaya/	2	tìm-wey-pey	NULL
@@ -8412,15 +8412,15 @@
 5256	pl	kxll si	ˈk'ḷ ˈs·i	kxll s<0><1><2>i	vin.	szarżować	Frommer (4. May 2010) http://forum.learnnavi.org/language-updates/charge-%28verb%29/	1	kxll si	kxll s..i
 5256	ru	kxll si	ˈk'ḷ ˈs·i	kxll s<0><1><2>i	vin.	нападать	Frommer (4. May 2010) http://forum.learnnavi.org/language-updates/charge-%28verb%29/	1	kxll si	kxll s..i
 5256	sv	kxll si	ˈk'ḷ ˈs·i	kxll s<0><1><2>i	vin.	attack, anfall	Frommer (4. May 2010) http://forum.learnnavi.org/language-updates/charge-%28verb%29/	1	kxll si	kxll s..i
-5268	de	tsaw	t͡saw	NULL	dem., pn.	es, das (als intransitives Subjekt)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
-5268	en	tsaw	t͡saw	NULL	dem., pn.	that, it (as intransitive subject)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
-5268	et	tsaw	t͡saw	NULL	dem., pn.	see (sama nagu tsa'u	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
-5268	fr	tsaw	t͡saw	NULL	dem., pn.	cette (chose) | [Forme abrégée de]: tsa'u	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
-5268	hu	tsaw	t͡saw	NULL	dem., pn.	az (mutatónévmás)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
-5268	nl	tsaw	t͡saw	NULL	dem., pn.	dat, het (als nietovergankelijk onderwerp)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
-5268	pl	tsaw	t͡saw	NULL	dem., pn.	tamta (rzecz)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
-5268	ru	tsaw	t͡saw	NULL	dem., pn.	это, то (синоним tsa'u)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
-5268	sv	tsaw	t͡saw	NULL	dem., pn.	det, den (som intransitiv subjekt)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	de	tsaw	t͡saw	NULL	pn.	es, das (als intransitives Subjekt)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	en	tsaw	t͡saw	NULL	pn.	that, it (as intransitive subject)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	et	tsaw	t͡saw	NULL	pn.	see (sama nagu tsa'u	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	fr	tsaw	t͡saw	NULL	pn.	cette (chose) | [Forme abrégée de]: tsa'u	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	hu	tsaw	t͡saw	NULL	pn.	az (mutatónévmás)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	nl	tsaw	t͡saw	NULL	pn.	dat, het (als nietovergankelijk onderwerp)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	pl	tsaw	t͡saw	NULL	pn.	tamta (rzecz)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	ru	tsaw	t͡saw	NULL	pn.	это, то (синоним tsa'u)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
+5268	sv	tsaw	t͡saw	NULL	pn.	det, den (som intransitiv subjekt)	http://forum.learnnavi.org/language-updates/some-glossed-over-words/msg254625/#msg254625 (03 Jul 2010)	1	tsaw	NULL
 5272	de	tsalsungay	t͡sal.su.ˈŋaj	NULL	adv.	dennoch, trotzdem, allerdings	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/	3	tsal-su-ngay	NULL
 5272	en	tsalsungay	t͡sal.su.ˈŋaj	NULL	adv.	nevertheless, even so	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/	3	tsal-su-ngay	NULL
 5272	et	tsalsungay	t͡sal.su.ˈŋaj	NULL	adv.	siiski, sellest hoolimata	Frommer (21. April 2010) http://forum.learnnavi.org/language-updates/ayliu-niul-ta-karyu-pawl/	3	tsal-su-ngay	NULL
@@ -8717,15 +8717,15 @@
 5416	pl	sresrr'ong	sɾɛ.sṛ.ˈʔoŋ	NULL	n.	przed brzaskiem	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	3	sre-srr-'ong	NULL
 5416	ru	sresrr'ong	sɾɛ.sṛ.ˈʔoŋ	NULL	n.	утро перед рассветом	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	3	sre-srr-'ong	NULL
 5416	sv	sresrr'ong	sɾɛ.sṛ.ˈʔoŋ	NULL	n.	före gryning	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	3	sre-srr-'ong	NULL
-5424	de	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	aufregend, faszinierend sein (Umgangssprache) (mit DativSubjekt)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
-5424	en	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	be amazing, fascinating (slang)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
-5424	et	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	lahe olema, kõva värk olema	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
-5424	fr	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	être étonnant | être fascinant	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
-5424	hu	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	„állat”, „sirály”, „király”. (slang)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
-5424	nl	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	verbazing wekken (spreektaal)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
-5424	pl	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	być wspaniałym, fascynujacym (posp.)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
-5424	ru	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	быть удивленным, восхищенным (сленг)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
-5424	sv	wou	ˈw·o.·u	w<0><1>o<2>u	svin.	att vara fascinerande, otrolig (slangord)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	de	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	aufregend, faszinierend sein (Umgangssprache) (mit DativSubjekt)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	en	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	be amazing, fascinating (slang)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	et	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	lahe olema, kõva värk olema	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	fr	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	être étonnant | être fascinant	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	hu	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	„állat”, „sirály”, „király”. (slang)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	nl	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	verbazing wekken (spreektaal)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	pl	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	być wspaniałym, fascynujacym (posp.)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	ru	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	быть удивленным, восхищенным (сленг)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
+5424	sv	wou	ˈw·o.·u	w<0><1>o<2>u	vin.	att vara fascinerande, otrolig (slangord)	Frommer (18. June 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	wo-u	w.o.u
 5428	de	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	Giraffe (Lehnwort)	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)	2	tsyì-rä-fì	NULL
 5428	en	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	giraffe	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)	2	tsyì-rä-fì	NULL
 5428	et	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	Kaelkirjak	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)	2	tsyì-rä-fì	NULL
@@ -8735,33 +8735,33 @@
 5428	pl	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	żyrafa	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)	2	tsyì-rä-fì	NULL
 5428	ru	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	жираф	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)	2	tsyì-rä-fì	NULL
 5428	sv	tsyìräfì	t͡sjɪ.ˈɾæ.fɪ	NULL	n.	giraff	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010)	2	tsyì-rä-fì	NULL
-5432	de	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	das (Relativpronomen)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5432	en	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5432	et	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	see, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5432	fr	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	ce	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5432	hu	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	hogy (alárendelő tagmondat jelző)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5432	nl	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	dat	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5432	pl	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	który	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5432	ru	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	что	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5432	sv	tsawa	ˈt͡sa.wa	NULL	pn., sbd.	den, det, som (bisatsmarkör)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
-5436	de	tsata	ˈt͡sa.ta	NULL	pn., sbd.	das (Relativpronomen)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5436	en	tsata	ˈt͡sa.ta	NULL	pn., sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5436	et	tsata	ˈt͡sa.ta	NULL	pn., sbd.	seda, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5436	fr	tsata	ˈt͡sa.ta	NULL	pn., sbd.	que	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5436	hu	tsata	ˈt͡sa.ta	NULL	pn., sbd.	hogy (alárendelő tagmondat jelző)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5436	nl	tsata	ˈt͡sa.ta	NULL	pn., sbd.	dat	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5436	pl	tsata	ˈt͡sa.ta	NULL	pn., sbd.	którego	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5436	ru	tsata	ˈt͡sa.ta	NULL	pn., sbd.	что	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5436	sv	tsata	ˈt͡sa.ta	NULL	pn., sbd.	det, den, som (klausul bisatsmarkör)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
-5440	de	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	das (Relativpronomen)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
-5440	en	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
-5440	et	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	see, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
-5440	fr	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	que	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
-5440	hu	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	hogy (alárendelő tagmondat jelző)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
-5440	nl	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	dat 	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
-5440	pl	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	który (jeśli chodzi o tamtego, który)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
-5440	ru	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	что	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
-5440	sv	tsaria	ˈt͡sa.ɾi.a	NULL	pn., sbd.	den, det (klausul bisatsmarkör)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5432	de	tsawa	ˈt͡sa.wa	NULL	sbd.	das (Relativpronomen)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5432	en	tsawa	ˈt͡sa.wa	NULL	sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5432	et	tsawa	ˈt͡sa.wa	NULL	sbd.	see, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5432	fr	tsawa	ˈt͡sa.wa	NULL	sbd.	ce	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5432	hu	tsawa	ˈt͡sa.wa	NULL	sbd.	hogy (alárendelő tagmondat jelző)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5432	nl	tsawa	ˈt͡sa.wa	NULL	sbd.	dat	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5432	pl	tsawa	ˈt͡sa.wa	NULL	sbd.	który	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5432	ru	tsawa	ˈt͡sa.wa	NULL	sbd.	что	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5432	sv	tsawa	ˈt͡sa.wa	NULL	sbd.	den, det, som (bisatsmarkör)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-wa	NULL
+5436	de	tsata	ˈt͡sa.ta	NULL	sbd.	das (Relativpronomen)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5436	en	tsata	ˈt͡sa.ta	NULL	sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5436	et	tsata	ˈt͡sa.ta	NULL	sbd.	seda, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5436	fr	tsata	ˈt͡sa.ta	NULL	sbd.	que	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5436	hu	tsata	ˈt͡sa.ta	NULL	sbd.	hogy (alárendelő tagmondat jelző)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5436	nl	tsata	ˈt͡sa.ta	NULL	sbd.	dat	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5436	pl	tsata	ˈt͡sa.ta	NULL	sbd.	którego	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5436	ru	tsata	ˈt͡sa.ta	NULL	sbd.	что	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5436	sv	tsata	ˈt͡sa.ta	NULL	sbd.	det, den, som (klausul bisatsmarkör)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ta	NULL
+5440	de	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	das (Relativpronomen)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5440	en	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	that	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5440	et	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	see, mis	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5440	fr	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	que	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5440	hu	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	hogy (alárendelő tagmondat jelző)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5440	nl	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	dat 	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5440	pl	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	który (jeśli chodzi o tamtego, który)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5440	ru	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	что	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
+5440	sv	tsaria	ˈt͡sa.ɾi.a	NULL	sbd.	den, det (klausul bisatsmarkör)	(18 Jun 2010) http://forum.learnnavi.org/language-updates/txelanit-hivawl/	1	tsa-ri-a	NULL
 5444	de	alo	ˈa.lo	NULL	n.	Mal (eine Reihe von sich wiederholenden Handlungen); Reihe, am Zug sein	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010) http://wiki.learnnavi.org/Canon/2010/UltxaAyharyu%C3%A4#Alo (01 Oct 2010)	1	a-lo	NULL
 5444	en	alo	ˈa.lo	NULL	n.	time, turn, instance, one of a number of repeated or recurring actions	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010) http://wiki.learnnavi.org/Canon/2010/UltxaAyharyu%C3%A4#Alo (01 Oct 2010)	1	a-lo	NULL
 5444	et	alo	ˈa.lo	NULL	n.	kord (Näiteks kolm korda)	http://forum.learnnavi.org/language-updates/txelanit-hivawl/ (18 Jun 2010) http://wiki.learnnavi.org/Canon/2010/UltxaAyharyu%C3%A4#Alo (01 Oct 2010)	1	a-lo	NULL
@@ -9943,15 +9943,15 @@
 6324	pl	netrìp	ˈnɛt.ɾɪp̚	NULL	adv.	szczęśliwie, wesoło	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	net-rìp	NULL
 6324	ru	netrìp	ˈnɛt.ɾɪp̚	NULL	adv.	счастливо, удачно	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	net-rìp	NULL
 6324	sv	netrìp	ˈnɛt.ɾɪp̚	NULL	adv.	lyckligt, lyckligtvis	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	net-rìp	NULL
-6328	de	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	neugierig sein, wissen wollen	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
-6328	en	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	be curious, want to know	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
-6328	et	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	huvi tundma, teada tahtma	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
-6328	fr	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	être curieux | vouloir savoir	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
-6328	hu	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	kíváncsi(nak lenni), tudni akar	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
-6328	nl	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	nieuwsgierig zijn, willen weten	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
-6328	pl	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	być ciekawskim	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
-6328	ru	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	любопытствовать, желать понять	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
-6328	sv	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	svin.	vara nyfiken, vilja veta	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	de	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	neugierig sein, wissen wollen	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	en	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	be curious, want to know	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	et	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	huvi tundma, teada tahtma	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	fr	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	être curieux | vouloir savoir	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	hu	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	kíváncsi(nak lenni), tudni akar	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	nl	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	nieuwsgierig zijn, willen weten	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	pl	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	być ciekawskim	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	ru	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	любопытствовать, желать понять	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
+6328	sv	newomum	n·ɛw.ˈo.mum	n<0><1><2>ewomum	vin.	vara nyfiken, vilja veta	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	new-o-mum	n..ewomum
 6332	de	lenomum	lɛ.ˈno.mum	NULL	adj.	neugierig	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	le-no-mum	NULL
 6332	en	lenomum	lɛ.ˈno.mum	NULL	adj.	curious	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	le-no-mum	NULL
 6332	et	lenomum	lɛ.ˈno.mum	NULL	adj.	uudishimulik	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	2	le-no-mum	NULL
@@ -10132,15 +10132,15 @@
 6416	pl	zìsìkrr	ˈzɪ.sɪ.kṛ	NULL	n.	pora roku	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zì-sì-krr	NULL
 6416	ru	zìsìkrr	ˈzɪ.sɪ.kṛ	NULL	n.	время года	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zì-sì-krr	NULL
 6416	sv	zìsìkrr	ˈzɪ.sɪ.kṛ	NULL	n.	säsong, årstid	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zì-sì-krr	NULL
-6420	de	zo	z·o	z<0><1><2>o	svin.	gutgehen, intakt sein; sein, wie es die Natur vorgesehen hat	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
-6420	en	zo	z·o	z<0><1><2>o	svin.	be well, be intact, be as it should be, work correctly or as nature intended	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
-6420	et	zo	z·o	z<0><1><2>o	svin.	hästi olema., olema nii, nagu peab., töötama nii, nagu ette nähtud.	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
-6420	fr	zo	z·o	z<0><1><2>o	svin.	être bien | intacte | être comme ça doit être	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
-6420	hu	zo	z·o	z<0><1><2>o	svin.	jól lenni, rendben lenni, rendben működni	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
-6420	nl	zo	z·o	z<0><1><2>o	svin.	gezond zijn, goed functioneren, zijn zoals het hoort	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
-6420	pl	zo	z·o	z<0><1><2>o	svin.	być w dobrym stanie, być nienaruszonym, działać poprawnie lub w naturalny sposób	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
-6420	ru	zo	z·o	z<0><1><2>o	svin.	быть в хорошем состоянии, быть «как следует» или в соответствии с природой	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
-6420	sv	zo	z·o	z<0><1><2>o	svin.	vara hälsosam, vara intakt, vara som det ska vara eller som naturen menat	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	de	zo	z·o	z<0><1><2>o	vin.	gutgehen, intakt sein; sein, wie es die Natur vorgesehen hat	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	en	zo	z·o	z<0><1><2>o	vin.	be well, be intact, be as it should be, work correctly or as nature intended	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	et	zo	z·o	z<0><1><2>o	vin.	hästi olema., olema nii, nagu peab., töötama nii, nagu ette nähtud.	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	fr	zo	z·o	z<0><1><2>o	vin.	être bien | intacte | être comme ça doit être	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	hu	zo	z·o	z<0><1><2>o	vin.	jól lenni, rendben lenni, rendben működni	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	nl	zo	z·o	z<0><1><2>o	vin.	gezond zijn, goed functioneren, zijn zoals het hoort	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	pl	zo	z·o	z<0><1><2>o	vin.	być w dobrym stanie, być nienaruszonym, działać poprawnie lub w naturalny sposób	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	ru	zo	z·o	z<0><1><2>o	vin.	быть в хорошем состоянии, быть «как следует» или в соответствии с природой	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
+6420	sv	zo	z·o	z<0><1><2>o	vin.	vara hälsosam, vara intakt, vara som det ska vara eller som naturen menat	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo	z..o
 6424	de	zoslu	ˈzo.sl·u	zosl<0><1><2>u	vin.	gut werden, geheilt sein (ii)	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo-slu	zosl..u
 6424	en	zoslu	ˈzo.sl·u	zosl<0><1><2>u	vin.	heal, become well, get fixed (ii)	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo-slu	zosl..u
 6424	et	zoslu	ˈzo.sl·u	zosl<0><1><2>u	vin.	paranema, korda saama (e)	Frommers Blog (16. July 2010) http://naviteri.org/2010/07/vocabulary-update/	1	zo-slu	zosl..u
@@ -10888,15 +10888,15 @@
 6844	pl	sopyu	ˈsop.ju	NULL	n.	podróżnik	Frommer (30. September 2010) http://naviteri.org/2010/09/quick-follow-up/	1	sop-yu	NULL
 6844	ru	sopyu	ˈsop.ju	NULL	n.	путешественник	Frommer (30. September 2010) http://naviteri.org/2010/09/quick-follow-up/	1	sop-yu	NULL
 6844	sv	sopyu	ˈsop.ju	NULL	n.	resande, resenär	Frommer (30. September 2010) http://naviteri.org/2010/09/quick-follow-up/	1	sop-yu	NULL
-6848	de	fula	ˈfu.la	NULL	pn., sbd.	das, diese Sache, dass (RelativsatzEinleiter)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
-6848	en	fula	ˈfu.la	NULL	pn., sbd.	that	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
-6848	et	fula	ˈfu.la	NULL	pn., sbd.	see, mis	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
-6848	fr	fula	ˈfu.la	NULL	pn., sbd.	que (marqueur de subordination)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
-6848	hu	fula	ˈfu.la	NULL	pn., sbd.	azt, hogy (alárendelt tagmondatot jelez)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
-6848	nl	fula	ˈfu.la	NULL	pn., sbd.	dat	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
-6848	pl	fula	ˈfu.la	NULL	pn., sbd.	który (forma ergatywu)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
-6848	ru	fula	ˈfu.la	NULL	pn., sbd.	что	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
-6848	sv	fula	ˈfu.la	NULL	pn., sbd.	den, det, som (klausul bisatsmarkör)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	de	fula	ˈfu.la	NULL	sbd.	das, diese Sache, dass (RelativsatzEinleiter)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	en	fula	ˈfu.la	NULL	sbd.	that	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	et	fula	ˈfu.la	NULL	sbd.	see, mis	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	fr	fula	ˈfu.la	NULL	sbd.	que (marqueur de subordination)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	hu	fula	ˈfu.la	NULL	sbd.	azt, hogy (alárendelt tagmondatot jelez)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	nl	fula	ˈfu.la	NULL	sbd.	dat	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	pl	fula	ˈfu.la	NULL	sbd.	który (forma ergatywu)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	ru	fula	ˈfu.la	NULL	sbd.	что	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
+6848	sv	fula	ˈfu.la	NULL	sbd.	den, det, som (klausul bisatsmarkör)	(30 September 2010) http://forum.learnnavi.org/language-updates/fula-short-form-of-fiul-a-and-tsal-oeti-steyki-nitram/	1	fu-la	NULL
 6852	de	tskxekeng si	ˈt͡sk'ɛ.kɛŋ ˈs·i	tskxekeng s<0><1><2>i	vin.	üben, trainieren	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	tskxe-keng si	tskxekeng s..i
 6852	en	tskxekeng si	ˈt͡sk'ɛ.kɛŋ ˈs·i	tskxekeng s<0><1><2>i	vin.	exercise, train	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	tskxe-keng si	tskxekeng s..i
 6852	et	tskxekeng si	ˈt͡sk'ɛ.kɛŋ ˈs·i	tskxekeng s<0><1><2>i	vin.	harjutama, treenima	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	tskxe-keng si	tskxekeng s..i
@@ -10933,15 +10933,15 @@
 6864	pl	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	spędzać czas ze sobą, spotykać się	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/	1	kä-teng	k..äteng
 6864	ru	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	тратить время на	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/	1	kä-teng	k..äteng
 6864	sv	käteng	ˈk·æ.tɛŋ	k<0><1><2>äteng	vin.	spendera tid med, hänga med	Frommer (3. April 2010) http://forum.learnnavi.org/language-updates/mipa-ayliu-teri-tusaftxua-filifya!/	1	kä-teng	k..äteng
-6868	de	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	beschäftigt sein	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
-6868	en	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	be busy, be occupied	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
-6868	et	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	hõivatud olema	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
-6868	fr	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	être occupé	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
-6868	hu	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	elfoglalt, tevékeny	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
-6868	nl	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	bezig zijn, druk zijn	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
-6868	pl	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	być zajętym	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
-6868	ru	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	иметь занятие	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
-6868	sv	'ìn	ʔ·ɪn	'<0><1><2>ìn	svin.	vara upptagen, vara sysselsatt	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	de	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	beschäftigt sein	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	en	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	be busy, be occupied	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	et	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	hõivatud olema	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	fr	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	être occupé	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	hu	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	elfoglalt, tevékeny	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	nl	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	bezig zijn, druk zijn	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	pl	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	być zajętym	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	ru	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	иметь занятие	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
+6868	sv	'ìn	ʔ·ɪn	'<0><1><2>ìn	vin.	vara upptagen, vara sysselsatt	http://naviteri.org/2010/09/getting-to-know-you-part-3/ (29 September 2010)	1	'ìn	'..ìn
 6872	de	Sweriye	swɛɾijɛ	NULL	prop.n.	Schweden	Frommer (02.-03. October 2010) http://forum.learnnavi.org/navi-lernen/frommersche-neuigkeiten-%28neue-worter-reflexiv-meine-name-ist-%29/msg325879/#msg325879	1	Sweriye	NULL
 6872	en	Sweriye	swɛɾijɛ	NULL	prop.n.	Sweden	Frommer (02.-03. October 2010) http://forum.learnnavi.org/navi-lernen/frommersche-neuigkeiten-%28neue-worter-reflexiv-meine-name-ist-%29/msg325879/#msg325879	1	Sweriye	NULL
 6872	et	Sweriye	swɛɾijɛ	NULL	prop.n.	Rootsi	Frommer (02.-03. October 2010) http://forum.learnnavi.org/navi-lernen/frommersche-neuigkeiten-%28neue-worter-reflexiv-meine-name-ist-%29/msg325879/#msg325879	1	Sweriye	NULL
@@ -10960,24 +10960,24 @@
 6876	pl	nìfkrr	nɪ.ˈfkṛ	NULL	adv.	obecnie, ostatnio	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	nì-fkrr	NULL
 6876	ru	nìfkrr	nɪ.ˈfkṛ	NULL	adv.	позднее, сейчас	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	nì-fkrr	NULL
 6876	sv	nìfkrr	nɪ.ˈfkṛ	NULL	adv.	nyligen, för närvarande	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	nì-fkrr	NULL
-6880	de	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	beschäftigt sein (positiv), in etwas vertieft sein, das man besonders gern macht	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6880	en	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	be busy (positive sense), be engrossed in something one finds especially pleasant and energizing	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6880	et	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	hõivatud olema (heas mõttes); olema keskendunud millelegi, mis on rahustav ja huvi pakkuv	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6880	fr	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	être occupé (dans le sens positif du truc être occupé par une activité plaisante)	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6880	hu	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	elfoglalt(nak lenni) (pozitív értelemben), elmélyed valamiben, amit különösen kellemesnek talál	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6880	nl	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	bezig zijn (positief), iets doen wat je leuk en opwekkend vindt	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6880	pl	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	być zajętym (w pozytywnym znaczeniu), być pochłoniętym czymś interesującym i pasonującym	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6880	ru	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	быть занятым (в позитивном смысле), быть поглощенным чемто увлекательным	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6880	sv	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	svin.	vara upptagen (på ett positivt sätt): hålla på med något som anses vara särskilt roligt och njutbart	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
-6884	de	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	beschäftigt sein (negativ): von einer Aktivität überfordert oder ermüdet sein	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
-6884	en	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	be busy (negative sense): be tired out and overwhelmed by an activity that's keeping one busy	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
-6884	et	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	hõivatud olema (halvas mõttes); olema väsinud ja küllastunud mingist hõivavast tegevusest	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
-6884	fr	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	être occupé (dans le sens négatif du truc)	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
-6884	hu	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	elfoglalt(nak lenni) (negatív értelemben): „nyakig ül a munkában”	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
-6884	nl	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	bezig zijn (negatief), moe/overweldigd zijn door een activiteit	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
-6884	pl	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	być zajętym (w negatywnym znaczeniu), być zmęczonym i zawalonym daną czynnością	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
-6884	ru	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	быть занятым (в отрицательном смысле), быть утомленным и задавленным неким делом	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
-6884	sv	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	svin.	vara upptagen (på ett negativt sätt): vara trött på en aktivitet som man är upptagen med	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6880	de	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	beschäftigt sein (positiv), in etwas vertieft sein, das man besonders gern macht	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6880	en	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	be busy (positive sense), be engrossed in something one finds especially pleasant and energizing	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6880	et	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	hõivatud olema (heas mõttes); olema keskendunud millelegi, mis on rahustav ja huvi pakkuv	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6880	fr	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	être occupé (dans le sens positif du truc être occupé par une activité plaisante)	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6880	hu	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	elfoglalt(nak lenni) (pozitív értelemben), elmélyed valamiben, amit különösen kellemesnek talál	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6880	nl	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	bezig zijn (positief), iets doen wat je leuk en opwekkend vindt	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6880	pl	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	być zajętym (w pozytywnym znaczeniu), być pochłoniętym czymś interesującym i pasonującym	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6880	ru	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	быть занятым (в позитивном смысле), быть поглощенным чемто увлекательным	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6880	sv	sulìn	ˈs·u.l·ɪn	s<0><1>ul<2>ìn	vin.	vara upptagen (på ett positivt sätt): hålla på med något som anses vara särskilt roligt och njutbart	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	su-lìn	s.ul.ìn
+6884	de	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	beschäftigt sein (negativ): von einer Aktivität überfordert oder ermüdet sein	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6884	en	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	be busy (negative sense): be tired out and overwhelmed by an activity that's keeping one busy	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6884	et	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	hõivatud olema (halvas mõttes); olema väsinud ja küllastunud mingist hõivavast tegevusest	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6884	fr	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	être occupé (dans le sens négatif du truc)	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6884	hu	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	elfoglalt(nak lenni) (negatív értelemben): „nyakig ül a munkában”	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6884	nl	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	bezig zijn (negatief), moe/overweldigd zijn door een activiteit	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6884	pl	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	być zajętym (w negatywnym znaczeniu), być zmęczonym i zawalonym daną czynnością	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6884	ru	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	быть занятым (в отрицательном смысле), быть утомленным и задавленным неким делом	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
+6884	sv	vrrìn	ˈv·ṛ.·ɪn	v<0><1>rr<2>ìn	vin.	vara upptagen (på ett negativt sätt): vara trött på en aktivitet som man är upptagen med	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	1	vrr-ìn	v.rr.ìn
 6888	de	tìk'ìn	tɪk.ˈʔɪn	NULL	n.	Freizeit, Abwesenheit von Geschäftigkeit	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	tìk-'ìn	NULL
 6888	en	tìk'ìn	tɪk.ˈʔɪn	NULL	n.	free time, the absence of business	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	tìk-'ìn	NULL
 6888	et	tìk'ìn	tɪk.ˈʔɪn	NULL	n.	vaba aeg, hõivatuse puudumine	Frommer (29. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-3/	2	tìk-'ìn	NULL
@@ -11482,15 +11482,15 @@
 7292	pl	nìronsrel	nɪ.ˈɾon.sɾɛl	NULL	adv.	w wyobraźni, w sposób urojony	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	nì-ron-srel	NULL
 7292	ru	nìronsrel	nɪ.ˈɾon.sɾɛl	NULL	adv.	в воображении	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	nì-ron-srel	NULL
 7292	sv	nìronsrel	nɪ.ˈɾon.sɾɛl	NULL	adv.	genom att föreställa sig, föreställandes	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	nì-ron-srel	NULL
-7296	de	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	erwarten, voraussetzen, annehmen	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
-7296	en	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	expect	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
-7296	et	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	ootama, lootma (millegi tulekule)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
-7296	fr	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	s'attendre	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
-7296	hu	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	elvár, számít valamire	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
-7296	nl	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	verwachten	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
-7296	pl	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	spodziewac się, oczekiwać	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
-7296	ru	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	ожидать	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
-7296	sv	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr., vin.	förvänta sig, förvänta, vänta sig	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	de	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	erwarten, voraussetzen, annehmen	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	en	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	expect	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	et	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	ootama, lootma (millegi tulekule)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	fr	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	s'attendre	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	hu	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	elvár, számít valamire	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	nl	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	verwachten	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	pl	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	spodziewac się, oczekiwać	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	ru	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	ожидать	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
+7296	sv	srefey	sɾɛ.ˈf·ɛj	sref<0><1><2>ey	vtr.	förvänta sig, förvänta, vänta sig	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	2	sre-fey	sref..ey
 7304	de	mawl	mawl	NULL	n.	Hälfte, einhalb	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	1	mawl	NULL
 7304	en	mawl	mawl	NULL	n.	half	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	1	mawl	NULL
 7304	et	mawl	mawl	NULL	n.	pool (millestki)	Frommer (20.2.2011) http://naviteri.org/2011/02/new-vocabulary-part-2/	1	mawl	NULL
@@ -11841,15 +11841,15 @@
 7464	pl	vospxìay	vo.sp'ɪ.ˈaj	NULL	n.	przyszły miesiąc	Frommer (05. April 2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	3	vo-spxì-ay	NULL
 7464	ru	vospxìay	vo.sp'ɪ.ˈaj	NULL	n.	следующий месяц	Frommer (05. April 2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	3	vo-spxì-ay	NULL
 7464	sv	vospxìay	vo.sp'ɪ.ˈaj	NULL	n.	nästa månad	Frommer (05. April 2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	3	vo-spxì-ay	NULL
-7468	de	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	sollen	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
-7468	en	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	should	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
-7468	et	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	peaks (pidama tingiv kv.)	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
-7468	fr	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	devoir ([au conditionnel présent; suggestion]) | ([suivi de] txo)	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
-7468	hu	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	kellene	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
-7468	nl	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	zouden	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
-7468	pl	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	powinno się	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
-7468	ru	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	следует	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
-7468	sv	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	v.	borde, bör, skulle	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	de	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	sollen	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	en	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	should	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	et	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	peaks (pidama tingiv kv.)	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	fr	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	devoir ([au conditionnel présent; suggestion]) | ([suivi de] txo)	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	hu	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	kellene	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	nl	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	zouden	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	pl	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	powinno się	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	ru	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	следует	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
+7468	sv	sweylu	ˈswɛj.l·u	sweyl<0><1><2>u	vin.	borde, bör, skulle	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	swey-lu	sweyl..u
 7472	de	ye	jɛ	NULL	adj.	zufrieden; gesättigt, voll	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	ye	NULL
 7472	en	ye	jɛ	NULL	adj.	satisfied, content, satiated, full	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	ye	NULL
 7472	et	ye	jɛ	NULL	adj.	rahul, rahuldatud, täidetud	Frommer (05.04.2011) http://naviteri.org/2011/04/%E2%80%99a%E2%80%99awa-li%E2%80%99fyavi-amip%E2%80%94a-few-new-expressions/	1	ye	NULL
@@ -13647,14 +13647,14 @@
 8340	nl	ekxtxu	ɛk'.ˈt'u	NULL	adj.	ruw	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	2	ekx-txu	NULL
 8340	pl	ekxtxu	ɛk'.ˈt'u	NULL	adj.	szorstki, nierówny	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	2	ekx-txu	NULL
 8340	ru	ekxtxu	ɛk'.ˈt'u	NULL	adj.	грубый	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	2	ekx-txu	NULL
-8344	de	yo'	j·oʔ̚	y<0><1><2>o'	svin.	perfekt, makellos, fehlerfrei sein	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
-8344	en	yo'	j·oʔ̚	y<0><1><2>o'	svin.	be perfect, flawless	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
-8344	et	yo'	j·oʔ̚	y<0><1><2>o'	svin.	ideaalne olema, veatu olema	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
-8344	fr	yo'	j·oʔ̚	y<0><1><2>o'	svin.	être parfait | être sans défaut	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
-8344	hu	yo'	j·oʔ̚	y<0><1><2>o'	svin.	tökéletes(nek lenni), hibátlan(nak lenni)	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
-8344	nl	yo'	j·oʔ̚	y<0><1><2>o'	svin.	perfect zijn, foutloos zijn	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
-8344	pl	yo'	j·oʔ̚	y<0><1><2>o'	svin.	być doskonałym, nieskazitelnym	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
-8344	ru	yo'	j·oʔ̚	y<0><1><2>o'	svin.	быть совершенным, безуперчным	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
+8344	de	yo'	j·oʔ̚	y<0><1><2>o'	vin.	perfekt, makellos, fehlerfrei sein	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
+8344	en	yo'	j·oʔ̚	y<0><1><2>o'	vin.	be perfect, flawless	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
+8344	et	yo'	j·oʔ̚	y<0><1><2>o'	vin.	ideaalne olema, veatu olema	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
+8344	fr	yo'	j·oʔ̚	y<0><1><2>o'	vin.	être parfait | être sans défaut	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
+8344	hu	yo'	j·oʔ̚	y<0><1><2>o'	vin.	tökéletes(nek lenni), hibátlan(nak lenni)	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
+8344	nl	yo'	j·oʔ̚	y<0><1><2>o'	vin.	perfect zijn, foutloos zijn	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
+8344	pl	yo'	j·oʔ̚	y<0><1><2>o'	vin.	być doskonałym, nieskazitelnym	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
+8344	ru	yo'	j·oʔ̚	y<0><1><2>o'	vin.	быть совершенным, безуперчным	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	1	yo'	y..o'
 8348	de	nìyo'	nɪ.ˈjoʔ̚	NULL	adv.	in perfekter, makelloser, fehlerfreier Weise	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	2	nì-yo'	NULL
 8348	en	nìyo'	nɪ.ˈjoʔ̚	NULL	adv.	perfectly, flawlessly	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	2	nì-yo'	NULL
 8348	et	nìyo'	nɪ.ˈjoʔ̚	NULL	adv.	ideaalselt, veatult	Frommer (09. January 2012) http://naviteri.org/2012/01/mipa-zisit-ayliu-amip-new-words-for-the-new-year/	2	nì-yo'	NULL
@@ -14582,14 +14582,14 @@
 8848	nl	zey	zɛj	NULL	adj.	speciaal, apart	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	zey	NULL
 8848	pl	zey	zɛj	NULL	adj.	specjalny, wyjątkowy	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	zey	NULL
 8848	ru	zey	zɛj	NULL	adj.	особый	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	zey	NULL
-8852	de	vll	v·ḷ	v<0><1><2>ll	vin., vtr.	hinweisen, (auf etwas) zeigen, weisen, hindeuten	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
-8852	en	vll	v·ḷ	v<0><1><2>ll	vin., vtr.	indicate, point at	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
-8852	et	vll	v·ḷ	v<0><1><2>ll	vin., vtr.	näitama, osutama	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
-8852	fr	vll	v·ḷ	v<0><1><2>ll	vin., vtr.	pointer | désigner | indiquer	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
-8852	hu	vll	v·ḷ	v<0><1><2>ll	vin., vtr.	jelez, mutat	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
-8852	nl	vll	v·ḷ	v<0><1><2>ll	vin., vtr.	aanwijzen	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
-8852	pl	vll	v·ḷ	v<0><1><2>ll	vin., vtr.	oznaczać, wskazywać na	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
-8852	ru	vll	v·ḷ	v<0><1><2>ll	vin., vtr.	указывать	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
+8852	de	vll	v·ḷ	v<0><1><2>ll	vtr.	hinweisen, (auf etwas) zeigen, weisen, hindeuten	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
+8852	en	vll	v·ḷ	v<0><1><2>ll	vtr.	indicate, point at	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
+8852	et	vll	v·ḷ	v<0><1><2>ll	vtr.	näitama, osutama	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
+8852	fr	vll	v·ḷ	v<0><1><2>ll	vtr.	pointer | désigner | indiquer	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
+8852	hu	vll	v·ḷ	v<0><1><2>ll	vtr.	jelez, mutat	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
+8852	nl	vll	v·ḷ	v<0><1><2>ll	vtr.	aanwijzen	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
+8852	pl	vll	v·ḷ	v<0><1><2>ll	vtr.	oznaczać, wskazywać na	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
+8852	ru	vll	v·ḷ	v<0><1><2>ll	vtr.	указывать	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	vll	v..ll
 8856	de	eykyu	ˈɛjk.ju	NULL	n.	Anführer (meist einer kleinen Gruppe oder Jägertrupp)	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	eyk-yu	NULL
 8856	en	eykyu	ˈɛjk.ju	NULL	n.	leader (typically temporary, of a small group like a hunting party)	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	eyk-yu	NULL
 8856	et	eykyu	ˈɛjk.ju	NULL	n.	juht (ajutine, näiteks jahi ajal)	Frommer (19 Jun 2012) http://naviteri.org/2012/06/spring-vocabulary-part-3/	1	eyk-yu	NULL
@@ -14806,38 +14806,38 @@
 8964	nl	säflä	sæ.ˈflæ	NULL	n.	succes (een moment van succes)	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	2	sä-flä	NULL
 8964	pl	säflä	sæ.ˈflæ	NULL	n.	sukces, powodzenie (jednorazowe zakonczenie czegoś powodzeniem)	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	2	sä-flä	NULL
 8964	ru	säflä	sæ.ˈflæ	NULL	n.	успех	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	2	sä-flä	NULL
-8968	de	mesrram	mɛ.sṛ.ˈam	NULL	n., adv.	Tag vor zwei Tagen, vorgestern	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
-8968	en	mesrram	mɛ.sṛ.ˈam	NULL	n., adv.	the day before yesterday, two days ago	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
-8968	et	mesrram	mɛ.sṛ.ˈam	NULL	n., adv.	üleeile	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
-8968	fr	mesrram	mɛ.sṛ.ˈam	NULL	n., adv.	il y a deux jours	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
-8968	hu	mesrram	mɛ.sṛ.ˈam	NULL	n., adv.	tegnapelőtt, két napja	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
-8968	nl	mesrram	mɛ.sṛ.ˈam	NULL	n., adv.	eergisteren, twee dagen geleden	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
-8968	pl	mesrram	mɛ.sṛ.ˈam	NULL	n., adv.	przedwczoraj	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
-8968	ru	mesrram	mɛ.sṛ.ˈam	NULL	n., adv.	позапозавчера	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
-8972	de	mesrray	mɛ.sṛ.ˈaj	NULL	n., adv.	Tag nach morgen, übermorgen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
-8972	en	mesrray	mɛ.sṛ.ˈaj	NULL	n., adv.	the day after tomorrow, two days from now	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
-8972	et	mesrray	mɛ.sṛ.ˈaj	NULL	n., adv.	ülehomme	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
-8972	fr	mesrray	mɛ.sṛ.ˈaj	NULL	n., adv.	dans deux jours	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
-8972	hu	mesrray	mɛ.sṛ.ˈaj	NULL	n., adv.	holnapután, két nap múlva	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
-8972	nl	mesrray	mɛ.sṛ.ˈaj	NULL	n., adv.	overmorgen, over twee dagen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
-8972	pl	mesrray	mɛ.sṛ.ˈaj	NULL	n., adv.	pojutrze	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
-8972	ru	mesrray	mɛ.sṛ.ˈaj	NULL	n., adv.	послепослезавтра	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
-8976	de	pxesrram	p'ɛ.sṛ.ˈam	NULL	n., adv.	vor drei Tagen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
-8976	en	pxesrram	p'ɛ.sṛ.ˈam	NULL	n., adv.	three days ago	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
-8976	et	pxesrram	p'ɛ.sṛ.ˈam	NULL	n., adv.	kolm päeva tagasi	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
-8976	fr	pxesrram	p'ɛ.sṛ.ˈam	NULL	n., adv.	il y a trois jours	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
-8976	hu	pxesrram	p'ɛ.sṛ.ˈam	NULL	n., adv.	3 napja	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
-8976	nl	pxesrram	p'ɛ.sṛ.ˈam	NULL	n., adv.	drie dagen geleden	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
-8976	pl	pxesrram	p'ɛ.sṛ.ˈam	NULL	n., adv.	trzy dni temu	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
-8976	ru	pxesrram	p'ɛ.sṛ.ˈam	NULL	n., adv.	три дня назад	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
-8980	de	pxesrray	p'ɛ.sṛ.ˈaj	NULL	n., adv.	in drei Tagen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
-8980	en	pxesrray	p'ɛ.sṛ.ˈaj	NULL	n., adv.	three days from now	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
-8980	et	pxesrray	p'ɛ.sṛ.ˈaj	NULL	n., adv.	kolme päeva pärast	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
-8980	fr	pxesrray	p'ɛ.sṛ.ˈaj	NULL	n., adv.	dans trois jours	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
-8980	hu	pxesrray	p'ɛ.sṛ.ˈaj	NULL	n., adv.	3 nap múlva	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
-8980	nl	pxesrray	p'ɛ.sṛ.ˈaj	NULL	n., adv.	over drie dagen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
-8980	pl	pxesrray	p'ɛ.sṛ.ˈaj	NULL	n., adv.	za trzy dni	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
-8980	ru	pxesrray	p'ɛ.sṛ.ˈaj	NULL	n., adv.	через три дня	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
+8968	de	mesrram	mɛ.sṛ.ˈam	NULL	adv., n.	Tag vor zwei Tagen, vorgestern	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
+8968	en	mesrram	mɛ.sṛ.ˈam	NULL	adv., n.	the day before yesterday, two days ago	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
+8968	et	mesrram	mɛ.sṛ.ˈam	NULL	adv., n.	üleeile	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
+8968	fr	mesrram	mɛ.sṛ.ˈam	NULL	adv., n.	il y a deux jours	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
+8968	hu	mesrram	mɛ.sṛ.ˈam	NULL	adv., n.	tegnapelőtt, két napja	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
+8968	nl	mesrram	mɛ.sṛ.ˈam	NULL	adv., n.	eergisteren, twee dagen geleden	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
+8968	pl	mesrram	mɛ.sṛ.ˈam	NULL	adv., n.	przedwczoraj	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
+8968	ru	mesrram	mɛ.sṛ.ˈam	NULL	adv., n.	позапозавчера	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-am	NULL
+8972	de	mesrray	mɛ.sṛ.ˈaj	NULL	adv., n.	Tag nach morgen, übermorgen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
+8972	en	mesrray	mɛ.sṛ.ˈaj	NULL	adv., n.	the day after tomorrow, two days from now	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
+8972	et	mesrray	mɛ.sṛ.ˈaj	NULL	adv., n.	ülehomme	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
+8972	fr	mesrray	mɛ.sṛ.ˈaj	NULL	adv., n.	dans deux jours	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
+8972	hu	mesrray	mɛ.sṛ.ˈaj	NULL	adv., n.	holnapután, két nap múlva	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
+8972	nl	mesrray	mɛ.sṛ.ˈaj	NULL	adv., n.	overmorgen, over twee dagen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
+8972	pl	mesrray	mɛ.sṛ.ˈaj	NULL	adv., n.	pojutrze	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
+8972	ru	mesrray	mɛ.sṛ.ˈaj	NULL	adv., n.	послепослезавтра	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	me-srr-ay	NULL
+8976	de	pxesrram	p'ɛ.sṛ.ˈam	NULL	adv., n.	vor drei Tagen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
+8976	en	pxesrram	p'ɛ.sṛ.ˈam	NULL	adv., n.	three days ago	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
+8976	et	pxesrram	p'ɛ.sṛ.ˈam	NULL	adv., n.	kolm päeva tagasi	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
+8976	fr	pxesrram	p'ɛ.sṛ.ˈam	NULL	adv., n.	il y a trois jours	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
+8976	hu	pxesrram	p'ɛ.sṛ.ˈam	NULL	adv., n.	3 napja	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
+8976	nl	pxesrram	p'ɛ.sṛ.ˈam	NULL	adv., n.	drie dagen geleden	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
+8976	pl	pxesrram	p'ɛ.sṛ.ˈam	NULL	adv., n.	trzy dni temu	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
+8976	ru	pxesrram	p'ɛ.sṛ.ˈam	NULL	adv., n.	три дня назад	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-am	NULL
+8980	de	pxesrray	p'ɛ.sṛ.ˈaj	NULL	adv., n.	in drei Tagen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
+8980	en	pxesrray	p'ɛ.sṛ.ˈaj	NULL	adv., n.	three days from now	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
+8980	et	pxesrray	p'ɛ.sṛ.ˈaj	NULL	adv., n.	kolme päeva pärast	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
+8980	fr	pxesrray	p'ɛ.sṛ.ˈaj	NULL	adv., n.	dans trois jours	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
+8980	hu	pxesrray	p'ɛ.sṛ.ˈaj	NULL	adv., n.	3 nap múlva	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
+8980	nl	pxesrray	p'ɛ.sṛ.ˈaj	NULL	adv., n.	over drie dagen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
+8980	pl	pxesrray	p'ɛ.sṛ.ˈaj	NULL	adv., n.	za trzy dni	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
+8980	ru	pxesrray	p'ɛ.sṛ.ˈaj	NULL	adv., n.	через три дня	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	3	pxe-srr-ay	NULL
 8984	de	mong	m·oŋ	m<0><1><2>ong	vtr.	verlassen auf, angewiesen sein auf, auf Schutz vertrauen	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	1	mong	m..ong
 8984	en	mong	m·oŋ	m<0><1><2>ong	vtr.	depend on, rely on, trust for protection	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	1	mong	m..ong
 8984	et	mong	m·oŋ	m<0><1><2>ong	vtr.	sõltuma, toetuma (abile)	Frommer (05 Jul 2012) http://naviteri.org/2012/07/meetings-waterfalls-and-more/	1	mong	m..ong
@@ -16202,14 +16202,14 @@
 9704	nl	postì	ˈpo.stɪ	NULL	n.	artikel (op een forum/blog)	http://naviteri.org/2012/11/renu-ayinanfyaya-the-senses-paradigm/comment-page-1/#comment-1863 (28 November 2012)	1	po-stì	NULL
 9704	pl	postì	ˈpo.stɪ	NULL	n.	post (na forum/blogu)	http://naviteri.org/2012/11/renu-ayinanfyaya-the-senses-paradigm/comment-page-1/#comment-1863 (28 November 2012)	1	po-stì	NULL
 9704	ru	postì	ˈpo.stɪ	NULL	n.	пост (в блоге, на форуме)	http://naviteri.org/2012/11/renu-ayinanfyaya-the-senses-paradigm/comment-page-1/#comment-1863 (28 November 2012)	1	po-stì	NULL
-9708	de	ketsran	kɛ.ˈt͡sɾan	NULL	adj.,  conj.	egal (wer, was, wie, wo), gleichgültig	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
-9708	en	ketsran	kɛ.ˈt͡sɾan	NULL	adj.,  conj.	no matter, no matter what, whatever	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
-9708	et	ketsran	kɛ.ˈt͡sɾan	NULL	adj.,  conj.	tähtsusetu, vähetähtis, misiganes, vahet pole	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
-9708	fr	ketsran	kɛ.ˈt͡sɾan	NULL	adj.,  conj.	peu importe | (n'importe) quoi/quand/où (que ce soit)	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
-9708	hu	ketsran	kɛ.ˈt͡sɾan	NULL	adj.,  conj.	mindegy, bármi	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
-9708	nl	ketsran	kɛ.ˈt͡sɾan	NULL	adj.,  conj.	hoe dan ook	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
-9708	pl	ketsran	kɛ.ˈt͡sɾan	NULL	adj.,  conj.	bez znaczenia, bez względu na	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
-9708	ru	ketsran	kɛ.ˈt͡sɾan	NULL	adj.,  conj.	что бы ни было	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
+9708	de	ketsran	kɛ.ˈt͡sɾan	NULL	adj., conj.	egal (wer, was, wie, wo), gleichgültig	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
+9708	en	ketsran	kɛ.ˈt͡sɾan	NULL	adj., conj.	no matter, no matter what, whatever	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
+9708	et	ketsran	kɛ.ˈt͡sɾan	NULL	adj., conj.	tähtsusetu, vähetähtis, misiganes, vahet pole	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
+9708	fr	ketsran	kɛ.ˈt͡sɾan	NULL	adj., conj.	peu importe | (n'importe) quoi/quand/où (que ce soit)	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
+9708	hu	ketsran	kɛ.ˈt͡sɾan	NULL	adj., conj.	mindegy, bármi	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
+9708	nl	ketsran	kɛ.ˈt͡sɾan	NULL	adj., conj.	hoe dan ook	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
+9708	pl	ketsran	kɛ.ˈt͡sɾan	NULL	adj., conj.	bez znaczenia, bez względu na	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
+9708	ru	ketsran	kɛ.ˈt͡sɾan	NULL	adj., conj.	что бы ни было	http://naviteri.org/2013/03/whoever-whatever-whenever/ (31 Mar 2013)	2	ke-tsran	NULL
 9712	de	kangay si	ka.ˈŋaj s·i	kangay s<0><1><2>i	vin.	bestätigen, bestärken, für gültig erklären	18 November 2012 http://forum.learnnavi.org/language-updates/two-words-in-use-eal-and-kangay-si/msg564284/#msg564284	2	ka-ngay si	kangay s..i
 9712	en	kangay si	ka.ˈŋaj s·i	kangay s<0><1><2>i	vin.	validate, confirm	18 November 2012 http://forum.learnnavi.org/language-updates/two-words-in-use-eal-and-kangay-si/msg564284/#msg564284	2	ka-ngay si	kangay s..i
 9712	et	kangay si	ka.ˈŋaj s·i	kangay s<0><1><2>i	vin.	kindlaks tegema, kinnitama, valideerima	18 November 2012 http://forum.learnnavi.org/language-updates/two-words-in-use-eal-and-kangay-si/msg564284/#msg564284	2	ka-ngay si	kangay s..i
@@ -18154,24 +18154,24 @@
 10960	fr	tsin	t͡sin	NULL	n.	ongle | griffe	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	tsin	NULL
 10960	hu	tsin	t͡sin	NULL	n.	köröm, karom	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	tsin	NULL
 10960	nl	tsin	t͡sin	NULL	n.	nagel, klauw	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	tsin	NULL
-10964	de	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr., vin.	sich übergeben, (etwas) erbrechen	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
-10964	en	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr., vin.	vomit, vomit up	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
-10964	et	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr., vin.	oksendama	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
-10964	fr	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr., vin.	vomir	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
-10964	hu	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr., vin.	hányni	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
-10964	nl	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr., vin.	braken	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
+10964	de	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr.	sich übergeben, (etwas) erbrechen	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
+10964	en	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr.	vomit, vomit up	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
+10964	et	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr.	oksendama	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
+10964	fr	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr.	vomir	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
+10964	hu	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr.	hányni	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
+10964	nl	ue'	·u·ˈɛʔ	<0><1>u<2>e'	vtr.	braken	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	ue'	.u.e'
 10968	de	nantangtsyìp	ˈnan.taŋ.t͡sJɪp̚	NULL	n.	Hund (Erdentier); wörtl. kleiner Vipernwolf	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	nan-tang-tsyìp	NULL
 10968	en	nantangtsyìp	ˈnan.taŋ.t͡sJɪp̚	NULL	n.	dog (earth animal); lit. little nantang	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	nan-tang-tsyìp	NULL
 10968	et	nantangtsyìp	ˈnan.taŋ.t͡sJɪp̚	NULL	n.	koer (maal); väike soomushunt	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	nan-tang-tsyìp	NULL
 10968	fr	nantangtsyìp	ˈnan.taŋ.t͡sJɪp̚	NULL	n.	chien ([animal terrien])	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	nan-tang-tsyìp	NULL
 10968	hu	nantangtsyìp	ˈnan.taŋ.t͡sJɪp̚	NULL	n.	kutya (földi állat), sz.sz.: kis viperafarkas	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	nan-tang-tsyìp	NULL
 10968	nl	nantangtsyìp	ˈnan.taŋ.t͡sJɪp̚	NULL	n.	hond (aards dier); let. kleine nantang	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	nan-tang-tsyìp	NULL
-10972	de	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vin., vtr.	spucken, (etwas) ausspucken	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
-10972	en	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vin., vtr.	spit, spit out	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
-10972	et	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vin., vtr.	sülitama	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
-10972	fr	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vin., vtr.	cracher	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
-10972	hu	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vin., vtr.	köp	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
-10972	nl	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vin., vtr.	spugen, uitspugen	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
+10972	de	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vtr.	spucken, (etwas) ausspucken	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
+10972	en	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vtr.	spit, spit out	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
+10972	et	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vtr.	sülitama	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
+10972	fr	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vtr.	cracher	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
+10972	hu	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vtr.	köp	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
+10972	nl	hiup	ˈh·i.·up̚	h<0><1>i<2>up	vtr.	spugen, uitspugen	http://naviteri.org/2016/06/mrrvola-lifyavi-amip-forty-new-expressions/ (30 Jun 2016)	1	hi-up	h.i.up
 10980	de	räptum	ɾæp.ˈtum	NULL	adj.	anstößig, vulgär, sozial inakzeptabel	http://naviteri.org/2016/12/tengkrr-perahem-zisit-amip-as-the-new-year-arrives/ (31 Dec 2016)	2	räp-tum	NULL
 10980	en	räptum	ɾæp.ˈtum	NULL	adj.	coarse, vulgar, socially unacceptable	http://naviteri.org/2016/12/tengkrr-perahem-zisit-amip-as-the-new-year-arrives/ (31 Dec 2016)	2	räp-tum	NULL
 10980	et	räptum	ɾæp.ˈtum	NULL	adj.	ebaviisakas, sotsiaalselt ebasobilik, vulgaarne, ropp	http://naviteri.org/2016/12/tengkrr-perahem-zisit-amip-as-the-new-year-arrives/ (31 Dec 2016)	2	räp-tum	NULL
@@ -20103,9 +20103,9 @@
 13157	en	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	risky	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
 13157	fr	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	risqué	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
 13157	nl	lekxutslu	lɛ.ˈk'u.t͡slu	NULL	adj.	riskant	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	2	le-kxu-tslu	NULL
-13158	en	fura	ˈfu.ɾa	NULL	pn., sbd.	that	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
-13158	fr	fura	ˈfu.ɾa	NULL	pn., sbd.	que | subordonnée à une proposition d'un verbe qui requiert le datif | forme raccourcie de: fì'ur a	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
-13158	nl	fura	ˈfu.ɾa	NULL	pn., sbd.	dat	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
+13158	en	fura	ˈfu.ɾa	NULL	sbd.	that	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
+13158	fr	fura	ˈfu.ɾa	NULL	sbd.	que | subordonnée à une proposition d'un verbe qui requiert le datif | forme raccourcie de: fì'ur a	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
+13158	nl	fura	ˈfu.ɾa	NULL	sbd.	dat	http://naviteri.org/2020/04/aawa-u-amip-a-few-new-things/	1	fu-ra	NULL
 13159	en	tsìpxì	t͡sɪ.ˈp'ɪ	NULL	n.	one-fourth	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	tsì-pxì	NULL
 13159	fr	tsìpxì	t͡sɪ.ˈp'ɪ	NULL	n.	(un) quart	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	tsì-pxì	NULL
 13160	en	mrrpxì	mṛ.ˈp'ɪ	NULL	n.	one-fifth	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	mrr-pxì	NULL
@@ -20120,6 +20120,27 @@
 13164	fr	sänume si	sæ.ˈnu.mɛ si	sänume s<0><1><2>i	vin.	enseigner, instruire, donner des instructions	https://forum.learnnavi.org/language-updates/little-confirmation-on-teach-and-insult/	2	sä-nu-me si	sänume s..i
 13165	en	vun	v·un	v<0><1><2>un	vtr.	provide	https://forum.learnnavi.org/language-updates/eywa-will-provide!/ (19 May 2020)	1	vun	v..un
 13165	fr	vun	v·un	v<0><1><2>un	vtr.	fournir	https://forum.learnnavi.org/language-updates/eywa-will-provide!/ (19 May 2020)	1	vun	v..un
+13166	en	lew säpi	ˈlɛw sæ.ˌp·i	lew säp<0><1><2>i	vin.	cover oneself	https://forum.learnnavi.org/language-updates/prrwll-moss-the-comparative-to-construct/ (24 Feb 2010)	1	lew sä-pi	lew säp..i
+13167	en	piak säpi	pi.ˈak̚ sæ.ˌp·i	piak säp<0><1><2>i	vin.	open oneself, open by itself, open on its own	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	2	pi-ak sä-pi	piak säp..i
+13168	en	tstu säpi	ˈt͡stu sæ.ˌp·i	tstu säp<0><1><2>i	vin.	close oneself, close by itself, close on its own	https://forum.learnnavi.org/language-updates/open-close/ (17 Jan 2012)	1	tstu sä-pi	tstu säp..i
+13169	en	ioi säpi	i.ˈo.i sæ.ˌp·i	ioi säp<0><1><2>i	vin.	adorn oneself	http://naviteri.org/2011/08/new-vocabulary-clothing/ (03 Aug 2011)	2	i-o-i sä-pi	ioi säp..i
+13170	en	tsawlapx	ˈt͡saw.lap'	NULL	n.	unidelta tree, lit. tall large root	https://forum.learnnavi.org/language-updates/ewll/ (07 Mar 2020)	1	tsaw-lapx	NULL
+13171	en	yìmkxa	ˈjɪm.k'a	NULL	n.	banshee catcher, mouth-binder	https://forum.learnnavi.org/language-updates/new-object/ (30 Oct 2019)	1	yìm-kxa	NULL
+13172	en	äzan	æ.ˈzan	NULL	n.	force, compulsion	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan	NULL
+13173	en	äzan si	æ.ˈzan s·i	äzan s<0><1><2>i	vin.	force, compel	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan si	äzan s..i
+13174	en	äzanluke	æ.ˈzan.lu.kɛ	NULL	adv.	voluntarily, without force or compulsion	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-lu-ke	NULL
+13175	en	äzantu	æ.ˈzan.tu	NULL	n.	domineering person; one who is bossy, authoritarian, or dictatorial	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
+13176	en	nìsok	nɪ.ˈsok̚	NULL	adv.	recently	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	nì-sok	NULL
+13177	en	kemuia	kɛ.ˈmu.i.a	NULL	n.	‘dishonor’	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a	NULL
+13178	en	kemuia si	kɛ.ˈmu.i.a s·i	kemuia s<0><1><2>i	vin.	dishonor	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-a si	kemuia s..i
+13179	en	tìfnawe'	tɪ.fna.ˈwɛʔ	NULL	n.	cowardice	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-fna-we'	NULL
+13180	en	kemuianga'	kɛ.ˈmu.i.a.ŋaʔ	NULL	adj.	dishonorable	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ke-mu-i-anga'	NULL
+13181	en	tìkankxan	tɪ.kan.ˈk'an	NULL	n.	barrier to one’s goals, source of frustration	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxan	NULL
+13182	en	tìkankxanga'	tɪ.kan.ˈk'a.ŋaʔ	NULL	adj.	frustrating	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-kan-kxa-nga'	NULL
+13183	en	lekxan	lɛ.k'an	NULL	adj.	blocked, obstructed; frustrated	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	le-kxan	NULL
+13184	en	ftanglen	ftaŋ.ˈlɛn	ft<0><1>angl<2>en	vtr.	prevent	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ftang-len	ft.angl.en
+13185	en	tìftanglen	tɪ.ftaŋ.ˈlɛn	NULL	n.	prevention	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	3	tì-ftang-len	NULL
+13186	en	pxawtxap	p'aw.ˈt'ap̚	pxawtx<0><1><2>ap	vtr.	squeeze	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	pxaw-txap	pxawtx..ap
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
