@@ -20118,6 +20118,8 @@
 13163	fr	vopxì	vo.ˈp'ɪ	NULL	n.	(un) huitième	http://naviteri.org/2011/02/new-vocabulary-part-2/	2	vo-pxì	NULL
 13164	en	sänume si	sæ.ˈnu.mɛ si	sänume s<0><1><2>i	vin.	teach, instruct, give instruction	https://forum.learnnavi.org/language-updates/little-confirmation-on-teach-and-insult/	2	sä-nu-me si	sänume s..i
 13164	fr	sänume si	sæ.ˈnu.mɛ si	sänume s<0><1><2>i	vin.	enseigner, instruire, donner des instructions	https://forum.learnnavi.org/language-updates/little-confirmation-on-teach-and-insult/	2	sä-nu-me si	sänume s..i
+13165	en	vun	v·un	v<0><1><2>un	vtr.	provide	https://forum.learnnavi.org/language-updates/eywa-will-provide!/ (19 May 2020)	1	vun	v..un
+13165	fr	vun	v·un	v<0><1><2>un	vtr.	fournir	https://forum.learnnavi.org/language-updates/eywa-will-provide!/ (19 May 2020)	1	vun	v..un
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
