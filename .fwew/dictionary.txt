@@ -4332,15 +4332,15 @@
 2364	pl	tsawl	t͡sawl	NULL	adj.	duży, wysoki	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsawl	NULL
 2364	ru	tsawl	t͡sawl	NULL	adj.	большой, высокий, крупный по телосложению	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsawl	NULL
 2364	sv	tsawl	t͡sawl	NULL	adj.	stor (i storlek), lång	http://en.wiktionary.org/wiki/Appendix:Na'vi	1	tsawl	NULL
-2368	de	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	Unideltabaum, wörtl. Große dicke Wurzel, magellum deltoids	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	en	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unidelta tree, lit. tall large root	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	et	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	Tüvipuu (unidelta tree) 	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	fr	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	[Magellum deltoids] | [Forme abrégée]: tsawlapx	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	hu	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unidelta fa, szó sz. magas, hatalmas gyökér (pandorai növényfaj)	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	nl	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unideltaboom, let. hoge grote wortel	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	pl	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	magellum deltiods, drzewo unidelta	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	ru	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	«высокий большой корень»	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
-2368	sv	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	stor, lång rot	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsawl-a-pxa-ngrr	NULL
+2368	de	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	Unideltabaum, wörtl. Große dicke Wurzel, magellum deltoids	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
+2368	en	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unidelta tree, lit. tall large root	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
+2368	et	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	Tüvipuu (unidelta tree) 	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
+2368	fr	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	[Magellum deltoids] | [Forme abrégée]: tsawlapx	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
+2368	hu	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unidelta fa, szó sz. magas, hatalmas gyökér (pandorai növényfaj)	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
+2368	nl	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	unideltaboom, let. hoge grote wortel	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
+2368	pl	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	magellum deltiods, drzewo unidelta	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
+2368	ru	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	«высокий большой корень»	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
+2368	sv	tsawlapxangrr	ˈt͡saw.la.p'a.ŋṛ	NULL	n.	stor, lång rot	http://forum.learnnavi.org/language-updates/ewll/ (4 Jul 2010)	1	tsaw-la-pxa-ngrr	NULL
 2376	de	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	sehen (im physischen Sinne)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tse-'a	ts.e'.a
 2376	en	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	see (physical sense)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tse-'a	ts.e'.a
 2376	et	tse'a	t͡s·ɛ.ˈʔ·a	ts<0><1>e'<2>a	vtr.	nägema (otseselt)	http://en.wiktionary.org/wiki/Appendix:Na'vi	2	tse-'a	ts.e'.a
@@ -10866,7 +10866,7 @@
 6836	et	vewng	v·ɛwŋ	v<0><1><2>ewng	vtr.	hoolitsema, vastutama (millegi/kellegi eest)	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/	1	vewng	v..ewng
 6836	fr	vewng	v·ɛwŋ	v<0><1><2>ewng	vtr.	s'occuper de | prendre soin de	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/	1	vewng	v..ewng
 6836	hu	vewng	v·ɛwŋ	v<0><1><2>ewng	vtr.	vigyáz, gondoskodik, felelős	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/	1	vewng	v..ewng
-6836	nl	vewng	v·ɛwŋ	v<0><1><2>ewng	vtr.	letten op, verantwoordelijk zijn voor	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/	1	vewng	v..ewng
+6836	nl	vewng	v·ɛwŋ	v<0><1><2>ewng	vtr.	letten op, zorgen voor, verantwoordelijk zijn voor	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/	1	vewng	v..ewng
 6836	pl	vewng	v·ɛwŋ	v<0><1><2>ewng	vtr.	opiekować się	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/	1	vewng	v..ewng
 6836	ru	vewng	v·ɛwŋ	v<0><1><2>ewng	vtr.	смотреть на, отвечать за	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/	1	vewng	v..ewng
 6836	sv	vewng	v·ɛwŋ	v<0><1><2>ewng	vtr.	se efter, ta hand om, vara ansvarig för	Frommer (28. September 2010) http://naviteri.org/2010/09/getting-to-know-you-part-2/	1	vewng	v..ewng
@@ -12740,15 +12740,15 @@
 7908	pl	lukpen	luk.ˈpɛn	NULL	adj.	nagi, bez ubrań	Frommer (15. Aug 2011) http://naviteri.org/2011/08/new-vocabulary-clothing/comment-page-1/#comment-988	2	luk-pen	NULL
 7908	ru	lukpen	luk.ˈpɛn	NULL	adj.	голый, неодетый	Frommer (15. Aug 2011) http://naviteri.org/2011/08/new-vocabulary-clothing/comment-page-1/#comment-988	2	luk-pen	NULL
 7908	sv	lukpen	luk.ˈpɛn	NULL	adj.	utan kläder, naken	Frommer (15. Aug 2011) http://naviteri.org/2011/08/new-vocabulary-clothing/comment-page-1/#comment-988	2	luk-pen	NULL
-7912	de	fmawnta	fmawnta	NULL	n.	Neuigkeit, die XYZ (indirekte FrageKonstruktion)	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
-7912	en	fmawnta	fmawnta	NULL	n.	that news	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
-7912	et	fmawnta	fmawnta	NULL	n.	uudist, mida)	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
-7912	fr	fmawnta	fmawnta	NULL	n.	que | [sbd. au discours rapporté des v.s] stawm [ou] peng | [forme abrégée de:] fmawnit a	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
-7912	hu	fmawnta	fmawnta	NULL	n.	azok a hírek	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
-7912	nl	fmawnta	fmawnta	NULL	n.	dat nieuws	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
-7912	pl	fmawnta	fmawnta	NULL	n.	wiadomość, która	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
-7912	ru	fmawnta	fmawnta	NULL	n.	эти новости	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
-7912	sv	fmawnta	fmawnta	NULL	n.	nyheter som	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawnta	NULL
+7912	de	fmawnta	ˈfmawn.ta	NULL	n.	Neuigkeit, die XYZ (indirekte FrageKonstruktion)	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
+7912	en	fmawnta	ˈfmawn.ta	NULL	n.	that news	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
+7912	et	fmawnta	ˈfmawn.ta	NULL	n.	uudist, mida)	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
+7912	fr	fmawnta	ˈfmawn.ta	NULL	n.	que | [sbd. au discours rapporté des v.s] stawm [ou] peng | [forme abrégée de:] fmawnit a	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
+7912	hu	fmawnta	ˈfmawn.ta	NULL	n.	azok a hírek	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
+7912	nl	fmawnta	ˈfmawn.ta	NULL	n.	dat nieuws	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
+7912	pl	fmawnta	ˈfmawn.ta	NULL	n.	wiadomość, która	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
+7912	ru	fmawnta	ˈfmawn.ta	NULL	n.	эти новости	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
+7912	sv	fmawnta	ˈfmawn.ta	NULL	n.	nyheter som	(31 Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	fmawn-ta	NULL
 7916	de	vin	v·in	v<0><1><2>in	vtr.	anfragen, erbitten, bitten	Frommer (31. Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	vin	v..in
 7916	en	vin	v·in	v<0><1><2>in	vtr.	request, ask for	Frommer (31. Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	vin	v..in
 7916	et	vin	v·in	v<0><1><2>in	vtr.	nõudma, küsima, paluma	Frommer (31. Aug 2011) http://naviteri.org/2011/08/reported-speech-reported-questions/	1	vin	v..in
