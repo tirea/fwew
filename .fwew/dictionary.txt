@@ -20365,6 +20365,7 @@
 13187	de	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	Sprachlaut, Phonem	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 13187	en	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	speech sound; phoneme	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 13187	fr	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	phonème	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
+13187	nl	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	klank, foneem	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
