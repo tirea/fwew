@@ -5219,15 +5219,15 @@
 3676	pl	'em	ʔ·ɛm	'<0><1><2>em	vtr.	gotować	Taronyu's Dictionary 9.5 < Frommer	1	'em	'..em
 3676	ru	'em	ʔ·ɛm	'<0><1><2>em	vtr.	готовить еду	Taronyu's Dictionary 9.5 < Frommer	1	'em	'..em
 3676	sv	'em	ʔ·ɛm	'<0><1><2>em	vtr.	laga (mat)	Taronyu's Dictionary 9.5 < Frommer	1	'em	'..em
-3680	de	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	antworten, beantworten, erwidern	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
-3680	en	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	answer, respond	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
-3680	et	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	vastama	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
-3680	fr	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	répondre	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
-3680	hu	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	felel, válaszol	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
-3680	nl	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	antwoorden	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
-3680	pl	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	odpowiadać	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
-3680	ru	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	отвечать, отзываться	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
-3680	sv	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	v.	svara, ge respons	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	de	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	antworten, beantworten, erwidern	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	en	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	answer, respond, respond to	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	et	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	vastama	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	fr	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	répondre	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	hu	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	felel, válaszol	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	nl	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	antwoorden	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	pl	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	odpowiadać	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	ru	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	отвечать, отзываться	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
+3680	sv	'eyng	ʔ·ɛjŋ	'<0><1><2>eyng	vin.	svara, ge respons	http://forum.learnnavi.org/intermediate/language-update-a-closer-look-at-dr-frommers-letter/ (20 Jan 2010)	1	'eyng	'..eyng
 3684	de	'i'a	ˈʔ·iʔ.·a	'<0><1>i'<2>a	vin.	enden, beenden, abschließen	http://forum.learnnavi.org/language-updates/karyuru-frakrr-irayo-si-ko!/ (06 Apr 2010)	1	'i'-a	'.i'.a
 3684	en	'i'a	ˈʔ·iʔ.·a	'<0><1>i'<2>a	vin.	end, conclude	http://forum.learnnavi.org/language-updates/karyuru-frakrr-irayo-si-ko!/ (06 Apr 2010)	1	'i'-a	'.i'.a
 3684	et	'i'a	ˈʔ·iʔ.·a	'<0><1>i'<2>a	vin.	lõpetama, lõppema	http://forum.learnnavi.org/language-updates/karyuru-frakrr-irayo-si-ko!/ (06 Apr 2010)	1	'i'-a	'.i'.a
@@ -20366,6 +20366,17 @@
 13187	en	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	speech sound; phoneme	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 13187	fr	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	phonème	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
 13187	nl	plltxepam	pḷ.ˈtɛ'.pam	NULL	n.	klank, foneem	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/#comment-31171 (20 May 2020)	2	pll-txe-pam	NULL
+13188	en	koren ayll	ko.ɾɛn a.ˈjḷ	NULL	n.	law, societal rule	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	4	ko-ren a-yll	NULL
+13189	en	leykek	lɛj.ˈkɛk̚	leyk<0><1><2>ek	vtr.	enforce	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	2	ley-kek	leyk..ek
+13190	en	horenleykekyu	ho.ˌrɛn.lɛj.ˈkɛk.ju	NULL	n.	law enforcer, police officer	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	4	ho-ren-ley-kek-yu	NULL
+13191	en	leykekyu	lɛj.ˈkɛk.ju	NULL	n.	law enforcer, police officer (colloquial, short for horenleykekyu)	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	2	ley-kek-yu	NULL
+13192	en	zevakx	ˈzɛ.vak'	NULL	adj.	cruel (ofp)	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	1	ze-vakx	NULL
+13193	en	tìzevakx	tɪ.ˈzɛ.vak'	NULL	n.	cruelty	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	2	tì-ze-vakx	NULL
+13194	en	tìzevakxnga'	tɪ.ˈzɛ.vak'.ŋaʔ	NULL	adj.	cruel (nfp)	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	2	tì-ze-vakx-nga'	NULL
+13195	en	nìzevakx	nɪ.ˈzɛ.vak'	NULL	adv.	cruelly	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	2	nì-ze-vakx	NULL
+13196	en	fmong	fmoŋ	fm<0><1><2>ong	vtr.	steal, rob	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	1	fmong	fm..ong
+13197	en	tìfmong	tɪ.ˈfmoŋ	NULL	n.	theft	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	2	tì-fmong	NULL
+13198	en	fmongyu	ˈfmoŋ.ju	NULL	n.	thief	http://naviteri.org/2020/06/mi-tanlokxe-oeya-srr-afpxamo-terrible-days-in-my-country/ (02 JUN 2020)	1	fmong-yu	NULL
 -2	en	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	de	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
 -2	nl	yitx	jit'	y·itx	meme.	YEET	LN Discord	1	yitx	y..itx
