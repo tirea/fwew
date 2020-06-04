@@ -20316,7 +20316,7 @@
 13174	nl	äzanluke	æ.ˈzan.lu.kɛ	NULL	adv.	vrijwillig, zonder dwang	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-lu-ke	NULL
 13175	de	äzantu	æ.ˈzan.tu	NULL	n.	Freiwilliger, Ehrenamtlicher	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
 13175	en	äzantu	æ.ˈzan.tu	NULL	n.	domineering person; one who is bossy, authoritarian, or dictatorial	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
-13175	fr	äzantu	æ.ˈzan.tu	NULL	n.	personne domination; personne autoritaire, despotique, tyrannique, dictatoriale	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
+13175	fr	äzantu	æ.ˈzan.tu	NULL	n.	personne dominante; personne autoritaire, despotique, tyrannique, dictatoriale	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
 13175	nl	äzantu	æ.ˈzan.tu	NULL	n.	bazig persoon, iemand die authoritair of dictatoriaal is	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	ä-zan-tu	NULL
 13176	de	nìsok	nɪ.ˈsok̚	NULL	adv.	kürzlich	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	nì-sok	NULL
 13176	en	nìsok	nɪ.ˈsok̚	NULL	adv.	recently	http://naviteri.org/2020/05/aawa-liu-amip-si-vurway-alor-a-few-new-words-and-a-beautiful-poem/	2	nì-sok	NULL
